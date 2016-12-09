@@ -162,12 +162,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481288414891">
         <mark key="'" line="221" column="10" />
       </file>
-      <file name="$USER_HOME$/AMRParser/notes" timestamp="1481292138155">
-        <mark key="'" line="4" column="0" />
-        <mark key="[" line="67" column="19" />
-        <mark key="]" line="67" column="19" />
-        <mark key="^" line="67" column="19" />
-        <mark key="." line="67" column="19" />
+      <file name="$USER_HOME$/AMRParser/notes" timestamp="1481295222592">
+        <mark key="'" line="34" column="0" />
+        <mark key="[" line="73" column="8" />
+        <mark key="]" line="73" column="89" />
+        <mark key="^" line="73" column="89" />
+        <mark key="." line="73" column="89" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1478005294112">
         <mark key="'" line="849" column="0" />
@@ -181,6 +181,9 @@
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/util/concurrent/MulticoreWrapper.java" timestamp="1481206496007">
         <mark key="'" line="129" column="12" />
+      </file>
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1481294814642">
+        <mark key="'" line="15" column="44" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/smatch_2.0.2/smatch.py" timestamp="1478007501087">
         <mark key="'" line="806" column="38" />
@@ -203,8 +206,8 @@
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/seq2seq_sa.bak.py" timestamp="1478015508358">
         <mark key="'" line="76" column="10" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481289945188">
-        <mark key="'" line="353" column="25" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481294994756">
+        <mark key="'" line="662" column="15" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/translate.py" timestamp="1478029028883">
         <mark key="'" line="361" column="15" />
@@ -258,19 +261,33 @@
       <jump line="283" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="654" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="270" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
-      <jump line="662" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
-      <jump line="353" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="93" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="353" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="86" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="357" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="34" column="0" filename="$USER_HOME$/AMRParser/notes" />
+      <jump line="41" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
+      <jump line="25" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" />
+      <jump line="25" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
+      <jump line="19" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
+      <jump line="32" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
+      <jump line="34" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
+      <jump line="18" column="60" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
+      <jump line="15" column="44" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
+      <jump line="34" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ParsingSystem.java" />
+      <jump line="667" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="177" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="662" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>Conll</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>Conll</text>
+        <text>set</text>
       </register>
       <register name="/" type="4">
-        <text>Util</text>
+        <text>labels</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIGxvYWRDb25sbEZpbGUoU3RyaW5nIGluRmlsZSwgTGlzdDxDb3JlTWFwPiBzZW50cywgTGlzdDxEZXBlbmRlbmN5VHJlZT4gdHJlZXMsIGJvb2xlYW4gdW5sYWJlbGVkLCBib29sZWFuIGNQT1MpCiAgewogICAgQ29yZUxhYmVsVG9rZW5GYWN0b3J5IHRmID0gbmV3IENvcmVMYWJlbFRva2VuRmFjdG9yeShmYWxzZSk7CgogICAgQnVmZmVyZWRSZWFkZXIgcmVhZGVyID0gbnVsbDsKICAgIHRyeSB7CiAgICAgIHJlYWRlciA9IElPVXRpbHMucmVhZGVyRnJvbVN0cmluZyhpbkZpbGUpOwoKICAgICAgQ29yZU1hcCBzZW50ZW5jZSA9IG5ldyBDb3JlTGFiZWwoKTsKICAgICAgTGlzdDxDb3JlTGFiZWw+IHNlbnRlbmNlVG9rZW5zID0gbmV3IEFycmF5TGlzdDw+KCk7CgogICAgICBEZXBlbmRlbmN5VHJlZSB0cmVlID0gbmV3IERlcGVuZGVuY3lUcmVlKCk7CgogICAgICBmb3IgKFN0cmluZyBsaW5lIDogSU9VdGlscy5nZXRMaW5lSXRlcmFibGUocmVhZGVyLCBmYWxzZSkpIHsKICAgICAgICBTdHJpbmdbXSBzcGxpdHMgPSBsaW5lLnNwbGl0KCJcdCIpOwogICAgICAgIGlmIChzcGxpdHMubGVuZ3RoIDwgMTApIHsKICAgICAgICAgIHRyZWVzLmFkZCh0cmVlKTsKICAgICAgICAgIHNlbnRlbmNlLnNldChDb3JlQW5ub3RhdGlvbnMuVG9rZW5zQW5ub3RhdGlvbi5jbGFzcywgc2VudGVuY2VUb2tlbnMpOwogICAgICAgICAgc2VudHMuYWRkKHNlbnRlbmNlKTsKCiAgICAgICAgICB0cmVlID0gbmV3IERlcGVuZGVuY3lUcmVlKCk7CiAgICAgICAgICBzZW50ZW5jZSA9IG5ldyBDb3JlTGFiZWwoKTsKICAgICAgICAgIHNlbnRlbmNlVG9rZW5zID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIFN0cmluZyB3b3JkID0gc3BsaXRzWzFdLAogICAgICAgICAgICAgICAgICBwb3MgPSBjUE9TID8gc3BsaXRzWzNdIDogc3BsaXRzWzRdLAogICAgICAgICAgICAgICAgICBkZXBUeXBlID0gc3BsaXRzWzddOwogICAgICAgICAgaW50IGhlYWQgPSBJbnRlZ2VyLnBhcnNlSW50KHNwbGl0c1s2XSk7CgogICAgICAgICAgQ29yZUxhYmVsIHRva2VuID0gdGYubWFrZVRva2VuKHdvcmQsIDAsIDApOwogICAgICAgICAgdG9rZW4uc2V0VGFnKHBvcyk7CiAgICAgICAgICB0b2tlbi5zZXQoQ29yZUFubm90YXRpb25zLkNvTkxMRGVwUGFyZW50SW5kZXhBbm5vdGF0aW9uLmNsYXNzLCBoZWFkKTsKICAgICAgICAgIHRva2VuLnNldChDb3JlQW5ub3RhdGlvbnMuQ29OTExEZXBUeXBlQW5ub3RhdGlvbi5jbGFzcywgZGVwVHlwZSk7CiAgICAgICAgICBzZW50ZW5jZVRva2Vucy5hZGQodG9rZW4pOwoKICAgICAgICAgIGlmICghdW5sYWJlbGVkKQogICAgICAgICAgICB0cmVlLmFkZChoZWFkLCBkZXBUeXBlKTsKICAgICAgICAgIGVsc2UKICAgICAgICAgICAgdHJlZS5hZGQoaGVhZCwgQ29uZmlnLlVOS05PV04pOwogICAgICAgIH0KICAgICAgfSAgICAKICAgIH0gY2F0Y2ggKElPRXhjZXB0aW9uIGUpIHsKICAgICAgdGhyb3cgbmV3IFJ1bnRpbWVJT0V4Y2VwdGlvbihlKTsKICAgIH0gZmluYWxseSB7CiAgICAgIElPVXRpbHMuY2xvc2VJZ25vcmluZ0V4Y2VwdGlvbnMocmVhZGVyKTsKICAgIH0KICB9</text>
@@ -281,7 +298,10 @@
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="4">
         <text>def combine_nodes(i, j, node1, node2):
         curr_width = max(node1.width, node2.width)
         new_frag, b_size = general_combine_fragments(node1.frag, node2.frag)
@@ -294,40 +314,37 @@
         new_node.add_incoming(edge)
         return new_node</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICBuZXdfcnVsZS5saHMgPSBpbnRlcm4oJ1tBJWQtJXNdJyAlIChuX2V4dCwgc3VmZml4KSkK</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">aWYgbmV3X25vZGUud2lkdGggPCBjaGFydFtpXVtqXS53aWR0aDoKICAgICAgICAgICAgICAgICAgICAgICAgY2hhcnRbaV1bal0ud2lkdGggPSBuZXdfbm9kZS53aWR0aAogICAgICAgICAgICAgICAgICAgICAgICBjaGFydFtpXVtqXSA9</text>
       </register>
-      <register name="6" type="8">
+      <register name="7" type="8">
         <text>#
 #
 #
 #
 #</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIGhnID0gTm9uZQo=</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGVsc2U6Cg==</text>
       </register>
-      <register name="9" type="8">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
-      </register>
       <register name=":" type="4">
-        <text>w!</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>Util</last-search>
+      <last-search>labels</last-search>
       <last-offset />
-      <last-pattern>Util</last-pattern>
+      <last-pattern>labels</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
@@ -351,6 +368,7 @@
         <entry>tf</entry>
         <entry>train(</entry>
         <entry>Util</entry>
+        <entry>labels</entry>
       </history-search>
       <history-cmd>
         <entry>w:w</entry>
@@ -371,8 +389,8 @@
         <entry>q</entry>
         <entry>1</entry>
         <entry>vs notes</entry>
-        <entry>w</entry>
         <entry>w!</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
