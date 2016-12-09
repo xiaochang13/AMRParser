@@ -88,12 +88,6 @@
         <mark key="^" line="1463" column="20" />
         <mark key="." line="1463" column="20" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1480512805856">
-        <mark key="[" line="41" column="16" />
-        <mark key="]" line="41" column="16" />
-        <mark key="^" line="41" column="16" />
-        <mark key="." line="41" column="16" />
-      </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481283180076">
         <mark key="'" line="653" column="9" />
         <mark key="[" line="781" column="4" />
@@ -165,8 +159,15 @@
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/notes" timestamp="1481285981174">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481288414891">
+        <mark key="'" line="221" column="10" />
+      </file>
+      <file name="$USER_HOME$/AMRParser/notes" timestamp="1481288607529">
         <mark key="'" line="4" column="0" />
+        <mark key="[" line="63" column="59" />
+        <mark key="]" line="64" column="33" />
+        <mark key="^" line="64" column="33" />
+        <mark key="." line="64" column="33" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1478005294112">
         <mark key="'" line="849" column="0" />
@@ -211,11 +212,17 @@
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/ling/CoreLabel.java" timestamp="1481120416499">
         <mark key="'" line="307" column="4" />
       </file>
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/CoreLabel.java" timestamp="1481288185549">
+        <mark key="'" line="346" column="36" />
+      </file>
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/__future__.py" timestamp="1478012097462">
         <mark key="'" line="1" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr.py" timestamp="1478188826947">
         <mark key="'" line="3" column="0" />
+      </file>
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/CoreAnnotations.java" timestamp="1481288218667">
+        <mark key="'" line="77" column="65" />
       </file>
     </filemarks>
     <jumps>
@@ -237,6 +244,15 @@
       <jump line="1238" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="4" column="0" filename="$USER_HOME$/AMRParser/notes" />
       <jump line="653" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="218" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="77" column="65" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/CoreAnnotations.java" />
+      <jump line="346" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/CoreLabel.java" />
+      <jump line="481" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/CoreAnnotations.java" />
+      <jump line="219" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="485" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/CoreAnnotations.java" />
+      <jump line="220" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="137" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/util/ArrayCoreMap.java" />
+      <jump line="221" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -345,9 +361,9 @@
         <entry>set noic</entry>
         <entry>close</entry>
         <entry>q</entry>
-        <entry>w!</entry>
         <entry>1</entry>
         <entry>vs notes</entry>
+        <entry>w!</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
