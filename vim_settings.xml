@@ -125,8 +125,8 @@
         <mark key="^" line="61" column="0" />
         <mark key="." line="61" column="0" />
       </file>
-      <file name="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481285354944">
-        <mark key="'" line="653" column="16" />
+      <file name="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481285555663">
+        <mark key="'" line="2" column="1" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/process/CoreLabelTokenFactory.java" timestamp="1481120408495">
         <mark key="'" line="59" column="13" />
@@ -214,7 +214,19 @@
     </filemarks>
     <jumps>
       <jump line="103" column="0" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
-      <jump line="653" column="16" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="740" column="4" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="744" column="11" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="746" column="14" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="747" column="4" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="751" column="11" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="762" column="14" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="754" column="4" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="644" column="14" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="1238" column="13" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="662" column="13" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="328" column="15" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="653" column="9" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="2" column="1" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -224,7 +236,7 @@
         <text>Conll</text>
       </register>
       <register name="/" type="4">
-        <text>train(</text>
+        <text>Util</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIGxvYWRDb25sbEZpbGUoU3RyaW5nIGluRmlsZSwgTGlzdDxDb3JlTWFwPiBzZW50cywgTGlzdDxEZXBlbmRlbmN5VHJlZT4gdHJlZXMsIGJvb2xlYW4gdW5sYWJlbGVkLCBib29sZWFuIGNQT1MpCiAgewogICAgQ29yZUxhYmVsVG9rZW5GYWN0b3J5IHRmID0gbmV3IENvcmVMYWJlbFRva2VuRmFjdG9yeShmYWxzZSk7CgogICAgQnVmZmVyZWRSZWFkZXIgcmVhZGVyID0gbnVsbDsKICAgIHRyeSB7CiAgICAgIHJlYWRlciA9IElPVXRpbHMucmVhZGVyRnJvbVN0cmluZyhpbkZpbGUpOwoKICAgICAgQ29yZU1hcCBzZW50ZW5jZSA9IG5ldyBDb3JlTGFiZWwoKTsKICAgICAgTGlzdDxDb3JlTGFiZWw+IHNlbnRlbmNlVG9rZW5zID0gbmV3IEFycmF5TGlzdDw+KCk7CgogICAgICBEZXBlbmRlbmN5VHJlZSB0cmVlID0gbmV3IERlcGVuZGVuY3lUcmVlKCk7CgogICAgICBmb3IgKFN0cmluZyBsaW5lIDogSU9VdGlscy5nZXRMaW5lSXRlcmFibGUocmVhZGVyLCBmYWxzZSkpIHsKICAgICAgICBTdHJpbmdbXSBzcGxpdHMgPSBsaW5lLnNwbGl0KCJcdCIpOwogICAgICAgIGlmIChzcGxpdHMubGVuZ3RoIDwgMTApIHsKICAgICAgICAgIHRyZWVzLmFkZCh0cmVlKTsKICAgICAgICAgIHNlbnRlbmNlLnNldChDb3JlQW5ub3RhdGlvbnMuVG9rZW5zQW5ub3RhdGlvbi5jbGFzcywgc2VudGVuY2VUb2tlbnMpOwogICAgICAgICAgc2VudHMuYWRkKHNlbnRlbmNlKTsKCiAgICAgICAgICB0cmVlID0gbmV3IERlcGVuZGVuY3lUcmVlKCk7CiAgICAgICAgICBzZW50ZW5jZSA9IG5ldyBDb3JlTGFiZWwoKTsKICAgICAgICAgIHNlbnRlbmNlVG9rZW5zID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIFN0cmluZyB3b3JkID0gc3BsaXRzWzFdLAogICAgICAgICAgICAgICAgICBwb3MgPSBjUE9TID8gc3BsaXRzWzNdIDogc3BsaXRzWzRdLAogICAgICAgICAgICAgICAgICBkZXBUeXBlID0gc3BsaXRzWzddOwogICAgICAgICAgaW50IGhlYWQgPSBJbnRlZ2VyLnBhcnNlSW50KHNwbGl0c1s2XSk7CgogICAgICAgICAgQ29yZUxhYmVsIHRva2VuID0gdGYubWFrZVRva2VuKHdvcmQsIDAsIDApOwogICAgICAgICAgdG9rZW4uc2V0VGFnKHBvcyk7CiAgICAgICAgICB0b2tlbi5zZXQoQ29yZUFubm90YXRpb25zLkNvTkxMRGVwUGFyZW50SW5kZXhBbm5vdGF0aW9uLmNsYXNzLCBoZWFkKTsKICAgICAgICAgIHRva2VuLnNldChDb3JlQW5ub3RhdGlvbnMuQ29OTExEZXBUeXBlQW5ub3RhdGlvbi5jbGFzcywgZGVwVHlwZSk7CiAgICAgICAgICBzZW50ZW5jZVRva2Vucy5hZGQodG9rZW4pOwoKICAgICAgICAgIGlmICghdW5sYWJlbGVkKQogICAgICAgICAgICB0cmVlLmFkZChoZWFkLCBkZXBUeXBlKTsKICAgICAgICAgIGVsc2UKICAgICAgICAgICAgdHJlZS5hZGQoaGVhZCwgQ29uZmlnLlVOS05PV04pOwogICAgICAgIH0KICAgICAgfSAgICAKICAgIH0gY2F0Y2ggKElPRXhjZXB0aW9uIGUpIHsKICAgICAgdGhyb3cgbmV3IFJ1bnRpbWVJT0V4Y2VwdGlvbihlKTsKICAgIH0gZmluYWxseSB7CiAgICAgIElPVXRpbHMuY2xvc2VJZ25vcmluZ0V4Y2VwdGlvbnMocmVhZGVyKTsKICAgIH0KICB9</text>
@@ -271,13 +283,13 @@
         <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>1</text>
       </register>
     </registers>
     <search>
-      <last-search>train(</last-search>
+      <last-search>Util</last-search>
       <last-offset />
-      <last-pattern>train(</last-pattern>
+      <last-pattern>Util</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -316,6 +328,7 @@
         <entry>process</entry>
         <entry>tf</entry>
         <entry>train(</entry>
+        <entry>Util</entry>
       </history-search>
       <history-cmd>
         <entry>w:w</entry>
@@ -335,9 +348,9 @@
         <entry>close</entry>
         <entry>vs notes</entry>
         <entry>q</entry>
-        <entry>1</entry>
         <entry>w!</entry>
         <entry>w</entry>
+        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
