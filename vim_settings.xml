@@ -162,12 +162,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481288414891">
         <mark key="'" line="221" column="10" />
       </file>
-      <file name="$USER_HOME$/AMRParser/notes" timestamp="1481396938187">
-        <mark key="'" line="90" column="20" />
-        <mark key="[" line="105" column="41" />
-        <mark key="]" line="105" column="49" />
-        <mark key="^" line="105" column="49" />
-        <mark key="." line="105" column="49" />
+      <file name="$USER_HOME$/AMRParser/notes" timestamp="1481398797049">
+        <mark key="'" line="92" column="2" />
+        <mark key="[" line="107" column="9" />
+        <mark key="]" line="107" column="29" />
+        <mark key="^" line="107" column="29" />
+        <mark key="." line="107" column="29" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1478005294112">
         <mark key="'" line="849" column="0" />
@@ -221,8 +221,8 @@
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/__future__.py" timestamp="1478012097462">
         <mark key="'" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1481394315545">
-        <mark key="'" line="515" column="4" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1481398900479">
+        <mark key="'" line="5" column="50" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr.py" timestamp="1478188826947">
         <mark key="'" line="3" column="0" />
@@ -321,6 +321,15 @@
       <jump line="514" column="42" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="470" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="515" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="92" column="2" filename="$USER_HOME$/AMRParser/notes" />
+      <jump line="664" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="534" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="344" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="469" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="209" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="400" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="526" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="5" column="50" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -330,7 +339,7 @@
         <text>possible_</text>
       </register>
       <register name="/" type="4">
-        <text>precomp</text>
+        <text>process</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIGxvYWRDb25sbEZpbGUoU3RyaW5nIGluRmlsZSwgTGlzdDxDb3JlTWFwPiBzZW50cywgTGlzdDxEZXBlbmRlbmN5VHJlZT4gdHJlZXMsIGJvb2xlYW4gdW5sYWJlbGVkLCBib29sZWFuIGNQT1MpCiAgewogICAgQ29yZUxhYmVsVG9rZW5GYWN0b3J5IHRmID0gbmV3IENvcmVMYWJlbFRva2VuRmFjdG9yeShmYWxzZSk7CgogICAgQnVmZmVyZWRSZWFkZXIgcmVhZGVyID0gbnVsbDsKICAgIHRyeSB7CiAgICAgIHJlYWRlciA9IElPVXRpbHMucmVhZGVyRnJvbVN0cmluZyhpbkZpbGUpOwoKICAgICAgQ29yZU1hcCBzZW50ZW5jZSA9IG5ldyBDb3JlTGFiZWwoKTsKICAgICAgTGlzdDxDb3JlTGFiZWw+IHNlbnRlbmNlVG9rZW5zID0gbmV3IEFycmF5TGlzdDw+KCk7CgogICAgICBEZXBlbmRlbmN5VHJlZSB0cmVlID0gbmV3IERlcGVuZGVuY3lUcmVlKCk7CgogICAgICBmb3IgKFN0cmluZyBsaW5lIDogSU9VdGlscy5nZXRMaW5lSXRlcmFibGUocmVhZGVyLCBmYWxzZSkpIHsKICAgICAgICBTdHJpbmdbXSBzcGxpdHMgPSBsaW5lLnNwbGl0KCJcdCIpOwogICAgICAgIGlmIChzcGxpdHMubGVuZ3RoIDwgMTApIHsKICAgICAgICAgIHRyZWVzLmFkZCh0cmVlKTsKICAgICAgICAgIHNlbnRlbmNlLnNldChDb3JlQW5ub3RhdGlvbnMuVG9rZW5zQW5ub3RhdGlvbi5jbGFzcywgc2VudGVuY2VUb2tlbnMpOwogICAgICAgICAgc2VudHMuYWRkKHNlbnRlbmNlKTsKCiAgICAgICAgICB0cmVlID0gbmV3IERlcGVuZGVuY3lUcmVlKCk7CiAgICAgICAgICBzZW50ZW5jZSA9IG5ldyBDb3JlTGFiZWwoKTsKICAgICAgICAgIHNlbnRlbmNlVG9rZW5zID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIFN0cmluZyB3b3JkID0gc3BsaXRzWzFdLAogICAgICAgICAgICAgICAgICBwb3MgPSBjUE9TID8gc3BsaXRzWzNdIDogc3BsaXRzWzRdLAogICAgICAgICAgICAgICAgICBkZXBUeXBlID0gc3BsaXRzWzddOwogICAgICAgICAgaW50IGhlYWQgPSBJbnRlZ2VyLnBhcnNlSW50KHNwbGl0c1s2XSk7CgogICAgICAgICAgQ29yZUxhYmVsIHRva2VuID0gdGYubWFrZVRva2VuKHdvcmQsIDAsIDApOwogICAgICAgICAgdG9rZW4uc2V0VGFnKHBvcyk7CiAgICAgICAgICB0b2tlbi5zZXQoQ29yZUFubm90YXRpb25zLkNvTkxMRGVwUGFyZW50SW5kZXhBbm5vdGF0aW9uLmNsYXNzLCBoZWFkKTsKICAgICAgICAgIHRva2VuLnNldChDb3JlQW5ub3RhdGlvbnMuQ29OTExEZXBUeXBlQW5ub3RhdGlvbi5jbGFzcywgZGVwVHlwZSk7CiAgICAgICAgICBzZW50ZW5jZVRva2Vucy5hZGQodG9rZW4pOwoKICAgICAgICAgIGlmICghdW5sYWJlbGVkKQogICAgICAgICAgICB0cmVlLmFkZChoZWFkLCBkZXBUeXBlKTsKICAgICAgICAgIGVsc2UKICAgICAgICAgICAgdHJlZS5hZGQoaGVhZCwgQ29uZmlnLlVOS05PV04pOwogICAgICAgIH0KICAgICAgfSAgICAKICAgIH0gY2F0Y2ggKElPRXhjZXB0aW9uIGUpIHsKICAgICAgdGhyb3cgbmV3IFJ1bnRpbWVJT0V4Y2VwdGlvbihlKTsKICAgIH0gZmluYWxseSB7CiAgICAgIElPVXRpbHMuY2xvc2VJZ25vcmluZ0V4Y2VwdGlvbnMocmVhZGVyKTsKICAgIH0KICB9</text>
@@ -381,9 +390,9 @@
       </register>
     </registers>
     <search>
-      <last-search>precomp</last-search>
+      <last-search>process</last-search>
       <last-offset />
-      <last-pattern>precomp</last-pattern>
+      <last-pattern>process</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -407,13 +416,13 @@
         <entry>processorList</entry>
         <entry>Process</entry>
         <entry>b1</entry>
-        <entry>process</entry>
         <entry>tf</entry>
         <entry>train(</entry>
         <entry>Util</entry>
         <entry>labels</entry>
         <entry>precom</entry>
         <entry>precomp</entry>
+        <entry>process</entry>
       </history-search>
       <history-cmd>
         <entry>w:w</entry>
