@@ -162,12 +162,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481288414891">
         <mark key="'" line="221" column="10" />
       </file>
-      <file name="$USER_HOME$/AMRParser/notes" timestamp="1481401420470">
+      <file name="$USER_HOME$/AMRParser/notes" timestamp="1481402305835">
         <mark key="'" line="92" column="2" />
-        <mark key="[" line="109" column="0" />
-        <mark key="]" line="109" column="34" />
-        <mark key="^" line="109" column="34" />
-        <mark key="." line="109" column="34" />
+        <mark key="[" line="111" column="87" />
+        <mark key="]" line="111" column="89" />
+        <mark key="^" line="111" column="89" />
+        <mark key="." line="111" column="89" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1478005294112">
         <mark key="'" line="849" column="0" />
@@ -221,8 +221,8 @@
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/__future__.py" timestamp="1478012097462">
         <mark key="'" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1481401387625">
-        <mark key="'" line="301" column="47" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1481402224758">
+        <mark key="'" line="199" column="33" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr.py" timestamp="1478188826947">
         <mark key="'" line="3" column="0" />
@@ -232,8 +232,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="740" column="4" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
-      <jump line="744" column="11" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="746" column="14" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="747" column="4" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="751" column="11" filename="$USER_HOME$/NeuralAMR/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
@@ -332,6 +330,8 @@
       <jump line="193" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="241" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="301" column="47" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="199" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="87" column="14" filename="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/util/stream/IntStream.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
