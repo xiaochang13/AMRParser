@@ -162,12 +162,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481288414891">
         <mark key="'" line="221" column="10" />
       </file>
-      <file name="$USER_HOME$/AMRParser/notes" timestamp="1481386656352">
+      <file name="$USER_HOME$/AMRParser/notes" timestamp="1481392200759">
         <mark key="'" line="38" column="0" />
-        <mark key="[" line="97" column="102" />
-        <mark key="]" line="97" column="102" />
-        <mark key="^" line="97" column="102" />
-        <mark key="." line="97" column="102" />
+        <mark key="[" line="98" column="18" />
+        <mark key="]" line="98" column="20" />
+        <mark key="^" line="98" column="20" />
+        <mark key="." line="98" column="20" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1478005294112">
         <mark key="'" line="849" column="0" />
@@ -206,8 +206,8 @@
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/seq2seq_sa.bak.py" timestamp="1478015508358">
         <mark key="'" line="76" column="10" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481385187282">
-        <mark key="'" line="140" column="20" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481392251140">
+        <mark key="'" line="895" column="23" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/translate.py" timestamp="1478029028883">
         <mark key="'" line="361" column="15" />
@@ -220,6 +220,9 @@
       </file>
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/__future__.py" timestamp="1478012097462">
         <mark key="'" line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1481392345980">
+        <mark key="'" line="135" column="4" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr.py" timestamp="1478188826947">
         <mark key="'" line="3" column="0" />
@@ -305,13 +308,16 @@
       <jump line="183" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="140" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="211" column="6" filename="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/util/Map.java" />
+      <jump line="895" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="135" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="598" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>number of tokens</text>
+        <text>e</text>
       </register>
       <register name="-" type="4">
-        <text>number of tokens</text>
+        <text>e</text>
       </register>
       <register name="/" type="4">
         <text>labels</text>
