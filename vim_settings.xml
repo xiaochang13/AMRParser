@@ -162,12 +162,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481288414891">
         <mark key="'" line="221" column="10" />
       </file>
-      <file name="$USER_HOME$/AMRParser/notes" timestamp="1481381750319">
+      <file name="$USER_HOME$/AMRParser/notes" timestamp="1481385145111">
         <mark key="'" line="38" column="0" />
-        <mark key="[" line="91" column="50" />
-        <mark key="]" line="91" column="50" />
-        <mark key="^" line="91" column="50" />
-        <mark key="." line="91" column="50" />
+        <mark key="[" line="96" column="77" />
+        <mark key="]" line="96" column="115" />
+        <mark key="^" line="96" column="115" />
+        <mark key="." line="96" column="115" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1478005294112">
         <mark key="'" line="849" column="0" />
@@ -182,8 +182,8 @@
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/util/concurrent/MulticoreWrapper.java" timestamp="1481206496007">
         <mark key="'" line="129" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1481294814642">
-        <mark key="'" line="15" column="44" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1481384096170">
+        <mark key="'" line="48" column="14" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/smatch_2.0.2/smatch.py" timestamp="1478007501087">
         <mark key="'" line="806" column="38" />
@@ -206,8 +206,8 @@
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/seq2seq_sa.bak.py" timestamp="1478015508358">
         <mark key="'" line="76" column="10" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481376932080">
-        <mark key="'" line="257" column="23" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481385187282">
+        <mark key="'" line="140" column="20" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/translate.py" timestamp="1478029028883">
         <mark key="'" line="361" column="15" />
@@ -266,7 +266,6 @@
       <jump line="86" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="357" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="34" column="0" filename="$USER_HOME$/AMRParser/notes" />
-      <jump line="41" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
       <jump line="25" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" />
       <jump line="25" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
       <jump line="19" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
@@ -293,6 +292,19 @@
       <jump line="25" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" />
       <jump line="257" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="27" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" />
+      <jump line="273" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="41" column="49" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
+      <jump line="43" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
+      <jump line="30" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/util/TypesafeMap.java" />
+      <jump line="39" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
+      <jump line="48" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
+      <jump line="37" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
+      <jump line="277" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="170" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="154" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" />
+      <jump line="183" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="140" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="211" column="6" filename="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/util/Map.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
