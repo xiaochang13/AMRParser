@@ -41,6 +41,9 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
+        <mark key="'" line="980" column="26" />
+      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1481486075495">
         <mark key="'" line="663" column="11" />
         <mark key="[" line="735" column="4" />
@@ -64,6 +67,9 @@
         <mark key="]" line="55" column="70" />
         <mark key="^" line="55" column="70" />
         <mark key="." line="55" column="70" />
+      </file>
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/trees/GrammaticalStructure.java" timestamp="1481541288465">
+        <mark key="'" line="437" column="0" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1481132997758">
         <mark key="'" line="33" column="24" />
@@ -115,8 +121,8 @@
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/seq2seq_sa.bak.py" timestamp="1478015508358">
         <mark key="'" line="76" column="10" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481474935661">
-        <mark key="'" line="1172" column="18" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481541249765">
+        <mark key="'" line="1119" column="6" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/translate.py" timestamp="1478029028883">
         <mark key="'" line="361" column="15" />
@@ -252,15 +258,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="41" column="49" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
-      <jump line="43" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
-      <jump line="30" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/util/TypesafeMap.java" />
-      <jump line="39" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
-      <jump line="48" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
-      <jump line="37" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
-      <jump line="277" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
-      <jump line="170" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
-      <jump line="154" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" />
       <jump line="183" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="140" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="211" column="6" filename="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/util/Map.java" />
@@ -315,7 +312,6 @@
       <jump line="717" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="627" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="758" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
-      <jump line="1277" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="46" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1097" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1271" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -352,6 +348,16 @@
       <jump line="150" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="23" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
       <jump line="170" column="59" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="88" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="714" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="1109" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="980" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" />
+      <jump line="137" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/TestSentence.java" />
+      <jump line="1277" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="1011" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="1119" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="98" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/trees/GrammaticalStructure.java" />
+      <jump line="437" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/trees/GrammaticalStructure.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -361,7 +367,7 @@
         <text>//</text>
       </register>
       <register name="/" type="4">
-        <text>setPOS</text>
+        <text>conll</text>
       </register>
       <register name="0" type="4">
         <text>loadAMRFile</text>
@@ -408,9 +414,9 @@
       </register>
     </registers>
     <search>
-      <last-search>setPOS</last-search>
+      <last-search>conll</last-search>
       <last-offset />
-      <last-pattern>setPOS</last-pattern>
+      <last-pattern>conll</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -449,6 +455,8 @@
         <entry>trees</entry>
         <entry>tree</entry>
         <entry>setPOS</entry>
+        <entry>dev</entry>
+        <entry>conll</entry>
       </history-search>
       <history-cmd>
         <entry>w:w</entry>
