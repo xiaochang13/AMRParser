@@ -44,7 +44,7 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1481486075495">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1481715934297">
         <mark key="'" line="663" column="11" />
         <mark key="[" line="735" column="4" />
         <mark key="]" line="686" column="4" />
@@ -225,9 +225,9 @@
         <mark key="." line="155" column="25" />
         <mark key="^" line="155" column="25" />
       </file>
-      <file name="$USER_HOME$/AMRParser/notes" timestamp="1481420372998">
-        <mark key="'" line="103" column="0" />
-        <mark key="[" line="127" column="61" />
+      <file name="$USER_HOME$/AMRParser/notes" timestamp="1481715987644">
+        <mark key="'" line="6" column="0" />
+        <mark key="[" line="130" column="0" />
         <mark key="]" line="129" column="39" />
         <mark key="^" line="129" column="39" />
         <mark key="." line="129" column="39" />
@@ -257,7 +257,10 @@
         <mark key="'" line="77" column="65" />
       </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="67" column="0" filename="$USER_HOME$/AMRParser/notes" />
+      <jump line="6" column="0" filename="$USER_HOME$/AMRParser/notes" />
+    </jumps>
     <registers>
       <register name="&quot;" type="4">
         <text>//</text>
@@ -309,7 +312,7 @@
         <text encoding="base64">aWYgbmV3X25vZGUud2lkdGggPCBjaGFydFtpXVtqXS53aWR0aDoKICAgICAgICAgICAgICAgICAgICAgICAgY2hhcnRbaV1bal0ud2lkdGggPSBuZXdfbm9kZS53aWR0aAogICAgICAgICAgICAgICAgICAgICAgICBjaGFydFtpXVtqXSA9</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>1</text>
       </register>
     </registers>
     <search>
@@ -319,23 +322,10 @@
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>rootLabel</entry>
-        <entry>initial</entry>
-        <entry>getOra</entry>
-        <entry>apply</entry>
-        <entry>set(</entry>
-        <entry>Cost</entry>
-        <entry>Compute</entry>
-        <entry encoding="base64">XDxwcmVNYXBcPg==</entry>
-        <entry>offset</entry>
-        <entry>preco</entry>
-        <entry>CostFunction</entry>
-        <entry>jobHandler</entry>
-        <entry>processorList</entry>
         <entry>Process</entry>
         <entry>b1</entry>
         <entry>tf</entry>
@@ -358,8 +348,6 @@
         <entry>conll</entry>
       </history-search>
       <history-cmd>
-        <entry>w:w</entry>
-        <entry>486</entry>
         <entry>131</entry>
         <entry>469</entry>
         <entry>vs hrg_sampler.py</entry>
@@ -376,10 +364,10 @@
         <entry>vs notes</entry>
         <entry>q</entry>
         <entry>vs AMRParser.java</entry>
-        <entry>1</entry>
         <entry>vs AMRGraph.java</entry>
         <entry>w!</entry>
         <entry>w</entry>
+        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
