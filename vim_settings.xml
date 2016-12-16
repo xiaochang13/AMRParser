@@ -121,8 +121,8 @@
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/seq2seq_sa.bak.py" timestamp="1478015508358">
         <mark key="'" line="76" column="10" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481718680824">
-        <mark key="'" line="160" column="20" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481908198875">
+        <mark key="'" line="277" column="34" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/translate.py" timestamp="1478029028883">
         <mark key="'" line="361" column="15" />
@@ -242,8 +242,8 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1481384096170">
-        <mark key="'" line="48" column="14" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1481908456918">
+        <mark key="'" line="23" column="13" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1481135040126">
         <mark key="'" line="88" column="8" />
@@ -269,12 +269,15 @@
       <jump line="231" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="670" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="894" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
-      <jump line="277" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="163" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="90" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" />
       <jump line="160" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
       <jump line="167" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" />
       <jump line="163" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" />
+      <jump line="153" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="277" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="187" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="23" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -284,7 +287,7 @@
         <text>//</text>
       </register>
       <register name="/" type="4">
-        <text>void train</text>
+        <text>getOracle</text>
       </register>
       <register name="0" type="4">
         <text>loadAMRFile</text>
@@ -331,9 +334,9 @@
       </register>
     </registers>
     <search>
-      <last-search>void train</last-search>
+      <last-search>getOracle</last-search>
       <last-offset />
-      <last-pattern>void train</last-pattern>
+      <last-pattern>getOracle</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -341,7 +344,6 @@
     </search>
     <history>
       <history-search>
-        <entry>Process</entry>
         <entry>b1</entry>
         <entry>tf</entry>
         <entry>train(</entry>
@@ -362,9 +364,11 @@
         <entry>dev</entry>
         <entry>conll</entry>
         <entry>void train</entry>
+        <entry>next</entry>
+        <entry>example</entry>
+        <entry>getOracle</entry>
       </history-search>
       <history-cmd>
-        <entry>131</entry>
         <entry>469</entry>
         <entry>vs hrg_sampler.py</entry>
         <entry>vs HRGSample.py</entry>
