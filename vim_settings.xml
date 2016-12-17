@@ -44,12 +44,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482004640146">
-        <mark key="'" line="645" column="37" />
-        <mark key="[" line="647" column="46" />
-        <mark key="]" line="647" column="48" />
-        <mark key="." line="647" column="48" />
-        <mark key="^" line="647" column="48" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482006712925">
+        <mark key="'" line="659" column="18" />
+        <mark key="[" line="659" column="26" />
+        <mark key="]" line="659" column="28" />
+        <mark key="." line="659" column="28" />
+        <mark key="^" line="659" column="28" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -224,12 +224,12 @@
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481486381695">
-        <mark key="'" line="170" column="59" />
-        <mark key="[" line="139" column="21" />
-        <mark key="]" line="139" column="31" />
-        <mark key="." line="155" column="25" />
-        <mark key="^" line="155" column="25" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482006842503">
+        <mark key="'" line="173" column="59" />
+        <mark key="[" line="145" column="0" />
+        <mark key="]" line="145" column="0" />
+        <mark key="." line="145" column="0" />
+        <mark key="^" line="144" column="35" />
       </file>
       <file name="$USER_HOME$/AMRParser/notes" timestamp="1481718540996">
         <mark key="'" line="6" column="0" />
@@ -292,13 +292,14 @@
       <jump line="1242" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="645" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2025" column="18" filename="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/lang/String.java" />
+      <jump line="659" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>File</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>File</text>
+        <text>inFile</text>
       </register>
       <register name="/" type="4">
         <text>getOracle</text>
@@ -306,25 +307,25 @@
       <register name="0" type="4">
         <text>loadAMRFile</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="4">
         <text>String trainFile = trainDir.concat(&quot;/conll&quot;);
     String tokFile = trainDir.concat(&quot;/tok&quot;);
     String posFile = trainDir.concat(&quot;/pos&quot;);</text>
       </register>
-      <register name="2" type="2">
+      <register name="3" type="2">
         <text encoding="base64">ICAgIFN0cmluZyBjb25sbAo=</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgIExpc3Q8RGVwZW5kZW5jeVRyZWU+IGRldlRyZWVzID0gbmV3IEFycmF5TGlzdDxEZXBlbmRlbmN5VHJlZT4oKTsK</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgIC8vVXRpbC5wcmludFRyZWVTdGF0cygiVHJhaW4iLCB0cmFpblRyZWVzKTsK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIExpc3Q8RGVwZW5kZW5jeVRyZWU+IHRyYWluVHJlZXMgPSBuZXcgQXJyYXlMaXN0PERlcGVuZGVuY3lUcmVlPigpOwo=</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIExpc3Q8RGVwZW5kZW5jeVRyZWU+IHRyYWluVHJlZXMgPSBuZXcgQXJyYXlMaXN0PERlcGVuZGVuY3lUcmVlPigpOwo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
@@ -332,18 +333,8 @@
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>def combine_nodes(i, j, node1, node2):
-        curr_width = max(node1.width, node2.width)
-        new_frag, b_size = general_combine_fragments(node1.frag, node2.frag)
-        curr_width = max(curr_width, b_size)
-        new_node = FragmentHGNode(FRAGMENT_NT, i, j, new_frag, False, False, False)
-        new_node.width = curr_width
-        edge = FragmentHGEdge()
-        edge.add_tail(node1)
-        edge.add_tail(node2)
-        new_node.add_incoming(edge)
-        return new_node</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -403,6 +394,7 @@
         <entry>vs AMRGraph.java</entry>
         <entry>1</entry>
         <entry>wq</entry>
+        <entry>670</entry>
         <entry>w!</entry>
         <entry>w</entry>
       </history-cmd>
