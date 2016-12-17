@@ -231,12 +231,12 @@
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482013513995">
-        <mark key="'" line="158" column="6" />
-        <mark key="[" line="184" column="10" />
-        <mark key="]" line="164" column="10" />
-        <mark key="." line="164" column="10" />
-        <mark key="^" line="164" column="10" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482015027771">
+        <mark key="'" line="163" column="34" />
+        <mark key="[" line="182" column="14" />
+        <mark key="]" line="184" column="68" />
+        <mark key="." line="184" column="68" />
+        <mark key="^" line="184" column="68" />
       </file>
       <file name="$USER_HOME$/AMRParser/notes" timestamp="1481718540996">
         <mark key="'" line="6" column="0" />
@@ -312,13 +312,15 @@
       <jump line="2070" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/io/IOUtils.java" />
       <jump line="158" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="24" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
+      <jump line="161" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="2866" column="18" filename="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/lang/String.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>Danqi Chen</text>
+        <text encoding="base64">aW50IA==</text>
       </register>
       <register name="-" type="4">
-        <text>Danqi Chen</text>
+        <text encoding="base64">aW50IA==</text>
       </register>
       <register name="/" type="4">
         <text>readLines</text>
@@ -333,10 +335,13 @@
         toks.add(splits);
       }</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">bmV3IEFycmF5TGlzdDw+KCk7CiAgICAgIAoKICAgICAgZm9yIChTdHJpbmcgbGluZSA6IElPVXRpbHMucmVhZExpbmVzKHBvc0ZpbGUpKSB7CiAgICAgICAgbGluZSA9IGxpbmUudHJpbSgpOwogICAgICAgIGlmIChsaW5lLmVxdWFscygiIikpIHsKICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgICAgICBTdHJpbmdbXSBzcGxpdHMgPSBsaW5lLnNwbGl0KCIgIik7CiAgICAgICAgcG9zcy5hZGQoc3BsaXRzKTsKICAgICAgfQ==</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">bmV3IEFycmF5TGlzdDw+KCk7CiAgICAgIAoKICAgICAgZm9yIChTdHJpbmcgbGluZSA6IElPVXRpbHMucmVhZExpbmVzKHBvc0ZpbGUpKSB7CiAgICAgICAgbGluZSA9IGxpbmUudHJpbSgpOwogICAgICAgIGlmIChsaW5lLmVxdWFscygiIikpIHsKICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgICAgICBTdHJpbmdbXSBzcGxpdHMgPSBsaW5lLnNwbGl0KCIgIik7CiAgICAgICAgcG9zcy5hZGQoc3BsaXRzKTsKICAgICAgfQ==</text>
+      </register>
+      <register name="3" type="4">
         <text>for (String line : IOUtils.readLines(tokFile)) {
         line = line.trim();
         if (line.equals(&quot;&quot;)) {
@@ -346,17 +351,17 @@
         toks.add(splits);
       }</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgTGlzdDxTdHJpbmc+IHRva3MgPSBuZXcgQXJyYXlMaXN0PD4oKTsK</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>for (String line : IOUtils.readLines(tokFile)) {
       if (line.equals(&quot;&quot;)) {
         break;
       }
     }</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>for (String line : IOUtils.readLines(tokFile)) {
           if (line.equals(&quot;&quot;)) {
               break;
@@ -364,17 +369,14 @@
         }
       }</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIEJ1ZmZlcmVkUmVhZGVyIHJlYWQK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
