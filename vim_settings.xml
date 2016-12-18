@@ -95,12 +95,12 @@
         <mark key="." line="617" column="16" />
         <mark key="^" line="617" column="16" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1482080490490">
-        <mark key="'" line="10" column="13" />
-        <mark key="[" line="32" column="9" />
-        <mark key="]" line="32" column="13" />
-        <mark key="." line="32" column="13" />
-        <mark key="^" line="32" column="13" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1482104578197">
+        <mark key="'" line="101" column="6" />
+        <mark key="[" line="40" column="2" />
+        <mark key="]" line="41" column="17" />
+        <mark key="." line="41" column="17" />
+        <mark key="^" line="41" column="17" />
       </file>
       <file name="$USER_HOME$/Library/Python/2.7/lib/python/site-packages/tensorflow/python/client/session.py" timestamp="1478042329266">
         <mark key="'" line="338" column="20" />
@@ -237,12 +237,12 @@
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482104033884">
-        <mark key="'" line="262" column="64" />
-        <mark key="[" line="210" column="21" />
-        <mark key="]" line="210" column="29" />
-        <mark key="^" line="210" column="29" />
-        <mark key="." line="210" column="29" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482104687484">
+        <mark key="'" line="277" column="18" />
+        <mark key="[" line="169" column="0" />
+        <mark key="]" line="169" column="0" />
+        <mark key="^" line="227" column="22" />
+        <mark key="." line="169" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/notes" timestamp="1481718540996">
         <mark key="'" line="6" column="0" />
@@ -340,16 +340,19 @@
       <jump line="143" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="169" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="243" column="64" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="302" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="60" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
+      <jump line="101" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>parRels</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text>parRels</text>
+        <text>parConcepts</text>
       </register>
       <register name="/" type="4">
-        <text>sents</text>
+        <text>void add</text>
       </register>
       <register name="0" type="4">
         <text>//Processing parent relations
@@ -365,29 +368,40 @@
             }
           }</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">IC8vT25seSByb290IG9mIHRoZSBncmFwaCBoYXMgbm90IHBhcmVudAogICAgICAgICAgICBncmFwaC5zZXRSb290KGNvbmNlcHRJZCk7CiAgICAgICAgICB9CiAgICAgICAgICBlbHNlIHs=</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">Ly9zZW50ZW5jZSA9IG5ldyBDb3JlTGFiZWwoKTsKICAgICAgICAgIC8vc2VudGVuY2VUb2tlbnMgPSBuZXcgQXJyYXlMaXN0PD4oKTs=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgU3RyaW5nW10gdG9rcywgcG9zczsK</text>
+      <register name="4" type="4">
+        <text>//sentence.set(CoreAnnotations.TokensAnnotation.class, sentenceTokens);
+          //sents.add(sentence);</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgIHBvc1RhZ3MuYWRkKHBvc3MpOwo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIHRva2Vucy5hZGQodG9rcyk7Cg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgaW50IHNlbnRJbmRleCA9IDA7Cg==</text>
+      <register name="6" type="4">
+        <text encoding="base64">CgoKCgoKCgogICAgICAgICAgLy9TdHJpbmcgd29yZCA9IHNwbGl0c1sxXSwKICAgICAgICAgIC8vICAgICAgICBwb3MgPSBjUE9TID8gc3BsaXRzWzNdIDogc3BsaXRzWzRdLAogICAgICAgICAgLy8gICAgICAgIGRlcFR5cGUgPSBzcGxpdHNbN107CiAgICAgICAgICAvL2ludCBoZWFkID0gSW50ZWdlci5wYXJzZUludChzcGxpdHNbNl0pOwoKICAgICAgICAgIC8vQ29yZUxhYmVsIHRva2VuID0gdGYubWFrZVRva2VuKHdvcmQsIDAsIDApOwogICAgICAgICAgLy90b2tlbi5zZXRUYWcocG9zKTsKICAgICAgICAgIC8vdG9rZW4uc2V0KENvcmVBbm5vdGF0aW9ucy5Db05MTERlcFBhcmVudEluZGV4QW5ub3RhdGlvbi5jbGFzcywgaGVhZCk7CiAgICAgICAgICAvL3Rva2VuLnNldChDb3JlQW5ub3RhdGlvbnMuQ29OTExEZXBUeXBlQW5ub3RhdGlvbi5jbGFzcywgZGVwVHlwZSk7CiAgICAgICAgICAvL3NlbnRlbmNlVG9rZW5zLmFkZCh0b2tlbik7CgogICAgICAgICAgLy9pZiAoIXVubGFiZWxlZCkKICAgICAgICAgIC8vICBncmFwaC5hZGQoaGVhZCwgZGVwVHlwZSk7CiAgICAgICAgICAvL2Vsc2UKICAgICAgICAgIC8vICBncmFwaC5hZGQoaGVhZCwgQ29uZmlnLlVOS05PV04pOw==</text>
+      </register>
+      <register name="7" type="4">
+        <text>/**
+   * Add the next token to the parse.
+   *
+   * @param h Head of the next token
+   * @param l Dependency relation label between this node and its head
+   */
+  public void add(int h, String l) {
+    ++n;
+    head.add(h);
+    label.add(l);
+  }</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">IC8vT25seSByb290IG9mIHRoZSBncmFwaCBoYXMgbm90IHBhcmVudAogICAgICAgICAgICBncmFwaC5zZXRSb290KGNvbmNlcHRJZCk7CiAgICAgICAgICB9CiAgICAgICAgICBlbHNlIHs=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -397,9 +411,9 @@
       </register>
     </registers>
     <search>
-      <last-search>sents</last-search>
+      <last-search>void add</last-search>
       <last-offset />
-      <last-pattern>sents</last-pattern>
+      <last-pattern>void add</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -436,6 +450,8 @@
         <entry>loadC</entry>
         <entry>sentence</entry>
         <entry>sents</entry>
+        <entry>add</entry>
+        <entry>void add</entry>
       </history-search>
       <history-cmd>
         <entry>469</entry>
