@@ -237,12 +237,12 @@
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482090239787">
-        <mark key="'" line="155" column="30" />
-        <mark key="[" line="166" column="29" />
-        <mark key="]" line="166" column="29" />
-        <mark key="." line="166" column="29" />
-        <mark key="^" line="166" column="29" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482098585916">
+        <mark key="'" line="244" column="64" />
+        <mark key="[" line="172" column="10" />
+        <mark key="]" line="172" column="11" />
+        <mark key="^" line="172" column="11" />
+        <mark key="." line="172" column="11" />
       </file>
       <file name="$USER_HOME$/AMRParser/notes" timestamp="1481718540996">
         <mark key="'" line="6" column="0" />
@@ -336,53 +336,49 @@
       <jump line="252" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="139" column="61" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="48" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/util/CoreMap.java" />
-      <jump line="155" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="155" column="5" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="143" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="169" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="243" column="64" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgU3RyaW5nW10gdG9rcywgcG9zczsK</text>
       </register>
       <register name="-" type="4">
-        <text>false</text>
+        <text>toks</text>
       </register>
       <register name="/" type="4">
-        <text>sentence</text>
+        <text>sents</text>
       </register>
       <register name="0" type="4">
-        <text>for (String line : IOUtils.readLines(tokFile)) {
-        line = line.trim();
-        if (line.equals(&quot;&quot;)) {
-          break;
-        }
-        String[] splits = line.split(&quot; &quot;);
-        toks.add(splits);
-      }</text>
+        <text encoding="base64">TGlzdDxTdHJpbmdbXT4gdG9rcw==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgU3RyaW5nW10gdG9rcywgcG9zczsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgaW50IHNlbnRJbmRleCA9IDA7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIHBvc1RhZ3MuYWRkKHBvc3MpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIHRva2Vucy5hZGQodG9rcyk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICBwdWJsaWMgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text>public final void addWord(int wordIndex) {
-    alignments.add(wordIndex);
-  }</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgaW50IHNlbnRJbmRleCA9IDA7Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBwdWJsaWMgCg==</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">LyoqCiAgICoge0Bpbmhlcml0RG9jfQogICAqLwogIEBPdmVycmlkZQogIHB1YmxpYyB2b2lkIHNldFNlbnRJbmRleChpbnQgc2VudEluZGV4KSB7CiAgICBzZXQoQ29yZUFubm90YXRpb25zLlNlbnRlbmNlSW5kZXhBbm5vdGF0aW9uLmNsYXNzLCBzZW50SW5kZXgpOwogIH0KCiAgLyoqCiAgICoge0Bpbmhlcml0RG9jfQogICAqLwogIEBPdmVycmlkZQogIHB1YmxpYyBpbnQgYmVnaW5Qb3NpdGlvbigpIHsKICAgIEludGVnZXIgaSA9IGdldChDb3JlQW5ub3RhdGlvbnMuQ2hhcmFjdGVyT2Zmc2V0QmVnaW5Bbm5vdGF0aW9uLmNsYXNzKTsKICAgIGlmKGkgIT0gbnVsbCkgcmV0dXJuIGk7CiAgICByZXR1cm4gLTE7CiAgfQoKICAvKioKICAgKiB7QGluaGVyaXREb2N9CiAgICovCiAgQE92ZXJyaWRlCiAgcHVibGljIGludCBlbmRQb3NpdGlvbigpIHsKICAgIEludGVnZXIgaSA9IGdldChDb3JlQW5ub3RhdGlvbnMuQ2hhcmFjdGVyT2Zmc2V0RW5kQW5ub3RhdGlvbi5jbGFzcyk7CiAgICBpZihpICE9IG51bGwpIHJldHVybiBpOwogICAgcmV0dXJuIC0xOwogIH0KCiAgLyoqCiAgICoge0Bpbmhlcml0RG9jfQogICAqLwogIEBPdmVycmlkZQogIHB1YmxpYyB2b2lkIHNldEJlZ2luUG9zaXRpb24oaW50IGJlZ2luUG9zKSB7CiAgICBzZXQoQ29yZUFubm90YXRpb25zLkNoYXJhY3Rlck9mZnNldEJlZ2luQW5ub3RhdGlvbi5jbGFzcywgYmVnaW5Qb3MpOwogIH0KCiAgLyoqCiAgICoge0Bpbmhlcml0RG9jfQogICAqLwogIEBPdmVycmlkZQogIHB1YmxpYyB2b2lkIHNldEVuZFBvc2l0aW9uKGludCBlbmRQb3MpIHsKICAgIHNldChDb3JlQW5ub3RhdGlvbnMuQ2hhcmFjdGVyT2Zmc2V0RW5kQW5ub3RhdGlvbi5jbGFzcywgZW5kUG9zKTsKICB9CgogIC8qKgogICAqIFRhZyBzZXBhcmF0b3IgdG8gdXNlIGJ5IGRlZmF1bHQKICAgKi8KICBwdWJsaWMgc3RhdGljIGZpbmFsIFN0cmluZyBUQUdfU0VQQVJBVE9SID0gIi8iOwoKICBwdWJsaWMgZW51bSBPdXRwdXRGb3JtYXQgewogICAgVkFMVUVfSU5ERVgsIFZBTFVFLCBWQUxVRV9UQUcsIFZBTFVFX1RBR19JTkRFWCwgTUFQLCBWQUxVRV9NQVAsIFZBTFVFX0lOREVYX01BUCwgV09SRCwgV09SRF9JTkRFWCwgQUxMCiAgfTsKCiAgcHVibGljIHN0YXRpYyBmaW5hbCBPdXRwdXRGb3JtYXQgREVGQVVMVF9GT1JNQVQgPSBPdXRwdXRGb3JtYXQuVkFMVUVfSU5ERVg7CgogIEBPdmVycmlkZQogIHB1YmxpYyBTdHJpbmcgdG9TdHJpbmcoKSB7CiAgICByZXR1cm4gdG9TdHJpbmcoREVGQVVMVF9GT1JNQVQpOwogIH0KCiAgLyoqCiAgICogUmV0dXJucyBhIGZvcm1hdHRlZCBzdHJpbmcgcmVwcmVzZW50aW5nIHRoaXMgbGFiZWwuICBUaGUKICAgKiBkZXNpcmVkIGZvcm1hdCBpcyBwYXNzZWQgaW4gYXMgYSA8Y29kZT5TdHJpbmc8L2NvZGU+LgogICAqIEN1cnJlbnRseSBzdXBwb3J0ZWQgZm9ybWF0cyBpbmNsdWRlOgogICAqIDx1bD4KICAgKiA8bGk+InZhbHVlIjoganVzdCBwcmludHMgdGhlIHZhbHVlPC9saT4KICAgKiA8bGk+InttYXB9IjogcHJpbnRzIHRoZSBjb21wbGV0ZSBtYXA8L2xpPgogICAqIDxsaT4idmFsdWV7bWFwfSI6IHByaW50cyB0aGUgdmFsdWUgZm9sbG93ZWQgYnkgdGhlIGNvbnRhaW5lZAogICAqIG1hcCAobGVzcyB0aGUgbWFwIGVudHJ5IGNvbnRhaW5pbmcga2V5IDxjb2RlPkNBVEVHT1JZX0tFWTwvY29kZT4pPC9saT4KICAgKiA8bGk+InZhbHVlLWluZGV4IjogZXh0cmFjdHMgYSB2YWx1ZSBhbmQgYW4gaW50ZWdlciBpbmRleCBmcm9tCiAgICogdGhlIGNvbnRhaW5lZCBtYXAgdXNpbmcga2V5cyAgPGNvZGU+SU5ERVhfS0VZPC9jb2RlPiwKICAgKiByZXNwZWN0aXZlbHksIGFuZCBwcmludHMgdGhlbSB3aXRoIGEgaHlwaGVuIGluIGJldHdlZW48L2xpPgogICAqIDxsaT4idmFsdWUtdGFnIgogICAqIDxsaT4idmFsdWUtdGFnLWluZGV4IgogICAqIDxsaT4idmFsdWUtaW5kZXh7bWFwfSI6IGEgY29tYmluYXRpb24gb2YgdGhlIGFib3ZlOyB0aGUgaW5kZXggaXMKICAgKiBkaXNwbGF5ZWQgZmlyc3QgYW5kIHRoZW4gbm90IHNob3duIGluIHRoZSBtYXAgdGhhdCBpcyBkaXNwbGF5ZWQ8L2xpPgogICAqIDxsaT4id29yZCI6IEp1c3QgdGhlIHZhbHVlIG9mIEhFQURfV09SRF9LRVkgaW4gdGhlIG1hcDwvbGk+CiAgICogPC91bD4KICAgKiA8cC8+CiAgICogTWFwIGlzIHByaW50ZWQgaW4gYWxwaGFiZXRpY2FsIG9yZGVyIG9mIGtleXMuCiAgICovCiAgQFN1cHByZXNzV2FybmluZ3MoInVuY2hlY2tlZCIpCiAgcHVibGljIFN0cmluZyB0b1N0cmluZyhPdXRwdXRGb3JtYXQgZm9ybWF0KSB7CiAgICBTdHJpbmdCdWlsZGVyIGJ1ZiA9IG5ldyBTdHJpbmdCdWlsZGVyKCk7CiAgICBzd2l0Y2goZm9ybWF0KSB7CiAgICBjYXNlIFZBTFVFOgogICAgICBidWYuYXBwZW5kKHZhbHVlKCkpOwogICAgICBicmVhazsKICAgIGNhc2UgTUFQOiB7CiAgICAgIE1hcCBtYXAyID0gbmV3IFRyZWVNYXAoKTsKICAgICAgZm9yKENsYXNzIGtleSA6IHRoaXMua2V5U2V0KCkpIHsKICAgICAgICBtYXAyLnB1dChrZXkuZ2V0TmFtZSgpLCBnZXQoa2V5KSk7CiAgICAgIH0KICAgICAgYnVmLmFwcGVuZChtYXAyKTsKICAgICAgYnJlYWs7CiAgICB9CiAgICBjYXNlIFZBTFVFX01BUDogewogICAgICBidWYuYXBwZW5kKHZhbHVlKCkpOwogICAgICBNYXAgbWFwMiA9IG5ldyBUcmVlTWFwKGFzQ2xhc3NDb21wYXJhdG9yKTsKICAgICAgZm9yKENsYXNzIGtleSA6IHRoaXMua2V5U2V0KCkpIHsKICAgICAgICBtYXAyLnB1dChrZXksIGdldChrZXkpKTsKICAgICAgfQogICAgICBtYXAyLnJlbW92ZShDb3JlQW5ub3RhdGlvbnMuVmFsdWVBbm5vdGF0aW9uLmNsYXNzKTsKICAgICAgYnVmLmFwcGVuZChtYXAyKTsKICAgICAgYnJlYWs7CiAgICB9CiAgICBjYXNlIFZBTFVFX0lOREVYOiB7CiAgICAgIGJ1Zi5hcHBlbmQodmFsdWUoKSk7CiAgICAgIEludGVnZXIgaW5kZXggPSB0aGlzLmdldChDb3JlQW5ub3RhdGlvbnMuSW5kZXhBbm5vdGF0aW9uLmNsYXNzKTsKICAgICAgaWYgKGluZGV4ICE9IG51bGwpIHsKICAgICAgICBidWYuYXBwZW5kKCctJykuYXBwZW5kKChpbmRleCkuaW50VmFsdWUoKSk7CiAgICAgIH0KICAgICAgYnJlYWs7CiAgICB9CiAgICBjYXNlIFZBTFVFX1RBRzogewogICAgICBidWYuYXBwZW5kKHZhbHVlKCkpOwogICAgICBTdHJpbmcgdGFnID0gdGFnKCk7CiAgICAgIGlmICh0YWcgIT0gbnVsbCkgewogICAgICAgIGJ1Zi5hcHBlbmQoVEFHX1NFUEFSQVRPUikuYXBwZW5kKHRhZyk7CiAgICAgIH0KICAgICAgYnJlYWs7CiAgICB9CiAgICBjYXNlIFZBTFVFX1RBR19JTkRFWDogewogICAgICBidWYuYXBwZW5kKHZhbHVlKCkpOwogICAgICBTdHJpbmcgdGFnID0gdGFnKCk7CiAgICAgIGlmICh0YWcgIT0gbnVsbCkgewogICAgICAgIGJ1Zi5hcHBlbmQoVEFHX1NFUEFSQVRPUikuYXBwZW5kKHRhZyk7CiAgICAgIH0KICAgICAgSW50ZWdlciBpbmRleCA9IHRoaXMuZ2V0KENvcmVBbm5vdGF0aW9ucy5JbmRleEFubm90YXRpb24uY2xhc3MpOwogICAgICBpZiAoaW5kZXggIT0gbnVsbCkgewogICAgICAgIGJ1Zi5hcHBlbmQoJy0nKS5hcHBlbmQoKGluZGV4KS5pbnRWYWx1ZSgpKTsKICAgICAgfQogICAgICBicmVhazsKICAgIH0KICAgIGNhc2UgVkFMVUVfSU5ERVhfTUFQOiB7CiAgICAgIGJ1Zi5hcHBlbmQodmFsdWUoKSk7CiAgICAgIEludGVnZXIgaW5kZXggPSB0aGlzLmdldChDb3JlQW5ub3RhdGlvbnMuSW5kZXhBbm5vdGF0aW9uLmNsYXNzKTsKICAgICAgaWYgKGluZGV4ICE9IG51bGwpIHsKICAgICAgICBidWYuYXBwZW5kKCctJykuYXBwZW5kKChpbmRleCkuaW50VmFsdWUoKSk7CiAgICAgIH0KICAgICAgTWFwPFN0cmluZyxPYmplY3Q+IG1hcDIgPSBuZXcgVHJlZU1hcDw+KCk7CiAgICAgIGZvcihDbGFzcyBrZXkgOiB0aGlzLmtleVNldCgpKSB7CiAgICAgICAgU3RyaW5nIGNscyA9IGtleS5nZXROYW1lKCk7CiAgICAgICAgLy8gc3BlY2lhbCBzaG9ydGVuaW5nIG9mIGFsbCB0aGUgQW5ub3RhdGlvbiBjbGFzc2VzCiAgICAgICAgaW50IGlkeCA9IGNscy5pbmRleE9mKCckJyk7CiAgICAgICAgaWYgKGlkeCA+PSAwKSB7CiAgICAgICAgICBjbHMgPSBjbHMuc3Vic3RyaW5nKGlkeCArIDEpOwogICAgICAgIH0KICAgICAgICBtYXAyLnB1dChjbHMsIHRoaXMuZ2V0KGtleSkpOwogICAgICB9CiAgICAgIG1hcDIucmVtb3ZlKCJJbmRleEFubm90YXRpb24iKTsKICAgICAgbWFwMi5yZW1vdmUoIlZhbHVlQW5ub3RhdGlvbiIpOwogICAgICBpZiAoIW1hcDIuaXNFbXB0eSgpKSB7CiAgICAgICAgYnVmLmFwcGVuZChtYXAyKTsKICAgICAgfQogICAgICBicmVhazsKICAgIH0KICAgIGNhc2UgV09SRDoKICAgICAgLy8gVE9ETzogd2Ugc2hvdWxkIHVuaWZ5IHdvcmQoKSBhbmQgdmFsdWUoKQogICAgICBidWYuYXBwZW5kKHdvcmQoKSk7CiAgICAgIGJyZWFrOwogICAgY2FzZSBXT1JEX0lOREVYOiB7CiAgICAgIGJ1Zi5hcHBlbmQodGhpcy5nZXQoQ29yZUFubm90YXRpb25zLlRleHRBbm5vdGF0aW9uLmNsYXNzKSk7CiAgICAgIEludGVnZXIgaW5kZXggPSB0aGlzLmdldChDb3JlQW5ub3RhdGlvbnMuSW5kZXhBbm5vdGF0aW9uLmNsYXNzKTsKICAgICAgaWYgKGluZGV4ICE9IG51bGwpIHsKICAgICAgICBidWYuYXBwZW5kKCctJykuYXBwZW5kKChpbmRleCkuaW50VmFsdWUoKSk7CiAgICAgIH0KICAgICAgYnJlYWs7CiAgICB9CiAgICBjYXNlIEFMTDp7CiAgICAgIGZvcihDbGFzcyBlbjogdGhpcy5rZXlTZXQoKSl7CiAgICAgICAgYnVmLmFwcGVuZCgiOyIpLmFwcGVuZChlbikuYXBwZW5kKCI6IikuYXBwZW5kKHRoaXMuZ2V0KGVuKSk7CiAgICAgIH0KICAgICAgYnJlYWs7CiAgICB9CiAgICBkZWZhdWx0OgogICAgICB0aHJvdyBuZXcgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJVbmtub3duIGZvcm1hdCAiICsgZm9ybWF0KTsKICAgIH0KICAgIHJldHVybiBidWYudG9TdHJpbmcoKTsKICB9CgogIHByaXZhdGUgc3RhdGljIGZpbmFsIENvbXBhcmF0b3I8Q2xhc3M8Pz4+IGFzQ2xhc3NDb21wYXJhdG9yID0KICAgICAgICAgIChvMSwgbzIpIC0+IG8xLmdldE5hbWUoKS5jb21wYXJlVG8obzIuZ2V0TmFtZSgpKTsK</text>
+        <text>public final void addWord(int wordIndex) {
+    alignments.add(wordIndex);
+  }</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -392,9 +388,9 @@
       </register>
     </registers>
     <search>
-      <last-search>sentence</last-search>
+      <last-search>sents</last-search>
       <last-offset />
-      <last-pattern>sentence</last-pattern>
+      <last-pattern>sents</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -430,6 +426,7 @@
         <entry>load</entry>
         <entry>loadC</entry>
         <entry>sentence</entry>
+        <entry>sents</entry>
       </history-search>
       <history-cmd>
         <entry>469</entry>
