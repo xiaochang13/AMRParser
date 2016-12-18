@@ -161,11 +161,11 @@
       <file name="$USER_HOME$/github_projects/seq2graph/dev/cate_map" timestamp="1477760869112">
         <mark key="'" line="133" column="157" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1482062868442">
-        <mark key="[" line="40" column="29" />
-        <mark key="]" line="42" column="34" />
-        <mark key="^" line="42" column="34" />
-        <mark key="." line="42" column="34" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1482078001898">
+        <mark key="[" line="47" column="14" />
+        <mark key="]" line="47" column="15" />
+        <mark key="." line="47" column="15" />
+        <mark key="^" line="57" column="19" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/seq2seq_model.py" timestamp="1478013703044">
         <mark key="'" line="324" column="2" />
@@ -237,12 +237,12 @@
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482018240191">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482078070877">
         <mark key="'" line="191" column="16" />
-        <mark key="[" line="189" column="61" />
-        <mark key="]" line="191" column="10" />
-        <mark key="." line="191" column="10" />
-        <mark key="^" line="191" column="10" />
+        <mark key="[" line="192" column="26" />
+        <mark key="]" line="197" column="29" />
+        <mark key="." line="197" column="29" />
+        <mark key="^" line="197" column="29" />
       </file>
       <file name="$USER_HOME$/AMRParser/notes" timestamp="1481718540996">
         <mark key="'" line="6" column="0" />
@@ -330,13 +330,15 @@
       <jump line="17" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/AbstractCoreLabel.java" />
       <jump line="31" column="75" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/CoreLabel.java" />
       <jump line="8" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/HasCategory.java" />
+      <jump line="131" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" />
+      <jump line="59" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICBwdWJsaWMgCg==</text>
       </register>
       <register name="-" type="4">
-        <text>get(CoreAnnotations.ValueAnnotation.class)</text>
+        <text>CoreLabel c;</text>
       </register>
       <register name="/" type="4">
         <text>load</text>
@@ -352,46 +354,198 @@
       }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICBwdWJsaWMgCg==</text>
       </register>
       <register name="2" type="4">
-        <text>/**
-   * Set the word value for the label.  Also, clears the lemma, since
-   * that may have changed if the word changed.
-   */
-  @Override</text>
+        <text>public final void addWord(int wordIndex) {
+    alignments.add(wordIndex);
+  }</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>/**
-   * {@inheritDoc}
-   */
-  @Override</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICBAT3ZlcnJpZGUK</text>
+      <register name="5" type="4">
+        <text encoding="base64">LyoqCiAgICoge0Bpbmhlcml0RG9jfQogICAqLwogIEBPdmVycmlkZQogIHB1YmxpYyB2b2lkIHNldFNlbnRJbmRleChpbnQgc2VudEluZGV4KSB7CiAgICBzZXQoQ29yZUFubm90YXRpb25zLlNlbnRlbmNlSW5kZXhBbm5vdGF0aW9uLmNsYXNzLCBzZW50SW5kZXgpOwogIH0KCiAgLyoqCiAgICoge0Bpbmhlcml0RG9jfQogICAqLwogIEBPdmVycmlkZQogIHB1YmxpYyBpbnQgYmVnaW5Qb3NpdGlvbigpIHsKICAgIEludGVnZXIgaSA9IGdldChDb3JlQW5ub3RhdGlvbnMuQ2hhcmFjdGVyT2Zmc2V0QmVnaW5Bbm5vdGF0aW9uLmNsYXNzKTsKICAgIGlmKGkgIT0gbnVsbCkgcmV0dXJuIGk7CiAgICByZXR1cm4gLTE7CiAgfQoKICAvKioKICAgKiB7QGluaGVyaXREb2N9CiAgICovCiAgQE92ZXJyaWRlCiAgcHVibGljIGludCBlbmRQb3NpdGlvbigpIHsKICAgIEludGVnZXIgaSA9IGdldChDb3JlQW5ub3RhdGlvbnMuQ2hhcmFjdGVyT2Zmc2V0RW5kQW5ub3RhdGlvbi5jbGFzcyk7CiAgICBpZihpICE9IG51bGwpIHJldHVybiBpOwogICAgcmV0dXJuIC0xOwogIH0KCiAgLyoqCiAgICoge0Bpbmhlcml0RG9jfQogICAqLwogIEBPdmVycmlkZQogIHB1YmxpYyB2b2lkIHNldEJlZ2luUG9zaXRpb24oaW50IGJlZ2luUG9zKSB7CiAgICBzZXQoQ29yZUFubm90YXRpb25zLkNoYXJhY3Rlck9mZnNldEJlZ2luQW5ub3RhdGlvbi5jbGFzcywgYmVnaW5Qb3MpOwogIH0KCiAgLyoqCiAgICoge0Bpbmhlcml0RG9jfQogICAqLwogIEBPdmVycmlkZQogIHB1YmxpYyB2b2lkIHNldEVuZFBvc2l0aW9uKGludCBlbmRQb3MpIHsKICAgIHNldChDb3JlQW5ub3RhdGlvbnMuQ2hhcmFjdGVyT2Zmc2V0RW5kQW5ub3RhdGlvbi5jbGFzcywgZW5kUG9zKTsKICB9CgogIC8qKgogICAqIFRhZyBzZXBhcmF0b3IgdG8gdXNlIGJ5IGRlZmF1bHQKICAgKi8KICBwdWJsaWMgc3RhdGljIGZpbmFsIFN0cmluZyBUQUdfU0VQQVJBVE9SID0gIi8iOwoKICBwdWJsaWMgZW51bSBPdXRwdXRGb3JtYXQgewogICAgVkFMVUVfSU5ERVgsIFZBTFVFLCBWQUxVRV9UQUcsIFZBTFVFX1RBR19JTkRFWCwgTUFQLCBWQUxVRV9NQVAsIFZBTFVFX0lOREVYX01BUCwgV09SRCwgV09SRF9JTkRFWCwgQUxMCiAgfTsKCiAgcHVibGljIHN0YXRpYyBmaW5hbCBPdXRwdXRGb3JtYXQgREVGQVVMVF9GT1JNQVQgPSBPdXRwdXRGb3JtYXQuVkFMVUVfSU5ERVg7CgogIEBPdmVycmlkZQogIHB1YmxpYyBTdHJpbmcgdG9TdHJpbmcoKSB7CiAgICByZXR1cm4gdG9TdHJpbmcoREVGQVVMVF9GT1JNQVQpOwogIH0KCiAgLyoqCiAgICogUmV0dXJucyBhIGZvcm1hdHRlZCBzdHJpbmcgcmVwcmVzZW50aW5nIHRoaXMgbGFiZWwuICBUaGUKICAgKiBkZXNpcmVkIGZvcm1hdCBpcyBwYXNzZWQgaW4gYXMgYSA8Y29kZT5TdHJpbmc8L2NvZGU+LgogICAqIEN1cnJlbnRseSBzdXBwb3J0ZWQgZm9ybWF0cyBpbmNsdWRlOgogICAqIDx1bD4KICAgKiA8bGk+InZhbHVlIjoganVzdCBwcmludHMgdGhlIHZhbHVlPC9saT4KICAgKiA8bGk+InttYXB9IjogcHJpbnRzIHRoZSBjb21wbGV0ZSBtYXA8L2xpPgogICAqIDxsaT4idmFsdWV7bWFwfSI6IHByaW50cyB0aGUgdmFsdWUgZm9sbG93ZWQgYnkgdGhlIGNvbnRhaW5lZAogICAqIG1hcCAobGVzcyB0aGUgbWFwIGVudHJ5IGNvbnRhaW5pbmcga2V5IDxjb2RlPkNBVEVHT1JZX0tFWTwvY29kZT4pPC9saT4KICAgKiA8bGk+InZhbHVlLWluZGV4IjogZXh0cmFjdHMgYSB2YWx1ZSBhbmQgYW4gaW50ZWdlciBpbmRleCBmcm9tCiAgICogdGhlIGNvbnRhaW5lZCBtYXAgdXNpbmcga2V5cyAgPGNvZGU+SU5ERVhfS0VZPC9jb2RlPiwKICAgKiByZXNwZWN0aXZlbHksIGFuZCBwcmludHMgdGhlbSB3aXRoIGEgaHlwaGVuIGluIGJldHdlZW48L2xpPgogICAqIDxsaT4idmFsdWUtdGFnIgogICAqIDxsaT4idmFsdWUtdGFnLWluZGV4IgogICAqIDxsaT4idmFsdWUtaW5kZXh7bWFwfSI6IGEgY29tYmluYXRpb24gb2YgdGhlIGFib3ZlOyB0aGUgaW5kZXggaXMKICAgKiBkaXNwbGF5ZWQgZmlyc3QgYW5kIHRoZW4gbm90IHNob3duIGluIHRoZSBtYXAgdGhhdCBpcyBkaXNwbGF5ZWQ8L2xpPgogICAqIDxsaT4id29yZCI6IEp1c3QgdGhlIHZhbHVlIG9mIEhFQURfV09SRF9LRVkgaW4gdGhlIG1hcDwvbGk+CiAgICogPC91bD4KICAgKiA8cC8+CiAgICogTWFwIGlzIHByaW50ZWQgaW4gYWxwaGFiZXRpY2FsIG9yZGVyIG9mIGtleXMuCiAgICovCiAgQFN1cHByZXNzV2FybmluZ3MoInVuY2hlY2tlZCIpCiAgcHVibGljIFN0cmluZyB0b1N0cmluZyhPdXRwdXRGb3JtYXQgZm9ybWF0KSB7CiAgICBTdHJpbmdCdWlsZGVyIGJ1ZiA9IG5ldyBTdHJpbmdCdWlsZGVyKCk7CiAgICBzd2l0Y2goZm9ybWF0KSB7CiAgICBjYXNlIFZBTFVFOgogICAgICBidWYuYXBwZW5kKHZhbHVlKCkpOwogICAgICBicmVhazsKICAgIGNhc2UgTUFQOiB7CiAgICAgIE1hcCBtYXAyID0gbmV3IFRyZWVNYXAoKTsKICAgICAgZm9yKENsYXNzIGtleSA6IHRoaXMua2V5U2V0KCkpIHsKICAgICAgICBtYXAyLnB1dChrZXkuZ2V0TmFtZSgpLCBnZXQoa2V5KSk7CiAgICAgIH0KICAgICAgYnVmLmFwcGVuZChtYXAyKTsKICAgICAgYnJlYWs7CiAgICB9CiAgICBjYXNlIFZBTFVFX01BUDogewogICAgICBidWYuYXBwZW5kKHZhbHVlKCkpOwogICAgICBNYXAgbWFwMiA9IG5ldyBUcmVlTWFwKGFzQ2xhc3NDb21wYXJhdG9yKTsKICAgICAgZm9yKENsYXNzIGtleSA6IHRoaXMua2V5U2V0KCkpIHsKICAgICAgICBtYXAyLnB1dChrZXksIGdldChrZXkpKTsKICAgICAgfQogICAgICBtYXAyLnJlbW92ZShDb3JlQW5ub3RhdGlvbnMuVmFsdWVBbm5vdGF0aW9uLmNsYXNzKTsKICAgICAgYnVmLmFwcGVuZChtYXAyKTsKICAgICAgYnJlYWs7CiAgICB9CiAgICBjYXNlIFZBTFVFX0lOREVYOiB7CiAgICAgIGJ1Zi5hcHBlbmQodmFsdWUoKSk7CiAgICAgIEludGVnZXIgaW5kZXggPSB0aGlzLmdldChDb3JlQW5ub3RhdGlvbnMuSW5kZXhBbm5vdGF0aW9uLmNsYXNzKTsKICAgICAgaWYgKGluZGV4ICE9IG51bGwpIHsKICAgICAgICBidWYuYXBwZW5kKCctJykuYXBwZW5kKChpbmRleCkuaW50VmFsdWUoKSk7CiAgICAgIH0KICAgICAgYnJlYWs7CiAgICB9CiAgICBjYXNlIFZBTFVFX1RBRzogewogICAgICBidWYuYXBwZW5kKHZhbHVlKCkpOwogICAgICBTdHJpbmcgdGFnID0gdGFnKCk7CiAgICAgIGlmICh0YWcgIT0gbnVsbCkgewogICAgICAgIGJ1Zi5hcHBlbmQoVEFHX1NFUEFSQVRPUikuYXBwZW5kKHRhZyk7CiAgICAgIH0KICAgICAgYnJlYWs7CiAgICB9CiAgICBjYXNlIFZBTFVFX1RBR19JTkRFWDogewogICAgICBidWYuYXBwZW5kKHZhbHVlKCkpOwogICAgICBTdHJpbmcgdGFnID0gdGFnKCk7CiAgICAgIGlmICh0YWcgIT0gbnVsbCkgewogICAgICAgIGJ1Zi5hcHBlbmQoVEFHX1NFUEFSQVRPUikuYXBwZW5kKHRhZyk7CiAgICAgIH0KICAgICAgSW50ZWdlciBpbmRleCA9IHRoaXMuZ2V0KENvcmVBbm5vdGF0aW9ucy5JbmRleEFubm90YXRpb24uY2xhc3MpOwogICAgICBpZiAoaW5kZXggIT0gbnVsbCkgewogICAgICAgIGJ1Zi5hcHBlbmQoJy0nKS5hcHBlbmQoKGluZGV4KS5pbnRWYWx1ZSgpKTsKICAgICAgfQogICAgICBicmVhazsKICAgIH0KICAgIGNhc2UgVkFMVUVfSU5ERVhfTUFQOiB7CiAgICAgIGJ1Zi5hcHBlbmQodmFsdWUoKSk7CiAgICAgIEludGVnZXIgaW5kZXggPSB0aGlzLmdldChDb3JlQW5ub3RhdGlvbnMuSW5kZXhBbm5vdGF0aW9uLmNsYXNzKTsKICAgICAgaWYgKGluZGV4ICE9IG51bGwpIHsKICAgICAgICBidWYuYXBwZW5kKCctJykuYXBwZW5kKChpbmRleCkuaW50VmFsdWUoKSk7CiAgICAgIH0KICAgICAgTWFwPFN0cmluZyxPYmplY3Q+IG1hcDIgPSBuZXcgVHJlZU1hcDw+KCk7CiAgICAgIGZvcihDbGFzcyBrZXkgOiB0aGlzLmtleVNldCgpKSB7CiAgICAgICAgU3RyaW5nIGNscyA9IGtleS5nZXROYW1lKCk7CiAgICAgICAgLy8gc3BlY2lhbCBzaG9ydGVuaW5nIG9mIGFsbCB0aGUgQW5ub3RhdGlvbiBjbGFzc2VzCiAgICAgICAgaW50IGlkeCA9IGNscy5pbmRleE9mKCckJyk7CiAgICAgICAgaWYgKGlkeCA+PSAwKSB7CiAgICAgICAgICBjbHMgPSBjbHMuc3Vic3RyaW5nKGlkeCArIDEpOwogICAgICAgIH0KICAgICAgICBtYXAyLnB1dChjbHMsIHRoaXMuZ2V0KGtleSkpOwogICAgICB9CiAgICAgIG1hcDIucmVtb3ZlKCJJbmRleEFubm90YXRpb24iKTsKICAgICAgbWFwMi5yZW1vdmUoIlZhbHVlQW5ub3RhdGlvbiIpOwogICAgICBpZiAoIW1hcDIuaXNFbXB0eSgpKSB7CiAgICAgICAgYnVmLmFwcGVuZChtYXAyKTsKICAgICAgfQogICAgICBicmVhazsKICAgIH0KICAgIGNhc2UgV09SRDoKICAgICAgLy8gVE9ETzogd2Ugc2hvdWxkIHVuaWZ5IHdvcmQoKSBhbmQgdmFsdWUoKQogICAgICBidWYuYXBwZW5kKHdvcmQoKSk7CiAgICAgIGJyZWFrOwogICAgY2FzZSBXT1JEX0lOREVYOiB7CiAgICAgIGJ1Zi5hcHBlbmQodGhpcy5nZXQoQ29yZUFubm90YXRpb25zLlRleHRBbm5vdGF0aW9uLmNsYXNzKSk7CiAgICAgIEludGVnZXIgaW5kZXggPSB0aGlzLmdldChDb3JlQW5ub3RhdGlvbnMuSW5kZXhBbm5vdGF0aW9uLmNsYXNzKTsKICAgICAgaWYgKGluZGV4ICE9IG51bGwpIHsKICAgICAgICBidWYuYXBwZW5kKCctJykuYXBwZW5kKChpbmRleCkuaW50VmFsdWUoKSk7CiAgICAgIH0KICAgICAgYnJlYWs7CiAgICB9CiAgICBjYXNlIEFMTDp7CiAgICAgIGZvcihDbGFzcyBlbjogdGhpcy5rZXlTZXQoKSl7CiAgICAgICAgYnVmLmFwcGVuZCgiOyIpLmFwcGVuZChlbikuYXBwZW5kKCI6IikuYXBwZW5kKHRoaXMuZ2V0KGVuKSk7CiAgICAgIH0KICAgICAgYnJlYWs7CiAgICB9CiAgICBkZWZhdWx0OgogICAgICB0aHJvdyBuZXcgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJVbmtub3duIGZvcm1hdCAiICsgZm9ybWF0KTsKICAgIH0KICAgIHJldHVybiBidWYudG9TdHJpbmcoKTsKICB9CgogIHByaXZhdGUgc3RhdGljIGZpbmFsIENvbXBhcmF0b3I8Q2xhc3M8Pz4+IGFzQ2xhc3NDb21wYXJhdG9yID0KICAgICAgICAgIChvMSwgbzIpIC0+IG8xLmdldE5hbWUoKS5jb21wYXJlVG8obzIuZ2V0TmFtZSgpKTsK</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>public void setWord(String word) {
+    this.word = word;
+  }
+
+  public String word() {
+    return word;
+  }
+
+  public void setTag(String tag) {
+    set(CoreAnnotations.PartOfSpeechAnnotation.class, tag);
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public String tag() {
+    return get(CoreAnnotations.PartOfSpeechAnnotation.class);
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public void setCategory(String category) {
+    set(CoreAnnotations.CategoryAnnotation.class, category);
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public String category() {
+    return get(CoreAnnotations.CategoryAnnotation.class);
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public void setAfter(String after) {
+    set(CoreAnnotations.AfterAnnotation.class, after);
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public String after() {
+    return getString(CoreAnnotations.AfterAnnotation.class);
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public void setBefore(String before) {
+    set(CoreAnnotations.BeforeAnnotation.class, before);
+  }
+
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public String before() {
+    return getString(CoreAnnotations.BeforeAnnotation.class);
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public void setOriginalText(String originalText) {
+    set(CoreAnnotations.OriginalTextAnnotation.class, originalText);
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public String originalText() {
+    return getString(CoreAnnotations.OriginalTextAnnotation.class);
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public String docID() {
+    return get(CoreAnnotations.DocIDAnnotation.class);
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public void setDocID(String docID) {
+    set(CoreAnnotations.DocIDAnnotation.class, docID);
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public String ner() {
+    return get(CoreAnnotations.NamedEntityTagAnnotation.class);
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public void setNER(String ner) {
+    set(CoreAnnotations.NamedEntityTagAnnotation.class, ner);
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public String lemma() {
+    return get(CoreAnnotations.LemmaAnnotation.class);
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public void setLemma(String lemma) {
+    set(CoreAnnotations.LemmaAnnotation.class, lemma);
+  }
+
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public int index() {
+    Integer n = get(CoreAnnotations.IndexAnnotation.class);
+    if(n == null)
+      return -1;
+    return n;
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public void setIndex(int index) {
+    set(CoreAnnotations.IndexAnnotation.class, index);
+  }
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
+  public int sentIndex() {
+    Integer n = get(CoreAnnotations.SentenceIndexAnnotation.class);
+    if(n == null)
+      return -1;
+    return n;
+  }</text>
       </register>
-      <register name="9" type="4">
-        <text>/**
-   * Returns a new CoreLabel instance based on the contents of the given
-   * CoreMap.  It copies the contents of the other CoreMap.
-   *
-   * @param label The CoreMap to copy
-   */</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICBwdWJsaWMgU3RyaW5nIHBvczsK</text>
       </register>
       <register name=":" type="4">
-        <text>w!</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -453,8 +607,8 @@
         <entry>wq</entry>
         <entry>670</entry>
         <entry>vs Util.java</entry>
-        <entry>w</entry>
         <entry>w!</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
