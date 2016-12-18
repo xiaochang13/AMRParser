@@ -237,12 +237,12 @@
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482098585916">
-        <mark key="'" line="244" column="64" />
-        <mark key="[" line="172" column="10" />
-        <mark key="]" line="172" column="11" />
-        <mark key="^" line="172" column="11" />
-        <mark key="." line="172" column="11" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482101739519">
+        <mark key="'" line="262" column="64" />
+        <mark key="[" line="210" column="21" />
+        <mark key="]" line="210" column="29" />
+        <mark key="^" line="210" column="29" />
+        <mark key="." line="210" column="29" />
       </file>
       <file name="$USER_HOME$/AMRParser/notes" timestamp="1481718540996">
         <mark key="'" line="6" column="0" />
@@ -342,43 +342,52 @@
       <jump line="243" column="64" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgU3RyaW5nW10gdG9rcywgcG9zczsK</text>
+      <register name="&quot;" type="4">
+        <text>parRels</text>
       </register>
       <register name="-" type="4">
-        <text>toks</text>
+        <text>parRels</text>
       </register>
       <register name="/" type="4">
         <text>sents</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">TGlzdDxTdHJpbmdbXT4gdG9rcw==</text>
+        <text>//Processing parent relations
+          if (parRels.equals(&quot;NONE&quot;)) { //Only root of the graph has not parent
+            graph.setRoot(conceptId);
+          }
+          else {
+            splits = parRels.split(&quot;#&quot;);
+            for (String s: splits) {
+              String[] fields = s.split(&quot;:&quot;);
+              c.parRels.add(fields[0]);
+              c.parConcepts.add(Integer.parseInt(fields[1]));
+            }
+          }</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgU3RyaW5nW10gdG9rcywgcG9zczsK</text>
+      <register name="1" type="4">
+        <text encoding="base64">IC8vT25seSByb290IG9mIHRoZSBncmFwaCBoYXMgbm90IHBhcmVudAogICAgICAgICAgICBncmFwaC5zZXRSb290KGNvbmNlcHRJZCk7CiAgICAgICAgICB9CiAgICAgICAgICBlbHNlIHs=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgIHBvc1RhZ3MuYWRkKHBvc3MpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIHRva2Vucy5hZGQodG9rcyk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgU3RyaW5nW10gdG9rcywgcG9zczsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgaW50IHNlbnRJbmRleCA9IDA7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIHBvc1RhZ3MuYWRkKHBvc3MpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIHRva2Vucy5hZGQodG9rcyk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICBwdWJsaWMgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text>public final void addWord(int wordIndex) {
-    alignments.add(wordIndex);
-  }</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgaW50IHNlbnRJbmRleCA9IDA7Cg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
