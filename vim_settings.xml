@@ -161,6 +161,12 @@
       <file name="$USER_HOME$/github_projects/seq2graph/dev/cate_map" timestamp="1477760869112">
         <mark key="'" line="133" column="157" />
       </file>
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1482018906571">
+        <mark key="[" line="55" column="0" />
+        <mark key="]" line="55" column="0" />
+        <mark key="^" line="52" column="15" />
+        <mark key="." line="55" column="0" />
+      </file>
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/seq2seq_model.py" timestamp="1478013703044">
         <mark key="'" line="324" column="2" />
       </file>
@@ -326,11 +332,11 @@
       <jump line="8" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/HasCategory.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>)</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>get(CoreAnnotations.ValueAnnotation.class)</text>
       </register>
       <register name="/" type="4">
         <text>load</text>
@@ -346,47 +352,43 @@
       }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">bmV3IEFycmF5TGlzdDw+KCk7CiAgICAgIAoKICAgICAgZm9yIChTdHJpbmcgbGluZSA6IElPVXRpbHMucmVhZExpbmVzKHBvc0ZpbGUpKSB7CiAgICAgICAgbGluZSA9IGxpbmUudHJpbSgpOwogICAgICAgIGlmIChsaW5lLmVxdWFscygiIikpIHsKICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgICAgICBTdHJpbmdbXSBzcGxpdHMgPSBsaW5lLnNwbGl0KCIgIik7CiAgICAgICAgcG9zcy5hZGQoc3BsaXRzKTsKICAgICAgfQ==</text>
+        <text>/**
+   * Set the word value for the label.  Also, clears the lemma, since
+   * that may have changed if the word changed.
+   */
+  @Override</text>
       </register>
-      <register name="3" type="4">
-        <text>for (String line : IOUtils.readLines(tokFile)) {
-        line = line.trim();
-        if (line.equals(&quot;&quot;)) {
-          break;
-        }
-        String[] splits = line.split(&quot; &quot;);
-        toks.add(splits);
-      }</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgTGlzdDxTdHJpbmc+IHRva3MgPSBuZXcgQXJyYXlMaXN0PD4oKTsK</text>
+      <register name="4" type="4">
+        <text>/**
+   * {@inheritDoc}
+   */
+  @Override</text>
       </register>
-      <register name="5" type="4">
-        <text>for (String line : IOUtils.readLines(tokFile)) {
-      if (line.equals(&quot;&quot;)) {
-        break;
-      }
-    }</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICBAT3ZlcnJpZGUK</text>
       </register>
-      <register name="6" type="4">
-        <text>for (String line : IOUtils.readLines(tokFile)) {
-          if (line.equals(&quot;&quot;)) {
-              break;
-          }
-        }
-      }</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
-      </register>
-      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="4">
+        <text>/**
+   * Returns a new CoreLabel instance based on the contents of the given
+   * CoreMap.  It copies the contents of the other CoreMap.
+   *
+   * @param label The CoreMap to copy
+   */</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -450,8 +452,8 @@
         <entry>1</entry>
         <entry>wq</entry>
         <entry>670</entry>
-        <entry>w!</entry>
         <entry>vs Util.java</entry>
+        <entry>w!</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
