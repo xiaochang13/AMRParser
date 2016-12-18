@@ -237,12 +237,12 @@
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482080555060">
-        <mark key="'" line="190" column="16" />
-        <mark key="[" line="160" column="0" />
-        <mark key="]" line="160" column="0" />
-        <mark key="." line="160" column="0" />
-        <mark key="^" line="204" column="9" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482090239787">
+        <mark key="'" line="155" column="30" />
+        <mark key="[" line="166" column="29" />
+        <mark key="]" line="166" column="29" />
+        <mark key="." line="166" column="29" />
+        <mark key="^" line="166" column="29" />
       </file>
       <file name="$USER_HOME$/AMRParser/notes" timestamp="1481718540996">
         <mark key="'" line="6" column="0" />
@@ -322,7 +322,6 @@
       <jump line="2866" column="18" filename="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/lang/String.java" />
       <jump line="185" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="218" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
-      <jump line="139" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="49" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/process/CoreLabelTokenFactory.java" />
       <jump line="247" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="48" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/process/CoreLabelTokenFactory.java" />
@@ -332,6 +331,12 @@
       <jump line="8" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/HasCategory.java" />
       <jump line="131" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" />
       <jump line="59" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" />
+      <jump line="40" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="180" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="252" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="139" column="61" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="48" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/util/CoreMap.java" />
+      <jump line="155" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -341,7 +346,7 @@
         <text>false</text>
       </register>
       <register name="/" type="4">
-        <text>load</text>
+        <text>sentence</text>
       </register>
       <register name="0" type="4">
         <text>for (String line : IOUtils.readLines(tokFile)) {
@@ -387,9 +392,9 @@
       </register>
     </registers>
     <search>
-      <last-search>load</last-search>
+      <last-search>sentence</last-search>
       <last-offset />
-      <last-pattern>load</last-pattern>
+      <last-pattern>sentence</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -423,6 +428,8 @@
         <entry>readLines</entry>
         <entry>loadDe</entry>
         <entry>load</entry>
+        <entry>loadC</entry>
+        <entry>sentence</entry>
       </history-search>
       <history-cmd>
         <entry>469</entry>
