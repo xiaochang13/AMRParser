@@ -277,12 +277,12 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1482165309599">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1482169226545">
         <mark key="'" line="39" column="39" />
-        <mark key="[" line="102" column="3" />
-        <mark key="]" line="105" column="44" />
-        <mark key="^" line="105" column="44" />
-        <mark key="." line="105" column="44" />
+        <mark key="[" line="113" column="0" />
+        <mark key="]" line="113" column="28" />
+        <mark key="." line="113" column="28" />
+        <mark key="^" line="113" column="28" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1482110012286">
         <mark key="'" line="23" column="13" />
@@ -413,10 +413,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+        <text>arc.charAt(0) == 'L'</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>arc.charAt(0) == 'L'</text>
       </register>
       <register name="/" type="4">
         <text>makeTransitions</text>
@@ -433,33 +433,28 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGludCBuU3RhY2sgPSBzdGFjay5zaXplKCk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">IAo=</text>
+        <text encoding="base64">ICAgIFN0cmluZ1tdCg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">IHB1YmxpYyBib29sZWFuIHJlbW92ZVRvcFN0YWNrKCkgewogICAgaW50IG5TdGFjayA9IGdldFN0YWNrU2l6ZSgpOwogICAgaWYgKG5TdGFjayA8IDEpCiAgICAgIHJldHVybiBmYWxzZTsKICAgIHN0YWNrLnJlbW92ZShuU3RhY2sgLSAxKTsKICAgIHJldHVybiB0cnVlOwogIH0=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAK</text>
-      </register>
-      <register name="6" type="4">
-        <text encoding="base64">cHVibGljIGJvb2xlYW4gcmVtb3ZlU2Vjb25kVG9wU3RhY2soKSB7CiAgICBpbnQgblN0YWNrID0gZ2V0U3RhY2tTaXplKCk7CiAgICBpZiAoblN0YWNrIDwgMikKICAgICAgcmV0dXJuIGZhbHNlOwogICAgc3RhY2sucmVtb3ZlKG5TdGFjayAtIDIpOwogICAgcmV0dXJuIHRydWU7CiAgfQo=</text>
-      </register>
-      <register name="7" type="2">
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">IAo=</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">IHB1YmxpYyBib29sZWFuIHJlbW92ZVRvcFN0YWNrKCkgewogICAgaW50IG5TdGFjayA9IGdldFN0YWNrU2l6ZSgpOwogICAgaWYgKG5TdGFjayA8IDEpCiAgICAgIHJldHVybiBmYWxzZTsKICAgIHN0YWNrLnJlbW92ZShuU3RhY2sgLSAxKTsKICAgIHJldHVybiB0cnVlOwogIH0=</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="9" type="4">
-        <text>int k = getBuffer(0);
-    if (k == Config.NONEXIST)
-      return false;
-    buffer.remove(0);
-    //stack.add(k);
-    return true;</text>
+        <text encoding="base64">cHVibGljIGJvb2xlYW4gcmVtb3ZlU2Vjb25kVG9wU3RhY2soKSB7CiAgICBpbnQgblN0YWNrID0gZ2V0U3RhY2tTaXplKCk7CiAgICBpZiAoblN0YWNrIDwgMikKICAgICAgcmV0dXJuIGZhbHNlOwogICAgc3RhY2sucmVtb3ZlKG5TdGFjayAtIDIpOwogICAgcmV0dXJuIHRydWU7CiAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
