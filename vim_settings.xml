@@ -41,15 +41,22 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1482110160886">
+        <mark key="'" line="18" column="56" />
+        <mark key="[" line="18" column="9" />
+        <mark key="]" line="18" column="23" />
+        <mark key="." line="18" column="23" />
+        <mark key="^" line="18" column="23" />
+      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482108079585">
-        <mark key="'" line="689" column="4" />
-        <mark key="[" line="361" column="35" />
-        <mark key="]" line="361" column="7" />
-        <mark key="^" line="361" column="7" />
-        <mark key="." line="361" column="7" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482110147308">
+        <mark key="'" line="694" column="15" />
+        <mark key="[" line="696" column="61" />
+        <mark key="]" line="697" column="55" />
+        <mark key="." line="697" column="55" />
+        <mark key="^" line="697" column="55" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -121,8 +128,8 @@
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/seq2seq_sa.bak.py" timestamp="1478015508358">
         <mark key="'" line="76" column="10" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481908198875">
-        <mark key="'" line="277" column="34" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1482110093697">
+        <mark key="'" line="1238" column="14" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/translate.py" timestamp="1478029028883">
         <mark key="'" line="361" column="15" />
@@ -258,8 +265,12 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1481908456918">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1482110012286">
         <mark key="'" line="23" column="13" />
+        <mark key="[" line="18" column="9" />
+        <mark key="]" line="18" column="23" />
+        <mark key="." line="18" column="23" />
+        <mark key="^" line="18" column="23" />
       </file>
       <file name="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/util/Properties.java" timestamp="1482004217634">
         <mark key="'" line="1031" column="23" />
@@ -349,7 +360,6 @@
       <jump line="77" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
       <jump line="669" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="139" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="89" column="48" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="239" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="672" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="367" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -358,59 +368,68 @@
       <jump line="80" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="86" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="683" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="372" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="371" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="84" column="70" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="395" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="89" column="67" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="326" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="351" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="694" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="334" column="101" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="215" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="1238" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
+      <jump line="18" column="56" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>d</text>
+        <text>ArcStandard</text>
       </register>
       <register name="-" type="4">
-        <text>d</text>
+        <text>ArcStandard</text>
       </register>
       <register name="/" type="4">
-        <text>rootNum</text>
+        <text>tlp</text>
       </register>
       <register name="0" type="4">
-        <text>for (String[] tokSeq : tokens) {
-      for (String tok : tokSeq) {
-        word.add(tok);
-      }
-    }</text>
+        <text>System.err.println(&quot;#Concepts: &quot; + knownConcepts.size());</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIExpc3Q8U3RyaW5nPiBsRGljdCA9IG5ldyBBcnJheUxpc3Q8U3RyaW5nPihrbm93bkxhYmVscyk7Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgLy9VdGlsLnByaW50VHJlZVN0YXRzKCJEZXYiLCBkZXZUcmVlcyk7Cg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">ICAvL2ZvciAoaW50IGsgPSAxOyBrIDw9IHRyZWUubjsgKytrKQogICAgICAvLyAgaWYgKHRyZWUuZ2V0SGVhZChrKSA9PSAwKQogICAgICAvLyAgICByb290TGFiZWwgPSB0cmVlLmdldExhYmVsKGspOwogICAgICAvLyAgZWxzZQogICAgICAvLyAgICBsYWJlbC5hZGQodHJlZS5nZXRMYWJlbChrKSk7</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgLy9VdGlsLmxvYWRDb25sbEZpbGUoZGV2RmlsZSwgZGV2U2VudHMsIGRldlRyZWVzLCBjb25maWcudW5sYWJlbGVkLCBjb25maWcuY1BPUyk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgLy9VdGlsLmxvYWRDb25sbEZpbGUoZGV2RmlsZSwgZGV2U2VudHMsIGRldlRyZWVzLCBjb25maWcudW5sYWJlbGVkLCBjb25maWcuY1BPUyk7Cg==</text>
+        <text encoding="base64">ICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIExpc3Q8QU1SR3JhcGg+IHRyYWluR3JhcGhzID0gbmV3IEFycmF5TGlzdDxBTVJHcmFwaD4oKTsK</text>
+        <text encoding="base64">ICAgICAgLy9VdGlsLnByaW50VHJlZVN0YXRzKCJEZXYiLCBkZXZUcmVlcyk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIC8vVXRpbC5wcmludFRyZWVTdGF0cygiVHJhaW4iLCB0cmFpblRyZWVzKTsK</text>
+        <text encoding="base64">ICAgICAgLy9VdGlsLmxvYWRDb25sbEZpbGUoZGV2RmlsZSwgZGV2U2VudHMsIGRldlRyZWVzLCBjb25maWcudW5sYWJlbGVkLCBjb25maWcuY1BPUyk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIC8vVXRpbC5wcmludFRyZWVTdGF0cygiVHJhaW4iLCB0cmFpblRyZWVzKTsK</text>
+        <text encoding="base64">ICAgICAgLy9VdGlsLmxvYWRDb25sbEZpbGUoZGV2RmlsZSwgZGV2U2VudHMsIGRldlRyZWVzLCBjb25maWcudW5sYWJlbGVkLCBjb25maWcuY1BPUyk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIExpc3Q8QU1SR3JhcGg+IHRyYWluR3JhcGhzID0gbmV3IEFycmF5TGlzdDxBTVJHcmFwaD4oKTsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>rootNum</last-search>
+      <last-search>tlp</last-search>
       <last-offset />
-      <last-pattern>rootNum</last-pattern>
+      <last-pattern>tlp</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -450,6 +469,9 @@
         <entry>add</entry>
         <entry>void add</entry>
         <entry>rootNum</entry>
+        <entry>concept</entry>
+        <entry>genDict</entry>
+        <entry>tlp</entry>
       </history-search>
       <history-cmd>
         <entry>469</entry>
