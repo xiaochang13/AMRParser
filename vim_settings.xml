@@ -44,12 +44,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482006712925">
-        <mark key="'" line="659" column="18" />
-        <mark key="[" line="659" column="26" />
-        <mark key="]" line="659" column="28" />
-        <mark key="." line="659" column="28" />
-        <mark key="^" line="659" column="28" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482105473690">
+        <mark key="'" line="668" column="4" />
+        <mark key="[" line="89" column="48" />
+        <mark key="]" line="89" column="61" />
+        <mark key="^" line="89" column="61" />
+        <mark key="." line="89" column="61" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -95,12 +95,12 @@
         <mark key="." line="617" column="16" />
         <mark key="^" line="617" column="16" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1482104578197">
-        <mark key="'" line="101" column="6" />
-        <mark key="[" line="40" column="2" />
-        <mark key="]" line="41" column="17" />
-        <mark key="." line="41" column="17" />
-        <mark key="^" line="41" column="17" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1482104973307">
+        <mark key="'" line="77" column="2" />
+        <mark key="[" line="142" column="2" />
+        <mark key="]" line="142" column="2" />
+        <mark key="." line="142" column="2" />
+        <mark key="^" line="142" column="2" />
       </file>
       <file name="$USER_HOME$/Library/Python/2.7/lib/python/site-packages/tensorflow/python/client/session.py" timestamp="1478042329266">
         <mark key="'" line="338" column="20" />
@@ -237,12 +237,12 @@
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482104687484">
-        <mark key="'" line="277" column="18" />
-        <mark key="[" line="169" column="0" />
-        <mark key="]" line="169" column="0" />
-        <mark key="^" line="227" column="22" />
-        <mark key="." line="169" column="0" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482105340331">
+        <mark key="'" line="165" column="17" />
+        <mark key="[" line="139" column="47" />
+        <mark key="]" line="139" column="114" />
+        <mark key="." line="156" column="7" />
+        <mark key="^" line="156" column="7" />
       </file>
       <file name="$USER_HOME$/AMRParser/notes" timestamp="1481718540996">
         <mark key="'" line="6" column="0" />
@@ -338,82 +338,65 @@
       <jump line="48" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/util/CoreMap.java" />
       <jump line="155" column="5" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="143" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
-      <jump line="169" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="243" column="64" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="302" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="60" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
       <jump line="101" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
+      <jump line="170" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="169" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="160" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="165" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="77" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
+      <jump line="669" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text>labelIDs</text>
       </register>
       <register name="-" type="4">
-        <text>parConcepts</text>
+        <text>labelIDs</text>
       </register>
       <register name="/" type="4">
-        <text>void add</text>
+        <text>rootNum</text>
       </register>
       <register name="0" type="4">
-        <text>//Processing parent relations
-          if (parRels.equals(&quot;NONE&quot;)) { //Only root of the graph has not parent
-            graph.setRoot(conceptId);
-          }
-          else {
-            splits = parRels.split(&quot;#&quot;);
-            for (String s: splits) {
-              String[] fields = s.split(&quot;:&quot;);
-              c.parRels.add(fields[0]);
-              c.parConcepts.add(Integer.parseInt(fields[1]));
-            }
-          }</text>
+        <text encoding="base64">TGlzdDxTdHJpbmdbXT4gdG9rZW5zLCBMaXN0PFN0cmluZ1tdPiBwb3NUYWdzLCBMaXN0PEFNUkdyYXBoPiBncmFwaHM=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgCg==</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">Ly9zZW50ZW5jZSA9IG5ldyBDb3JlTGFiZWwoKTsKICAgICAgICAgIC8vc2VudGVuY2VUb2tlbnMgPSBuZXcgQXJyYXlMaXN0PD4oKTs=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgLy9VdGlsLnByaW50VHJlZVN0YXRzKCJEZXYiLCBkZXZUcmVlcyk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgLy9VdGlsLmxvYWRDb25sbEZpbGUoZGV2RmlsZSwgZGV2U2VudHMsIGRldlRyZWVzLCBjb25maWcudW5sYWJlbGVkLCBjb25maWcuY1BPUyk7Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>//sentence.set(CoreAnnotations.TokensAnnotation.class, sentenceTokens);
-          //sents.add(sentence);</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgLy9VdGlsLmxvYWRDb25sbEZpbGUoZGV2RmlsZSwgZGV2U2VudHMsIGRldlRyZWVzLCBjb25maWcudW5sYWJlbGVkLCBjb25maWcuY1BPUyk7Cg==</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICAgIExpc3Q8QU1SR3JhcGg+IHRyYWluR3JhcGhzID0gbmV3IEFycmF5TGlzdDxBTVJHcmFwaD4oKTsK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIC8vVXRpbC5wcmludFRyZWVTdGF0cygiVHJhaW4iLCB0cmFpblRyZWVzKTsK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIC8vVXRpbC5wcmludFRyZWVTdGF0cygiVHJhaW4iLCB0cmFpblRyZWVzKTsK</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="4">
-        <text encoding="base64">CgoKCgoKCgogICAgICAgICAgLy9TdHJpbmcgd29yZCA9IHNwbGl0c1sxXSwKICAgICAgICAgIC8vICAgICAgICBwb3MgPSBjUE9TID8gc3BsaXRzWzNdIDogc3BsaXRzWzRdLAogICAgICAgICAgLy8gICAgICAgIGRlcFR5cGUgPSBzcGxpdHNbN107CiAgICAgICAgICAvL2ludCBoZWFkID0gSW50ZWdlci5wYXJzZUludChzcGxpdHNbNl0pOwoKICAgICAgICAgIC8vQ29yZUxhYmVsIHRva2VuID0gdGYubWFrZVRva2VuKHdvcmQsIDAsIDApOwogICAgICAgICAgLy90b2tlbi5zZXRUYWcocG9zKTsKICAgICAgICAgIC8vdG9rZW4uc2V0KENvcmVBbm5vdGF0aW9ucy5Db05MTERlcFBhcmVudEluZGV4QW5ub3RhdGlvbi5jbGFzcywgaGVhZCk7CiAgICAgICAgICAvL3Rva2VuLnNldChDb3JlQW5ub3RhdGlvbnMuQ29OTExEZXBUeXBlQW5ub3RhdGlvbi5jbGFzcywgZGVwVHlwZSk7CiAgICAgICAgICAvL3NlbnRlbmNlVG9rZW5zLmFkZCh0b2tlbik7CgogICAgICAgICAgLy9pZiAoIXVubGFiZWxlZCkKICAgICAgICAgIC8vICBncmFwaC5hZGQoaGVhZCwgZGVwVHlwZSk7CiAgICAgICAgICAvL2Vsc2UKICAgICAgICAgIC8vICBncmFwaC5hZGQoaGVhZCwgQ29uZmlnLlVOS05PV04pOw==</text>
-      </register>
-      <register name="7" type="4">
-        <text>/**
-   * Add the next token to the parse.
-   *
-   * @param h Head of the next token
-   * @param l Dependency relation label between this node and its head
-   */
-  public void add(int h, String l) {
-    ++n;
-    head.add(h);
-    label.add(l);
-  }</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">IC8vT25seSByb290IG9mIHRoZSBncmFwaCBoYXMgbm90IHBhcmVudAogICAgICAgICAgICBncmFwaC5zZXRSb290KGNvbmNlcHRJZCk7CiAgICAgICAgICB9CiAgICAgICAgICBlbHNlIHs=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>void add</last-search>
+      <last-search>rootNum</last-search>
       <last-offset />
-      <last-pattern>void add</last-pattern>
+      <last-pattern>rootNum</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -452,6 +435,7 @@
         <entry>sents</entry>
         <entry>add</entry>
         <entry>void add</entry>
+        <entry>rootNum</entry>
       </history-search>
       <history-cmd>
         <entry>469</entry>
