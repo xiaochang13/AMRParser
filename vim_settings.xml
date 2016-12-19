@@ -41,12 +41,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1482159284262">
-        <mark key="'" line="200" column="38" />
-        <mark key="[" line="110" column="9" />
-        <mark key="]" line="110" column="9" />
-        <mark key="." line="110" column="9" />
-        <mark key="^" line="110" column="8" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1482159770885">
+        <mark key="'" line="111" column="42" />
+        <mark key="[" line="111" column="8" />
+        <mark key="]" line="111" column="48" />
+        <mark key="." line="111" column="48" />
+        <mark key="^" line="111" column="48" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
@@ -127,12 +127,12 @@
         <mark key="." line="813" column="49" />
         <mark key="^" line="813" column="49" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1482150222359">
-        <mark key="'" line="210" column="4" />
-        <mark key="[" line="17" column="0" />
-        <mark key="]" line="17" column="0" />
-        <mark key="^" line="33" column="35" />
-        <mark key="." line="17" column="0" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1482159860898">
+        <mark key="'" line="212" column="4" />
+        <mark key="[" line="44" column="40" />
+        <mark key="]" line="45" column="73" />
+        <mark key="^" line="45" column="73" />
+        <mark key="." line="45" column="73" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" timestamp="1481134934464">
         <mark key="'" line="151" column="9" />
@@ -277,12 +277,12 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1482159449143">
-        <mark key="'" line="34" column="58" />
-        <mark key="[" line="46" column="55" />
-        <mark key="]" line="46" column="55" />
-        <mark key="." line="46" column="55" />
-        <mark key="^" line="23" column="34" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1482160092672">
+        <mark key="'" line="134" column="2" />
+        <mark key="[" line="72" column="29" />
+        <mark key="]" line="73" column="3" />
+        <mark key="." line="73" column="3" />
+        <mark key="^" line="73" column="3" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1482110012286">
         <mark key="'" line="23" column="13" />
@@ -310,12 +310,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="101" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
-      <jump line="170" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
-      <jump line="169" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
-      <jump line="160" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
-      <jump line="165" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
-      <jump line="77" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
       <jump line="139" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="239" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="672" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -410,16 +404,22 @@
       <jump line="134" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="188" column="38" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="34" column="58" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="67" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="87" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="111" column="42" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="124" column="71" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="45" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="130" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>config.stack</text>
+        <text>EXIST</text>
       </register>
       <register name="-" type="4">
-        <text>config.stack</text>
+        <text>EXIST</text>
       </register>
       <register name="/" type="4">
-        <text>void Ap</text>
+        <text>pop</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">PFBhaXI8SW50ZWdlciwgSW50ZWdlcj4+KGNvbmZpZy5zdGFjayk=</text>
@@ -456,9 +456,9 @@
       </register>
     </registers>
     <search>
-      <last-search>void Ap</last-search>
+      <last-search>pop</last-search>
       <last-offset />
-      <last-pattern>void Ap</last-pattern>
+      <last-pattern>pop</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -517,6 +517,7 @@
         <entry>getOracle</entry>
         <entry>apply</entry>
         <entry>void Ap</entry>
+        <entry>pop</entry>
       </history-search>
       <history-cmd>
         <entry>469</entry>
