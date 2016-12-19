@@ -41,12 +41,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1482150398105">
-        <mark key="'" line="127" column="2" />
-        <mark key="[" line="37" column="28" />
-        <mark key="]" line="37" column="43" />
-        <mark key="." line="37" column="43" />
-        <mark key="^" line="37" column="43" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1482157218784">
+        <mark key="'" line="39" column="2" />
+        <mark key="[" line="121" column="10" />
+        <mark key="]" line="121" column="15" />
+        <mark key="." line="121" column="15" />
+        <mark key="^" line="121" column="15" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
@@ -310,7 +310,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="143" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="243" column="64" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="302" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="60" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
@@ -410,40 +409,41 @@
       <jump line="206" column="32" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="278" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="37" column="43" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="39" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>Configuration</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>Configuration</text>
+        <text>dTree</text>
       </register>
       <register name="/" type="4">
-        <text>configuration</text>
+        <text>getOracle</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">cHJvdGVjdGVkIExpc3Q8U3RyaW5nPiBsYWJlbHMsIHRyYW5zaXRpb25zOw==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICogQHNlZSBEZXBlbmRlbmN5UGFyc2VyCg==</text>
-      </register>
-      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICogQHNlZSBEZXBlbmRlbmN5UGFyc2VyCg==</text>
+      </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGVsc2V7Cg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICBAT3ZlcnJpZGUK</text>
+        <text encoding="base64">ICAgIGVsc2V7Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICBAT3ZlcnJpZGUK</text>
@@ -456,9 +456,9 @@
       </register>
     </registers>
     <search>
-      <last-search>configuration</last-search>
+      <last-search>getOracle</last-search>
       <last-offset />
-      <last-pattern>configuration</last-pattern>
+      <last-pattern>getOracle</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -488,7 +488,6 @@
         <entry>void train</entry>
         <entry>next</entry>
         <entry>example</entry>
-        <entry>getOracle</entry>
         <entry>readLines</entry>
         <entry>loadDe</entry>
         <entry>load</entry>
@@ -515,6 +514,7 @@
         <entry>trainFile</entry>
         <entry>train</entry>
         <entry>configuration</entry>
+        <entry>getOracle</entry>
       </history-search>
       <history-cmd>
         <entry>469</entry>
