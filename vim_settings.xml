@@ -277,12 +277,12 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1482169226545">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1482178058530">
         <mark key="'" line="39" column="39" />
-        <mark key="[" line="113" column="0" />
-        <mark key="]" line="113" column="28" />
-        <mark key="." line="113" column="28" />
-        <mark key="^" line="113" column="28" />
+        <mark key="[" line="114" column="22" />
+        <mark key="]" line="114" column="20" />
+        <mark key="." line="114" column="20" />
+        <mark key="^" line="114" column="20" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1482110012286">
         <mark key="'" line="23" column="13" />
@@ -413,10 +413,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>arc.charAt(0) == 'L'</text>
+        <text>//</text>
       </register>
       <register name="-" type="4">
-        <text>arc.charAt(0) == 'L'</text>
+        <text>//</text>
       </register>
       <register name="/" type="4">
         <text>makeTransitions</text>
