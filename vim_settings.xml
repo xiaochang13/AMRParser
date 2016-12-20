@@ -107,12 +107,12 @@
         <mark key="[" line="34" column="2" />
         <mark key="]" line="34" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1482104973307">
-        <mark key="'" line="77" column="2" />
-        <mark key="[" line="142" column="2" />
-        <mark key="]" line="142" column="2" />
-        <mark key="." line="142" column="2" />
-        <mark key="^" line="142" column="2" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1482276119795">
+        <mark key="'" line="78" column="2" />
+        <mark key="[" line="14" column="30" />
+        <mark key="]" line="15" column="21" />
+        <mark key="." line="15" column="21" />
+        <mark key="^" line="15" column="21" />
       </file>
       <file name="$USER_HOME$/Library/Python/2.7/lib/python/site-packages/tensorflow/python/client/session.py" timestamp="1478042329266">
         <mark key="'" line="338" column="20" />
@@ -277,12 +277,12 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1482274861440">
-        <mark key="'" line="41" column="39" />
-        <mark key="[" line="34" column="27" />
-        <mark key="]" line="35" column="28" />
-        <mark key="." line="35" column="28" />
-        <mark key="^" line="35" column="28" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1482275919436">
+        <mark key="'" line="53" column="39" />
+        <mark key="[" line="341" column="15" />
+        <mark key="]" line="342" column="15" />
+        <mark key="." line="342" column="15" />
+        <mark key="^" line="342" column="15" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1482110012286">
         <mark key="'" line="23" column="13" />
@@ -412,47 +412,47 @@
       <jump line="28" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICBwdWJsaWMgCg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>sentence.get(CoreAnnotations.TokensAnnotation.class)</text>
       </register>
       <register name="/" type="4">
         <text>Configuration</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">TWFwPFN0cmluZywgRG91YmxlPiByZXN1bHQ=</text>
+        <text encoding="base64">c3RhY2sgPSBuZXcgQXJyYXlMaXN0PFBhaXI8SW50ZWdlciwgSW50ZWdlcj4+KCk7CiAgICBidWZmZXIgPSBzZW50ZW5jZTsKICAgIGNhY2hlU2l6ZSA9IHNpemU7CiAgICBjYWNoZSA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgcHVzaEluZGV4ID0gLTE7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IGNhY2hlU2l6ZTsgaSsrKSB7CiAgICAgIGNhY2hlLmFkZCgtMSk7CiAgICB9CiAgICAvL3RoaXMuY2FjaGUgPSBuZXcgaW50W2NhY2hlU2l6ZV07CiAgICAvL2ZvciAoaW50IGkgPSAwOyBpIDwgY2FjaGVTaXplOyBpKyspCiAgICAvLyAgY2FjaGVbaV0gPSAtMTsKICAgIHRoaXMuZ3JhcGggPSBuZXcgQU1SR3JhcGgoKTs=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICogQGF1dGhvciBKb24gR2F1dGhpZXIK</text>
+        <text encoding="base64">ICBwdWJsaWMgCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICoge0BsaW5rICNwcmVkaWN0KGVkdS5zdGFuZm9yZC5ubHAudXRpbC5Db3JlTWFwKX0gb24gdGhlIHJldHVybmVkCg==</text>
+        <text encoding="base64">ICBmaW5hbAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICoge0BsaW5rICNsb2FkRnJvbU1vZGVsRmlsZShTdHJpbmcpfS4gVGhlbiBjYWxsCg==</text>
+        <text encoding="base64">ICogQGF1dGhvciBKb24gR2F1dGhpZXIK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgKiAgICAgICAgIChzZWUge0BsaW5rICNpbml0aWFsaXplKGJvb2xlYW4pfQo=</text>
+        <text encoding="base64">ICoge0BsaW5rICNwcmVkaWN0KGVkdS5zdGFuZm9yZC5ubHAudXRpbC5Db3JlTWFwKX0gb24gdGhlIHJldHVybmVkCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgKiBAcmV0dXJuIExvYWRlZCBhbmQgaW5pdGlhbGl6ZWQgKHNlZSB7QGxpbmsgI2luaXRpYWxpemUoYm9vbGVhbil9IG1vZGVsCg==</text>
+        <text encoding="base64">ICoge0BsaW5rICNsb2FkRnJvbU1vZGVsRmlsZShTdHJpbmcpfS4gVGhlbiBjYWxsCg==</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">ICAgKiAgICAgICAgIChzZWUge0BsaW5rICNpbml0aWFsaXplKGJvb2xlYW4pfQo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgKiBAcmV0dXJuIExvYWRlZCBhbmQgaW5pdGlhbGl6ZWQgKHNlZSB7QGxpbmsgI2luaXRpYWxpemUoYm9vbGVhbil9IG1vZGVsCg==</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">IAo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="9" type="4">
         <text>* New models can be trained from the command line; see {@link #main}
  * for details on training options. This parser will also output
  * CoNLL-X format predictions; again see {@link #main} for available
  * options.</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICB9Cg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -547,9 +547,9 @@
         <entry>wq</entry>
         <entry>670</entry>
         <entry>vs Util.java</entry>
-        <entry>vs AMRGraph.java</entry>
         <entry>vs CacheTransition.java</entry>
         <entry>1</entry>
+        <entry>vs AMRGraph.java</entry>
         <entry>w!</entry>
         <entry>w</entry>
       </history-cmd>
