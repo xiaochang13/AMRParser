@@ -41,8 +41,8 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1482178627742">
-        <mark key="'" line="118" column="10" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1482261435122">
+        <mark key="'" line="84" column="20" />
         <mark key="[" line="132" column="33" />
         <mark key="]" line="132" column="32" />
         <mark key="." line="132" column="32" />
@@ -51,12 +51,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482258650139">
-        <mark key="'" line="318" column="4" />
-        <mark key="[" line="83" column="75" />
-        <mark key="]" line="304" column="31" />
-        <mark key="." line="304" column="31" />
-        <mark key="^" line="304" column="31" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482261638750">
+        <mark key="'" line="690" column="11" />
+        <mark key="[" line="305" column="2" />
+        <mark key="]" line="266" column="2" />
+        <mark key="." line="266" column="2" />
+        <mark key="^" line="266" column="2" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -256,11 +256,11 @@
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482107981072">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1482261658618">
         <mark key="'" line="80" column="29" />
-        <mark key="[" line="139" column="47" />
-        <mark key="]" line="139" column="114" />
-        <mark key="." line="156" column="7" />
+        <mark key="[" line="154" column="0" />
+        <mark key="]" line="154" column="0" />
+        <mark key="." line="154" column="0" />
         <mark key="^" line="156" column="7" />
       </file>
       <file name="$USER_HOME$/AMRParser/notes" timestamp="1481718540996">
@@ -310,14 +310,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="694" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="334" column="101" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="215" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
-      <jump line="1238" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
-      <jump line="18" column="56" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="1176" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1223" column="3" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="669" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1271" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="793" column="107" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2" column="1" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -410,16 +402,24 @@
       <jump line="318" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="397" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="317" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="297" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="229" column="7" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="235" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="84" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="84" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1281" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="311" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="690" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>ID</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>ID</text>
       </register>
       <register name="/" type="4">
-        <text>knownWords</text>
+        <text>void train</text>
       </register>
       <register name="0" type="4">
         <text>c.connect(cacheIndex, 0, arcLabel.substring(1, arcLabel.length()-1));</text>
@@ -428,13 +428,13 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIGludCBuU3RhY2sgPSBzdGFjay5zaXplKCk7Cg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">Ly9Db3JlTWFwIHNlbnRlbmNlID0gbmV3IENvcmVMYWJlbCgpOwogICAgICAvL0xpc3Q8Q29yZUxhYmVsPiBzZW50ZW5jZVRva2VucyA9IG5ldyBBcnJheUxpc3Q8PigpOw==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIFN0cmluZ1tdCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
@@ -443,22 +443,22 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">IAo=</text>
+        <text encoding="base64">ICAgIGludCBuU3RhY2sgPSBzdGFjay5zaXplKCk7Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">IHB1YmxpYyBib29sZWFuIHJlbW92ZVRvcFN0YWNrKCkgewogICAgaW50IG5TdGFjayA9IGdldFN0YWNrU2l6ZSgpOwogICAgaWYgKG5TdGFjayA8IDEpCiAgICAgIHJldHVybiBmYWxzZTsKICAgIHN0YWNrLnJlbW92ZShuU3RhY2sgLSAxKTsKICAgIHJldHVybiB0cnVlOwogIH0=</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIFN0cmluZ1tdCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>knownWords</last-search>
+      <last-search>void train</last-search>
       <last-offset />
-      <last-pattern>knownWords</last-pattern>
+      <last-pattern>void train</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -485,7 +485,6 @@
         <entry>setPOS</entry>
         <entry>dev</entry>
         <entry>conll</entry>
-        <entry>void train</entry>
         <entry>next</entry>
         <entry>example</entry>
         <entry>readLines</entry>
@@ -514,12 +513,14 @@
         <entry>train</entry>
         <entry>configuration</entry>
         <entry>getOracle</entry>
-        <entry>apply</entry>
         <entry>void Ap</entry>
         <entry>pop</entry>
         <entry>makeTransitions</entry>
         <entry>sentence</entry>
         <entry>knownWords</entry>
+        <entry>knownWor</entry>
+        <entry>apply</entry>
+        <entry>void train</entry>
       </history-search>
       <history-cmd>
         <entry>469</entry>
