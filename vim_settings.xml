@@ -51,12 +51,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482182024676">
-        <mark key="'" line="153" column="28" />
-        <mark key="[" line="296" column="30" />
-        <mark key="]" line="296" column="32" />
-        <mark key="." line="296" column="32" />
-        <mark key="^" line="296" column="32" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482256819297">
+        <mark key="'" line="147" column="28" />
+        <mark key="[" line="255" column="58" />
+        <mark key="]" line="255" column="57" />
+        <mark key="." line="255" column="57" />
+        <mark key="^" line="255" column="57" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -452,7 +452,7 @@
         <text encoding="base64">ICAK</text>
       </register>
       <register name=":" type="4">
-        <text>1</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -541,9 +541,9 @@
         <entry>vs Util.java</entry>
         <entry>vs AMRGraph.java</entry>
         <entry>vs CacheTransition.java</entry>
+        <entry>1</entry>
         <entry>w!</entry>
         <entry>w</entry>
-        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
