@@ -51,12 +51,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482257772914">
-        <mark key="'" line="318" column="23" />
-        <mark key="[" line="255" column="58" />
-        <mark key="]" line="255" column="57" />
-        <mark key="." line="255" column="57" />
-        <mark key="^" line="255" column="57" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482258650139">
+        <mark key="'" line="318" column="4" />
+        <mark key="[" line="83" column="75" />
+        <mark key="]" line="304" column="31" />
+        <mark key="." line="304" column="31" />
+        <mark key="^" line="304" column="31" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -310,8 +310,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="326" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="351" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="694" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="334" column="101" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="215" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" />
@@ -410,13 +408,15 @@
       <jump line="153" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="274" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="318" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="397" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="317" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>co</text>
+        <text>ID</text>
       </register>
       <register name="-" type="4">
-        <text>co</text>
+        <text>ID</text>
       </register>
       <register name="/" type="4">
         <text>knownWords</text>
