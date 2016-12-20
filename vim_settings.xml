@@ -51,8 +51,8 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482256819297">
-        <mark key="'" line="147" column="28" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482257772914">
+        <mark key="'" line="318" column="23" />
         <mark key="[" line="255" column="58" />
         <mark key="]" line="255" column="57" />
         <mark key="." line="255" column="57" />
@@ -310,8 +310,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="89" column="67" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="326" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="351" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="694" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -410,6 +408,8 @@
       <jump line="95" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" />
       <jump line="97" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" />
       <jump line="153" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="274" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="318" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -419,7 +419,7 @@
         <text>co</text>
       </register>
       <register name="/" type="4">
-        <text>sentence</text>
+        <text>knownWords</text>
       </register>
       <register name="0" type="4">
         <text>c.connect(cacheIndex, 0, arcLabel.substring(1, arcLabel.length()-1));</text>
@@ -456,9 +456,9 @@
       </register>
     </registers>
     <search>
-      <last-search>sentence</last-search>
+      <last-search>knownWords</last-search>
       <last-offset />
-      <last-pattern>sentence</last-pattern>
+      <last-pattern>knownWords</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -519,6 +519,7 @@
         <entry>pop</entry>
         <entry>makeTransitions</entry>
         <entry>sentence</entry>
+        <entry>knownWords</entry>
       </history-search>
       <history-cmd>
         <entry>469</entry>
