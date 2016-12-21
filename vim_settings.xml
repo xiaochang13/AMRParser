@@ -107,12 +107,12 @@
         <mark key="[" line="34" column="2" />
         <mark key="]" line="34" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1482276119795">
-        <mark key="'" line="78" column="2" />
-        <mark key="[" line="14" column="30" />
-        <mark key="]" line="15" column="21" />
-        <mark key="." line="15" column="21" />
-        <mark key="^" line="15" column="21" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1482313377038">
+        <mark key="'" line="87" column="2" />
+        <mark key="[" line="42" column="3" />
+        <mark key="]" line="46" column="27" />
+        <mark key="." line="46" column="27" />
+        <mark key="^" line="46" column="27" />
       </file>
       <file name="$USER_HOME$/Library/Python/2.7/lib/python/site-packages/tensorflow/python/client/session.py" timestamp="1478042329266">
         <mark key="'" line="338" column="20" />
@@ -227,8 +227,12 @@
         <mark key="." line="34" column="19" />
         <mark key="^" line="34" column="19" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" timestamp="1482182146778">
-        <mark key="'" line="97" column="13" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" timestamp="1482313293622">
+        <mark key="'" line="94" column="13" />
+        <mark key="[" line="106" column="25" />
+        <mark key="]" line="106" column="55" />
+        <mark key="^" line="106" column="55" />
+        <mark key="." line="106" column="55" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/ParsingSystem.java" timestamp="1478090963814">
         <mark key="'" line="108" column="4" />
@@ -412,17 +416,17 @@
       <jump line="28" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICBwdWJsaWMgCg==</text>
+      <register name="&quot;" type="4">
+        <text>v</text>
       </register>
       <register name="-" type="4">
-        <text>sentence.get(CoreAnnotations.TokensAnnotation.class)</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>Configuration</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">c3RhY2sgPSBuZXcgQXJyYXlMaXN0PFBhaXI8SW50ZWdlciwgSW50ZWdlcj4+KCk7CiAgICBidWZmZXIgPSBzZW50ZW5jZTsKICAgIGNhY2hlU2l6ZSA9IHNpemU7CiAgICBjYWNoZSA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgcHVzaEluZGV4ID0gLTE7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IGNhY2hlU2l6ZTsgaSsrKSB7CiAgICAgIGNhY2hlLmFkZCgtMSk7CiAgICB9CiAgICAvL3RoaXMuY2FjaGUgPSBuZXcgaW50W2NhY2hlU2l6ZV07CiAgICAvL2ZvciAoaW50IGkgPSAwOyBpIDwgY2FjaGVTaXplOyBpKyspCiAgICAvLyAgY2FjaGVbaV0gPSAtMTsKICAgIHRoaXMuZ3JhcGggPSBuZXcgQU1SR3JhcGgoKTs=</text>
+        <text encoding="base64">TWFwPEludGVnZXIsIEludGVnZXI+</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICBwdWJsaWMgCg==</text>
@@ -455,7 +459,7 @@
  * options.</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>w!</text>
       </register>
     </registers>
     <search>
@@ -550,8 +554,8 @@
         <entry>vs CacheTransition.java</entry>
         <entry>1</entry>
         <entry>vs AMRGraph.java</entry>
-        <entry>w!</entry>
         <entry>w</entry>
+        <entry>w!</entry>
       </history-cmd>
       <history-expr />
       <history-input />
