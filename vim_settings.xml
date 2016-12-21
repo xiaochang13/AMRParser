@@ -51,12 +51,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482322391599">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482323452737">
         <mark key="'" line="1022" column="23" />
-        <mark key="[" line="304" column="50" />
-        <mark key="]" line="305" column="36" />
-        <mark key="." line="305" column="36" />
-        <mark key="^" line="305" column="36" />
+        <mark key="[" line="308" column="56" />
+        <mark key="]" line="308" column="56" />
+        <mark key="." line="308" column="56" />
+        <mark key="^" line="308" column="78" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -416,11 +416,11 @@
       <jump line="190" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpbnQgY2FjaGVJbmRleCA9IGNob29zZVZlcnRleChjYWNoZSwgYnVmZmVyLCBoZWFkVG9UYWlsLCB0YWlsVG9IZWFkLCB3b3JkVG9Db25jZXB0KTsKICAgICAgICBTdHJpbmcgYWN0aW9uID0gCg==</text>
+      <register name="&quot;" type="4">
+        <text>[conceptIndex].value();</text>
       </register>
       <register name="-" type="4">
-        <text>=</text>
+        <text>[conceptIndex].value();</text>
       </register>
       <register name="/" type="4">
         <text>buildEdge</text>
@@ -456,7 +456,7 @@
         <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>w!</text>
       </register>
     </registers>
     <search>
@@ -554,8 +554,8 @@
         <entry>1</entry>
         <entry>vs AMRConfiguration.java</entry>
         <entry>e ~/buffer</entry>
-        <entry>w!</entry>
         <entry>w</entry>
+        <entry>w!</entry>
       </history-cmd>
       <history-expr />
       <history-input />
