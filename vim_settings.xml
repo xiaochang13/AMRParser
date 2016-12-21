@@ -51,12 +51,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482320717068">
-        <mark key="'" line="962" column="23" />
-        <mark key="[" line="252" column="81" />
-        <mark key="]" line="253" column="12" />
-        <mark key="^" line="253" column="12" />
-        <mark key="." line="253" column="12" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482322391599">
+        <mark key="'" line="1022" column="23" />
+        <mark key="[" line="304" column="50" />
+        <mark key="]" line="305" column="36" />
+        <mark key="." line="305" column="36" />
+        <mark key="^" line="305" column="36" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -281,10 +281,10 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1482320662392">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1482322196248">
         <mark key="'" line="50" column="39" />
-        <mark key="[" line="98" column="92" />
-        <mark key="]" line="98" column="92" />
+        <mark key="[" line="84" column="4" />
+        <mark key="]" line="108" column="4" />
         <mark key="." line="98" column="92" />
         <mark key="^" line="98" column="92" />
       </file>
@@ -416,44 +416,44 @@
       <jump line="190" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>and</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBpbnQgY2FjaGVJbmRleCA9IGNob29zZVZlcnRleChjYWNoZSwgYnVmZmVyLCBoZWFkVG9UYWlsLCB0YWlsVG9IZWFkLCB3b3JkVG9Db25jZXB0KTsKICAgICAgICBTdHJpbmcgYWN0aW9uID0gCg==</text>
       </register>
       <register name="-" type="4">
-        <text>and</text>
+        <text>=</text>
       </register>
       <register name="/" type="4">
         <text>buildEdge</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">KExpc3Q8U3RyaW5nW10+IHNlbnRzLCBMaXN0PFN0cmluZ1tdPiBwb3NzLCBMaXN0PEFNUkdyYXBoPiBncmFwaHMp</text>
+        <text encoding="base64">aW50IG1heERpc3QgPSAtMTsKICAgIGludCBtYXhJbmRleCA9IC0xOwogICAgZm9yIChpbnQgY2FjaGVQb3MgPSAwOyBjYWNoZVBvcyA8IGNhY2hlLnNpemUoKTsgY2FjaGVQb3MrKykgewogICAgICBpbnQgY2FjaGVWZXJ0ZXggPSBjYWNoZS5nZXQoY2FjaGVQb3MpOwogICAgICBpbnQgY3VyckRpc3QgPSAxMDAwOwogICAgICBTZXQ8SW50ZWdlcj4gdGFpbFNldCA9IGhlYWRUb1RhaWwuZ2V0KGNhY2hlVmVydGV4KTsKICAgICAgU2V0PEludGVnZXI+IGhlYWRTZXQgPSBudWxsOwogICAgICBpZiAodGFpbFRvSGVhZC5jb250YWluc0tleShjYWNoZVZlcnRleCkpCiAgICAgICAgaGVhZFNldCA9IHRhaWxUb0hlYWQuZ2V0KGNhY2hlVmVydGV4KTsKICAgICAgLy9TZXQ8SW50ZWdlcj4gaGVhZFNldCA9IHRhaWxUb0hlYWQuZ2V0KGNhY2hlVmVyKQogICAgICBmb3IgKGludCBidWZmZXJQb3MgPSAwOyBidWZmZXJQb3MgPCBidWZmZXIuc2l6ZSgpOyBidWZmZXJQb3MrKykgewogICAgICAgIGludCB3b3JkSW5kZXggPSBidWZmZXIuZ2V0KGJ1ZmZlclBvcyk7CiAgICAgICAgaWYgKHdvcmRUb0NvbmNlcHQuY29udGFpbnNLZXkod29yZEluZGV4KSkgewogICAgICAgICAgaW50IGJ1ZmZJbmRleCA9IHdvcmRUb0NvbmNlcHQuZ2V0KHdvcmRJbmRleCk7CiAgICAgICAgICBpZiAodGFpbFNldC5jb250YWlucyhidWZmSW5kZXgpIHx8IChoZWFkU2V0ICE9IG51bGwgJiYgaGVhZFNldC5jb250YWlucyhidWZmSW5kZXgpKSkgewogICAgICAgICAgICBjdXJyRGlzdCA9IGJ1ZmZlclBvczsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICB9CiAgICAgICAgfQogICAgICB9CiAgICAgIGlmIChjdXJyRGlzdCA+IG1heERpc3QpIHsKICAgICAgICBtYXhJbmRleCA9IGNhY2hlUG9zOwogICAgICAgIG1heERpc3QgPSBjdXJyRGlzdDsKICAgICAgfQogICAgfQ==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpbnQgY2FjaGVJbmRleCA9IGNob29zZVZlcnRleChjYWNoZSwgYnVmZmVyLCBoZWFkVG9UYWlsLCB0YWlsVG9IZWFkLCB3b3JkVG9Db25jZXB0KTsKICAgICAgICBTdHJpbmcgYWN0aW9uID0gCg==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">ICAgICAgfQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgfQo=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+      <register name="4" type="4">
+        <text encoding="base64">TGlzdDxQYWlyPEludGVnZXIsIEludGVnZXI+PiBzdGFjayA9IG5ldyBBcnJheUxpc3Q8UGFpcjxJbnRlZ2VyLCBJbnRlZ2VyPj4oKTsKICAgIExpc3Q8SW50ZWdlcj4gYnVmZmVyID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBMaXN0PEludGVnZXI+IGNhY2hlID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IDc7IGkrKykgewogICAgICBjYWNoZS5hZGQoLTEpOwogICAgfQogICAgZm9yIChpbnQgaSA9IDA7IGkgPCA3OyBpKyspIHsKICAgICAgY2FjaGUuYWRkKC0xKTsKICAgIH0=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIH0K</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">Ly9HaXZlbiB0aGUgQU1SIGdyYXBoLCBjaG9vc2UgdGhlIHZlcnRleCBpbiBjYWNoZSB0aGF0IHdpbGwKICAvLyBoYXZlIHRoZSBmdXJ0aGVzdCBjb25uZWN0aW9uCiAgcHVibGljIGludCBjaG9vc2VDYWNoZShBTVJHcmFwaCBncmFwaCkgewogICAgTWFwPEludGVnZXIsIEludGVnZXI+IGhlYWRUb1RhaWwgPSBncmFwaC5oZWFkVG9UYWlsOwogICAgTWFwPEludGVnZXIsIEludGVnZXI+IHRhaWxUb0hlYWQgPSBncmFwaC50YWlsVG9IZWFkOwoKICAgIHJldHVybiAwOwogIH0=</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgfQo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlIHsK</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -553,6 +553,7 @@
         <entry>vs AMRGraph.java</entry>
         <entry>1</entry>
         <entry>vs AMRConfiguration.java</entry>
+        <entry>e ~/buffer</entry>
         <entry>w!</entry>
         <entry>w</entry>
       </history-cmd>
