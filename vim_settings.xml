@@ -51,12 +51,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482865007412">
-        <mark key="'" line="280" column="64" />
-        <mark key="[" line="281" column="0" />
-        <mark key="]" line="281" column="0" />
-        <mark key="." line="281" column="0" />
-        <mark key="^" line="325" column="9" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482866701286">
+        <mark key="'" line="286" column="64" />
+        <mark key="[" line="278" column="0" />
+        <mark key="]" line="279" column="97" />
+        <mark key="." line="279" column="97" />
+        <mark key="^" line="279" column="97" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -416,19 +416,17 @@
       <jump line="50" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>(L)</text>
       </register>
       <register name="-" type="4">
-        <text>out</text>
+        <text>(L)</text>
       </register>
       <register name="/" type="4">
         <text>oracleSeq</text>
       </register>
       <register name="0" type="4">
-        <text>if (headToTail.get(conceptIndex).contains(currCacheIndex)) {
-              System.out.println(&quot;EdgeTo&quot;+index);
-            }</text>
+        <text encoding="base64">KExpc3Q8SW50ZWdlcj5jYWNoZSwgTGlzdDxJbnRlZ2VyPmJ1ZmZlciwgTWFwPEludGVnZXIsIFNldDxJbnRlZ2VyPj4gaGVhZFRvVGFpbCwKICAgICAgICAgICAgICAgICAgICAgICAgICBNYXA8SW50ZWdlciwgU2V0PEludGVnZXI+PiB0YWlsVG9IZWFkLCBNYXA8SW50ZWdlciwgSW50ZWdlcj4gd29yZFRvQ29uY2VwdCk=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
