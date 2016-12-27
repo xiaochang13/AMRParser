@@ -51,12 +51,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482323671252">
-        <mark key="'" line="1022" column="23" />
-        <mark key="[" line="309" column="36" />
-        <mark key="]" line="309" column="36" />
-        <mark key="." line="309" column="36" />
-        <mark key="^" line="309" column="36" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482849606884">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="38" />
+        <mark key="]" line="0" column="10" />
+        <mark key="." line="0" column="10" />
+        <mark key="^" line="0" column="10" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -314,8 +314,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="127" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="260" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="103" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="105" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="136" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
@@ -414,6 +412,8 @@
       <jump line="951" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="14" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
       <jump line="190" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="302" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -423,7 +423,7 @@
         <text>&quot;Action &quot;</text>
       </register>
       <register name="/" type="4">
-        <text>buildEdge</text>
+        <text>oracleSeq</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">aW50IG1heERpc3QgPSAtMTsKICAgIGludCBtYXhJbmRleCA9IC0xOwogICAgZm9yIChpbnQgY2FjaGVQb3MgPSAwOyBjYWNoZVBvcyA8IGNhY2hlLnNpemUoKTsgY2FjaGVQb3MrKykgewogICAgICBpbnQgY2FjaGVWZXJ0ZXggPSBjYWNoZS5nZXQoY2FjaGVQb3MpOwogICAgICBpbnQgY3VyckRpc3QgPSAxMDAwOwogICAgICBTZXQ8SW50ZWdlcj4gdGFpbFNldCA9IGhlYWRUb1RhaWwuZ2V0KGNhY2hlVmVydGV4KTsKICAgICAgU2V0PEludGVnZXI+IGhlYWRTZXQgPSBudWxsOwogICAgICBpZiAodGFpbFRvSGVhZC5jb250YWluc0tleShjYWNoZVZlcnRleCkpCiAgICAgICAgaGVhZFNldCA9IHRhaWxUb0hlYWQuZ2V0KGNhY2hlVmVydGV4KTsKICAgICAgLy9TZXQ8SW50ZWdlcj4gaGVhZFNldCA9IHRhaWxUb0hlYWQuZ2V0KGNhY2hlVmVyKQogICAgICBmb3IgKGludCBidWZmZXJQb3MgPSAwOyBidWZmZXJQb3MgPCBidWZmZXIuc2l6ZSgpOyBidWZmZXJQb3MrKykgewogICAgICAgIGludCB3b3JkSW5kZXggPSBidWZmZXIuZ2V0KGJ1ZmZlclBvcyk7CiAgICAgICAgaWYgKHdvcmRUb0NvbmNlcHQuY29udGFpbnNLZXkod29yZEluZGV4KSkgewogICAgICAgICAgaW50IGJ1ZmZJbmRleCA9IHdvcmRUb0NvbmNlcHQuZ2V0KHdvcmRJbmRleCk7CiAgICAgICAgICBpZiAodGFpbFNldC5jb250YWlucyhidWZmSW5kZXgpIHx8IChoZWFkU2V0ICE9IG51bGwgJiYgaGVhZFNldC5jb250YWlucyhidWZmSW5kZXgpKSkgewogICAgICAgICAgICBjdXJyRGlzdCA9IGJ1ZmZlclBvczsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICB9CiAgICAgICAgfQogICAgICB9CiAgICAgIGlmIChjdXJyRGlzdCA+IG1heERpc3QpIHsKICAgICAgICBtYXhJbmRleCA9IGNhY2hlUG9zOwogICAgICAgIG1heERpc3QgPSBjdXJyRGlzdDsKICAgICAgfQogICAgfQ==</text>
@@ -456,13 +456,13 @@
         <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>1</text>
       </register>
     </registers>
     <search>
-      <last-search>buildEdge</last-search>
+      <last-search>oracleSeq</last-search>
       <last-offset />
-      <last-pattern>buildEdge</last-pattern>
+      <last-pattern>oracleSeq</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -470,45 +470,6 @@
     </search>
     <history>
       <history-search>
-        <entry>b1</entry>
-        <entry>tf</entry>
-        <entry>train(</entry>
-        <entry>Util</entry>
-        <entry>labels</entry>
-        <entry>precom</entry>
-        <entry>precomp</entry>
-        <entry>process</entry>
-        <entry>gradW1</entry>
-        <entry>exa</entry>
-        <entry>cost</entry>
-        <entry>gradSaved</entry>
-        <entry>parseTextFile</entry>
-        <entry>parser</entry>
-        <entry>trees</entry>
-        <entry>tree</entry>
-        <entry>setPOS</entry>
-        <entry>dev</entry>
-        <entry>conll</entry>
-        <entry>next</entry>
-        <entry>example</entry>
-        <entry>readLines</entry>
-        <entry>loadDe</entry>
-        <entry>load</entry>
-        <entry>loadC</entry>
-        <entry>sents</entry>
-        <entry>add</entry>
-        <entry>void add</entry>
-        <entry>rootNum</entry>
-        <entry>concept</entry>
-        <entry>genDict</entry>
-        <entry>tlp</entry>
-        <entry>getLa</entry>
-        <entry>getLabelID</entry>
-        <entry>getWordID</entry>
-        <entry>transitions</entry>
-        <entry>init</entry>
-        <entry>system</entry>
-        <entry>system =</entry>
         <entry>numTransitions</entry>
         <entry>initialConfi</entry>
         <entry>AMRConfiguration</entry>
@@ -529,13 +490,9 @@
         <entry>knownWOr</entry>
         <entry>Configuration</entry>
         <entry>buildEdge</entry>
+        <entry>oracleSeq</entry>
       </history-search>
       <history-cmd>
-        <entry>469</entry>
-        <entry>vs hrg_sampler.py</entry>
-        <entry>vs HRGSample.py</entry>
-        <entry>674</entry>
-        <entry>889</entry>
         <entry>521</entry>
         <entry>vs hrg_learn.py</entry>
         <entry>829</entry>
@@ -551,11 +508,11 @@
         <entry>vs Util.java</entry>
         <entry>vs CacheTransition.java</entry>
         <entry>vs AMRGraph.java</entry>
-        <entry>1</entry>
         <entry>vs AMRConfiguration.java</entry>
         <entry>e ~/buffer</entry>
         <entry>w!</entry>
         <entry>w</entry>
+        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
