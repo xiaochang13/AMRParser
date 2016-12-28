@@ -51,12 +51,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482866701286">
-        <mark key="'" line="286" column="64" />
-        <mark key="[" line="278" column="0" />
-        <mark key="]" line="279" column="97" />
-        <mark key="." line="279" column="97" />
-        <mark key="^" line="279" column="97" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482867826843">
+        <mark key="'" line="302" column="64" />
+        <mark key="[" line="294" column="10" />
+        <mark key="]" line="294" column="22" />
+        <mark key="." line="294" column="22" />
+        <mark key="^" line="294" column="22" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -417,43 +417,45 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>(L)</text>
+        <text>currDist = bufferPos;
+          break;</text>
       </register>
       <register name="-" type="4">
-        <text>(L)</text>
+        <text>cacheVertex</text>
       </register>
       <register name="/" type="4">
         <text>oracleSeq</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">KExpc3Q8SW50ZWdlcj5jYWNoZSwgTGlzdDxJbnRlZ2VyPmJ1ZmZlciwgTWFwPEludGVnZXIsIFNldDxJbnRlZ2VyPj4gaGVhZFRvVGFpbCwKICAgICAgICAgICAgICAgICAgICAgICAgICBNYXA8SW50ZWdlciwgU2V0PEludGVnZXI+PiB0YWlsVG9IZWFkLCBNYXA8SW50ZWdlciwgSW50ZWdlcj4gd29yZFRvQ29uY2VwdCk=</text>
+        <text encoding="base64">U2V0PEludGVnZXI+</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>currDist = bufferPos;
+          break;</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbnQgY2FjaGVJbmRleCA9IGNob29zZVZlcnRleChjYWNoZSwgYnVmZmVyLCBoZWFkVG9UYWlsLCB0YWlsVG9IZWFkLCB3b3JkVG9Db25jZXB0KTsKICAgICAgICBTdHJpbmcgYWN0aW9uID0gCg==</text>
+      <register name="2" type="8">
+        <text encoding="base64">ICAKICAKICAKICAKICAKICA=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">TGlzdDxQYWlyPEludGVnZXIsIEludGVnZXI+PiBzdGFjayA9IG5ldyBBcnJheUxpc3Q8UGFpcjxJbnRlZ2VyLCBJbnRlZ2VyPj4oKTsKICAgIExpc3Q8SW50ZWdlcj4gYnVmZmVyID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBMaXN0PEludGVnZXI+IGNhY2hlID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IDc7IGkrKykgewogICAgICBjYWNoZS5hZGQoLTEpOwogICAgfQogICAgZm9yIChpbnQgaSA9IDA7IGkgPCA3OyBpKyspIHsKICAgICAgY2FjaGUuYWRkKC0xKTsKICAgIH0=</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBpbnQgY2FjaGVJbmRleCA9IGNob29zZVZlcnRleChjYWNoZSwgYnVmZmVyLCBoZWFkVG9UYWlsLCB0YWlsVG9IZWFkLCB3b3JkVG9Db25jZXB0KTsKICAgICAgICBTdHJpbmcgYWN0aW9uID0gCg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgfQo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgfQo=</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">TGlzdDxQYWlyPEludGVnZXIsIEludGVnZXI+PiBzdGFjayA9IG5ldyBBcnJheUxpc3Q8UGFpcjxJbnRlZ2VyLCBJbnRlZ2VyPj4oKTsKICAgIExpc3Q8SW50ZWdlcj4gYnVmZmVyID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBMaXN0PEludGVnZXI+IGNhY2hlID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IDc7IGkrKykgewogICAgICBjYWNoZS5hZGQoLTEpOwogICAgfQogICAgZm9yIChpbnQgaSA9IDA7IGkgPCA3OyBpKyspIHsKICAgICAgY2FjaGUuYWRkKC0xKTsKICAgIH0=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
