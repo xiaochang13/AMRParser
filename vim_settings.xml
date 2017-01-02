@@ -41,20 +41,20 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1482274808549">
-        <mark key="'" line="71" column="51" />
-        <mark key="[" line="227" column="26" />
-        <mark key="]" line="227" column="28" />
-        <mark key="." line="227" column="28" />
-        <mark key="^" line="227" column="28" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1483351121334">
+        <mark key="'" line="73" column="51" />
+        <mark key="[" line="168" column="22" />
+        <mark key="]" line="168" column="63" />
+        <mark key="." line="168" column="63" />
+        <mark key="^" line="168" column="63" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1483350353599">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1483350847029">
         <mark key="'" line="384" column="36" />
-        <mark key="[" line="294" column="10" />
-        <mark key="]" line="294" column="22" />
+        <mark key="[" line="317" column="6" />
+        <mark key="]" line="319" column="63" />
         <mark key="." line="294" column="22" />
         <mark key="^" line="294" column="22" />
       </file>
@@ -417,17 +417,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>currDist = bufferPos;
-          break;</text>
+        <text>Map</text>
       </register>
       <register name="-" type="4">
-        <text>cacheVertex</text>
+        <text>Map</text>
       </register>
       <register name="/" type="4">
         <text>oracleSeq</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">U2V0PEludGVnZXI+</text>
+        <text encoding="base64">TWFwPEludGVnZXIsIFNldDxJbnRlZ2VyPj4gaGVhZFRvVGFpbCA9IGdyYXBoLmhlYWRUb1RhaWw7CiAgICAgIE1hcDxJbnRlZ2VyLCBTZXQ8SW50ZWdlcj4+IHRhaWxUb0hlYWQgPSBncmFwaC50YWlsVG9IZWFkOwogICAgICBNYXA8SW50ZWdlciwgSW50ZWdlcj4gd29yZFRvQ29uY2VwdCA9IGdyYXBoLndvcmRUb0NvbmNlcHQ7</text>
       </register>
       <register name="1" type="4">
         <text>currDist = bufferPos;
