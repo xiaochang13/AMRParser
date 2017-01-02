@@ -41,12 +41,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1483357952543">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1483358748418">
         <mark key="'" line="75" column="51" />
-        <mark key="[" line="201" column="17" />
-        <mark key="]" line="201" column="23" />
-        <mark key="." line="201" column="23" />
-        <mark key="^" line="201" column="23" />
+        <mark key="[" line="214" column="34" />
+        <mark key="]" line="214" column="37" />
+        <mark key="." line="214" column="37" />
+        <mark key="^" line="214" column="37" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
@@ -417,10 +417,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>null</text>
+        <text>POP</text>
       </register>
       <register name="-" type="4">
-        <text>null</text>
+        <text>POP</text>
       </register>
       <register name="/" type="4">
         <text>oracleSeq</text>
