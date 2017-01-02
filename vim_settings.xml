@@ -51,8 +51,8 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1482867826843">
-        <mark key="'" line="302" column="64" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1483350353599">
+        <mark key="'" line="384" column="36" />
         <mark key="[" line="294" column="10" />
         <mark key="]" line="294" column="22" />
         <mark key="." line="294" column="22" />
@@ -314,7 +314,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="163" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="206" column="32" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="278" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="37" column="43" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
@@ -414,6 +413,7 @@
       <jump line="112" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="280" column="64" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="50" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
+      <jump line="384" column="36" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -468,11 +468,10 @@
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>numTransitions</entry>
         <entry>initialConfi</entry>
         <entry>AMRConfiguration</entry>
         <entry>isTermin</entry>
@@ -495,7 +494,6 @@
         <entry>oracleSeq</entry>
       </history-search>
       <history-cmd>
-        <entry>521</entry>
         <entry>vs hrg_learn.py</entry>
         <entry>829</entry>
         <entry>1020</entry>
