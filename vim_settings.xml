@@ -41,12 +41,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1483356456539">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1483357952543">
         <mark key="'" line="75" column="51" />
-        <mark key="[" line="213" column="87" />
-        <mark key="]" line="214" column="5" />
-        <mark key="^" line="214" column="5" />
-        <mark key="." line="214" column="5" />
+        <mark key="[" line="201" column="17" />
+        <mark key="]" line="201" column="23" />
+        <mark key="." line="201" column="23" />
+        <mark key="^" line="201" column="23" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
@@ -417,10 +417,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>s</text>
+        <text>null</text>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text>null</text>
       </register>
       <register name="/" type="4">
         <text>oracleSeq</text>
@@ -429,33 +429,33 @@
         <text>&quot;PUSH:&quot; + (cacheVertex+1)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgcmV0dXJuIDsK</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="8">
-        <text encoding="base64">ICAKICA=</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="8">
+        <text encoding="base64">ICAKICA=</text>
+      </register>
+      <register name="5" type="8">
         <text>//
 //</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>//int conceptIndex = wordToConcept.get(wordIndex);
         //return &quot;conID:&quot; + graph.concepts.get(conceptIndex).value();</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICByZXR1cm4gIlBVU0g6MCI7IC8vSWRlbnRpZmllZCBhbiB1bmFsaWduZWQgd29yZAo=</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICByZXR1cm4gYy5sYXN0QWN0aW9uOwo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgYy5sYXN0QWN0aW9uID0K</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGludCBjYWNoZVNpemUgPSBjLmNhY2hlU2l6ZTsK</text>
+        <text encoding="base64">ICAgICAgYy5sYXN0QWN0aW9uID0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
