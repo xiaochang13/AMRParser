@@ -51,12 +51,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1484437174127">
-        <mark key="'" line="398" column="16" />
-        <mark key="[" line="346" column="2" />
-        <mark key="]" line="346" column="3" />
-        <mark key="^" line="346" column="3" />
-        <mark key="." line="346" column="3" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1484438800834">
+        <mark key="'" line="357" column="26" />
+        <mark key="[" line="385" column="44" />
+        <mark key="]" line="385" column="48" />
+        <mark key="^" line="385" column="48" />
+        <mark key="." line="385" column="48" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -107,12 +107,12 @@
         <mark key="[" line="34" column="2" />
         <mark key="]" line="34" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1483376866328">
-        <mark key="'" line="14" column="15" />
-        <mark key="[" line="49" column="37" />
-        <mark key="]" line="49" column="37" />
-        <mark key="." line="49" column="37" />
-        <mark key="^" line="45" column="54" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1484439059705">
+        <mark key="'" line="48" column="10" />
+        <mark key="[" line="76" column="20" />
+        <mark key="]" line="77" column="10" />
+        <mark key="." line="77" column="10" />
+        <mark key="^" line="77" column="10" />
       </file>
       <file name="$USER_HOME$/Library/Python/2.7/lib/python/site-packages/tensorflow/python/client/session.py" timestamp="1478042329266">
         <mark key="'" line="338" column="20" />
@@ -315,8 +315,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="178" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
-      <jump line="307" column="32" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="703" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="309" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="67" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" />
@@ -351,7 +349,6 @@
       <jump line="227" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="237" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="38" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="68" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="71" column="51" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="85" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="274" column="38" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -415,16 +412,19 @@
       <jump line="233" column="15" filename="$USER_HOME$/github_projects/seq2graph/tfamr/src/seq2seq_model.py" />
       <jump line="118" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="396" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="357" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="68" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="48" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+      <register name="&quot;" type="4">
+        <text>graphs.get(i)</text>
       </register>
       <register name="-" type="4">
-        <text>//}</text>
+        <text>graphs.get(i)</text>
       </register>
       <register name="/" type="4">
-        <text>getOracle</text>
+        <text>add</text>
       </register>
       <register name="0" type="4">
         <text>&quot;PUSH:&quot; + (cacheVertex+1)</text>
@@ -465,13 +465,13 @@
       </register>
     </registers>
     <search>
-      <last-search>getOracle</last-search>
+      <last-search>add</last-search>
       <last-offset />
-      <last-pattern>getOracle</last-pattern>
+      <last-pattern>add</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
@@ -495,6 +495,7 @@
         <entry>removeTop</entry>
         <entry>rels</entry>
         <entry>getOracle</entry>
+        <entry>add</entry>
       </history-search>
       <history-cmd>
         <entry>vs hrg_learn.py</entry>
