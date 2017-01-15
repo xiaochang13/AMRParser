@@ -282,12 +282,12 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1484499581209">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1484501423088">
         <mark key="'" line="124" column="15" />
-        <mark key="[" line="30" column="2" />
-        <mark key="]" line="30" column="2" />
-        <mark key="." line="30" column="2" />
-        <mark key="^" line="49" column="17" />
+        <mark key="[" line="130" column="42" />
+        <mark key="]" line="130" column="50" />
+        <mark key="." line="130" column="50" />
+        <mark key="^" line="130" column="50" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
         <mark key="'" line="91" column="8" />
@@ -418,10 +418,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ZmluYWwg</text>
+        <text>graph</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ZmluYWwg</text>
+        <text>graph</text>
       </register>
       <register name="/" type="4">
         <text>aligned</text>
@@ -459,7 +459,7 @@
         <text encoding="base64">ICAgICAgLy8K</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>w!</text>
       </register>
     </registers>
     <search>
@@ -515,8 +515,8 @@
         <entry>vs AMRParser</entry>
         <entry>vs AMRParser.java</entry>
         <entry>1</entry>
-        <entry>w!</entry>
         <entry>w</entry>
+        <entry>w!</entry>
       </history-cmd>
       <history-expr />
       <history-input />
