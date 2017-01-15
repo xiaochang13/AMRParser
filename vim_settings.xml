@@ -282,12 +282,12 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1484497826420">
-        <mark key="'" line="118" column="15" />
-        <mark key="[" line="124" column="27" />
-        <mark key="]" line="124" column="39" />
-        <mark key="." line="124" column="39" />
-        <mark key="^" line="124" column="39" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1484499581209">
+        <mark key="'" line="124" column="15" />
+        <mark key="[" line="30" column="2" />
+        <mark key="]" line="30" column="2" />
+        <mark key="." line="30" column="2" />
+        <mark key="^" line="49" column="17" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
         <mark key="'" line="91" column="8" />
@@ -418,47 +418,45 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">TWFwPEludGVnZXIsIFNldDxJbnRlZ2VyPj4gdGFpbFRvSGVhZA==</text>
+        <text encoding="base64">ZmluYWwg</text>
       </register>
       <register name="-" type="4">
-        <text>graphs.get(i)</text>
+        <text encoding="base64">ZmluYWwg</text>
       </register>
       <register name="/" type="4">
         <text>aligned</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">TWFwPEludGVnZXIsIFNldDxJbnRlZ2VyPj4gdGFpbFRvSGVhZA==</text>
+        <text>final AMRGraph graph;</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="2">
+      <register name="2" type="4">
+        <text>currDist = bufferPos;
+          break;</text>
+      </register>
+      <register name="3" type="8">
+        <text encoding="base64">ICAKICAKICAKICAKICAKICAKICAKICAKICA=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="6" type="4">
         <text>//if (graphs.get(i).isProjective()) {
       //AMRConfiguration c = system.initialConfiguration(config.CACHE, sents.get(i));</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBpZiAoYy5sYXN0QWN0aW9uKQo=</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgLy8K</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="4">
-        <text>int cacheIndex = 0;
-      if (!c.lastAction.equals(&quot;conID&quot;))
-        cacheIndex = Integer.parseInt(c.lastAction.substring(4)) + 1;
-      if</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgLy8K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
