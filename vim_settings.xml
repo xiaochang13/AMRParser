@@ -41,12 +41,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484251214725">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484454169134">
         <mark key="'" line="118" column="2" />
-        <mark key="[" line="243" column="41" />
-        <mark key="]" line="244" column="20" />
-        <mark key="." line="244" column="20" />
-        <mark key="^" line="244" column="20" />
+        <mark key="[" line="199" column="4" />
+        <mark key="]" line="199" column="40" />
+        <mark key="." line="202" column="39" />
+        <mark key="^" line="202" column="39" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
@@ -282,12 +282,12 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1483376111691">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1484454269240">
         <mark key="'" line="118" column="15" />
-        <mark key="[" line="119" column="3" />
-        <mark key="]" line="122" column="27" />
-        <mark key="." line="122" column="27" />
-        <mark key="^" line="122" column="27" />
+        <mark key="[" line="122" column="57" />
+        <mark key="]" line="123" column="26" />
+        <mark key="." line="123" column="26" />
+        <mark key="^" line="123" column="26" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
         <mark key="'" line="91" column="8" />
@@ -417,8 +417,8 @@
       <jump line="385" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">TWFwPEludGVnZXIsIFNldDxJbnRlZ2VyPj4gdGFpbFRvSGVhZA==</text>
       </register>
       <register name="-" type="4">
         <text>graphs.get(i)</text>
@@ -427,7 +427,7 @@
         <text>aligned</text>
       </register>
       <register name="0" type="4">
-        <text>&quot;PUSH:&quot; + (cacheVertex+1)</text>
+        <text encoding="base64">TWFwPEludGVnZXIsIFNldDxJbnRlZ2VyPj4gdGFpbFRvSGVhZA==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
