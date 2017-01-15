@@ -41,12 +41,11 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484514766492">
-        <mark key="'" line="213" column="36" />
-        <mark key="[" line="213" column="81" />
-        <mark key="]" line="214" column="31" />
-        <mark key="." line="214" column="31" />
-        <mark key="^" line="214" column="31" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484516707981">
+        <mark key="[" line="220" column="18" />
+        <mark key="]" line="220" column="18" />
+        <mark key="." line="220" column="18" />
+        <mark key="^" line="222" column="8" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
@@ -418,30 +417,43 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>startsWith</text>
+        <text>conID1</text>
       </register>
       <register name="-" type="4">
-        <text>startsWith</text>
+        <text>conID1</text>
       </register>
       <register name="/" type="4">
         <text>aligned</text>
       </register>
       <register name="0" type="4">
-        <text>if(!c.pop()) {
-        System.err.println(&quot;pop error!&quot;);
-        assert false;
+        <text>action = &quot;conID1:&quot; + graph.concepts.get(conceptIndex).value();</text>
+      </register>
+      <register name="1" type="4">
+        <text>c.lastAction = &quot;PUSH&quot;;
+      if (!graph.nextIsAligned() || wordToConcept.containsKey(wordIndex)) {
+        //First choose a position in the cache to push concept to and push that vertex in to stack
+        int cacheVertex = chooseVertex(c, headToTail, tailToHead, wordToConcept);
+        c.pushStack(cacheVertex);
+        action = &quot;PUSH:&quot; + (cacheVertex+1);
       }
-      c.lastAction = &quot;POP&quot;;
-      action = &quot;POP&quot;;</text>
+      else {
+        action = &quot;PUSH:0&quot;;
+      }</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAvL3N0YXJ0QWN0aW9uID0gZmFsc2U7Cg==</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>// identification of current word
+      int conceptIndex = -1;
+      if (!graph.nextIsAligned())
+        conceptIndex = graph.nextConceptId();
+      else
+        conceptIndex = wordToConcept.get(wordIndex);
+
+      c.lastAction = &quot;conID&quot;;
+      c.lastType = conceptIndex;
+      action = &quot;conID:&quot; + graph.concepts.get(conceptIndex).value();</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAvL3N0YXJ0QWN0aW9uID0gZmFsc2U7Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
@@ -450,9 +462,15 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="9" type="4">
         <text>else { //pop action
       if(!c.pop()) {
         System.err.println(&quot;pop error!&quot;);
@@ -461,16 +479,6 @@
       c.lastAction = &quot;POP&quot;;
       action = &quot;POP&quot;;
     }</text>
-      </register>
-      <register name="8" type="4">
-        <text>//else if (!graph.nextIsAligned()) {
-    //  int conceptIndex = graph.nextConceptId();
-    //  c.lastAction = &quot;conID&quot;;
-    //  c.lastType = conceptIndex;
-    //}</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
