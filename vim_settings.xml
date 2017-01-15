@@ -41,11 +41,11 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484518950061">
-        <mark key="[" line="220" column="18" />
-        <mark key="]" line="220" column="23" />
-        <mark key="." line="220" column="23" />
-        <mark key="^" line="220" column="23" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484522338865">
+        <mark key="[" line="236" column="36" />
+        <mark key="]" line="236" column="39" />
+        <mark key="^" line="236" column="39" />
+        <mark key="." line="236" column="39" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
@@ -417,10 +417,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>conID1</text>
+        <text>conID</text>
       </register>
       <register name="-" type="4">
-        <text>conID1</text>
+        <text>conID</text>
       </register>
       <register name="/" type="4">
         <text>aligned</text>
@@ -428,7 +428,13 @@
       <register name="0" type="4">
         <text>action = &quot;conID1:&quot; + graph.concepts.get(conceptIndex).value();</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="4">
         <text>c.lastAction = &quot;PUSH&quot;;
       if (!graph.nextIsAligned() || wordToConcept.containsKey(wordIndex)) {
         //First choose a position in the cache to push concept to and push that vertex in to stack
@@ -440,7 +446,7 @@
         action = &quot;PUSH:0&quot;;
       }</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text>// identification of current word
       int conceptIndex = -1;
       if (!graph.nextIsAligned())
@@ -452,14 +458,8 @@
       c.lastType = conceptIndex;
       action = &quot;conID:&quot; + graph.concepts.get(conceptIndex).value();</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAvL3N0YXJ0QWN0aW9uID0gZmFsc2U7Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAvL3N0YXJ0QWN0aW9uID0gZmFsc2U7Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
@@ -468,20 +468,13 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>else { //pop action
-      if(!c.pop()) {
-        System.err.println(&quot;pop error!&quot;);
-        assert false;
-      }
-      c.lastAction = &quot;POP&quot;;
-      action = &quot;POP&quot;;
-    }</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>1</text>
       </register>
     </registers>
     <search>
@@ -536,9 +529,9 @@
         <entry>e ~/buffer</entry>
         <entry>vs AMRParser</entry>
         <entry>vs AMRParser.java</entry>
-        <entry>1</entry>
         <entry>w!</entry>
         <entry>w</entry>
+        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
