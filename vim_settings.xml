@@ -41,12 +41,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484454169134">
-        <mark key="'" line="118" column="2" />
-        <mark key="[" line="199" column="4" />
-        <mark key="]" line="199" column="40" />
-        <mark key="." line="202" column="39" />
-        <mark key="^" line="202" column="39" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484503254109">
+        <mark key="'" line="203" column="12" />
+        <mark key="[" line="211" column="6" />
+        <mark key="]" line="211" column="5" />
+        <mark key="." line="211" column="5" />
+        <mark key="^" line="211" column="5" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
@@ -107,12 +107,12 @@
         <mark key="[" line="34" column="2" />
         <mark key="]" line="34" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1484446758588">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1484503308932">
         <mark key="'" line="14" column="7" />
-        <mark key="[" line="50" column="0" />
-        <mark key="]" line="50" column="0" />
-        <mark key="." line="50" column="0" />
-        <mark key="^" line="49" column="40" />
+        <mark key="[" line="51" column="0" />
+        <mark key="]" line="53" column="18" />
+        <mark key="." line="53" column="18" />
+        <mark key="^" line="53" column="18" />
       </file>
       <file name="$USER_HOME$/Library/Python/2.7/lib/python/site-packages/tensorflow/python/client/session.py" timestamp="1478042329266">
         <mark key="'" line="338" column="20" />
@@ -315,8 +315,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="249" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="858" column="67" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="841" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="840" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="813" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -415,51 +413,58 @@
       <jump line="398" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="113" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="385" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="203" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="181" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>graph</text>
+        <text>c.lastAction =</text>
       </register>
       <register name="-" type="4">
-        <text>graph</text>
+        <text>c.lastAction =</text>
       </register>
       <register name="/" type="4">
         <text>aligned</text>
       </register>
       <register name="0" type="4">
-        <text>final AMRGraph graph;</text>
+        <text>if(!c.pop()) {
+        System.err.println(&quot;pop error!&quot;);
+        assert false;
+      }
+      c.lastAction = &quot;POP&quot;;
+      action = &quot;POP&quot;;</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="4">
         <text>currDist = bufferPos;
           break;</text>
       </register>
-      <register name="3" type="8">
+      <register name="4" type="8">
         <text encoding="base64">ICAKICAKICAKICAKICAKICAKICAKICAKICA=</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>//if (graphs.get(i).isProjective()) {
       //AMRConfiguration c = system.initialConfiguration(config.CACHE, sents.get(i));</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICBpZiAoYy5sYXN0QWN0aW9uKQo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgLy8K</text>
-      </register>
       <register name=":" type="4">
-        <text>w!</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -515,8 +520,8 @@
         <entry>vs AMRParser</entry>
         <entry>vs AMRParser.java</entry>
         <entry>1</entry>
-        <entry>w</entry>
         <entry>w!</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
