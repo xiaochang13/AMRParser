@@ -41,12 +41,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484503254109">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484505808401">
         <mark key="'" line="203" column="12" />
-        <mark key="[" line="211" column="6" />
-        <mark key="]" line="211" column="5" />
-        <mark key="." line="211" column="5" />
-        <mark key="^" line="211" column="5" />
+        <mark key="[" line="212" column="29" />
+        <mark key="]" line="213" column="31" />
+        <mark key="." line="213" column="31" />
+        <mark key="^" line="213" column="31" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
@@ -418,10 +418,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>c.lastAction =</text>
+        <text>counter</text>
       </register>
       <register name="-" type="4">
-        <text>c.lastAction =</text>
+        <text>counter</text>
       </register>
       <register name="/" type="4">
         <text>aligned</text>
