@@ -41,11 +41,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484530740681">
-        <mark key="[" line="120" column="6" />
-        <mark key="]" line="120" column="26" />
-        <mark key="^" line="120" column="26" />
-        <mark key="." line="120" column="26" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484531687878">
+        <mark key="'" line="225" column="10" />
+        <mark key="[" line="126" column="24" />
+        <mark key="]" line="126" column="24" />
+        <mark key="." line="126" column="24" />
+        <mark key="^" line="126" column="24" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
@@ -281,12 +282,12 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1484514748928">
-        <mark key="'" line="124" column="15" />
-        <mark key="[" line="257" column="29" />
-        <mark key="]" line="258" column="14" />
-        <mark key="." line="258" column="14" />
-        <mark key="^" line="258" column="14" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1484531259752">
+        <mark key="'" line="167" column="4" />
+        <mark key="[" line="82" column="3" />
+        <mark key="]" line="85" column="20" />
+        <mark key="." line="85" column="20" />
+        <mark key="^" line="85" column="20" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
         <mark key="'" line="91" column="8" />
@@ -314,12 +315,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="418" column="35" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="407" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="406" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="405" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="391" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="336" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="78" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="341" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="276" column="38" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -331,7 +326,6 @@
       <jump line="157" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="162" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="175" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="227" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="237" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="38" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="71" column="51" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
@@ -414,79 +408,66 @@
       <jump line="398" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="0" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="813" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="126" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="150" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="85" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="167" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="227" column="36" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="188" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="228" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>else { //Shift and choose
-        int n = Integer.parseInt(t.substring(1));
-        c.shiftN(n);
-      }</text>
+        <text>-1</text>
       </register>
       <register name="-" type="4">
-        <text>c</text>
+        <text>-1</text>
       </register>
       <register name="/" type="4">
-        <text>loadAMR</text>
+        <text>buffer.remove</text>
       </register>
       <register name="0" type="4">
         <text>action = &quot;conID1:&quot; + graph.concepts.get(conceptIndex).value();</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">ewogICAgICAgIGMucG9wQnVmZmVyKCk7IC8vU2ltcGx5IHJlbW92ZSB0aGUgbGVmdG1vc3QgdG9rZW4gaW4gdGhlIGJ1ZmZlcgogICAgICB9CiAgICAgIGVsc2Ug</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="4">
+        <text>c.pushStack();
+      c.setConcept(conceptID);</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgaW50IGNhY2hlVmVydGV4ID0gY2hvb3NlVmVydGV4KGMsIGMuZ29sZEdyYXBoKQo=</text>
+      </register>
+      <register name="5" type="4">
         <text>else { //Shift and choose
         int n = Integer.parseInt(t.substring(1));
         c.shiftN(n);
       }</text>
       </register>
-      <register name="2" type="4">
+      <register name="6" type="4">
         <text encoding="base64">ICAgIGlmKCFjLnNoaWZ0KCkpIHsKICAgICAgICAgICAgU3lzdGVtLmVyci5wcmludGxuKCJTaGlmdCB1bmFsaWduZWQgZnJvbSB3ZWlyZCBidWZmZXIhOigiKTsKICAgICAgICAgIH0KICAgICAgfQ==</text>
       </register>
-      <register name="3" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgfQo=</text>
       </register>
-      <register name="4" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgIH0K</text>
       </register>
-      <register name="5" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgaWYgKHQuZXF1YWxzKCJPIikpIHsvLyBwb3Agb3BlcmF0aW9uCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="4">
-        <text>c.lastAction = &quot;PUSH&quot;;
-      if (!graph.nextIsAligned() || wordToConcept.containsKey(wordIndex)) {
-        //First choose a position in the cache to push concept to and push that vertex in to stack
-        int cacheVertex = chooseVertex(c, headToTail, tailToHead, wordToConcept);
-        c.pushStack(cacheVertex);
-        action = &quot;PUSH:&quot; + (cacheVertex+1);
-      }
-      else {
-        action = &quot;PUSH:0&quot;;
-      }</text>
-      </register>
-      <register name="9" type="4">
-        <text>// identification of current word
-      int conceptIndex = -1;
-      if (!graph.nextIsAligned())
-        conceptIndex = graph.nextConceptId();
-      else
-        conceptIndex = wordToConcept.get(wordIndex);
-
-      c.lastAction = &quot;conID&quot;;
-      c.lastType = conceptIndex;
-      action = &quot;conID:&quot; + graph.concepts.get(conceptIndex).value();</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>loadAMR</last-search>
+      <last-search>buffer.remove</last-search>
       <last-offset />
-      <last-pattern>loadAMR</last-pattern>
+      <last-pattern>buffer.remove</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -517,6 +498,8 @@
         <entry>add</entry>
         <entry>aligned</entry>
         <entry>loadAMR</entry>
+        <entry>buffer</entry>
+        <entry>buffer.remove</entry>
       </history-search>
       <history-cmd>
         <entry>vs hrg_learn.py</entry>
