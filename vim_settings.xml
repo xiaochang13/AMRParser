@@ -41,21 +41,21 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484540004469">
-        <mark key="[" line="150" column="0" />
-        <mark key="]" line="150" column="0" />
-        <mark key="^" line="146" column="53" />
-        <mark key="." line="150" column="0" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484541380928">
+        <mark key="[" line="213" column="41" />
+        <mark key="]" line="213" column="71" />
+        <mark key="^" line="213" column="71" />
+        <mark key="." line="213" column="71" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1484540055153">
-        <mark key="'" line="813" column="9" />
-        <mark key="[" line="398" column="30" />
-        <mark key="]" line="398" column="30" />
-        <mark key="^" line="397" column="9" />
-        <mark key="." line="398" column="30" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1484540974139">
+        <mark key="'" line="814" column="9" />
+        <mark key="[" line="398" column="24" />
+        <mark key="]" line="398" column="61" />
+        <mark key="^" line="398" column="61" />
+        <mark key="." line="398" column="61" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -416,8 +416,8 @@
       <jump line="144" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>, 2</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgZWxzZSBpZiAod29yZFRvQ29uY2VwdC5jb250YWluc0tleSh3b3JkSW5kZXgpKQo=</text>
       </register>
       <register name="-" type="4">
         <text>, 2</text>
@@ -429,50 +429,34 @@
         <text>action = &quot;conID1:&quot; + graph.concepts.get(conceptIndex).value();</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgZWxzZSBpZiAod29yZFRvQ29uY2VwdC5jb250YWluc0tleSh3b3JkSW5kZXgpKQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgaWYgKCFncmFwaC5uZXh0SXNBbGlnbmVkKCkpCg==</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">Ly9Db21wdXRlIHRoZSBvcmFjbGUgc2VxdWVuY2UgbmVlZGVkIHRvIGJ1aWxkIHRoZSBjdXJyZW50IEFNUgogIHB1YmxpYyBMaXN0PEFNUkNvbmZpZ3VyYXRpb24+IG9yYWNsZVNlcXVlbmNlKFN0cmluZ1tdIHRva1NlcSwgQU1SR3JhcGggZ3JhcGhzKSB7CiAgICBMaXN0PEFNUkNvbmZpZ3VyYXRpb24+IHNlcXMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHJldHVybiBzZXFzOwogIH0=</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBjb25jZXB0SW5kZXggPSB3b3JkVG9Db25jZXB0LmdldCh3b3JkSW5kZXgpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBjb25jZXB0SW5kZXggPSBncmFwaC5uZXh0Q29uY2VwdElkKCk7Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text>c.lastAction = t;
-
-    //int w1 = c.getStack(1);
-    //int w2 = c.getStack(0);
-    //if (t.startsWith(&quot;L&quot;)) {
-    //  c.addArc(w2, w1, t.substring(2, t.length() - 1));
-    //  c.removeSecondTopStack();
-    //} else if (t.startsWith(&quot;R&quot;)) {
-    //  c.addArc(w1, w2, t.substring(2, t.length() - 1));
-    //  c.removeTopStack();
-    //} else c.shift();</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgZWxzZQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGMubGFzdFR5cGUgPSB0eXBlOwo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
-      </register>
-      <register name="8" type="4">
-        <text>String arcLabel = parts[1];
-      if (arcLabel.charAt(0) == 'L') {
-        c.connect(cacheIndex, 0, arcLabel.substring(1, arcLabel.length()-1));
-      }
-      else {
-        c.connect(cacheIndex, 1, arcLabel.substring(1, arcLabel.length()-1));
-      }</text>
-      </register>
-      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">Ly9Db21wdXRlIHRoZSBvcmFjbGUgc2VxdWVuY2UgbmVlZGVkIHRvIGJ1aWxkIHRoZSBjdXJyZW50IEFNUgogIHB1YmxpYyBMaXN0PEFNUkNvbmZpZ3VyYXRpb24+IG9yYWNsZVNlcXVlbmNlKFN0cmluZ1tdIHRva1NlcSwgQU1SR3JhcGggZ3JhcGhzKSB7CiAgICBMaXN0PEFNUkNvbmZpZ3VyYXRpb24+IHNlcXMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHJldHVybiBzZXFzOwogIH0=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>w!</text>
       </register>
     </registers>
     <search>
@@ -532,8 +516,8 @@
         <entry>vs AMRParser.java</entry>
         <entry>1</entry>
         <entry>e! ~/vim_local/vimrc</entry>
-        <entry>w!</entry>
         <entry>w</entry>
+        <entry>w!</entry>
       </history-cmd>
       <history-expr />
       <history-input />
