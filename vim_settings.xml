@@ -41,11 +41,11 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484541380928">
-        <mark key="[" line="213" column="41" />
-        <mark key="]" line="213" column="71" />
-        <mark key="^" line="213" column="71" />
-        <mark key="." line="213" column="71" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484577916988">
+        <mark key="[" line="220" column="0" />
+        <mark key="]" line="220" column="0" />
+        <mark key="^" line="219" column="5" />
+        <mark key="." line="220" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
@@ -417,10 +417,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgZWxzZSBpZiAod29yZFRvQ29uY2VwdC5jb250YWluc0tleSh3b3JkSW5kZXgpKQo=</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
-        <text>, 2</text>
+        <text>if (!graph.nextIsAligned() || wordToConcept.containsKey(wordIndex)) {</text>
       </register>
       <register name="/" type="4">
         <text>buffer.remove</text>
@@ -429,34 +429,37 @@
         <text>action = &quot;conID1:&quot; + graph.concepts.get(conceptIndex).value();</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgZWxzZSBpZiAod29yZFRvQ29uY2VwdC5jb250YWluc0tleSh3b3JkSW5kZXgpKQo=</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgaWYgKCFncmFwaC5uZXh0SXNBbGlnbmVkKCkpCg==</text>
+      <register name="2" type="4">
+        <text>}
+      else {
+        action = &quot;PUSH:0&quot;;
+      }</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBjb25jZXB0SW5kZXggPSB3b3JkVG9Db25jZXB0LmdldCh3b3JkSW5kZXgpOwo=</text>
+        <text encoding="base64">ICAgICAgZWxzZSBpZiAod29yZFRvQ29uY2VwdC5jb250YWluc0tleSh3b3JkSW5kZXgpKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBjb25jZXB0SW5kZXggPSBncmFwaC5uZXh0Q29uY2VwdElkKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgaWYgKCFncmFwaC5uZXh0SXNBbGlnbmVkKCkpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgZWxzZQo=</text>
+        <text encoding="base64">ICAgICAgICBjb25jZXB0SW5kZXggPSB3b3JkVG9Db25jZXB0LmdldCh3b3JkSW5kZXgpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25jZXB0SW5kZXggPSBncmFwaC5uZXh0Q29uY2VwdElkKCk7Cg==</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">ICAgICAgZWxzZQo=</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">Ly9Db21wdXRlIHRoZSBvcmFjbGUgc2VxdWVuY2UgbmVlZGVkIHRvIGJ1aWxkIHRoZSBjdXJyZW50IEFNUgogIHB1YmxpYyBMaXN0PEFNUkNvbmZpZ3VyYXRpb24+IG9yYWNsZVNlcXVlbmNlKFN0cmluZ1tdIHRva1NlcSwgQU1SR3JhcGggZ3JhcGhzKSB7CiAgICBMaXN0PEFNUkNvbmZpZ3VyYXRpb24+IHNlcXMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHJldHVybiBzZXFzOwogIH0=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w!</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -516,8 +519,8 @@
         <entry>vs AMRParser.java</entry>
         <entry>1</entry>
         <entry>e! ~/vim_local/vimrc</entry>
-        <entry>w</entry>
         <entry>w!</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
