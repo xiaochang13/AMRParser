@@ -41,12 +41,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484532998437">
-        <mark key="'" line="226" column="10" />
-        <mark key="[" line="233" column="63" />
-        <mark key="]" line="233" column="87" />
-        <mark key="." line="233" column="87" />
-        <mark key="^" line="233" column="87" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484535945578">
+        <mark key="'" line="242" column="17" />
+        <mark key="[" line="194" column="77" />
+        <mark key="]" line="194" column="77" />
+        <mark key="^" line="252" column="43" />
+        <mark key="." line="194" column="77" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
@@ -315,7 +315,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="78" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="341" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="276" column="38" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="277" column="32" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -415,13 +414,14 @@
       <jump line="227" column="36" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="188" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="228" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="239" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IHx8IGMubGFzdEFjdGlvbi5jb250YWlucygiQVJDIik=</text>
+        <text encoding="base64">U3RyaW5nIGNhY2hlSWQsIA==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHx8IGMubGFzdEFjdGlvbi5jb250YWlucygiQVJDIik=</text>
+        <text encoding="base64">U3RyaW5nIGNhY2hlSWQsIA==</text>
       </register>
       <register name="/" type="4">
         <text>buffer.remove</text>
@@ -429,36 +429,32 @@
       <register name="0" type="4">
         <text>action = &quot;conID1:&quot; + graph.concepts.get(conceptIndex).value();</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">ewogICAgICAgIGMucG9wQnVmZmVyKCk7IC8vU2ltcGx5IHJlbW92ZSB0aGUgbGVmdG1vc3QgdG9rZW4gaW4gdGhlIGJ1ZmZlcgogICAgICB9CiAgICAgIGVsc2Ug</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgIC5sYXN0QWN0aW9uID0gIk5PQVJDIjsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB9IGVsc2UgewogICAgICAgICAgLmxhc3RBY3Rpb24gPSAiTk9BUkMiOwo=</text>
       </register>
-      <register name="3" type="4">
-        <text>c.pushStack();
-      c.setConcept(conceptID);</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgIGMubGFzdEFjdGlvbiA9ICJBUkMtUiI7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgaW50IGNhY2hlVmVydGV4ID0gY2hvb3NlVmVydGV4KGMsIGMuZ29sZEdyYXBoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgIGMubGFzdEFjdGlvbiA9ICJBUkMtTCI7Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text>else { //Shift and choose
-        int n = Integer.parseInt(t.substring(1));
-        c.shiftN(n);
-      }</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAvL2ludCBjYWNoZUluZGV4ID0gSW50ZWdlci5wYXJzZUludChjYWNoZUlkKTsK</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ICAgIGlmKCFjLnNoaWZ0KCkpIHsKICAgICAgICAgICAgU3lzdGVtLmVyci5wcmludGxuKCJTaGlmdCB1bmFsaWduZWQgZnJvbSB3ZWlyZCBidWZmZXIhOigiKTsKICAgICAgICAgIH0KICAgICAgfQ==</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgcmV0dXJuIGFjdGlvbjsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICBpbnQgY3VyckNvbmNlcHQgPSBjLmxhc3RUeXBlOwo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgaWYgKHQuZXF1YWxzKCJPIikpIHsvLyBwb3Agb3BlcmF0aW9uCg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">ewogICAgICAgIGMucG9wQnVmZmVyKCk7IC8vU2ltcGx5IHJlbW92ZSB0aGUgbGVmdG1vc3QgdG9rZW4gaW4gdGhlIGJ1ZmZlcgogICAgICB9CiAgICAgIGVsc2Ug</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -520,6 +516,7 @@
         <entry>vs AMRParser</entry>
         <entry>vs AMRParser.java</entry>
         <entry>1</entry>
+        <entry>e! ~/vim_local/vimrc</entry>
         <entry>w!</entry>
         <entry>w</entry>
       </history-cmd>
