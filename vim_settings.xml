@@ -41,22 +41,22 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484624628087">
-        <mark key="'" line="47" column="39" />
-        <mark key="[" line="205" column="13" />
-        <mark key="]" line="205" column="25" />
-        <mark key="^" line="205" column="25" />
-        <mark key="." line="205" column="25" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484626563304">
+        <mark key="'" line="235" column="8" />
+        <mark key="[" line="133" column="55" />
+        <mark key="]" line="135" column="21" />
+        <mark key="." line="135" column="21" />
+        <mark key="^" line="135" column="21" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1484624608424">
-        <mark key="'" line="405" column="18" />
-        <mark key="[" line="385" column="32" />
-        <mark key="]" line="386" column="26" />
-        <mark key="." line="386" column="26" />
-        <mark key="^" line="386" column="26" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1484626852679">
+        <mark key="'" line="408" column="16" />
+        <mark key="[" line="392" column="35" />
+        <mark key="]" line="394" column="23" />
+        <mark key="." line="394" column="23" />
+        <mark key="^" line="394" column="23" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -318,14 +318,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="91" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" />
-      <jump line="159" column="51" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="250" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="224" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="223" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="205" column="93" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="152" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="149" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="148" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="117" column="47" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="106" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
@@ -418,16 +410,24 @@
       <jump line="1075" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="387" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="404" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="164" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="241" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="382" column="45" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="52" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="391" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="232" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="265" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="405" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>startAction</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgIGNvbnRpbnVlOwo=</text>
       </register>
       <register name="-" type="4">
         <text>startAction</text>
       </register>
       <register name="/" type="4">
-        <text>sentIndex</text>
+        <text>buildWord</text>
       </register>
       <register name="0" type="4">
         <text>this.graph = new AMRGraph();
@@ -435,41 +435,41 @@
     startAction = true;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIGNvbnRpbnVlOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnQK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnQK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICBwdWJsaWMgdm9pZAo=</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICBwdWJsaWMgdm9pZAo=</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>//this.tree = new DependencyTree();
     //this.sentence = sentence;</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">cHVibGljIEFNUkNvbmZpZ3VyYXRpb24oaW50IHNpemUsIGludCBsZW5ndGgpIHsKICAgIHN0YWNrID0gbmV3IEFycmF5TGlzdDxQYWlyPEludGVnZXIsIEludGVnZXI+PigpOwogICAgYnVmZmVyID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IGxlbmd0aDsgaSsrKQogICAgICBidWZmZXIuYWRkKGkpOwogICAgY2FjaGVTaXplID0gc2l6ZTsKICAgIGNhY2hlID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBwdXNoSW5kZXggPSAtMTsKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgY2FjaGVTaXplOyBpKyspCiAgICAgIGNhY2hlLmFkZCgtMSk7CgogICAgdGhpcy5ncmFwaCA9IG5ldyBBTVJHcmFwaCgpOwogICAgdGhpcy5nb2xkR3JhcGggPSBudWxsOwogICAgc3RhcnRBY3Rpb24gPSB0cnVlOwogICAgLy90aGlzLnRyZWUgPSBuZXcgRGVwZW5kZW5jeVRyZWUoKTsKICAgIC8vdGhpcy5zZW50ZW5jZSA9IHNlbnRlbmNlOwogIH0=</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text encoding="base64">Ly90aGlzLmNhY2hlID0gbmV3IGludFtjYWNoZVNpemVdOwogICAgLy9mb3IgKGludCBpID0gMDsgaSA8IGNhY2hlU2l6ZTsgaSsrKQogICAgLy8gIGNhY2hlW2ldID0gLTE7</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIHRoaXMuZ3JhcGggPSBuZXcgQU1SR3JhcGgoKTsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>sentIndex</last-search>
+      <last-search>buildWord</last-search>
       <last-offset />
-      <last-pattern>sentIndex</last-pattern>
+      <last-pattern>buildWord</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -504,6 +504,7 @@
         <entry>buffer.remove</entry>
         <entry>headToTail</entry>
         <entry>sentIndex</entry>
+        <entry>buildWord</entry>
       </history-search>
       <history-cmd>
         <entry>vs hrg_learn.py</entry>
