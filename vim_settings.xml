@@ -426,7 +426,7 @@
         <text>false</text>
       </register>
       <register name="/" type="4">
-        <text>apply</text>
+        <text>gold</text>
       </register>
       <register name="0" type="4">
         <text>this.graph = new AMRGraph();
@@ -470,9 +470,9 @@
       </register>
     </registers>
     <search>
-      <last-search>apply</last-search>
+      <last-search>gold</last-search>
       <last-offset />
-      <last-pattern>apply</last-pattern>
+      <last-pattern>gold</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -508,6 +508,7 @@
         <entry>sentIndex</entry>
         <entry>buildWord</entry>
         <entry>apply</entry>
+        <entry>gold</entry>
       </history-search>
       <history-cmd>
         <entry>vs hrg_learn.py</entry>
