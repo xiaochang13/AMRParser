@@ -41,22 +41,22 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484623537557">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484624628087">
         <mark key="'" line="47" column="39" />
-        <mark key="[" line="118" column="4" />
-        <mark key="]" line="118" column="5" />
-        <mark key="^" line="118" column="5" />
-        <mark key="." line="118" column="5" />
+        <mark key="[" line="205" column="13" />
+        <mark key="]" line="205" column="25" />
+        <mark key="^" line="205" column="25" />
+        <mark key="." line="205" column="25" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1484623632540">
-        <mark key="'" line="404" column="18" />
-        <mark key="[" line="385" column="30" />
-        <mark key="]" line="387" column="24" />
-        <mark key="." line="387" column="24" />
-        <mark key="^" line="387" column="24" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1484624608424">
+        <mark key="'" line="405" column="18" />
+        <mark key="[" line="385" column="32" />
+        <mark key="]" line="386" column="26" />
+        <mark key="." line="386" column="26" />
+        <mark key="^" line="386" column="26" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -421,10 +421,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>equals</text>
+        <text>startAction</text>
       </register>
       <register name="-" type="4">
-        <text>equals</text>
+        <text>startAction</text>
       </register>
       <register name="/" type="4">
         <text>sentIndex</text>
