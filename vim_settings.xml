@@ -51,11 +51,11 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1484709350510">
-        <mark key="'" line="847" column="9" />
-        <mark key="[" line="400" column="0" />
-        <mark key="]" line="400" column="0" />
-        <mark key="." line="400" column="0" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1484709864959">
+        <mark key="'" line="859" column="4" />
+        <mark key="[" line="856" column="59" />
+        <mark key="]" line="856" column="59" />
+        <mark key="." line="856" column="59" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -260,11 +260,11 @@
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1484704869123">
-        <mark key="'" line="166" column="17" />
-        <mark key="[" line="210" column="13" />
-        <mark key="]" line="212" column="31" />
-        <mark key="." line="212" column="31" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1484709605262">
+        <mark key="'" line="252" column="126" />
+        <mark key="[" line="139" column="115" />
+        <mark key="]" line="139" column="115" />
+        <mark key="." line="139" column="115" />
         <mark key="^" line="212" column="31" />
       </file>
       <file name="$USER_HOME$/AMRParser/notes" timestamp="1481718540996">
@@ -317,11 +317,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="168" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="202" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="178" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="180" column="36" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="213" column="36" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="258" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="398" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="0" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -366,7 +361,6 @@
       <jump line="176" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="177" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="178" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
-      <jump line="139" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="849" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1075" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="387" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -417,16 +411,22 @@
       <jump line="1440" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="244" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="847" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="143" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="287" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="139" column="144" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="277" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="252" column="126" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="859" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>, config.unlabeled, config.cPOS</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Z3JhcGgsIA==</text>
+        <text>, config.unlabeled, config.cPOS</text>
       </register>
       <register name="/" type="4">
-        <text>relMap</text>
+        <text>cPOS</text>
       </register>
       <register name="0" type="4">
         <text>this.graph = new AMRGraph();
@@ -465,9 +465,9 @@
       </register>
     </registers>
     <search>
-      <last-search>relMap</last-search>
+      <last-search>cPOS</last-search>
       <last-offset />
-      <last-pattern>relMap</last-pattern>
+      <last-pattern>cPOS</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -505,6 +505,9 @@
         <entry>apply</entry>
         <entry>gold</entry>
         <entry>relMap</entry>
+        <entry>loadC</entry>
+        <entry>unlabeled</entry>
+        <entry>cPOS</entry>
       </history-search>
       <history-cmd>
         <entry>vs hrg_learn.py</entry>
@@ -528,6 +531,7 @@
         <entry>.,.+1</entry>
         <entry>1</entry>
         <entry>w!</entry>
+        <entry>.,.+8w</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
