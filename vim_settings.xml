@@ -41,22 +41,22 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484707553304">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1484945663685">
         <mark key="'" line="151" column="12" />
-        <mark key="[" line="231" column="7" />
-        <mark key="]" line="231" column="31" />
-        <mark key="^" line="231" column="31" />
-        <mark key="." line="231" column="31" />
+        <mark key="[" line="75" column="47" />
+        <mark key="]" line="75" column="51" />
+        <mark key="^" line="75" column="51" />
+        <mark key="." line="75" column="51" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1484786084634">
-        <mark key="'" line="1095" column="37" />
-        <mark key="[" line="860" column="59" />
-        <mark key="]" line="860" column="59" />
-        <mark key="." line="860" column="59" />
-        <mark key="^" line="860" column="59" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1484945778917">
+        <mark key="'" line="1114" column="0" />
+        <mark key="[" line="196" column="0" />
+        <mark key="]" line="198" column="64" />
+        <mark key="." line="198" column="64" />
+        <mark key="^" line="198" column="64" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -318,15 +318,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="68" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
-      <jump line="831" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1415" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="844" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="46" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="198" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="848" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1074" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="381" column="38" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="146" column="43" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="357" column="63" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="839" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -418,57 +409,178 @@
       <jump line="869" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="415" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1095" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="426" column="43" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="981" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/Counters.java" />
+      <jump line="872" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="260" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="1105" column="46" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="896" column="73" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1108" column="39" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="75" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="1111" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>, config.unlabeled, config.cPOS</text>
+      <register name="&quot;" type="8">
+        <text>//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//</text>
       </register>
       <register name="-" type="4">
-        <text>, config.unlabeled, config.cPOS</text>
+        <text>//</text>
       </register>
       <register name="/" type="4">
-        <text>cPOS</text>
+        <text>getFeatureArray</text>
       </register>
       <register name="0" type="4">
         <text>this.graph = new AMRGraph();
     this.goldGraph = null;
     startAction = true;</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="8">
+        <text>//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4ob3JhY2xlKTsK</text>
+      <register name="2" type="8">
+        <text>//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIFN0cmluZyBuZXh0V29yZCA9IAo=</text>
+      <register name="3" type="8">
+        <text>//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBicmVhazsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBjLmdyYXBoLnByaW50R3JhcGgoKTsK</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4ob3JhY2xlKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgYy5ncmFwaC5wcmludEdyYXBoKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIFN0cmluZyBuZXh0V29yZCA9IAo=</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">TGlzdDxTdHJpbmc+IHRhaWxzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICAgIGlmIChoZWFkVG9UYWlsLmNvbnRhaW5zS2V5KGkpKSB7CiAgICAgICAgZm9yIChpbnQgdDogaGVhZFRvVGFpbC5nZXQoaSkpIHsKICAgICAgICAgIENvbmNlcHRMYWJlbCB0YWlsID0gY29uY2VwdHMuZ2V0KHQpOwogICAgICAgICAgdGFpbHMuYWRkKHRhaWwudmFsdWUoKSk7CiAgICAgICAgfQogICAgICB9</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBicmVhazsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgYy5idWlsZFJlbE1hcCgpOwo=</text>
+        <text encoding="base64">ICAgICAgICBjLmdyYXBoLnByaW50R3JhcGgoKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgYy5ncmFwaC5wcmludEdyYXBoKCk7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w!</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>cPOS</last-search>
+      <last-search>getFeatureArray</last-search>
       <last-offset />
-      <last-pattern>cPOS</last-pattern>
+      <last-pattern>getFeatureArray</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -509,6 +621,7 @@
         <entry>loadC</entry>
         <entry>unlabeled</entry>
         <entry>cPOS</entry>
+        <entry>getFeatureArray</entry>
       </history-search>
       <history-cmd>
         <entry>vs hrg_learn.py</entry>
@@ -532,8 +645,8 @@
         <entry>.,.+1</entry>
         <entry>1</entry>
         <entry>.,.+8w</entry>
-        <entry>w</entry>
         <entry>w!</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
