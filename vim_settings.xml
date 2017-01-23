@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485207768331">
-        <mark key="'" line="986" column="87" />
-        <mark key="[" line="984" column="72" />
-        <mark key="]" line="984" column="72" />
-        <mark key="^" line="984" column="72" />
-        <mark key="." line="984" column="72" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485208671657">
+        <mark key="'" line="325" column="21" />
+        <mark key="[" line="895" column="0" />
+        <mark key="]" line="895" column="0" />
+        <mark key="^" line="891" column="52" />
+        <mark key="." line="895" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -333,11 +333,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="869" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="415" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1095" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="426" column="43" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="981" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/Counters.java" />
       <jump line="872" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="260" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="1105" column="46" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -429,59 +424,64 @@
       <jump line="77" column="56" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="884" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="490" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="892" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1119" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="986" column="87" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="128" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="892" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1007" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1119" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="919" column="65" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="215" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="324" column="48" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="325" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgLy9TeXN0ZW0ub3V0LnByaW50bG4oU3RyaW5nVXRpbHMuam9pbihwb3NTZXEsICIgIikpOwo=</text>
+        <text encoding="base64">ICAgIC8vU3lzdGVtLmVyci5wcmludGxuKENvbmZpZy5TRVBBUkFUT1IpOwo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHs=</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>conceptCounts</text>
+        <text>oracle</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">ZmluYWwgTGlzdDxFeGFtcGxlPiBjb25jZXB0SURFeGFtcGxlcw==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgLy9TeXN0ZW0ub3V0LnByaW50bG4oU3RyaW5nVXRpbHMuam9pbihwb3NTZXEsICIgIikpOwo=</text>
+        <text encoding="base64">ICAgIC8vU3lzdGVtLmVyci5wcmludGxuKENvbmZpZy5TRVBBUkFUT1IpOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgLy9TeXN0ZW0ub3V0LnByaW50bG4oU3RyaW5nVXRpbHMuam9pbihwb3NTZXEsICIgIikpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">ICAgIH0K</text>
       </register>
-      <register name="8" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgfQo=</text>
       </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIH0K</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy9TeXN0ZW0ub3V0LnByaW50bG4oaW5kZXgpOwo=</text>
+        <text encoding="base64">ICAgICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>conceptCounts</last-search>
+      <last-search>oracle</last-search>
       <last-offset />
-      <last-pattern>conceptCounts</last-pattern>
+      <last-pattern>oracle</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -531,6 +531,8 @@
         <entry>connect</entry>
         <entry>new Cache</entry>
         <entry>conceptCounts</entry>
+        <entry>classif</entry>
+        <entry>oracle</entry>
       </history-search>
       <history-cmd>
         <entry>vs hrg_learn.py</entry>
