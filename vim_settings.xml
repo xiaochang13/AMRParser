@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485196222235">
-        <mark key="'" line="901" column="13" />
-        <mark key="[" line="591" column="41" />
-        <mark key="]" line="592" column="37" />
-        <mark key="." line="592" column="37" />
-        <mark key="^" line="592" column="37" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485197323201">
+        <mark key="'" line="888" column="13" />
+        <mark key="[" line="474" column="0" />
+        <mark key="]" line="474" column="0" />
+        <mark key="^" line="588" column="37" />
+        <mark key="." line="474" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -333,11 +333,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="252" column="126" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
-      <jump line="859" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="86" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
-      <jump line="72" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="83" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="490" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="539" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="90" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
@@ -430,13 +425,18 @@
       <jump line="888" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="568" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="95" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
-      <jump line="593" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="509" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="901" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="991" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="891" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="593" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="503" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="558" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="892" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGtub3dBcmNzLmFkZCgxLCBDb25maWcuVU5LTk9XTik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLy9TeXN0ZW0ub3V0LnByaW50bG4oaW5kZXgpOwo=</text>
       </register>
       <register name="-" type="4">
         <text>Dataset</text>
@@ -448,33 +448,34 @@
         <text encoding="base64">ZmluYWwgTGlzdDxFeGFtcGxlPiBjb25jZXB0SURFeGFtcGxlcw==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGtub3dBcmNzLmFkZCgxLCBDb25maWcuVU5LTk9XTik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLy9TeXN0ZW0ub3V0LnByaW50bG4oaW5kZXgpOwo=</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgIC8vU3lzdGVtLm91dC5wcmludGxuKGNvbmNlcHQpOwo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
+      </register>
+      <register name="4" type="4">
+        <text>//System.out.println(&quot;Sentence:&quot;+ sent_id);
+      //System.out.println(StringUtils.join(tokSeq, &quot; &quot;));</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgfQogICAgICBzZW50X2lkICs9IDE7Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGtub3dBcmNzLmFkZCgxLCBDb25maWcuVU5LTk9XTik7Cg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgIGtub3duUG9zLmFkZCgwLCBDb25maWcuVU5LTk9XTik7Cg==</text>
       </register>
-      <register name="3" type="8">
+      <register name="8" type="8">
         <text>//
 //
 //
 //
 //
 //</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="6" type="4">
-        <text encoding="base64">ZWxzZSBrLS07CgogICAgTGlzdDxDb3JlTGFiZWw+IGxibHMgPSBnZXRDb3JlTGFiZWxzKCk7</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">aWYgKGsgPT0gMCkgcmV0dXJuIENvbmZpZy5ST09UOwogICAgZWxzZSBrLS07CgogICAgLy9MaXN0PENvcmVMYWJlbD4gbGJscyA9IGdldENvcmVMYWJlbHMoKTsKICAgIHJldHVybiBrIDwgMCB8fCBrID49IGxibHMuc2l6ZSgpID8gQ29uZmlnLk5VTEwgOiBsYmxzLmdldChrKS53b3JkKCk7</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIGdyYXBoCg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
