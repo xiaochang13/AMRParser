@@ -51,11 +51,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485139721173">
-        <mark key="[" line="153" column="31" />
-        <mark key="]" line="153" column="39" />
-        <mark key="." line="153" column="39" />
-        <mark key="^" line="153" column="39" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485140804413">
+        <mark key="'" line="132" column="0" />
+        <mark key="[" line="399" column="66" />
+        <mark key="]" line="150" column="18" />
+        <mark key="." line="150" column="18" />
+        <mark key="^" line="150" column="18" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -281,12 +282,12 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1485139831786">
-        <mark key="'" line="325" column="23" />
-        <mark key="[" line="327" column="4" />
-        <mark key="]" line="327" column="10" />
-        <mark key="." line="327" column="10" />
-        <mark key="^" line="327" column="10" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1485140896207">
+        <mark key="'" line="334" column="23" />
+        <mark key="[" line="70" column="18" />
+        <mark key="]" line="71" column="3" />
+        <mark key="." line="71" column="3" />
+        <mark key="^" line="71" column="3" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
         <mark key="'" line="91" column="8" />
@@ -317,8 +318,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="16" column="7" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
-      <jump line="36" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" />
       <jump line="56" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" />
       <jump line="68" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" />
       <jump line="69" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" />
@@ -417,16 +416,18 @@
       <jump line="32" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="325" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="39" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="152" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="132" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>ROOT</text>
+        <text>getVertex</text>
       </register>
       <register name="-" type="4">
-        <text>ROOT</text>
+        <text>getVertex</text>
       </register>
       <register name="/" type="4">
-        <text>getWord</text>
+        <text>getOracle</text>
       </register>
       <register name="0" type="4">
         <text>this.graph = new AMRGraph();
@@ -586,9 +587,9 @@
       </register>
     </registers>
     <search>
-      <last-search>getWord</last-search>
+      <last-search>getOracle</last-search>
       <last-offset />
-      <last-pattern>getWord</last-pattern>
+      <last-pattern>getOracle</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -614,7 +615,6 @@
         <entry>stack</entry>
         <entry>removeTop</entry>
         <entry>rels</entry>
-        <entry>getOracle</entry>
         <entry>add</entry>
         <entry>aligned</entry>
         <entry>loadAMR</entry>
@@ -635,6 +635,7 @@
         <entry>getStack</entry>
         <entry>getLeftChild</entry>
         <entry>getWord</entry>
+        <entry>getOracle</entry>
       </history-search>
       <history-cmd>
         <entry>vs hrg_learn.py</entry>
@@ -656,8 +657,8 @@
         <entry>vs AMRParser.java</entry>
         <entry>e! ~/vim_local/vimrc</entry>
         <entry>.,.+1</entry>
-        <entry>1</entry>
         <entry>.,.+8w</entry>
+        <entry>1</entry>
         <entry>w!</entry>
         <entry>w</entry>
       </history-cmd>
