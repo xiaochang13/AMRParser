@@ -51,12 +51,11 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485138061798">
-        <mark key="'" line="152" column="23" />
-        <mark key="[" line="144" column="25" />
-        <mark key="]" line="144" column="25" />
-        <mark key="." line="144" column="25" />
-        <mark key="^" line="144" column="25" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485138543994">
+        <mark key="[" line="153" column="31" />
+        <mark key="]" line="153" column="39" />
+        <mark key="." line="153" column="39" />
+        <mark key="^" line="153" column="39" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -282,9 +281,9 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1485125207024">
-        <mark key="'" line="276" column="76" />
-        <mark key="[" line="284" column="5" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1485138581964">
+        <mark key="'" line="49" column="0" />
+        <mark key="[" line="321" column="3" />
         <mark key="]" line="285" column="26" />
         <mark key="." line="285" column="26" />
         <mark key="^" line="285" column="26" />
@@ -318,9 +317,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="410" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="158" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="258" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="273" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="322" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="379" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -418,16 +414,19 @@
       <jump line="304" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="151" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="239" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="147" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="125" column="3" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="49" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>words</text>
+        <text>getWord</text>
       </register>
       <register name="-" type="4">
-        <text>words</text>
+        <text>getWord</text>
       </register>
       <register name="/" type="4">
-        <text>getLeftChild</text>
+        <text>getWord</text>
       </register>
       <register name="0" type="4">
         <text>this.graph = new AMRGraph();
@@ -435,60 +434,22 @@
     startAction = true;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIC8vCg==</text>
+        <text encoding="base64">ICAgICAgZldvcmQuYWRkKGdldFdvcmRJRChjLmdldFdvcmQoaW5kZXgpKSk7Cg==</text>
       </register>
-      <register name="2" type="8">
-        <text>//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIC8vCg==</text>
       </register>
       <register name="3" type="8">
         <text>//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -539,9 +500,50 @@
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //</text>
       </register>
       <register name="5" type="8">
+        <text>//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//</text>
+      </register>
+      <register name="6" type="8">
         <text>//
 //
 //
@@ -570,26 +572,23 @@
 //
 //</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4ob3JhY2xlKTsK</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgIFN0cmluZyBuZXh0V29yZCA9IAo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBicmVhazsK</text>
-      </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>w!</text>
       </register>
     </registers>
     <search>
-      <last-search>getLeftChild</last-search>
+      <last-search>getWord</last-search>
       <last-offset />
-      <last-pattern>getLeftChild</last-pattern>
+      <last-pattern>getWord</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -635,6 +634,7 @@
         <entry>getStack(</entry>
         <entry>getStack</entry>
         <entry>getLeftChild</entry>
+        <entry>getWord</entry>
       </history-search>
       <history-cmd>
         <entry>vs hrg_learn.py</entry>
@@ -658,8 +658,8 @@
         <entry>.,.+1</entry>
         <entry>1</entry>
         <entry>.,.+8w</entry>
-        <entry>w!</entry>
         <entry>w</entry>
+        <entry>w!</entry>
       </history-cmd>
       <history-expr />
       <history-input />
