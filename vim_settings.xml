@@ -51,11 +51,11 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485152002852">
-        <mark key="'" line="428" column="41" />
-        <mark key="[" line="161" column="26" />
-        <mark key="]" line="161" column="33" />
-        <mark key="." line="161" column="33" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485152592684">
+        <mark key="'" line="381" column="5" />
+        <mark key="[" line="429" column="8" />
+        <mark key="]" line="429" column="8" />
+        <mark key="." line="429" column="8" />
         <mark key="^" line="161" column="33" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
@@ -113,6 +113,12 @@
         <mark key="]" line="85" column="49" />
         <mark key="." line="85" column="49" />
         <mark key="^" line="85" column="49" />
+      </file>
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1485152615753">
+        <mark key="[" line="38" column="1" />
+        <mark key="]" line="38" column="0" />
+        <mark key="^" line="38" column="0" />
+        <mark key="." line="38" column="0" />
       </file>
       <file name="$USER_HOME$/Library/Python/2.7/lib/python/site-packages/tensorflow/python/client/session.py" timestamp="1478042329266">
         <mark key="'" line="338" column="20" />
@@ -318,8 +324,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="140" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="201" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="93" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" />
       <jump line="182" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="166" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
@@ -418,13 +422,15 @@
       <jump line="152" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1120" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="428" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="163" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="381" column="5" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>c.getWord(index)</text>
+        <text>//</text>
       </register>
       <register name="-" type="4">
-        <text>c.getWord(index)</text>
+        <text>//</text>
       </register>
       <register name="/" type="4">
         <text>connect</text>
