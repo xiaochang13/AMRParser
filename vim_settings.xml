@@ -51,12 +51,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485148484126">
-        <mark key="'" line="154" column="19" />
-        <mark key="[" line="138" column="62" />
-        <mark key="]" line="138" column="67" />
-        <mark key="." line="138" column="67" />
-        <mark key="^" line="138" column="67" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485152002852">
+        <mark key="'" line="428" column="41" />
+        <mark key="[" line="161" column="26" />
+        <mark key="]" line="161" column="33" />
+        <mark key="." line="161" column="33" />
+        <mark key="^" line="161" column="33" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -282,12 +282,12 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1485142334197">
-        <mark key="'" line="334" column="23" />
-        <mark key="[" line="33" column="18" />
-        <mark key="]" line="33" column="18" />
-        <mark key="." line="33" column="18" />
-        <mark key="^" line="33" column="30" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1485151566004">
+        <mark key="'" line="101" column="23" />
+        <mark key="[" line="297" column="36" />
+        <mark key="]" line="298" column="37" />
+        <mark key="." line="298" column="37" />
+        <mark key="^" line="298" column="37" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
         <mark key="'" line="91" column="8" />
@@ -318,15 +318,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="68" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" />
-      <jump line="69" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" />
-      <jump line="803" column="16" filename="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/io/PrintStream.java" />
-      <jump line="392" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="157" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="273" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="391" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="119" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="205" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="140" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="201" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="93" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" />
@@ -415,19 +406,28 @@
       <jump line="32" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="325" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="39" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
-      <jump line="152" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="132" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="154" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="159" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="160" column="32" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="327" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="162" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="346" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="101" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="423" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="152" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1120" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="428" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>config</text>
+        <text>c.getWord(index)</text>
       </register>
       <register name="-" type="4">
-        <text>config</text>
+        <text>c.getWord(index)</text>
       </register>
       <register name="/" type="4">
-        <text>getOracle</text>
+        <text>connect</text>
       </register>
       <register name="0" type="4">
         <text>this.graph = new AMRGraph();
@@ -435,18 +435,30 @@
     startAction = true;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGdyYXBoCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">ZWxzZSBrLS07CgogICAgTGlzdDxDb3JlTGFiZWw+IGxibHMgPSBnZXRDb3JlTGFiZWxzKCk7</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">aWYgKGsgPT0gMCkgcmV0dXJuIENvbmZpZy5ST09UOwogICAgZWxzZSBrLS07CgogICAgLy9MaXN0PENvcmVMYWJlbD4gbGJscyA9IGdldENvcmVMYWJlbHMoKTsKICAgIHJldHVybiBrIDwgMCB8fCBrID49IGxibHMuc2l6ZSgpID8gQ29uZmlnLk5VTEwgOiBsYmxzLmdldChrKS53b3JkKCk7</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIGdyYXBoCg==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgZldvcmQuYWRkKGdldFdvcmRJRChjLmdldFdvcmQoaW5kZXgpKSk7Cg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIC8vCg==</text>
       </register>
-      <register name="5" type="8">
+      <register name="9" type="8">
         <text>//
 //
 //
@@ -495,101 +507,15 @@
 //
 //
 //</text>
-      </register>
-      <register name="6" type="8">
-        <text>//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//</text>
-      </register>
-      <register name="7" type="8">
-        <text>//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//</text>
-      </register>
-      <register name="8" type="8">
-        <text>//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>getOracle</last-search>
+      <last-search>connect</last-search>
       <last-offset />
-      <last-pattern>getOracle</last-pattern>
+      <last-pattern>connect</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -636,6 +562,7 @@
         <entry>getLeftChild</entry>
         <entry>getWord</entry>
         <entry>getOracle</entry>
+        <entry>connect</entry>
       </history-search>
       <history-cmd>
         <entry>vs hrg_learn.py</entry>
