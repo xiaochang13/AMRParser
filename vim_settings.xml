@@ -57,12 +57,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485282346036">
-        <mark key="'" line="915" column="4" />
-        <mark key="[" line="922" column="47" />
-        <mark key="]" line="922" column="52" />
-        <mark key="." line="922" column="52" />
-        <mark key="^" line="922" column="52" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485283369766">
+        <mark key="'" line="926" column="4" />
+        <mark key="[" line="527" column="41" />
+        <mark key="]" line="527" column="50" />
+        <mark key="." line="527" column="50" />
+        <mark key="^" line="527" column="50" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -437,17 +437,17 @@
       <jump line="915" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGFyY0xhYmVscyA9IGFsYWJlbHM7Cg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">QXJyYXlMaXN0PD4oKQ==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">bmV3IEhhc2hTZXQ8Pigp</text>
+        <text encoding="base64">QXJyYXlMaXN0PD4oKQ==</text>
       </register>
       <register name="/" type="4">
         <text>train(</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZmluYWwgTGlzdDxFeGFtcGxlPiBjb25jZXB0SURFeGFtcGxlcw==</text>
+        <text encoding="base64">cHVibGljIExpc3Q8U3RyaW5nPiBmcmVxRmlsdGVyKENvdW50ZXI8U3RyaW5nPmNvdW50cywgTGlzdDxTdHJpbmc+IHNvcnRlZExpc3QsIGludCBmcmVxKSB7CiAgICBMaXN0PFN0cmluZz4gcmV0ID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBmb3IgKFN0cmluZyBzOiBzb3J0ZWRMaXN0KSB7CiAgICAgIGlmIChjb3VudHMuZ2V0Q291bnQocykgPCBmcmVxKQogICAgICAgIGJyZWFrOwogICAgICByZXQuYWRkKHMpOwogICAgfQogICAgcmV0dXJuIHJldDsKICB9</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIGFyY0xhYmVscyA9IGFsYWJlbHM7Cg==</text>
