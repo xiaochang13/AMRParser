@@ -48,12 +48,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1485226138178">
-        <mark key="'" line="52" column="2" />
-        <mark key="[" line="23" column="60" />
-        <mark key="]" line="53" column="35" />
-        <mark key="^" line="53" column="35" />
-        <mark key="." line="53" column="35" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1485228097547">
+        <mark key="'" line="27" column="4" />
+        <mark key="[" line="28" column="24" />
+        <mark key="]" line="29" column="3" />
+        <mark key="^" line="29" column="3" />
+        <mark key="." line="29" column="3" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
@@ -333,10 +333,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="896" column="73" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1108" column="39" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="75" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="1111" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="118" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="211" column="36" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="19" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" />
@@ -433,6 +429,10 @@
       <jump line="325" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="421" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="51" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="42" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="83" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="20" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="27" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -442,7 +442,7 @@
         <text>Then</text>
       </register>
       <register name="/" type="4">
-        <text>transitions</text>
+        <text>conceptLabels</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">ZmluYWwgTGlzdDxFeGFtcGxlPiBjb25jZXB0SURFeGFtcGxlcw==</text>
@@ -481,13 +481,13 @@
         <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name=":" type="4">
-        <text>1</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>transitions</last-search>
+      <last-search>conceptLabels</last-search>
       <last-offset />
-      <last-pattern>transitions</last-pattern>
+      <last-pattern>conceptLabels</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -540,6 +540,7 @@
         <entry>classif</entry>
         <entry>oracle</entry>
         <entry>transitions</entry>
+        <entry>conceptLabels</entry>
       </history-search>
       <history-cmd>
         <entry>vs hrg_learn.py</entry>
@@ -562,9 +563,9 @@
         <entry>.,.+1</entry>
         <entry>.,.+8w</entry>
         <entry>wq</entry>
+        <entry>1</entry>
         <entry>w!</entry>
         <entry>w</entry>
-        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
