@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485274946457">
-        <mark key="'" line="467" column="56" />
-        <mark key="[" line="502" column="6" />
-        <mark key="]" line="502" column="7" />
-        <mark key="." line="502" column="7" />
-        <mark key="^" line="502" column="7" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485276376186">
+        <mark key="'" line="469" column="56" />
+        <mark key="[" line="109" column="40" />
+        <mark key="]" line="110" column="34" />
+        <mark key="." line="110" column="34" />
+        <mark key="^" line="110" column="34" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -438,8 +438,8 @@
       <jump line="124" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/IntCounter.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>unalignedCounts.put(concept, 1);</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>unalignedCounts.put(concept, 1);</text>
@@ -451,34 +451,34 @@
         <text encoding="base64">ZmluYWwgTGlzdDxFeGFtcGxlPiBjb25jZXB0SURFeGFtcGxlcw==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIGVsc2UK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdW5hbGlnbmVkQ291bnRzLnB1dChjb25jZXB0LCB1bmFsaWduZWRDb3VudHMuZ2V0KGNvbmNlcHQpKzEpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgIGVsc2UK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIGlmICh1bmFsaWduQ29uY2VwdENvdW50ZXIuKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdW5hbGlnbmVkQ291bnRzLnB1dChjb25jZXB0LCB1bmFsaWduZWRDb3VudHMuZ2V0KGNvbmNlcHQpKzEpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIGlmICh1bmFsaWduQ29uY2VwdENvdW50ZXIuKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgIFN0cmluZyBjb25jZXB0ID0gYy52YWx1ZSgpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIFN0cmluZyBjb25jZXB0ID0gYy52YWx1ZSgpOwo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="4">
         <text>//Then the concept identification transitions
     for (String label: conceptLabels) {
       conceptIDTransitions.add(label);
     }</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgYy5sYXN0QWN0aW9uID0gIlBPUCI7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
