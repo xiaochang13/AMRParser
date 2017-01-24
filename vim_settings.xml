@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485291866777">
-        <mark key="'" line="1545" column="13" />
-        <mark key="[" line="446" column="9" />
-        <mark key="]" line="447" column="9" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485293969395">
+        <mark key="'" line="1544" column="13" />
+        <mark key="[" line="979" column="0" />
+        <mark key="]" line="979" column="0" />
         <mark key="^" line="447" column="9" />
-        <mark key="." line="447" column="9" />
+        <mark key="." line="979" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -438,8 +438,8 @@
       <jump line="1545" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>examples</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIC8qCg==</text>
       </register>
       <register name="-" type="4">
         <text>examples</text>
@@ -451,9 +451,12 @@
         <text encoding="base64">Zm9yIChpbnQgY29uY2VwdElEOiBvbGRNYXAua2V5U2V0KCkpIHsKICAgICAgICBpbnQgY3VyckNvdW50ID0gb2xkTWFwLmdldChjb25jZXB0SUQpOwogICAgICAgIGlmIChjdXJyQ291bnQgPiBtYXhDb3VudCkKICAgICAgICAgIG1heENvdW50ID0gY3VyckNvdW50OwogICAgICB9</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgIC8qCg==</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>/**
    * Convenience method for {@link #predict(edu.stanford.nlp.util.CoreMap)}. The tokens of the provided sentence must
    * also have tag annotations (the parser requires part-of-speech tags).
@@ -461,30 +464,23 @@
    * @see #predict(edu.stanford.nlp.util.CoreMap)
    */</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgKi8K</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgIEFNUkRhdGEgdHJhaW5TZXQgPSBnZW5UcmFpbkV4YW1wbGVzKHRyYWluU2VudHMsIHRyYWluUG9zcywgdHJhaW5HcmFwaHMpOwo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIC8vdHJhbnNpdGlvbnMuYWRkKCJTIik7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vdHJhbnNpdGlvbnMuYWRkKCJTIik7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIC8vIFRPRE8gc3RvcmUgdGhlc2UgYXMgb2JqZWN0cyEK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>// TODO store these as objects!
-    for (String label : arcLabels)
-      arcTransitions.add(&quot;L(&quot; + label + &quot;)&quot;);
-    for (String label : arcLabels)
-      arcTransitions.add(&quot;R(&quot; + label + &quot;)&quot;);</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIC8vIFRPRE8gc3RvcmUgdGhlc2UgYXMgb2JqZWN0cyEK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
