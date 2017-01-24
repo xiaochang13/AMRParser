@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485234305123">
-        <mark key="'" line="892" column="4" />
-        <mark key="[" line="495" column="27" />
-        <mark key="]" line="495" column="38" />
-        <mark key="^" line="495" column="38" />
-        <mark key="." line="495" column="38" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485238780016">
+        <mark key="'" line="896" column="4" />
+        <mark key="[" line="480" column="42" />
+        <mark key="]" line="481" column="30" />
+        <mark key="^" line="481" column="30" />
+        <mark key="." line="481" column="30" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -435,8 +435,8 @@
       <jump line="885" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>{</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>{</text>
@@ -448,37 +448,37 @@
         <text encoding="base64">ZmluYWwgTGlzdDxFeGFtcGxlPiBjb25jZXB0SURFeGFtcGxlcw==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIFN0cmluZyBjb25jZXB0ID0gYy52YWx1ZSgpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIFN0cmluZyBjb25jZXB0ID0gYy52YWx1ZSgpOwo=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="4">
         <text>//Then the concept identification transitions
     for (String label: conceptLabels) {
       conceptIDTransitions.add(label);
     }</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgYy5sYXN0QWN0aW9uID0gIlBPUCI7Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgLy99Cg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>//if(!c.pop()) {
       //  System.err.println(&quot;pop error!&quot;);
       //  assert false;
       //}</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIC8vU3lzdGVtLmVyci5wcmludGxuKENvbmZpZy5TRVBBUkFUT1IpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
