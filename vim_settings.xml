@@ -48,12 +48,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1485209392355">
-        <mark key="'" line="51" column="2" />
-        <mark key="[" line="31" column="8" />
-        <mark key="]" line="31" column="8" />
-        <mark key="^" line="51" column="5" />
-        <mark key="." line="31" column="8" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1485226138178">
+        <mark key="'" line="52" column="2" />
+        <mark key="[" line="23" column="60" />
+        <mark key="]" line="53" column="35" />
+        <mark key="^" line="53" column="35" />
+        <mark key="." line="53" column="35" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
@@ -436,10 +436,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>Pop</text>
+        <text>Then</text>
       </register>
       <register name="-" type="4">
-        <text>Pop</text>
+        <text>Then</text>
       </register>
       <register name="/" type="4">
         <text>transitions</text>
@@ -447,38 +447,41 @@
       <register name="0" type="4">
         <text encoding="base64">ZmluYWwgTGlzdDxFeGFtcGxlPiBjb25jZXB0SURFeGFtcGxlcw==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgYy5sYXN0QWN0aW9uID0gIlBPUCI7Cg==</text>
+      <register name="1" type="4">
+        <text>//Then the concept identification transitions
+    for (String label: conceptLabels) {
+      conceptIDTransitions.add(label);
+    }</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgLy99Cg==</text>
+        <text encoding="base64">ICAgICAgYy5sYXN0QWN0aW9uID0gIlBPUCI7Cg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgICAgLy99Cg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>//if(!c.pop()) {
       //  System.err.println(&quot;pop error!&quot;);
       //  assert false;
       //}</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgIC8vU3lzdGVtLmVyci5wcmludGxuKENvbmZpZy5TRVBBUkFUT1IpOwo=</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgLy9TeXN0ZW0ub3V0LnByaW50bG4oU3RyaW5nVXRpbHMuam9pbihwb3NTZXEsICIgIikpOwo=</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgfQo=</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgIH0K</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
-      </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>1</text>
       </register>
     </registers>
     <search>
@@ -558,10 +561,10 @@
         <entry>e! ~/vim_local/vimrc</entry>
         <entry>.,.+1</entry>
         <entry>.,.+8w</entry>
-        <entry>1</entry>
         <entry>wq</entry>
         <entry>w!</entry>
         <entry>w</entry>
+        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
