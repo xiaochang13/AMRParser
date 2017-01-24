@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485274283786">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485274946457">
         <mark key="'" line="467" column="56" />
-        <mark key="[" line="499" column="7" />
-        <mark key="]" line="500" column="86" />
-        <mark key="." line="500" column="86" />
-        <mark key="^" line="500" column="86" />
+        <mark key="[" line="502" column="6" />
+        <mark key="]" line="502" column="7" />
+        <mark key="." line="502" column="7" />
+        <mark key="^" line="502" column="7" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -150,8 +150,8 @@
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" timestamp="1481134934464">
         <mark key="'" line="151" column="9" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/IntCounter.java" timestamp="1485274151829">
-        <mark key="'" line="253" column="13" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/IntCounter.java" timestamp="1485274963606">
+        <mark key="'" line="124" column="2" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/seq2seq_sa.bak.py" timestamp="1478015508358">
         <mark key="'" line="76" column="10" />
@@ -336,7 +336,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="337" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="447" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="184" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="241" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
@@ -428,7 +427,6 @@
       <jump line="981" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/Counters.java" />
       <jump line="456" column="52" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="969" column="3" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/Counters.java" />
-      <jump line="467" column="56" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="123" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/IntCounter.java" />
       <jump line="199" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/IntCounter.java" />
       <jump line="211" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/IntCounter.java" />
@@ -436,6 +434,8 @@
       <jump line="231" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/IntCounter.java" />
       <jump line="253" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/IntCounter.java" />
       <jump line="259" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/IntCounter.java" />
+      <jump line="467" column="56" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="124" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/IntCounter.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -445,7 +445,7 @@
         <text>unalignedCounts.put(concept, 1);</text>
       </register>
       <register name="/" type="4">
-        <text>incrementCount</text>
+        <text>increment</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">ZmluYWwgTGlzdDxFeGFtcGxlPiBjb25jZXB0SURFeGFtcGxlcw==</text>
@@ -485,9 +485,9 @@
       </register>
     </registers>
     <search>
-      <last-search>incrementCount</last-search>
+      <last-search>increment</last-search>
       <last-offset />
-      <last-pattern>incrementCount</last-pattern>
+      <last-pattern>increment</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -543,6 +543,8 @@
         <entry>conceptLabels</entry>
         <entry>increament</entry>
         <entry>incrementCount</entry>
+        <entry>increa</entry>
+        <entry>increment</entry>
       </history-search>
       <history-cmd>
         <entry>vs hrg_learn.py</entry>
