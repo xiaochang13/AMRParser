@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485289603691">
-        <mark key="'" line="1191" column="23" />
-        <mark key="[" line="1191" column="0" />
-        <mark key="]" line="1191" column="0" />
-        <mark key="^" line="470" column="67" />
-        <mark key="." line="1191" column="0" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485291404465">
+        <mark key="'" line="1560" column="4" />
+        <mark key="[" line="446" column="9" />
+        <mark key="]" line="447" column="9" />
+        <mark key="^" line="447" column="9" />
+        <mark key="." line="447" column="9" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -178,12 +178,12 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1485154464847">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1485291308999">
         <mark key="'" line="135" column="14" />
-        <mark key="[" line="24" column="30" />
-        <mark key="]" line="24" column="36" />
-        <mark key="." line="24" column="36" />
-        <mark key="^" line="24" column="36" />
+        <mark key="[" line="507" column="2" />
+        <mark key="]" line="508" column="31" />
+        <mark key="." line="508" column="31" />
+        <mark key="^" line="508" column="31" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1480518352122">
         <mark key="'" line="686" column="0" />
@@ -336,10 +336,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="346" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="101" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="423" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="152" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1120" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="428" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="163" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -436,13 +432,17 @@
       <jump line="131" column="45" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="966" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1191" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="441" column="52" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1240" column="39" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1206" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1558" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIEFNUkRhdGEgdHJhaW5TZXQgPSBnZW5UcmFpbkV4YW1wbGVzKHRyYWluU2VudHMsIHRyYWluUG9zcywgdHJhaW5HcmFwaHMpOwo=</text>
+      <register name="&quot;" type="4">
+        <text>examples</text>
       </register>
       <register name="-" type="4">
-        <text>I</text>
+        <text>examples</text>
       </register>
       <register name="/" type="4">
         <text>aligned</text>
@@ -451,35 +451,40 @@
         <text encoding="base64">Zm9yIChpbnQgY29uY2VwdElEOiBvbGRNYXAua2V5U2V0KCkpIHsKICAgICAgICBpbnQgY3VyckNvdW50ID0gb2xkTWFwLmdldChjb25jZXB0SUQpOwogICAgICAgIGlmIChjdXJyQ291bnQgPiBtYXhDb3VudCkKICAgICAgICAgIG1heENvdW50ID0gY3VyckNvdW50OwogICAgICB9</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEFNUkRhdGEgdHJhaW5TZXQgPSBnZW5UcmFpbkV4YW1wbGVzKHRyYWluU2VudHMsIHRyYWluUG9zcywgdHJhaW5HcmFwaHMpOwo=</text>
+        <text encoding="base64">ICAK</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>/**
+   * Convenience method for {@link #predict(edu.stanford.nlp.util.CoreMap)}. The tokens of the provided sentence must
+   * also have tag annotations (the parser requires part-of-speech tags).
+   *
+   * @see #predict(edu.stanford.nlp.util.CoreMap)
+   */</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIC8vdHJhbnNpdGlvbnMuYWRkKCJTIik7Cg==</text>
+        <text encoding="base64">ICAgICAgKi8K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEFNUkRhdGEgdHJhaW5TZXQgPSBnZW5UcmFpbkV4YW1wbGVzKHRyYWluU2VudHMsIHRyYWluUG9zcywgdHJhaW5HcmFwaHMpOwo=</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIC8vdHJhbnNpdGlvbnMuYWRkKCJTIik7Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgIC8vIFRPRE8gc3RvcmUgdGhlc2UgYXMgb2JqZWN0cyEK</text>
       </register>
-      <register name="6" type="4">
+      <register name="9" type="4">
         <text>// TODO store these as objects!
     for (String label : arcLabels)
       arcTransitions.add(&quot;L(&quot; + label + &quot;)&quot;);
     for (String label : arcLabels)
       arcTransitions.add(&quot;R(&quot; + label + &quot;)&quot;);</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
