@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485370001752">
-        <mark key="'" line="468" column="12" />
-        <mark key="[" line="403" column="57" />
-        <mark key="]" line="411" column="4" />
-        <mark key="." line="411" column="4" />
-        <mark key="^" line="400" column="4" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485372345633">
+        <mark key="'" line="617" column="48" />
+        <mark key="[" line="415" column="74" />
+        <mark key="]" line="416" column="69" />
+        <mark key="." line="416" column="69" />
+        <mark key="^" line="416" column="69" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -342,10 +342,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="499" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="882" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="479" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="491" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="486" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="883" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="473" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -442,60 +438,62 @@
       <jump line="463" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="105" column="53" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="467" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="414" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="482" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="483" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="617" column="48" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="8">
-        <text>//
-//
-//</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIHJldC5pbml0RXhhbXBsZShDb25maWcuY29uSURUb2tlbnMsICk7Cg==</text>
       </register>
       <register name="-" type="4">
         <text>//</text>
       </register>
       <register name="/" type="4">
-        <text>oracle</text>
+        <text>train(</text>
       </register>
       <register name="0" type="4">
         <text>conceptIDParam.E[i][j]</text>
       </register>
-      <register name="1" type="8">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIHJldC5pbml0RXhhbXBsZShDb25maWcuY29uSURUb2tlbnMsICk7Cg==</text>
+      </register>
+      <register name="2" type="8">
         <text>//
 //
 //</text>
       </register>
-      <register name="2" type="8">
+      <register name="3" type="8">
         <text>//
 //</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIH0K</text>
-      </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAqLwo=</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAvKgo=</text>
+        <text encoding="base64">ICAgICAgICAqLwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAvKgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIC8vUmFuZG9tIHJhbmRvbSA9IFV0aWwuZ2V0UmFuZG9tKCk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICAgIC8vUmFuZG9tIHJhbmRvbSA9IFV0aWwuZ2V0UmFuZG9tKCk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>oracle</last-search>
+      <last-search>train(</last-search>
       <last-offset />
-      <last-pattern>oracle</last-pattern>
+      <last-pattern>train(</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -503,7 +501,6 @@
     </search>
     <history>
       <history-search>
-        <entry>train</entry>
         <entry>configuration</entry>
         <entry>void Ap</entry>
         <entry>pop</entry>
@@ -554,10 +551,11 @@
         <entry>genTrain</entry>
         <entry>aligned</entry>
         <entry>classifier</entry>
-        <entry>train(</entry>
         <entry>setupClaa</entry>
         <entry>setupCla</entry>
         <entry>oracle</entry>
+        <entry>train</entry>
+        <entry>train(</entry>
       </history-search>
       <history-cmd>
         <entry>vs hrg_learn.py</entry>
@@ -580,8 +578,8 @@
         <entry>.,.+1</entry>
         <entry>.,.+8w</entry>
         <entry>wq</entry>
-        <entry>1</entry>
         <entry>W</entry>
+        <entry>1</entry>
         <entry>w!</entry>
         <entry>w</entry>
       </history-cmd>
