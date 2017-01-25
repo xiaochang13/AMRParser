@@ -27,10 +27,10 @@
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1481134923338">
         <mark key="'" line="52" column="4" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRData.java" timestamp="1485153229317">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRData.java" timestamp="1485312353663">
         <mark key="'" line="41" column="28" />
-        <mark key="[" line="51" column="14" />
-        <mark key="]" line="52" column="31" />
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="37" />
         <mark key="." line="52" column="31" />
         <mark key="^" line="52" column="31" />
       </file>
@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485309887597">
-        <mark key="'" line="974" column="4" />
-        <mark key="[" line="1063" column="63" />
-        <mark key="]" line="1063" column="63" />
-        <mark key="^" line="1063" column="63" />
-        <mark key="." line="1063" column="63" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485312939592">
+        <mark key="'" line="1077" column="54" />
+        <mark key="[" line="1075" column="4" />
+        <mark key="]" line="1084" column="80" />
+        <mark key="^" line="1059" column="2" />
+        <mark key="." line="1059" column="2" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -300,6 +300,12 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/NeuralParam.java" timestamp="1485312987790">
+        <mark key="[" line="18" column="24" />
+        <mark key="]" line="18" column="29" />
+        <mark key="^" line="18" column="29" />
+        <mark key="." line="18" column="29" />
+      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1485151566004">
         <mark key="'" line="101" column="23" />
         <mark key="[" line="297" column="36" />
@@ -336,9 +342,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="989" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1124" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1123" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="64" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="888" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="568" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -435,20 +438,23 @@
       <jump line="86" column="51" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="89" column="46" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="95" column="38" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="450" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="974" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1077" column="54" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="74" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text />
+        <text>int</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>int</text>
       </register>
       <register name="/" type="4">
-        <text>classifier</text>
+        <text>setupCla</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Zm9yIChpbnQgY29uY2VwdElEOiBvbGRNYXAua2V5U2V0KCkpIHsKICAgICAgICBpbnQgY3VyckNvdW50ID0gb2xkTWFwLmdldChjb25jZXB0SUQpOwogICAgICAgIGlmIChjdXJyQ291bnQgPiBtYXhDb3VudCkKICAgICAgICAgIG1heENvdW50ID0gY3VyckNvdW50OwogICAgICB9</text>
+        <text encoding="base64">Zm9yIChpbnQgaSA9IDA7IGkgPCBXMS5sZW5ndGg7ICsraSkKICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCBXMVtpXS5sZW5ndGg7ICsraikKICAgICAgICBXMVtpXVtqXSA9IHJhbmRvbS5uZXh0RG91YmxlKCkgKiAyICogY29uZmlnLmluaXRSYW5nZSAtIGNvbmZpZy5pbml0UmFuZ2U7CgogICAgZm9yIChpbnQgaSA9IDA7IGkgPCBiMS5sZW5ndGg7ICsraSkKICAgICAgYjFbaV0gPSByYW5kb20ubmV4dERvdWJsZSgpICogMiAqIGNvbmZpZy5pbml0UmFuZ2UgLSBjb25maWcuaW5pdFJhbmdlOwoKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgVzIubGVuZ3RoOyArK2kpCiAgICAgIGZvciAoaW50IGogPSAwOyBqIDwgVzJbaV0ubGVuZ3RoOyArK2opCiAgICAgICAgVzJbaV1bal0gPSByYW5kb20ubmV4dERvdWJsZSgpICogMiAqIGNvbmZpZy5pbml0UmFuZ2UgLSBjb25maWcuaW5pdFJhbmdlOw==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIC8qCg==</text>
@@ -487,9 +493,9 @@
       </register>
     </registers>
     <search>
-      <last-search>classifier</last-search>
+      <last-search>setupCla</last-search>
       <last-offset />
-      <last-pattern>classifier</last-pattern>
+      <last-pattern>setupCla</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -547,9 +553,11 @@
         <entry>increa</entry>
         <entry>increment</entry>
         <entry>genTrain</entry>
-        <entry>train(</entry>
         <entry>aligned</entry>
         <entry>classifier</entry>
+        <entry>train(</entry>
+        <entry>setupClaa</entry>
+        <entry>setupCla</entry>
       </history-search>
       <history-cmd>
         <entry>vs hrg_learn.py</entry>
