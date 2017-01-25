@@ -300,11 +300,11 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/NeuralParam.java" timestamp="1485312987790">
-        <mark key="[" line="18" column="24" />
-        <mark key="]" line="18" column="29" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/NeuralParam.java" timestamp="1485313757446">
+        <mark key="[" line="29" column="45" />
+        <mark key="]" line="29" column="45" />
         <mark key="^" line="18" column="29" />
-        <mark key="." line="18" column="29" />
+        <mark key="." line="29" column="45" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1485151566004">
         <mark key="'" line="101" column="23" />
@@ -445,10 +445,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>int</text>
+        <text>config.</text>
       </register>
       <register name="-" type="4">
-        <text>int</text>
+        <text>config.</text>
       </register>
       <register name="/" type="4">
         <text>setupCla</text>
