@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485381436135">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485382365447">
         <mark key="'" line="1001" column="17" />
-        <mark key="[" line="1004" column="134" />
-        <mark key="]" line="1005" column="5" />
-        <mark key="^" line="1005" column="5" />
-        <mark key="." line="1005" column="5" />
+        <mark key="[" line="1042" column="0" />
+        <mark key="]" line="1042" column="0" />
+        <mark key="." line="1042" column="0" />
+        <mark key="^" line="1025" column="6" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -444,45 +444,44 @@
       <jump line="339" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>arcConnectClassifier</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICovCg==</text>
       </register>
       <register name="-" type="4">
-        <text>arcConnectClassifier</text>
+        <text>conceptIDCost</text>
       </register>
       <register name="/" type="4">
         <text>static</text>
       </register>
       <register name="0" type="4">
-        <text>Classifier.Cost arcConnectCost = arcConnectClassifier.computeCostFunction(config.batchSize, config.regParameter, config.dropProb);</text>
+        <text>conceptIDClassifier.takeAdaGradientStep(conceptIDCost, config.adaAlpha, config.adaEps);</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICovCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgLy9jLnByaW50Q29uZmlnKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgY2xhc3NpZmllci50YWtlQWRhR3JhZGllbnRTdGVwKGNvc3QsIGNvbmZpZy5hZGFBbHBoYSwgY29uZmlnLmFkYUVwcyk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgLy9ncmFwaC5wcmludEdyYXBoKCk7Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgd2hpbGUgKCFzeXN0ZW0uaXNUZXJtaW5hbChjKSkgewo=</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgLy9jLnByaW50Q29uZmlnKCk7Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgLy9ncmFwaC5wcmludEdyYXBoKCk7Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgd2hpbGUgKCFzeXN0ZW0uaXNUZXJtaW5hbChjKSkgewo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgLy9jLnByaW50Q29uZmlnKCk7Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>//graph.printGraph();
-      //c.printConfig();</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
