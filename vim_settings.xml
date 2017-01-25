@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485314778701">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485316084849">
         <mark key="'" line="1077" column="32" />
-        <mark key="[" line="1079" column="34" />
-        <mark key="]" line="1081" column="32" />
-        <mark key="^" line="1081" column="32" />
-        <mark key="." line="1081" column="32" />
+        <mark key="[" line="1125" column="10" />
+        <mark key="]" line="1125" column="23" />
+        <mark key="." line="1125" column="23" />
+        <mark key="^" line="1125" column="23" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -445,24 +445,36 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>config.</text>
+        <text>conceptIDParam</text>
       </register>
       <register name="-" type="4">
-        <text>config.</text>
+        <text>conceptIDParam</text>
       </register>
       <register name="/" type="4">
         <text>setupCla</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Zm9yIChpbnQgaSA9IDA7IGkgPCBXMS5sZW5ndGg7ICsraSkKICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCBXMVtpXS5sZW5ndGg7ICsraikKICAgICAgICBXMVtpXVtqXSA9IHJhbmRvbS5uZXh0RG91YmxlKCkgKiAyICogY29uZmlnLmluaXRSYW5nZSAtIGNvbmZpZy5pbml0UmFuZ2U7CgogICAgZm9yIChpbnQgaSA9IDA7IGkgPCBiMS5sZW5ndGg7ICsraSkKICAgICAgYjFbaV0gPSByYW5kb20ubmV4dERvdWJsZSgpICogMiAqIGNvbmZpZy5pbml0UmFuZ2UgLSBjb25maWcuaW5pdFJhbmdlOwoKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgVzIubGVuZ3RoOyArK2kpCiAgICAgIGZvciAoaW50IGogPSAwOyBqIDwgVzJbaV0ubGVuZ3RoOyArK2opCiAgICAgICAgVzJbaV1bal0gPSByYW5kb20ubmV4dERvdWJsZSgpICogMiAqIGNvbmZpZy5pbml0UmFuZ2UgLSBjb25maWcuaW5pdFJhbmdlOw==</text>
+        <text>conceptIDParam.E[i][j] = embeddings[index][j];</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIC8qCg==</text>
+        <text encoding="base64">ICAgICAgICAvL05PVEU6IGV4YWN0IG1hdGNoIGZpcnN0LCBhbmQgdGhlbiB0cnkgbG93ZXIgY2FzZS4uCg==</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgIC8vZm9yIChpbnQgaSA9IDA7IGkgPCBFLmxlbmd0aDsgKytpKSB7Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIGZvciAoaW50IGkgPSAwOyBpIDwgRS5sZW5ndGg7ICsraSkgewo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIC8qCg==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="3" type="4">
+      <register name="7" type="4">
         <text>/**
    * Convenience method for {@link #predict(edu.stanford.nlp.util.CoreMap)}. The tokens of the provided sentence must
    * also have tag annotations (the parser requires part-of-speech tags).
@@ -470,23 +482,11 @@
    * @see #predict(edu.stanford.nlp.util.CoreMap)
    */</text>
       </register>
-      <register name="4" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgKi8K</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIEFNUkRhdGEgdHJhaW5TZXQgPSBnZW5UcmFpbkV4YW1wbGVzKHRyYWluU2VudHMsIHRyYWluUG9zcywgdHJhaW5HcmFwaHMpOwo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIC8vdHJhbnNpdGlvbnMuYWRkKCJTIik7Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIC8vIFRPRE8gc3RvcmUgdGhlc2UgYXMgb2JqZWN0cyEK</text>
+        <text encoding="base64">ICAgIEFNUkRhdGEgdHJhaW5TZXQgPSBnZW5UcmFpbkV4YW1wbGVzKHRyYWluU2VudHMsIHRyYWluUG9zcywgdHJhaW5HcmFwaHMpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
