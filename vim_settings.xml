@@ -27,12 +27,12 @@
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1481134923338">
         <mark key="'" line="52" column="4" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRData.java" timestamp="1485312353663">
-        <mark key="'" line="41" column="28" />
-        <mark key="[" line="8" column="0" />
-        <mark key="]" line="8" column="37" />
-        <mark key="." line="52" column="31" />
-        <mark key="^" line="52" column="31" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRData.java" timestamp="1485320653235">
+        <mark key="'" line="50" column="28" />
+        <mark key="[" line="61" column="22" />
+        <mark key="]" line="61" column="46" />
+        <mark key="." line="61" column="46" />
+        <mark key="^" line="61" column="46" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/fragment_hypergraph.py" timestamp="1480516204906">
         <mark key="'" line="47" column="41" />
@@ -58,7 +58,7 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485319391741">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485319857569">
         <mark key="'" line="392" column="22" />
         <mark key="[" line="390" column="4" />
         <mark key="]" line="390" column="5" />
@@ -444,11 +444,11 @@
       <jump line="392" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>add(data)</text>
       </register>
       <register name="-" type="4">
-        <text>E[index][i]</text>
+        <text>add(data)</text>
       </register>
       <register name="/" type="4">
         <text>setupCla</text>
@@ -457,34 +457,34 @@
         <text>conceptIDParam.E[i][j]</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIC8vUmFuZG9tIHJhbmRvbSA9IFV0aWwuZ2V0UmFuZG9tKCk7Cg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICB2b2lkIHNldAo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAvL05PVEU6IGV4YWN0IG1hdGNoIGZpcnN0LCBhbmQgdGhlbiB0cnkgbG93ZXIgY2FzZS4uCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIC8vZm9yIChpbnQgaSA9IDA7IGkgPCBFLmxlbmd0aDsgKytpKSB7Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIGZvciAoaW50IGkgPSAwOyBpIDwgRS5sZW5ndGg7ICsraSkgewo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIC8vUmFuZG9tIHJhbmRvbSA9IFV0aWwuZ2V0UmFuZG9tKCk7Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICB2b2lkIHNldAo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAvL05PVEU6IGV4YWN0IG1hdGNoIGZpcnN0LCBhbmQgdGhlbiB0cnkgbG93ZXIgY2FzZS4uCg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIC8vZm9yIChpbnQgaSA9IDA7IGkgPCBFLmxlbmd0aDsgKytpKSB7Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIGZvciAoaW50IGkgPSAwOyBpIDwgRS5sZW5ndGg7ICsraSkgewo=</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIC8qCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w!</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -576,8 +576,8 @@
         <entry>.,.+8w</entry>
         <entry>wq</entry>
         <entry>1</entry>
-        <entry>w</entry>
         <entry>w!</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
