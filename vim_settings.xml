@@ -178,8 +178,8 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1485380064711">
-        <mark key="'" line="544" column="16" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1485447596573">
+        <mark key="'" line="198" column="28" />
         <mark key="[" line="74" column="26" />
         <mark key="]" line="74" column="84" />
         <mark key="^" line="74" column="84" />
@@ -342,12 +342,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="211" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/IntCounter.java" />
-      <jump line="226" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/IntCounter.java" />
-      <jump line="231" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/IntCounter.java" />
-      <jump line="253" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/IntCounter.java" />
-      <jump line="259" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/IntCounter.java" />
-      <jump line="124" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/IntCounter.java" />
       <jump line="503" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="382" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1063" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -380,7 +374,6 @@
       <jump line="1545" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="984" column="40" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="517" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
-      <jump line="656" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="59" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="15" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="43" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -442,6 +435,13 @@
       <jump line="131" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="1001" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="339" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="458" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="469" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="471" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="655" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="656" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="678" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="198" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -451,7 +451,7 @@
         <text>conceptIDCost</text>
       </register>
       <register name="/" type="4">
-        <text>static</text>
+        <text>config.numTokens</text>
       </register>
       <register name="0" type="4">
         <text>conceptIDClassifier.takeAdaGradientStep(conceptIDCost, config.adaAlpha, config.adaEps);</text>
@@ -488,9 +488,9 @@
       </register>
     </registers>
     <search>
-      <last-search>static</last-search>
+      <last-search>config.numTokens</last-search>
       <last-offset />
-      <last-pattern>static</last-pattern>
+      <last-pattern>config.numTokens</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -554,6 +554,7 @@
         <entry>train</entry>
         <entry>train(</entry>
         <entry>static</entry>
+        <entry>config.numTokens</entry>
       </history-search>
       <history-cmd>
         <entry>vs hrg_learn.py</entry>
