@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485468606716">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485469220523">
         <mark key="'" line="1032" column="68" />
-        <mark key="[" line="1010" column="4" />
-        <mark key="]" line="1010" column="5" />
-        <mark key="." line="1010" column="5" />
-        <mark key="^" line="1010" column="5" />
+        <mark key="[" line="1034" column="6" />
+        <mark key="]" line="1034" column="7" />
+        <mark key="." line="1034" column="7" />
+        <mark key="^" line="1034" column="7" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -140,12 +140,12 @@
         <mark key="." line="813" column="49" />
         <mark key="^" line="813" column="49" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1485468660242">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1485468877594">
         <mark key="'" line="215" column="4" />
-        <mark key="[" line="98" column="27" />
-        <mark key="]" line="98" column="27" />
-        <mark key="^" line="97" column="3" />
-        <mark key="." line="98" column="27" />
+        <mark key="[" line="97" column="2" />
+        <mark key="]" line="97" column="2" />
+        <mark key="^" line="98" column="3" />
+        <mark key="." line="97" column="2" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" timestamp="1481134934464">
         <mark key="'" line="151" column="9" />
@@ -445,10 +445,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>0.0</text>
+        <text>//</text>
       </register>
       <register name="-" type="4">
-        <text>0.0</text>
+        <text>//</text>
       </register>
       <register name="/" type="4">
         <text>percentCorrect</text>
