@@ -54,12 +54,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485751865644">
-        <mark key="'" line="1041" column="11" />
-        <mark key="[" line="1153" column="99" />
-        <mark key="]" line="1036" column="0" />
-        <mark key="." line="1036" column="0" />
-        <mark key="^" line="1035" column="40" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485752897411">
+        <mark key="'" line="452" column="31" />
+        <mark key="[" line="538" column="41" />
+        <mark key="]" line="538" column="43" />
+        <mark key="^" line="538" column="43" />
+        <mark key="." line="538" column="43" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -345,27 +345,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="49" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="48" column="1" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="464" column="35" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="54" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="455" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="394" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1060" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="152" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
-      <jump line="620" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="472" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="619" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="615" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="605" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="988" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="520" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="99" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="1001" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="13" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/NeuralParam.java" />
-      <jump line="120" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
-      <jump line="1194" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="937" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1279" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="414" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="456" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -434,7 +413,6 @@
       <jump line="78" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="37" column="50" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="449" column="39" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="253" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="510" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="253" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="196" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
@@ -442,58 +420,81 @@
       <jump line="491" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="79" column="49" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="79" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="1032" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="90" column="5" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="1041" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1228" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="475" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="62" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="1032" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="70" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="1023" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="701" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1036" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="585" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="612" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="568" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1033" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="82" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="1038" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="535" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="586" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1026" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="253" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="1054" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1179" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1241" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="415" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="452" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgaW50IGNvbmNlcHRJRCA9IC0xOwo=</text>
       </register>
       <register name="-" type="4">
-        <text>EMP</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>wordID</text>
+        <text>orac</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Zm9yIChpbnQgaSA6IHRhcmdldCkgewogICAgICAgICAgICAvL2ZvciAoaW50IGkgPSAwOyBpIDwgbnVtTGFiZWxzOyArK2kpIHsKICAgICAgICAgICAgaWYgKGxhYmVsLmdldChpKSA+PSAwKSB7CiAgICAgICAgICAgICAgZm9yIChpbnQgbm9kZUluZGV4IDogbHMpCiAgICAgICAgICAgICAgICBzY29yZXNbaV0gKz0gVzJbaV1bbm9kZUluZGV4XSAqIGhpZGRlbjNbbm9kZUluZGV4XTsKCiAgICAgICAgICAgICAgaWYgKG9wdExhYmVsIDwgMCB8fCBzY29yZXNbaV0gPiBzY29yZXNbb3B0TGFiZWxdKQogICAgICAgICAgICAgICAgb3B0TGFiZWwgPSBpOwogICAgICAgICAgICB9CiAgICAgICAgICB9</text>
+        <text>conceptID = conceptIDTargetIDs.get(conceptTran);</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgaW50IGNvbmNlcHRJRCA9IC0xOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgIGludCBjb25jZXB0SUQgPSAtMTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIH0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGludCBpbmRleCA9IDA7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIGVsc2Ugewo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIC8vTWFrZSB0aGUgY29uY2VwdCBpZGVudGlmaWNhdGlvbiB0cmFuc2l0aW9ucwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uY2VwdElEVGFyZ2V0SURzLnB1dChjb25jZXB0VHJhbiwgY29uY2VwdElEVGFyZ2V0SURzLnNpemUoKSk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGZvciAoU3RyaW5nIHM6IGNvbmNlcHRJRFRyYW5zaXRpb25zKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uY2VwdElEID0gY29uY2VwdElEVGFyZ2V0SURzLmdldChjb25jZXB0VHJhbik7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAob3JhY2xlVHlwZSAhPSAwKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgYwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGdlbmVyYXRlQ29uY2VwdE1hcCh0cmFpblNlbnRzLCB0cmFpblBvc3MsIHRyYWluR3JhcGhzKTsK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>conceptIDs.containsKey(concept) ? conceptIDs.get(concept) :
+                  conceptIDs.get(config.UNKNOWN);</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>w!</text>
       </register>
     </registers>
     <search>
-      <last-search>wordID</last-search>
+      <last-search>orac</last-search>
       <last-offset />
-      <last-pattern>wordID</last-pattern>
+      <last-pattern>orac</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -523,6 +524,9 @@
         <entry>train(</entry>
         <entry>target</entry>
         <entry>wordID</entry>
+        <entry>unaligned</entry>
+        <entry>gen</entry>
+        <entry>orac</entry>
       </history-search>
       <history-cmd>
         <entry>set noic</entry>
@@ -543,8 +547,8 @@
         <entry>W</entry>
         <entry>e! ~/vim_local/vimrc</entry>
         <entry>1</entry>
-        <entry>w!</entry>
         <entry>w</entry>
+        <entry>w!</entry>
       </history-cmd>
       <history-expr />
       <history-input />
