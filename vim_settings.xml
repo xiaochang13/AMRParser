@@ -48,22 +48,22 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1485801079685">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1485827329854">
         <mark key="'" line="87" column="6" />
-        <mark key="[" line="123" column="4" />
-        <mark key="]" line="123" column="5" />
-        <mark key="." line="123" column="5" />
-        <mark key="^" line="123" column="5" />
+        <mark key="[" line="27" column="85" />
+        <mark key="]" line="27" column="85" />
+        <mark key="." line="27" column="85" />
+        <mark key="^" line="32" column="5" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485826507981">
-        <mark key="'" line="603" column="6" />
-        <mark key="[" line="605" column="6" />
-        <mark key="]" line="595" column="6" />
-        <mark key="^" line="595" column="6" />
-        <mark key="." line="595" column="6" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485827417951">
+        <mark key="'" line="1059" column="17" />
+        <mark key="[" line="1060" column="43" />
+        <mark key="]" line="1060" column="59" />
+        <mark key="^" line="1060" column="59" />
+        <mark key="." line="1060" column="59" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -350,7 +350,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="253" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="196" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="406" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="491" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -450,19 +449,20 @@
       <jump line="1041" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="603" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="644" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1059" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>numTokens</text>
+        <text encoding="base64">Y01hcCwg</text>
       </register>
       <register name="-" type="4">
-        <text>numTokens</text>
+        <text encoding="base64">Y01hcCwg</text>
       </register>
       <register name="/" type="4">
         <text>train(</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">TWFwPEludGVnZXIsIFNldDxJbnRlZ2VyPj4=</text>
+        <text encoding="base64">TWFwPEludGVnZXIsIE1hcDxTdHJpbmcsIEludGVnZXI+PiBjb25NYXA=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgIGludCBpbmRleCA9IHRvayAqIG51bVRva2VucyArIGo7Cg==</text>
