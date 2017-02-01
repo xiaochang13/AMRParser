@@ -57,12 +57,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485967027743">
-        <mark key="'" line="489" column="40" />
-        <mark key="[" line="161" column="42" />
-        <mark key="]" line="161" column="79" />
-        <mark key="^" line="161" column="79" />
-        <mark key="." line="161" column="79" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485968207449">
+        <mark key="'" line="501" column="40" />
+        <mark key="[" line="551" column="0" />
+        <mark key="]" line="551" column="0" />
+        <mark key="^" line="550" column="9" />
+        <mark key="." line="551" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -451,11 +451,11 @@
       <jump line="202" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>connecting arcs</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgIC8vU3lzdGVtLmVyci5wcmludGxuKCJQcmVkaWN0aW9uOiIgKyBvcmFjbGUpOwo=</text>
       </register>
       <register name="-" type="4">
-        <text>connecting arcs</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
         <text>train(</text>
@@ -464,31 +464,40 @@
         <text encoding="base64">Ly9EZWZpbmUgYSBzZXBhcmF0ZSBzZXQgb2YgZmVhdHVyZXMgZm9yIGNvbm5lY3RpbmcgYXJjcy4KICBwdWJsaWMgTGlzdDxJbnRlZ2VyPiBhcmNDb25uZWN0RmVhdHVyZXMoQU1SQ29uZmlndXJhdGlvbiBjKSB7CiAgICByZXR1cm4gbnVsbDsKICB9</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgLy90b2tQb3NDb3VudCA9IG51bGw7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIC8vU3lzdGVtLmVyci5wcmludGxuKCJQcmVkaWN0aW9uOiIgKyBvcmFjbGUpOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgLy9TeXN0ZW0uZXhpdCgxKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAvL2Fzc2VydCB3b3JkSUQgIT0gLTEK</text>
+        <text encoding="base64">ICAgICAgICAgIH0K</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>if (!oracle.contains(&quot;ARC&quot;)) {//Currently only test concept identification process
+            //System.err.println(nextWord);
+            //System.err.println(knownWords.get(wordID));
+            //System.err.println(oracle);
+            //System.err.println(system.getTransition(oracleType, optid));
+            //System.exit(1);</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAvL2Fzc2VydCBzeXN0ZW0K</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>int oneNum = 0;
+        for (int val: label) {
+          if (val == 1)
+            oneNum += 1;
+        }</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgLy90b2tQb3NDb3VudCA9IG51bGw7Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">Ly9kb3VibGVbXVtdIEUgPSBuZXcgZG91YmxlW2tub3duV29yZHMuc2l6ZSgpICsga25vd25Qb3Muc2l6ZSgpICsga25vd25BcmNzLnNpemUoKV1bY29uZmlnLmVtYmVkZGluZ1NpemVdOwoKICAgIC8vZG91YmxlW11bXSBXMSA9IG5ldyBkb3VibGVbY29uZmlnLmhpZGRlblNpemVdW2NvbmZpZy5lbWJlZGRpbmdTaXplICogY29uZmlnLm51bVRva2Vuc107CiAgICAvL2RvdWJsZVtdIGIxID0gbmV3IGRvdWJsZVtjb25maWcuaGlkZGVuU2l6ZV07CiAgICAvL2RvdWJsZVtdW10gVzIgPSBuZXcgZG91YmxlW3N5c3RlbS5udW1UcmFuc2l0aW9ucygyKV1bY29uZmlnLmhpZGRlblNpemVdOwoKICAgIC8vIFJhbmRvbWx5IGluaXRpYWxpemUgd2VpZ2h0IG1hdHJpY2VzIC8gdmVjdG9ycwogICAgLy9mb3IgKGludCBpID0gMDsgaSA8IFcxLmxlbmd0aDsgKytpKQogICAgLy8gIGZvciAoaW50IGogPSAwOyBqIDwgVzFbaV0ubGVuZ3RoOyArK2opCiAgICAvLyAgICBXMVtpXVtqXSA9IHJhbmRvbS5uZXh0RG91YmxlKCkgKiAyICogY29uZmlnLmluaXRSYW5nZSAtIGNvbmZpZy5pbml0UmFuZ2U7CgogICAgLy9mb3IgKGludCBpID0gMDsgaSA8IGIxLmxlbmd0aDsgKytpKQogICAgLy8gIGIxW2ldID0gcmFuZG9tLm5leHREb3VibGUoKSAqIDIgKiBjb25maWcuaW5pdFJhbmdlIC0gY29uZmlnLmluaXRSYW5nZTsKCiAgICAvL2ZvciAoaW50IGkgPSAwOyBpIDwgVzIubGVuZ3RoOyArK2kpCiAgICAvLyAgZm9yIChpbnQgaiA9IDA7IGogPCBXMltpXS5sZW5ndGg7ICsraikKICAgIC8vICAgIFcyW2ldW2pdID0gcmFuZG9tLm5leHREb3VibGUoKSAqIDIgKiBjb25maWcuaW5pdFJhbmdlIC0gY29uZmlnLmluaXRSYW5nZTs=</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgLy9TeXN0ZW0uZXhpdCgxKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAvL2Fzc2VydCB3b3JkSUQgIT0gLTEK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
