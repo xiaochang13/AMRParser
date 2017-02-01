@@ -57,12 +57,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485925205695">
-        <mark key="'" line="400" column="20" />
-        <mark key="[" line="503" column="0" />
-        <mark key="]" line="503" column="0" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485962315980">
+        <mark key="'" line="1110" column="4" />
+        <mark key="[" line="1246" column="0" />
+        <mark key="]" line="1246" column="0" />
         <mark key="^" line="533" column="32" />
-        <mark key="." line="503" column="0" />
+        <mark key="." line="1246" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -349,9 +349,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="73" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="533" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="626" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="692" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="468" column="32" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -449,6 +446,9 @@
       <jump line="1243" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="529" column="35" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="400" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="65" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="93" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1110" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -458,7 +458,7 @@
         <text>PUSH</text>
       </register>
       <register name="/" type="4">
-        <text>contains(&quot;A</text>
+        <text>train(</text>
       </register>
       <register name="0" type="4">
         <text>public double adaAlpha = 0.01;</text>
@@ -467,39 +467,39 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="4">
+        <text encoding="base64">Ly9kb3VibGVbXVtdIEUgPSBuZXcgZG91YmxlW2tub3duV29yZHMuc2l6ZSgpICsga25vd25Qb3Muc2l6ZSgpICsga25vd25BcmNzLnNpemUoKV1bY29uZmlnLmVtYmVkZGluZ1NpemVdOwoKICAgIC8vZG91YmxlW11bXSBXMSA9IG5ldyBkb3VibGVbY29uZmlnLmhpZGRlblNpemVdW2NvbmZpZy5lbWJlZGRpbmdTaXplICogY29uZmlnLm51bVRva2Vuc107CiAgICAvL2RvdWJsZVtdIGIxID0gbmV3IGRvdWJsZVtjb25maWcuaGlkZGVuU2l6ZV07CiAgICAvL2RvdWJsZVtdW10gVzIgPSBuZXcgZG91YmxlW3N5c3RlbS5udW1UcmFuc2l0aW9ucygyKV1bY29uZmlnLmhpZGRlblNpemVdOwoKICAgIC8vIFJhbmRvbWx5IGluaXRpYWxpemUgd2VpZ2h0IG1hdHJpY2VzIC8gdmVjdG9ycwogICAgLy9mb3IgKGludCBpID0gMDsgaSA8IFcxLmxlbmd0aDsgKytpKQogICAgLy8gIGZvciAoaW50IGogPSAwOyBqIDwgVzFbaV0ubGVuZ3RoOyArK2opCiAgICAvLyAgICBXMVtpXVtqXSA9IHJhbmRvbS5uZXh0RG91YmxlKCkgKiAyICogY29uZmlnLmluaXRSYW5nZSAtIGNvbmZpZy5pbml0UmFuZ2U7CgogICAgLy9mb3IgKGludCBpID0gMDsgaSA8IGIxLmxlbmd0aDsgKytpKQogICAgLy8gIGIxW2ldID0gcmFuZG9tLm5leHREb3VibGUoKSAqIDIgKiBjb25maWcuaW5pdFJhbmdlIC0gY29uZmlnLmluaXRSYW5nZTsKCiAgICAvL2ZvciAoaW50IGkgPSAwOyBpIDwgVzIubGVuZ3RoOyArK2kpCiAgICAvLyAgZm9yIChpbnQgaiA9IDA7IGogPCBXMltpXS5sZW5ndGg7ICsraikKICAgIC8vICAgIFcyW2ldW2pdID0gcmFuZG9tLm5leHREb3VibGUoKSAqIDIgKiBjb25maWcuaW5pdFJhbmdlIC0gY29uZmlnLmluaXRSYW5nZTs=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="6" type="4">
         <text>//assert label.contains(1);
 
         //System.exit(1);</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBpZiAob3JhY2xlLmNvbnRhaW5zKCJQVVNIIikpIHsvL0N1cnJlbnRseSBvbmx5IHRlc3QgY29uY2VwdCBpZGVudGlmaWNhdGlvbiBwcm9jZXNzCg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgLy9mb3IgKGludCBpID0gMDsgaSA8IG51bUxhYmVsczsgKytpKSB7Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgaW50IGluZGV4ID0gYy5nZXRTdGFja1ZlcnRleChqKTsK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">YWxsTGFiZWxzID0gbmV3IEFycmF5TGlzdDw+KGtub3duV29yZHMpOwogICAgYWxsTGFiZWxzLmFkZEFsbChrbm93blBvcyk7CiAgICBhbGxMYWJlbHMuYWRkQWxsKGtub3duQ29uY2VwdHMpOwogICAgYWxsTGFiZWxzLmFkZEFsbChrbm93bkFyY3MpOw==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIFN5c3RlbS5lcnIucHJpbnRsbihvcmFjbGUpOwo=</text>
+        <text encoding="base64">ICAgICAgaW50IGluZGV4ID0gYy5nZXRTdGFja1ZlcnRleChqKTsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>contains(&quot;A</last-search>
+      <last-search>train(</last-search>
       <last-offset />
-      <last-pattern>contains(&quot;A</last-pattern>
+      <last-pattern>train(</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -507,26 +507,6 @@
     </search>
     <history>
       <history-search>
-        <entry>classifier</entry>
-        <entry>setupClaa</entry>
-        <entry>setupCla</entry>
-        <entry>oracle</entry>
-        <entry>train</entry>
-        <entry>static</entry>
-        <entry>config.numTokens</entry>
-        <entry>Param</entry>
-        <entry>config.</entry>
-        <entry>config.numTO</entry>
-        <entry>cacheSize</entry>
-        <entry>config</entry>
-        <entry>pre-compute:</entry>
-        <entry encoding="base64">UHJlY29tcHV0ZWQg</entry>
-        <entry>Cost</entry>
-        <entry>precis</entry>
-        <entry>correct</entry>
-        <entry>percentCorrect</entry>
-        <entry>No embe</entry>
-        <entry>target</entry>
         <entry>wordID</entry>
         <entry>unaligned</entry>
         <entry>gen</entry>
@@ -544,12 +524,12 @@
         <entry>Iteration</entry>
         <entry>exit</entry>
         <entry>Iter</entry>
-        <entry>train(</entry>
         <entry>ARC</entry>
         <entry>contains(&quot;A</entry>
+        <entry>train</entry>
+        <entry>train(</entry>
       </history-search>
       <history-cmd>
-        <entry>set noic</entry>
         <entry>close</entry>
         <entry>vs notes</entry>
         <entry>q</entry>
