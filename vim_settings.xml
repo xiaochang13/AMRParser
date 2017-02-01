@@ -57,12 +57,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485963704179">
-        <mark key="'" line="1301" column="27" />
-        <mark key="[" line="1246" column="0" />
-        <mark key="]" line="1246" column="0" />
-        <mark key="^" line="533" column="32" />
-        <mark key="." line="1246" column="0" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485967027743">
+        <mark key="'" line="489" column="40" />
+        <mark key="[" line="161" column="42" />
+        <mark key="]" line="161" column="79" />
+        <mark key="^" line="161" column="79" />
+        <mark key="." line="161" column="79" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -349,8 +349,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="171" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="173" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="346" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="473" column="32" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="162" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -449,48 +447,48 @@
       <jump line="1304" column="116" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="405" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1301" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="474" column="40" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="202" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>connecting arcs</text>
       </register>
       <register name="-" type="4">
-        <text>PUSH</text>
+        <text>connecting arcs</text>
       </register>
       <register name="/" type="4">
         <text>train(</text>
       </register>
       <register name="0" type="4">
-        <text>public double adaAlpha = 0.01;</text>
+        <text encoding="base64">Ly9EZWZpbmUgYSBzZXBhcmF0ZSBzZXQgb2YgZmVhdHVyZXMgZm9yIGNvbm5lY3RpbmcgYXJjcy4KICBwdWJsaWMgTGlzdDxJbnRlZ2VyPiBhcmNDb25uZWN0RmVhdHVyZXMoQU1SQ29uZmlndXJhdGlvbiBjKSB7CiAgICByZXR1cm4gbnVsbDsKICB9</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgLy90b2tQb3NDb3VudCA9IG51bGw7Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgLy9TeXN0ZW0uZXhpdCgxKTsK</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">Ly9kb3VibGVbXVtdIEUgPSBuZXcgZG91YmxlW2tub3duV29yZHMuc2l6ZSgpICsga25vd25Qb3Muc2l6ZSgpICsga25vd25BcmNzLnNpemUoKV1bY29uZmlnLmVtYmVkZGluZ1NpemVdOwoKICAgIC8vZG91YmxlW11bXSBXMSA9IG5ldyBkb3VibGVbY29uZmlnLmhpZGRlblNpemVdW2NvbmZpZy5lbWJlZGRpbmdTaXplICogY29uZmlnLm51bVRva2Vuc107CiAgICAvL2RvdWJsZVtdIGIxID0gbmV3IGRvdWJsZVtjb25maWcuaGlkZGVuU2l6ZV07CiAgICAvL2RvdWJsZVtdW10gVzIgPSBuZXcgZG91YmxlW3N5c3RlbS5udW1UcmFuc2l0aW9ucygyKV1bY29uZmlnLmhpZGRlblNpemVdOwoKICAgIC8vIFJhbmRvbWx5IGluaXRpYWxpemUgd2VpZ2h0IG1hdHJpY2VzIC8gdmVjdG9ycwogICAgLy9mb3IgKGludCBpID0gMDsgaSA8IFcxLmxlbmd0aDsgKytpKQogICAgLy8gIGZvciAoaW50IGogPSAwOyBqIDwgVzFbaV0ubGVuZ3RoOyArK2opCiAgICAvLyAgICBXMVtpXVtqXSA9IHJhbmRvbS5uZXh0RG91YmxlKCkgKiAyICogY29uZmlnLmluaXRSYW5nZSAtIGNvbmZpZy5pbml0UmFuZ2U7CgogICAgLy9mb3IgKGludCBpID0gMDsgaSA8IGIxLmxlbmd0aDsgKytpKQogICAgLy8gIGIxW2ldID0gcmFuZG9tLm5leHREb3VibGUoKSAqIDIgKiBjb25maWcuaW5pdFJhbmdlIC0gY29uZmlnLmluaXRSYW5nZTsKCiAgICAvL2ZvciAoaW50IGkgPSAwOyBpIDwgVzIubGVuZ3RoOyArK2kpCiAgICAvLyAgZm9yIChpbnQgaiA9IDA7IGogPCBXMltpXS5sZW5ndGg7ICsraikKICAgIC8vICAgIFcyW2ldW2pdID0gcmFuZG9tLm5leHREb3VibGUoKSAqIDIgKiBjb25maWcuaW5pdFJhbmdlIC0gY29uZmlnLmluaXRSYW5nZTs=</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAvL2Fzc2VydCB3b3JkSUQgIT0gLTEK</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAvL2Fzc2VydCBzeXN0ZW0K</text>
       </register>
-      <register name="6" type="4">
-        <text>//assert label.contains(1);
-
-        //System.exit(1);</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAob3JhY2xlLmNvbnRhaW5zKCJQVVNIIikpIHsvL0N1cnJlbnRseSBvbmx5IHRlc3QgY29uY2VwdCBpZGVudGlmaWNhdGlvbiBwcm9jZXNzCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy9mb3IgKGludCBpID0gMDsgaSA8IG51bUxhYmVsczsgKytpKSB7Cg==</text>
+      <register name="8" type="4">
+        <text encoding="base64">Ly9kb3VibGVbXVtdIEUgPSBuZXcgZG91YmxlW2tub3duV29yZHMuc2l6ZSgpICsga25vd25Qb3Muc2l6ZSgpICsga25vd25BcmNzLnNpemUoKV1bY29uZmlnLmVtYmVkZGluZ1NpemVdOwoKICAgIC8vZG91YmxlW11bXSBXMSA9IG5ldyBkb3VibGVbY29uZmlnLmhpZGRlblNpemVdW2NvbmZpZy5lbWJlZGRpbmdTaXplICogY29uZmlnLm51bVRva2Vuc107CiAgICAvL2RvdWJsZVtdIGIxID0gbmV3IGRvdWJsZVtjb25maWcuaGlkZGVuU2l6ZV07CiAgICAvL2RvdWJsZVtdW10gVzIgPSBuZXcgZG91YmxlW3N5c3RlbS5udW1UcmFuc2l0aW9ucygyKV1bY29uZmlnLmhpZGRlblNpemVdOwoKICAgIC8vIFJhbmRvbWx5IGluaXRpYWxpemUgd2VpZ2h0IG1hdHJpY2VzIC8gdmVjdG9ycwogICAgLy9mb3IgKGludCBpID0gMDsgaSA8IFcxLmxlbmd0aDsgKytpKQogICAgLy8gIGZvciAoaW50IGogPSAwOyBqIDwgVzFbaV0ubGVuZ3RoOyArK2opCiAgICAvLyAgICBXMVtpXVtqXSA9IHJhbmRvbS5uZXh0RG91YmxlKCkgKiAyICogY29uZmlnLmluaXRSYW5nZSAtIGNvbmZpZy5pbml0UmFuZ2U7CgogICAgLy9mb3IgKGludCBpID0gMDsgaSA8IGIxLmxlbmd0aDsgKytpKQogICAgLy8gIGIxW2ldID0gcmFuZG9tLm5leHREb3VibGUoKSAqIDIgKiBjb25maWcuaW5pdFJhbmdlIC0gY29uZmlnLmluaXRSYW5nZTsKCiAgICAvL2ZvciAoaW50IGkgPSAwOyBpIDwgVzIubGVuZ3RoOyArK2kpCiAgICAvLyAgZm9yIChpbnQgaiA9IDA7IGogPCBXMltpXS5sZW5ndGg7ICsraikKICAgIC8vICAgIFcyW2ldW2pdID0gcmFuZG9tLm5leHREb3VibGUoKSAqIDIgKiBjb25maWcuaW5pdFJhbmdlIC0gY29uZmlnLmluaXRSYW5nZTs=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgaW50IGluZGV4ID0gYy5nZXRTdGFja1ZlcnRleChqKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
