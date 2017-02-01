@@ -57,12 +57,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485924587116">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1485925205695">
         <mark key="'" line="400" column="20" />
-        <mark key="[" line="537" column="30" />
-        <mark key="]" line="537" column="32" />
-        <mark key="." line="537" column="32" />
-        <mark key="^" line="537" column="32" />
+        <mark key="[" line="503" column="0" />
+        <mark key="]" line="503" column="0" />
+        <mark key="^" line="533" column="32" />
+        <mark key="." line="503" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -451,8 +451,8 @@
       <jump line="400" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>PUSH</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>PUSH</text>
@@ -464,34 +464,33 @@
         <text>public double adaAlpha = 0.01;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAob3JhY2xlLmNvbnRhaW5zKCJQVVNIIikpIHsvL0N1cnJlbnRseSBvbmx5IHRlc3QgY29uY2VwdCBpZGVudGlmaWNhdGlvbiBwcm9jZXNzCg==</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy9mb3IgKGludCBpID0gMDsgaSA8IG51bUxhYmVsczsgKytpKSB7Cg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgaW50IGluZGV4ID0gYy5nZXRTdGFja1ZlcnRleChqKTsK</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">YWxsTGFiZWxzID0gbmV3IEFycmF5TGlzdDw+KGtub3duV29yZHMpOwogICAgYWxsTGFiZWxzLmFkZEFsbChrbm93blBvcyk7CiAgICBhbGxMYWJlbHMuYWRkQWxsKGtub3duQ29uY2VwdHMpOwogICAgYWxsTGFiZWxzLmFkZEFsbChrbm93bkFyY3MpOw==</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="3" type="4">
+        <text>//assert label.contains(1);
+
+        //System.exit(1);</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBpZiAob3JhY2xlLmNvbnRhaW5zKCJQVVNIIikpIHsvL0N1cnJlbnRseSBvbmx5IHRlc3QgY29uY2VwdCBpZGVudGlmaWNhdGlvbiBwcm9jZXNzCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgLy9mb3IgKGludCBpID0gMDsgaSA8IG51bUxhYmVsczsgKytpKSB7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIFN5c3RlbS5lcnIucHJpbnRsbihvcmFjbGUpOwo=</text>
+        <text encoding="base64">ICAgICAgaW50IGluZGV4ID0gYy5nZXRTdGFja1ZlcnRleChqKTsK</text>
       </register>
-      <register name="7" type="8">
-        <text>//
-//
-//
-//</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgIFN5c3RlbS5lcnIucHJpbnRsbihrbm93bldvcmRzLmdldCh3b3JkSUQpKTsK</text>
+      <register name="8" type="4">
+        <text encoding="base64">YWxsTGFiZWxzID0gbmV3IEFycmF5TGlzdDw+KGtub3duV29yZHMpOwogICAgYWxsTGFiZWxzLmFkZEFsbChrbm93blBvcyk7CiAgICBhbGxMYWJlbHMuYWRkQWxsKGtub3duQ29uY2VwdHMpOwogICAgYWxsTGFiZWxzLmFkZEFsbChrbm93bkFyY3MpOw==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgIFN5c3RlbS5lcnIucHJpbnRsbihvcmFjbGUpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
