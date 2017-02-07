@@ -287,8 +287,8 @@
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1486415617117">
-        <mark key="'" line="31" column="6" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1486499416865">
+        <mark key="'" line="139" column="21" />
         <mark key="[" line="178" column="12" />
         <mark key="]" line="158" column="12" />
         <mark key="." line="158" column="12" />
@@ -350,8 +350,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="18" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/NeuralParam.java" />
-      <jump line="1306" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="677" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="139" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="676" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
@@ -450,6 +448,8 @@
       <jump line="157" column="75" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="573" column="51" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="31" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="114" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="139" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -459,7 +459,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>AMR</text>
+        <text>load</text>
       </register>
       <register name="0" type="4">
         <text>String[] parts = t.split(&quot;:&quot;);</text>
@@ -503,9 +503,9 @@
       </register>
     </registers>
     <search>
-      <last-search>AMR</last-search>
+      <last-search>load</last-search>
       <last-offset />
-      <last-pattern>AMR</last-pattern>
+      <last-pattern>load</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -537,6 +537,8 @@
         <entry>apply</entry>
         <entry>makeTransi</entry>
         <entry>AMR</entry>
+        <entry>loadDe</entry>
+        <entry>load</entry>
       </history-search>
       <history-cmd>
         <entry>close</entry>
