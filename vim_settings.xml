@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1486572702209">
-        <mark key="'" line="718" column="4" />
-        <mark key="[" line="741" column="37" />
-        <mark key="]" line="742" column="33" />
-        <mark key="^" line="742" column="33" />
-        <mark key="." line="742" column="33" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1486574075703">
+        <mark key="'" line="724" column="54" />
+        <mark key="[" line="732" column="0" />
+        <mark key="]" line="732" column="0" />
+        <mark key="^" line="724" column="55" />
+        <mark key="." line="732" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -147,12 +147,12 @@
         <mark key="." line="813" column="49" />
         <mark key="^" line="813" column="49" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1485924422091">
-        <mark key="'" line="84" column="5" />
-        <mark key="[" line="132" column="44" />
-        <mark key="]" line="132" column="45" />
-        <mark key="^" line="98" column="28" />
-        <mark key="." line="132" column="45" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1486573874462">
+        <mark key="'" line="86" column="5" />
+        <mark key="[" line="70" column="25" />
+        <mark key="]" line="70" column="26" />
+        <mark key="^" line="70" column="26" />
+        <mark key="." line="70" column="26" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" timestamp="1481134934464">
         <mark key="'" line="151" column="9" />
@@ -350,14 +350,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="178" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
-      <jump line="387" column="57" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
-      <jump line="396" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
-      <jump line="406" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
-      <jump line="90" column="59" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
-      <jump line="168" column="86" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
-      <jump line="607" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
-      <jump line="418" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="106" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1670" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="566" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -450,13 +442,21 @@
       <jump line="1056" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="718" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="73" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="760" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="668" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1061" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="95" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="720" column="48" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="21" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
+      <jump line="724" column="54" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="70" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>tree.</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text>tree.</text>
+        <text>1</text>
       </register>
       <register name="/" type="4">
         <text>tf</text>
@@ -468,29 +468,32 @@
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">Ly9mb3IgKENvcmVNYXAgc2VudGVuY2UgOiBzZW50cykgewogICAgLy8gIExpc3Q8Q29yZUxhYmVsPiB0b2tlbnMgPSBzZW50ZW5jZS5nZXQoQ29yZUFubm90YXRpb25zLlRva2Vuc0Fubm90YXRpb24uY2xhc3MpOwoKICAgIC8vICBmb3IgKENvcmVMYWJlbCB0b2tlbiA6IHRva2VucykgewogICAgLy8gICAgd29yZC5hZGQodG9rZW4ud29yZCgpKTsKICAgIC8vICAgIHBvcy5hZGQodG9rZW4udGFnKCkpOwogICAgLy8gIH0KICAgIC8vfQ==</text>
+        <text>//knownWords.add(1, Config.NULL);
+    //knownWords.add(2, Config.ROOT);
+
+    //knownPos.add(1, Config.NULL);
+    //knownPos.add(2, Config.ROOT);</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
+      <register name="5" type="4">
+        <text encoding="base64">Ly9rbm93bkxhYmVscyA9IFV0aWwuZ2VuZXJhdGVEaWN0KGxhYmVsKTsKICAgIC8va25vd25MYWJlbHMuYWRkKDAsIHJvb3RMYWJlbCk7CgogICAgLy8gQXZvaWQgdGhlIGNhc2UgdGhhdCByb290TGFiZWwgZXF1YWxzIHRvIG9uZSBvZiB0aGUgb3RoZXIgbGFiZWxzCiAgICAvL2ZvciAoaW50IGsgPSAxOyBrIDwga25vd25MYWJlbHMuc2l6ZSgpOyArKyBrKQogICAgLy8gIGlmIChrbm93bkxhYmVscy5nZXQoaykuZXF1YWxzKHJvb3RMYWJlbCkpIHsKICAgIC8vICAgIGtub3duTGFiZWxzLnJlbW92ZShrKTsKICAgIC8vICAgIGJyZWFrOwogICAgLy8gIH0=</text>
       </register>
-      <register name="6" type="4">
-        <text>else
-            tree.add(head, Config.UNKNOWN);</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgIGlmICghdW5sYWJlbGVkKQo=</text>
-      </register>
-      <register name="8" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIGRlcElEcyA9IG5ldyBIYXNoTWFwPD4oKTsK</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIENvcmVMYWJlbFRva2VuRmFjdG9yeSB0ZiA9IG5ldyBDb3JlTGFiZWxUb2tlbkZhY3RvcnkoZmFsc2UpOwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -550,7 +553,6 @@
         <entry>vs AMRParser</entry>
         <entry>.,.+1</entry>
         <entry>.,.+8w</entry>
-        <entry>wq</entry>
         <entry>e! ~/vim_local/vimrc</entry>
         <entry>W</entry>
         <entry>1</entry>
@@ -558,6 +560,7 @@
         <entry>vs util.py</entry>
         <entry>vs Util.java</entry>
         <entry>vs AMRParser.java</entry>
+        <entry>wq</entry>
         <entry>w!</entry>
         <entry>w</entry>
       </history-cmd>
