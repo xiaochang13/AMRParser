@@ -287,12 +287,12 @@
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1486500282920">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1486523326414">
         <mark key="'" line="265" column="33" />
-        <mark key="[" line="178" column="12" />
-        <mark key="]" line="158" column="12" />
-        <mark key="." line="158" column="12" />
-        <mark key="^" line="158" column="12" />
+        <mark key="[" line="253" column="66" />
+        <mark key="]" line="253" column="102" />
+        <mark key="." line="253" column="102" />
+        <mark key="^" line="253" column="102" />
       </file>
       <file name="$USER_HOME$/AMRParser/notes" timestamp="1481718540996">
         <mark key="'" line="6" column="0" />
@@ -453,10 +453,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">TGlzdDxDb3JlTWFwPiBzZW50cywg</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">TGlzdDxDb3JlTWFwPiBzZW50cywg</text>
       </register>
       <register name="/" type="4">
         <text>load</text>
@@ -465,38 +465,35 @@
         <text>String[] parts = t.split(&quot;:&quot;);</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAvLyBUT0RPIHJlcGxhY2Ugd2l0aCBHcmFtbWF0aWNhbFN0cnVjdHVyZSNyZWFkQ29OTExHcmFtbWF0aWNhbFN0cnVjdHVyZUNvbGxlY3Rpb24K</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">Ly9HaXZlbiB0aGUgd29yZCBzZXF1ZW5jZSBpbiBidWZmZXIsIGZpbmQgdGhlIG9yYWNsZSBzZXF1ZW5jZSB0byBidWlsZCB0aGUgQU1SCiAgLy9wdWJsaWMgdm9pZCBidWlsZE9yYWNsZVNlcXVlbmNlKExpc3Q8U3RyaW5nW10+IHNlbnRzLCBMaXN0PEFNUkdyYXBoPiBncmFwaHMsIGludCBjYWNoZVNpemUpIHsKCiAgLy8gIGZvciAoaW50IHNlbnRJbmRleCA9IDA7IHNlbnRJbmRleCA8IHNlbnRzLnNpemUoKTsgc2VudEluZGV4KyspIHsKCiAgLy8gICAgU3RyaW5nW10gdG9rU2VxID0gc2VudHMuZ2V0KHNlbnRJbmRleCk7CiAgLy8gICAgQU1SR3JhcGggZ3JhcGggPSBncmFwaHMuZ2V0KHNlbnRJbmRleCk7CgogIC8vICAgIExpc3Q8UGFpcjxJbnRlZ2VyLCBJbnRlZ2VyPj4gc3RhY2sgPSBuZXcgQXJyYXlMaXN0PFBhaXI8SW50ZWdlciwgSW50ZWdlcj4+KCk7CiAgLy8gICAgTGlzdDxJbnRlZ2VyPiBidWZmZXIgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAvLyAgICBMaXN0PEludGVnZXI+IGNhY2hlID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgLy8gICAgZm9yIChpbnQgaSA9IDA7IGkgPCA3OyBpKyspCiAgLy8gICAgICBjYWNoZS5hZGQoLTEpOwogIC8vICAgIGZvciAoaW50IGkgPSAwOyBpIDwgdG9rU2VxLmxlbmd0aDsgaSsrKQogIC8vICAgICAgYnVmZmVyLmFkZChpKTsKCiAgLy8gICAgTWFwPEludGVnZXIsIFNldDxJbnRlZ2VyPj4gaGVhZFRvVGFpbCA9IGdyYXBoLmhlYWRUb1RhaWw7CiAgLy8gICAgTWFwPEludGVnZXIsIFNldDxJbnRlZ2VyPj4gdGFpbFRvSGVhZCA9IGdyYXBoLnRhaWxUb0hlYWQ7CiAgLy8gICAgTWFwPEludGVnZXIsIEludGVnZXI+IHdvcmRUb0NvbmNlcHQgPSBncmFwaC53b3JkVG9Db25jZXB0OwoKICAvLyAgICBmb3IgKGludCBpID0gMDsgaSA8IHRva1NlcS5sZW5ndGg7IGkrKykgewogIC8vICAgICAgLy9DaG9vc2UgdGhlIHNlcXVlbmNlIG9mIGFjdGlvbnMgdG8gdGFrZQogIC8vICAgICAgaWYgKHdvcmRUb0NvbmNlcHQuY29udGFpbnNLZXkoaSkpIHsKICAvLyAgICAgICAgaW50IGNhY2hlSW5kZXggPSBjaG9vc2VWZXJ0ZXgoY2FjaGUsIGJ1ZmZlciwgaGVhZFRvVGFpbCwgdGFpbFRvSGVhZCwgd29yZFRvQ29uY2VwdCk7CiAgLy8gICAgICAgIFN0cmluZyBhY3Rpb24gPSAiUFVTSDoiICsgKGNhY2hlSW5kZXgrMSk7CiAgLy8gICAgICAgIFN5c3RlbS5lcnIucHJpbnRsbihhY3Rpb24pOwoKICAvLyAgICAgICAgaW50IGNvbmNlcHRJbmRleCA9IHdvcmRUb0NvbmNlcHQuZ2V0KGkpOwogIC8vICAgICAgICBhY3Rpb24gPSAiQ29uY2VwdCBJRDoiICsgZ3JhcGguY29uY2VwdHMuZ2V0KGNvbmNlcHRJbmRleCkudmFsdWUoKTsKICAvLyAgICAgICAgU3lzdGVtLmVyci5wcmludGxuKGFjdGlvbik7CgogIC8vICAgICAgICAvL0FmdGVyIGNvbmNlcHQgSUQsIHdlIG5lZWQgdG8gY29ubmVjdCBlZGdlcyBiZXR3ZWVuIHRoZSBpZGVudGlmaWVkIGNvbmNlcHQgYW5kIGFsbAogIC8vICAgICAgICAvL3RoZSBjb25jZXB0cyBpbiB0aGUgY2FjaGUKICAvLyAgICAgICAgZm9yIChpbnQgaW5kZXggPSAwOyBpbmRleCA8IGNhY2hlU2l6ZTsgaW5kZXgrKykgewogIC8vICAgICAgICAgIGludCBjdXJyQ2FjaGVJbmRleCA9IGNhY2hlLmdldChpbmRleCk7CiAgLy8gICAgICAgICAgaWYgKGhlYWRUb1RhaWwuZ2V0KGNvbmNlcHRJbmRleCkuY29udGFpbnMoY3VyckNhY2hlSW5kZXgpKSB7CiAgLy8gICAgICAgICAgICBTeXN0ZW0uZXJyLnByaW50bG4oIkVkZ2VUbyIgKyBpbmRleCk7CiAgLy8gICAgICAgICAgfSBlbHNlIGlmIChoZWFkVG9UYWlsLmdldChjdXJyQ2FjaGVJbmRleCkuY29udGFpbnMoY29uY2VwdEluZGV4KSkgewogIC8vICAgICAgICAgICAgU3lzdGVtLmVyci5wcmludGxuKCJFZGdlRnJvbSIgKyBpbmRleCk7CiAgLy8gICAgICAgICAgfQogIC8vICAgICAgICAgIGVsc2UgewogIC8vICAgICAgICAgICAgU3lzdGVtLmVyci5wcmludGxuKCJObyBlZGdlIiArIGluZGV4KTsKICAvLyAgICAgICAgICB9CiAgLy8gICAgICAgIH0KCiAgLy8gICAgICAgIC8vVHJpZ2dlciBwb3Agd2hlbmV2ZXIgdGhlcmUgaXMgbm8gZWRnZSBjb25uZWN0ZWQgdG8gYW5kIGZyb20gdGhlIHJpZ2h0IG1vc3QgaW5kZXgKCiAgLy8gICAgICB9CiAgLy8gICAgfQogIC8vICAgIC8vQU1SQ29uZmlndXJhdGlvbiBzdGFydCA9IG5ldyBBTVJDb25maWd1cmF0aW9uKENvbmZpZy5DQUNIRSwgdG9rU2VxLmxlbmd0aCk7CiAgLy8gICAgLy93aGlsZSAoKQoKICAvLyAgfQogIC8vfQ==</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">Ly9wdWJsaWMgaW50IGNob29zZVZlcnRleChMaXN0PEludGVnZXI+Y2FjaGUsIExpc3Q8SW50ZWdlcj5idWZmZXIsIE1hcDxJbnRlZ2VyLCBTZXQ8SW50ZWdlcj4+IGhlYWRUb1RhaWwsCiAgLy8gICAgICAgICAgICAgICAgICAgICAgICBNYXA8SW50ZWdlciwgU2V0PEludGVnZXI+PiB0YWlsVG9IZWFkLCBNYXA8SW50ZWdlciwgSW50ZWdlcj4gd29yZFRvQ29uY2VwdCkgewogIC8vICBpbnQgbWF4RGlzdCA9IC0xOwogIC8vICBpbnQgbWF4SW5kZXggPSAtMTsKICAvLyAgZm9yIChpbnQgY2FjaGVQb3MgPSAwOyBjYWNoZVBvcyA8IGNhY2hlLnNpemUoKTsgY2FjaGVQb3MrKykgewogIC8vICAgIGludCBjYWNoZVZlcnRleCA9IGNhY2hlLmdldChjYWNoZVBvcyk7CiAgLy8gICAgaW50IGN1cnJEaXN0ID0gMTAwMDsKICAvLyAgICBTZXQ8SW50ZWdlcj4gdGFpbFNldCA9IGhlYWRUb1RhaWwuZ2V0KGNhY2hlVmVydGV4KTsKICAvLyAgICBTZXQ8SW50ZWdlcj4gaGVhZFNldCA9IG51bGw7CiAgLy8gICAgaWYgKHRhaWxUb0hlYWQuY29udGFpbnNLZXkoY2FjaGVWZXJ0ZXgpKQogIC8vICAgICAgaGVhZFNldCA9IHRhaWxUb0hlYWQuZ2V0KGNhY2hlVmVydGV4KTsKICAvLyAgICAvL1NldDxJbnRlZ2VyPiBoZWFkU2V0ID0gdGFpbFRvSGVhZC5nZXQoY2FjaGVWZXIpCiAgLy8gICAgZm9yIChpbnQgYnVmZmVyUG9zID0gMDsgYnVmZmVyUG9zIDwgYnVmZmVyLnNpemUoKTsgYnVmZmVyUG9zKyspIHsKICAvLyAgICAgIGludCB3b3JkSW5kZXggPSBidWZmZXIuZ2V0KGJ1ZmZlclBvcyk7CiAgLy8gICAgICBpZiAod29yZFRvQ29uY2VwdC5jb250YWluc0tleSh3b3JkSW5kZXgpKSB7CiAgLy8gICAgICAgIGludCBidWZmSW5kZXggPSB3b3JkVG9Db25jZXB0LmdldCh3b3JkSW5kZXgpOwogIC8vICAgICAgICBpZiAodGFpbFNldC5jb250YWlucyhidWZmSW5kZXgpIHx8IChoZWFkU2V0ICE9IG51bGwgJiYgaGVhZFNldC5jb250YWlucyhidWZmSW5kZXgpKSkgewogIC8vICAgICAgICAgIGN1cnJEaXN0ID0gYnVmZmVyUG9zOwogIC8vICAgICAgICAgIGJyZWFrOwogIC8vICAgICAgICB9CiAgLy8gICAgICB9CiAgLy8gICAgfQogIC8vICAgIGlmIChjdXJyRGlzdCA+IG1heERpc3QpIHsKICAvLyAgICAgIG1heEluZGV4ID0gY2FjaGVQb3M7CiAgLy8gICAgICBtYXhEaXN0ID0gY3VyckRpc3Q7CiAgLy8gICAgfQogIC8vICB9CgogIC8vICByZXR1cm4gbWF4SW5kZXg7CiAgLy99</text>
       </register>
-      <register name="6" type="8">
+      <register name="7" type="8">
         <text>//
 //
 //
 //
 //</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="9" type="4">
-        <text>//if (oracle.contains(&quot;PUSH&quot;))
-            //  feature = pushIndexFeatures(c);
-            //else
-            //  feature = conceptIDFeatures(c);</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
