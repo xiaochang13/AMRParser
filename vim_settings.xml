@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1486614533453">
-        <mark key="'" line="169" column="6" />
-        <mark key="[" line="213" column="0" />
-        <mark key="]" line="213" column="0" />
-        <mark key="^" line="171" column="57" />
-        <mark key="." line="213" column="0" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1486652185784">
+        <mark key="'" line="171" column="6" />
+        <mark key="[" line="165" column="86" />
+        <mark key="]" line="166" column="29" />
+        <mark key="^" line="166" column="29" />
+        <mark key="." line="166" column="29" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -445,17 +445,17 @@
       <jump line="174" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text>return null</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHs=</text>
+        <text>return null</text>
       </register>
       <register name="/" type="4">
         <text>getCac</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">TWFwPFN0cmluZywgSW50ZWdlcj4gaWRNYXA=</text>
+        <text encoding="base64">TGlzdDxJbnRlZ2VyPiBmZWF0dXJlID0gbmV3IEFycmF5TGlzdDw+KCk7CgogICAgLy9UT1AgdHdvICJ2ZXJ0aWNlcyIgb24gdGhlIHN0YWNrCiAgICBjLmdldENhY2hlRmVhdHMoMiwgY29uY2VwdElEcywgZmVhdHVyZSk7CgogICAgLy93b3JkIGFuZCBQT1MgdGFnIGZlYXR1cmVzIGZyb20gYSBjb250ZXh0IHdpbmRvdyBvZiAyCiAgICBjLmdldEJ1ZmZlckZlYXRzKDIsIHdvcmRJRHMsIGZlYXR1cmUsIHRydWUpOwogICAgYy5nZXRCdWZmZXJGZWF0cygyLCBwb3NJRHMsIGZlYXR1cmUsIGZhbHNlKTs=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIAo=</text>
