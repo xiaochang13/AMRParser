@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1486592390180">
-        <mark key="'" line="173" column="34" />
-        <mark key="[" line="174" column="0" />
-        <mark key="]" line="174" column="0" />
-        <mark key="^" line="170" column="12" />
-        <mark key="." line="174" column="0" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1486611320334">
+        <mark key="'" line="174" column="34" />
+        <mark key="[" line="166" column="45" />
+        <mark key="]" line="167" column="45" />
+        <mark key="^" line="167" column="45" />
+        <mark key="." line="167" column="45" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -312,12 +312,12 @@
         <mark key="." line="17" column="22" />
         <mark key="^" line="17" column="22" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1486592445066">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1486611254166">
         <mark key="'" line="299" column="32" />
-        <mark key="[" line="305" column="37" />
-        <mark key="]" line="306" column="41" />
-        <mark key="." line="306" column="41" />
-        <mark key="^" line="306" column="41" />
+        <mark key="[" line="308" column="0" />
+        <mark key="]" line="308" column="0" />
+        <mark key="^" line="307" column="4" />
+        <mark key="." line="308" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
         <mark key="'" line="91" column="8" />
@@ -445,8 +445,8 @@
       <jump line="44" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">TGlzdDxTdHJpbmc+</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">TGlzdDxTdHJpbmc+</text>
@@ -458,33 +458,32 @@
         <text encoding="base64">TGlzdDxJbnRlZ2VyPiBmV29yZCA9IG5ldyBBcnJheUxpc3Q8PigzKTsKICAgIExpc3Q8SW50ZWdlcj4gZlBvcyA9IG5ldyBBcnJheUxpc3Q8PigzKTsKICAgIExpc3Q8SW50ZWdlcj4gZkNvbmNlcHQgPSBuZXcgQXJyYXlMaXN0PD4oMyk7CiAgICAvL0xpc3Q8SW50ZWdlcj4gZkxhYmVsID0gbmV3IEFycmF5TGlzdDw+KDEyKTsgICAvL0N1cnJlbnRseSBubyBsYWJlbCBmZWF0dXJlcyBhdmFpbGFibGUKCiAgICAvL1RPUCB0aHJlZSAidmVydGljZXMiIG9uIHRoZSBzdGFjawogICAgLy9BdCB0aGlzIHRpbWUsCiAgICBmb3IgKGludCBqID0gMjsgaiA+PSAwOyAtLWopIHsKICAgICAgLy9pbnQgaW5kZXggPSBjLmdldFN0YWNrVmVydGV4KGopOwogICAgICBpbnQgaW5kZXggPSBjLmdldENhY2hlVmVydGV4KGopOwogICAgICAvL2ZXb3JkLmFkZChnZXRXb3JkSUQoYy5nZXRXb3JkKGluZGV4KSkpOwogICAgICBmQ29uY2VwdC5hZGQoZ2V0Q29uY2VwdElEKGMuZ2V0Q29uY2VwdChpbmRleCkpKTsKICAgICAgLy9TeXN0ZW0uZXJyLnByaW50bG4oYy5nZXRDb25jZXB0KGluZGV4KSk7CiAgICAgIC8vZlBvcy5hZGQoZ2V0UG9zSUQoYy5nZXRQT1MoaW5kZXgpKSk7CiAgICB9CiAgICAvL1RvcCB0aHJlZSB3b3JkcyBvbiB0aGUgYnVmZmVyCiAgICBmb3IgKGludCBqID0gMDsgaiA8PSAyOyArK2opIHsKICAgICAgaW50IGluZGV4ID0gYy5nZXRCdWZmZXIoaik7CiAgICAgIFN0cmluZyBjdXJyV29yZCA9IGMuZ2V0V29yZChpbmRleCk7CiAgICAgIC8vU3lzdGVtLmVyci5wcmludGxuKGN1cnJXb3JkKTsKICAgICAgLy9TeXN0ZW0uZXJyLnByaW50bG4oYy5nZXRQT1MoaW5kZXgpKTsKICAgICAgZldvcmQuYWRkKGdldFdvcmRJRChjdXJyV29yZCkpOwogICAgICBmUG9zLmFkZChnZXRQb3NJRChjLmdldFBPUyhpbmRleCkpKTsKICAgIH0KCiAgICAvL0RlcGVuZGVuY3kgZmVhdHVyZXMKCiAgICAvL0ZlYXR1cmVzIGJhc2VkIG9uIHRoZSBjdXJyZW50IHNldHRpbmcKICAgIC8vZm9yIChpbnQgaiA9IDA7IGogPD0gMTsgKytqKSB7CiAgICAvLyAgLy9pbnQgayA9IGMuZ2V0U3RhY2soaik7CiAgICAvLyAgUGFpcjxJbnRlZ2VyLCBJbnRlZ2VyPiBwID0gYy5nZXRTdGFjayhqKTsKICAgIC8vICBpbnQgayA9IHAuc2Vjb25kOwogICAgLy8gIGludCBpbmRleCA9IGMuZ2V0TGVmdENoaWxkKGspOwogICAgLy8gIGZXb3JkLmFkZChnZXRXb3JkSUQoYy5nZXRXb3JkKGluZGV4KSkpOwogICAgLy8gIGZQb3MuYWRkKGdldFBvc0lEKGMuZ2V0UE9TKGluZGV4KSkpOwogICAgLy8gIGZMYWJlbC5hZGQoZ2V0TGFiZWxJRChjLmdldExhYmVsKGluZGV4KSkpOwoKICAgIC8vICBpbmRleCA9IGMuZ2V0UmlnaHRDaGlsZChrKTsKICAgIC8vICBmV29yZC5hZGQoZ2V0V29yZElEKGMuZ2V0V29yZChpbmRleCkpKTsKICAgIC8vICBmUG9zLmFkZChnZXRQb3NJRChjLmdldFBPUyhpbmRleCkpKTsKICAgIC8vICBmTGFiZWwuYWRkKGdldExhYmVsSUQoYy5nZXRMYWJlbChpbmRleCkpKTsKCiAgICAvLyAgaW5kZXggPSBjLmdldExlZnRDaGlsZChrLCAyKTsKICAgIC8vICBmV29yZC5hZGQoZ2V0V29yZElEKGMuZ2V0V29yZChpbmRleCkpKTsKICAgIC8vICBmUG9zLmFkZChnZXRQb3NJRChjLmdldFBPUyhpbmRleCkpKTsKICAgIC8vICBmTGFiZWwuYWRkKGdldExhYmVsSUQoYy5nZXRMYWJlbChpbmRleCkpKTsKCiAgICAvLyAgaW5kZXggPSBjLmdldFJpZ2h0Q2hpbGQoaywgMik7CiAgICAvLyAgZldvcmQuYWRkKGdldFdvcmRJRChjLmdldFdvcmQoaW5kZXgpKSk7CiAgICAvLyAgZlBvcy5hZGQoZ2V0UG9zSUQoYy5nZXRQT1MoaW5kZXgpKSk7CiAgICAvLyAgZkxhYmVsLmFkZChnZXRMYWJlbElEKGMuZ2V0TGFiZWwoaW5kZXgpKSk7CgogICAgLy8gIGluZGV4ID0gYy5nZXRMZWZ0Q2hpbGQoYy5nZXRMZWZ0Q2hpbGQoaykpOwogICAgLy8gIGZXb3JkLmFkZChnZXRXb3JkSUQoYy5nZXRXb3JkKGluZGV4KSkpOwogICAgLy8gIGZQb3MuYWRkKGdldFBvc0lEKGMuZ2V0UE9TKGluZGV4KSkpOwogICAgLy8gIGZMYWJlbC5hZGQoZ2V0TGFiZWxJRChjLmdldExhYmVsKGluZGV4KSkpOwoKICAgIC8vICBpbmRleCA9IGMuZ2V0UmlnaHRDaGlsZChjLmdldFJpZ2h0Q2hpbGQoaykpOwogICAgLy8gIGZXb3JkLmFkZChnZXRXb3JkSUQoYy5nZXRXb3JkKGluZGV4KSkpOwogICAgLy8gIGZQb3MuYWRkKGdldFBvc0lEKGMuZ2V0UE9TKGluZGV4KSkpOwogICAgLy8gIGZMYWJlbC5hZGQoZ2V0TGFiZWxJRChjLmdldExhYmVsKGluZGV4KSkpOwogICAgLy99CgogICAgTGlzdDxJbnRlZ2VyPiBmZWF0dXJlID0gbmV3IEFycmF5TGlzdDw+KDkpOwogICAgZmVhdHVyZS5hZGRBbGwoZldvcmQpOwogICAgZmVhdHVyZS5hZGRBbGwoZlBvcyk7CiAgICBmZWF0dXJlLmFkZEFsbChmQ29uY2VwdCk7CiAgICAvL1N5c3RlbS5lcnIucHJpbnRsbihmZWF0dXJlKTsKICAgIC8vZmVhdHVyZS5hZGRBbGwoZkxhYmVsKTsKICAgIHJldHVybiBmZWF0dXJlOw==</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text>//System.err.println(c.getConcept(index));
       //fPos.add(getPosID(c.getPOS(index)));</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgLy9mV29yZC5hZGQoZ2V0V29yZElEKGMuZ2V0V29yZChpbmRleCkpKTsK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgLy9mV29yZC5hZGQoZ2V0V29yZElEKGMuZ2V0V29yZChpbmRleCkpKTsK</text>
-      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIC8vQXQgdGhpcyB0aW1lLAo=</text>
+        <text encoding="base64">ICAgICAgLy9mV29yZC5hZGQoZ2V0V29yZElEKGMuZ2V0V29yZChpbmRleCkpKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgLy9pbnQgaW5kZXggPSBjLmdldFN0YWNrVmVydGV4KGopOwo=</text>
+        <text encoding="base64">ICAgICAgLy9mV29yZC5hZGQoZ2V0V29yZElEKGMuZ2V0V29yZChpbmRleCkpKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIC8vTGlzdDxJbnRlZ2VyPiBmTGFiZWwgPSBuZXcgQXJyYXlMaXN0PD4oMTIpOyAgIC8vQ3VycmVudGx5IG5vIGxhYmVsIGZlYXR1cmVzIGF2YWlsYWJsZQo=</text>
+        <text encoding="base64">ICAgIC8vQXQgdGhpcyB0aW1lLAo=</text>
       </register>
-      <register name="8" type="4">
-        <text>//if (conceptIDParam.nTokens != conceptIDInputNum)
-    //  System.exit(1);</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgLy9pbnQgaW5kZXggPSBjLmdldFN0YWNrVmVydGV4KGopOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vTGlzdDxJbnRlZ2VyPiBmTGFiZWwgPSBuZXcgQXJyYXlMaXN0PD4oMTIpOyAgIC8vQ3VycmVudGx5IG5vIGxhYmVsIGZlYXR1cmVzIGF2YWlsYWJsZQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
