@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1486613116878">
-        <mark key="'" line="173" column="6" />
-        <mark key="[" line="166" column="4" />
-        <mark key="]" line="166" column="5" />
-        <mark key="^" line="166" column="5" />
-        <mark key="." line="166" column="5" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1486614533453">
+        <mark key="'" line="169" column="6" />
+        <mark key="[" line="213" column="0" />
+        <mark key="]" line="213" column="0" />
+        <mark key="^" line="171" column="57" />
+        <mark key="." line="213" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -312,12 +312,12 @@
         <mark key="." line="17" column="22" />
         <mark key="^" line="17" column="22" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1486613308160">
-        <mark key="'" line="296" column="32" />
-        <mark key="[" line="315" column="44" />
-        <mark key="]" line="315" column="44" />
-        <mark key="^" line="315" column="44" />
-        <mark key="." line="315" column="44" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1486614131762">
+        <mark key="'" line="174" column="13" />
+        <mark key="[" line="320" column="12" />
+        <mark key="]" line="321" column="26" />
+        <mark key="^" line="321" column="26" />
+        <mark key="." line="321" column="26" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
         <mark key="'" line="91" column="8" />
@@ -343,9 +343,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="585" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="621" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="18" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="571" column="54" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="157" column="75" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="573" column="51" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -443,62 +440,62 @@
       <jump line="149" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="82" column="56" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="173" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="334" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="338" column="38" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="174" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="8">
-        <text>//
-//
-//</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text>9</text>
+        <text encoding="base64">IHs=</text>
       </register>
       <register name="/" type="4">
-        <text>conceptIDF</text>
+        <text>getCac</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">TWFwPFN0cmluZywgSW50ZWdlcj4gaWRNYXA=</text>
       </register>
-      <register name="1" type="8">
-        <text>//
-//
-//</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAK</text>
+      <register name="2" type="4">
+        <text>feature.addAll(fWord);
+    feature.addAll(fPos);
+    feature.addAll(fConcept);
+    //System.err.println(feature);
+    //feature.addAll(fLabel);</text>
       </register>
-      <register name="3" type="4">
-        <text>//public int getSentenceSize() {
-  //  return getCoreLabels().size();
-  //}</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIExpc3Q8SW50ZWdlcj4gZmVhdHVyZSA9IG5ldyBBcnJheUxpc3Q8Pig5KTsK</text>
+      <register name="4" type="4">
+        <text encoding="base64">Ly9MaXN0PEludGVnZXI+IGZQb3MgPSBuZXcgQXJyYXlMaXN0PD4oMyk7CiAgICAvL0xpc3Q8SW50ZWdlcj4gZkNvbmNlcHQgPSBuZXcgQXJyYXlMaXN0PD4oMyk7</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text encoding="base64">Ly9MaXN0PEludGVnZXI+IGZXb3JkID0gbmV3IEFycmF5TGlzdDw+KDMpOwogICAgLy9MaXN0PFN0cmluZz4gZmVhdHVyZXMgPSBuZXcgQXJyYXlMaXN0PD4oKTs=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="4">
-        <text>//System.err.println(c.getConcept(index));
-      //fPos.add(getPosID(c.getPOS(index)));</text>
+        <text encoding="base64">Ly9mb3IgKGludCBqID0gMTsgaiA+PSAwOyAtLWopIHsKICAgIC8vICBpbnQgaW5kZXggPSBjLmdldENhY2hlVmVydGV4KGopOwogICAgLy8gIGZDb25jZXB0LmFkZChnZXRDb25jZXB0SUQoYy5nZXRDb25jZXB0KGluZGV4KSkpOwogICAgLy99CiAgICAvL1RvcCB0aHJlZSB3b3JkcyBvbiB0aGUgYnVmZmVyCiAgICBmb3IgKGludCBqID0gMDsgaiA8PSAyOyArK2opIHsKICAgICAgaW50IGluZGV4ID0gYy5nZXRCdWZmZXIoaik7CiAgICAgIFN0cmluZyBjdXJyV29yZCA9IGMuZ2V0V29yZChpbmRleCk7CiAgICAgIC8vU3lzdGVtLmVyci5wcmludGxuKGN1cnJXb3JkKTsKICAgICAgLy9TeXN0ZW0uZXJyLnByaW50bG4oYy5nZXRQT1MoaW5kZXgpKTsKICAgICAgZldvcmQuYWRkKGdldFdvcmRJRChjdXJyV29yZCkpOwogICAgICBmUG9zLmFkZChnZXRQb3NJRChjLmdldFBPUyhpbmRleCkpKTsKICAgIH0=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>conceptIDF</last-search>
+      <last-search>getCac</last-search>
       <last-offset />
-      <last-pattern>conceptIDF</last-pattern>
+      <last-pattern>getCac</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -542,6 +539,7 @@
         <entry>new AMRParser</entry>
         <entry>try</entry>
         <entry>conceptIDF</entry>
+        <entry>getCac</entry>
       </history-search>
       <history-cmd>
         <entry>close</entry>
