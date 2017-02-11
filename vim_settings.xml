@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1486703913182">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1486842073388">
         <mark key="'" line="226" column="16" />
-        <mark key="[" line="234" column="62" />
-        <mark key="]" line="234" column="66" />
-        <mark key="^" line="234" column="66" />
-        <mark key="." line="234" column="66" />
+        <mark key="[" line="234" column="71" />
+        <mark key="]" line="236" column="64" />
+        <mark key="^" line="236" column="64" />
+        <mark key="." line="236" column="64" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -503,33 +503,10 @@
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>wordID</entry>
-        <entry>unaligned</entry>
-        <entry>gen</entry>
-        <entry>orac</entry>
-        <entry>conceptIDDict</entry>
-        <entry>numTokens</entry>
-        <entry>knownWords</entry>
-        <entry>preMap</entry>
-        <entry>pre</entry>
-        <entry>preCom</entry>
-        <entry>FeedForward Par</entry>
-        <entry>FeedforwardP</entry>
-        <entry>FeedforwardParam</entry>
-        <entry>Examples</entry>
-        <entry>Iteration</entry>
-        <entry>exit</entry>
-        <entry>Iter</entry>
-        <entry>ARC</entry>
-        <entry>contains(&quot;A</entry>
-        <entry>train</entry>
-        <entry>train(</entry>
-        <entry>apply</entry>
-        <entry>makeTransi</entry>
         <entry>AMR</entry>
         <entry>loadDe</entry>
         <entry>load</entry>
@@ -552,7 +529,6 @@
         <entry>getLabel</entry>
       </history-search>
       <history-cmd>
-        <entry>close</entry>
         <entry>vs notes</entry>
         <entry>q</entry>
         <entry>670</entry>
