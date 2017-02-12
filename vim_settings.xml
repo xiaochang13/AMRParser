@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1486850965551">
-        <mark key="'" line="233" column="16" />
-        <mark key="[" line="236" column="3" />
-        <mark key="]" line="236" column="3" />
-        <mark key="^" line="236" column="3" />
-        <mark key="." line="236" column="3" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1486865228514">
+        <mark key="'" line="234" column="16" />
+        <mark key="[" line="190" column="19" />
+        <mark key="]" line="193" column="5" />
+        <mark key="^" line="193" column="5" />
+        <mark key="." line="193" column="5" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -312,12 +312,13 @@
         <mark key="." line="17" column="22" />
         <mark key="^" line="17" column="22" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1486703853025">
-        <mark key="'" line="424" column="21" />
-        <mark key="[" line="449" column="5" />
-        <mark key="]" line="452" column="34" />
-        <mark key="^" line="452" column="34" />
-        <mark key="." line="452" column="34" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1486865204820">
+        <mark key="'" line="440" column="21" />
+        <mark key="w" line="316" column="36" />
+        <mark key="[" line="322" column="6" />
+        <mark key="]" line="322" column="39" />
+        <mark key="^" line="322" column="6" />
+        <mark key="." line="322" column="6" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
         <mark key="'" line="91" column="8" />
@@ -446,54 +447,55 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>true</text>
+        <text>v</text>
       </register>
       <register name="-" type="4">
-        <text>true</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>getLabel</text>
       </register>
       <register name="0" type="4">
-        <text>feature.add(getDepID(c.getArcLabel(cacheIndex, wordIndex, true)));</text>
+        <text>feats.add(getID(concept, idMap));</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text>int vertex = getCacheVertex(i);
+      String</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="2" type="8">
-        <text>//
-//
-//</text>
       </register>
       <register name="3" type="8">
         <text>//
 //
+//</text>
+      </register>
+      <register name="4" type="8">
+        <text>//
+//
 //
 //
 //
 //
 //</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">Ly9pbnQgayA9IGMuZ2V0U3RhY2soaik7CiAgICAgIC8vUGFpcjxJbnRlZ2VyLCBJbnRlZ2VyPiBwID0gYy5nZXRTdGFjayhqKTsKICAgICAgLy9pbnQgayA9IHAuc2Vjb25kOw==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgIC8vRmVhdHVyZXMgYmFzZWQgb24gdGhlIGN1cnJlbnQgc2V0dGluZwo=</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgIC8vCg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
       <register name=":" type="4">
-        <text>w!</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -547,8 +549,8 @@
         <entry>wq</entry>
         <entry>1</entry>
         <entry>e! ~/vim_local/vimrc</entry>
-        <entry>w</entry>
         <entry>w!</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
