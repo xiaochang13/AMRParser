@@ -312,13 +312,13 @@
         <mark key="." line="17" column="22" />
         <mark key="^" line="17" column="22" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1486865204820">
-        <mark key="'" line="440" column="21" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1486866110025">
+        <mark key="'" line="320" column="24" />
         <mark key="w" line="316" column="36" />
-        <mark key="[" line="322" column="6" />
-        <mark key="]" line="322" column="39" />
-        <mark key="^" line="322" column="6" />
-        <mark key="." line="322" column="6" />
+        <mark key="[" line="323" column="35" />
+        <mark key="]" line="324" column="12" />
+        <mark key="." line="324" column="12" />
+        <mark key="^" line="324" column="12" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
         <mark key="'" line="91" column="8" />
@@ -344,9 +344,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="749" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="682" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1119" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="6" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="70" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="213" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
@@ -444,13 +441,16 @@
       <jump line="226" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="233" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="156" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="319" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="320" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="390" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>v</text>
+        <text>vertex</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>vertex</text>
       </register>
       <register name="/" type="4">
         <text>getLabel</text>
@@ -458,19 +458,31 @@
       <register name="0" type="4">
         <text>feats.add(getID(concept, idMap));</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgZmVhdHMuYWRkKGdldElEKGNvbmNlcHQsIGlkTWFwKSk7Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgZmVhdHMuYWRkKGdldElEKGNvbmNlcHQsIGlkTWFwKSk7Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgZmVhdHMuYWRkKGdldElEKGNvbmNlcHQsIGlkTWFwKSk7Cg==</text>
+      </register>
+      <register name="5" type="4">
         <text>int vertex = getCacheVertex(i);
       String</text>
       </register>
-      <register name="2" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="8">
+      <register name="7" type="8">
         <text>//
 //
 //</text>
       </register>
-      <register name="4" type="8">
+      <register name="8" type="8">
         <text>//
 //
 //
@@ -478,24 +490,12 @@
 //
 //
 //</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
-      </register>
-      <register name="6" type="4">
-        <text encoding="base64">Ly9pbnQgayA9IGMuZ2V0U3RhY2soaik7CiAgICAgIC8vUGFpcjxJbnRlZ2VyLCBJbnRlZ2VyPiBwID0gYy5nZXRTdGFjayhqKTsKICAgICAgLy9pbnQgayA9IHAuc2Vjb25kOw==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIC8vRmVhdHVyZXMgYmFzZWQgb24gdGhlIGN1cnJlbnQgc2V0dGluZwo=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIC8vCg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>w!</text>
       </register>
     </registers>
     <search>
@@ -549,8 +549,8 @@
         <entry>wq</entry>
         <entry>1</entry>
         <entry>e! ~/vim_local/vimrc</entry>
-        <entry>w!</entry>
         <entry>w</entry>
+        <entry>w!</entry>
       </history-cmd>
       <history-expr />
       <history-input />
