@@ -48,18 +48,18 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1486574891773">
-        <mark key="'" line="18" column="13" />
-        <mark key="[" line="118" column="4" />
-        <mark key="]" line="118" column="4" />
-        <mark key="^" line="121" column="13" />
-        <mark key="." line="118" column="4" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1486872118380">
+        <mark key="'" line="190" column="16" />
+        <mark key="[" line="189" column="30" />
+        <mark key="]" line="189" column="31" />
+        <mark key="^" line="189" column="31" />
+        <mark key="." line="189" column="31" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1486870996412">
-        <mark key="'" line="189" column="37" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1486871730378">
+        <mark key="'" line="612" column="18" />
         <mark key="[" line="184" column="29" />
         <mark key="]" line="184" column="36" />
         <mark key="^" line="184" column="36" />
@@ -312,12 +312,12 @@
         <mark key="." line="17" column="22" />
         <mark key="^" line="17" column="22" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1486868049521">
-        <mark key="'" line="303" column="20" />
-        <mark key="[" line="303" column="21" />
-        <mark key="]" line="303" column="21" />
-        <mark key="^" line="302" column="30" />
-        <mark key="." line="303" column="21" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1486871963628">
+        <mark key="'" line="304" column="20" />
+        <mark key="[" line="27" column="50" />
+        <mark key="]" line="27" column="72" />
+        <mark key="^" line="27" column="72" />
+        <mark key="." line="27" column="72" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
         <mark key="'" line="91" column="8" />
@@ -343,10 +343,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="22" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
-      <jump line="159" column="56" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
-      <jump line="59" column="48" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="92" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="104" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="117" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="124" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -443,6 +439,10 @@
       <jump line="258" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="189" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="303" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="612" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="185" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="27" column="72" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="190" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -511,7 +511,7 @@
         <text encoding="base64">Ly9EZXBlbmRlbmN5IGZlYXR1cmVzCgogICAgLy9GZWF0dXJlcyBiYXNlZCBvbiB0aGUgY3VycmVudCBzZXR0aW5nCiAgICAvL2ZvciAoaW50IGogPSAwOyBqIDw9IDE7ICsraikgewogICAgLy8gIC8vaW50IGsgPSBjLmdldFN0YWNrKGopOwogICAgLy8gIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gcCA9IGMuZ2V0U3RhY2soaik7CiAgICAvLyAgaW50IGsgPSBwLnNlY29uZDsKICAgIC8vICBpbnQgaW5kZXggPSBjLmdldExlZnRDaGlsZChrKTsKICAgIC8vICBmV29yZC5hZGQoZ2V0V29yZElEKGMuZ2V0V29yZChpbmRleCkpKTsKICAgIC8vICBmUG9zLmFkZChnZXRQb3NJRChjLmdldFBPUyhpbmRleCkpKTsKICAgIC8vICBmTGFiZWwuYWRkKGdldExhYmVsSUQoYy5nZXRMYWJlbChpbmRleCkpKTsKCiAgICAvLyAgaW5kZXggPSBjLmdldFJpZ2h0Q2hpbGQoayk7CiAgICAvLyAgZldvcmQuYWRkKGdldFdvcmRJRChjLmdldFdvcmQoaW5kZXgpKSk7CiAgICAvLyAgZlBvcy5hZGQoZ2V0UG9zSUQoYy5nZXRQT1MoaW5kZXgpKSk7CiAgICAvLyAgZkxhYmVsLmFkZChnZXRMYWJlbElEKGMuZ2V0TGFiZWwoaW5kZXgpKSk7CgogICAgLy8gIGluZGV4ID0gYy5nZXRMZWZ0Q2hpbGQoaywgMik7CiAgICAvLyAgZldvcmQuYWRkKGdldFdvcmRJRChjLmdldFdvcmQoaW5kZXgpKSk7CiAgICAvLyAgZlBvcy5hZGQoZ2V0UG9zSUQoYy5nZXRQT1MoaW5kZXgpKSk7CiAgICAvLyAgZkxhYmVsLmFkZChnZXRMYWJlbElEKGMuZ2V0TGFiZWwoaW5kZXgpKSk7CgogICAgLy8gIGluZGV4ID0gYy5nZXRSaWdodENoaWxkKGssIDIpOwogICAgLy8gIGZXb3JkLmFkZChnZXRXb3JkSUQoYy5nZXRXb3JkKGluZGV4KSkpOwogICAgLy8gIGZQb3MuYWRkKGdldFBvc0lEKGMuZ2V0UE9TKGluZGV4KSkpOwogICAgLy8gIGZMYWJlbC5hZGQoZ2V0TGFiZWxJRChjLmdldExhYmVsKGluZGV4KSkpOwoKICAgIC8vICBpbmRleCA9IGMuZ2V0TGVmdENoaWxkKGMuZ2V0TGVmdENoaWxkKGspKTsKICAgIC8vICBmV29yZC5hZGQoZ2V0V29yZElEKGMuZ2V0V29yZChpbmRleCkpKTsKICAgIC8vICBmUG9zLmFkZChnZXRQb3NJRChjLmdldFBPUyhpbmRleCkpKTsKICAgIC8vICBmTGFiZWwuYWRkKGdldExhYmVsSUQoYy5nZXRMYWJlbChpbmRleCkpKTsKCiAgICAvLyAgaW5kZXggPSBjLmdldFJpZ2h0Q2hpbGQoYy5nZXRSaWdodENoaWxkKGspKTsKICAgIC8vICBmV29yZC5hZGQoZ2V0V29yZElEKGMuZ2V0V29yZChpbmRleCkpKTsKICAgIC8vICBmUG9zLmFkZChnZXRQb3NJRChjLmdldFBPUyhpbmRleCkpKTsKICAgIC8vICBmTGFiZWwuYWRkKGdldExhYmVsSUQoYy5nZXRMYWJlbChpbmRleCkpKTsKICAgIC8vfQ==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>w!</text>
       </register>
     </registers>
     <search>
@@ -567,8 +567,8 @@
         <entry>wq</entry>
         <entry>1</entry>
         <entry>e! ~/vim_local/vimrc</entry>
-        <entry>w!</entry>
         <entry>w</entry>
+        <entry>w!</entry>
       </history-cmd>
       <history-expr />
       <history-input />
