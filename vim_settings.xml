@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1486941341796">
-        <mark key="'" line="1191" column="76" />
-        <mark key="[" line="1227" column="6" />
-        <mark key="]" line="1227" column="6" />
-        <mark key="." line="1227" column="6" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1486942747482">
+        <mark key="'" line="1344" column="23" />
+        <mark key="[" line="490" column="0" />
+        <mark key="]" line="490" column="0" />
         <mark key="^" line="1204" column="7" />
+        <mark key="." line="490" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -343,7 +343,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="513" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="531" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="535" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="561" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
@@ -437,16 +436,17 @@
       <jump line="981" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/stats/Counters.java" />
       <jump line="826" column="47" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="827" column="5" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1162" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1321" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1203" column="44" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="682" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="1191" column="76" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="592" column="60" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="1162" column="7" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1344" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>//</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgLy9TeXN0ZW0uZXJyLnByaW50bG4oYWxsTGFiZWxzKTsK</text>
       </register>
       <register name="-" type="4">
         <text>//</text>
@@ -458,35 +458,33 @@
         <text>knownArcs = Util.generateDict(arcs, config.arcCutOff);</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgaWYgKGZyZXEuZ2V0Q291bnQod29yZCkgPj0gY3V0T2ZmKQo=</text>
+        <text encoding="base64">ICAgICAgLy9TeXN0ZW0uZXJyLnByaW50bG4oYWxsTGFiZWxzKTsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIFN5c3RlbS5lcnIucHJpbnRsbgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgaWYgKGZyZXEuZ2V0Q291bnQod29yZCkgPj0gY3V0T2ZmKQo=</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgIFN5c3RlbS5lcnIucHJpbnRsbgo=</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">Ly9NYXA8SW50ZWdlciwgTWFwPFN0cmluZywgSW50ZWdlcj4+IGNNYXAgPSBuZXcgSGFzaE1hcDw+KHdvcmRDb25jZXB0Q291bnRzKTsKICAgIC8vbERpY3QucmVtb3ZlKDApOw==</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="4">
-        <text>//if (params.getBatchSize() == 0) {
-        //  System.exit(1);
-        //}</text>
+        <text encoding="base64">Ly9NYXA8SW50ZWdlciwgTWFwPFN0cmluZywgSW50ZWdlcj4+IGNNYXAgPSBuZXcgSGFzaE1hcDw+KHdvcmRDb25jZXB0Q291bnRzKTsKICAgIC8vbERpY3QucmVtb3ZlKDApOw==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="4">
-        <text>//System.err.println(useDict);
-        //System.err.println(dict);
-        //System.err.println(wordID);</text>
+        <text>//if (params.getBatchSize() == 0) {
+        //  System.exit(1);
+        //}</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
