@@ -30,8 +30,8 @@ public class Dataset {
     examples = new ArrayList<Example>();
   }
 
-  public void addExample(List<Integer> feature, List<Integer> label) {
-    Example data = new Example(feature, label);
+  public void addExample(List<Integer> feature, List<Integer> label, int wordID) {
+    Example data = new Example(feature, label, wordID);
     n += 1;
     examples.add(data);
   }

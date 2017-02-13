@@ -5,10 +5,7 @@ import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.util.CoreMap;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 /**
  * Describe the current configuration of a parser (i.e., parser state).
@@ -102,6 +99,8 @@ public class Configuration {
     int nStack = getStackSize();
     return (k >= 0 && k < nStack) ? stack.get(nStack - 1 - k) : Config.NONEXIST;
   }
+
+
 
   /**
    * Get the sentence index of the kth word on the buffer.

@@ -17,6 +17,8 @@ import edu.stanford.nlp.stats.Counter;
 import edu.stanford.nlp.stats.Counters;
 import edu.stanford.nlp.stats.IntCounter;
 import edu.stanford.nlp.util.CoreMap;
+import edu.stanford.nlp.util.StringUtils;
+
 import java.util.*;
 import java.io.*;
 
@@ -93,6 +95,20 @@ class Util {
     return dict;
   }
 
+  public static List<String> topDict(List<String> str, int k)
+  {
+    Counter<String> freq = new IntCounter<>();
+    for (String aStr : str)
+      freq.incrementCount(aStr);
+
+    List<String> keys = Counters.toSortedList(freq, false);
+    List<String> dict = new ArrayList<>();
+    for (int i = 0; i < k; i++) {
+      dict.add(keys.get(i));
+    }
+    return dict;
+  }
+
   public static List<String> generateDict(List<String> str)
   {
     return generateDict(str, 1);
@@ -137,45 +153,117 @@ class Util {
     return input.subList(0, subsetSize);
   }
 
-  public static void loadAMRFile(String inFile, List<CoreMap> sents, List<DependencyTree> trees, boolean unlabeled, boolean cPOS)
+  public static void loadAMRFile(String inDir, List<String[]> tokens, List<String[]> posTags, List<DependencyTree> trees, List<AMRGraph> graphs)
   {
-    CoreLabelTokenFactory tf = new CoreLabelTokenFactory(false);
+    //CoreLabelTokenFactory tf = new CoreLabelTokenFactory(false);
+    String tokFile = inDir + "/tok";
+    String posFile = inDir + "/pos";
+    String depFile = inDir + "/dep";
+    String amrFile = inDir + "/amr";
 
     BufferedReader reader = null;
+
+    //Map<String, Map<String, Integer>> tokToConcept = new HashMap<>();
+
     try {
-      reader = IOUtils.readerFromString(inFile);
+      List<String[]> all_toks = IOUtils.readToks(tokFile);
+      List<String[]> all_poss = IOUtils.readToks(posFile);
 
-      CoreMap sentence = new CoreLabel();
-      List<CoreLabel> sentenceTokens = new ArrayList<>();
+      loadConllFile(depFile, trees, all_toks);
 
-      DependencyTree tree = new DependencyTree();
+      reader = IOUtils.readerFromString(amrFile);
 
+      int sentIndex = 0;
+      AMRGraph graph = new AMRGraph();
+      Set<Integer> visited = new HashSet<>();
+      int rootNum = 0;
       for (String line : IOUtils.getLineIterable(reader, false)) {
-        String[] splits = line.split("\t");
-        if (splits.length < 10) {
-          trees.add(tree);
-          sentence.set(CoreAnnotations.TokensAnnotation.class, sentenceTokens);
-          sents.add(sentence);
+        String[] splits = line.trim().split(" ");
 
-          tree = new DependencyTree();
-          sentence = new CoreLabel();
-          sentenceTokens = new ArrayList<>();
-        } else {
-          String word = splits[1],
-                  pos = cPOS ? splits[3] : splits[4],
-                  depType = splits[7];
-          int head = Integer.parseInt(splits[6]);
+        if (splits.length < 2) { //A new sentence
+          assert rootNum == 1;
+          graph.buildEdgeMap();
+          graph.buildWordToIndices();
+          //graph.setSentence(all_toks.get(sentIndex));
+          graphs.add(graph);
 
-          CoreLabel token = tf.makeToken(word, 0, 0);
-          token.setTag(pos);
-          token.set(CoreAnnotations.CoNLLDepParentIndexAnnotation.class, head);
-          token.set(CoreAnnotations.CoNLLDepTypeAnnotation.class, depType);
-          sentenceTokens.add(token);
+          graph = new AMRGraph();
+          rootNum = 0;
+        }
+        else if (splits.length == 2) { //Sentence index, used for parse sentence info
+          if (!splits[0].equals("sentence")) {
+            System.exit(-1);
+          }
+          //sentIndex = Integer.parseInt(splits[1]);
+          //if (sentIndex > 0)
+          //  break;
+          String[] toks = all_toks.get(sentIndex);
+          String[] poss = all_poss.get(sentIndex);
+          tokens.add(toks);
+          posTags.add(poss);
+          visited.clear();
+          sentIndex += 1;
+        }
+        else {
+          if (splits.length != 6) {
+            System.err.println("Length inconsistent in the conll format" + " " + splits.length);
+            System.err.println(StringUtils.join(splits));
+            System.exit(1);
+          }
+          int conceptId = Integer.parseInt(splits[0]);
+          boolean isVar = Boolean.parseBoolean(splits[1]);
+          String concept = splits[2], wordIndex = splits[3],
+                  outGoRels = splits[4], parRels = splits[5];
 
-          if (!unlabeled)
-            tree.add(head, depType);
-          else
-            tree.add(head, Config.UNKNOWN);
+          ConceptLabel c = new ConceptLabel(concept);
+          c.setVar(isVar);
+          if (wordIndex.equals("NONE")) {
+            c.aligned = false;
+          }
+          else {
+            c.aligned = true;
+            splits = wordIndex.split("#");
+            boolean align = false;
+            for (String s: splits) { //Each concept only aligns to a single word
+              int wordId = Integer.parseInt(s);
+              if (!visited.contains(wordId)) {
+                c.addWord(wordId);
+                align = true;
+                visited.add(wordId);
+                break;
+              }
+            }
+            if (!align) {
+              c.aligned = false;
+            }
+          }
+
+          //Processing outgoing relations
+          if (!outGoRels.equals("NONE")) {
+            splits = outGoRels.split("#");
+            for (String s: splits) {
+              String[] fields = s.split(":");
+              c.rels.add(fields[0]);
+              c.tails.add(Integer.parseInt(fields[1]));
+            }
+          }
+
+          //Processing parent relations
+          if (parRels.equals("NONE")) { //Only root of the graph has not parent
+            graph.setRoot(conceptId);
+            rootNum += 1;
+          }
+          else {
+            splits = parRels.split("#");
+            for (String s: splits) {
+              String[] fields = s.split(":");
+              c.parRels.add(fields[0]);
+              c.parConcepts.add(Integer.parseInt(fields[1]));
+            }
+          }
+
+          c.buildRelMap();
+          graph.add(c);
         }
       }
     } catch (IOException e) {
@@ -185,46 +273,53 @@ class Util {
     }
   }
 
-  // TODO replace with GrammaticalStructure#readCoNLLGrammaticalStructureCollection
-  public static void loadConllFile(String inFile, List<CoreMap> sents, List<DependencyTree> trees, boolean unlabeled, boolean cPOS)
+  //Here we load the dependency trees for the input token sequence, will be used for feature extraction
+  public static void loadConllFile(String inFile, List<DependencyTree> trees, List<String[]> toks)
   {
-    CoreLabelTokenFactory tf = new CoreLabelTokenFactory(false);
-
     BufferedReader reader = null;
     try {
       reader = IOUtils.readerFromString(inFile);
 
-      CoreMap sentence = new CoreLabel();
-      List<CoreLabel> sentenceTokens = new ArrayList<>();
+      //CoreMap sentence = new CoreLabel();
+      //List<CoreLabel> sentenceTokens = new ArrayList<>();
 
       DependencyTree tree = new DependencyTree();
+      int sent_index = 0;
+      int tok_index = 0;
+      String[] tokSeq = toks.get(sent_index);
 
       for (String line : IOUtils.getLineIterable(reader, false)) {
         String[] splits = line.split("\t");
         if (splits.length < 10) {
           trees.add(tree);
-          sentence.set(CoreAnnotations.TokensAnnotation.class, sentenceTokens);
-          sents.add(sentence);
+          //sentence.set(CoreAnnotations.TokensAnnotation.class, sentenceTokens);
+          //sents.add(sentence);
 
           tree = new DependencyTree();
-          sentence = new CoreLabel();
-          sentenceTokens = new ArrayList<>();
+          sent_index += 1;
+          if (sent_index < toks.size())
+            tokSeq = toks.get(sent_index);
+          //sentence = new CoreLabel();
+          //sentenceTokens = new ArrayList<>();
         } else {
           String word = splits[1],
-                  pos = cPOS ? splits[3] : splits[4],
+                  pos = splits[3],
                   depType = splits[7];
-          int head = Integer.parseInt(splits[6]);
+          tok_index = Integer.parseInt(splits[0]) - 1;
+          int head = Integer.parseInt(splits[6]) - 1; //The root is -1 now
+          if (!tokSeq[tok_index].equals(word)) {
+            //System.err.println(tokSeq.toString());
+            System.err.println(word + " : "+ tokSeq[tok_index]);
+            System.exit(1);
+          }
 
-          CoreLabel token = tf.makeToken(word, 0, 0);
-          token.setTag(pos);
-          token.set(CoreAnnotations.CoNLLDepParentIndexAnnotation.class, head);
-          token.set(CoreAnnotations.CoNLLDepTypeAnnotation.class, depType);
-          sentenceTokens.add(token);
+          //CoreLabel token = tf.makeToken(word, 0, 0);
+          //token.setTag(pos);
+          //token.set(CoreAnnotations.CoNLLDepParentIndexAnnotation.class, head);
+          //token.set(CoreAnnotations.CoNLLDepTypeAnnotation.class, depType);
+          //sentenceTokens.add(token);
 
-          if (!unlabeled)
-            tree.add(head, depType);
-          else
-            tree.add(head, Config.UNKNOWN);
+          tree.add(head, depType);
         }
       }    
     } catch (IOException e) {
@@ -232,11 +327,6 @@ class Util {
     } finally {
       IOUtils.closeIgnoringExceptions(reader);
     }
-  }
-
-  public static void loadConllFile(String inFile, List<CoreMap> sents, List<DependencyTree> trees)
-  {
-    loadConllFile(inFile, sents, trees, false, false);
   }
 
   public static void writeConllFile(String outFile, List<CoreMap> sentences, List<DependencyTree> trees)
