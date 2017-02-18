@@ -108,12 +108,12 @@
         <mark key="." line="617" column="16" />
         <mark key="^" line="617" column="16" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1487453417193">
-        <mark key="'" line="96" column="45" />
-        <mark key="[" line="47" column="0" />
-        <mark key="]" line="48" column="27" />
-        <mark key="." line="48" column="27" />
-        <mark key="^" line="48" column="27" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1487455023184">
+        <mark key="'" line="102" column="45" />
+        <mark key="[" line="63" column="0" />
+        <mark key="]" line="63" column="0" />
+        <mark key="." line="63" column="0" />
+        <mark key="^" line="55" column="38" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1486954841445">
         <mark key="'" line="33" column="23" />
@@ -445,7 +445,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>2</text>
@@ -457,16 +457,19 @@
         <text>System.err.println(optTrans);</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>//if (optTrans.contains(&quot;ARC&quot;)) {
       //  System.err.println(optTrans);
       //  c.printConfig();
       //}
       //c.printConfig();</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>//numTrans = system.numTransitions(1);
         //System.err.println(&quot;##################&quot;);
         //System.err.println(c.lastAction);
@@ -474,32 +477,25 @@
         //System.err.println(c.cache);
         //System.err.println(&quot;##################&quot;);</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBTeXN0ZW0uZXJyLnByaW50bG4oIiMjIyMjIyMjIyMjIyMjIyMjIyIpOwo=</text>
       </register>
-      <register name="6" type="8">
+      <register name="7" type="8">
         <text>//
 //
 //
 //
 //
 //</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgIFN5c3RlbS5lcnIucHJpbnRsbigiU2VudGVuY2UgIiArIGogKyAiOiIpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgIFN5c3RlbS5lcnIucHJpbnRsbigiU2VudGVuY2UgIiArIGogKyAiOiIpOwo=</text>
       </register>
-      <register name="9" type="8">
-        <text>//
-//
-//
-//
-//</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
