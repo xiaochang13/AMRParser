@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1487574637187">
-        <mark key="'" line="763" column="16" />
-        <mark key="[" line="1006" column="4" />
-        <mark key="]" line="1006" column="5" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1487575795788">
+        <mark key="'" line="747" column="0" />
+        <mark key="[" line="1005" column="4" />
+        <mark key="]" line="1005" column="4" />
         <mark key="^" line="1006" column="5" />
-        <mark key="." line="1006" column="5" />
+        <mark key="." line="1005" column="4" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -343,7 +343,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1180" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1380" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1529" column="97" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1530" column="100" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -443,6 +442,7 @@
       <jump line="257" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="258" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="261" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="747" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -452,7 +452,7 @@
         <text>//</text>
       </register>
       <register name="/" type="4">
-        <text>label</text>
+        <text>Generate trainin</text>
       </register>
       <register name="0" type="4">
         <text>public boolean arcConnect = true;</text>
@@ -489,9 +489,9 @@
       </register>
     </registers>
     <search>
-      <last-search>label</last-search>
+      <last-search>Generate trainin</last-search>
       <last-offset />
-      <last-pattern>label</last-pattern>
+      <last-pattern>Generate trainin</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -553,6 +553,7 @@
         <entry>save</entry>
         <entry>ARCCut</entry>
         <entry>label</entry>
+        <entry>Generate trainin</entry>
       </history-search>
       <history-cmd>
         <entry>q</entry>
