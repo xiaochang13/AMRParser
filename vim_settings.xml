@@ -183,13 +183,13 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1487786886906">
-        <mark key="'" line="883" column="20" />
-        <mark key="w" line="449" column="27" />
-        <mark key="[" line="449" column="29" />
-        <mark key="]" line="449" column="30" />
-        <mark key="." line="449" column="30" />
-        <mark key="^" line="449" column="30" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1487788652203">
+        <mark key="'" line="885" column="20" />
+        <mark key="w" line="448" column="27" />
+        <mark key="[" line="435" column="0" />
+        <mark key="]" line="435" column="0" />
+        <mark key="^" line="471" column="48" />
+        <mark key="." line="435" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1480518352122">
         <mark key="'" line="686" column="0" />
@@ -449,7 +449,7 @@
         <text encoding="base64">ICAgICAgICAgIC8vZm9yIChpbnQgaSA9IDA7IGkgPCBudW1MYWJlbHM7ICsraSkgewo=</text>
       </register>
       <register name="-" type="4">
-        <text>bestScore</text>
+        <text>[i]</text>
       </register>
       <register name="/" type="4">
         <text>scores</text>
@@ -461,31 +461,31 @@
         <text encoding="base64">ICAgICAgICAgIC8vZm9yIChpbnQgaSA9IDA7IGkgPCBudW1MYWJlbHM7ICsraSkgewo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgIGRvdWJsZSBtYXhTY29yZSA9IHNjb3Jlc1tvcHRMYWJlbF07Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBjb250aW51ZTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKHRhcmdldCAhPSBudWxsICYmICF0YXJnZXQuY29udGFpbnMoaSkpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy9pZiAobGFiZWwuZ2V0KGkpID09IDEpIHN1bTEgKz0gc2NvcmVzW2ldOwo=</text>
+        <text encoding="base64">ICAgICAgICAgIC8vZm9yIChpbnQgaSA9IDA7IGkgPCBudW1MYWJlbHM7ICsraSkgewo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy9pZiAobGFiZWwuZ2V0KGkpID09IDEpIHN1bTEgKz0gc2NvcmVzW2ldOwo=</text>
+        <text encoding="base64">ICAgICAgICAgIGRvdWJsZSBtYXhTY29yZSA9IHNjb3Jlc1tvcHRMYWJlbF07Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgIH0K</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">aWYgKHRhcmdldCAhPSBudWxsICYmICF0YXJnZXQuY29udGFpbnMoaSkpCiAgICAgICAgICAgICAgY29udGludWU7</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgLy9pZiAobGFiZWwuZ2V0KGkpID09IDEpIHN1bTEgKz0gc2NvcmVzW2ldOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLy9pZiAobGFiZWwuZ2V0KGkpID09IDEpIHN1bTEgKz0gc2NvcmVzW2ldOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBkb3VibGVbXSBzY29yZXMgPSBuZXcgZG91YmxlW251bUxhYmVsc107Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
-        <text>w!</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -587,8 +587,8 @@
         <entry>wq</entry>
         <entry>new AMRParser.java</entry>
         <entry>vs AMRParser.java</entry>
-        <entry>w</entry>
         <entry>w!</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
