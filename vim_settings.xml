@@ -145,12 +145,12 @@
         <mark key="." line="813" column="49" />
         <mark key="^" line="813" column="49" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1488341800578">
-        <mark key="'" line="169" column="4" />
-        <mark key="[" line="138" column="2" />
-        <mark key="]" line="138" column="3" />
-        <mark key="^" line="138" column="3" />
-        <mark key="." line="138" column="3" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1488428526221">
+        <mark key="'" line="170" column="4" />
+        <mark key="[" line="126" column="34" />
+        <mark key="]" line="126" column="82" />
+        <mark key="." line="126" column="82" />
+        <mark key="^" line="126" column="82" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" timestamp="1481134934464">
         <mark key="'" line="151" column="9" />
@@ -446,7 +446,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICBwdWJsaWMgCg==</text>
       </register>
       <register name="-" type="4">
         <text>true</text>
@@ -458,34 +458,34 @@
         <text>System.err.println(&quot;Concept id iter time: &quot; + (System.currentTimeMillis() - time1) / 1000.0 + &quot; (s)&quot;);</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICBwdWJsaWMgCg==</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>//System.out.println(&quot;Gold graph:&quot;);
       //graph.printGraph();
       //System.out.println(&quot;Built oracle graph:&quot;);
       //c.graph.printGraph();</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICBwdWJsaWMgYm9vbGVhbiBjb25jZXB0SUQgPSB0cnVlOwo=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgIC8vZm9yIChpbnQgaSA9IDA7IGkgPCBudW1MYWJlbHM7ICsraSkgewo=</text>
-      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBjb250aW51ZTsK</text>
+        <text encoding="base64">ICAgICAgICAgIC8vZm9yIChpbnQgaSA9IDA7IGkgPCBudW1MYWJlbHM7ICsraSkgewo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKHRhcmdldCAhPSBudWxsICYmICF0YXJnZXQuY29udGFpbnMoaSkpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBjb250aW51ZTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgIC8vZm9yIChpbnQgaSA9IDA7IGkgPCBudW1MYWJlbHM7ICsraSkgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKHRhcmdldCAhPSBudWxsICYmICF0YXJnZXQuY29udGFpbnMoaSkpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgIGRvdWJsZSBtYXhTY29yZSA9IHNjb3Jlc1tvcHRMYWJlbF07Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIC8vZm9yIChpbnQgaSA9IDA7IGkgPCBudW1MYWJlbHM7ICsraSkgewo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgIGRvdWJsZSBtYXhTY29yZSA9IHNjb3Jlc1tvcHRMYWJlbF07Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
