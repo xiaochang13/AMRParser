@@ -9,10 +9,12 @@ class Example {
 
   private final List<Integer> feature;
   private final List<Integer> label;
+  private final int wordID;
 
-  public Example(List<Integer> feature, List<Integer> label) {
+  public Example(List<Integer> feature, List<Integer> label, int wordID) {
     this.feature = feature;
     this.label = label;
+    this.wordID = wordID;
   }
 
   public List<Integer> getFeature() {
@@ -23,4 +25,5 @@ class Example {
     return label;
   }
 
+  public int getWordID() {return wordID;}
 }

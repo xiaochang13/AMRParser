@@ -4,6 +4,7 @@ import edu.stanford.nlp.international.Language;
 import edu.stanford.nlp.ling.HasWord;
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 import edu.stanford.nlp.trees.TreebankLanguagePack;
+import edu.stanford.nlp.util.Pair;
 import edu.stanford.nlp.util.PropertiesUtils;
 import edu.stanford.nlp.util.ReflectionLoading;
 
@@ -15,7 +16,6 @@ import java.util.function.Function;
  * Defines configuration settings for training and testing the
  * neural-network dependency parser.
  *
- * @see DependencyParser
  *
  * @author Danqi Chen
  * @author Jon Gauthier
@@ -32,6 +32,8 @@ public class Config
    */
   public static final String ROOT = "-ROOT-";
 
+  public final int CACHE = 6;
+
    /**
    *   Non-existent token string.
    */
@@ -41,6 +43,8 @@ public class Config
    *   Represent a non-existent token.
    */
   public static final int NONEXIST = -1;
+  public static final Pair<Integer, Integer> NONPAIR = new Pair<>(-1, -1);
+  public static final Pair<Integer, Pair<Integer, Integer>> NONTRIPLE = new Pair<>(-1, new Pair(-1, -1));
 
    /**
    *   For printing messages.
@@ -64,6 +68,8 @@ public class Config
    * this number.
    */
   public int wordCutOff = 1;
+
+  public int arcCutOff = 40;
 
   /**
    * Model weights will be initialized to random values within the
@@ -92,7 +98,8 @@ public class Config
   /**
    * Initial global learning rate for AdaGrad training
    */
-  public double adaAlpha = 0.01;
+  //public double adaAlpha = 0.01;
+  public double adaAlpha = 10;
 
   /**
    * Regularization parameter. All weight updates are scaled by this
@@ -117,6 +124,10 @@ public class Config
    */
   public int embeddingSize = 50;
 
+  public boolean conceptID = false;
+  public boolean arcConnect = true;
+  public boolean pushIndex = false;
+
   /**
    * Total number of tokens provided as input to the classifier. (Each
    * token is provided in word embedding form.)
@@ -124,6 +135,9 @@ public class Config
   // TODO: we can figure this out automatically based on features used.
   // Should remove this option once we make feature templates / dynamic features
   public static final int numTokens = 48;
+  public static final int conIDTokens = 12;
+  public static final int arcConnectTokens = 41;
+  public static final int pushIndexTokens = 12;
 
   /**
    * Number of input tokens for which we should compute hidden-layer
@@ -163,6 +177,8 @@ public class Config
    * Use coarse POS instead of fine-grained POS if cPOS = true.
    */
   public boolean cPOS = false;
+
+  public boolean saveFeat = true;
 
   /**
   *  Exclude punctuations in evaluation if noPunc = true.

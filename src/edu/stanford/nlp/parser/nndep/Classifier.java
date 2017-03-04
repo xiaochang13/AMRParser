@@ -22,7 +22,7 @@ import java.util.stream.IntStream;
  * inputs, and feeds back errors to these input layers as it learns.
  *
  * In order to train a classifier, instantiate this class using the
- * {@link #Classifier(Config, Dataset, double[][], double[][], double[], double[][], java.util.List)}
+ * {@link #Classifier(Config, Dataset, NeuralParam, List, Map, Dataset)}
  * constructor. (The presence of a non-null dataset signals that we
  * wish to train.) After training by alternating calls to
  * {@link #computeCostFunction(int, double, double)} and,
@@ -72,11 +72,14 @@ public class Classifier {
    * {@link #computeCostFunction(int, double, double)}, etc. are valid.
    */
   private boolean isTraining;
+  private boolean useDict; //If to use a dictionary to constrain the possible choices
+  private Map<Integer, Set<Integer>> dict;
 
   /**
    * All training examples.
    */
   private final Dataset dataset;
+  private final Dataset evalData;
 
   /**
    * We use MulticoreWrapper to parallelize mini-batch training.
@@ -94,22 +97,20 @@ public class Classifier {
    * Number of possible dependency relation labels among which this
    * classifier will choose.
    */
-  private final int numLabels;
+  final int numLabels;
+  final int numTokens;
 
   /**
    * Instantiate a classifier with previously learned parameters in
    * order to perform new inference.
    *
    * @param config
-   * @param E
-   * @param W1
-   * @param b1
-   * @param W2
+   * @param param
    * @param preComputed
    */
-  public Classifier(Config config, double[][] E, double[][] W1, double[] b1, double[][] W2, List<Integer> preComputed) {
-    this(config, null, E, W1, b1, W2, preComputed);
-  }
+  //public Classifier(Config config, NeuralParam param, List<Integer> preComputed) {
+  //  this(config, null, param, preComputed);
+  //}
 
   /**
    * Instantiate a classifier with training data and randomly
@@ -117,21 +118,27 @@ public class Classifier {
    *
    * @param config
    * @param dataset
-   * @param E
-   * @param W1
-   * @param b1
-   * @param W2
+   * @param param
    * @param preComputed
    */
-  public Classifier(Config config, Dataset dataset, double[][] E, double[][] W1, double[] b1, double[][] W2,
-                    List<Integer> preComputed) {
+  public Classifier(Config config, Dataset dataset, NeuralParam param,
+                    List<Integer> preComputed, Map<Integer, Set<Integer>> dict,
+                    Dataset devData) {
     this.config = config;
     this.dataset = dataset;
+    this.evalData = devData;
 
-    this.E = E;
-    this.W1 = W1;
-    this.b1 = b1;
-    this.W2 = W2;
+    this.E = param.E;
+    this.W1 = param.W1;
+    this.b1 = param.b1;
+    this.W2 = param.W2;
+    this.numTokens = param.nTokens;
+    useDict = false;
+
+    if (dict != null) {
+      this.dict = dict;
+      useDict = true;
+    }
 
     initGradientHistories();
 
@@ -146,6 +153,124 @@ public class Classifier {
       jobHandler = new MulticoreWrapper<>(config.trainingThreads, new CostFunction(), false);
     else
       jobHandler = null;
+  }
+
+  //This also need to be recoded
+  public double computeAccuracy(double regParameter, double dropOutProb) {
+    // by examples in this mini-batch.
+    Set<Integer> toPreCompute = getToPreCompute(evalData.examples);
+    preCompute(toPreCompute);
+
+    //FeedforwardParams params = input.second();
+
+    Set<Integer> target = null;
+    ThreadLocalRandom random = ThreadLocalRandom.current();
+
+    double cost = 0.0;
+    double correct = 0.0;
+
+    double total = 0.0;
+    //for (int i = 0; i < dataset.examples.size(); i++) {
+    //  System.err.println(dataset.examples.get(i).getLabel());
+    //}
+
+    //for (int i = 0; i < evalData.examples.size(); i++) {
+    //  System.err.println(evalData.examples.get(i).getLabel());
+
+    //}
+
+    //System.err.println(evalData.examples.get(0).getFeature());
+    //System.err.println(evalData.examples.get(0).getLabel());
+    //System.err.println(dataset.examples.get(0).getFeature());
+    //System.err.println(dataset.examples.get(0).getLabel());
+    //System.exit(1);
+
+    for (Example ex : evalData.examples) {
+      List<Integer> feature = ex.getFeature();
+      List<Integer> label = ex.getLabel();
+
+      int wordID = ex.getWordID();
+      target = null;
+
+      //This is temporily commentted for debugging!
+      if (wordID != -1 && useDict) {
+        target = dict.get(wordID);
+      }
+
+      //System.out.println(feature);
+      //System.out.println(label);
+      //System.exit(1)
+
+      double[] scores = new double[numLabels];
+      double[] hidden = new double[config.hiddenSize];
+      double[] hidden3 = new double[config.hiddenSize];
+
+      // Run dropout: randomly drop some hidden-layer units. `ls`
+      // contains the indices of those units which are still active
+      int[] ls = IntStream.range(0, config.hiddenSize)
+                          .filter(n -> random.nextDouble() > dropOutProb)
+                          .toArray();
+
+      int offset = 0;
+
+      for (int j = 0; j < numTokens; ++j) {
+        int tok = feature.get(j);
+        int index = tok * numTokens + j;  //Feature index, only for precompute
+
+        if (preMap.containsKey(index)) {
+          int id = preMap.get(index);
+
+          for (int nodeIndex : ls)
+            hidden[nodeIndex] += saved[id][nodeIndex];
+        } else {
+          for (int nodeIndex : ls) {
+            for (int k = 0; k < config.embeddingSize; ++k)
+              hidden[nodeIndex] += W1[nodeIndex][offset + k] * E[tok][k];
+          }
+        }
+        offset += config.embeddingSize;
+      }
+
+      // Add bias term and apply activation function
+      for (int nodeIndex : ls) {
+        hidden[nodeIndex] += b1[nodeIndex];
+        hidden3[nodeIndex] = Math.pow(hidden[nodeIndex], 3);
+      }
+
+      int optLabel = -1;
+      for (int i = 0; i < numLabels; ++i) {
+        if (target != null && !target.contains(i))
+          continue;
+        if (label.get(i) >= 0) {
+          for (int nodeIndex : ls)
+            scores[i] += W2[i][nodeIndex] * hidden3[nodeIndex];
+
+          if (optLabel < 0 || scores[i] > scores[optLabel])
+            optLabel = i;
+        }
+      }
+
+      double sum1 = 0.0;
+      double sum2 = 0.0;
+      double maxScore = scores[optLabel];
+      for (int i = 0; i < numLabels; ++i) {
+        if (target != null && !target.contains(i))
+          continue;
+        if (label.get(i) >= 0) {
+          scores[i] = Math.exp(scores[i] - maxScore);
+          if (label.get(i) == 1) sum1 += scores[i];
+          sum2 += scores[i];
+        }
+      }
+
+      if (label.get(optLabel) == 1) {
+        correct += 1.0;
+      }
+      total += 1.0;
+
+    }
+
+    return correct/total;
   }
 
   /**
@@ -177,6 +302,7 @@ public class Classifier {
       // We can't fix the seed used with ThreadLocalRandom
       // TODO: Is this a serious problem?
       ThreadLocalRandom random = ThreadLocalRandom.current();
+      Set<Integer> target = null;
 
       gradW1 = new double[W1.length][W1[0].length];
       gradb1 = new double[b1.length];
@@ -186,13 +312,29 @@ public class Classifier {
       double cost = 0.0;
       double correct = 0.0;
 
+      double total = 0.0;
+
+      //preMap.clear();
       for (Example ex : examples) {
         List<Integer> feature = ex.getFeature();
         List<Integer> label = ex.getLabel();
 
+        int wordID = ex.getWordID();
+        target = null;
+
+        //This is temporily commentted for debugging!
+        if (wordID != -1 && useDict) {
+          target = dict.get(wordID);
+        }
+
+        //System.out.println(feature);
+        //System.out.println(label);
+        //System.exit(1)
+
         double[] scores = new double[numLabels];
         double[] hidden = new double[config.hiddenSize];
         double[] hidden3 = new double[config.hiddenSize];
+        //numTokens = feature.size();
 
         // Run dropout: randomly drop some hidden-layer units. `ls`
         // contains the indices of those units which are still active
@@ -201,11 +343,19 @@ public class Classifier {
                             .toArray();
 
         int offset = 0;
-        for (int j = 0; j < config.numTokens; ++j) {
+        if (feature.size() != numTokens) {
+          System.err.println("Inconsistent number of features!");
+          System.exit(1);
+        }
+        //preMap.clear();
+
+        for (int j = 0; j < numTokens; ++j) {
           int tok = feature.get(j);
-          int index = tok * config.numTokens + j;
+          //int index = tok * numTokens + j;
+          int index = tok * feature.size() + j;  //Feature index, only for precompute
 
           if (preMap.containsKey(index)) {
+            //System.exit(1);
             // Unit activations for this input feature value have been
             // precomputed
             int id = preMap.get(index);
@@ -230,8 +380,46 @@ public class Classifier {
         }
 
         // Feed forward to softmax layer (no activation yet)
+        //int correctL = -1;
+        //for (int i = 0; i < numLabels; i++) {
+        //  if (label.get(i) == 1) {
+        //    correctL = i;
+        //    break;
+        //  }
+        //}
         int optLabel = -1;
+        //if (target != null) {
+        //  boolean existAns = false;
+        //  for (int index: target) {
+        //    if (label.get(index) > 0) {
+        //      correctL = index;
+        //      existAns = true;
+        //      break;
+        //    }
+        //  }
+        //  if (!existAns) {
+        //    System.err.println("The filtered set does not include answer");
+        //    System.exit(1);
+        //  }
+        //}
+
+        //if (target != null) {
+        //  for (int i : target) {
+        //    //for (int i = 0; i < numLabels; ++i)
+        //    if (label.get(i) >= 0) {
+        //      for (int nodeIndex : ls)
+        //        scores[i] += W2[i][nodeIndex] * hidden3[nodeIndex];
+
+        //      if (optLabel < 0 || scores[i] > scores[optLabel])
+        //        optLabel = i;
+        //    }
+        //  }
+        //}
+        //else {
+          //System.exit(1);
         for (int i = 0; i < numLabels; ++i) {
+          if (target != null && !target.contains(i))
+            continue;
           if (label.get(i) >= 0) {
             for (int nodeIndex : ls)
               scores[i] += W2[i][nodeIndex] * hidden3[nodeIndex];
@@ -240,11 +428,14 @@ public class Classifier {
               optLabel = i;
           }
         }
+        //}
 
         double sum1 = 0.0;
         double sum2 = 0.0;
         double maxScore = scores[optLabel];
         for (int i = 0; i < numLabels; ++i) {
+          if (target != null && !target.contains(i))
+            continue;
           if (label.get(i) >= 0) {
             scores[i] = Math.exp(scores[i] - maxScore);
             if (label.get(i) == 1) sum1 += scores[i];
@@ -253,11 +444,17 @@ public class Classifier {
         }
 
         cost += (Math.log(sum2) - Math.log(sum1)) / params.getBatchSize();
-        if (label.get(optLabel) == 1)
-          correct += +1.0 / params.getBatchSize();
+        if (label.get(optLabel) == 1) {
+          //correct += +1.0 / params.getBatchSize();
+          correct += 1.0;
+        }
+        total += 1.0;
+
 
         double[] gradHidden3 = new double[config.hiddenSize];
-        for (int i = 0; i < numLabels; ++i)
+        for (int i = 0; i < numLabels; ++i) {
+          if (target != null && !target.contains(i))
+            continue;
           if (label.get(i) >= 0) {
             double delta = -(label.get(i) - scores[i] / sum2) / params.getBatchSize();
             for (int nodeIndex : ls) {
@@ -265,6 +462,7 @@ public class Classifier {
               gradHidden3[nodeIndex] += delta * W2[i][nodeIndex];
             }
           }
+        }
 
         double[] gradHidden = new double[config.hiddenSize];
         for (int nodeIndex : ls) {
@@ -273,9 +471,10 @@ public class Classifier {
         }
 
         offset = 0;
-        for (int j = 0; j < config.numTokens; ++j) {
+        for (int j = 0; j < numTokens; ++j) {
           int tok = feature.get(j);
-          int index = tok * config.numTokens + j;
+          //int index = tok * numTokens + j;
+          int index = tok * feature.size() + j;
           if (preMap.containsKey(index)) {
             int id = preMap.get(index);
             for (int nodeIndex : ls)
@@ -291,6 +490,7 @@ public class Classifier {
           offset += config.embeddingSize;
         }
       }
+      //System.out.println("Current accuracy:"+ (correct/total));
 
       return new Cost(cost, correct, gradW1, gradb1, gradW2, gradE);
     }
@@ -327,7 +527,8 @@ public class Classifier {
       return batchSize;
     }
 
-    public double getDropOutProb() {
+    public double getDropOutProb() { //Turned dropout off at the moment
+      //return -3.0;
       return dropOutProb;
     }
 
@@ -393,8 +594,8 @@ public class Classifier {
     private void backpropSaved(Set<Integer> featuresSeen) {
       for (int x : featuresSeen) {
         int mapX = preMap.get(x);
-        int tok = x / config.numTokens;
-        int offset = (x % config.numTokens) * config.embeddingSize;
+        int tok = x / numTokens;
+        int offset = (x % numTokens) * config.embeddingSize;
         for (int j = 0; j < config.hiddenSize; ++j) {
           double delta = gradSaved[mapX][j];
           for (int k = 0; k < config.embeddingSize; ++k) {
@@ -472,16 +673,16 @@ public class Classifier {
     for (Example ex : examples) {
       List<Integer> feature = ex.getFeature();
 
-      for (int j = 0; j < config.numTokens; j++) {
+      for (int j = 0; j < numTokens; j++) {
         int tok = feature.get(j);
-        int index = tok * config.numTokens + j;
+        int index = tok * numTokens + j;
         if (preMap.containsKey(index))
           featureIDs.add(index);
       }
     }
 
-    double percentagePreComputed = featureIDs.size() / (float) config.numPreComputed;
-    System.err.printf("Percent actually necessary to pre-compute: %f%%%n", percentagePreComputed * 100);
+    //double percentagePreComputed = featureIDs.size() / (float) config.numPreComputed;
+    //System.err.printf("Percent actually necessary to pre-compute: %f%%%n", percentagePreComputed * 100);
 
     return featureIDs;
   }
@@ -505,6 +706,8 @@ public class Classifier {
    *         weights, and includes gradients to be used for further
    *         training
    */
+
+  //This also need to be recoded
   public Cost computeCostFunction(int batchSize, double regParameter, double dropOutProb) {
     validateTraining();
 
@@ -656,14 +859,14 @@ public class Classifier {
 
     for (int x : toPreCompute) {
       int mapX = preMap.get(x);
-      int tok = x / config.numTokens;
-      int pos = x % config.numTokens;
+      int tok = x / numTokens;
+      int pos = x % numTokens;
       for (int j = 0; j < config.hiddenSize; ++j)
         for (int k = 0; k < config.embeddingSize; ++k)
           saved[mapX][j] += W1[j][pos * config.embeddingSize + k] * E[tok][k];
     }
-    System.err.println("PreComputed " + toPreCompute.size() + ", Elapsed Time: " + (System
-        .currentTimeMillis() - startTime) / 1000.0 + " (s)");
+    //System.err.println("PreComputed " + toPreCompute.size() + ", Elapsed Time: " + (System
+    //    .currentTimeMillis() - startTime) / 1000.0 + " (s)");
   }
 
   double[] computeScores(int[] feature) {
@@ -679,7 +882,7 @@ public class Classifier {
     int offset = 0;
     for (int j = 0; j < feature.length; ++j) {
       int tok = feature[j];
-      int index = tok * config.numTokens + j;
+      int index = tok * numTokens + j;
 
       if (preMap.containsKey(index)) {
         int id = preMap.get(index);
