@@ -48,8 +48,8 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1488728658104">
-        <mark key="'" line="206" column="8" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1488729128146">
+        <mark key="'" line="19" column="2" />
         <mark key="[" line="340" column="12" />
         <mark key="]" line="340" column="13" />
         <mark key="." line="340" column="13" />
@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1488728632661">
-        <mark key="'" line="746" column="6" />
-        <mark key="[" line="197" column="56" />
-        <mark key="]" line="197" column="56" />
-        <mark key="^" line="197" column="56" />
-        <mark key="." line="197" column="56" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1488729311391">
+        <mark key="'" line="217" column="18" />
+        <mark key="[" line="291" column="4" />
+        <mark key="]" line="291" column="5" />
+        <mark key="^" line="291" column="5" />
+        <mark key="." line="291" column="5" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -312,8 +312,8 @@
         <mark key="." line="17" column="22" />
         <mark key="^" line="17" column="22" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1488728631354">
-        <mark key="'" line="27" column="25" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1488729170415">
+        <mark key="'" line="451" column="17" />
         <mark key="[" line="217" column="11" />
         <mark key="]" line="217" column="13" />
         <mark key="^" line="217" column="13" />
@@ -343,9 +343,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="939" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
-      <jump line="1656" column="44" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1962" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1963" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2029" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2040" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -443,19 +440,23 @@
       <jump line="165" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="189" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="206" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="19" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="215" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="451" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICBwdWJsaWMgCg==</text>
+      <register name="&quot;" type="4">
+        <text>v</text>
       </register>
       <register name="-" type="4">
-        <text>true</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>lastP</text>
       </register>
       <register name="0" type="4">
-        <text>System.err.println(&quot;Concept id iter time: &quot; + (System.currentTimeMillis() - time1) / 1000.0 + &quot; (s)&quot;);</text>
+        <text>feature.add(getWordID(c.getWord(wordIndex)));
+    feature.add(getPosID(c.getPOS(wordIndex)));</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICBwdWJsaWMgCg==</text>
