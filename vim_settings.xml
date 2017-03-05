@@ -312,12 +312,12 @@
         <mark key="." line="17" column="22" />
         <mark key="^" line="17" column="22" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1488736744869">
-        <mark key="'" line="103" column="23" />
-        <mark key="[" line="420" column="19" />
-        <mark key="]" line="420" column="26" />
-        <mark key="^" line="420" column="26" />
-        <mark key="." line="420" column="26" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1488737341381">
+        <mark key="'" line="330" column="25" />
+        <mark key="[" line="421" column="3" />
+        <mark key="]" line="421" column="3" />
+        <mark key="^" line="421" column="3" />
+        <mark key="." line="421" column="3" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
         <mark key="'" line="91" column="8" />
@@ -343,9 +343,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1101" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1102" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1165" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1222" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1223" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1227" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -443,16 +440,19 @@
       <jump line="468" column="1" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="220" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="103" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="411" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="428" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="330" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>int vertex</text>
       </register>
       <register name="-" type="4">
-        <text>node</text>
+        <text>int vertex</text>
       </register>
       <register name="/" type="4">
-        <text>connect</text>
+        <text>getConcept</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">TGlzdDxJbnRlZ2VyPiBmZWF0cw==</text>
@@ -488,13 +488,13 @@
         <text encoding="base64">ICAgICAgICAgICAgICBjb250aW51ZTsK</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>w!</text>
       </register>
     </registers>
     <search>
-      <last-search>connect</last-search>
+      <last-search>getConcept</last-search>
       <last-offset />
-      <last-pattern>connect</last-pattern>
+      <last-pattern>getConcept</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -528,6 +528,7 @@
         <entry>config</entry>
         <entry>connectAr</entry>
         <entry>connect</entry>
+        <entry>getConcept</entry>
       </history-search>
       <history-cmd>
         <entry>e ~/buffer</entry>
@@ -548,8 +549,8 @@
         <entry>wq</entry>
         <entry>new AMRParser.java</entry>
         <entry>vs AMRParser.java</entry>
-        <entry>w!</entry>
         <entry>w</entry>
+        <entry>w!</entry>
       </history-cmd>
       <history-expr />
       <history-input />
