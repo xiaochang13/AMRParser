@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1488264287314">
-        <mark key="'" line="200" column="14" />
-        <mark key="[" line="774" column="0" />
-        <mark key="]" line="774" column="0" />
-        <mark key="^" line="610" column="8" />
-        <mark key="." line="774" column="0" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1488680806805">
+        <mark key="'" line="205" column="14" />
+        <mark key="[" line="603" column="0" />
+        <mark key="]" line="604" column="60" />
+        <mark key="^" line="604" column="60" />
+        <mark key="." line="604" column="60" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -498,11 +498,10 @@
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>label</entry>
         <entry>Generate trainin</entry>
         <entry>pushTransitionIDs</entry>
         <entry>getOra</entry>
