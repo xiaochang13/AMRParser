@@ -312,12 +312,12 @@
         <mark key="." line="17" column="22" />
         <mark key="^" line="17" column="22" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1488778047873">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1488817337692">
         <mark key="'" line="330" column="25" />
-        <mark key="[" line="424" column="21" />
-        <mark key="]" line="424" column="45" />
-        <mark key="^" line="424" column="45" />
-        <mark key="." line="424" column="45" />
+        <mark key="[" line="429" column="13" />
+        <mark key="]" line="429" column="19" />
+        <mark key="^" line="429" column="19" />
+        <mark key="." line="429" column="19" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
         <mark key="'" line="91" column="8" />
@@ -446,46 +446,46 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>null</text>
+        <text>rels</text>
       </register>
       <register name="-" type="4">
-        <text>null</text>
+        <text>rels</text>
       </register>
       <register name="/" type="4">
         <text>getConcept</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">TGlzdDxJbnRlZ2VyPiBmZWF0cw==</text>
+        <text encoding="base64">aW50IG51bUNvbmNlcHRzID0gZ3JhcGguY29uY2VwdHMuc2l6ZSgpOwogICAgaWYgKHZlcnRleCA+PSBudW1Db25jZXB0cykKICAgICAgcmV0dXJuIENvbmZpZy5OVUxMOwogICAgQ29uY2VwdExhYmVsIGMgPSBncmFwaC5jb25jZXB0cy5nZXQodmVydGV4KTsKICAgIGludCByZWxTaXplID0gYy5yZWxzLnNpemUoKTsKICAgIGlmIChrID49IHJlbFNpemUpCiAgICAgIHJldHVybiBDb25maWcuTlVMTDsKICAgIHJldHVybiBjLnJlbHMuZ2V0KGspOw==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIENvbmNlcHRMYWJlbCBjID0gbnVsbDsK</text>
-      </register>
-      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIENvbmNlcHRMYWJlbCBjID0gbnVsbDsK</text>
+      </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIC8vVE9QIHR3byAidmVydGljZXMiIG9uIHRoZSBzdGFjawo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICAgIC8vVE9QIHR3byAidmVydGljZXMiIG9uIHRoZSBzdGFjawo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICBwdWJsaWMgCg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">ICBwdWJsaWMgCg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>//System.out.println(&quot;Gold graph:&quot;);
       //graph.printGraph();
       //System.out.println(&quot;Built oracle graph:&quot;);
       //c.graph.printGraph();</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICBwdWJsaWMgYm9vbGVhbiBjb25jZXB0SUQgPSB0cnVlOwo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIC8vZm9yIChpbnQgaSA9IDA7IGkgPCBudW1MYWJlbHM7ICsraSkgewo=</text>
+        <text encoding="base64">ICBwdWJsaWMgYm9vbGVhbiBjb25jZXB0SUQgPSB0cnVlOwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
