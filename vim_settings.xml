@@ -48,18 +48,17 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1488934942642">
-        <mark key="'" line="77" column="44" />
-        <mark key="[" line="216" column="6" />
-        <mark key="]" line="216" column="7" />
-        <mark key="." line="216" column="7" />
-        <mark key="^" line="216" column="7" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1488942796906">
+        <mark key="'" line="250" column="12" />
+        <mark key="[" line="216" column="0" />
+        <mark key="]" line="216" column="0" />
+        <mark key="." line="216" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1488938295652">
-        <mark key="'" line="640" column="10" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1488942062909">
+        <mark key="'" line="1696" column="17" />
         <mark key="[" line="1751" column="8" />
         <mark key="]" line="1751" column="8" />
         <mark key="." line="1751" column="8" />
@@ -312,8 +311,8 @@
         <mark key="." line="17" column="22" />
         <mark key="^" line="17" column="22" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1488860122113">
-        <mark key="'" line="346" column="22" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1488942573447">
+        <mark key="'" line="234" column="14" />
         <mark key="[" line="342" column="0" />
         <mark key="]" line="342" column="0" />
         <mark key="^" line="428" column="19" />
@@ -343,13 +342,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="527" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="46" column="7" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRData.java" />
-      <jump line="671" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="588" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="293" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="484" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="585" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="490" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="599" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="491" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -443,18 +435,23 @@
       <jump line="1768" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="206" column="50" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="640" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1688" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1696" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="234" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="39" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" />
+      <jump line="246" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="253" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="220" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>//scores = pushIndexClassifier.computeScores(feature, null);
-        //numTrans = system.numTransitions(2);
-        //opt = argmax(scores, null);</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
-        <text>//System.err.println(optTrans);</text>
+        <text>//assert arcs.length == c.cacheSize;</text>
       </register>
       <register name="/" type="4">
-        <text>predictInner</text>
+        <text>apply</text>
       </register>
       <register name="0" type="4">
         <text>if (!conIDTransitionIDs.containsKey(nullTran)) {
@@ -462,53 +459,49 @@
       conceptIDTransitions.add(nullTran);
     }</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
+      </register>
+      <register name="2" type="4">
+        <text>//System.err.println(t);
+      //System.exit(1);</text>
+      </register>
+      <register name="3" type="4">
+        <text>//System.err.println(t);
+      //System.exit(1);</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgLy9hc3NlcnQgcGFydHNbMF0uZXF1YWxzKCJBUkMiKTsK</text>
+      </register>
+      <register name="5" type="4">
         <text>//scores = pushIndexClassifier.computeScores(feature, null);
         //numTrans = system.numTransitions(2);
         //opt = argmax(scores, null);</text>
       </register>
-      <register name="2" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgIC8vU3lzdGVtLmV4aXQoMSk7Cg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="8" type="4">
         <text>//if (optTrans.contains(&quot;ARC&quot;)) {
       //  System.err.println(optTrans);
       //  c.printConfig();
       //}
       //c.printConfig();</text>
       </register>
-      <register name="5" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
-      </register>
-      <register name="6" type="4">
-        <text>//System.err.println(optTrans);
-      //if (optTrans.equals(&quot;conID:-NULL-&quot;)) {
-      //  System.err.println(optTrans);
-      //  System.exit(1);
-      //}</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgIC8vb3B0ID0gYXJnbWF4KHNjb3JlcywgbnVsbCk7Cg==</text>
-      </register>
-      <register name="9" type="4">
-        <text>//scores = arcConnectClassifier.computeScores(feature, null);
-
-          //opt = arcConnectClassifier.argmax(feature, null, config.dropProb);</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>predictInner</last-search>
+      <last-search>apply</last-search>
       <last-offset />
-      <last-pattern>predictInner</last-pattern>
+      <last-pattern>apply</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -534,7 +527,6 @@
         <entry>startTime</entry>
         <entry>binaryProb</entry>
         <entry>feature</entry>
-        <entry>apply</entry>
         <entry>lastP</entry>
         <entry>numTokens</entry>
         <entry>config</entry>
@@ -557,6 +549,7 @@
         <entry>commented</entry>
         <entry>TrainExam</entry>
         <entry>predictInner</entry>
+        <entry>apply</entry>
       </history-search>
       <history-cmd>
         <entry>e ~/buffer</entry>
