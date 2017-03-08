@@ -48,18 +48,21 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1488918687515">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1488934942642">
         <mark key="'" line="77" column="44" />
-        <mark key="[" line="121" column="0" />
-        <mark key="]" line="121" column="0" />
-        <mark key="." line="121" column="0" />
+        <mark key="[" line="216" column="6" />
+        <mark key="]" line="216" column="7" />
+        <mark key="." line="216" column="7" />
+        <mark key="^" line="216" column="7" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1488931444657">
-        <mark key="'" line="1672" column="0" />
-        <mark key="^" line="988" column="5" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1488935282098">
+        <mark key="'" line="1768" column="13" />
+        <mark key="[" line="1748" column="0" />
+        <mark key="]" line="1748" column="0" />
+        <mark key="." line="1748" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -340,8 +343,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="357" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
-      <jump line="284" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="1450" column="61" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="128" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="90" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -440,13 +441,15 @@
       <jump line="1789" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1090" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1672" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1779" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="217" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgIC8vYy5wcmludENvbmZpZygpOwo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
-        <text>//</text>
+        <text>//System.err.println(optTrans);</text>
       </register>
       <register name="/" type="4">
         <text>TrainExam</text>
@@ -458,37 +461,34 @@
     }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIC8vYy5wcmludENvbmZpZygpOwo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgIC8vU3lzdGVtLmVyci5wcmludGxuKG9wdFRyYW5zKTsK</text>
+        <text encoding="base64">ICAgICAgICAgIC8vb3B0ID0gYXJnbWF4KHNjb3JlcywgbnVsbCk7Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="3" type="4">
+        <text>//scores = arcConnectClassifier.computeScores(feature, null);
+
+          //opt = arcConnectClassifier.argmax(feature, null, config.dropProb);</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGludCB1bmtXb3JkID0gCg==</text>
-      </register>
-      <register name="5" type="4">
-        <text>//System.err.println(feature);
-          //System.err.println(scores);</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
-      <register name="7" type="4">
-        <text>//System.err.println(feature);
-          //System.err.println(scores);</text>
+      <register name="5" type="4">
+        <text>//scores = binaryClassifier.computeScores(feature, null);
+          //opt = argmax(scores, null);</text>
       </register>
-      <register name="8" type="8">
-        <text>//
-//
-//
-//
-//</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">Ly9zY29yZXMgPSBjb25jZXB0SURDbGFzc2lmaWVyLmNvbXB1dGVTY29yZXMoZmVhdHVyZSwgY2hvaWNlcyk7CiAgICAgICAgLy9pZiAoYy5zdGFjay5zaXplKCkgPiAwKSB7CiAgICAgICAgLy8gIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gbGFzdEUgPSBjLmNhY2hlLmdldChjLmNhY2hlU2l6ZS0xKTsKICAgICAgICAvLyAgaW50IGluZGV4ID0gbGFzdEUuc2Vjb25kOwogICAgICAgIC8vICAvL0NvbmNlcHRMYWJlbCBjdXJyQyA9IGMuZ3JhcGguY29uY2VwdHMuZ2V0KGluZGV4KTsKICAgICAgICAvLyAgLy9pZiAoY3VyckMucmVscy5zaXplKCkgPiAwIHx8IChjdXJyQy5wYXJSZWxzLnNpemUoKSA+IDApKQogICAgICAgIC8vICAvLyAgY2hvaWNlcy5hZGQoc3lzdGVtLmNvbklEVHJhbnNpdGlvbklEcy5nZXQoIlBPUCIpKTsKICAgICAgICAvL30KICAgICAgICAvLyAgc2NvcmVzWzBdID0gRG91YmxlLk5FR0FUSVZFX0lORklOSVRZOw==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgIC8vYy5wcmludENvbmZpZygpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgIC8vU3lzdGVtLmVyci5wcmludGxuKG9wdFRyYW5zKTsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
