@@ -57,8 +57,8 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489037406877">
-        <mark key="'" line="1628" column="32" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489071383751">
+        <mark key="'" line="579" column="39" />
         <mark key="[" line="1486" column="0" />
         <mark key="]" line="1486" column="0" />
         <mark key="^" line="1650" column="24" />
@@ -343,10 +343,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="220" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="63" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="35" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="1676" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="55" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="1727" column="56" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="78" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
@@ -443,6 +439,10 @@
       <jump line="1570" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1602" column="32" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1638" column="32" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1037" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1496" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="579" column="39" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="34" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -452,7 +452,7 @@
         <text encoding="base64">ZG91YmxlIA==</text>
       </register>
       <register name="/" type="4">
-        <text>Overall</text>
+        <text>genTrain</text>
       </register>
       <register name="0" type="4">
         <text>outputWriter.write(&quot;Overall accuracy: &quot; + acc);</text>
@@ -501,9 +501,9 @@
       </register>
     </registers>
     <search>
-      <last-search>Overall</last-search>
+      <last-search>genTrain</last-search>
       <last-offset />
-      <last-pattern>Overall</last-pattern>
+      <last-pattern>genTrain</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -542,7 +542,6 @@
         <entry>saved</entry>
         <entry>computeAc</entry>
         <entry>getOra</entry>
-        <entry>genTrain</entry>
         <entry>computeAcc</entry>
         <entry>innter</entry>
         <entry>predict</entry>
@@ -564,6 +563,7 @@
         <entry>comment</entry>
         <entry>overall</entry>
         <entry>Overall</entry>
+        <entry>genTrain</entry>
       </history-search>
       <history-cmd>
         <entry>e ~/buffer</entry>
