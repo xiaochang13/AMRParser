@@ -57,12 +57,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489089687344">
-        <mark key="'" line="1456" column="4" />
-        <mark key="[" line="1453" column="0" />
-        <mark key="]" line="1453" column="0" />
-        <mark key="^" line="1452" column="57" />
-        <mark key="." line="1453" column="0" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489091334151">
+        <mark key="'" line="1458" column="4" />
+        <mark key="[" line="1708" column="71" />
+        <mark key="]" line="1708" column="76" />
+        <mark key="^" line="1708" column="76" />
+        <mark key="." line="1708" column="76" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -343,7 +343,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="208" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
       <jump line="209" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
       <jump line="26" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
       <jump line="1479" column="42" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -443,13 +442,14 @@
       <jump line="1455" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="978" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1456" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="827" column="55" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>)</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ZG91YmxlIA==</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text>devDir</text>
@@ -458,26 +458,34 @@
         <text encoding="base64">TGlzdDxTdHJpbmdbXT4gdG9rZW5zLCBMaXN0PFN0cmluZ1tdPiBwb3NUYWdzLCBMaXN0PERlcGVuZGVuY3lUcmVlPiB0cmVlcw==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">ICAKICAKICAKICA=</text>
+      <register name="2" type="4">
+        <text>//if (!conceptIDTargetIDs.containsKey(conceptTran))
+          //  conceptIDTargetIDs.put(conceptTran, conceptIDTargetIDs.size());
+          //conceptID = conceptIDTargetIDs.get(conceptTran);</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="8">
+        <text encoding="base64">ICAKICAKICAKICA=</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgIHRyeSB7Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text>} catch (IOException e) {
       throw new RuntimeIOException(e);
     }</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgLy9TeXN0ZW0uZXJyLnByaW50bG4oIlNlbnRlbmNlICIgKyBqICsgIjoiICsgU3RyaW5nVXRpbHMuam9pbihkZXZTZW50cy5nZXQoaikpKTsK</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="9" type="4">
         <text>//System.exit(1);
 
     //System.err.println(system.arcTransitionIDs);
@@ -488,12 +496,6 @@
     //System.err.println(arcConnectClassifier.numLabels);
     //System.err.println(pushIndexClassifier.numLabels);
     //System.exit(1);</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgIG91dHB1dFdyaXRlci53cml0ZSgiT3ZlcmFsbCBhY2N1cmFjeTogIiArIGFjYyk7Cg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3V0cHV0V3JpdGVyLndyaXRlKCJPdmVyYWxsIGFjY3VyYWN5OiAiICsgYWNjKTsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
