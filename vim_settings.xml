@@ -57,12 +57,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489095280488">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489097017443">
         <mark key="'" line="1430" column="15" />
-        <mark key="[" line="1019" column="4" />
-        <mark key="]" line="1019" column="4" />
-        <mark key="." line="1019" column="4" />
-        <mark key="^" line="1455" column="35" />
+        <mark key="[" line="1091" column="32" />
+        <mark key="]" line="1091" column="42" />
+        <mark key="." line="1091" column="42" />
+        <mark key="^" line="1091" column="42" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -446,10 +446,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>//</text>
+        <text>numRetrieved</text>
       </register>
       <register name="-" type="4">
-        <text>//</text>
+        <text>numRetrieved</text>
       </register>
       <register name="/" type="4">
         <text>evalLemmas</text>
