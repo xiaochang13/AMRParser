@@ -57,12 +57,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489256550820">
-        <mark key="'" line="1488" column="6" />
-        <mark key="[" line="1489" column="4" />
-        <mark key="]" line="1489" column="5" />
-        <mark key="." line="1489" column="5" />
-        <mark key="^" line="1489" column="5" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489302354507">
+        <mark key="'" line="2382" column="0" />
+        <mark key="[" line="1563" column="36" />
+        <mark key="]" line="1563" column="46" />
+        <mark key="." line="1563" column="46" />
+        <mark key="^" line="1563" column="46" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -338,14 +338,11 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/CoreAnnotations.java" timestamp="1481288218667">
         <mark key="'" line="77" column="65" />
       </file>
-      <file name="/fragment.java" timestamp="1489094848072">
+      <file name="/fragment.java" timestamp="1489301751000">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="1390" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1695" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="593" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="588" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="320" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="327" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
@@ -443,16 +440,19 @@
       <jump line="72" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2347" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1488" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1067" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1030" column="43" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2382" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>wordID</text>
+        <text>//</text>
       </register>
       <register name="-" type="4">
-        <text>wordID</text>
+        <text>//</text>
       </register>
       <register name="/" type="4">
-        <text>outputWriter</text>
+        <text>commented</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">TGlzdDxTdHJpbmdbXT4gdG9rZW5zLCBMaXN0PFN0cmluZ1tdPiBwb3NUYWdzLCBMaXN0PERlcGVuZGVuY3lUcmVlPiB0cmVlcw==</text>
@@ -493,9 +493,9 @@
       </register>
     </registers>
     <search>
-      <last-search>outputWriter</last-search>
+      <last-search>commented</last-search>
       <last-offset />
-      <last-pattern>outputWriter</last-pattern>
+      <last-pattern>commented</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -503,48 +503,6 @@
     </search>
     <history>
       <history-search>
-        <entry>Generate trainin</entry>
-        <entry>pushTransitionIDs</entry>
-        <entry>type</entry>
-        <entry>Setup</entry>
-        <entry>numLabels</entry>
-        <entry>computeScores</entry>
-        <entry>target</entry>
-        <entry>choices</entry>
-        <entry>computeScore</entry>
-        <entry>random</entry>
-        <entry>process</entry>
-        <entry>scores</entry>
-        <entry>time</entry>
-        <entry>startT</entry>
-        <entry>gen</entry>
-        <entry>startTime</entry>
-        <entry>binaryProb</entry>
-        <entry>feature</entry>
-        <entry>lastP</entry>
-        <entry>numTokens</entry>
-        <entry>config</entry>
-        <entry>connectAr</entry>
-        <entry>connect</entry>
-        <entry>getConcept</entry>
-        <entry>pushPop</entry>
-        <entry>PreCompute</entry>
-        <entry>toPre</entry>
-        <entry>preMap</entry>
-        <entry>saved</entry>
-        <entry>computeAc</entry>
-        <entry>getOra</entry>
-        <entry>computeAcc</entry>
-        <entry>innter</entry>
-        <entry>predict</entry>
-        <entry>system</entry>
-        <entry>predictInn</entry>
-        <entry>TrainExam</entry>
-        <entry>predictInner</entry>
-        <entry>counter</entry>
-        <entry>writeModelFile</entry>
-        <entry>commented</entry>
-        <entry>predictIn</entry>
         <entry>apply</entry>
         <entry>retrie</entry>
         <entry>computeAccu</entry>
@@ -565,10 +523,9 @@
         <entry>write</entry>
         <entry>outputWirter</entry>
         <entry>outputWriter</entry>
+        <entry>commented</entry>
       </history-search>
       <history-cmd>
-        <entry>e ~/buffer</entry>
-        <entry>vs AMRParser</entry>
         <entry>.,.+1</entry>
         <entry>.,.+8w</entry>
         <entry>W</entry>
