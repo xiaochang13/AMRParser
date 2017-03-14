@@ -58,12 +58,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489532164855">
-        <mark key="'" line="1881" column="28" />
-        <mark key="[" line="1885" column="90" />
-        <mark key="]" line="1885" column="90" />
-        <mark key="^" line="1500" column="8" />
-        <mark key="." line="1885" column="90" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489533007553">
+        <mark key="'" line="129" column="28" />
+        <mark key="[" line="660" column="10" />
+        <mark key="]" line="650" column="0" />
+        <mark key="^" line="650" column="0" />
+        <mark key="." line="650" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -344,9 +344,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1483" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1437" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1759" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1416" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1418" column="45" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1429" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -444,16 +441,19 @@
       <jump line="749" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1881" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="26" column="52" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="1920" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2243" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="129" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">YmluUHJlQ29tcHV0ZWQsIA==</text>
+        <text>//</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">YmluUHJlQ29tcHV0ZWQsIA==</text>
+        <text>//</text>
       </register>
       <register name="/" type="4">
-        <text>preComput</text>
+        <text>commented</text>
       </register>
       <register name="0" type="4">
         <text>if (label.equals(Config.NULL) || label.equals(Config.UNKNOWN)) {
@@ -461,29 +461,34 @@
       }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgKiBAcGFyYW0gcHJlQ29tcHV0ZWQK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgKiBAc2VlICNwcmVDb21wdXRlKGphdmEudXRpbC5TZXQpCg==</text>
+      <register name="2" type="4">
+        <text>//if (devSet == null) {
+    //  conceptIDClassifier = new Classifier(config, trainSet.conceptIDExamples, conceptIDParam, preComputed, conceptIDDict, null);
+    //  arcConnectClassifier = new Classifier(config, trainSet.arcConnectExamples, arcConnectParam, preComputed, null, null);
+    //  pushIndexClassifier = new Classifier(config, trainSet.pushPopExamples, pushIndexParam, preComputed, null, null);
+    //}
+    //else {</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgKiBAcGFyYW0gcHJlQ29tcHV0ZWQK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgKiBAc2VlICNwcmVDb21wdXRlKGphdmEudXRpbC5TZXQpCg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text>* @param toPreCompute Set of feature IDs for which hidden layer
    *                     activations should be precomputed</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgKiBhY3RpdmF0aW9uIGRhdGEgKHNlZSB7QGxpbmsgI3NhdmVkfSkuCg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgZG91YmxlIHRvdGFsID0gMC4wOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -493,9 +498,9 @@
       </register>
     </registers>
     <search>
-      <last-search>preComput</last-search>
+      <last-search>commented</last-search>
       <last-offset />
-      <last-pattern>preComput</last-pattern>
+      <last-pattern>commented</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -522,7 +527,6 @@
         <entry>write</entry>
         <entry>outputWirter</entry>
         <entry>outputWriter</entry>
-        <entry>commented</entry>
         <entry>arcLabels</entry>
         <entry>makeTransi</entry>
         <entry>arcTransitions</entry>
@@ -533,8 +537,9 @@
         <entry>gradSaved</entry>
         <entry>backpropSaved</entry>
         <entry>preMap</entry>
-        <entry>preCompute</entry>
         <entry>preComput</entry>
+        <entry>preCompute</entry>
+        <entry>commented</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+1</entry>
