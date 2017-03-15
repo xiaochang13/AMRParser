@@ -27,13 +27,13 @@
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1481134923338">
         <mark key="'" line="52" column="4" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRData.java" timestamp="1489550805589">
-        <mark key="'" line="68" column="24" />
-        <mark key="w" line="52" column="3" />
-        <mark key="[" line="60" column="48" />
-        <mark key="]" line="60" column="74" />
-        <mark key="." line="60" column="74" />
-        <mark key="^" line="60" column="74" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRData.java" timestamp="1489551190507">
+        <mark key="'" line="72" column="24" />
+        <mark key="w" line="55" column="3" />
+        <mark key="[" line="63" column="48" />
+        <mark key="]" line="63" column="82" />
+        <mark key="." line="64" column="24" />
+        <mark key="^" line="64" column="24" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/fragment_hypergraph.py" timestamp="1480516204906">
         <mark key="'" line="47" column="41" />
@@ -117,7 +117,7 @@
         <mark key="." line="51" column="3" />
         <mark key="^" line="51" column="3" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1489550812344">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1489551177837">
         <mark key="'" line="34" column="24" />
         <mark key="[" line="25" column="10" />
         <mark key="]" line="25" column="10" />
@@ -130,11 +130,11 @@
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/util/concurrent/MulticoreWrapper.java" timestamp="1481206496007">
         <mark key="'" line="129" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Example.java" timestamp="1489550825958">
-        <mark key="[" line="15" column="40" />
-        <mark key="]" line="15" column="66" />
-        <mark key="^" line="15" column="66" />
-        <mark key="." line="15" column="66" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Example.java" timestamp="1489551363732">
+        <mark key="[" line="37" column="11" />
+        <mark key="]" line="37" column="18" />
+        <mark key="^" line="37" column="18" />
+        <mark key="." line="37" column="18" />
       </file>
       <file name="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/io/PrintWriter.java" timestamp="1486584978128">
         <mark key="'" line="55" column="34" />
@@ -184,14 +184,14 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1489546221703">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1489551456788">
         <mark key="w" line="454" column="27" />
         <mark key="'" line="812" column="4" />
-        <mark key="[" line="920" column="6" />
-        <mark key="]" line="920" column="6" />
-        <mark key="^" line="173" column="4" />
+        <mark key="[" line="910" column="81" />
+        <mark key="]" line="911" column="19" />
+        <mark key="^" line="911" column="19" />
         <mark key="n" line="61" column="3" />
-        <mark key="." line="920" column="6" />
+        <mark key="." line="911" column="19" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1480518352122">
         <mark key="'" line="686" column="0" />
@@ -346,7 +346,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="118" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="113" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="1495" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1498" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -445,22 +444,21 @@
       <jump line="595" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="646" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="68" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRData.java" />
+      <jump line="72" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRData.java" />
       <jump line="34" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICsgMg==</text>
+        <text>binary</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICsgMg==</text>
+        <text>binary</text>
       </register>
       <register name="/" type="4">
         <text>feature</text>
       </register>
       <register name="0" type="4">
-        <text>if (label.equals(Config.NULL) || label.equals(Config.UNKNOWN)) {
-        continue;
-      }</text>
+        <text encoding="base64">cHVibGljIFNldDxQYWlyPEludGVnZXIsIEludGVnZXI+PiBnZXREZXBGZWF0cygpIHsKICAgIHJldHVybiBkZXBGZWF0czsKICB9</text>
       </register>
       <register name="1" type="8">
         <text encoding="base64">ICAKICAKICA=</text>
