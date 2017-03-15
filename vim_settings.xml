@@ -48,22 +48,22 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1489522250079">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1489543929616">
         <mark key="'" line="81" column="87" />
-        <mark key="[" line="122" column="47" />
-        <mark key="]" line="122" column="72" />
-        <mark key="." line="122" column="72" />
-        <mark key="^" line="122" column="72" />
+        <mark key="[" line="86" column="0" />
+        <mark key="]" line="86" column="0" />
+        <mark key="^" line="120" column="72" />
+        <mark key="." line="86" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489539757984">
-        <mark key="'" line="1359" column="10" />
-        <mark key="[" line="1599" column="9" />
-        <mark key="]" line="1600" column="8" />
-        <mark key="^" line="1600" column="8" />
-        <mark key="." line="1600" column="8" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489543649546">
+        <mark key="'" line="1515" column="28" />
+        <mark key="[" line="505" column="0" />
+        <mark key="]" line="505" column="0" />
+        <mark key="^" line="1594" column="8" />
+        <mark key="." line="505" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -145,12 +145,12 @@
         <mark key="." line="813" column="49" />
         <mark key="^" line="813" column="49" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1488919258584">
-        <mark key="'" line="172" column="4" />
-        <mark key="[" line="159" column="28" />
-        <mark key="]" line="159" column="28" />
-        <mark key="." line="159" column="28" />
-        <mark key="^" line="159" column="28" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1489543608172">
+        <mark key="'" line="174" column="4" />
+        <mark key="[" line="147" column="2" />
+        <mark key="]" line="147" column="3" />
+        <mark key="." line="147" column="3" />
+        <mark key="^" line="147" column="3" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" timestamp="1481134934464">
         <mark key="'" line="151" column="9" />
@@ -341,8 +341,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2347" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1488" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1067" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1030" column="43" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2382" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -441,16 +439,18 @@
       <jump line="796" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="798" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="812" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="1507" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1521" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
         <text>00</text>
       </register>
       <register name="/" type="4">
-        <text>initGra</text>
+        <text>genTrain</text>
       </register>
       <register name="0" type="4">
         <text>if (label.equals(Config.NULL) || label.equals(Config.UNKNOWN)) {
@@ -458,46 +458,41 @@
       }</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="2" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">LyoqCiAgICAgKiBCYWNrcHJvcGFnYXRlIGdyYWRpZW50IHZhbHVlcyBmcm9tIGdyYWRTYXZlZCBpbnRvIHRoZSBncmFkaWVudHMKICAgICAqIGZvciB0aGUgRSB2ZWN0b3JzIHRoYXQgZ2VuZXJhdGVkIHRoZW0uCiAgICAgKgogICAgICogQHBhcmFtIGZlYXR1cmVzU2VlbiBGZWF0dXJlIElEcyBvYnNlcnZlZCBkdXJpbmcgdHJhaW5pbmcgZm9yCiAgICAgKiAgICAgICAgICAgICAgICAgICAgIHdoaWNoIGdyYWRTYXZlZCB2YWx1ZXMgbmVlZCB0byBiZSBiYWNrcHJvcCdkCiAgICAgKiAgICAgICAgICAgICAgICAgICAgIGludG8gZ3JhZEUKICAgICAqLwogICAgLy9wcml2YXRlIHZvaWQgYmFja3Byb3BTYXZlZChTZXQ8SW50ZWdlcj4gZmVhdHVyZXNTZWVuKSB7CiAgICAvLyAgZm9yIChpbnQgeCA6IGZlYXR1cmVzU2VlbikgewogICAgLy8gICAgaW50IG1hcFggPSBwcmVNYXAuZ2V0KHgpOwogICAgLy8gICAgaW50IHRvayA9IHggLyBudW1Ub2tlbnM7CiAgICAvLyAgICBpbnQgb2Zmc2V0ID0gKHggJSBudW1Ub2tlbnMpICogY29uZmlnLmVtYmVkZGluZ1NpemU7CiAgICAvLyAgICBmb3IgKGludCBqID0gMDsgaiA8IGNvbmZpZy5oaWRkZW5TaXplOyArK2opIHsKICAgIC8vICAgICAgZG91YmxlIGRlbHRhID0gZ3JhZFNhdmVkW21hcFhdW2pdOwogICAgLy8gICAgICBmb3IgKGludCBrID0gMDsgayA8IGNvbmZpZy5lbWJlZGRpbmdTaXplOyArK2spIHsKICAgIC8vICAgICAgICBncmFkVzFbal1bb2Zmc2V0ICsga10gKz0gZGVsdGEgKiBFW3Rva11ba107CiAgICAvLyAgICAgICAgZ3JhZEVbdG9rXVtrXSArPSBkZWx0YSAqIFcxW2pdW29mZnNldCArIGtdOwogICAgLy8gICAgICB9CiAgICAvLyAgICB9CiAgICAvLyAgfQogICAgLy99</text>
+      <register name="2" type="4">
+        <text>//conIDTransitionIDs.put(&quot;POP&quot;, conceptIDTransitions.size());
+    //conceptIDTransitions.add(&quot;POP&quot;);</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="5" type="4">
-        <text>//if (devSet == null) {
-    //  conceptIDClassifier = new Classifier(config, trainSet.conceptIDExamples, conceptIDParam, preComputed, conceptIDDict, null);
-    //  arcConnectClassifier = new Classifier(config, trainSet.arcConnectExamples, arcConnectParam, preComputed, null, null);
-    //  pushIndexClassifier = new Classifier(config, trainSet.pushPopExamples, pushIndexParam, preComputed, null, null);
-    //}
-    //else {</text>
+        <text encoding="base64">Ly9Db3VudGVyPEludGVnZXI+IHB1c2hQb3BDb3VudCA9IG5ldyBJbnRDb3VudGVyPD4oKTsKICAgIC8vQ291bnRlcjxJbnRlZ2VyPiBjaWRDb3VudCA9IG5ldyBJbnRDb3VudGVyPD4oKTsKICAgIC8vQ291bnRlcjxJbnRlZ2VyPiBhcmNDQ291bnQgPSBuZXcgSW50Q291bnRlcjw+KCk7CiAgICAvL0NvdW50ZXI8SW50ZWdlcj4gYmluQ291bnQgPSBuZXcgSW50Q291bnRlcjw+KCk7CiAgICAvL0NvdW50ZXI8SW50ZWdlcj4gcHVzaENvdW50ID0gbmV3IEludENvdW50ZXI8PigpOw==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgKiBAcGFyYW0gcHJlQ29tcHV0ZWQK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgKiBAc2VlICNwcmVDb21wdXRlKGphdmEudXRpbC5TZXQpCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgCg==</text>
+      <register name="8" type="4">
+        <text encoding="base64">LyoqCiAgICAgKiBCYWNrcHJvcGFnYXRlIGdyYWRpZW50IHZhbHVlcyBmcm9tIGdyYWRTYXZlZCBpbnRvIHRoZSBncmFkaWVudHMKICAgICAqIGZvciB0aGUgRSB2ZWN0b3JzIHRoYXQgZ2VuZXJhdGVkIHRoZW0uCiAgICAgKgogICAgICogQHBhcmFtIGZlYXR1cmVzU2VlbiBGZWF0dXJlIElEcyBvYnNlcnZlZCBkdXJpbmcgdHJhaW5pbmcgZm9yCiAgICAgKiAgICAgICAgICAgICAgICAgICAgIHdoaWNoIGdyYWRTYXZlZCB2YWx1ZXMgbmVlZCB0byBiZSBiYWNrcHJvcCdkCiAgICAgKiAgICAgICAgICAgICAgICAgICAgIGludG8gZ3JhZEUKICAgICAqLwogICAgLy9wcml2YXRlIHZvaWQgYmFja3Byb3BTYXZlZChTZXQ8SW50ZWdlcj4gZmVhdHVyZXNTZWVuKSB7CiAgICAvLyAgZm9yIChpbnQgeCA6IGZlYXR1cmVzU2VlbikgewogICAgLy8gICAgaW50IG1hcFggPSBwcmVNYXAuZ2V0KHgpOwogICAgLy8gICAgaW50IHRvayA9IHggLyBudW1Ub2tlbnM7CiAgICAvLyAgICBpbnQgb2Zmc2V0ID0gKHggJSBudW1Ub2tlbnMpICogY29uZmlnLmVtYmVkZGluZ1NpemU7CiAgICAvLyAgICBmb3IgKGludCBqID0gMDsgaiA8IGNvbmZpZy5oaWRkZW5TaXplOyArK2opIHsKICAgIC8vICAgICAgZG91YmxlIGRlbHRhID0gZ3JhZFNhdmVkW21hcFhdW2pdOwogICAgLy8gICAgICBmb3IgKGludCBrID0gMDsgayA8IGNvbmZpZy5lbWJlZGRpbmdTaXplOyArK2spIHsKICAgIC8vICAgICAgICBncmFkVzFbal1bb2Zmc2V0ICsga10gKz0gZGVsdGEgKiBFW3Rva11ba107CiAgICAvLyAgICAgICAgZ3JhZEVbdG9rXVtrXSArPSBkZWx0YSAqIFcxW2pdW29mZnNldCArIGtdOwogICAgLy8gICAgICB9CiAgICAvLyAgICB9CiAgICAvLyAgfQogICAgLy99</text>
       </register>
-      <register name="9" type="4">
-        <text>* @param toPreCompute Set of feature IDs for which hidden layer
-   *                     activations should be precomputed</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>initGra</last-search>
+      <last-search>genTrain</last-search>
       <last-offset />
-      <last-pattern>initGra</last-pattern>
+      <last-pattern>genTrain</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -529,7 +524,6 @@
         <entry>arcTransitions</entry>
         <entry>conMap</entry>
         <entry>dict</entry>
-        <entry>genTrain</entry>
         <entry>gradSaved</entry>
         <entry>backpropSaved</entry>
         <entry>preMap</entry>
@@ -540,6 +534,7 @@
         <entry>gradW1</entry>
         <entry>takeAd</entry>
         <entry>initGra</entry>
+        <entry>genTrain</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+1</entry>
