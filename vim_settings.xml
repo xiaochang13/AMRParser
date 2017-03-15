@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489563507964">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489601236341">
         <mark key="'" line="635" column="26" />
         <mark key="[" line="1028" column="4" />
-        <mark key="]" line="1028" column="5" />
+        <mark key="]" line="1028" column="4" />
         <mark key="^" line="1028" column="5" />
-        <mark key="." line="1028" column="5" />
+        <mark key="." line="1028" column="4" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -452,10 +452,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>, arcDecisions</text>
+        <text>//</text>
       </register>
       <register name="-" type="4">
-        <text>, arcDecisions</text>
+        <text>//</text>
       </register>
       <register name="/" type="4">
         <text>conceptIDBi</text>
