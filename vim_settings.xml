@@ -59,8 +59,8 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489606966545">
-        <mark key="'" line="1967" column="24" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489614700042">
+        <mark key="'" line="1516" column="28" />
         <mark key="[" line="1565" column="26" />
         <mark key="]" line="1565" column="26" />
         <mark key="^" line="1010" column="5" />
@@ -349,10 +349,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1834" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1835" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1846" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1859" column="91" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1910" column="56" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1904" column="38" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="542" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -449,6 +445,10 @@
       <jump line="1563" column="54" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1519" column="49" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1967" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1158" column="70" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2377" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1451" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1516" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -458,7 +458,7 @@
         <text encoding="base64">ICYmIGl0ZXIgJSAxMCA9PSAw</text>
       </register>
       <register name="/" type="4">
-        <text>conceptIDBinary</text>
+        <text>genTrain</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">U2V0PEludGVnZXI+IGZlYXR1cmUgPSBuZXcgSGFzaFNldDw+KCk7CgogICAgUGFpcjxJbnRlZ2VyLCBJbnRlZ2VyPiBjb25jZXB0UCA9IGMubGFzdFA7CgogICAgaW50IHdvcmRJbmRleCA9IGNvbmNlcHRQLmZpcnN0OwogICAgaW50IGNvbmNlcHRJbmRleCA9IGNvbmNlcHRQLnNlY29uZDsKCiAgICBpbnQgY2FjaGVXb3JkSW5kZXggPSBjLmdldENhY2hlV29yZChjYWNoZUluZGV4KTsKICAgIGludCBjYWNoZVZlcnRleEluZGV4ID0gYy5nZXRDYWNoZVZlcnRleChjYWNoZUluZGV4KTsKCiAgICBpbnQgZGVwU2l6ZSA9IGRlcElEcy5zaXplKCk7CiAgICAvL0ZpcnN0IGRlcGVuZGVuY3kgY2hpbGRyZW4gb2YgZ2VuZXJhdGVkIHdvcmQKICAgIGludCBzdGFydF9pbmRleCA9IGRlcElEcy5nZXQoQ29uZmlnLlVOS05PV04pOwogICAgU2V0PFN0cmluZz4gZGVwQ2hpbGRyZW4gPSBjLmdldEFsbENoaWxkcmVuKHdvcmRJbmRleCk7CiAgICBmb3IgKFN0cmluZyBsOiBkZXBDaGlsZHJlbikKICAgICAgZmVhdHVyZS5hZGQoZ2V0RGVwSUQobCktc3RhcnRfaW5kZXgpOwoKICAgIC8vVGhlbiBkZXBlbmRlbmN5IGhlYWQKICAgIFNldDxTdHJpbmc+IGNhY2hlRGVwQ2hpbGRyZW4gPSBjLmdldEFsbENoaWxkcmVuKGNhY2hlV29yZEluZGV4KTsKICAgIGZvciAoU3RyaW5nIGw6IGNhY2hlRGVwQ2hpbGRyZW4pCiAgICAgIGZlYXR1cmUuYWRkKGdldERlcElEKGwpLXN0YXJ0X2luZGV4ICtkZXBTaXplKTsKCiAgICAvL1RoZW4gYWxsIHRoZSBhcmNzIHRoYXQgaGFzIGJlZW4gZ2VuZXJhdGVkIGZvciB0aGUgY3VycmVudCBub2RlCiAgICBMaXN0PFN0cmluZz4gYXJjQ2hpbGRyZW4gPSBjLmdyYXBoLmdldEFsbEFyY3MoY29uY2VwdEluZGV4KTsKICAgIHN0YXJ0X2luZGV4ID0gYXJjSURzLmdldChDb25maWcuVU5LTk9XTik7CiAgICBpbnQgYXJjU2l6ZSA9IGFyY0lEcy5zaXplKCk7CiAgICBpZiAoYXJjQ2hpbGRyZW4gIT0gbnVsbCkKICAgIGZvciAoU3RyaW5nIGw6IGFyY0NoaWxkcmVuKQogICAgICBmZWF0dXJlLmFkZChnZXRBcmNJRChsKS1zdGFydF9pbmRleCtkZXBTaXplKjIpOwoKICAgIExpc3Q8U3RyaW5nPiBjYWNoZUFyY0NoaWxkcmVuID0gYy5ncmFwaC5nZXRBbGxJbmNvbWluZ0FyY3MoY2FjaGVWZXJ0ZXhJbmRleCk7CiAgICBpZiAoY2FjaGVBcmNDaGlsZHJlbiAhPSBudWxsKQogICAgICBmb3IgKFN0cmluZyBsOiBjYWNoZUFyY0NoaWxkcmVuKQogICAgICAgIGZlYXR1cmUuYWRkKGdldEFyY0lEKGwpLXN0YXJ0X2luZGV4K2RlcFNpemUqMithcmNTaXplKTsKICAgIHJldHVybiBmZWF0dXJlOw==</text>
@@ -495,9 +495,9 @@
       </register>
     </registers>
     <search>
-      <last-search>conceptIDBinary</last-search>
+      <last-search>genTrain</last-search>
       <last-offset />
-      <last-pattern>conceptIDBinary</last-pattern>
+      <last-pattern>genTrain</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -538,7 +538,6 @@
         <entry>gradW1</entry>
         <entry>takeAd</entry>
         <entry>initGra</entry>
-        <entry>genTrain</entry>
         <entry>classifier</entry>
         <entry>inputDim</entry>
         <entry>feature</entry>
@@ -562,10 +561,11 @@
         <entry>getCacheVertex</entry>
         <entry>conceptIDBi</entry>
         <entry>conceptIDBin</entry>
-        <entry>train(</entry>
         <entry>comment</entry>
         <entry>conceptID</entry>
         <entry>conceptIDBinary</entry>
+        <entry>train(</entry>
+        <entry>genTrain</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+1</entry>
