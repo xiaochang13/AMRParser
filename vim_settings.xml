@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489603516243">
-        <mark key="'" line="719" column="0" />
-        <mark key="[" line="1010" column="4" />
-        <mark key="]" line="1010" column="4" />
-        <mark key="^" line="190" column="4" />
-        <mark key="." line="1010" column="4" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489606966545">
+        <mark key="'" line="1967" column="24" />
+        <mark key="[" line="1565" column="26" />
+        <mark key="]" line="1565" column="26" />
+        <mark key="^" line="1010" column="5" />
+        <mark key="." line="1565" column="26" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -349,23 +349,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="526" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="913" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="962" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1024" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1023" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1010" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="957" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="66" column="45" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="963" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1011" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1014" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="967" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="199" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="273" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="67" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
-      <jump line="1069" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1524" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1834" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1835" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1846" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -444,21 +427,38 @@
       <jump line="180" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="206" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="213" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="635" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="189" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="190" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="501" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="719" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="635" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="190" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="738" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1010" column="43" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1047" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1049" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1051" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1118" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1119" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1120" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1122" column="53" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1466" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1475" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1478" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1482" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1549" column="47" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1563" column="54" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1519" column="49" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1967" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>//</text>
+        <text encoding="base64">ICYmIGl0ZXIgJSAxMCA9PSAw</text>
       </register>
       <register name="-" type="4">
-        <text>//</text>
+        <text encoding="base64">ICYmIGl0ZXIgJSAxMCA9PSAw</text>
       </register>
       <register name="/" type="4">
-        <text>comment</text>
+        <text>conceptIDBinary</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">U2V0PEludGVnZXI+IGZlYXR1cmUgPSBuZXcgSGFzaFNldDw+KCk7CgogICAgUGFpcjxJbnRlZ2VyLCBJbnRlZ2VyPiBjb25jZXB0UCA9IGMubGFzdFA7CgogICAgaW50IHdvcmRJbmRleCA9IGNvbmNlcHRQLmZpcnN0OwogICAgaW50IGNvbmNlcHRJbmRleCA9IGNvbmNlcHRQLnNlY29uZDsKCiAgICBpbnQgY2FjaGVXb3JkSW5kZXggPSBjLmdldENhY2hlV29yZChjYWNoZUluZGV4KTsKICAgIGludCBjYWNoZVZlcnRleEluZGV4ID0gYy5nZXRDYWNoZVZlcnRleChjYWNoZUluZGV4KTsKCiAgICBpbnQgZGVwU2l6ZSA9IGRlcElEcy5zaXplKCk7CiAgICAvL0ZpcnN0IGRlcGVuZGVuY3kgY2hpbGRyZW4gb2YgZ2VuZXJhdGVkIHdvcmQKICAgIGludCBzdGFydF9pbmRleCA9IGRlcElEcy5nZXQoQ29uZmlnLlVOS05PV04pOwogICAgU2V0PFN0cmluZz4gZGVwQ2hpbGRyZW4gPSBjLmdldEFsbENoaWxkcmVuKHdvcmRJbmRleCk7CiAgICBmb3IgKFN0cmluZyBsOiBkZXBDaGlsZHJlbikKICAgICAgZmVhdHVyZS5hZGQoZ2V0RGVwSUQobCktc3RhcnRfaW5kZXgpOwoKICAgIC8vVGhlbiBkZXBlbmRlbmN5IGhlYWQKICAgIFNldDxTdHJpbmc+IGNhY2hlRGVwQ2hpbGRyZW4gPSBjLmdldEFsbENoaWxkcmVuKGNhY2hlV29yZEluZGV4KTsKICAgIGZvciAoU3RyaW5nIGw6IGNhY2hlRGVwQ2hpbGRyZW4pCiAgICAgIGZlYXR1cmUuYWRkKGdldERlcElEKGwpLXN0YXJ0X2luZGV4ICtkZXBTaXplKTsKCiAgICAvL1RoZW4gYWxsIHRoZSBhcmNzIHRoYXQgaGFzIGJlZW4gZ2VuZXJhdGVkIGZvciB0aGUgY3VycmVudCBub2RlCiAgICBMaXN0PFN0cmluZz4gYXJjQ2hpbGRyZW4gPSBjLmdyYXBoLmdldEFsbEFyY3MoY29uY2VwdEluZGV4KTsKICAgIHN0YXJ0X2luZGV4ID0gYXJjSURzLmdldChDb25maWcuVU5LTk9XTik7CiAgICBpbnQgYXJjU2l6ZSA9IGFyY0lEcy5zaXplKCk7CiAgICBpZiAoYXJjQ2hpbGRyZW4gIT0gbnVsbCkKICAgIGZvciAoU3RyaW5nIGw6IGFyY0NoaWxkcmVuKQogICAgICBmZWF0dXJlLmFkZChnZXRBcmNJRChsKS1zdGFydF9pbmRleCtkZXBTaXplKjIpOwoKICAgIExpc3Q8U3RyaW5nPiBjYWNoZUFyY0NoaWxkcmVuID0gYy5ncmFwaC5nZXRBbGxJbmNvbWluZ0FyY3MoY2FjaGVWZXJ0ZXhJbmRleCk7CiAgICBpZiAoY2FjaGVBcmNDaGlsZHJlbiAhPSBudWxsKQogICAgICBmb3IgKFN0cmluZyBsOiBjYWNoZUFyY0NoaWxkcmVuKQogICAgICAgIGZlYXR1cmUuYWRkKGdldEFyY0lEKGwpLXN0YXJ0X2luZGV4K2RlcFNpemUqMithcmNTaXplKTsKICAgIHJldHVybiBmZWF0dXJlOw==</text>
@@ -495,9 +495,9 @@
       </register>
     </registers>
     <search>
-      <last-search>comment</last-search>
+      <last-search>conceptIDBinary</last-search>
       <last-offset />
-      <last-pattern>comment</last-pattern>
+      <last-pattern>conceptIDBinary</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -560,11 +560,12 @@
         <entry>no way</entry>
         <entry>Binary</entry>
         <entry>getCacheVertex</entry>
-        <entry>conceptID</entry>
         <entry>conceptIDBi</entry>
         <entry>conceptIDBin</entry>
         <entry>train(</entry>
         <entry>comment</entry>
+        <entry>conceptID</entry>
+        <entry>conceptIDBinary</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+1</entry>
