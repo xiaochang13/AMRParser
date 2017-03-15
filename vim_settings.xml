@@ -27,13 +27,13 @@
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1481134923338">
         <mark key="'" line="52" column="4" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRData.java" timestamp="1489551190507">
-        <mark key="'" line="72" column="24" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRData.java" timestamp="1489552764128">
+        <mark key="'" line="76" column="30" />
         <mark key="w" line="55" column="3" />
-        <mark key="[" line="63" column="48" />
-        <mark key="]" line="63" column="82" />
-        <mark key="." line="64" column="24" />
-        <mark key="^" line="64" column="24" />
+        <mark key="[" line="88" column="42" />
+        <mark key="]" line="88" column="61" />
+        <mark key="." line="88" column="61" />
+        <mark key="^" line="88" column="61" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/fragment_hypergraph.py" timestamp="1480516204906">
         <mark key="'" line="47" column="41" />
@@ -117,12 +117,12 @@
         <mark key="." line="51" column="3" />
         <mark key="^" line="51" column="3" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1489551177837">
-        <mark key="'" line="34" column="24" />
-        <mark key="[" line="25" column="10" />
-        <mark key="]" line="25" column="10" />
-        <mark key="^" line="28" column="5" />
-        <mark key="." line="25" column="10" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1489552767777">
+        <mark key="'" line="38" column="24" />
+        <mark key="[" line="38" column="40" />
+        <mark key="]" line="38" column="55" />
+        <mark key="^" line="38" column="55" />
+        <mark key="." line="38" column="55" />
       </file>
       <file name="$USER_HOME$/Library/Python/2.7/lib/python/site-packages/tensorflow/python/client/session.py" timestamp="1478042329266">
         <mark key="'" line="338" column="20" />
@@ -130,11 +130,11 @@
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/util/concurrent/MulticoreWrapper.java" timestamp="1481206496007">
         <mark key="'" line="129" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Example.java" timestamp="1489551363732">
-        <mark key="[" line="37" column="11" />
-        <mark key="]" line="37" column="18" />
-        <mark key="^" line="37" column="18" />
-        <mark key="." line="37" column="18" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Example.java" timestamp="1489552881997">
+        <mark key="[" line="32" column="40" />
+        <mark key="]" line="32" column="95" />
+        <mark key="^" line="32" column="95" />
+        <mark key="." line="32" column="95" />
       </file>
       <file name="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/io/PrintWriter.java" timestamp="1486584978128">
         <mark key="'" line="55" column="34" />
@@ -184,14 +184,14 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1489551456788">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1489552657952">
         <mark key="w" line="454" column="27" />
         <mark key="'" line="812" column="4" />
-        <mark key="[" line="910" column="81" />
-        <mark key="]" line="911" column="19" />
-        <mark key="^" line="911" column="19" />
+        <mark key="[" line="927" column="19" />
+        <mark key="]" line="927" column="29" />
+        <mark key="^" line="927" column="29" />
         <mark key="n" line="61" column="3" />
-        <mark key="." line="911" column="19" />
+        <mark key="." line="927" column="29" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1480518352122">
         <mark key="'" line="686" column="0" />
@@ -346,10 +346,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="113" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="1495" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1498" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1536" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1888" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1891" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="726" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -444,49 +440,53 @@
       <jump line="595" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="646" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="68" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRData.java" />
-      <jump line="72" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRData.java" />
+      <jump line="72" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRData.java" />
       <jump line="34" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" />
+      <jump line="20" column="39" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Example.java" />
+      <jump line="22" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Example.java" />
+      <jump line="76" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRData.java" />
+      <jump line="38" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>binary</text>
+        <text encoding="base64">Pg==</text>
       </register>
       <register name="-" type="4">
-        <text>binary</text>
+        <text encoding="base64">Pg==</text>
       </register>
       <register name="/" type="4">
         <text>feature</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHVibGljIFNldDxQYWlyPEludGVnZXIsIEludGVnZXI+PiBnZXREZXBGZWF0cygpIHsKICAgIHJldHVybiBkZXBGZWF0czsKICB9</text>
+        <text encoding="base64">Zm9yIChpbnQgaSA6IGxzKQogICAgICAgIGZvciAoaW50IGsgPSAwOyBrIDwgY29uZmlnLmVtYmVkZGluZ1NpemU7ICsraykKICAgICAgICAgIGhpZGRlbltpXSArPSBXMVtpXVtvZmZzZXQgKyBrXSAqIEVbdG9rXVtrXTs=</text>
       </register>
-      <register name="1" type="8">
+      <register name="1" type="4">
+        <text encoding="base64">LCBTZXQ8UGFpcjxJbnRlZ2VyLCBJbnRlZ2VyPj4KICAgICAgICAgIGFGZWF0cw==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBmb3IgKGludCBrID0gMDsgayA8IGNvbmZpZy5lbWJlZGRpbmdTaXplOyArK2spCg==</text>
+      </register>
+      <register name="3" type="8">
         <text encoding="base64">ICAKICAKICA=</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text encoding="base64">Ly9mb3IgKGludCBqID0gMDsgaiA8IHBwRmVhdHVyZXMuc2l6ZSgpOyBqKyspIHsKICAgICAgICAgICAgLy8gIGludCBmZWF0SW5kZXggPSBwcEZlYXR1cmVzLmdldChqKSAqIHBwRmVhdHVyZXMuc2l6ZSgpICsgajsKICAgICAgICAgICAgLy8gIHB1c2hQb3BDb3VudC5pbmNyZW1lbnRDb3VudChmZWF0SW5kZXgpOwogICAgICAgICAgICAvL30=</text>
-      </register>
-      <register name="3" type="4">
-        <text encoding="base64">Ly9mb3IgKGludCBqID0gMDsgaiA8IHBwRmVhdHVyZXMuc2l6ZSgpOyBqKyspIHsKICAgICAgICAgICAgLy8gIGludCBmZWF0SW5kZXggPSBwcEZlYXR1cmVzLmdldChqKSAqIHBwRmVhdHVyZXMuc2l6ZSgpICsgajsKICAgICAgICAgICAgLy8gIHB1c2hQb3BDb3VudC5pbmNyZW1lbnRDb3VudChmZWF0SW5kZXgpOwogICAgICAgICAgICAvL30=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">Ly9mb3IgKGludCBqID0gMDsgaiA8IGZlYXR1cmUuc2l6ZSgpOyBqKyspIHsKICAgICAgICAgICAgLy8gIGludCBmZWF0SW5kZXggPSBmZWF0dXJlLmdldChqKSAqIGZlYXR1cmUuc2l6ZSgpICsgajsKICAgICAgICAgICAgLy8gIHB1c2hQb3BDb3VudC5pbmNyZW1lbnRDb3VudChmZWF0SW5kZXgpOwogICAgICAgICAgICAvL30=</text>
+        <text encoding="base64">Ly9mb3IgKGludCBqID0gMDsgaiA8IHBwRmVhdHVyZXMuc2l6ZSgpOyBqKyspIHsKICAgICAgICAgICAgLy8gIGludCBmZWF0SW5kZXggPSBwcEZlYXR1cmVzLmdldChqKSAqIHBwRmVhdHVyZXMuc2l6ZSgpICsgajsKICAgICAgICAgICAgLy8gIHB1c2hQb3BDb3VudC5pbmNyZW1lbnRDb3VudChmZWF0SW5kZXgpOwogICAgICAgICAgICAvL30=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="7" type="4">
-        <text>//conIDTransitionIDs.put(&quot;POP&quot;, conceptIDTransitions.size());
-    //conceptIDTransitions.add(&quot;POP&quot;);</text>
+        <text encoding="base64">Ly9mb3IgKGludCBqID0gMDsgaiA8IGZlYXR1cmUuc2l6ZSgpOyBqKyspIHsKICAgICAgICAgICAgLy8gIGludCBmZWF0SW5kZXggPSBmZWF0dXJlLmdldChqKSAqIGZlYXR1cmUuc2l6ZSgpICsgajsKICAgICAgICAgICAgLy8gIHB1c2hQb3BDb3VudC5pbmNyZW1lbnRDb3VudChmZWF0SW5kZXgpOwogICAgICAgICAgICAvL30=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="2">
         <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="9" type="4">
+        <text>//conIDTransitionIDs.put(&quot;POP&quot;, conceptIDTransitions.size());
+    //conceptIDTransitions.add(&quot;POP&quot;);</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
