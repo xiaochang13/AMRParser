@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489636904866">
-        <mark key="'" line="1576" column="6" />
-        <mark key="[" line="1577" column="24" />
-        <mark key="]" line="1577" column="34" />
-        <mark key="." line="1577" column="34" />
-        <mark key="^" line="1577" column="34" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489637896761">
+        <mark key="'" line="2395" column="283" />
+        <mark key="[" line="1043" column="60" />
+        <mark key="]" line="1044" column="59" />
+        <mark key="." line="1044" column="59" />
+        <mark key="^" line="1044" column="59" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -349,12 +349,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="422" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="461" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="463" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1074" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1085" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1088" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1942" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1945" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1083" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -449,24 +443,33 @@
       <jump line="1559" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="118" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="1576" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1545" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="66" column="47" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="69" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="1043" column="48" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1044" column="48" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2395" column="283" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>p</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
         <text>p</text>
       </register>
       <register name="/" type="4">
-        <text>train(</text>
+        <text>wordCutOff</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">Zm9yIChpbnQgd29yZElEIDogd29yZENvbmNlcHRDb3VudHMua2V5U2V0KCkpIHsgLy9Xcml0ZSBkb3duIGFsbCB0aGUgYW1iaWd1b3VzIGNhc2VzCiAgICAgICAgU3RyaW5nIGN1cnJXb3JkID0ga25vd25Xb3Jkcy5nZXQod29yZElEKTsKICAgICAgICBNYXA8U3RyaW5nLCBJbnRlZ2VyPiBjb25jZXB0Q291bnRzID0gd29yZENvbmNlcHRDb3VudHMuZ2V0KHdvcmRJRCk7CiAgICAgICAgaWYgKGNvbmNlcHRDb3VudHMuc2l6ZSgpIDwgMikgewogICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIFN0cmluZyByZXN1bHQgPSAiIjsKICAgICAgICBmb3IgKFN0cmluZyBjb25jZXB0IDogY29uY2VwdENvdW50cy5rZXlTZXQoKSkgewogICAgICAgICAgcmVzdWx0ICs9IChjb25jZXB0ICsgIjoiICsgY29uY2VwdENvdW50cy5nZXQoY29uY2VwdCkgKyAiICIpOwogICAgICAgIH0KICAgICAgICBvdXRwdXRXcml0ZXIud3JpdGUoY3VycldvcmQgKyAiICMjIyMgIisgcmVzdWx0ICsgIlxuIik7CiAgICAgIH0KICAgICAgb3V0cHV0V3JpdGVyLmNsb3NlKCk7</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgICBTdHJpbmcgY3VycldvcmQgPSBrbm93bldvcmRzLmdldCh3b3JkSUQpOwo=</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>for (String lemma : lemMLEConceptID.keySet()) {
         //String currWord = knownWords.get(wordID);
         String concept = lemMLEConceptID.get(lemma);
@@ -474,17 +477,14 @@
       }
       outputWriter.close();</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgY29uY2VwdCA9IG1sZUNvbmNlcHRJRC5nZXQod29yZElEKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgY29uY2VwdCA9IG1sZUNvbmNlcHRJRC5nZXQod29yZElEKTsK</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
@@ -493,16 +493,16 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>train(</last-search>
+      <last-search>wordCutOff</last-search>
       <last-offset />
-      <last-pattern>train(</last-pattern>
+      <last-pattern>wordCutOff</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -571,6 +571,7 @@
         <entry>conceptIDBinary</entry>
         <entry>genTrain</entry>
         <entry>train(</entry>
+        <entry>wordCutOff</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+1</entry>
