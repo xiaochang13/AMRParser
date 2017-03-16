@@ -59,12 +59,11 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489644540769">
-        <mark key="'" line="268" column="20" />
-        <mark key="[" line="268" column="47" />
-        <mark key="]" line="268" column="54" />
-        <mark key="." line="268" column="54" />
-        <mark key="^" line="268" column="54" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489646366118">
+        <mark key="'" line="376" column="28" />
+        <mark key="[" line="364" column="0" />
+        <mark key="]" line="364" column="0" />
+        <mark key="." line="364" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -149,12 +148,12 @@
         <mark key="." line="813" column="49" />
         <mark key="^" line="813" column="49" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1489644595200">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1489646378284">
         <mark key="'" line="73" column="4" />
-        <mark key="[" line="146" column="38" />
-        <mark key="]" line="146" column="38" />
-        <mark key="." line="146" column="38" />
-        <mark key="^" line="142" column="42" />
+        <mark key="[" line="144" column="46" />
+        <mark key="]" line="144" column="47" />
+        <mark key="." line="144" column="47" />
+        <mark key="^" line="146" column="39" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" timestamp="1481134934464">
         <mark key="'" line="151" column="9" />
@@ -318,8 +317,8 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1489644509507">
-        <mark key="'" line="335" column="26" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1489645446134">
+        <mark key="'" line="278" column="16" />
         <mark key="[" line="336" column="36" />
         <mark key="]" line="336" column="37" />
         <mark key="." line="336" column="37" />
@@ -349,19 +348,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1563" column="54" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1519" column="49" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1967" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1158" column="70" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2377" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1451" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1516" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2345" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1422" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2341" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="530" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="183" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
-      <jump line="170" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="1428" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="197" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="1457" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -437,66 +423,101 @@
       <jump line="274" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="152" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="280" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="278" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="63" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
       <jump line="155" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="275" column="32" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="427" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="305" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="540" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="302" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="528" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="268" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="335" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="418" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="270" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="68" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
+      <jump line="236" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="278" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="63" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
+      <jump line="231" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="493" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="302" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="540" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="348" column="45" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="49" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
+      <jump line="349" column="51" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="56" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" />
+      <jump line="372" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="151" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="377" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="539" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>1</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIC8vaW50IGNhY2hlV29yZEluZGV4ID0gYy5nZXRDYWNoZVdvcmQoY2FjaGVJbmRleCk7Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>1</text>
+        <text>word and POS tag features from a context window of 2</text>
       </register>
       <register name="/" type="4">
         <text>Cache</text>
       </register>
       <register name="0" type="4">
-        <text>String word = getWord(index);
-        feats.add(getID(word, idMap1));</text>
+        <text>feature.add(getWordID(c.getWord(wordIndex)));</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgU3RyaW5nW10gbGVtbWFTZXEgPSBzZW50cy5nZXQoaSk7Cg==</text>
+        <text encoding="base64">ICAgIC8vaW50IGNhY2hlV29yZEluZGV4ID0gYy5nZXRDYWNoZVdvcmQoY2FjaGVJbmRleCk7Cg==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>//ret.initExample(1);
-    //ret.initExample(Config.pushIndexTokens, numPushIndexTransitions, 2);
-    //ret.initExample(Config.binTokens, numBinary, 3);
-    //ret.initExample(Config.pushPopTokens, numBinary, 4);</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>//index = c.getLeftChild(cacheWordIndex, 2);
+    //feature.add(getWordID(c.getWord(index)));
+    //feature.add(getPosID(c.getPOS(index)));
+    //feature.add(getDepID(c.getLabel(index)));
+
+    //index = c.getRightChild(cacheWordIndex, 2);
+    //feature.add(getWordID(c.getWord(index)));
+    //feature.add(getPosID(c.getPOS(index)));
+    //feature.add(getDepID(c.getLabel(index)));</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="4">
-        <text>//int numConceptIDTransitions = system.numTransitions(0);
-    //int numArcConnectTransitions = system.numTransitions(1);
-    //int numPushIndexTransitions = system.numTransitions(2);
-    //int numBinary = 2;</text>
+        <text>//c.getBufferFeats(0, wordIDs, feature, true);
+    //c.getBufferFeats(0, posIDs, feature, false);;</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="8" type="4">
-        <text>//All the possible transitions should be added orderly
-    //First the concept identification transitions or POP</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="9" type="4">
+        <text>//Dependency features
+    //First: general features for predicting labels; Second: cache index features for making specific decisions
+    int index = c.getLeftChild(wordIndex);
+    feature.add(getWordID(c.getWord(index)));
+    feature.add(getPosID(c.getPOS(index)));   //Here we have assume the input feature order does not matter
+    feature.add(getDepID(c.getLabel(index)));
+
+    index = c.getRightChild(wordIndex);
+    feature.add(getWordID(c.getWord(index)));
+    feature.add(getPosID(c.getPOS(index)));
+    feature.add(getDepID(c.getLabel(index)));
+
+
+    index = c.getLeftChild(cacheWordIndex);
+    feature.add(getWordID(c.getWord(index)));
+    feature.add(getPosID(c.getPOS(index)));   //Here we have assume the input feature order does not matter
+    feature.add(getDepID(c.getLabel(index)));
+
+    index = c.getRightChild(cacheWordIndex);
+    feature.add(getWordID(c.getWord(index)));
+    feature.add(getPosID(c.getPOS(index)));
+    feature.add(getDepID(c.getLabel(index)));</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
