@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1489653390903">
-        <mark key="'" line="2357" column="155" />
-        <mark key="[" line="1015" column="4" />
-        <mark key="]" line="1015" column="5" />
-        <mark key="." line="1015" column="5" />
-        <mark key="^" line="1015" column="5" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490641743347">
+        <mark key="'" line="490" column="13" />
+        <mark key="[" line="552" column="0" />
+        <mark key="]" line="1017" column="5" />
+        <mark key="." line="1017" column="5" />
+        <mark key="^" line="1017" column="5" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -149,12 +149,12 @@
         <mark key="." line="813" column="49" />
         <mark key="^" line="813" column="49" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1489651125024">
-        <mark key="'" line="34" column="13" />
-        <mark key="[" line="247" column="43" />
-        <mark key="]" line="247" column="47" />
-        <mark key="." line="247" column="47" />
-        <mark key="^" line="247" column="47" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1490641612281">
+        <mark key="'" line="120" column="16" />
+        <mark key="[" line="129" column="34" />
+        <mark key="]" line="130" column="34" />
+        <mark key="." line="130" column="34" />
+        <mark key="^" line="130" column="34" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" timestamp="1481134934464">
         <mark key="'" line="151" column="9" />
@@ -187,9 +187,9 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1490639383869">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1490641027983">
         <mark key="w" line="451" column="27" />
-        <mark key="'" line="308" column="50" />
+        <mark key="'" line="484" column="4" />
         <mark key="[" line="829" column="0" />
         <mark key="]" line="829" column="0" />
         <mark key="^" line="848" column="38" />
@@ -349,13 +349,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="354" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="210" column="7" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="370" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="368" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="273" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="421" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="274" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="152" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="280" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="155" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -449,30 +442,40 @@
       <jump line="2357" column="155" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="140" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="308" column="50" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="484" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="137" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="252" column="64" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="304" column="45" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="120" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="362" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="490" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>numPreComputed</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICBwdWJsaWMgZG91YmxlIHB1c2hQb3BBZGEgPSAwLjA1Owo=</text>
       </register>
       <register name="-" type="4">
         <text>numPreComputed</text>
       </register>
       <register name="/" type="4">
-        <text>process</text>
+        <text>sampleRate</text>
       </register>
       <register name="0" type="4">
         <text>numPreComputed = PropertiesUtils.getInt(props, &quot;numPreComputed&quot;, numPreComputed);</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIC8vaW50IGNhY2hlV29yZEluZGV4ID0gYy5nZXRDYWNoZVdvcmQoY2FjaGVJbmRleCk7Cg==</text>
+        <text encoding="base64">ICBwdWJsaWMgZG91YmxlIHB1c2hQb3BBZGEgPSAwLjA1Owo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vaW50IGNhY2hlV29yZEluZGV4ID0gYy5nZXRDYWNoZVdvcmQoY2FjaGVJbmRleCk7Cg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>//index = c.getLeftChild(cacheWordIndex, 2);
     //feature.add(getWordID(c.getWord(index)));
     //feature.add(getPosID(c.getPOS(index)));
@@ -483,51 +486,27 @@
     //feature.add(getPosID(c.getPOS(index)));
     //feature.add(getDepID(c.getLabel(index)));</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>//c.getBufferFeats(0, wordIDs, feature, true);
     //c.getBufferFeats(0, posIDs, feature, false);;</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="9" type="4">
-        <text>//Dependency features
-    //First: general features for predicting labels; Second: cache index features for making specific decisions
-    int index = c.getLeftChild(wordIndex);
-    feature.add(getWordID(c.getWord(index)));
-    feature.add(getPosID(c.getPOS(index)));   //Here we have assume the input feature order does not matter
-    feature.add(getDepID(c.getLabel(index)));
-
-    index = c.getRightChild(wordIndex);
-    feature.add(getWordID(c.getWord(index)));
-    feature.add(getPosID(c.getPOS(index)));
-    feature.add(getDepID(c.getLabel(index)));
-
-
-    index = c.getLeftChild(cacheWordIndex);
-    feature.add(getWordID(c.getWord(index)));
-    feature.add(getPosID(c.getPOS(index)));   //Here we have assume the input feature order does not matter
-    feature.add(getDepID(c.getLabel(index)));
-
-    index = c.getRightChild(cacheWordIndex);
-    feature.add(getWordID(c.getWord(index)));
-    feature.add(getPosID(c.getPOS(index)));
-    feature.add(getDepID(c.getLabel(index)));</text>
-      </register>
       <register name=":" type="4">
-        <text>w!</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>process</last-search>
+      <last-search>sampleRate</last-search>
       <last-offset />
-      <last-pattern>process</last-pattern>
+      <last-pattern>sampleRate</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -569,7 +548,6 @@
         <entry>initGra</entry>
         <entry>classifier</entry>
         <entry>inputDim</entry>
-        <entry>feature</entry>
         <entry>W1</entry>
         <entry>currOffset</entry>
         <entry>conceptIDfeatures</entry>
@@ -607,10 +585,11 @@
         <entry>ratio</entry>
         <entry>genTrain</entry>
         <entry>comm</entry>
-        <entry>sampleRate</entry>
         <entry>CACHE</entry>
         <entry>Ratio</entry>
         <entry>process</entry>
+        <entry>feature</entry>
+        <entry>sampleRate</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+1</entry>
@@ -631,8 +610,8 @@
         <entry>w/preCompute</entry>
         <entry>set noic</entry>
         <entry>1</entry>
-        <entry>w</entry>
         <entry>w!</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
