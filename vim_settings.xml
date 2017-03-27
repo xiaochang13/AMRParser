@@ -187,9 +187,9 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1489648781539">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1490639383869">
         <mark key="w" line="451" column="27" />
-        <mark key="'" line="837" column="4" />
+        <mark key="'" line="308" column="50" />
         <mark key="[" line="829" column="0" />
         <mark key="]" line="829" column="0" />
         <mark key="^" line="848" column="38" />
@@ -349,8 +349,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="602" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="207" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="354" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="210" column="7" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="370" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
@@ -449,6 +447,8 @@
       <jump line="1963" column="39" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2354" column="124" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2357" column="155" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="140" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="308" column="50" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -458,7 +458,7 @@
         <text>numPreComputed</text>
       </register>
       <register name="/" type="4">
-        <text>Ratio</text>
+        <text>process</text>
       </register>
       <register name="0" type="4">
         <text>numPreComputed = PropertiesUtils.getInt(props, &quot;numPreComputed&quot;, numPreComputed);</text>
@@ -525,9 +525,9 @@
       </register>
     </registers>
     <search>
-      <last-search>Ratio</last-search>
+      <last-search>process</last-search>
       <last-offset />
-      <last-pattern>Ratio</last-pattern>
+      <last-pattern>process</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -572,7 +572,6 @@
         <entry>feature</entry>
         <entry>W1</entry>
         <entry>currOffset</entry>
-        <entry>process</entry>
         <entry>conceptIDfeatures</entry>
         <entry>depIDS</entry>
         <entry>knownArcs</entry>
@@ -611,6 +610,7 @@
         <entry>sampleRate</entry>
         <entry>CACHE</entry>
         <entry>Ratio</entry>
+        <entry>process</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+1</entry>
