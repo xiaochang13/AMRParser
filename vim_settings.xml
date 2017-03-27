@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490649854037">
-        <mark key="'" line="219" column="6" />
-        <mark key="[" line="262" column="82" />
-        <mark key="]" line="263" column="49" />
-        <mark key="." line="263" column="49" />
-        <mark key="^" line="263" column="49" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490651017955">
+        <mark key="'" line="220" column="7" />
+        <mark key="[" line="217" column="4" />
+        <mark key="]" line="217" column="5" />
+        <mark key="." line="217" column="5" />
+        <mark key="^" line="217" column="5" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -149,11 +149,11 @@
         <mark key="." line="813" column="49" />
         <mark key="^" line="813" column="49" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1490644560294">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1490650903360">
         <mark key="'" line="121" column="33" />
-        <mark key="[" line="261" column="51" />
-        <mark key="]" line="261" column="61" />
-        <mark key="." line="261" column="51" />
+        <mark key="[" line="153" column="42" />
+        <mark key="]" line="153" column="43" />
+        <mark key="." line="153" column="43" />
         <mark key="^" line="261" column="13" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" timestamp="1481134934464">
@@ -318,12 +318,12 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1490650470650">
-        <mark key="'" line="414" column="18" />
-        <mark key="[" line="422" column="16" />
-        <mark key="]" line="422" column="42" />
-        <mark key="." line="422" column="42" />
-        <mark key="^" line="422" column="42" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1490651228742">
+        <mark key="'" line="415" column="18" />
+        <mark key="[" line="401" column="0" />
+        <mark key="]" line="402" column="57" />
+        <mark key="." line="402" column="57" />
+        <mark key="^" line="402" column="57" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
         <mark key="'" line="91" column="8" />
@@ -349,7 +349,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1497" column="45" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="231" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1595" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1772" column="50" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -449,13 +448,14 @@
       <jump line="219" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="414" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="310" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="220" column="7" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>//</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>//</text>
       </register>
       <register name="/" type="4">
         <text>RightMost</text>
@@ -491,7 +491,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>1</text>
       </register>
     </registers>
     <search>
@@ -604,13 +604,13 @@
         <entry>vs AMRParser.java</entry>
         <entry>w/preCompute</entry>
         <entry>set noic</entry>
-        <entry>1</entry>
         <entry>vs</entry>
         <entry>new AMRConfiguration</entry>
         <entry>new AMRConfiguration.java</entry>
         <entry>vs AMRConfiguration.java</entry>
-        <entry>w!</entry>
         <entry>w</entry>
+        <entry>w!</entry>
+        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
