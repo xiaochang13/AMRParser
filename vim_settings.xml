@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490641743347">
-        <mark key="'" line="490" column="13" />
-        <mark key="[" line="552" column="0" />
-        <mark key="]" line="1017" column="5" />
-        <mark key="." line="1017" column="5" />
-        <mark key="^" line="1017" column="5" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490645113928">
+        <mark key="'" line="588" column="39" />
+        <mark key="[" line="560" column="0" />
+        <mark key="]" line="560" column="0" />
+        <mark key="^" line="641" column="40" />
+        <mark key="." line="560" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -149,12 +149,12 @@
         <mark key="." line="813" column="49" />
         <mark key="^" line="813" column="49" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1490643573320">
-        <mark key="'" line="256" column="4" />
-        <mark key="[" line="328" column="55" />
-        <mark key="]" line="329" column="3" />
-        <mark key="." line="329" column="3" />
-        <mark key="^" line="329" column="3" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1490644560294">
+        <mark key="'" line="121" column="33" />
+        <mark key="[" line="261" column="51" />
+        <mark key="]" line="261" column="61" />
+        <mark key="." line="261" column="51" />
+        <mark key="^" line="261" column="13" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" timestamp="1481134934464">
         <mark key="'" line="151" column="9" />
@@ -349,11 +349,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="427" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="305" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="528" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="335" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="418" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="270" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="68" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
       <jump line="236" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -422,7 +417,6 @@
       <jump line="1578" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1922" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2024" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="537" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="142" column="42" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="242" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="297" column="42" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
@@ -449,64 +443,61 @@
       <jump line="125" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="256" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="106" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="325" column="53" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="537" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="121" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="645" column="56" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="699" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="588" column="39" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>arcLabel</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAvL2ludCBudW1UcmFucyA9IHN5c3RlbS5udW1UcmFuc2l0aW9ucyhvcmFjbGVUeXBlKTsK</text>
       </register>
       <register name="-" type="4">
-        <text>arcLabel</text>
-      </register>
-      <register name="/" type="4">
         <text>sampleRate</text>
       </register>
+      <register name="/" type="4">
+        <text>pushPop</text>
+      </register>
       <register name="0" type="4">
-        <text>System.err.printf(&quot;arcLabel adaEps = %.2g%n&quot;, arcLabelAda);</text>
+        <text>binaryProb</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAvL2ludCBudW1UcmFucyA9IHN5c3RlbS5udW1UcmFuc2l0aW9ucyhvcmFjbGVUeXBlKTsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBwdWJsaWMgZG91YmxlIHB1c2hQb3BBZGEgPSAwLjA1Owo=</text>
+        <text encoding="base64">ICAgICAgICAvL1N5c3RlbS5lcnIucHJpbnRsbihvcmFjbGUpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIC8vaW50IGNhY2hlV29yZEluZGV4ID0gYy5nZXRDYWNoZVdvcmQoY2FjaGVJbmRleCk7Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIFN5c3RlbS5lcnIucHJpbnRmKCJwdXNoUG9wIGhpZGRlblNpemUgPSAlZCVuIiwgcHVzaFBvcEhpZGRlbik7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text>//index = c.getLeftChild(cacheWordIndex, 2);
-    //feature.add(getWordID(c.getWord(index)));
-    //feature.add(getPosID(c.getPOS(index)));
-    //feature.add(getDepID(c.getLabel(index)));
-
-    //index = c.getRightChild(cacheWordIndex, 2);
-    //feature.add(getWordID(c.getWord(index)));
-    //feature.add(getPosID(c.getPOS(index)));
-    //feature.add(getDepID(c.getLabel(index)));</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICBwdWJsaWMgZG91YmxlIHB1c2hQb3BBZGEgPSAwLjA1Owo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIC8vaW50IGNhY2hlV29yZEluZGV4ID0gYy5nZXRDYWNoZVdvcmQoY2FjaGVJbmRleCk7Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text>//c.getBufferFeats(0, wordIDs, feature, true);
-    //c.getBufferFeats(0, posIDs, feature, false);;</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>sampleRate</last-search>
+      <last-search>pushPop</last-search>
       <last-offset />
-      <last-pattern>sampleRate</last-pattern>
+      <last-pattern>pushPop</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -554,7 +545,6 @@
         <entry>depIDS</entry>
         <entry>knownArcs</entry>
         <entry>pushPos</entry>
-        <entry>pushPop</entry>
         <entry>cacheSize-1</entry>
         <entry>getCache</entry>
         <entry>getCache(</entry>
@@ -589,7 +579,9 @@
         <entry>Ratio</entry>
         <entry>process</entry>
         <entry>feature</entry>
+        <entry>binaryProb</entry>
         <entry>sampleRate</entry>
+        <entry>pushPop</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+1</entry>
