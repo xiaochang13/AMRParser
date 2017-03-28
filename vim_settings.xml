@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490665374716">
-        <mark key="'" line="850" column="15" />
-        <mark key="[" line="850" column="18" />
-        <mark key="]" line="850" column="18" />
-        <mark key="." line="850" column="18" />
-        <mark key="^" line="935" column="64" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490667752222">
+        <mark key="'" line="234" column="34" />
+        <mark key="[" line="231" column="0" />
+        <mark key="]" line="231" column="0" />
+        <mark key="^" line="1864" column="73" />
+        <mark key="." line="231" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -152,12 +152,12 @@
         <mark key="." line="813" column="49" />
         <mark key="^" line="813" column="49" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1490665425803">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1490666431995">
         <mark key="'" line="211" column="33" />
-        <mark key="[" line="262" column="70" />
-        <mark key="]" line="262" column="83" />
-        <mark key="." line="262" column="83" />
-        <mark key="^" line="262" column="83" />
+        <mark key="[" line="332" column="23" />
+        <mark key="]" line="332" column="50" />
+        <mark key="." line="332" column="50" />
+        <mark key="^" line="332" column="50" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" timestamp="1481134934464">
         <mark key="'" line="151" column="9" />
@@ -321,11 +321,11 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1490658563529">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1490667824186">
         <mark key="'" line="410" column="15" />
-        <mark key="[" line="401" column="0" />
-        <mark key="]" line="402" column="57" />
-        <mark key="." line="402" column="57" />
+        <mark key="[" line="531" column="17" />
+        <mark key="]" line="531" column="18" />
+        <mark key="." line="531" column="18" />
         <mark key="^" line="402" column="57" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
@@ -352,11 +352,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1840" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="801" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1770" column="36" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1763" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1741" column="38" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2383" column="69" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1733" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1707" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -452,49 +447,58 @@
       <jump line="884" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="200" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="211" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="1566" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="491" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1938" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="572" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="234" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>pushIndexAda</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>pushIndexAda</text>
+        <text>pushIndex adaEps</text>
       </register>
       <register name="/" type="4">
         <text>prop</text>
       </register>
       <register name="0" type="4">
-        <text>PropertiesUtils.getDouble(props, &quot;pushIndexAda&quot;, pushIndexAda);</text>
+        <text>conceptIDRatio</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgaW50IGhlYWQgPSBnZXRIZWFkKGkpOwo=</text>
+        <text encoding="base64">ICAgIC8vaW50IGN1cnJXb3JkID0gYy5idWZmZXIuZ2V0KDApOwo=</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">Zm9yIChpbnQgaSA9IDA7IGkgPCBldmFsVHJlZXMuc2l6ZSgpOyBpKyspIHsKICAgICAgICBTeXN0ZW0uZXJyLnByaW50bG4oIlNlbnRlbmNlICIrIGkpOwogICAgICAgIGV2YWxUcmVlcy5nZXQoaSkucHJpbnREZXAoZXZhbFNlbnRzLmdldChpKSk7CiAgICAgICAgU3lzdGVtLmVyci5wcmludGxuKCIjIyMjIyMjIyMjIyMjIyMjIyMjIyNcbiIpOwogICAgICB9CiAgICAgIFN5c3RlbS5leGl0KDEpOw==</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBTCg==</text>
+        <text encoding="base64">ICAgICAgICAvL2ludCBudW1UcmFucyA9IHN5c3RlbS5udW1UcmFuc2l0aW9ucyhvcmFjbGVUeXBlKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgZWxzZQo=</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBTeXN0ZW0uZXJyLnByaW50bG4oIkN1cnJlbnQgd29yZDoiKyBjdXJyV29yZCArICIsIGhlYWQgd29yZDogUm9vdCIpOwo=</text>
+      <register name="6" type="4">
+        <text>//graph.printGraph();
+      //double binaryProb = 2.0 / config.CACHE;
+      //double arcProb = 1.0 / 5;</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>//graph.printGraph();
+      //double binaryProb = 2.0 / config.CACHE;
+      //double arcProb = 1.0 / 5;</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w!</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -615,8 +619,8 @@
         <entry>new AMRConfiguration.java</entry>
         <entry>vs AMRConfiguration.java</entry>
         <entry>1</entry>
-        <entry>w</entry>
         <entry>w!</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
