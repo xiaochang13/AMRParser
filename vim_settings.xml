@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490726612759">
-        <mark key="'" line="1937" column="37" />
-        <mark key="[" line="1566" column="73" />
-        <mark key="]" line="1566" column="81" />
-        <mark key="." line="1566" column="81" />
-        <mark key="^" line="1566" column="81" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490733858762">
+        <mark key="'" line="1938" column="37" />
+        <mark key="[" line="1502" column="5" />
+        <mark key="]" line="1501" column="4" />
+        <mark key="." line="1501" column="4" />
+        <mark key="^" line="1501" column="4" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -499,7 +499,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w!</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -621,8 +621,8 @@
         <entry>new AMRConfiguration.java</entry>
         <entry>vs AMRConfiguration.java</entry>
         <entry>1</entry>
-        <entry>w</entry>
         <entry>w!</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
