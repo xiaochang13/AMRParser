@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490734544715">
-        <mark key="'" line="1938" column="37" />
-        <mark key="[" line="1502" column="5" />
-        <mark key="]" line="1503" column="75" />
-        <mark key="." line="1503" column="75" />
-        <mark key="^" line="1503" column="75" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490735614754">
+        <mark key="'" line="1566" column="4" />
+        <mark key="[" line="1598" column="26" />
+        <mark key="]" line="1598" column="26" />
+        <mark key="^" line="1585" column="125" />
+        <mark key="." line="1598" column="26" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -351,9 +351,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="490" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="261" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
-      <jump line="125" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="256" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="106" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="325" column="53" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
@@ -406,7 +403,6 @@
       <jump line="884" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="200" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="211" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
-      <jump line="1566" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="491" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1938" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="572" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -451,13 +447,17 @@
       <jump line="1563" column="5" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1935" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="497" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1590" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="492" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1566" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1944" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>test</text>
+        <text encoding="base64">ICYmIChpdGVyICUgNCA9PSAwKQ==</text>
       </register>
       <register name="-" type="4">
-        <text>test</text>
+        <text encoding="base64">ICYmIChpdGVyICUgNCA9PSAwKQ==</text>
       </register>
       <register name="/" type="4">
         <text>Random</text>
@@ -466,40 +466,40 @@
         <text encoding="base64">U2V0PFN0cmluZz4gY2hpbGRyZW4gPSBuZXcgSGFzaFNldDw+KCk7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IHRyZWUubjsgaSsrKSB7CiAgICAgIGlmICh0cmVlLmdldEhlYWQoaSkgPT0gaykKICAgICAgICBjaGlsZHJlbi5hZGQodHJlZS5sYWJlbC5nZXQoaSkpOwogICAgfQogICAgcmV0dXJuIGNoaWxkcmVuOw==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="2" type="4">
+        <text>//pushPopPreComputed = null;
+        //conPreComputed = null;
+        //binPreComputed = null;
+        //arcPreComputed = null;
+        //pushPreComputed = null;</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="4" type="4">
         <text>if (buffer.size() == 0) {
       
     }</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIFN5c3RlbS5lcnIucHJpbnRsbih3b3JkQ29uY2VwdENvdW50cy5nZXQobmVfaW5kZXgpKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIFN5c3RlbS5lcnIucHJpbnRsbih3b3JkQ29uY2VwdENvdW50cy5nZXQobmVfaW5kZXgpKTsK</text>
       </register>
-      <register name="8" type="4">
-        <text>//A binary feature signaling if there is an arc between the two
-    //if (left.equals(Config.NULL))
-    //  feature.add(0);
-    //  else
-    //    feature.add(1);</text>
-      </register>
-      <register name="9" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
       <register name=":" type="4">
-        <text>w!</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -621,8 +621,8 @@
         <entry>new AMRConfiguration.java</entry>
         <entry>vs AMRConfiguration.java</entry>
         <entry>1</entry>
-        <entry>w</entry>
         <entry>w!</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
