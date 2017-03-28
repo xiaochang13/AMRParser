@@ -59,11 +59,11 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490661737611">
-        <mark key="'" line="1513" column="11" />
-        <mark key="[" line="1514" column="6" />
-        <mark key="]" line="1504" column="0" />
-        <mark key="." line="1504" column="0" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490663496950">
+        <mark key="'" line="1496" column="30" />
+        <mark key="[" line="1533" column="0" />
+        <mark key="]" line="1533" column="0" />
+        <mark key="." line="1533" column="0" />
         <mark key="^" line="1504" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
@@ -352,9 +352,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="183" column="7" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="389" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="1773" column="50" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2061" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1547" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1859" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -452,37 +449,40 @@
       <jump line="85" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
       <jump line="56" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
       <jump line="1513" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1535" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1035" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1496" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>head.get(i)</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>head.get(i)</text>
       </register>
       <register name="/" type="4">
-        <text>loadCon</text>
+        <text>trees</text>
       </register>
       <register name="0" type="4">
         <text>System.err.println(&quot;Current word:&quot;+ currWord + &quot;, head word: Root&quot;);</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgaW50IGhlYWQgPSBnZXRIZWFkKGkpOwo=</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">Zm9yIChpbnQgaSA9IDA7IGkgPCBldmFsVHJlZXMuc2l6ZSgpOyBpKyspIHsKICAgICAgICBTeXN0ZW0uZXJyLnByaW50bG4oIlNlbnRlbmNlICIrIGkpOwogICAgICAgIGV2YWxUcmVlcy5nZXQoaSkucHJpbnREZXAoZXZhbFNlbnRzLmdldChpKSk7CiAgICAgICAgU3lzdGVtLmVyci5wcmludGxuKCIjIyMjIyMjIyMjIyMjIyMjIyMjIyNcbiIpOwogICAgICB9CiAgICAgIFN5c3RlbS5leGl0KDEpOw==</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICBTCg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgZWxzZQo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBTeXN0ZW0uZXJyLnByaW50bG4oIkN1cnJlbnQgd29yZDoiKyBjdXJyV29yZCArICIsIGhlYWQgd29yZDogUm9vdCIpOwo=</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0uZXJyLnByaW50bG4oIkN1cnJlbnQgd29yZDoiKyBjdXJyV29yZCArICIsIGhlYWQgd29yZDogUm9vdCIpOwo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
@@ -491,16 +491,16 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGludCByZXQgPSAwOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>loadCon</last-search>
+      <last-search>trees</last-search>
       <last-offset />
-      <last-pattern>loadCon</last-pattern>
+      <last-pattern>trees</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -589,6 +589,7 @@
         <entry>apply</entry>
         <entry>RightMost</entry>
         <entry>loadCon</entry>
+        <entry>trees</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+1</entry>
