@@ -59,11 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490679281432">
-        <mark key="'" line="821" column="8" />
-        <mark key="[" line="1001" column="4" />
-        <mark key="]" line="1001" column="4" />
-        <mark key="." line="1001" column="4" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490725910371">
+        <mark key="'" line="1960" column="17" />
+        <mark key="[" line="1487" column="8" />
+        <mark key="]" line="1487" column="5" />
+        <mark key="." line="1487" column="5" />
+        <mark key="^" line="1487" column="5" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -350,10 +351,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="308" column="50" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
-      <jump line="484" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
-      <jump line="137" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
-      <jump line="252" column="64" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="304" column="45" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="120" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="362" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -450,16 +447,20 @@
       <jump line="1031" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1507" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="821" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1543" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1915" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="476" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1957" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>buffer.get(0)</text>
+        <text>test</text>
       </register>
       <register name="-" type="4">
-        <text>buffer.get(0)</text>
+        <text>test</text>
       </register>
       <register name="/" type="4">
-        <text>prop</text>
+        <text>Random</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">U2V0PFN0cmluZz4gY2hpbGRyZW4gPSBuZXcgSGFzaFNldDw+KCk7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IHRyZWUubjsgaSsrKSB7CiAgICAgIGlmICh0cmVlLmdldEhlYWQoaSkgPT0gaykKICAgICAgICBjaGlsZHJlbi5hZGQodHJlZS5sYWJlbC5nZXQoaSkpOwogICAgfQogICAgcmV0dXJuIGNoaWxkcmVuOw==</text>
@@ -498,13 +499,13 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>w!</text>
       </register>
     </registers>
     <search>
-      <last-search>prop</last-search>
+      <last-search>Random</last-search>
       <last-offset />
-      <last-pattern>prop</last-pattern>
+      <last-pattern>Random</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -595,6 +596,7 @@
         <entry>trees</entry>
         <entry>ratio</entry>
         <entry>prop</entry>
+        <entry>Random</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+1</entry>
@@ -619,8 +621,8 @@
         <entry>new AMRConfiguration.java</entry>
         <entry>vs AMRConfiguration.java</entry>
         <entry>1</entry>
-        <entry>w!</entry>
         <entry>w</entry>
+        <entry>w!</entry>
       </history-cmd>
       <history-expr />
       <history-input />
