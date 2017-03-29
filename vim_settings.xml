@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490824542512">
-        <mark key="'" line="1470" column="48" />
-        <mark key="[" line="1011" column="4" />
-        <mark key="]" line="1011" column="5" />
-        <mark key="^" line="1011" column="5" />
-        <mark key="." line="1011" column="5" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490827474265">
+        <mark key="'" line="806" column="7" />
+        <mark key="[" line="675" column="0" />
+        <mark key="]" line="675" column="0" />
+        <mark key="^" line="806" column="3" />
+        <mark key="." line="675" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -348,17 +348,11 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/CoreAnnotations.java" timestamp="1481288218667">
         <mark key="'" line="77" column="65" />
       </file>
-      <file name="/fragment.java" timestamp="1490824426505">
+      <file name="/fragment.java" timestamp="1490826247993">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="1631" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1663" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1697" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1732" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2079" column="69" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1457" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1463" column="44" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1466" column="43" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1536" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -453,56 +447,64 @@
       <jump line="357" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1787" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1470" column="48" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="774" column="40" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="775" column="55" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="865" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1550" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="834" column="7" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="853" column="7" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>predictedArcs</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
-        <text>predictedArcs</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>comment</text>
+        <text>generateConc</text>
       </register>
       <register name="0" type="4">
         <text>dataSampleIter</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgIH0K</text>
+      <register name="2" type="4">
+        <text>//System.out.println(&quot;Gold graph:&quot;);
+      //graph.printGraph();
+      //System.out.println(&quot;Built oracle graph:&quot;);
+      //c.graph.printGraph();</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="4">
+        <text encoding="base64">Ly9TeXN0ZW0uZXhpdCgxKTsKICAgIC8vU3lzdGVtLmVyci5wcmludGxuKCIjVHJhaW4gRXhhbXBsZXM6ICIgKyByZXQubik7CiAgICAvL2lmIChwdXNoUG9wUHJlQ29tcHV0ZWQgPT0gbnVsbCkgewogICAgLy8gIExpc3Q8SW50ZWdlcj4gc29ydGVkVG9rZW5zID0gQ291bnRlcnMudG9Tb3J0ZWRMaXN0KHB1c2hQb3BDb3VudCwgZmFsc2UpOwogICAgLy8gIHB1c2hQb3BQcmVDb21wdXRlZCA9IG5ldyBBcnJheUxpc3Q8Pihzb3J0ZWRUb2tlbnMuc3ViTGlzdCgwLCBNYXRoLm1pbihjb25maWcubnVtUHJlQ29tcHV0ZWQsIHNvcnRlZFRva2Vucy5zaXplKCkpKSk7CiAgICAvL30KCiAgICAvL2lmIChjb25QcmVDb21wdXRlZCA9PSBudWxsKSB7CiAgICAvLyAgTGlzdDxJbnRlZ2VyPiBzb3J0ZWRUb2tlbnMgPSBDb3VudGVycy50b1NvcnRlZExpc3QoY2lkQ291bnQsIGZhbHNlKTsKICAgIC8vICBjb25QcmVDb21wdXRlZCA9IG5ldyBBcnJheUxpc3Q8Pihzb3J0ZWRUb2tlbnMuc3ViTGlzdCgwLCBNYXRoLm1pbihjb25maWcubnVtUHJlQ29tcHV0ZWQsIHNvcnRlZFRva2Vucy5zaXplKCkpKSk7CiAgICAvL30KICAgIC8vaWYgKGJpblByZUNvbXB1dGVkID09IG51bGwpIHsKICAgIC8vICBMaXN0PEludGVnZXI+IHNvcnRlZFRva2VucyA9IENvdW50ZXJzLnRvU29ydGVkTGlzdChiaW5Db3VudCwgZmFsc2UpOwogICAgLy8gIGJpblByZUNvbXB1dGVkID0gbmV3IEFycmF5TGlzdDw+KHNvcnRlZFRva2Vucy5zdWJMaXN0KDAsIE1hdGgubWluKGNvbmZpZy5udW1QcmVDb21wdXRlZCwgc29ydGVkVG9rZW5zLnNpemUoKSkpKTsKICAgIC8vfQogICAgLy9pZiAoYXJjUHJlQ29tcHV0ZWQgPT0gbnVsbCkgewogICAgLy8gIExpc3Q8SW50ZWdlcj4gc29ydGVkVG9rZW5zID0gQ291bnRlcnMudG9Tb3J0ZWRMaXN0KGFyY0NDb3VudCwgZmFsc2UpOwogICAgLy8gIGFyY1ByZUNvbXB1dGVkID0gbmV3IEFycmF5TGlzdDw+KHNvcnRlZFRva2Vucy5zdWJMaXN0KDAsIE1hdGgubWluKGNvbmZpZy5udW1QcmVDb21wdXRlZCwgc29ydGVkVG9rZW5zLnNpemUoKSkpKTsKICAgIC8vfQogICAgLy9pZiAocHVzaFByZUNvbXB1dGVkID09IG51bGwpewogICAgLy8gIExpc3Q8SW50ZWdlcj4gc29ydGVkVG9rZW5zID0gQ291bnRlcnMudG9Tb3J0ZWRMaXN0KHB1c2hDb3VudCwgZmFsc2UpOwogICAgLy8gIHB1c2hQcmVDb21wdXRlZCA9IG5ldyBBcnJheUxpc3Q8Pihzb3J0ZWRUb2tlbnMuc3ViTGlzdCgwLCBNYXRoLm1pbihjb25maWcubnVtUHJlQ29tcHV0ZWQsIHNvcnRlZFRva2Vucy5zaXplKCkpKSk7CiAgICAvL30=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY2hvaWNlcyA9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="4">
-        <text>int cacheIndex = c.cache.get(i).second;
-          String cacheConcept = c.getConcept(cacheIndex);</text>
+        <text encoding="base64">TGlzdDxTdHJpbmc+IHNvcnRlZFVuYWxpZ24gPSBDb3VudGVycy50b1NvcnRlZExpc3QodW5hbGlnbkNvbmNlcHRDb3VudGVyLCBmYWxzZSk7CiAgICAgIHVuYWxpZ25lZFNldCA9IGZyZXFGaWx0ZXIodW5hbGlnbkNvbmNlcHRDb3VudGVyLCBzb3J0ZWRVbmFsaWduLCAxKTsKICAgICAgcmF0aW9GaWx0ZXIoKTs=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgIFNldDxJbnRlZ2VyPiBjaG9pY2VzID0gbnVsbDsK</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">Ly9TeXN0ZW0uZXJyLnByaW50bG4od29yZENvbmNlcHRDb3VudHMpOwogICAgICAvL2ZvciAoaW50IHdvcmRJRDogd29yZENvbmNlcHRDb3VudHMua2V5U2V0KCkpIHsKICAgICAgLy8gIFN5c3RlbS5lcnIucHJpbnRsbihrbm93bldvcmRzLmdldCh3b3JkSUQpKTsKICAgICAgLy8gIE1hcDxTdHJpbmcsIEludGVnZXI+IGNvbmNlcHRDb3VudHMgPSB3b3JkQ29uY2VwdENvdW50cy5nZXQod29yZElEKTsKICAgICAgLy8gIGZvciAoU3RyaW5nIGNvbmNlcHQ6IGNvbmNlcHRDb3VudHMua2V5U2V0KCkpIHsKICAgICAgLy8gICAgU3lzdGVtLmVyci5wcmludGxuKGNvbmNlcHQrICIgOiAiKyBjb25jZXB0Q291bnRzLmdldChjb25jZXB0KSk7CiAgICAgIC8vICB9CiAgICAgIC8vfQogICAgICAvL1N5c3RlbS5leGl0KDEpOwoKICAgICAgLy9TeXN0ZW0ub3V0LnByaW50bG4oIlVuYWxpZ24gY29uY2VwdHM6Iik7CiAgICAgIC8vdW5hbGlnbkNvbmNlcHRDb3VudGVyLgogICAgICAvL2ZvciAoU3RyaW5nIHM6IHNvcnRlZFVuYWxpZ24pIHsKICAgICAgLy8gIHVuYWxpZ25Db25jZXB0Q291bnRlci5nZXRDb3VudChzKQogICAgICAvL30KCiAgICAgICAgLy9TeXN0ZW0ub3V0LnByaW50bG4ocyk7</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>comment</last-search>
+      <last-search>generateConc</last-search>
       <last-offset />
-      <last-pattern>comment</last-pattern>
+      <last-pattern>generateConc</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -603,6 +605,8 @@
         <entry>filtered</entry>
         <entry>predictIn</entry>
         <entry>comment</entry>
+        <entry>NE</entry>
+        <entry>generateConc</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+1</entry>
@@ -621,12 +625,12 @@
         <entry>new AMRParser.java</entry>
         <entry>vs AMRParser.java</entry>
         <entry>w/preCompute</entry>
-        <entry>set noic</entry>
         <entry>vs</entry>
         <entry>new AMRConfiguration</entry>
         <entry>new AMRConfiguration.java</entry>
         <entry>vs AMRConfiguration.java</entry>
         <entry>1</entry>
+        <entry>set noic</entry>
         <entry>w!</entry>
         <entry>w</entry>
       </history-cmd>
