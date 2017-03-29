@@ -49,22 +49,22 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1490818308131">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1490818545036">
         <mark key="'" line="263" column="15" />
-        <mark key="[" line="132" column="35" />
-        <mark key="]" line="134" column="60" />
-        <mark key="^" line="134" column="60" />
-        <mark key="." line="134" column="60" />
+        <mark key="[" line="87" column="32" />
+        <mark key="]" line="87" column="31" />
+        <mark key="^" line="87" column="31" />
+        <mark key="." line="87" column="31" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490818163450">
-        <mark key="'" line="2074" column="13" />
-        <mark key="[" line="2023" column="8" />
-        <mark key="]" line="2023" column="8" />
-        <mark key="^" line="1597" column="37" />
-        <mark key="." line="2023" column="8" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490819601564">
+        <mark key="'" line="1779" column="41" />
+        <mark key="[" line="1787" column="44" />
+        <mark key="]" line="1787" column="49" />
+        <mark key="." line="1787" column="49" />
+        <mark key="^" line="1787" column="49" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -322,12 +322,12 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1490814665546">
-        <mark key="'" line="329" column="23" />
-        <mark key="[" line="397" column="12" />
-        <mark key="]" line="397" column="13" />
-        <mark key="." line="397" column="13" />
-        <mark key="^" line="397" column="13" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1490819233507">
+        <mark key="'" line="330" column="23" />
+        <mark key="[" line="27" column="73" />
+        <mark key="]" line="28" column="17" />
+        <mark key="." line="28" column="17" />
+        <mark key="^" line="28" column="17" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
         <mark key="'" line="91" column="8" />
@@ -353,14 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="261" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="391" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="584" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="317" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="546" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="1484" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="171" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
-      <jump line="745" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1520" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="81" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="1509" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -453,60 +445,76 @@
       <jump line="2012" column="32" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2074" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="261" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="130" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1777" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2044" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="836" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
+      <jump line="1773" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="56" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1779" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1967" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>//int unknowConID = system.conIDUNKNOW();
-        //System.err.println(wordID);
-        //System.err.println(conceptIDClassifier.getDict());</text>
+        <text>, arcStats</text>
       </register>
       <register name="-" type="4">
-        <text>100</text>
+        <text>, arcStats</text>
       </register>
       <register name="/" type="4">
-        <text>apply</text>
+        <text>predictIn</text>
       </register>
       <register name="0" type="4">
         <text>dataSampleIter</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">aW1wb3J0IGphdmEuaW8uUHJpbnRXcml0ZXI7Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">aW1wb3J0IHN1bi5tYW5hZ2VtZW50LmNvdW50ZXIuU3RyaW5nQ291bnRlcjsK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="4">
+        <text>import edu.stanford.nlp.tagger.maxent.MaxentTagger;
+import edu.stanford.nlp.trees.*;
+import edu.stanford.nlp.trees.international.pennchinese.ChineseGrammaticalRelations;
+import edu.stanford.nlp.trees.international.pennchinese.ChineseGrammaticalStructure;
+import edu.stanford.nlp.util.CoreMap;</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="4">
+        <text>import edu.stanford.nlp.ling.CoreAnnotations;
+import edu.stanford.nlp.ling.CoreLabel;
+import edu.stanford.nlp.ling.HasTag;
+import edu.stanford.nlp.ling.HasWord;
+import edu.stanford.nlp.ling.IndexedWord;
+import edu.stanford.nlp.ling.TaggedWord;
+import edu.stanford.nlp.ling.Word;
+import edu.stanford.nlp.process.DocumentPreprocessor;</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICBwdWJsaWMgYm9vbGVhbiBpcwo=</text>
+      </register>
+      <register name="9" type="4">
         <text>//int unknowConID = system.conIDUNKNOW();
         //System.err.println(wordID);
         //System.err.println(conceptIDClassifier.getDict());</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgLy9pbnQgd29yZElEID0gLTE7Cg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgaW50IG9wdCA9IC0xOwo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
-      </register>
-      <register name="5" type="4">
-        <text>int numTrans = -1;
-      //int wordID = -1;</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIC8vU3lzdGVtLmV4aXQoMSk7Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIC8vU3lzdGVtLmV4aXQoMSk7Cg==</text>
-      </register>
       <register name=":" type="4">
-        <text>w!</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>apply</last-search>
+      <last-search>predictIn</last-search>
       <last-offset />
-      <last-pattern>apply</last-pattern>
+      <last-pattern>predictIn</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -603,6 +611,7 @@
         <entry>binaryProb</entry>
         <entry>choices</entry>
         <entry>apply</entry>
+        <entry>predictIn</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+1</entry>
@@ -627,8 +636,8 @@
         <entry>new AMRConfiguration.java</entry>
         <entry>vs AMRConfiguration.java</entry>
         <entry>1</entry>
-        <entry>w</entry>
         <entry>w!</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
