@@ -152,12 +152,12 @@
         <mark key="." line="813" column="49" />
         <mark key="^" line="813" column="49" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1490747208506">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1490748301390">
         <mark key="'" line="213" column="33" />
-        <mark key="[" line="254" column="54" />
-        <mark key="]" line="254" column="70" />
-        <mark key="." line="254" column="54" />
-        <mark key="^" line="254" column="79" />
+        <mark key="[" line="349" column="23" />
+        <mark key="]" line="349" column="51" />
+        <mark key="." line="349" column="51" />
+        <mark key="^" line="349" column="51" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" timestamp="1481134934464">
         <mark key="'" line="151" column="9" />
@@ -293,12 +293,12 @@
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1490747122298">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1490748327877">
         <mark key="'" line="188" column="12" />
-        <mark key="[" line="311" column="33" />
-        <mark key="]" line="220" column="26" />
-        <mark key="^" line="220" column="26" />
-        <mark key="." line="220" column="26" />
+        <mark key="[" line="312" column="10" />
+        <mark key="]" line="312" column="11" />
+        <mark key="^" line="312" column="11" />
+        <mark key="." line="312" column="11" />
       </file>
       <file name="$USER_HOME$/AMRParser/notes" timestamp="1481718540996">
         <mark key="'" line="6" column="0" />
@@ -455,16 +455,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>maxIter</text>
+        <text>pushIndex hiddenSize</text>
       </register>
       <register name="-" type="4">
-        <text>maxIter</text>
+        <text>pushIndex hiddenSize</text>
       </register>
       <register name="/" type="4">
         <text>prop</text>
       </register>
       <register name="0" type="4">
-        <text>depDistThreshold</text>
+        <text>System.err.printf(&quot;pushIndex hiddenSize = %d%n&quot;, pushIndexHidden);</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIC8vU2V0PEludGVnZXI+IGNvdmVyZWQgPSBuZXcgSGFzaFNldDw+KCk7Cg==</text>
