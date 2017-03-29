@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490756818761">
-        <mark key="'" line="1481" column="11" />
-        <mark key="[" line="1487" column="4" />
-        <mark key="]" line="1487" column="5" />
-        <mark key="^" line="1487" column="5" />
-        <mark key="." line="1487" column="5" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490758175471">
+        <mark key="'" line="1480" column="11" />
+        <mark key="[" line="1482" column="0" />
+        <mark key="]" line="1482" column="0" />
+        <mark key="^" line="1484" column="5" />
+        <mark key="." line="1482" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -455,11 +455,11 @@
       <jump line="47" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>, trainSents.get(sent_index)</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgLy9icmVhazsK</text>
       </register>
       <register name="-" type="4">
-        <text>, trainSents.get(sent_index)</text>
+        <text>//sent_index += 1;</text>
       </register>
       <register name="/" type="4">
         <text>prop</text>
@@ -468,37 +468,34 @@
         <text>System.err.printf(&quot;pushIndex hiddenSize = %d%n&quot;, pushIndexHidden);</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgLy9icmVhazsK</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">cC5zZWNvbmQgPSBqOwogICAgICAgIGRpc3RzLnB1dChwLCBjdXJyRGlzdCk7CgogICAgICAgIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gcnAgPSBuZXcgUGFpcigpOwogICAgICAgIHJwLmZpcnN0ID0gaTsKICAgICAgICBycC5zZWNvbmQgPSBqOwogICAgICAgIGRpc3RzLnB1dChycCwgY3VyckRpc3QpOw==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBQYWlyPEludGVnZXIsIEludGVnZXI+IHAgPSBuZXcgUGFpcigpOwo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBTeXN0ZW0uZXJyLnByaW50bG4oaSArICI6IisgaisgIjoiKyB0b2tzW2ldKyAiOiIrIHRva3Nbal0rICI6IiArIGdldERlcERpc3QoaSwgaikgKyAiOiIrIGdldERlcERpc3QoaiwgaSkpOwo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIC8vU2V0PEludGVnZXI+IGNvdmVyZWQgPSBuZXcgSGFzaFNldDw+KCk7Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIGludCBkaXN0ID0gMDsK</text>
-      </register>
-      <register name="8" type="4">
-        <text>while (!covered.contains(curr)) {
-      curr = head.get(curr);
-      dist += 1;
-    }</text>
-      </register>
-      <register name="9" type="2">
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIC8vaW50IHNlbnRfaW5kZXggPSAwOwo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">cC5zZWNvbmQgPSBqOwogICAgICAgIGRpc3RzLnB1dChwLCBjdXJyRGlzdCk7CgogICAgICAgIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gcnAgPSBuZXcgUGFpcigpOwogICAgICAgIHJwLmZpcnN0ID0gaTsKICAgICAgICBycC5zZWNvbmQgPSBqOwogICAgICAgIGRpc3RzLnB1dChycCwgY3VyckRpc3QpOw==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBQYWlyPEludGVnZXIsIEludGVnZXI+IHAgPSBuZXcgUGFpcigpOwo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0uZXJyLnByaW50bG4oaSArICI6IisgaisgIjoiKyB0b2tzW2ldKyAiOiIrIHRva3Nbal0rICI6IiArIGdldERlcERpc3QoaSwgaikgKyAiOiIrIGdldERlcERpc3QoaiwgaSkpOwo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIC8vU2V0PEludGVnZXI+IGNvdmVyZWQgPSBuZXcgSGFzaFNldDw+KCk7Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>w!</text>
       </register>
     </registers>
     <search>
@@ -623,8 +620,8 @@
         <entry>new AMRConfiguration.java</entry>
         <entry>vs AMRConfiguration.java</entry>
         <entry>1</entry>
-        <entry>w!</entry>
         <entry>w</entry>
+        <entry>w!</entry>
       </history-cmd>
       <history-expr />
       <history-input />
