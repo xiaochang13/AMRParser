@@ -59,8 +59,8 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490744823885">
-        <mark key="'" line="824" column="6" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490747097212">
+        <mark key="'" line="1477" column="10" />
         <mark key="[" line="1732" column="0" />
         <mark key="]" line="1732" column="0" />
         <mark key="^" line="1617" column="75" />
@@ -139,11 +139,11 @@
       <file name="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/io/PrintWriter.java" timestamp="1486584978128">
         <mark key="'" line="55" column="34" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1490746525760">
-        <mark key="[" line="88" column="31" />
-        <mark key="]" line="88" column="59" />
-        <mark key="^" line="88" column="59" />
-        <mark key="." line="88" column="59" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1490746971580">
+        <mark key="[" line="60" column="18" />
+        <mark key="]" line="60" column="18" />
+        <mark key="^" line="60" column="18" />
+        <mark key="." line="60" column="18" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/smatch_2.0.2/smatch.py" timestamp="1478007501087">
         <mark key="'" line="806" column="38" />
@@ -152,12 +152,12 @@
         <mark key="." line="813" column="49" />
         <mark key="^" line="813" column="49" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1490738665937">
-        <mark key="'" line="63" column="13" />
-        <mark key="[" line="82" column="23" />
-        <mark key="]" line="82" column="24" />
-        <mark key="." line="82" column="24" />
-        <mark key="^" line="89" column="53" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" timestamp="1490747208506">
+        <mark key="'" line="213" column="33" />
+        <mark key="[" line="254" column="54" />
+        <mark key="]" line="254" column="70" />
+        <mark key="." line="254" column="54" />
+        <mark key="^" line="254" column="79" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" timestamp="1481134934464">
         <mark key="'" line="151" column="9" />
@@ -293,9 +293,9 @@
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1490659873863">
-        <mark key="'" line="340" column="15" />
-        <mark key="[" line="219" column="27" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1490747122298">
+        <mark key="'" line="188" column="12" />
+        <mark key="[" line="311" column="33" />
         <mark key="]" line="220" column="26" />
         <mark key="^" line="220" column="26" />
         <mark key="." line="220" column="26" />
@@ -352,16 +352,12 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="414" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="310" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="32" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1525" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="58" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
       <jump line="44" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="1527" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="81" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
       <jump line="84" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
-      <jump line="188" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="340" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
       <jump line="39" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
       <jump line="1517" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -431,7 +427,6 @@
       <jump line="1939" column="32" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1660" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1695" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1477" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1763" column="32" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1731" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1693" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -452,59 +447,64 @@
       <jump line="1466" column="43" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1536" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="824" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1477" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="188" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" />
+      <jump line="110" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="119" column="35" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="213" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGludCBkaXN0ID0gMDsK</text>
+      <register name="&quot;" type="4">
+        <text>maxIter</text>
       </register>
       <register name="-" type="4">
-        <text>covered.add(curr)</text>
+        <text>maxIter</text>
       </register>
       <register name="/" type="4">
-        <text>devDir</text>
+        <text>prop</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">U2V0PFN0cmluZz4gY2hpbGRyZW4gPSBuZXcgSGFzaFNldDw+KCk7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IHRyZWUubjsgaSsrKSB7CiAgICAgIGlmICh0cmVlLmdldEhlYWQoaSkgPT0gaykKICAgICAgICBjaGlsZHJlbi5hZGQodHJlZS5sYWJlbC5nZXQoaSkpOwogICAgfQogICAgcmV0dXJuIGNoaWxkcmVuOw==</text>
+        <text>depDistThreshold</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgIC8vU2V0PEludGVnZXI+IGNvdmVyZWQgPSBuZXcgSGFzaFNldDw+KCk7Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgIGludCBkaXN0ID0gMDsK</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text>while (!covered.contains(curr)) {
       curr = head.get(curr);
       dist += 1;
     }</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text>//firstPath.add(curr);
       //covered.add(curr);</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgIExpc3Q8SW50ZWdlcj4gZmlyc3RQYXRoID0gbmV3IEFycmF5TGlzdDw+KCk7Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIHdoaWxlIChoZWFkLmdldChjdXJyKSAhPSAtMSkgewo=</text>
       </register>
-      <register name="7" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgIH0K</text>
-      </register>
-      <register name="9" type="8">
-        <text encoding="base64">ICAKICA=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>devDir</last-search>
+      <last-search>prop</last-search>
       <last-offset />
-      <last-pattern>devDir</last-pattern>
+      <last-pattern>prop</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -593,12 +593,12 @@
         <entry>loadCon</entry>
         <entry>trees</entry>
         <entry>ratio</entry>
-        <entry>prop</entry>
         <entry>Random</entry>
         <entry>trainThread</entry>
         <entry>threads</entry>
         <entry>ada</entry>
         <entry>devDir</entry>
+        <entry>prop</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+1</entry>
