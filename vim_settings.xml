@@ -59,12 +59,9 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490865970627">
-        <mark key="'" line="496" column="34" />
-        <mark key="[" line="1004" column="4" />
-        <mark key="]" line="1004" column="5" />
-        <mark key="." line="1004" column="5" />
-        <mark key="^" line="1004" column="5" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1490970545705">
+        <mark key="'" line="489" column="34" />
+        <mark key="^" line="997" column="5" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -455,8 +452,8 @@
       <jump line="496" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>//</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>//</text>
@@ -472,31 +469,31 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAK</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">Ly9wcml2YXRlIExpc3Q8SW50ZWdlcj4gcHJlQ29tcHV0ZWQ7CiAgLy9wcml2YXRlIExpc3Q8SW50ZWdlcj4gcHVzaFBvcFByZUNvbXB1dGVkOwogIC8vcHJpdmF0ZSBMaXN0PEludGVnZXI+IGNvblByZUNvbXB1dGVkOwogIC8vcHJpdmF0ZSBMaXN0PEludGVnZXI+IGJpblByZUNvbXB1dGVkOwogIC8vcHJpdmF0ZSBMaXN0PEludGVnZXI+IGFyY1ByZUNvbXB1dGVkOwogIC8vcHJpdmF0ZSBMaXN0PEludGVnZXI+IHB1c2hQcmVDb21wdXRlZDs=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text>//System.out.println(&quot;Gold graph:&quot;);
       //graph.printGraph();
       //System.out.println(&quot;Built oracle graph:&quot;);
       //c.graph.printGraph();</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">Ly9TeXN0ZW0uZXhpdCgxKTsKICAgIC8vU3lzdGVtLmVyci5wcmludGxuKCIjVHJhaW4gRXhhbXBsZXM6ICIgKyByZXQubik7CiAgICAvL2lmIChwdXNoUG9wUHJlQ29tcHV0ZWQgPT0gbnVsbCkgewogICAgLy8gIExpc3Q8SW50ZWdlcj4gc29ydGVkVG9rZW5zID0gQ291bnRlcnMudG9Tb3J0ZWRMaXN0KHB1c2hQb3BDb3VudCwgZmFsc2UpOwogICAgLy8gIHB1c2hQb3BQcmVDb21wdXRlZCA9IG5ldyBBcnJheUxpc3Q8Pihzb3J0ZWRUb2tlbnMuc3ViTGlzdCgwLCBNYXRoLm1pbihjb25maWcubnVtUHJlQ29tcHV0ZWQsIHNvcnRlZFRva2Vucy5zaXplKCkpKSk7CiAgICAvL30KCiAgICAvL2lmIChjb25QcmVDb21wdXRlZCA9PSBudWxsKSB7CiAgICAvLyAgTGlzdDxJbnRlZ2VyPiBzb3J0ZWRUb2tlbnMgPSBDb3VudGVycy50b1NvcnRlZExpc3QoY2lkQ291bnQsIGZhbHNlKTsKICAgIC8vICBjb25QcmVDb21wdXRlZCA9IG5ldyBBcnJheUxpc3Q8Pihzb3J0ZWRUb2tlbnMuc3ViTGlzdCgwLCBNYXRoLm1pbihjb25maWcubnVtUHJlQ29tcHV0ZWQsIHNvcnRlZFRva2Vucy5zaXplKCkpKSk7CiAgICAvL30KICAgIC8vaWYgKGJpblByZUNvbXB1dGVkID09IG51bGwpIHsKICAgIC8vICBMaXN0PEludGVnZXI+IHNvcnRlZFRva2VucyA9IENvdW50ZXJzLnRvU29ydGVkTGlzdChiaW5Db3VudCwgZmFsc2UpOwogICAgLy8gIGJpblByZUNvbXB1dGVkID0gbmV3IEFycmF5TGlzdDw+KHNvcnRlZFRva2Vucy5zdWJMaXN0KDAsIE1hdGgubWluKGNvbmZpZy5udW1QcmVDb21wdXRlZCwgc29ydGVkVG9rZW5zLnNpemUoKSkpKTsKICAgIC8vfQogICAgLy9pZiAoYXJjUHJlQ29tcHV0ZWQgPT0gbnVsbCkgewogICAgLy8gIExpc3Q8SW50ZWdlcj4gc29ydGVkVG9rZW5zID0gQ291bnRlcnMudG9Tb3J0ZWRMaXN0KGFyY0NDb3VudCwgZmFsc2UpOwogICAgLy8gIGFyY1ByZUNvbXB1dGVkID0gbmV3IEFycmF5TGlzdDw+KHNvcnRlZFRva2Vucy5zdWJMaXN0KDAsIE1hdGgubWluKGNvbmZpZy5udW1QcmVDb21wdXRlZCwgc29ydGVkVG9rZW5zLnNpemUoKSkpKTsKICAgIC8vfQogICAgLy9pZiAocHVzaFByZUNvbXB1dGVkID09IG51bGwpewogICAgLy8gIExpc3Q8SW50ZWdlcj4gc29ydGVkVG9rZW5zID0gQ291bnRlcnMudG9Tb3J0ZWRMaXN0KHB1c2hDb3VudCwgZmFsc2UpOwogICAgLy8gIHB1c2hQcmVDb21wdXRlZCA9IG5ldyBBcnJheUxpc3Q8Pihzb3J0ZWRUb2tlbnMuc3ViTGlzdCgwLCBNYXRoLm1pbihjb25maWcubnVtUHJlQ29tcHV0ZWQsIHNvcnRlZFRva2Vucy5zaXplKCkpKSk7CiAgICAvL30=</text>
-      </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">TGlzdDxTdHJpbmc+IHNvcnRlZFVuYWxpZ24gPSBDb3VudGVycy50b1NvcnRlZExpc3QodW5hbGlnbkNvbmNlcHRDb3VudGVyLCBmYWxzZSk7CiAgICAgIHVuYWxpZ25lZFNldCA9IGZyZXFGaWx0ZXIodW5hbGlnbkNvbmNlcHRDb3VudGVyLCBzb3J0ZWRVbmFsaWduLCAxKTsKICAgICAgcmF0aW9GaWx0ZXIoKTs=</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
