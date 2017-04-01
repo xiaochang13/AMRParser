@@ -59,12 +59,11 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491078783372">
-        <mark key="'" line="494" column="8" />
-        <mark key="[" line="58" column="42" />
-        <mark key="]" line="59" column="1" />
-        <mark key="." line="59" column="1" />
-        <mark key="^" line="59" column="1" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491081785703">
+        <mark key="[" line="1591" column="74" />
+        <mark key="]" line="1591" column="84" />
+        <mark key="^" line="1591" column="84" />
+        <mark key="." line="1591" column="84" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -353,10 +352,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="282" column="5" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
-      <jump line="123" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
-      <jump line="270" column="51" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
-      <jump line="629" column="57" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="284" column="7" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="325" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="329" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
@@ -453,59 +448,67 @@
       <jump line="496" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="75" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="485" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="629" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="495" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="505" column="50" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="509" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>train</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text>train</text>
+        <text encoding="base64">U3RyaW5nIA==</text>
       </register>
       <register name="/" type="4">
-        <text>over</text>
+        <text>train</text>
       </register>
       <register name="0" type="4">
-        <text>private Writer trainPushPopFeatWriter;
-  private Writer trainConceptIDFeatWriter;
-  private Writer trainArcBinaryFeatWriter;
-  private Writer trainArcLabelFeatWriter;
-  private Writer trainPushIndexFeatWriter;</text>
+        <text>String pushIndexFeatFile</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICBwcml2YXRlIFdyaXRlciB0cmFpbkZlYXRXcml0ZXI7Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICBwcml2YXRlIFdyaXRlciB0cmFpbjsK</text>
+      <register name="2" type="4">
+        <text>if (config.saveFeat) {
+      try {
+        featureWriter = IOUtils.getPrintWriter(&quot;train.feat&quot;);
+        devFeatWriter = IOUtils.getPrintWriter(&quot;dev.feat&quot;);
+      }
+      catch (IOException e) {
+        throw new RuntimeIOException(e);
+      }
+    }</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICBwcml2YXRlIFdyaXRlciB0cmFpbkZlYXRXcml0ZXI7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">Ly9wcml2YXRlIExpc3Q8SW50ZWdlcj4gcHJlQ29tcHV0ZWQ7CiAgLy9wcml2YXRlIExpc3Q8SW50ZWdlcj4gcHVzaFBvcFByZUNvbXB1dGVkOwogIC8vcHJpdmF0ZSBMaXN0PEludGVnZXI+IGNvblByZUNvbXB1dGVkOwogIC8vcHJpdmF0ZSBMaXN0PEludGVnZXI+IGJpblByZUNvbXB1dGVkOwogIC8vcHJpdmF0ZSBMaXN0PEludGVnZXI+IGFyY1ByZUNvbXB1dGVkOwogIC8vcHJpdmF0ZSBMaXN0PEludGVnZXI+IHB1c2hQcmVDb21wdXRlZDs=</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBwdXNoSW5kZXhGZWF0V3JpdGVyID0gSU9VdGlscy5nZXRQcmludFdyaXRlcihwdXNoSW5kZXhGZWF0RmlsZSk7Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBhcmNMYWJlbEZlYXRXcml0ZXIgPSBJT1V0aWxzLmdldFByaW50V3JpdGVyKGFyY0xhYmVsRmVhdEZpbGUpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>over</last-search>
+      <last-search>train</last-search>
       <last-offset />
-      <last-pattern>over</last-pattern>
+      <last-pattern>train</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -614,6 +617,8 @@
         <entry>train(</entry>
         <entry>comment</entry>
         <entry>over</entry>
+        <entry>IOU</entry>
+        <entry>train</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+1</entry>
