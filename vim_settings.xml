@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491174149127">
-        <mark key="'" line="192" column="6" />
-        <mark key="[" line="178" column="36" />
-        <mark key="]" line="178" column="41" />
-        <mark key="." line="178" column="41" />
-        <mark key="^" line="178" column="41" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491176126727">
+        <mark key="'" line="177" column="18" />
+        <mark key="[" line="171" column="19" />
+        <mark key="]" line="171" column="20" />
+        <mark key="^" line="171" column="20" />
+        <mark key="." line="171" column="20" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -353,7 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1683" column="46" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="184" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" />
       <jump line="1791" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1558" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -453,54 +452,51 @@
       <jump line="175" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="365" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="182" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="188" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>wordSeq</text>
+        <text encoding="base64">ICsgIiAi</text>
       </register>
       <register name="-" type="4">
-        <text>wordSeq</text>
+        <text encoding="base64">ICsgIiAi</text>
       </register>
       <register name="/" type="4">
         <text>conceptIDFe</text>
       </register>
       <register name="0" type="4">
-        <text>ret += (&quot;lem&quot; + i + &quot;=&quot; + c.wordSeq[i] + &quot; &quot;);</text>
+        <text>&quot; lem&quot; + i + &quot;=&quot; + Config.NULL</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gcmV0Owo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
+      <register name="3" type="4">
+        <text encoding="base64">aWYgKGMuYnVmZmVyLnNpemUoKSA9PSAwKSB7CiAgICAgIGZvciAoaW50IGkgPSAtMjsgaSA8PSAyOyBpKyspIHsKICAgICAgICByZXQgKz0gKCIgdyIgKyBpICsgIj0iICsgQ29uZmlnLk5VTEwpOwogICAgICAgIHJldCArPSAoIiBsZW0iICsgaSArICI9IiArIENvbmZpZy5OVUxMKTsKICAgICAgICByZXQgKz0gKCIgcG9zIiArIGkgKyAiPSIgKyBDb25maWcuTlVMTCk7CiAgICAgIH0KICAgICAgcmV0dXJuIHJldDsKICAgIH0=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
+      </register>
       <register name="5" type="4">
-        <text>if (config.saveFeat) {
-      try {
-        featureWriter = IOUtils.getPrintWriter(&quot;train.feat&quot;);
-        devFeatWriter = IOUtils.getPrintWriter(&quot;dev.feat&quot;);
-      }
-      catch (IOException e) {
-        throw new RuntimeIOException(e);
-      }
-    }</text>
+        <text encoding="base64">ZWxzZSAoaSA+PSAwICYmIGkgPCBjLndvcmRTZXEubGVuZ3RoKSB7CiAgICAgICAgcmV0ICs9ICgiIHciICsgcmVsYXRpdmUgKyAiPSIgKyBjLndvcmRTZXFbaV0gKyAiICIpOwogICAgICAgIHJldCArPSAoIiBsZW0iICsgcmVsYXRpdmUgKyAiPSIgKyBjLmxlbW1hU2VxW2ldICsgIiAiKTsKICAgICAgICByZXQgKz0gKCIgcG9zIiArIHJlbGF0aXZlICsgIj0iICsgYy5wb3NTZXFbaV0gKyAiICIpOwogICAgICB9</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>else {
+        ret += (&quot; w&quot; + relative + &quot;=&quot; + Config.NULL + &quot; &quot;);
+        ret += (&quot; lem&quot; + relative + &quot;=&quot; + Config.NULL + &quot; &quot;);
+        ret += (&quot; pos&quot; + relative + &quot;=&quot; + Config.NULL + &quot; &quot;);
+      }</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgY3VyUG9zRmVhdCA9IDsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgY3VyTGVtRmVhdCA9ICIgbGVtIiArIGkgKyAiPSIgKyBDb25maWcuTlVMTDsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
