@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491196527496">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491201062932">
         <mark key="'" line="664" column="46" />
-        <mark key="[" line="197" column="24" />
-        <mark key="]" line="198" column="23" />
-        <mark key="^" line="198" column="23" />
-        <mark key="." line="198" column="23" />
+        <mark key="[" line="181" column="25" />
+        <mark key="]" line="181" column="32" />
+        <mark key="^" line="181" column="32" />
+        <mark key="." line="181" column="32" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -456,10 +456,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>tok</text>
+        <text>wordSeq</text>
       </register>
       <register name="-" type="4">
-        <text>tok</text>
+        <text>wordSeq</text>
       </register>
       <register name="/" type="4">
         <text>Writer</text>
