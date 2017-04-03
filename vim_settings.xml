@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491195481190">
-        <mark key="'" line="1086" column="12" />
-        <mark key="[" line="766" column="9" />
-        <mark key="]" line="767" column="39" />
-        <mark key="^" line="767" column="39" />
-        <mark key="." line="767" column="39" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491196527496">
+        <mark key="'" line="664" column="46" />
+        <mark key="[" line="197" column="24" />
+        <mark key="]" line="198" column="23" />
+        <mark key="^" line="198" column="23" />
+        <mark key="." line="198" column="23" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -353,7 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="88" column="53" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="2012" column="32" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2074" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="261" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
@@ -453,19 +452,24 @@
       <jump line="1145" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1114" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1066" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="650" column="46" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>c.buffer.get(0)</text>
+        <text>tok</text>
       </register>
       <register name="-" type="4">
-        <text>c.buffer.get(0)</text>
+        <text>tok</text>
       </register>
       <register name="/" type="4">
         <text>Writer</text>
       </register>
       <register name="0" type="4">
-        <text>&quot; lem&quot; + i + &quot;=&quot; + Config.NULL</text>
+        <text>if (tokSet.contains(currWord)) {
+        ret += &quot; retok=1&quot;;
+      }
+      else
+        ret += &quot; retok=0&quot;;</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
