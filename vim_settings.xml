@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491191331019">
-        <mark key="'" line="1066" column="12" />
-        <mark key="[" line="171" column="19" />
-        <mark key="]" line="171" column="20" />
-        <mark key="^" line="171" column="20" />
-        <mark key="." line="171" column="20" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491193409642">
+        <mark key="'" line="1072" column="12" />
+        <mark key="[" line="520" column="41" />
+        <mark key="]" line="520" column="41" />
+        <mark key="^" line="756" column="33" />
+        <mark key="." line="520" column="41" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -348,7 +348,7 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/CoreAnnotations.java" timestamp="1481288218667">
         <mark key="'" line="77" column="65" />
       </file>
-      <file name="/fragment.java" timestamp="1490826247993">
+      <file name="/fragment.java" timestamp="1491193456667">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
@@ -456,10 +456,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICsgIiAi</text>
+        <text>.</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICsgIiAi</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
         <text>Writer</text>
@@ -471,32 +471,32 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="3" type="4">
-        <text encoding="base64">aWYgKGMuYnVmZmVyLnNpemUoKSA9PSAwKSB7CiAgICAgIGZvciAoaW50IGkgPSAtMjsgaSA8PSAyOyBpKyspIHsKICAgICAgICByZXQgKz0gKCIgdyIgKyBpICsgIj0iICsgQ29uZmlnLk5VTEwpOwogICAgICAgIHJldCArPSAoIiBsZW0iICsgaSArICI9IiArIENvbmZpZy5OVUxMKTsKICAgICAgICByZXQgKz0gKCIgcG9zIiArIGkgKyAiPSIgKyBDb25maWcuTlVMTCk7CiAgICAgIH0KICAgICAgcmV0dXJuIHJldDsKICAgIH0=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">ZWxzZSAoaSA+PSAwICYmIGkgPCBjLndvcmRTZXEubGVuZ3RoKSB7CiAgICAgICAgcmV0ICs9ICgiIHciICsgcmVsYXRpdmUgKyAiPSIgKyBjLndvcmRTZXFbaV0gKyAiICIpOwogICAgICAgIHJldCArPSAoIiBsZW0iICsgcmVsYXRpdmUgKyAiPSIgKyBjLmxlbW1hU2VxW2ldICsgIiAiKTsKICAgICAgICByZXQgKz0gKCIgcG9zIiArIHJlbGF0aXZlICsgIj0iICsgYy5wb3NTZXFbaV0gKyAiICIpOwogICAgICB9</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">aWYgKGMuYnVmZmVyLnNpemUoKSA9PSAwKSB7CiAgICAgIGZvciAoaW50IGkgPSAtMjsgaSA8PSAyOyBpKyspIHsKICAgICAgICByZXQgKz0gKCIgdyIgKyBpICsgIj0iICsgQ29uZmlnLk5VTEwpOwogICAgICAgIHJldCArPSAoIiBsZW0iICsgaSArICI9IiArIENvbmZpZy5OVUxMKTsKICAgICAgICByZXQgKz0gKCIgcG9zIiArIGkgKyAiPSIgKyBDb25maWcuTlVMTCk7CiAgICAgIH0KICAgICAgcmV0dXJuIHJldDsKICAgIH0=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
+      </register>
+      <register name="6" type="4">
+        <text encoding="base64">ZWxzZSAoaSA+PSAwICYmIGkgPCBjLndvcmRTZXEubGVuZ3RoKSB7CiAgICAgICAgcmV0ICs9ICgiIHciICsgcmVsYXRpdmUgKyAiPSIgKyBjLndvcmRTZXFbaV0gKyAiICIpOwogICAgICAgIHJldCArPSAoIiBsZW0iICsgcmVsYXRpdmUgKyAiPSIgKyBjLmxlbW1hU2VxW2ldICsgIiAiKTsKICAgICAgICByZXQgKz0gKCIgcG9zIiArIHJlbGF0aXZlICsgIj0iICsgYy5wb3NTZXFbaV0gKyAiICIpOwogICAgICB9</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="4">
         <text>else {
         ret += (&quot; w&quot; + relative + &quot;=&quot; + Config.NULL + &quot; &quot;);
         ret += (&quot; lem&quot; + relative + &quot;=&quot; + Config.NULL + &quot; &quot;);
         ret += (&quot; pos&quot; + relative + &quot;=&quot; + Config.NULL + &quot; &quot;);
       }</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgY3VyUG9zRmVhdCA9IDsK</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgY3VyTGVtRmVhdCA9ICIgbGVtIiArIGkgKyAiPSIgKyBDb25maWcuTlVMTDsK</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgY3VyUG9zRmVhdCA9IDsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
