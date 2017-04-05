@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491311530451">
-        <mark key="'" line="650" column="41" />
-        <mark key="[" line="650" column="14" />
-        <mark key="]" line="650" column="14" />
-        <mark key="^" line="206" column="14" />
-        <mark key="." line="650" column="14" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491431744656">
+        <mark key="'" line="638" column="41" />
+        <mark key="[" line="204" column="0" />
+        <mark key="]" line="204" column="0" />
+        <mark key="." line="204" column="0" />
+        <mark key="^" line="217" column="2" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -455,11 +455,11 @@
       <jump line="650" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>//</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>//</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>pushP</text>
@@ -472,13 +472,16 @@
         ret += &quot; retok=0&quot;;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="2" type="4">
-        <text encoding="base64">Ly9pbnQgY3VycldvcmQgPSBjLmJ1ZmZlci5nZXQoMCk7CgogICAgLy8vL0ZpcnN0IGRlcGVuZGVuY3kgY2hpbGRyZW4KICAgIC8vaW50IHN0YXJ0X2luZGV4ID0gZGVwSURzLmdldChDb25maWcuVU5LTk9XTik7CiAgICAvL1NldDxTdHJpbmc+IGRlcENoaWxkcmVuID0gYy5nZXRBbGxDaGlsZHJlbihjdXJyV29yZCk7CiAgICAvL2ZvciAoU3RyaW5nIGw6IGRlcENoaWxkcmVuKQogICAgLy8gIGZlYXR1cmUuYWRkKGdldERlcElEKGwpLXN0YXJ0X2luZGV4KTsKCiAgICAvLy8vVGhlbiBkZXBlbmRlbmN5IGhlYWQKICAgIC8vU3RyaW5nIGRlcFBhcmVudCA9IGMuZ2V0TGFiZWwoYy5nZXRIZWFkKGN1cnJXb3JkKSk7CiAgICAvL2ZlYXR1cmUuYWRkKGdldERlcElEKGRlcFBhcmVudCktc3RhcnRfaW5kZXgrZGVwSURzLnNpemUoKSk7CgogICAgLy9pbnQgb2Zmc2V0ID0gZGVwSURzLnNpemUoKTsKICAgIC8vTGlzdDxTdHJpbmc+IGFyY0NoaWxkcmVuID0gYy5ncmFwaC5nZXRBbGxBcmNzKCkKICAgIC8vVGhlbiB0aGUgY29uY2VwdCBmZWF0dXJlcw==</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="4">
+        <text>public String pushPopFeats(AMRConfiguration c) {
+    String ret = &quot;&quot;;
+    return ret;
+  }</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
@@ -487,19 +490,19 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="7" type="4">
+        <text encoding="base64">Ly9wdWJsaWMgU2V0PEludGVnZXI+IGNvbmNlcHRJREJpbmFyeShBTVJDb25maWd1cmF0aW9uIGMpIHsKICAvLyAgU2V0PEludGVnZXI+IGZlYXR1cmUgPSBuZXcgSGFzaFNldDw+KCk7CiAgLy8gIHJldHVybiBmZWF0dXJlOwogIC8vfQ==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">aWYgKGMuYnVmZmVyLnNpemUoKSA9PSAwKSB7CiAgICAgIGZvciAoaW50IGkgPSAtMjsgaSA8PSAyOyBpKyspIHsKICAgICAgICByZXQgKz0gKCIgdyIgKyBpICsgIj0iICsgQ29uZmlnLk5VTEwpOwogICAgICAgIHJldCArPSAoIiBsZW0iICsgaSArICI9IiArIENvbmZpZy5OVUxMKTsKICAgICAgICByZXQgKz0gKCIgcG9zIiArIGkgKyAiPSIgKyBDb25maWcuTlVMTCk7CiAgICAgIH0KICAgICAgcmV0dXJuIHJldDsKICAgIH0=</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">cHVibGljIHZvaWQgcHJpbnRUb2tGZWF0dXJlcyhMaXN0PEludGVnZXI+IGZlYXRzKSB7CiAgICBmb3IgKGludCBmOiBmZWF0cykgewogICAgICBTeXN0ZW0uZXJyLnByaW50bG4oYWxsTGFiZWxzLmdldChmKSk7CiAgICB9CiAgfQ==</text>
       </register>
       <register name=":" type="4">
-        <text>w!</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -646,8 +649,8 @@
         <entry>1</entry>
         <entry>500</entry>
         <entry>e ~/buffer</entry>
-        <entry>w</entry>
         <entry>w!</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
