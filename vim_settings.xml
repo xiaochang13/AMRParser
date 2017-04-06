@@ -59,7 +59,7 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491440274864">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491470694050">
         <mark key="'" line="615" column="41" />
         <mark key="[" line="498" column="10" />
         <mark key="]" line="498" column="12" />
@@ -505,98 +505,10 @@
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>retrie</entry>
-        <entry>computeAccu</entry>
-        <entry>known</entry>
-        <entry>knownWords</entry>
-        <entry>writeConfus</entry>
-        <entry>overall</entry>
-        <entry>Overall</entry>
-        <entry>preModel</entry>
-        <entry>trainDir</entry>
-        <entry>evalLemmas</entry>
-        <entry>mleConceptId</entry>
-        <entry>mle</entry>
-        <entry>write</entry>
-        <entry>outputWirter</entry>
-        <entry>outputWriter</entry>
-        <entry>arcLabels</entry>
-        <entry>makeTransi</entry>
-        <entry>arcTransitions</entry>
-        <entry>conMap</entry>
-        <entry>dict</entry>
-        <entry>gradSaved</entry>
-        <entry>backpropSaved</entry>
-        <entry>preMap</entry>
-        <entry>preComput</entry>
-        <entry>preCompute</entry>
-        <entry>Process</entry>
-        <entry>gradW1</entry>
-        <entry>takeAd</entry>
-        <entry>initGra</entry>
-        <entry>classifier</entry>
-        <entry>inputDim</entry>
-        <entry>W1</entry>
-        <entry>currOffset</entry>
-        <entry>conceptIDfeatures</entry>
-        <entry>depIDS</entry>
-        <entry>knownArcs</entry>
-        <entry>pushPos</entry>
-        <entry>cacheSize-1</entry>
-        <entry>getCache</entry>
-        <entry>getCache(</entry>
-        <entry>knowDeps</entry>
-        <entry>generateIDs</entry>
-        <entry>depIDs</entry>
-        <entry>knownDeps</entry>
-        <entry>no way</entry>
-        <entry>Binary</entry>
-        <entry>getCacheVertex</entry>
-        <entry>conceptIDBi</entry>
-        <entry>conceptIDBin</entry>
-        <entry>conceptID</entry>
-        <entry>conceptIDBinary</entry>
-        <entry>wordCutOff</entry>
-        <entry>embeddingSize</entry>
-        <entry>adaAlpha</entry>
-        <entry>Cache</entry>
-        <entry>predicted</entry>
-        <entry>evalDir</entry>
-        <entry>predict</entry>
-        <entry>binary</entry>
-        <entry>binaryRa</entry>
-        <entry>genTrain</entry>
-        <entry>comm</entry>
-        <entry>CACHE</entry>
-        <entry>Ratio</entry>
-        <entry>process</entry>
-        <entry>feature</entry>
-        <entry>pushPop</entry>
-        <entry>head</entry>
-        <entry>Rightmost</entry>
-        <entry>RightMost</entry>
-        <entry>loadCon</entry>
-        <entry>trees</entry>
-        <entry>ratio</entry>
-        <entry>Random</entry>
-        <entry>trainThread</entry>
-        <entry>threads</entry>
-        <entry>ada</entry>
-        <entry>devDir</entry>
-        <entry>prop</entry>
-        <entry>devTrain</entry>
-        <entry>binaryProb</entry>
-        <entry>choices</entry>
-        <entry>apply</entry>
-        <entry>conncet</entry>
-        <entry>connect</entry>
-        <entry>makeTran</entry>
-        <entry>predictedArcs</entry>
-        <entry>filtered</entry>
         <entry>predictIn</entry>
         <entry>NE</entry>
         <entry>generateConc</entry>
@@ -619,12 +531,6 @@
         <entry>featStr</entry>
       </history-search>
       <history-cmd>
-        <entry>.,.+1</entry>
-        <entry>.,.+8w</entry>
-        <entry>W</entry>
-        <entry encoding="base64">JzwsJz53</entry>
-        <entry>vs util.py</entry>
-        <entry>vs Util.java</entry>
         <entry>e! ~/vim_local/vimrc</entry>
         <entry>vs Classifier.java</entry>
         <entry encoding="base64">JzwsJz5jYWxsIFZpc3VhbFNlYXJjaCgnYicp</entry>
