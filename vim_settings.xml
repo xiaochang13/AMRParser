@@ -59,12 +59,11 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491435625647">
-        <mark key="'" line="224" column="25" />
-        <mark key="[" line="223" column="31" />
-        <mark key="]" line="224" column="38" />
-        <mark key="." line="224" column="38" />
-        <mark key="^" line="224" column="38" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491436774569">
+        <mark key="[" line="248" column="0" />
+        <mark key="]" line="248" column="0" />
+        <mark key="^" line="244" column="34" />
+        <mark key="." line="248" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -353,7 +352,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="265" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="223" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="2102" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="223" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
@@ -417,7 +415,6 @@
       <jump line="169" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="366" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="175" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="365" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="182" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="188" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1473" column="45" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -443,7 +440,6 @@
       <jump line="552" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="635" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="636" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="650" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="300" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="227" column="7" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="354" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
@@ -452,7 +448,10 @@
       <jump line="357" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="308" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="224" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="470" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="470" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="650" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="239" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="365" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -465,23 +464,16 @@
         <text>pushP</text>
       </register>
       <register name="0" type="4">
-        <text>if (tokSet.contains(currWord)) {
-        ret += &quot; retok=1&quot;;
-      }
-      else
-        ret += &quot; retok=0&quot;;</text>
+        <text encoding="base64">aW50IG51bUNvbm5lY3QgPSBjLmdldFJpZ2h0TW9zdENvbm5lY3QoKTsKICAgIC8vSGVyZSB3ZSBzZXQgYSB0aHJlc2hvbGQgb2YgNCBkZXBlbmRlbmN5IGNvbm5lY3Rpb25zCiAgICBpZiAobnVtQ29ubmVjdCA+PSA0KQogICAgICBudW1Db25uZWN0ID0gNDs=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="3" type="4">
-        <text>public String pushPopFeats(AMRConfiguration c) {
-    String ret = &quot;&quot;;
-    return ret;
-  }</text>
+        <text encoding="base64">Ly9UaGUgZmlyc3QgYWN0aW9uIGlzIHRvIHBvcCBzb21ldGhpbmcgZnJvbSBzdGFjayBvciBzdGFydCBwdXNoIGNvbmNlcHRzCiAgcHVibGljIExpc3Q8SW50ZWdlcj4gcHVzaFBvcEZlYXR1cmVzKEFNUkNvbmZpZ3VyYXRpb24gYykgewogICAgTGlzdDxJbnRlZ2VyPiBmZWF0dXJlID0gbmV3IEFycmF5TGlzdDw+KCk7CgogICAgYy5nZXRDYWNoZUZlYXRzKDEsIGNvbmNlcHRJRHMsIGZlYXR1cmUsIGZhbHNlKTsKCiAgICAvL3dvcmQgYW5kIFBPUyB0YWcgZmVhdHVyZXMgZnJvbSBhIGNvbnRleHQgd2luZG93IG9mIDIKICAgIGMuZ2V0QnVmZmVyRmVhdHMoMCwgd29yZElEcywgZmVhdHVyZSwgMCk7CiAgICBjLmdldEJ1ZmZlckZlYXRzKDAsIGxlbUlEcywgZmVhdHVyZSwgMSk7CiAgICBjLmdldEJ1ZmZlckZlYXRzKDAsIHBvc0lEcywgZmVhdHVyZSwgMik7CgogICAgaW50IGxhc3RDYWNoZVdvcmQgPSBjLmNhY2hlLmdldChjLmNhY2hlU2l6ZS0xKS5maXJzdDsKICAgIGMuZ2V0QnVmZmVyRGVwcyhsYXN0Q2FjaGVXb3JkLCBkZXBJRHMsIGZlYXR1cmUsIDIpOyAvLzIgZGVwZW5kZW5jeSBsYWJlbHMgZ29pbmcgaW4gb3Igb3V0CgogICAgcmV0dXJuIGZlYXR1cmU7CiAgfQ==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
@@ -489,17 +481,20 @@
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAK</text>
+      <register name="6" type="4">
+        <text>public String pushPopFeats(AMRConfiguration c) {
+    String ret = &quot;&quot;;
+    return ret;
+  }</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">Ly9wdWJsaWMgU2V0PEludGVnZXI+IGNvbmNlcHRJREJpbmFyeShBTVJDb25maWd1cmF0aW9uIGMpIHsKICAvLyAgU2V0PEludGVnZXI+IGZlYXR1cmUgPSBuZXcgSGFzaFNldDw+KCk7CiAgLy8gIHJldHVybiBmZWF0dXJlOwogIC8vfQ==</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">cHVibGljIHZvaWQgcHJpbnRUb2tGZWF0dXJlcyhMaXN0PEludGVnZXI+IGZlYXRzKSB7CiAgICBmb3IgKGludCBmOiBmZWF0cykgewogICAgICBTeXN0ZW0uZXJyLnByaW50bG4oYWxsTGFiZWxzLmdldChmKSk7CiAgICB9CiAgfQ==</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
