@@ -59,8 +59,8 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491771744472">
-        <mark key="'" line="586" column="8" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491772437152">
+        <mark key="'" line="55" column="17" />
         <mark key="[" line="1129" column="8" />
         <mark key="]" line="1117" column="8" />
         <mark key="^" line="1117" column="8" />
@@ -353,9 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="268" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
-      <jump line="126" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
-      <jump line="674" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="653" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="648" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="618" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -453,6 +450,9 @@
       <jump line="2019" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="524" column="35" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="586" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1505" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2145" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="55" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -462,7 +462,7 @@
         <text encoding="base64">Y3VyckNvbmNlcHRJbmRleCwg</text>
       </register>
       <register name="/" type="4">
-        <text>saveCon</text>
+        <text>conceptIDF</text>
       </register>
       <register name="0" type="4">
         <text>pushPopFeatWriter.write(featStr+ &quot;\n&quot;);</text>
@@ -500,9 +500,9 @@
       </register>
     </registers>
     <search>
-      <last-search>saveCon</last-search>
+      <last-search>conceptIDF</last-search>
       <last-offset />
-      <last-pattern>saveCon</last-pattern>
+      <last-pattern>conceptIDF</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -534,6 +534,7 @@
         <entry>train(</entry>
         <entry>Over time</entry>
         <entry>saveCon</entry>
+        <entry>conceptIDF</entry>
       </history-search>
       <history-cmd>
         <entry>e! ~/vim_local/vimrc</entry>
