@@ -49,22 +49,22 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1490823849966">
-        <mark key="'" line="265" column="15" />
-        <mark key="[" line="88" column="40" />
-        <mark key="]" line="89" column="40" />
-        <mark key="^" line="89" column="40" />
-        <mark key="." line="89" column="40" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1491800798672">
+        <mark key="'" line="267" column="15" />
+        <mark key="[" line="270" column="6" />
+        <mark key="]" line="270" column="7" />
+        <mark key="^" line="270" column="7" />
+        <mark key="." line="270" column="7" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491799989193">
-        <mark key="'" line="759" column="20" />
-        <mark key="[" line="334" column="14" />
-        <mark key="]" line="334" column="17" />
-        <mark key="^" line="334" column="17" />
-        <mark key="." line="334" column="17" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491801722668">
+        <mark key="'" line="756" column="55" />
+        <mark key="[" line="398" column="4" />
+        <mark key="]" line="407" column="33" />
+        <mark key="^" line="398" column="4" />
+        <mark key="." line="398" column="4" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -353,10 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="188" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1473" column="45" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1626" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1245" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1230" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1179" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1145" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -453,49 +449,53 @@
       <jump line="424" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="268" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="759" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2104" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2114" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="782" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="745" column="55" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>AND</text>
+        <text>v</text>
       </register>
       <register name="-" type="4">
-        <text>AND</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>apply</text>
       </register>
       <register name="0" type="4">
-        <text>concept.substring(concept.length()-2, concept.length()-1);</text>
+        <text encoding="base64">aW50IHdvcmREaXN0ID0gd29yZEluZGV4IC0gY2FjaGVXb3JkSW5kZXg7CiAgICBpZiAod29yZERpc3QgPD0gMCkgewogICAgICBTeXN0ZW0uZXJyLnByaW50bG4oIldlaXJkIHdvcmQgZGlzdGFuY2UiKTsKICAgICAgU3lzdGVtLmV4aXQoMSk7CiAgICB9CiAgICBpZiAod29yZERpc3QgPiA0KQogICAgICB3b3JkRGlzdCA9IDQ7CiAgICByZXQgKz0gKCIgd2Rpc3Q9IiArIHdvcmREaXN0KTsKICAgIGludCBkZXBEaXN0ID0gYy50cmVlLmdldERlcERpc3Qod29yZEluZGV4LCBjYWNoZVdvcmRJbmRleCk7CiAgICByZXQgKz0gKCIgZGRpc3Q9IiArIGRlcERpc3QpOw==</text>
       </register>
-      <register name="1" type="8">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgIHN5c3RlbS5hcHBseShjLCBvcmFjbGUpOwo=</text>
+      </register>
+      <register name="2" type="8">
         <text>//
 //
 //</text>
       </register>
-      <register name="2" type="2">
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAK</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>//int wordID = -1;
               //ret.addExample(feature, binaryFeatures, label, oracleType, wordID);</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">Ly9EZWZpbmUgYSBzZXBhcmF0ZSBzZXQgb2YgZmVhdHVyZXMgZm9yIGNvbm5lY3RpbmcgYXJjcy4KICAvL09uIHRoZSBjYWNoZSB0aGVyZSBpcyBhIGNvbnRleHQgd2luZG93IG9mIGZlYXR1cmVzLgogIHB1YmxpYyBMaXN0PEludGVnZXI+IGFyY0Nvbm5lY3RGZWF0dXJlcyhBTVJDb25maWd1cmF0aW9uIGMsIGludCBjYWNoZUluZGV4KSB7CiAgICBMaXN0PEludGVnZXI+IGZlYXR1cmUgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gY29uY2VwdFAgPSBjLmxhc3RQOwoKICAgIGludCB3b3JkSW5kZXggPSBjb25jZXB0UC5maXJzdDsKICAgIGludCBjb25jZXB0SW5kZXggPSBjb25jZXB0UC5zZWNvbmQ7CgogICAgLy80IGZlYXR1cmVzIG9mIHRoZSBwb3NpdGlvbiBvbiB0aGUgY2FjaGUKICAgIGMuZ2V0Q2FjaGVDb250ZXh0cyhjYWNoZUluZGV4LCAwLCB3b3JkSURzLCBsZW1JRHMsIHBvc0lEcywgZmVhdHVyZSwgdHJ1ZSk7CiAgICBjLmdldENhY2hlQ29udGV4dHMoY2FjaGVJbmRleCwgMCwgY29uY2VwdElEcywgbnVsbCwgbnVsbCwgZmVhdHVyZSwgZmFsc2UpOwoKICAgIC8vNCBmZWF0dXJlcyBmb3IgdGhlIGNhbmRpZGF0ZSB3b3JkLCBjb25jZXB0CiAgICBmZWF0dXJlLmFkZChnZXRXb3JkSUQoYy5nZXRXb3JkKHdvcmRJbmRleCkpKTsKICAgIGZlYXR1cmUuYWRkKGdldExlbW1hSUQoYy5nZXRMZW1tYSh3b3JkSW5kZXgpKSk7CiAgICBmZWF0dXJlLmFkZChnZXRQb3NJRChjLmdldFBPUyh3b3JkSW5kZXgpKSk7CiAgICBmZWF0dXJlLmFkZChnZXRDb25jZXB0SUQoYy5nZXRDb25jZXB0KGNvbmNlcHRJbmRleCkpKTsKCiAgICAvL0EgdW5hcnkgbGFiZWwgZmVhdHVyZSBmb3IgY3VycmVudCBjYWNoZSBpbmRleCBhbmQgdGhlIGN1cnJlbnQgd29yZAogICAgZmVhdHVyZS5hZGQoZ2V0RGVwSUQoYy5nZXRBcmNMYWJlbChjYWNoZUluZGV4LCB3b3JkSW5kZXgsIHRydWUpKSk7CiAgICBmZWF0dXJlLmFkZChnZXREZXBJRChjLmdldEFyY0xhYmVsKGNhY2hlSW5kZXgsIHdvcmRJbmRleCwgZmFsc2UpKSk7CgogICAgcmV0dXJuIGZlYXR1cmU7CiAgfQ==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAK</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">cHVibGljIFNldDxJbnRlZ2VyPiBhcmNDb25uZWN0QmluYXJ5KEFNUkNvbmZpZ3VyYXRpb24gYywgaW50IGNhY2hlSW5kZXgpIHsKICAgIFNldDxJbnRlZ2VyPiBmZWF0dXJlID0gbmV3IEhhc2hTZXQ8PigpOwoKICAgIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gY29uY2VwdFAgPSBjLmxhc3RQOwoKICAgIGludCB3b3JkSW5kZXggPSBjb25jZXB0UC5maXJzdDsKICAgIGludCBjb25jZXB0SW5kZXggPSBjb25jZXB0UC5zZWNvbmQ7CgogICAgaW50IGNhY2hlV29yZEluZGV4ID0gYy5nZXRDYWNoZVdvcmQoY2FjaGVJbmRleCk7CiAgICBpbnQgY2FjaGVWZXJ0ZXhJbmRleCA9IGMuZ2V0Q2FjaGVWZXJ0ZXgoY2FjaGVJbmRleCk7CgogICAgaW50IGRlcFNpemUgPSBkZXBJRHMuc2l6ZSgpOwogICAgLy9GaXJzdCBkZXBlbmRlbmN5IGNoaWxkcmVuIG9mIGdlbmVyYXRlZCB3b3JkCiAgICBpbnQgc3RhcnRfaW5kZXggPSBkZXBJRHMuZ2V0KENvbmZpZy5VTktOT1dOKTsKICAgIFNldDxTdHJpbmc+IGRlcENoaWxkcmVuID0gYy5nZXRBbGxDaGlsZHJlbih3b3JkSW5kZXgpOwogICAgZm9yIChTdHJpbmcgbDogZGVwQ2hpbGRyZW4pCiAgICAgIGZlYXR1cmUuYWRkKGdldERlcElEKGwpLXN0YXJ0X2luZGV4KTsKCiAgICAvL1RoZW4gZGVwZW5kZW5jeSBoZWFkCiAgICBTZXQ8U3RyaW5nPiBjYWNoZURlcENoaWxkcmVuID0gYy5nZXRBbGxDaGlsZHJlbihjYWNoZVdvcmRJbmRleCk7CiAgICBmb3IgKFN0cmluZyBsOiBjYWNoZURlcENoaWxkcmVuKQogICAgICBmZWF0dXJlLmFkZChnZXREZXBJRChsKS1zdGFydF9pbmRleCArZGVwU2l6ZSk7CgogICAgLy9UaGVuIGFsbCB0aGUgYXJjcyB0aGF0IGhhcyBiZWVuIGdlbmVyYXRlZCBmb3IgdGhlIGN1cnJlbnQgbm9kZQogICAgTGlzdDxTdHJpbmc+IGFyY0NoaWxkcmVuID0gYy5ncmFwaC5nZXRBbGxBcmNzKGNvbmNlcHRJbmRleCk7CiAgICBzdGFydF9pbmRleCA9IGFyY0lEcy5nZXQoQ29uZmlnLlVOS05PV04pOwogICAgaW50IGFyY1NpemUgPSBhcmNJRHMuc2l6ZSgpOwogICAgaWYgKGFyY0NoaWxkcmVuICE9IG51bGwpCiAgICBmb3IgKFN0cmluZyBsOiBhcmNDaGlsZHJlbikKICAgICAgZmVhdHVyZS5hZGQoZ2V0QXJjSUQobCktc3RhcnRfaW5kZXgrZGVwU2l6ZSoyKTsKCiAgICBMaXN0PFN0cmluZz4gY2FjaGVBcmNDaGlsZHJlbiA9IGMuZ3JhcGguZ2V0QWxsQXJjcyhjYWNoZVZlcnRleEluZGV4KTsKICAgIGlmIChjYWNoZUFyY0NoaWxkcmVuICE9IG51bGwpCiAgICAgIGZvciAoU3RyaW5nIGw6IGNhY2hlQXJjQ2hpbGRyZW4pCiAgICAgICAgZmVhdHVyZS5hZGQoZ2V0QXJjSUQobCktc3RhcnRfaW5kZXgrZGVwU2l6ZSoyK2FyY1NpemUpOwoKICAgIC8vQWRkIHRoZSB3b3JkIGRpc3RhbmNlIGZlYXR1cmUgb2YgdGhlIHR3byB3b3JkcwogICAgaW50IHdvcmREaXN0ID0gd29yZEluZGV4IC0gY2FjaGVXb3JkSW5kZXg7CiAgICBpZiAod29yZERpc3QgPCAwKSB7CiAgICAgIFN5c3RlbS5lcnIucHJpbnRsbigiV2VpcmQgZGlzdGFuY2UhIik7CiAgICAgIFN5c3RlbS5leGl0KDEpOwogICAgfQogICAgaWYgKHdvcmREaXN0ID4gNCkgewogICAgICB3b3JkRGlzdCA9IDQ7CiAgICB9CiAgICBmZWF0dXJlLmFkZChkZXBTaXplICogMiArIGFyY1NpemUqMiArIHdvcmREaXN0KTsKCiAgICBpbnQgZGVwRGlzdCA9IGMudHJlZS5nZXREZXBEaXN0KHdvcmRJbmRleCwgY2FjaGVXb3JkSW5kZXgpOwogICAgZmVhdHVyZS5hZGQoZGVwU2l6ZSAqIDIgKyBhcmNTaXplICogMiArIDUgKyBkZXBEaXN0KTsKICAgIHJldHVybiBmZWF0dXJlOwogIH0=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
