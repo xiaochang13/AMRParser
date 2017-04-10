@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491791962788">
-        <mark key="'" line="230" column="4" />
-        <mark key="[" line="2156" column="10" />
-        <mark key="]" line="2156" column="11" />
-        <mark key="^" line="2156" column="11" />
-        <mark key="." line="2156" column="11" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491793203805">
+        <mark key="'" line="56" column="17" />
+        <mark key="[" line="342" column="20" />
+        <mark key="]" line="343" column="14" />
+        <mark key="^" line="343" column="14" />
+        <mark key="." line="343" column="14" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -353,8 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="75" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="485" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="629" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="495" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="505" column="50" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -453,22 +451,21 @@
       <jump line="264" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="540" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="230" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2137" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="56" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>()</text>
       </register>
       <register name="-" type="4">
-        <text>wordIndex - cacheWordIndex</text>
+        <text>()</text>
       </register>
       <register name="/" type="4">
-        <text>arcBinary</text>
+        <text>arcBinaryFeat</text>
       </register>
       <register name="0" type="4">
-        <text>String word = c.getWord(wordIndex);
-    ret += (&quot; rmw=&quot; + word);
-    String concept = c.getConcept(cacheIndex);
-    ret += (&quot; rmc=&quot; + concept);</text>
+        <text>(AMRConfiguration c, int cacheIndex)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -502,9 +499,9 @@
       </register>
     </registers>
     <search>
-      <last-search>arcBinary</last-search>
+      <last-search>arcBinaryFeat</last-search>
       <last-offset />
-      <last-pattern>arcBinary</last-pattern>
+      <last-pattern>arcBinaryFeat</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -538,6 +535,7 @@
         <entry>saveCon</entry>
         <entry>conceptIDF</entry>
         <entry>arcBinary</entry>
+        <entry>arcBinaryFeat</entry>
       </history-search>
       <history-cmd>
         <entry>e! ~/vim_local/vimrc</entry>
