@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491943962659">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491951290723">
         <mark key="'" line="604" column="33" />
-        <mark key="[" line="559" column="8" />
-        <mark key="]" line="547" column="8" />
+        <mark key="[" line="607" column="0" />
+        <mark key="]" line="607" column="0" />
         <mark key="^" line="547" column="8" />
-        <mark key="." line="547" column="8" />
+        <mark key="." line="607" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -455,8 +455,8 @@
       <jump line="604" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>//</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>//</text>
@@ -468,34 +468,41 @@
         <text>String currC =graph.concepts.get(currConcept).value();</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBTeXN0ZW0uZXhpdCgxKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgaWYgKCF0LmNvbnRhaW5zKCJjb25HZW4iKSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIFN5c3RlbS5lcnIucHJpbnRsbigpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgIFN5c3RlbS5lcnIucHJpbnRsbigpCg==</text>
+      <register name="4" type="4">
+        <text>//c.graph.printGraph();
+          //System.err.println(oracle);
+          //if (oracle.contains(&quot;person&quot;)) {
+          //  System.err.println(&quot;oracle&quot;);
+          //  System.exit(1);
+          //}</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIHN5c3RlbS5hcHBseShjLCBvcmFjbGUpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="8">
-        <text>//
-//
-//</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAK</text>
+      <register name="8" type="4">
+        <text>//c.graph.printGraph();
+          //System.err.println(oracle);
+          //if (oracle.contains(&quot;person&quot;)) {
+          //  System.err.println(&quot;oracle&quot;);
+          //  System.exit(1);
+          //}</text>
       </register>
-      <register name="9" type="4">
-        <text>//int wordID = -1;
-              //ret.addExample(feature, binaryFeatures, label, oracleType, wordID);</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0uZXhpdCgxKTsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
