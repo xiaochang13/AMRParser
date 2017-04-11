@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491801722668">
-        <mark key="'" line="756" column="55" />
-        <mark key="[" line="398" column="4" />
-        <mark key="]" line="407" column="33" />
-        <mark key="^" line="398" column="4" />
-        <mark key="." line="398" column="4" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491887988905">
+        <mark key="'" line="762" column="41" />
+        <mark key="[" line="766" column="66" />
+        <mark key="]" line="767" column="43" />
+        <mark key="^" line="767" column="43" />
+        <mark key="." line="767" column="43" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -353,8 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1230" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1179" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1145" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1114" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1066" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -453,16 +451,18 @@
       <jump line="2114" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="782" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="745" column="55" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="369" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="756" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>v</text>
+        <text>)</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>apply</text>
+        <text>arcConnect</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">aW50IHdvcmREaXN0ID0gd29yZEluZGV4IC0gY2FjaGVXb3JkSW5kZXg7CiAgICBpZiAod29yZERpc3QgPD0gMCkgewogICAgICBTeXN0ZW0uZXJyLnByaW50bG4oIldlaXJkIHdvcmQgZGlzdGFuY2UiKTsKICAgICAgU3lzdGVtLmV4aXQoMSk7CiAgICB9CiAgICBpZiAod29yZERpc3QgPiA0KQogICAgICB3b3JkRGlzdCA9IDQ7CiAgICByZXQgKz0gKCIgd2Rpc3Q9IiArIHdvcmREaXN0KTsKICAgIGludCBkZXBEaXN0ID0gYy50cmVlLmdldERlcERpc3Qod29yZEluZGV4LCBjYWNoZVdvcmRJbmRleCk7CiAgICByZXQgKz0gKCIgZGRpc3Q9IiArIGRlcERpc3QpOw==</text>
@@ -502,9 +502,9 @@
       </register>
     </registers>
     <search>
-      <last-search>apply</last-search>
+      <last-search>arcConnect</last-search>
       <last-offset />
-      <last-pattern>apply</last-pattern>
+      <last-pattern>arcConnect</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -544,6 +544,7 @@
         <entry>getCon</entry>
         <entry>getConceptCategory</entry>
         <entry>apply</entry>
+        <entry>arcConnect</entry>
       </history-search>
       <history-cmd>
         <entry>e! ~/vim_local/vimrc</entry>
