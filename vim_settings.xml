@@ -49,18 +49,18 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1491917592956">
-        <mark key="'" line="267" column="15" />
-        <mark key="[" line="367" column="54" />
-        <mark key="]" line="367" column="55" />
-        <mark key="." line="367" column="55" />
-        <mark key="^" line="367" column="55" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1491919730985">
+        <mark key="'" line="269" column="15" />
+        <mark key="[" line="242" column="6" />
+        <mark key="]" line="231" column="6" />
+        <mark key="." line="231" column="6" />
+        <mark key="^" line="231" column="6" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491919080209">
-        <mark key="'" line="772" column="23" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491919479766">
+        <mark key="'" line="691" column="19" />
         <mark key="[" line="600" column="31" />
         <mark key="]" line="601" column="36" />
         <mark key="^" line="601" column="36" />
@@ -353,7 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="507" column="230" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="552" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="635" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="636" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -453,13 +452,14 @@
       <jump line="74" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" />
       <jump line="769" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="222" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
+      <jump line="691" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>//</text>
+        <text>True</text>
       </register>
       <register name="-" type="4">
-        <text>//</text>
+        <text>True</text>
       </register>
       <register name="/" type="4">
         <text>tokIndex</text>
@@ -468,34 +468,34 @@
         <text>String currC =graph.concepts.get(currConcept).value();</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIFN5c3RlbS5lcnIucHJpbnRsbigpOwo=</text>
+        <text encoding="base64">ICAgICAgaWYgKCF0LmNvbnRhaW5zKCJjb25HZW4iKSkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgIFN5c3RlbS5lcnIucHJpbnRsbigpCg==</text>
+        <text encoding="base64">ICAgICAgICAgIFN5c3RlbS5lcnIucHJpbnRsbigpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIFN5c3RlbS5lcnIucHJpbnRsbigpCg==</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgIHN5c3RlbS5hcHBseShjLCBvcmFjbGUpOwo=</text>
       </register>
-      <register name="5" type="8">
+      <register name="6" type="8">
         <text>//
 //
 //</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAK</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>//int wordID = -1;
               //ret.addExample(feature, binaryFeatures, label, oracleType, wordID);</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
