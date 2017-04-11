@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491887988905">
-        <mark key="'" line="762" column="41" />
-        <mark key="[" line="766" column="66" />
-        <mark key="]" line="767" column="43" />
-        <mark key="^" line="767" column="43" />
-        <mark key="." line="767" column="43" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491916143936">
+        <mark key="'" line="703" column="14" />
+        <mark key="[" line="768" column="52" />
+        <mark key="]" line="769" column="40" />
+        <mark key="^" line="769" column="40" />
+        <mark key="." line="769" column="40" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -353,10 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1145" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1114" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1066" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="683" column="36" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1602" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="902" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="982" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -453,6 +449,10 @@
       <jump line="745" column="55" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="369" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="756" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="583" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="405" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="670" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="703" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -462,7 +462,7 @@
         <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>arcConnect</text>
+        <text>System.exi</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">aW50IHdvcmREaXN0ID0gd29yZEluZGV4IC0gY2FjaGVXb3JkSW5kZXg7CiAgICBpZiAod29yZERpc3QgPD0gMCkgewogICAgICBTeXN0ZW0uZXJyLnByaW50bG4oIldlaXJkIHdvcmQgZGlzdGFuY2UiKTsKICAgICAgU3lzdGVtLmV4aXQoMSk7CiAgICB9CiAgICBpZiAod29yZERpc3QgPiA0KQogICAgICB3b3JkRGlzdCA9IDQ7CiAgICByZXQgKz0gKCIgd2Rpc3Q9IiArIHdvcmREaXN0KTsKICAgIGludCBkZXBEaXN0ID0gYy50cmVlLmdldERlcERpc3Qod29yZEluZGV4LCBjYWNoZVdvcmRJbmRleCk7CiAgICByZXQgKz0gKCIgZGRpc3Q9IiArIGRlcERpc3QpOw==</text>
@@ -502,9 +502,9 @@
       </register>
     </registers>
     <search>
-      <last-search>arcConnect</last-search>
+      <last-search>System.exi</last-search>
       <last-offset />
-      <last-pattern>arcConnect</last-pattern>
+      <last-pattern>System.exi</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -545,6 +545,7 @@
         <entry>getConceptCategory</entry>
         <entry>apply</entry>
         <entry>arcConnect</entry>
+        <entry>System.exi</entry>
       </history-search>
       <history-cmd>
         <entry>e! ~/vim_local/vimrc</entry>
