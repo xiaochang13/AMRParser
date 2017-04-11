@@ -462,7 +462,7 @@
         <text>//</text>
       </register>
       <register name="/" type="4">
-        <text>apply</text>
+        <text>ajfdlja</text>
       </register>
       <register name="0" type="4">
         <text>String currC =graph.concepts.get(currConcept).value();</text>
@@ -502,9 +502,9 @@
       </register>
     </registers>
     <search>
-      <last-search>apply</last-search>
+      <last-search>ajfdlja</last-search>
       <last-offset />
-      <last-pattern>apply</last-pattern>
+      <last-pattern>ajfdlja</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -547,6 +547,7 @@
         <entry>System.exi</entry>
         <entry>tokIndex</entry>
         <entry>apply</entry>
+        <entry>ajfdlja</entry>
       </history-search>
       <history-cmd>
         <entry>e! ~/vim_local/vimrc</entry>
