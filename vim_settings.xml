@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492004593763">
-        <mark key="'" line="273" column="4" />
-        <mark key="[" line="222" column="56" />
-        <mark key="]" line="224" column="20" />
-        <mark key="." line="224" column="20" />
-        <mark key="^" line="224" column="20" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492005501183">
+        <mark key="'" line="1952" column="37" />
+        <mark key="[" line="263" column="11" />
+        <mark key="]" line="264" column="9" />
+        <mark key="." line="264" column="9" />
+        <mark key="^" line="264" column="9" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -353,8 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="324" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2161" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="406" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="374" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="376" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -453,25 +451,27 @@
       <jump line="84" column="53" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2047" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="232" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="132" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1952" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgIGlmICh3b3JkMmNob2ljZXMuY29udGFpbnNLZXkoKSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>1</text>
+        <text>word</text>
       </register>
       <register name="/" type="4">
-        <text>emission</text>
+        <text>evaluate(</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">TWFwPEludGVnZXIsIE1hcDxJbnRlZ2VyLCBJbnRlZ2VyPj5lbWlzc2lvblNjb3Jlcw==</text>
+        <text encoding="base64">Zm9yIChTdHJpbmcgbGluZTogSU9VdGlscy5yZWFkTGluZXMoY29uY2VwdElERGljdCkpIHsKICAgICAgbGluZSA9IGxpbmUudHJpbSgpOwogICAgICBpZiAoIWxpbmUuZXF1YWxzKCIiKSkgewogICAgICAgIFN0cmluZ1tdIHNwbGl0cyA9IGxpbmUuc3BsaXQoIiAjIyMjICIpOwogICAgICAgIFN0cmluZyB3b3JkID0gc3BsaXRzWzBdLnRyaW0oKTsKICAgICAgICBpZiAod29yZDJjaG9pY2VzLmNvbnRhaW5zS2V5KHdvcmQpKSB7CiAgICAgICAgICBTeXN0ZW0uZXJyLnByaW50bG4oIldlaXJkLCByZXBlYXRlZCB3b3JkIGZvdW5kOiAiICsgd29yZCk7CiAgICAgICAgICBTeXN0ZW0uZXhpdCgxKTsKICAgICAgICB9CiAgICAgICAgd29yZDJjaG9pY2VzLnB1dCh3b3JkLCBuZXcgSGFzaFNldDw+KCkpOwoKICAgICAgICBpbnQgdGhyZXNob2xkID0gMDsKCiAgICAgICAgaWYgKHNwbGl0c1sxXS5zcGxpdCgiICIpLmxlbmd0aCA+IDEyKQogICAgICAgICAgdGhyZXNob2xkID0gMjA7CgogICAgICAgIGZvciAoU3RyaW5nIHM6IHNwbGl0c1sxXS5zcGxpdCgiICIpKSB7CiAgICAgICAgICBTdHJpbmcgY29uY2VwdCA9IHMuc3BsaXQoIjoiKVswXTsKICAgICAgICAgIGludCBjb3VudCA9IEludGVnZXIucGFyc2VJbnQocy5zcGxpdCgiOiIpWzFdKTsKICAgICAgICAgIGlmIChjb3VudCA8PSB0aHJlc2hvbGQpCiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgU3RyaW5nIHRhcmdldCA9ICJjb25JRDoiICsgY29uY2VwdDsKCiAgICAgICAgICBpZiAoIWNvbmNlcHRJRExhYmVsSW5kZXhlci5jb250YWluc0tleSh0YXJnZXQpKSB7CiAgICAgICAgICAgIFN5c3RlbS5lcnIucHJpbnRsbigiY29uY2VwdElEIHVuc2VlbiB0YXJnZXQ6IiArIHRhcmdldCk7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgfQogICAgICAgICAgaW50IGwgPSBjb25jZXB0SURMYWJlbEluZGV4ZXIuZ2V0KHRhcmdldCk7CiAgICAgICAgICB3b3JkMmNob2ljZXMuZ2V0KHdvcmQpLmFkZChsKTsKICAgICAgICB9CiAgICAgIH0KICAgIH0=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIGlmICh3b3JkMmNob2ljZXMuY29udGFpbnNLZXkoKSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIGlmICh3b3JkMmNob2ljZXMuY29udGFpbnNLZXkoKSkK</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
@@ -480,28 +480,28 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgaWYgKHB1c2hQb3BFbWlzc2lvblNjb3JlcykK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgaWYgKHB1c2hQb3BFbWlzc2lvblNjb3JlcykK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgIHB1c2hQb3BGZWF0U3RyLnRyaW0oKTsK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgIHB1c2hQb3BGZWF0U3RyLnRyaW0oKTsK</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>emission</last-search>
+      <last-search>evaluate(</last-search>
       <last-offset />
-      <last-pattern>emission</last-pattern>
+      <last-pattern>evaluate(</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -533,6 +533,7 @@
         <entry>trim</entry>
         <entry>loadEmiss</entry>
         <entry>emission</entry>
+        <entry>evaluate(</entry>
       </history-search>
       <history-cmd>
         <entry>vs CaheTransition.java</entry>
