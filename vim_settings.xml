@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491951290723">
-        <mark key="'" line="604" column="33" />
-        <mark key="[" line="607" column="0" />
-        <mark key="]" line="607" column="0" />
-        <mark key="^" line="547" column="8" />
-        <mark key="." line="607" column="0" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491959137693">
+        <mark key="'" line="2034" column="31" />
+        <mark key="[" line="2120" column="55" />
+        <mark key="]" line="2120" column="77" />
+        <mark key="^" line="2120" column="77" />
+        <mark key="." line="2120" column="77" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -353,7 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="395" column="51" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="199" column="32" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="391" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="412" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
@@ -453,47 +452,37 @@
       <jump line="236" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="334" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="604" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2034" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vQU1SQ29uZmlndXJhdGlvbiBjID0gc3lzdGVtLmluaXRpYWxDb25maWd1cmF0aW9uKHRva1NlcSk7Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>//</text>
+        <text>predictInner</text>
       </register>
       <register name="/" type="4">
-        <text>ajfdlja</text>
+        <text>predictIn</text>
       </register>
       <register name="0" type="4">
-        <text>String currC =graph.concepts.get(currConcept).value();</text>
+        <text encoding="base64">cHJpdmF0ZSBBTVJDb25maWd1cmF0aW9uIHByZWRpY3RJbm5lcihTdHJpbmdbXSB0b2tTZXEsIFN0cmluZ1tdIGxlbVNlcSwgU3RyaW5nW10gcG9zU2VxLCBEZXBlbmRlbmN5VHJlZSB0cmVlKSB7CiAgICAvL2ludCBudW1UcmFucyA9IHN5c3RlbS5udW1UcmFuc2l0aW9ucygyKTsKCiAgICAvL0FNUkNvbmZpZ3VyYXRpb24gYyA9IHN5c3RlbS5pbml0aWFsQ29uZmlndXJhdGlvbih0b2tTZXEpOwogICAgQU1SQ29uZmlndXJhdGlvbiBjID0gbmV3IEFNUkNvbmZpZ3VyYXRpb24oY29uZmlnLkNBQ0hFLCB0b2tTZXEubGVuZ3RoKTsKICAgIC8vYnVpbGRDb25zdFNldCgpOwoKICAgIGlmICghY29uc3RTZXQuY29udGFpbnMoIk5VTUJFUiIpKSB7CiAgICAgIFN5c3RlbS5lcnIucHJpbnRsbigiV3JvbmcgY29uc3Qgc2V0ISIpOwogICAgICBTeXN0ZW0uZXhpdCgxKTsKICAgIH0KICAgIGMud29yZFNlcSA9IHRva1NlcTsKICAgIGMubGVtbWFTZXEgPSBsZW1TZXE7CiAgICBjLnBvc1NlcSA9IHBvc1NlcTsKICAgIGMudHJlZSA9IHRyZWU7CiAgICAvL2MudHJlZS5idWlsZERpc3RzKGNvbmZpZy5kZXBEaXN0VGhyZXNob2xkKTsKCiAgICBNYXA8SW50ZWdlciwgSW50ZWdlcj4gd29yZFRvQ29uY2VwdCA9IG5ldyBIYXNoTWFwPD4oKTsKCiAgICBjLnN0YXJ0QWN0aW9uID0gdHJ1ZTsKICAgIC8vZG91YmxlIFtdc2NvcmVzOwoKICAgIHdoaWxlICghc3lzdGVtLmlzVGVybWluYWwoYykpIHsKICAgICAgTGlzdDxJbnRlZ2VyPiBmZWF0dXJlID0gbnVsbDsKICAgICAgU2V0PEludGVnZXI+IGJpbmFyeUZlYXR1cmUgPSBudWxsOwogICAgICBpbnQgbnVtVHJhbnMgPSAtMTsKICAgICAgaW50IG9wdCA9IC0xOwogICAgICBTdHJpbmcgb3B0VHJhbnMgPSBudWxsOwoKICAgICAgU2V0PEludGVnZXI+IGNob2ljZXMgPSBuZXcgSGFzaFNldDw+KCk7CiAgICAgIFNldDxJbnRlZ2VyPiBmaWx0ZXJlZCA9IG5ldyBIYXNoU2V0PD4oKTsKCiAgICAgIGlmIChjLnN0YXJ0QWN0aW9uKSB7CiAgICAgICAgaWYgKGMuYnVmZmVyLnNpemUoKSA9PSAwKSB7ICAvL0hlcmUgd2UgY2FuIG9ubHkgcG9wCiAgICAgICAgICBvcHRUcmFucyA9ICJQT1AiOwogICAgICAgICAgYy5hY3Rpb25TZXEuYWRkKG9wdFRyYW5zKTsKICAgICAgICAgIHN5c3RlbS5hcHBseShjLCBvcHRUcmFucyk7CiAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgLy9mZWF0dXJlID0gcHVzaFBvcEZlYXR1cmVzKGMpOwogICAgICAgIC8vYmluYXJ5RmVhdHVyZSA9IHB1c2hQb3BCaW5hcnkoYyk7CiAgICAgICAgLy9mZWF0dXJlID0gYmluYXJ5Q2hvaWNlRmVhdHVyZXMoYywgaSk7CiAgICAgICAgaWYgKGMuc3RhY2suc2l6ZSgpICE9IDApIHsgLy9JZiBzdGFjayBzaXplIDAsIGNhbiBuZXZlciBwb3AKICAgICAgICAgIG9wdCA9IHB1c2hQb3BDbGFzc2lmaWVyLmFyZ21heChmZWF0dXJlLCBiaW5hcnlGZWF0dXJlLCBudWxsLCBjb25maWcuZHJvcFByb2IpOwogICAgICAgICAgaWYgKG9wdCA9PSAxKSB7CiAgICAgICAgICAgIG9wdFRyYW5zID0gIlBPUCI7CiAgICAgICAgICAgIHN5c3RlbS5hcHBseShjLCBvcHRUcmFucyk7CiAgICAgICAgICAgIGMuYWN0aW9uU2VxLmFkZChvcHRUcmFucyk7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLy9mZWF0dXJlID0gY29uY2VwdElERmVhdHVyZXMoYyk7CiAgICAgICAgLy9iaW5hcnlGZWF0dXJlID0gY29uY2VwdElEQmluYXJ5KGMpOwoKICAgICAgICBpbnQgd29yZEluZGV4ID0gYy5nZXRCdWZmZXIoMCk7CiAgICAgICAgU3RyaW5nIGN1cnJXb3JkID0gdG9rU2VxW3dvcmRJbmRleF07CiAgICAgICAgaW50IHdvcmRJRCA9IGdldFdvcmRJRChjdXJyV29yZCk7CgogICAgICAgIGZvciAoaW50IGN1cnI6IGNvbmNlcHRJRENsYXNzaWZpZXIuZ2V0RGljdCgpLmdldCh3b3JkSUQpKSB7CiAgICAgICAgICBjaG9pY2VzLmFkZChjdXJyKTsKICAgICAgICB9CgogICAgICAgIG9wdCA9IGNvbmNlcHRJRENsYXNzaWZpZXIuYXJnbWF4KGZlYXR1cmUsIGJpbmFyeUZlYXR1cmUsIGNob2ljZXMsIGNvbmZpZy5kcm9wUHJvYik7CiAgICAgICAgLy9vcHQgPSBhcmdtYXgoc2NvcmVzLCBjaG9pY2VzKTsKICAgICAgICBvcHRUcmFucyA9IHN5c3RlbS5nZXRUcmFuc2l0aW9uKDAsIG9wdCk7CiAgICAgICAgaWYgKCFvcHRUcmFucy5jb250YWlucyhDb25maWcuTlVMTCkpIC8vSW4gY2FzZSB0aGUgbmV4dCB3b3JkIGlzIHVuYWxpZ25lZAogICAgICAgICAgd29yZFRvQ29uY2VwdC5wdXQod29yZEluZGV4LCBjLmdyYXBoLm5leHRDb25jZXB0SWQoKSk7CiAgICAgIH0KICAgICAgZWxzZSBpZihjLmxhc3RBY3Rpb24uZXF1YWxzKCJjb25JRCIpKSB7IC8vQVJDIGNvbm5lY3QgcHJvY2VkdXJlLCBkZWNpc2lvbnMgb2YgY2FjaGUgc2l6ZSBuZWVkZWQKICAgICAgICBTdHJpbmdbXSBhcmNEZWNpc2lvbnMgPSBuZXcgU3RyaW5nW2NvbmZpZy5DQUNIRV07CiAgICAgICAgLy9TZXQ8SW50ZWdlcj4gcHJlZGljdGVkQXJjcyA9IG5ldyBIYXNoU2V0PD4oKTsKCiAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCBjb25maWcuQ0FDSEU7IGkrKykgewogICAgICAgICAgaWYgKGMuY2FjaGUuZ2V0KGkpLnNlY29uZCA9PSAtMSkgewogICAgICAgICAgICBhcmNEZWNpc2lvbnNbaV0gPSAiTyI7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgfQoKICAgICAgICAgIC8vZmVhdHVyZSA9IGJpbmFyeUNob2ljZUZlYXR1cmVzKGMsIGkpOwogICAgICAgICAgLy9iaW5hcnlGZWF0dXJlID0gYmluYXJ5Q2hvaWNlQmluYXJ5KGMsIGkpOwogICAgICAgICAgb3B0ID0gYmluYXJ5Q2xhc3NpZmllci5hcmdtYXgoZmVhdHVyZSwgYmluYXJ5RmVhdHVyZSwgbnVsbCwgY29uZmlnLmRyb3BQcm9iKTsKICAgICAgICAgIGlmIChvcHQgPT0gMCkgewogICAgICAgICAgICBhcmNEZWNpc2lvbnNbaV0gPSAiTyI7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgfQoKICAgICAgICAgIGludCBjb25jZXB0SW5kZXggPSBjLmxhc3RQLnNlY29uZDsKICAgICAgICAgIFN0cmluZyBjb25jZXB0TGFiZWwgPSBjLmdldENvbmNlcHQoY29uY2VwdEluZGV4KTsKCiAgICAgICAgICBpbnQgY2FjaGVJbmRleCA9IGMuY2FjaGUuZ2V0KGkpLnNlY29uZDsKICAgICAgICAgIFN0cmluZyBjYWNoZUNvbmNlcHQgPSBjLmdldENvbmNlcHQoY2FjaGVJbmRleCk7CgogICAgICAgICAgaWYgKGNvbnN0U2V0LmNvbnRhaW5zKGNvbmNlcHRMYWJlbCkgJiYgY29uc3RTZXQuY29udGFpbnMoY2FjaGVDb25jZXB0KSkgewogICAgICAgICAgICBhcmNEZWNpc2lvbnNbaV0gPSAiTyI7CiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgfQogICAgICAgICAgZWxzZSBpZiAoY29uc3RTZXQuY29udGFpbnMoY29uY2VwdExhYmVsKSkKICAgICAgICAgICAgY2hvaWNlcyA9IHN5c3RlbS5jb25zdEFyY0luQ2hvaWNlczsKICAgICAgICAgIGVsc2UgaWYgKGNvbnN0U2V0LmNvbnRhaW5zKGNhY2hlQ29uY2VwdCkpCiAgICAgICAgICAgIGNob2ljZXMgPSBzeXN0ZW0uY29uc3RBcmNPdXRDaG9pY2VzOwogICAgICAgICAgZWxzZQogICAgICAgICAgICBjaG9pY2VzID0gbnVsbDsKCiAgICAgICAgICBmaWx0ZXJlZCA9IGdldEZpbHRlcmVkKGMsIGNvbmNlcHRJbmRleCwgY2FjaGVJbmRleCk7CgogICAgICAgICAgLy9mZWF0dXJlID0gYXJjQ29ubmVjdEZlYXR1cmVzKGMsIGkpOwogICAgICAgICAgLy9iaW5hcnlGZWF0dXJlID0gYXJjQ29ubmVjdEJpbmFyeShjLCBpKTsKCiAgICAgICAgICBjLm51bUFyY3MgKz0gMTsKCiAgICAgICAgICBvcHQgPSBhcmNDb25uZWN0Q2xhc3NpZmllci5maWx0ZXJBcmdtYXgoZmVhdHVyZSwgYmluYXJ5RmVhdHVyZSwgY2hvaWNlcywgZmlsdGVyZWQsIGNvbmZpZy5kcm9wUHJvYik7CiAgICAgICAgICBhcmNEZWNpc2lvbnNbaV0gPSBzeXN0ZW0uZ2V0VHJhbnNpdGlvbigxLCBvcHQpOwogICAgICAgICAgLy9wcmVkaWN0ZWRBcmNzLmFkZChvcHQpOwogICAgICAgIH0KICAgICAgICBvcHRUcmFucyA9ICJBUkM6IiArIFN0cmluZ1V0aWxzLmpvaW4oYXJjRGVjaXNpb25zLCAiIyIpOwogICAgICB9CiAgICAgIGVsc2UgaWYoYy5sYXN0QWN0aW9uLmNvbnRhaW5zKCJBUkMiKSkgeyAvL1BVU0ggaW5kZXggYWN0aW9uLgogICAgICAgIGZlYXR1cmUgPSBwdXNoSW5kZXhGZWF0dXJlcyhjKTsKICAgICAgICBiaW5hcnlGZWF0dXJlID0gcHVzaEluZGV4QmluYXJ5KGMpOwoKICAgICAgICBvcHQgPSBwdXNoSW5kZXhDbGFzc2lmaWVyLmFyZ21heChmZWF0dXJlLCBiaW5hcnlGZWF0dXJlLCBudWxsLCBjb25maWcuZHJvcFByb2IpOwogICAgICAgIG9wdFRyYW5zID0gc3lzdGVtLmdldFRyYW5zaXRpb24oMiwgb3B0KTsKICAgICAgICAvL1N5c3RlbS5lcnIucHJpbnRsbihvcHRUcmFucyk7CiAgICAgIH0KICAgICAgZWxzZSB7CiAgICAgICAgU3lzdGVtLmVyci5wcmludGxuKCJXcm9uZyBhY3Rpb24gZm91bmQgZHVyaW5nIGluZmVyZW5jZToiICsgYy5sYXN0QWN0aW9uKTsKICAgICAgICBTeXN0ZW0uZXhpdCgxKTsKICAgICAgfQoKICAgICAgYy5hY3Rpb25TZXEuYWRkKG9wdFRyYW5zKTsKICAgICAgc3lzdGVtLmFwcGx5KGMsIG9wdFRyYW5zKTsKICAgIH0KICAgIGMud29yZFRvQ29uY2VwdCA9IHdvcmRUb0NvbmNlcHQ7CiAgICByZXR1cm4gYzsKICB9</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vQU1SQ29uZmlndXJhdGlvbiBjID0gc3lzdGVtLmluaXRpYWxDb25maWd1cmF0aW9uKHRva1NlcSk7Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIC8vaW50IG51bVRyYW5zID0gc3lzdGVtLm51bVRyYW5zaXRpb25zKDIpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>//c.graph.printGraph();
-          //System.err.println(oracle);
-          //if (oracle.contains(&quot;person&quot;)) {
-          //  System.err.println(&quot;oracle&quot;);
-          //  System.exit(1);
-          //}</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
-      <register name="8" type="4">
+      <register name="6" type="4">
         <text>//c.graph.printGraph();
           //System.err.println(oracle);
           //if (oracle.contains(&quot;person&quot;)) {
@@ -501,17 +490,23 @@
           //  System.exit(1);
           //}</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBTeXN0ZW0uZXhpdCgxKTsK</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>ajfdlja</last-search>
+      <last-search>predictIn</last-search>
       <last-offset />
-      <last-pattern>ajfdlja</last-pattern>
+      <last-pattern>predictIn</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -519,22 +514,6 @@
     </search>
     <history>
       <history-search>
-        <entry>predictIn</entry>
-        <entry>NE</entry>
-        <entry>generateConc</entry>
-        <entry>sampleRate</entry>
-        <entry>dataSampleIter</entry>
-        <entry>addExample</entry>
-        <entry>distTO</entry>
-        <entry>dist</entry>
-        <entry>bin</entry>
-        <entry>comment</entry>
-        <entry>over</entry>
-        <entry>IOU</entry>
-        <entry>train</entry>
-        <entry>genTrainExamples</entry>
-        <entry>conceptIDFe</entry>
-        <entry>Writer</entry>
         <entry>pushP</entry>
         <entry>featStr</entry>
         <entry>tokSeq</entry>
@@ -555,10 +534,9 @@
         <entry>tokIndex</entry>
         <entry>apply</entry>
         <entry>ajfdlja</entry>
+        <entry>predictIn</entry>
       </history-search>
       <history-cmd>
-        <entry>e! ~/vim_local/vimrc</entry>
-        <entry>vs Classifier.java</entry>
         <entry encoding="base64">JzwsJz5jYWxsIFZpc3VhbFNlYXJjaCgnYicp</entry>
         <entry>vs CaheTransition.java</entry>
         <entry>vs CacheTransition.java</entry>
