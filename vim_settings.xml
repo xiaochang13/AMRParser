@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491974234663">
-        <mark key="'" line="1878" column="37" />
-        <mark key="[" line="2048" column="0" />
-        <mark key="]" line="2048" column="0" />
-        <mark key="^" line="1878" column="36" />
-        <mark key="." line="2048" column="0" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491996180300">
+        <mark key="'" line="1982" column="23" />
+        <mark key="[" line="2323" column="104" />
+        <mark key="]" line="2323" column="110" />
+        <mark key="^" line="2323" column="110" />
+        <mark key="." line="2323" column="110" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -353,10 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1072" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1796" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="776" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="741" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="740" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="726" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="725" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -452,7 +448,11 @@
       <jump line="199" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2037" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2036" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1878" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2322" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1694" column="130" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1878" column="42" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1710" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1982" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -462,7 +462,7 @@
         <text encoding="base64">LCA=</text>
       </register>
       <register name="/" type="4">
-        <text>Indexer</text>
+        <text>genTrainExamples</text>
       </register>
       <register name="0" type="4">
         <text>arcLabel</text>
@@ -502,9 +502,9 @@
       </register>
     </registers>
     <search>
-      <last-search>Indexer</last-search>
+      <last-search>genTrainExamples</last-search>
       <last-offset />
-      <last-pattern>Indexer</last-pattern>
+      <last-pattern>genTrainExamples</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -512,12 +512,6 @@
     </search>
     <history>
       <history-search>
-        <entry>pushP</entry>
-        <entry>featStr</entry>
-        <entry>tokSeq</entry>
-        <entry>pushPop</entry>
-        <entry>commented</entry>
-        <entry>train(</entry>
         <entry>Over time</entry>
         <entry>saveCon</entry>
         <entry>conceptIDF</entry>
@@ -538,9 +532,10 @@
         <entry>loadAMR</entry>
         <entry>genTrainExample</entry>
         <entry>Indexer</entry>
+        <entry>feat</entry>
+        <entry>genTrainExamples</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5jYWxsIFZpc3VhbFNlYXJjaCgnYicp</entry>
         <entry>vs CaheTransition.java</entry>
         <entry>vs CacheTransition.java</entry>
         <entry>158</entry>
