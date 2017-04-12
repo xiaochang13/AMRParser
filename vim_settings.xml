@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1491998295787">
-        <mark key="'" line="138" column="18" />
-        <mark key="[" line="2069" column="60" />
-        <mark key="]" line="2070" column="9" />
-        <mark key="^" line="2070" column="9" />
-        <mark key="." line="2070" column="9" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492004593763">
+        <mark key="'" line="273" column="4" />
+        <mark key="[" line="222" column="56" />
+        <mark key="]" line="224" column="20" />
+        <mark key="." line="224" column="20" />
+        <mark key="^" line="224" column="20" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -353,10 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="522" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="747" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="56" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="700" column="54" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="324" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2161" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="406" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -453,58 +449,59 @@
       <jump line="2069" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="178" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="138" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="765" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="84" column="53" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2047" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="232" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgIHB1c2hQb3BGZWF0U3RyLnRyaW0oKTsK</text>
+        <text encoding="base64">ICAgICAgICAgIGlmICh3b3JkMmNob2ljZXMuY29udGFpbnNLZXkoKSkK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">LCA=</text>
+        <text>1</text>
       </register>
       <register name="/" type="4">
-        <text>trim</text>
+        <text>emission</text>
       </register>
       <register name="0" type="4">
-        <text>arcLabel</text>
+        <text encoding="base64">TWFwPEludGVnZXIsIE1hcDxJbnRlZ2VyLCBJbnRlZ2VyPj5lbWlzc2lvblNjb3Jlcw==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIHB1c2hQb3BGZWF0U3RyLnRyaW0oKTsK</text>
+        <text encoding="base64">ICAgICAgICAgIGlmICh3b3JkMmNob2ljZXMuY29udGFpbnNLZXkoKSkK</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>//feature = conceptIDFeatures(c);
-        //binaryFeature = conceptIDBinary(c);</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text>//feature = pushPopFeatures(c);
-        //binaryFeature = pushPopBinary(c);
-        //feature = binaryChoiceFeatures(c, i);</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgaWYgKHB1c2hQb3BFbWlzc2lvblNjb3JlcykK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIC8vZG91YmxlIFtdc2NvcmVzOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">TWFwPEludGVnZXIsIE1hcDxJbnRlZ2VyLCBJbnRlZ2VyPj5lbWlzc2lvblNjb3JlcywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTWFwPFN0cmluZywgSW50ZWdlcj5mZWF0SW5kZXhlciwgTWFwPFN0cmluZywgSW50ZWdlcj5sYWJlbEluZGV4ZXI=</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgIHB1c2hQb3BGZWF0U3RyLnRyaW0oKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAvL0xpc3Q8QU1SR3JhcGg+IHByZWRpY3RlZCA9IGRldlNlbnRzLnN0cmVhbSgpLm1hcCh0aGlzOjpwcmVkaWN0SW5uZXIpLmNvbGxlY3QodG9MaXN0KCkpOwoKICAgICAgICAvLyAgZG91YmxlIHVhcyA9IGNvbmZpZy5ub1B1bmMgPyBzeXN0ZW0uZ2V0VUFTbm9QdW5jKGRldlNlbnRzLCBwcmVkaWN0ZWQsIGRldlRyZWVzKSA6IHN5c3RlbS5nZXRVQVMoZGV2U2VudHMsIHByZWRpY3RlZCwgZGV2VHJlZXMpOwogICAgICAgIC8vICBTeXN0ZW0uZXJyLnByaW50bG4oIlVBUzogIiArIHVhcyk7CgogICAgICAgIC8vICBpZiAoY29uZmlnLnNhdmVJbnRlcm1lZGlhdGUgJiYgdWFzID4gYmVzdFVBUykgewogICAgICAgIC8vICAgIFN5c3RlbS5lcnIucHJpbnRmKCJFeGNlZWRzIGJlc3QgcHJldmlvdXMgVUFTIG9mICVmLiBTYXZpbmcgbW9kZWwgZmlsZS4uJW4iLCBiZXN0VUFTKTsKCiAgICAgICAgLy8gICAgYmVzdFVBUyA9IHVhczsKICAgICAgICAvL3dyaXRlTW9kZWxGaWxlKG1vZGVsRmlsZSwgbnVsbCk7CiAgICAgICAgLy8gIH0KICAgICAgICAvL3dyaXRlTW9kZWxGaWxlKG1vZGVsRmlsZSk7CiAgICAgIH0=</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>trim</last-search>
+      <last-search>emission</last-search>
       <last-offset />
-      <last-pattern>trim</last-pattern>
+      <last-pattern>emission</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -534,6 +531,8 @@
         <entry>genTrainExamples</entry>
         <entry>pushPopF</entry>
         <entry>trim</entry>
+        <entry>loadEmiss</entry>
+        <entry>emission</entry>
       </history-search>
       <history-cmd>
         <entry>vs CaheTransition.java</entry>
