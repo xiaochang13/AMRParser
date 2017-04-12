@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492008283395">
-        <mark key="'" line="2211" column="16" />
-        <mark key="[" line="2274" column="46" />
-        <mark key="]" line="2274" column="47" />
-        <mark key="." line="2274" column="47" />
-        <mark key="^" line="2274" column="47" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492009522632">
+        <mark key="'" line="2299" column="10" />
+        <mark key="[" line="2209" column="45" />
+        <mark key="]" line="2209" column="44" />
+        <mark key="." line="2209" column="44" />
+        <mark key="^" line="2209" column="44" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -353,11 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="621" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="244" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="330" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="597" column="36" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="333" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="340" column="8" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="616" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="332" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
@@ -453,59 +448,60 @@
       <jump line="363" column="62" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2254" column="48" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2211" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="398" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2298" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="74" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="504" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="2296" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>++</text>
+        <text>//</text>
       </register>
       <register name="-" type="4">
-        <text>++</text>
+        <text>//</text>
       </register>
       <register name="/" type="4">
-        <text>tokSet</text>
+        <text>pushPopCan</text>
       </register>
       <register name="0" type="4">
         <text>wordToConcept.put(wordIndex, c.graph.nextConceptId());</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IGNvbmZpZy5DQUNIRTsgaSsrKSB7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIGludCBjYWNoZVdvcmRJbmRleCA9IGMuY2FjaGUuZ2V0KGkpLmZpcnN0Owo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAvL2ZvciAoaW50IGkgPSBjb25maWcuQ0FDSEUtMTsgaSA+PSAwOyBpLS0pIHsgLy8K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAvL29wdCA9IGFyZ21heChzY29yZXMsIGNob2ljZXMpOwo=</text>
+        <text encoding="base64">ICAgICAgICAvL2ZvciAoaW50IGkgPSAwOyBpIDwgY29uZmlnLkNBQ0hFOyBpKyspIHsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IGNvbmZpZy5DQUNIRTsgaSsrKSB7Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text>//int wordID = getWordID(currWord);
-
-        //for (int curr: conceptIDClassifier.getDict().get(wordID)) {
-        //  choices.add(curr);
-        }</text>
-      </register>
-      <register name="9" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
+      </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>w!</text>
       </register>
     </registers>
     <search>
-      <last-search>tokSet</last-search>
+      <last-search>pushPopCan</last-search>
       <last-offset />
-      <last-pattern>tokSet</last-pattern>
+      <last-pattern>pushPopCan</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -537,9 +533,10 @@
         <entry>loadEmiss</entry>
         <entry>emission</entry>
         <entry>evaluate(</entry>
-        <entry>genTrainExamples</entry>
         <entry>tokS</entry>
         <entry>tokSet</entry>
+        <entry>genTrainExamples</entry>
+        <entry>pushPopCan</entry>
       </history-search>
       <history-cmd>
         <entry>vs CaheTransition.java</entry>
@@ -560,8 +557,8 @@
         <entry>716</entry>
         <entry>1</entry>
         <entry>130</entry>
-        <entry>w!</entry>
         <entry>w</entry>
+        <entry>w!</entry>
       </history-cmd>
       <history-expr />
       <history-input />
