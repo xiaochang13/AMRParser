@@ -59,8 +59,8 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492026638086">
-        <mark key="'" line="2177" column="10" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492030846695">
+        <mark key="'" line="2156" column="24" />
         <mark key="[" line="2299" column="8" />
         <mark key="]" line="2299" column="9" />
         <mark key="." line="2299" column="9" />
@@ -353,10 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2154" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2114" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="281" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1952" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="168" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="278" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="136" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -453,6 +449,10 @@
       <jump line="2195" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2187" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2177" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2095" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2141" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2142" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2156" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -462,7 +462,7 @@
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>System.err</text>
+        <text>feat</text>
       </register>
       <register name="0" type="4">
         <text>optTrans = &quot;conID:&quot; + Config.UNKNOWN;
@@ -500,9 +500,9 @@
       </register>
     </registers>
     <search>
-      <last-search>System.err</last-search>
+      <last-search>feat</last-search>
       <last-offset />
-      <last-pattern>System.err</last-pattern>
+      <last-pattern>feat</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -527,7 +527,6 @@
         <entry>loadAMR</entry>
         <entry>genTrainExample</entry>
         <entry>Indexer</entry>
-        <entry>feat</entry>
         <entry>pushPopF</entry>
         <entry>trim</entry>
         <entry>loadEmiss</entry>
@@ -556,6 +555,7 @@
         <entry>cands</entry>
         <entry>evaluate(</entry>
         <entry>System.err</entry>
+        <entry>feat</entry>
       </history-search>
       <history-cmd>
         <entry>vs CaheTransition.java</entry>
