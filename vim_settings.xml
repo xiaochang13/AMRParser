@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492030846695">
-        <mark key="'" line="2156" column="24" />
-        <mark key="[" line="2299" column="8" />
-        <mark key="]" line="2299" column="9" />
-        <mark key="." line="2299" column="9" />
-        <mark key="^" line="2299" column="9" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492038688436">
+        <mark key="'" line="2068" column="17" />
+        <mark key="[" line="2196" column="10" />
+        <mark key="]" line="2196" column="11" />
+        <mark key="." line="2196" column="11" />
+        <mark key="^" line="2196" column="11" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -353,11 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="168" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="278" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="136" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="176" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="159" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="294" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1954" column="37" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2250" column="49" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -453,6 +448,11 @@
       <jump line="2141" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2142" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2156" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1752" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="265" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2082" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2060" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2068" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -462,7 +462,7 @@
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>feat</text>
+        <text>argmaxCho</text>
       </register>
       <register name="0" type="4">
         <text>optTrans = &quot;conID:&quot; + Config.UNKNOWN;
@@ -500,9 +500,9 @@
       </register>
     </registers>
     <search>
-      <last-search>feat</last-search>
+      <last-search>argmaxCho</last-search>
       <last-offset />
-      <last-pattern>feat</last-pattern>
+      <last-pattern>argmaxCho</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -556,6 +556,9 @@
         <entry>evaluate(</entry>
         <entry>System.err</entry>
         <entry>feat</entry>
+        <entry>conceptID un</entry>
+        <entry>features never</entry>
+        <entry>argmaxCho</entry>
       </history-search>
       <history-cmd>
         <entry>vs CaheTransition.java</entry>
