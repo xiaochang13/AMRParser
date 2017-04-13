@@ -59,8 +59,8 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492105548295">
-        <mark key="'" line="2252" column="42" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492106142340">
+        <mark key="'" line="808" column="13" />
         <mark key="[" line="2245" column="25" />
         <mark key="]" line="2245" column="40" />
         <mark key="." line="2245" column="40" />
@@ -353,8 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2236" column="45" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="892" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="908" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="950" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="962" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -453,6 +451,8 @@
       <jump line="2254" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2087" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2252" column="42" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="557" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="808" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -462,7 +462,7 @@
         <text>true</text>
       </register>
       <register name="/" type="4">
-        <text>arcBinaryCan</text>
+        <text>pushPopF</text>
       </register>
       <register name="0" type="4">
         <text>optTrans = &quot;conID:&quot; + Config.UNKNOWN;
@@ -500,9 +500,9 @@
       </register>
     </registers>
     <search>
-      <last-search>arcBinaryCan</last-search>
+      <last-search>pushPopF</last-search>
       <last-offset />
-      <last-pattern>arcBinaryCan</last-pattern>
+      <last-pattern>pushPopF</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -527,7 +527,6 @@
         <entry>loadAMR</entry>
         <entry>genTrainExample</entry>
         <entry>Indexer</entry>
-        <entry>pushPopF</entry>
         <entry>trim</entry>
         <entry>loadEmiss</entry>
         <entry>emission</entry>
@@ -565,6 +564,7 @@
         <entry>wdist=</entry>
         <entry>ddist</entry>
         <entry>arcBinaryCan</entry>
+        <entry>pushPopF</entry>
       </history-search>
       <history-cmd>
         <entry>vs CaheTransition.java</entry>
