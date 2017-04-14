@@ -59,8 +59,8 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492169391072">
-        <mark key="'" line="2199" column="44" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492172158996">
+        <mark key="'" line="701" column="27" />
         <mark key="[" line="2528" column="106" />
         <mark key="]" line="2528" column="110" />
         <mark key="^" line="2528" column="110" />
@@ -353,10 +353,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2247" column="46" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2239" column="45" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="82" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="308" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1840" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="309" column="3" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="386" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -405,7 +401,6 @@
       <jump line="100" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="613" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="706" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="707" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="711" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="712" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="713" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -453,6 +448,11 @@
       <jump line="2527" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1770" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2199" column="44" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="707" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="719" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="794" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="701" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="571" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -462,7 +462,7 @@
         <text>true</text>
       </register>
       <register name="/" type="4">
-        <text>pushPopFeat</text>
+        <text>children</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">aWYgKGxlbW1hMmNob2ljZXMuY29udGFpbnNLZXkobGVtbWEpKSB7CiAgICAgICAgICBpZiAobWF4Q291bnQgPCAxNSkgewogICAgICAgICAgICBTZXQ8SW50ZWdlcj5jaG9pY2VzID0gbGVtbWEyY2hvaWNlcy5nZXQobGVtbWEpOwogICAgICAgICAgICBpZiAoY2hvaWNlcy5zaXplKCkgPT0gMSAmJiBjaG9pY2VzLmNvbnRhaW5zKG51bGxJbmRleCkpCiAgICAgICAgICAgICAgbGVtbWEyY2hvaWNlcy5yZW1vdmUobGVtbWEpOwogICAgICAgICAgfQogICAgICAgIH0=</text>
@@ -536,9 +536,9 @@
       </register>
     </registers>
     <search>
-      <last-search>pushPopFeat</last-search>
+      <last-search>children</last-search>
       <last-offset />
-      <last-pattern>pushPopFeat</last-pattern>
+      <last-pattern>children</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -606,6 +606,7 @@
         <entry>conceptIDRatio</entry>
         <entry>outputDir</entry>
         <entry>pushPopFeat</entry>
+        <entry>children</entry>
       </history-search>
       <history-cmd>
         <entry>vs CaheTransition.java</entry>
