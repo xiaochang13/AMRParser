@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492124908889">
-        <mark key="'" line="242" column="24" />
-        <mark key="[" line="256" column="34" />
-        <mark key="]" line="256" column="37" />
-        <mark key="^" line="256" column="37" />
-        <mark key="." line="256" column="37" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492148411759">
+        <mark key="'" line="1832" column="118" />
+        <mark key="[" line="1919" column="28" />
+        <mark key="]" line="1919" column="34" />
+        <mark key="^" line="1919" column="34" />
+        <mark key="." line="1919" column="34" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -348,14 +348,11 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/CoreAnnotations.java" timestamp="1481288218667">
         <mark key="'" line="77" column="65" />
       </file>
-      <file name="/fragment.java" timestamp="1492016476740">
+      <file name="/fragment.java" timestamp="1492149041871">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="2152" column="51" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2153" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2304" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="67" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="2292" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="223" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
@@ -453,55 +450,58 @@
       <jump line="2120" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1874" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="238" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2529" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1151" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1832" column="118" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>lemma</text>
+        <text>outputDir</text>
       </register>
       <register name="-" type="4">
-        <text>lemma</text>
+        <text>outputDir</text>
       </register>
       <register name="/" type="4">
-        <text>thresho</text>
+        <text>evaluate(</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">aWYgKGxlbW1hMmNob2ljZXMuY29udGFpbnNLZXkobGVtbWEpKSB7CiAgICAgICAgICBpZiAobWF4Q291bnQgPCAxNSkgewogICAgICAgICAgICBTZXQ8SW50ZWdlcj5jaG9pY2VzID0gbGVtbWEyY2hvaWNlcy5nZXQobGVtbWEpOwogICAgICAgICAgICBpZiAoY2hvaWNlcy5zaXplKCkgPT0gMSAmJiBjaG9pY2VzLmNvbnRhaW5zKG51bGxJbmRleCkpCiAgICAgICAgICAgICAgbGVtbWEyY2hvaWNlcy5yZW1vdmUobGVtbWEpOwogICAgICAgICAgfQogICAgICAgIH0=</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgU3RyaW5nIG91dHB1dEZpbGUgPSBvdXRwdXREaXIgKyAiL2V2YWwiICsgIi50eHQiOwo=</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">Zm9yIChTdHJpbmcgY3VyciA6IHdvcmQyY2hvaWNlcy5rZXlTZXQoKSkgewogICAgICAgICAgU2V0PEludGVnZXI+IGNob2ljZXMgPSB3b3JkMmNob2ljZXMuZ2V0KGN1cnIpOwogICAgICAgICAgaWYgKG1heENvdW50IDwgMTUpCiAgICAgICAgICAgIGlmIChjaG9pY2VzLnNpemUoKSA9PSAxICYmIGNob2ljZXMuY29udGFpbnMobnVsbEluZGV4KSkKICAgICAgICAgICAgICB3b3JkMmNob2ljZXMucmVtb3ZlKGN1cnIpOwogICAgICAgIH0=</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">aWYgKG1heENvdW50IDwgMTUpCiAgICAgICAgICAgIGlmIChjaG9pY2VzLnNpemUoKSA9PSAxICYmIGNob2ljZXMuY29udGFpbnMobnVsbEluZGV4KSkKICAgICAgICAgICAgICB3b3JkMmNob2ljZXMucmVtb3ZlKGN1cnIpOwogICAgICAgIH0=</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgIFNldDxJbnRlZ2VyPiBjaG9pY2VzID0gd29yZDJjaG9pY2VzLmdldChjdXJyKTsK</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBmb3IgKFN0cmluZyBjdXJyIDogd29yZDJjaG9pY2VzLmtleVNldCgpKSB7Cg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">aWYgKGNvdW50ID4gbWF4Q291bnQpCiAgICAgICAgICAgIG1heENvdW50ID0gY291bnQ7</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICBwdWJsaWMgTWFwPEludGVnZXIsIE1hcDxJbnRlZ2VyLCBJbnRlZ2VyPj5hcgo=</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">c3Q8RGVwZW5kZW5jeVRyZWU+IHRyYWluVHJlZXMgPSBuZXcgQXJyYXlMaXN0PERlcGVuZGVuY3lUcmVlPigpOwogICAgICBVdGlsLmxvYWRBTVJGaWxlKHRyYWluRGlyLCB0cmFpblNlbnRzLCB0cmFpbkxlbW1hcywgdHJhaW5Qb3NzLCB0cmFpblRyZWVzLCB0cmFpbkdyYXBocyk7CgogICAgICBmb3IgKERlcGVuZGVuY3lUcmVlIHRyZWUgOiB0cmFpblRyZWVzKSB7CiAgICAgICAgdHJlZS5idWlsZERpc3RzKGNvbmZpZy5kZXBEaXN0VGhyZXNob2xkKTsKICAgICAgICAvL3RyZWUucHJpbnREZXAodHJhaW5TZW50cy5nZXQoc2VudF9pbmRleCkpOwogICAgICB9CgogICAgICBMaXN0PFN0cmluZ1tdPiBkZXZTZW50cyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgICBMaXN0PFN0cmluZ1tdPiBkZXZMZW1tYXMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgICAgTGlzdDxTdHJpbmdbXT4gZGV2UG9zcyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgICBMaXN0PEFNUkdyYXBoPiBkZXZHcmFwaHMgPSBuZXcgQXJyYXlMaXN0PEFNUkdyYXBoPigpOwogICAgICBMaXN0PERlcGVuZGVuY3lUcmVlPiBkZXZUcmVlcyA9IG5ldyBBcnJheUxpc3Q8RGVwZW5kZW5jeVRyZWU+KCk7CgogICAgICBpbnQgblRyYWluID0gdHJhaW5TZW50cy5zaXplKCk7CiAgICAgIFNldDxJbnRlZ2VyPiBkZXZUcmFpbiA9IG5ldyBIYXNoU2V0PD4oKTsKCiAgICAgIGdlbkRpY3Rpb25hcmllcyh0cmFpblNlbnRzLCB0cmFpbkxlbW1hcywgdHJhaW5Qb3NzLCB0cmFpblRyZWVzLCB0cmFpbkdyYXBocyk7CiAgICAgIGdlbmVyYXRlQ29uY2VwdE1hcCh0cmFpblNlbnRzLCB0cmFpbkxlbW1hcywgdHJhaW5Qb3NzLCB0cmFpbkdyYXBocyk7CgogICAgICBzYXZlQ29uY2VwdElEKG91dHB1dERpcik7CiAgICAgIHNhdmVNTEVDb25jZXB0SUQob3V0cHV0RGlyKTsKCiAgICAgIC8vTk9URTogcmVtb3ZlIC1OVUxMLSwgYW5kIHRoZSBwYXNzIGl0IHRvIFBhcnNpbmdTeXN0ZW0KICAgICAgTGlzdDxTdHJpbmc+IGNEaWN0ID0gbmV3IEFycmF5TGlzdDw+KGtub3duQ29uY2VwdHMpOwogICAgICBMaXN0PFN0cmluZz4gbERpY3QgPSBuZXcgQXJyYXlMaXN0PD4oa25vd25BcmNzKTsKICAgICAgU2V0PFN0cmluZz4gdVNldCA9IG5ldyBIYXNoU2V0PD4odW5hbGlnbmVkU2V0KTsKCiAgICAgIHN5c3RlbSA9IG5ldyBDYWNoZVRyYW5zaXRpb24oY0RpY3QsIGxEaWN0LCB1U2V0LCBjb25maWcuQ0FDSEUpOwogICAgICBjb25jZXB0SUREaWN0ID0gc3lzdGVtLm1ha2VUcmFuc2l0aW9ucyh3b3JkQ29uY2VwdENvdW50cyk7CgogICAgICBpbnQgdW5rV29yZCA9IGdldFdvcmRJRChDb25maWcuVU5LTk9XTik7CiAgICAgIGlmICghY29uY2VwdElERGljdC5jb250YWluc0tleSh1bmtXb3JkKSkgewogICAgICAgIFNldDxJbnRlZ2VyPiB1bmtTZXQgPSBuZXcgSGFzaFNldDw+KCk7CiAgICAgICAgaW50IHVua0NvbiA9IHN5c3RlbS5jb25JRFVOS05PVygpOwogICAgICAgIHVua1NldC5hZGQodW5rQ29uKTsKICAgICAgICBjb25jZXB0SUREaWN0LnB1dCh1bmtXb3JkLCB1bmtTZXQpOwogICAgICB9CgogICAgICBidWlsZENvbnN0U2V0KCk7CgogICAgICBsb25nIHRpbWUxID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCk7CgogICAgICBzZXR1cENsYXNzaWZpZXJGb3JUcmFpbmluZyh0cmFpblNlbnRzLCB0cmFpbkxlbW1hcywgdHJhaW5Qb3NzLCB0cmFpblRyZWVzLCB0cmFpbkdyYXBocywKICAgICAgICAgICAgICBkZXZTZW50cywgZGV2TGVtbWFzLCBkZXZQb3NzLCBkZXZUcmVlcywgZGV2R3JhcGhzLCBlbWJlZEZpbGUsIG91dHB1dERpciwgZGV2VHJhaW4pOyAgLy9JZiBoYXMgZGV2LCBhbHNvIGV2YWx1YXRlIG9uIHRoZSBkZXYgc2V0CgogICAgICBTeXN0ZW0uZXJyLnByaW50bG4oIlRpbWUgZm9yIGxvYWRpbmcgZXhhbXBsZXM6ICIgKyAoU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgLSB0aW1lMSkgLyAxMDAwLjAgKyAiIChzKSIpOwogICAgICBmb3IgKGludCBpID0gMDsgaSA8IDEwMDsgaSsrKSB7CiAgICAgICAgaWYgKCFub25Db25uZWN0RGlzdFRvQ291bnQuY29udGFpbnNLZXkoaSkpCiAgICAgICAgICBub25Db25uZWN0RGlzdFRvQ291bnQucHV0KGksIDApOwogICAgICAgIGlmICghZGVwTm9uQ29ubmVjdERpc3RUb0NvdW50LmNvbnRhaW5zS2V5KGkpKQogICAgICAgICAgZGVwTm9uQ29ubmVjdERpc3RUb0NvdW50LnB1dChpLCAwKTsKICAgICAgfQoKICAgICAgdHJ5IHsKICAgICAgICBTdHJpbmcgb3V0cHV0RmlsZSA9ICJjb25uZWN0RGlzdC50eHQiOwogICAgICAgIG91dHB1dFdyaXRlciA9IElPVXRpbHMuZ2V0UHJpbnRXcml0ZXIob3V0cHV0RmlsZSk7CiAgICAgICAgb3V0cHV0V3JpdGVyLndyaXRlKCJDb25uZWN0IGRpc3RyaWJ1dGlvbjogKHdvcmQgZGlzdGFuY2UpXG4iKTsKICAgICAgICBmb3IgKGludCBpIDogY29ubmVjdFdvcmREaXN0VG9Db3VudC5rZXlTZXQoKSkgewogICAgICAgICAgaWYgKGkgPj0gNDApCiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgU3lzdGVtLmVyci5wcmludGxuKCJXb3JkIGRpc3RhbmNlICIgKyBpICsgIiwgY29ubmVjdCB0aW1lczogIiArIGNvbm5lY3RXb3JkRGlzdFRvQ291bnQuZ2V0KGkpICsgIiwgbm9uIGNvbm5lY3QiICsKICAgICAgICAgICAgICAgICAgInRpbWVzOiAiICsgbm9uQ29ubmVjdERpc3RUb0NvdW50LmdldChpKSArICJcbiIpOwogICAgICAgIH0KCiAgICAgICAgb3V0cHV0V3JpdGVyLndyaXRlKCJcblxuQ29ubmVjdCBkaXN0cmlidXRpb246IChkZXBlbmRlbmN5IGRpc3RhbmNlKVxuIik7CiAgICAgICAgZm9yIChpbnQgaSA6IGRlcENvbm5lY3REaXN0VG9Db3VudC5rZXlTZXQoKSkgewogICAgICAgICAgaWYgKGkgPj0gNDApCiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgU3lzdGVtLmVyci5wcmludGxuKCJEZXBlbmRlbmN5IGRpc3RhbmNlICIgKyBpICsgIiwgY29ubmVjdCB0aW1lczogIiArIGRlcENvbm5lY3REaXN0VG9Db3VudC5nZXQoaSkgKyAiLCBub24gY29ubmVjdCIgKwogICAgICAgICAgICAgICAgICAidGltZXM6ICIgKyBkZXBOb25Db25uZWN0RGlzdFRvQ291bnQuZ2V0KGkpICsgIlxuIik7CiAgICAgICAgfQoKICAgICAgICBvdXRwdXRXcml0ZXIuY2xvc2UoKTsKICAgICAgfSBjYXRjaCAoSU9FeGNlcHRpb24gZSkgewogICAgICAgIHRocm93IG5ldyBSdW50aW1lSU9FeGNlcHRpb24oZSk7CiAgICAgIH0KICAgIH0KICAgIGVsc2UgewogICAgICBMaXN0PFN0cmluZ1tdPiBldmFsU2VudHMgPSBudWxsOwogICAgICBMaXN0PFN0cmluZ1tdPiBldmFsTGVtbWFzID0gbnVsbDsKICAgICAgTGlzdDxTdHJpbmdbXT4gZXZhbFBvc3MgPSBudWxsOwogICAgICBMaXN0PERlcGVuZGVuY3lUcmVlPiBldmFsVHJlZXMgPSBudWxsOwoKICAgICAgb3V0cHV0QWN0aW9uQ2hvaWNlcyA9IG5ldyBIYXNoU2V0PD4oKTsKCiAgICAgIFN0cmluZyBhcmNMYWJlbEZpbGUgPSBjb25maWcuaW5kZXhEaXIgKyAiL2FyY2xhYmVsX291dHB1dF9jaG9pY2VzLnR4dCI7CgogICAgICBmb3IgKFN0cmluZyBsaW5lOiBJT1V0aWxzLnJlYWRMaW5lcyhhcmNMYWJlbEZpbGUpKSB7CiAgICAgICAgbGluZSA9IGxpbmUudHJpbSgpOwogICAgICAgIGlmICghbGluZS5lcXVhbHMoIiIpKSB7CiAgICAgICAgICBvdXRwdXRBY3Rpb25DaG9pY2VzLmFkZChsaW5lKTsKICAgICAgICB9CiAgICAgIH0KCiAgICAgIENvbmZpZy5wdXNoSW5kZXhUb2tlbnMgPSAyICogY29uZmlnLkNBQ0hFOwoKICAgICAgc3lzdGVtID0gbmV3IENhY2hlVHJhbnNpdGlvbihudWxsLCBudWxsLCBudWxsLCBjb25maWcuQ0FDSEUpOwogICAgICBidWlsZENvbnN0U2V0KCk7CgogICAgICBsb2FkSW5kZXhlcihjb25maWcuaW5kZXhEaXIpOwoKICAgICAgY29uY2VwdDJvdXRnbyA9IG5ldyBIYXNoTWFwPD4oKTsKICAgICAgY29uY2VwdDJpbmNvbWUgPSBuZXcgSGFzaE1hcDw+KCk7CiAgICAgIFN0cmluZyBvdXRnb19maWxlID0gY29uZmlnLmluZGV4RGlyICsgIi9vdXRnb2luZ19lZGdlcy50eHQiOwogICAgICBTdHJpbmcgaW5jb21lX2ZpbGUgPSBjb25maWcuaW5kZXhEaXIgKyAiL2luY29taW5nX2VkZ2VzLnR4dCI7CgogICAgICBsb2FkQXJjTWFwKG91dGdvX2ZpbGUsIGNvbmNlcHQyb3V0Z28sIDAuMDEpOwogICAgICBsb2FkQXJjTWFwKGluY29tZV9maWxlLCBjb25jZXB0MmluY29tZSwgMC4wMSk7CgogICAgICBsb2FkRGVmYXVsdEFyYw==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>thresho</last-search>
+      <last-search>evaluate(</last-search>
       <last-offset />
-      <last-pattern>thresho</last-pattern>
+      <last-pattern>evaluate(</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -550,7 +550,6 @@
         <entry>conID</entry>
         <entry>currTra</entry>
         <entry>cands</entry>
-        <entry>evaluate(</entry>
         <entry>System.err</entry>
         <entry>feat</entry>
         <entry>conceptID un</entry>
@@ -564,8 +563,9 @@
         <entry>arcBinaryCan</entry>
         <entry>pushPopF</entry>
         <entry>conceptIDF</entry>
-        <entry>evaluate</entry>
         <entry>thresho</entry>
+        <entry>evaluate</entry>
+        <entry>evaluate(</entry>
       </history-search>
       <history-cmd>
         <entry>vs CaheTransition.java</entry>
