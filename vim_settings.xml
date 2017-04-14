@@ -59,12 +59,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492153186291">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492153928833">
         <mark key="'" line="823" column="158" />
         <mark key="[" line="2528" column="106" />
-        <mark key="]" line="2528" column="109" />
-        <mark key="^" line="2528" column="109" />
-        <mark key="." line="2528" column="109" />
+        <mark key="]" line="2528" column="110" />
+        <mark key="^" line="2528" column="110" />
+        <mark key="." line="2528" column="110" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1480600578664">
         <mark key="'" line="451" column="0" />
@@ -348,7 +348,7 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/CoreAnnotations.java" timestamp="1481288218667">
         <mark key="'" line="77" column="65" />
       </file>
-      <file name="/fragment.java" timestamp="1492153101873">
+      <file name="/fragment.java" timestamp="1492153940547">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
@@ -456,10 +456,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>false</text>
+        <text>true</text>
       </register>
       <register name="-" type="4">
-        <text>false</text>
+        <text>true</text>
       </register>
       <register name="/" type="4">
         <text>outputDir</text>
