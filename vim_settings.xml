@@ -200,6 +200,9 @@
         <mark key="n" line="61" column="3" />
         <mark key="." line="864" column="16" />
       </file>
+      <file name="$USER_HOME$/dragnn/models/syntaxnet/dragnn/conll2017/make_parser_spec.py" timestamp="1496339315144">
+        <mark key="'" line="32" column="24" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1480518352122">
         <mark key="'" line="686" column="0" />
         <mark key="[" line="874" column="4" />
@@ -315,6 +318,9 @@
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
+      <file name="/Library/Python/2.7/site-packages/dragnn/python/spec_builder.py" timestamp="1496339466240">
+        <mark key="'" line="49" column="26" />
+      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/NeuralParam.java" timestamp="1489550491214">
         <mark key="'" line="16" column="40" />
         <mark key="[" line="20" column="4" />
@@ -353,10 +359,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2195" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2187" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2177" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2095" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2141" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2142" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2156" column="24" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -453,6 +455,10 @@
       <jump line="1792" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1854" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1075" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="45" column="4" filename="/Library/Python/2.7/site-packages/dragnn/python/spec_builder.py" />
+      <jump line="32" column="24" filename="$USER_HOME$/dragnn/models/syntaxnet/dragnn/conll2017/make_parser_spec.py" />
+      <jump line="49" column="26" filename="/Library/Python/2.7/site-packages/dragnn/python/spec_builder.py" />
+      <jump line="3" column="0" filename="/Library/Python/2.7/site-packages/dragnn/protos/spec_pb2.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -532,7 +538,7 @@
         <text encoding="base64">aWYgKGNvdW50ID4gbWF4Q291bnQpCiAgICAgICAgICAgIG1heENvdW50ID0gY291bnQ7</text>
       </register>
       <register name=":" type="4">
-        <text>w!</text>
+        <text>1</text>
       </register>
     </registers>
     <search>
@@ -542,54 +548,10 @@
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>arcBinary</entry>
-        <entry>arcBinaryFeat</entry>
-        <entry>arcBinaryF</entry>
-        <entry>arcBinaryFeats</entry>
-        <entry>getCon</entry>
-        <entry>getConceptCategory</entry>
-        <entry>arcConnect</entry>
-        <entry>System.exi</entry>
-        <entry>tokIndex</entry>
-        <entry>ajfdlja</entry>
-        <entry>predictIn</entry>
-        <entry>indexer</entry>
-        <entry>emissionScore</entry>
-        <entry>loadAMR</entry>
-        <entry>genTrainExample</entry>
-        <entry>Indexer</entry>
-        <entry>trim</entry>
-        <entry>loadEmiss</entry>
-        <entry>emission</entry>
-        <entry>tokS</entry>
-        <entry>tokSet</entry>
-        <entry>genTrainExamples</entry>
-        <entry>pushPopCan</entry>
-        <entry>arcBin</entry>
-        <entry>currTrans</entry>
-        <entry>pushIndex</entry>
-        <entry>system</entry>
-        <entry>train(</entry>
-        <entry>word2choices</entry>
-        <entry>loadAr</entry>
-        <entry>apply</entry>
-        <entry>outAction</entry>
-        <entry>if (feat)</entry>
-        <entry>(feat)</entry>
-        <entry>System.err.p</entry>
-        <entry>loadArc</entry>
-        <entry>default</entry>
-        <entry>features ne</entry>
-        <entry>conID</entry>
-        <entry>currTra</entry>
-        <entry>cands</entry>
-        <entry>System.err</entry>
-        <entry>feat</entry>
-        <entry>conceptID un</entry>
         <entry>features never</entry>
         <entry>argmaxCho</entry>
         <entry>conceptIDFeatures</entry>
@@ -612,7 +574,6 @@
         <entry>depConnectDistTocount</entry>
       </history-search>
       <history-cmd>
-        <entry>vs CaheTransition.java</entry>
         <entry>vs CacheTransition.java</entry>
         <entry>158</entry>
         <entry>wq</entry>
@@ -628,11 +589,11 @@
         <entry>e ~/buffer</entry>
         <entry>310</entry>
         <entry>716</entry>
-        <entry>1</entry>
         <entry>130</entry>
         <entry encoding="base64">JzwsJz5jYWxsIFZpc3VhbFNlYXJjaCgnYicp</entry>
         <entry>w</entry>
         <entry>w!</entry>
+        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
