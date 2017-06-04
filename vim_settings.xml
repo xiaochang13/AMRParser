@@ -76,6 +76,9 @@
       <file name="$USER_HOME$/SHRG-induction/hypergraph.py" timestamp="1479660489692">
         <mark key="'" line="319" column="13" />
       </file>
+      <file name="$USER_HOME$/dragnn/models/syntaxnet/dragnn/python/dragnn_ops.py" timestamp="1496544918598">
+        <mark key="'" line="20" column="29" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/amr_utils.py" timestamp="1478441703990">
         <mark key="'" line="26" column="24" />
         <mark key="[" line="55" column="4" />
@@ -359,9 +362,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2322" column="74" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2285" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2260" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2244" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2201" column="36" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2190" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -459,6 +459,9 @@
       <jump line="40" column="2" filename="$USER_HOME$/dragnn/models/syntaxnet/dragnn/conll2017/make_parser_spec.py" />
       <jump line="96" column="25" filename="$USER_HOME$/dragnn/models/syntaxnet/dragnn/conll2017/make_parser_spec.py" />
       <jump line="860" column="0" filename="/Library/Python/2.7/site-packages/dragnn/protos/spec_pb2.py" />
+      <jump line="19" column="29" filename="$USER_HOME$/dragnn/models/syntaxnet/dragnn/python/dragnn_ops.py" />
+      <jump line="310" column="0" filename="/Library/Python/2.7/site-packages/dragnn/core/ops/gen_dragnn_bulk_ops.py" />
+      <jump line="20" column="29" filename="$USER_HOME$/dragnn/models/syntaxnet/dragnn/python/dragnn_ops.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
