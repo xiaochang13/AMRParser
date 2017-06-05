@@ -273,6 +273,9 @@
         <mark key="." line="34" column="19" />
         <mark key="^" line="34" column="19" />
       </file>
+      <file name="$USER_HOME$/dragnn_rerun/models/syntaxnet/syntaxnet/context.pbtxt" timestamp="1496629574137">
+        <mark key="'" line="74" column="12" />
+      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Configuration.java" timestamp="1485121799084">
         <mark key="'" line="80" column="16" />
         <mark key="[" line="102" column="2" />
@@ -368,11 +371,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2190" column="41" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2131" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2306" column="85" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="100" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="613" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="706" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="711" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="712" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -468,6 +466,11 @@
       <jump line="20" column="29" filename="$USER_HOME$/dragnn/models/syntaxnet/dragnn/python/dragnn_ops.py" />
       <jump line="19" column="35" filename="$USER_HOME$/dragnn_rerun/models/syntaxnet/dragnn/python/dragnn_ops.py" />
       <jump line="57" column="23" filename="$USER_HOME$/dragnn_rerun/models/syntaxnet/tensorflow/util/python/python_lib/dragnn/core/ops/gen_dragnn_ops.py" />
+      <jump line="56" column="16" filename="$USER_HOME$/dragnn_rerun/models/syntaxnet/syntaxnet/context.pbtxt" />
+      <jump line="60" column="12" filename="$USER_HOME$/dragnn_rerun/models/syntaxnet/syntaxnet/context.pbtxt" />
+      <jump line="65" column="12" filename="$USER_HOME$/dragnn_rerun/models/syntaxnet/syntaxnet/context.pbtxt" />
+      <jump line="70" column="12" filename="$USER_HOME$/dragnn_rerun/models/syntaxnet/syntaxnet/context.pbtxt" />
+      <jump line="74" column="12" filename="$USER_HOME$/dragnn_rerun/models/syntaxnet/syntaxnet/context.pbtxt" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -477,7 +480,7 @@
         <text>false</text>
       </register>
       <register name="/" type="4">
-        <text>depConnectDistTocount</text>
+        <text>brain_pos</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">aWYgKGxlbW1hMmNob2ljZXMuY29udGFpbnNLZXkobGVtbWEpKSB7CiAgICAgICAgICBpZiAobWF4Q291bnQgPCAxNSkgewogICAgICAgICAgICBTZXQ8SW50ZWdlcj5jaG9pY2VzID0gbGVtbWEyY2hvaWNlcy5nZXQobGVtbWEpOwogICAgICAgICAgICBpZiAoY2hvaWNlcy5zaXplKCkgPT0gMSAmJiBjaG9pY2VzLmNvbnRhaW5zKG51bGxJbmRleCkpCiAgICAgICAgICAgICAgbGVtbWEyY2hvaWNlcy5yZW1vdmUobGVtbWEpOwogICAgICAgICAgfQogICAgICAgIH0=</text>
@@ -551,13 +554,13 @@
       </register>
     </registers>
     <search>
-      <last-search>depConnectDistTocount</last-search>
+      <last-search>brain_pos</last-search>
       <last-offset />
-      <last-pattern>depConnectDistTocount</last-pattern>
+      <last-pattern>brain_pos</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
@@ -581,6 +584,7 @@
         <entry>PushInd</entry>
         <entry>depDis</entry>
         <entry>depConnectDistTocount</entry>
+        <entry>brain_pos</entry>
       </history-search>
       <history-cmd>
         <entry>vs CacheTransition.java</entry>
