@@ -136,12 +136,6 @@
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/util/concurrent/MulticoreWrapper.java" timestamp="1481206496007">
         <mark key="'" line="129" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Example.java" timestamp="1489552881997">
-        <mark key="[" line="32" column="40" />
-        <mark key="]" line="32" column="95" />
-        <mark key="^" line="32" column="95" />
-        <mark key="." line="32" column="95" />
-      </file>
       <file name="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/io/PrintWriter.java" timestamp="1486584978128">
         <mark key="'" line="55" column="34" />
       </file>
@@ -256,12 +250,12 @@
         <mark key="^" line="1463" column="20" />
         <mark key="." line="1463" column="20" />
       </file>
-      <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" timestamp="1500600192646">
-        <mark key="'" line="882" column="15" />
-        <mark key="[" line="9" column="22" />
-        <mark key="]" line="9" column="23" />
-        <mark key="^" line="9" column="27" />
-        <mark key="." line="9" column="23" />
+      <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" timestamp="1500608584133">
+        <mark key="'" line="854" column="4" />
+        <mark key="[" line="547" column="0" />
+        <mark key="]" line="547" column="64" />
+        <mark key="^" line="533" column="4" />
+        <mark key="." line="547" column="0" />
       </file>
       <file name="$USER_HOME$/dragnn_rerun/models/syntaxnet/dragnn/python/dragnn_ops.py" timestamp="1496602929530">
         <mark key="'" line="19" column="35" />
@@ -330,10 +324,10 @@
         <mark key="^" line="132" column="10" />
         <mark key="." line="132" column="10" />
       </file>
-      <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1478005294112">
-        <mark key="'" line="849" column="0" />
-        <mark key="[" line="711" column="12" />
-        <mark key="]" line="711" column="12" />
+      <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1500608524119">
+        <mark key="'" line="682" column="12" />
+        <mark key="[" line="530" column="4" />
+        <mark key="]" line="536" column="48" />
         <mark key="." line="711" column="12" />
         <mark key="^" line="711" column="12" />
       </file>
@@ -378,16 +372,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1038" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1084" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2157" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2254" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2087" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2252" column="42" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="557" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="647" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="808" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="518" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1123" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1804" column="118" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1898" column="39" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -478,93 +462,73 @@
       <jump line="888" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
       <jump line="99" column="0" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
       <jump line="882" column="15" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="918" column="17" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" />
+      <jump line="25" column="0" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" />
+      <jump line="943" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" />
+      <jump line="682" column="12" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" />
+      <jump line="341" column="0" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="880" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="542" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="853" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="544" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="854" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxlbW1hX2ZpbGUgPSBvcy5wYXRoLmpvaW4oYXJncy5kYXRhX2RpciwgJ2xlbW1hdGl6ZWRfdG9rZW4nKQo=</text>
       </register>
       <register name="-" type="4">
-        <text>false</text>
+        <text>tok</text>
       </register>
       <register name="/" type="4">
-        <text>HRGSample</text>
+        <text>frag</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">aWYgKGxlbW1hMmNob2ljZXMuY29udGFpbnNLZXkobGVtbWEpKSB7CiAgICAgICAgICBpZiAobWF4Q291bnQgPCAxNSkgewogICAgICAgICAgICBTZXQ8SW50ZWdlcj5jaG9pY2VzID0gbGVtbWEyY2hvaWNlcy5nZXQobGVtbWEpOwogICAgICAgICAgICBpZiAoY2hvaWNlcy5zaXplKCkgPT0gMSAmJiBjaG9pY2VzLmNvbnRhaW5zKG51bGxJbmRleCkpCiAgICAgICAgICAgICAgbGVtbWEyY2hvaWNlcy5yZW1vdmUobGVtbWEpOwogICAgICAgICAgfQogICAgICAgIH0=</text>
+        <text>amr_file = os.path.join(args.data_dir, 'amr')
+    alignment_file = os.path.join(args.data_dir, 'alignment')
+    if args.use_lemma:
+        tok_file = os.path.join(args.data_dir, 'lemmatized_token')
+    else:
+        tok_file = os.path.join(args.data_dir, 'token')
+    pos_file = os.path.join(args.data_dir, 'pos')</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGxlbW1hX2ZpbGUgPSBvcy5wYXRoLmpvaW4oYXJncy5kYXRhX2RpciwgJ2xlbW1hdGl6ZWRfdG9rZW4nKQo=</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">ZGVmIG91dHB1dF9hbGxfdW5hbGlnbmVkX2VkZ2VzKGVkZ2VfYWxpZ25tZW50LCBhbXJfZ3JhcGgpOgogICAgZm9yIGkgaW4geHJhbmdlKGxlbihlZGdlX2FsaWdubWVudCkpOgogICAgICAgIGlmIGVkZ2VfYWxpZ25tZW50W2ldID09IDA6CiAgICAgICAgICAgIHVuX3NlcS5hcHBlbmQoc3RyKGFtcl9ncmFwaC5lZGdlc1tpXSkpCiAgICAjcHJpbnQgPj4gdW5hbGlnbl9mLCAnICcuam9pbih1bl9zZXEpCg==</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIGVsc2U6Cg==</text>
       </register>
-      <register name="3" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIGlmIGFyZ3MudXNlX2xlbW1hOgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICNhbXJfZ3JhcGhfZmlsZSA9IG9zLnBhdGguam9pbihhcmdzLmRhdGFfZGlyLCAnbmV3X2dyYXBoXyVkJyAlIGFyZ3Muc3ViX2lkKQo=</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text>#from HRGSample import *
-from rule import Rule</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="7" type="4">
-        <text>//boolean loaded = false;
-    // Test with CoNLL-X data
-    //if (props.containsKey(&quot;testFile&quot;)) {
-    //  parser.loadModelFile(props.getProperty(&quot;model&quot;));
-    //  loaded = true;
-    //  parser.testCoNLL(props.getProperty(&quot;testFile&quot;), props.getProperty(&quot;outFile&quot;));
-    //}
-
-    // Parse raw text data
-    //if (props.containsKey(&quot;textFile&quot;)) {
-    //  if (!loaded) {
-    //    parser.loadModelFile(props.getProperty(&quot;model&quot;));
-    //    loaded = true;
-    //  }
-
-    //  String encoding = parser.config.tlp.getEncoding();
-    //  String inputFilename = props.getProperty(&quot;textFile&quot;);
-    //  BufferedReader input;
-    //  try {
-    //    input = inputFilename.equals(&quot;-&quot;)
-    //            ? IOUtils.readerFromStdin(encoding)
-    //            : IOUtils.readerFromString(inputFilename, encoding);
-    //  } catch (IOException e) {
-    //    throw new RuntimeIOException(&quot;No input file provided (use -textFile)&quot;, e);
-    //  }
-
-    //  String outputFilename = props.getProperty(&quot;outFile&quot;);
-    //  PrintWriter output;
-    //  try {
-    //    output = outputFilename == null || outputFilename.equals(&quot;-&quot;)
-    //        ? IOUtils.encodedOutputStreamPrintWriter(System.out, encoding, true)
-    //        : IOUtils.getPrintWriter(outputFilename, encoding);
-    //  } catch (IOException e) {
-    //    throw new RuntimeIOException(&quot;Error opening output file&quot;, e);
-    //  }
-
-    //  parser.parseTextFile(input, output);
-    //}</text>
+        <text>#amr_graphs = None
+    #if args.amr_file:
+    #    amr_graphs = load_amr_graphs(args.amr_file)</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgU3RyaW5nIG91dHB1dEZpbGUgPSBvdXRwdXREaXIgKyAiL2V2YWwiICsgIi50eHQiOwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="9" type="4">
+        <text encoding="base64">I2lmIGFyZ3MucGFyYWxsZWw6CiAgICAjICAgIGdsb2JhbCBydWxlX2YKICAgICMgICAgcnVuX25vZGVzID0gYXJncy5ub2Rlcy5zcGxpdCgnKycpCiAgICAjICAgIGlmIGFtcl9ncmFwaHM6ICNUaGlzIG1lYW5zIHRoZSBhbXIgZ3JhcGhzIGFyZSBub3Qgc3BsaXQgeWV0CiAgICAjICAgICAgICBmb3IgKGksIGN1cnJfbm9kZSkgaW4gZW51bWVyYXRlKHJ1bl9ub2Rlcyk6CiAgICAjICAgICAgICAgICAgY3Vycl9ncmFwaF9maWxlID0gb3MucGF0aC5qb2luKGFyZ3MuZGF0YV9kaXIsICdncmFwaF8lZCcgJSBpKQogICAgIyAgICAgICAgICAgICNjdXJyX2dyYXBoX2ZpbGUgPSBvcy5wYXRoLmpvaW4oYXJncy5kYXRhX2RpciwgJ25ld19ncmFwaF8lZCcgJSBhcmdzLnN1Yl9pZCkKICAgICMgICAgICAgICAgICBjdXJyX2YgPSBvcGVuKGN1cnJfZ3JhcGhfZmlsZSwgJ3diJykKICAgICMgICAgICAgICAgICBjdXJyX3N0YXJ0ID0gYXJncy5zZW50X3Blcl9ub2RlICogaQogICAgIyAgICAgICAgICAgIGN1cnJfZW5kID0gYXJncy5zZW50X3Blcl9ub2RlICogKGkrMSkKICAgICMgICAgICAgICAgICBjUGlja2xlLmR1bXAoYW1yX2dyYXBoc1tjdXJyX3N0YXJ0OmN1cnJfZW5kXSwgY3Vycl9mKQogICAgIyAgICAgICAgICAgIGN1cnJfZi5jbG9zZSgpCgogICAgIyAgICAgICAgaWYgYXJncy5kdW1wX2dyYXBoOgogICAgIyAgICAgICAgICAgIHByaW50ICdBIHRvdGFsIG9mICVkIEFNUiBncmFwaHMnICUgbGVuKGFtcl9ncmFwaHMpCiAgICAjICAgICAgICAgICAgcmV0dXJuCgogICAgIyAgICBvcy5zeXN0ZW0oJ3JtIC1yZiAlcycgJSBhcmdzLnNhdmVfZGlyKQogICAgIyAgICBvcy5ta2RpcihhcmdzLnNhdmVfZGlyKQoKICAgICMgICAgZm9yIChpLCBjdXJyX25vZGUpIGluIGVudW1lcmF0ZShydW5fbm9kZXMpOgogICAgIyAgICAgICAgY21kID0gJ3B5dGhvbiAlcyAtLWRhdGFfZGlyICVzIC0tc2F2ZV9kaXIgJXMgLS1zdWJfaWQgJWQgLS1sZW1tYSAlcyAtLXN0b3AgJXMnICUgKHN5cy5hcmd2WzBdLCBhcmdzLmRhdGFfZGlyLCBhcmdzLnNhdmVfZGlyLCBpLCBhcmdzLmxlbW1hLCBhcmdzLnN0b3ApCiAgICAjICAgICAgICBwcmludCAnc3RhcnQgdG8gbGF1bmNoIHByb2dyYW0gaW4gJXMnICUgY3Vycl9ub2RlCiAgICAjICAgICAgICBhbGlnbm1lbnRfbG9nX2ZpbGUgPSBvcy5wYXRoLmpvaW4oYXJncy5zYXZlX2RpciwgJ2FsaWdubWVudF9sb2dfJWQnICUgaSkKCiAgICAjICAgICAgICBvcy5zeXN0ZW0ocidzc2ggJXMgImNkICVzOyBub2h1cCAlcyA+JiAlcyIgJicgJSAoY3Vycl9ub2RlLCBvcy5nZXRjd2QoKSwgY21kLCBhbGlnbm1lbnRfbG9nX2ZpbGUpKQogICAgI2Vsc2U6</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>HRGSample</last-search>
+      <last-search>frag</last-search>
       <last-offset />
-      <last-pattern>HRGSample</last-pattern>
+      <last-pattern>frag</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -594,6 +558,7 @@ from rule import Rule</text>
         <entry>brain_pos</entry>
         <entry>output_all</entry>
         <entry>HRGSample</entry>
+        <entry>frag</entry>
       </history-search>
       <history-cmd>
         <entry>vs CacheTransition.java</entry>
