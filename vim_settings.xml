@@ -256,6 +256,13 @@
         <mark key="^" line="1463" column="20" />
         <mark key="." line="1463" column="20" />
       </file>
+      <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" timestamp="1500600192646">
+        <mark key="'" line="882" column="15" />
+        <mark key="[" line="9" column="22" />
+        <mark key="]" line="9" column="23" />
+        <mark key="^" line="9" column="27" />
+        <mark key="." line="9" column="23" />
+      </file>
       <file name="$USER_HOME$/dragnn_rerun/models/syntaxnet/dragnn/python/dragnn_ops.py" timestamp="1496602929530">
         <mark key="'" line="19" column="35" />
       </file>
@@ -371,12 +378,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="706" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="711" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="712" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="713" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="715" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="891" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1038" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1084" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2157" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -471,21 +472,46 @@
       <jump line="65" column="12" filename="$USER_HOME$/dragnn_rerun/models/syntaxnet/syntaxnet/context.pbtxt" />
       <jump line="70" column="12" filename="$USER_HOME$/dragnn_rerun/models/syntaxnet/syntaxnet/context.pbtxt" />
       <jump line="74" column="12" filename="$USER_HOME$/dragnn_rerun/models/syntaxnet/syntaxnet/context.pbtxt" />
+      <jump line="43" column="0" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="890" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="41" column="20" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="888" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="99" column="0" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="882" column="15" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>false</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>false</text>
       </register>
       <register name="/" type="4">
-        <text>brain_pos</text>
+        <text>HRGSample</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">aWYgKGxlbW1hMmNob2ljZXMuY29udGFpbnNLZXkobGVtbWEpKSB7CiAgICAgICAgICBpZiAobWF4Q291bnQgPCAxNSkgewogICAgICAgICAgICBTZXQ8SW50ZWdlcj5jaG9pY2VzID0gbGVtbWEyY2hvaWNlcy5nZXQobGVtbWEpOwogICAgICAgICAgICBpZiAoY2hvaWNlcy5zaXplKCkgPT0gMSAmJiBjaG9pY2VzLmNvbnRhaW5zKG51bGxJbmRleCkpCiAgICAgICAgICAgICAgbGVtbWEyY2hvaWNlcy5yZW1vdmUobGVtbWEpOwogICAgICAgICAgfQogICAgICAgIH0=</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">ZGVmIG91dHB1dF9hbGxfdW5hbGlnbmVkX2VkZ2VzKGVkZ2VfYWxpZ25tZW50LCBhbXJfZ3JhcGgpOgogICAgZm9yIGkgaW4geHJhbmdlKGxlbihlZGdlX2FsaWdubWVudCkpOgogICAgICAgIGlmIGVkZ2VfYWxpZ25tZW50W2ldID09IDA6CiAgICAgICAgICAgIHVuX3NlcS5hcHBlbmQoc3RyKGFtcl9ncmFwaC5lZGdlc1tpXSkpCiAgICAjcHJpbnQgPj4gdW5hbGlnbl9mLCAnICcuam9pbih1bl9zZXEpCg==</text>
+      </register>
+      <register name="3" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="4">
+        <text>#from HRGSample import *
+from rule import Rule</text>
+      </register>
+      <register name="7" type="4">
         <text>//boolean loaded = false;
     // Test with CoNLL-X data
     //if (props.containsKey(&quot;testFile&quot;)) {
@@ -525,38 +551,20 @@
     //  parser.parseTextFile(input, output);
     //}</text>
       </register>
-      <register name="2" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgU3RyaW5nIG91dHB1dEZpbGUgPSBvdXRwdXREaXIgKyAiL2V2YWwiICsgIi50eHQiOwo=</text>
       </register>
-      <register name="3" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">Zm9yIChTdHJpbmcgY3VyciA6IHdvcmQyY2hvaWNlcy5rZXlTZXQoKSkgewogICAgICAgICAgU2V0PEludGVnZXI+IGNob2ljZXMgPSB3b3JkMmNob2ljZXMuZ2V0KGN1cnIpOwogICAgICAgICAgaWYgKG1heENvdW50IDwgMTUpCiAgICAgICAgICAgIGlmIChjaG9pY2VzLnNpemUoKSA9PSAxICYmIGNob2ljZXMuY29udGFpbnMobnVsbEluZGV4KSkKICAgICAgICAgICAgICB3b3JkMmNob2ljZXMucmVtb3ZlKGN1cnIpOwogICAgICAgIH0=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="4">
-        <text encoding="base64">aWYgKG1heENvdW50IDwgMTUpCiAgICAgICAgICAgIGlmIChjaG9pY2VzLnNpemUoKSA9PSAxICYmIGNob2ljZXMuY29udGFpbnMobnVsbEluZGV4KSkKICAgICAgICAgICAgICB3b3JkMmNob2ljZXMucmVtb3ZlKGN1cnIpOwogICAgICAgIH0=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgIFNldDxJbnRlZ2VyPiBjaG9pY2VzID0gd29yZDJjaG9pY2VzLmdldChjdXJyKTsK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgKFN0cmluZyBjdXJyIDogd29yZDJjaG9pY2VzLmtleVNldCgpKSB7Cg==</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">aWYgKGNvdW50ID4gbWF4Q291bnQpCiAgICAgICAgICAgIG1heENvdW50ID0gY291bnQ7</text>
-      </register>
       <register name=":" type="4">
-        <text>1</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>brain_pos</last-search>
+      <last-search>HRGSample</last-search>
       <last-offset />
-      <last-pattern>brain_pos</last-pattern>
+      <last-pattern>HRGSample</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -564,7 +572,6 @@
     </search>
     <history>
       <history-search>
-        <entry>features never</entry>
         <entry>argmaxCho</entry>
         <entry>conceptIDFeatures</entry>
         <entry>candidate</entry>
@@ -585,6 +592,8 @@
         <entry>depDis</entry>
         <entry>depConnectDistTocount</entry>
         <entry>brain_pos</entry>
+        <entry>output_all</entry>
+        <entry>HRGSample</entry>
       </history-search>
       <history-cmd>
         <entry>vs CacheTransition.java</entry>
@@ -604,9 +613,9 @@
         <entry>716</entry>
         <entry>130</entry>
         <entry encoding="base64">JzwsJz5jYWxsIFZpc3VhbFNlYXJjaCgnYicp</entry>
-        <entry>w</entry>
         <entry>w!</entry>
         <entry>1</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
