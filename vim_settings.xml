@@ -3,12 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_utils.py" timestamp="1500609622674">
-        <mark key="'" line="12" column="0" />
-        <mark key="[" line="2" column="0" />
-        <mark key="]" line="2" column="0" />
-        <mark key="^" line="5" column="0" />
-        <mark key="." line="2" column="0" />
+      <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_utils.py" timestamp="1500610818254">
+        <mark key="'" line="154" column="4" />
+        <mark key="[" line="119" column="0" />
+        <mark key="]" line="119" column="0" />
+        <mark key="^" line="196" column="80" />
+        <mark key="." line="119" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1480602359644">
         <mark key="'" line="957" column="8" />
@@ -33,14 +33,6 @@
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1481134923338">
         <mark key="'" line="52" column="4" />
-      </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRData.java" timestamp="1489555725276">
-        <mark key="'" line="68" column="27" />
-        <mark key="w" line="51" column="3" />
-        <mark key="[" line="28" column="9" />
-        <mark key="]" line="29" column="3" />
-        <mark key="." line="29" column="3" />
-        <mark key="^" line="29" column="3" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/fragment_hypergraph.py" timestamp="1480516204906">
         <mark key="'" line="47" column="41" />
@@ -257,12 +249,12 @@
         <mark key="^" line="1463" column="20" />
         <mark key="." line="1463" column="20" />
       </file>
-      <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" timestamp="1500609722499">
-        <mark key="'" line="840" column="15" />
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="^" line="6" column="30" />
-        <mark key="." line="3" column="0" />
+      <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" timestamp="1500611373631">
+        <mark key="'" line="619" column="12" />
+        <mark key="[" line="642" column="37" />
+        <mark key="]" line="642" column="37" />
+        <mark key="^" line="641" column="8" />
+        <mark key="." line="642" column="37" />
       </file>
       <file name="$USER_HOME$/dragnn_rerun/models/syntaxnet/dragnn/python/dragnn_ops.py" timestamp="1496602929530">
         <mark key="'" line="19" column="35" />
@@ -273,6 +265,12 @@
         <mark key="]" line="781" column="4" />
         <mark key="." line="781" column="4" />
         <mark key="^" line="651" column="48" />
+      </file>
+      <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" timestamp="1500610694834">
+        <mark key="[" line="26" column="15" />
+        <mark key="]" line="26" column="18" />
+        <mark key="." line="26" column="18" />
+        <mark key="^" line="26" column="18" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -331,12 +329,12 @@
         <mark key="^" line="132" column="10" />
         <mark key="." line="132" column="10" />
       </file>
-      <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1500609685476">
-        <mark key="'" line="454" column="22" />
-        <mark key="[" line="232" column="0" />
-        <mark key="]" line="232" column="0" />
-        <mark key="^" line="617" column="12" />
-        <mark key="." line="232" column="0" />
+      <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1500611290307">
+        <mark key="'" line="443" column="82" />
+        <mark key="[" line="445" column="12" />
+        <mark key="]" line="445" column="68" />
+        <mark key="^" line="432" column="3" />
+        <mark key="." line="432" column="3" />
       </file>
       <file name="/Library/Python/2.7/site-packages/dragnn/python/spec_builder.py" timestamp="1496340567397">
         <mark key="'" line="166" column="34" />
@@ -379,21 +377,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1325" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2533" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1318" column="46" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1350" column="51" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1475" column="35" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1477" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1493" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1512" column="38" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1514" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1523" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2532" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1784" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1808" column="20" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1809" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1831" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1956" column="15" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1958" column="124" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2045" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -478,57 +461,73 @@
       <jump line="540" column="22" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" />
       <jump line="12" column="0" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_utils.py" />
       <jump line="535" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
-      <jump line="840" column="15" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="584" column="11" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="597" column="8" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="345" column="11" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="417" column="24" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="840" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="596" column="50" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="160" column="67" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" />
+      <jump line="513" column="85" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" />
+      <jump line="10" column="41" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_utils.py" />
+      <jump line="125" column="0" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" />
+      <jump line="165" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_utils.py" />
+      <jump line="432" column="19" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" />
+      <jump line="552" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" />
+      <jump line="619" column="12" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" />
+      <jump line="443" column="82" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" />
+      <jump line="156" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IG9zCg==</text>
+      <register name="&quot;" type="4">
+        <text>_graph</text>
       </register>
       <register name="-" type="4">
-        <text>*</text>
+        <text>_graph</text>
       </register>
       <register name="/" type="4">
-        <text>lemma_map</text>
+        <text>mergeSpans</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Y2xhc3MgQU1SX3N0YXRzKG9iamVjdCk6CiAgICBkZWYgX19pbml0X18oc2VsZik6CiAgICAgICAgc2VsZi5udW1fcmVlbnRyYW5jeSA9IDAKICAgICAgICBzZWxmLm51bV9wcmVkaWNhdGVzID0gZGVmYXVsdGRpY3QoaW50KQogICAgICAgIHNlbGYubnVtX25vbnByZWRpY2F0ZV92YWxzID0gZGVmYXVsdGRpY3QoaW50KQogICAgICAgIHNlbGYubnVtX2NvbnN0cyA9IGRlZmF1bHRkaWN0KGludCkKICAgICAgICBzZWxmLm51bV9uYW1lZF9lbnRpdGllcyA9IGRlZmF1bHRkaWN0KGludCkKICAgICAgICBzZWxmLm51bV9lbnRpdGllcyA9IGRlZmF1bHRkaWN0KGludCkKICAgICAgICBzZWxmLm51bV9yZWxhdGlvbnMgPSBkZWZhdWx0ZGljdChpbnQpCgogICAgZGVmIHVwZGF0ZShzZWxmLCBsb2NhbF9yZSwgbG9jYWxfcHJlLCBsb2NhbF9ub24sIGxvY2FsX2NvbiwgbG9jYWxfZW50LCBsb2NhbF9uZSk6CiAgICAgICAgc2VsZi5udW1fcmVlbnRyYW5jeSArPSBsb2NhbF9yZQogICAgICAgIGZvciBzIGluIGxvY2FsX3ByZToKICAgICAgICAgICAgc2VsZi5udW1fcHJlZGljYXRlc1tzXSArPSBsb2NhbF9wcmVbc10KCiAgICAgICAgZm9yIHMgaW4gbG9jYWxfbm9uOgogICAgICAgICAgICBzZWxmLm51bV9ub25wcmVkaWNhdGVfdmFsc1tzXSArPSBsb2NhbF9ub25bc10KCiAgICAgICAgZm9yIHMgaW4gbG9jYWxfY29uOgogICAgICAgICAgICBzZWxmLm51bV9jb25zdHNbc10gKz0gbG9jYWxfY29uW3NdCgogICAgICAgIGZvciBzIGluIGxvY2FsX2VudDoKICAgICAgICAgICAgc2VsZi5udW1fZW50aXRpZXNbc10gKz0gbG9jYWxfZW50W3NdCgogICAgICAgIGZvciBzIGluIGxvY2FsX25lOgogICAgICAgICAgICBzZWxmLm51bV9uYW1lZF9lbnRpdGllc1tzXSArPSBsb2NhbF9uZVtzXQogICAgICAgICNmb3IgcyBpbiBsb2NhbF9yZWw6CiAgICAgICAgIyAgICBzZWxmLm51bV9yZWxhdGlvbnNbc10gKz0gbG9jYWxfcmVsW3NdCgogICAgZGVmIGNvbGxlY3Rfc3RhdHMoc2VsZiwgYW1yX2dyYXBocyk6CiAgICAgICAgZm9yIGFtciBpbiBhbXJfZ3JhcGhzOgogICAgICAgICAgICAobmFtZWRfZW50aXR5X251bXMsIGVudGl0eV9udW1zLCBwcmVkaWNhdGVfbnVtcywgdmFyaWFibGVfbnVtcywgY29uc3RfbnVtcywgcmVlbnRyYW5jeV9udW1zKSA9IGFtci5zdGF0aXN0aWNzKCkKICAgICAgICAgICAgc2VsZi51cGRhdGUocmVlbnRyYW5jeV9udW1zLCBwcmVkaWNhdGVfbnVtcywgdmFyaWFibGVfbnVtcywgY29uc3RfbnVtcywgZW50aXR5X251bXMsIG5hbWVkX2VudGl0eV9udW1zKQoKICAgIGRlZiBkdW1wMmRpcihzZWxmLCBkaXIpOgogICAgICAgIGRlZiBkdW1wX2ZpbGUoZiwgZGljdCk6CiAgICAgICAgICAgIHNvcnRlZF9kaWN0ID0gc29ydGVkKGRpY3QuaXRlbXMoKSwga2V5PWxhbWJkYSBrOigta1sxXSwga1swXSkpCiAgICAgICAgICAgIGZvciAoaXRlbSwgY291bnQpIGluIHNvcnRlZF9kaWN0OgogICAgICAgICAgICAgICAgcHJpbnQgPj5mLCAnJXMgJWQnICUgKGl0ZW0sIGNvdW50KQogICAgICAgICAgICBmLmNsb3NlKCkKCiAgICAgICAgcHJlZF9mID0gb3Blbihvcy5wYXRoLmpvaW4oZGlyLCAncHJlZCcpLCAndycpCiAgICAgICAgbm9uX3ByZWRfZiA9IG9wZW4ob3MucGF0aC5qb2luKGRpciwgJ25vbl9wcmVkX3ZhbCcpLCAndycpCiAgICAgICAgY29uc3RfZiA9IG9wZW4ob3MucGF0aC5qb2luKGRpciwgJ2NvbnN0JyksICd3JykKICAgICAgICBlbnRpdHlfZiA9IG9wZW4ob3MucGF0aC5qb2luKGRpciwgJ2VudGl0aWVzJyksICd3JykKICAgICAgICBuYW1lZF9lbnRpdHlfZiA9IG9wZW4ob3MucGF0aC5qb2luKGRpciwgJ25hbWVkX2VudGl0aWVzJyksICd3JykKICAgICAgICAjcmVsYXRpb25fZiA9IG9wZW4ob3MucGF0aC5qb2luKGRpciwgJ3JlbGF0aW9ucycpLCAndycpCgogICAgICAgIGR1bXBfZmlsZShwcmVkX2YsIHNlbGYubnVtX3ByZWRpY2F0ZXMpCiAgICAgICAgZHVtcF9maWxlKG5vbl9wcmVkX2YsIHNlbGYubnVtX25vbnByZWRpY2F0ZV92YWxzKQogICAgICAgIGR1bXBfZmlsZShjb25zdF9mLCBzZWxmLm51bV9jb25zdHMpCiAgICAgICAgZHVtcF9maWxlKGVudGl0eV9mLCBzZWxmLm51bV9lbnRpdGllcykKICAgICAgICBkdW1wX2ZpbGUobmFtZWRfZW50aXR5X2YsIHNlbGYubnVtX25hbWVkX2VudGl0aWVzKQogICAgICAgICNkdW1wX2ZpbGUocmVsYXRpb25fZiwgc2VsZi5udW1fcmVsYXRpb25zKQoKICAgIGRlZiBsb2FkRnJvbURpcihzZWxmLCBkaXIpOgogICAgICAgIGRlZiBsb2FkX2ZpbGUoZiwgZGljdCk6CiAgICAgICAgICAgIGZvciBsaW5lIGluIGY6CiAgICAgICAgICAgICAgICBpdGVtID0gbGluZS5zdHJpcCgpLnNwbGl0KCcgJylbMF0KICAgICAgICAgICAgICAgIGNvdW50ID0gaW50KGxpbmUuc3RyaXAoKS5zcGxpdCgnICcpWzFdKQogICAgICAgICAgICAgICAgZGljdFtpdGVtXSA9IGNvdW50CiAgICAgICAgICAgIGYuY2xvc2UoKQoKICAgICAgICBwcmVkX2YgPSBvcGVuKG9zLnBhdGguam9pbihkaXIsICdwcmVkJyksICdyJykKICAgICAgICBub25fcHJlZF9mID0gb3Blbihvcy5wYXRoLmpvaW4oZGlyLCAnbm9uX3ByZWRfdmFsJyksICdyJykKICAgICAgICBjb25zdF9mID0gb3Blbihvcy5wYXRoLmpvaW4oZGlyLCAnY29uc3QnKSwgJ3InKQogICAgICAgIGVudGl0eV9mID0gb3Blbihvcy5wYXRoLmpvaW4oZGlyLCAnZW50aXRpZXMnKSwgJ3InKQogICAgICAgIG5hbWVkX2VudGl0eV9mID0gb3Blbihvcy5wYXRoLmpvaW4oZGlyLCAnbmFtZWRfZW50aXRpZXMnKSwgJ3InKQoKICAgICAgICBsb2FkX2ZpbGUocHJlZF9mLCBzZWxmLm51bV9wcmVkaWNhdGVzKQogICAgICAgIGxvYWRfZmlsZShub25fcHJlZF9mLCBzZWxmLm51bV9ub25wcmVkaWNhdGVfdmFscykKICAgICAgICBsb2FkX2ZpbGUoY29uc3RfZiwgc2VsZi5udW1fY29uc3RzKQogICAgICAgIGxvYWRfZmlsZShlbnRpdHlfZiwgc2VsZi5udW1fZW50aXRpZXMpCiAgICAgICAgbG9hZF9maWxlKG5hbWVkX2VudGl0eV9mLCBzZWxmLm51bV9uYW1lZF9lbnRpdGllcykKCiAgICBkZWYgX19zdHJfXyhzZWxmKToKICAgICAgICBzID0gJycKICAgICAgICBzICs9ICdUb3RhbCBudW1iZXIgb2YgcmVlbnRyYW5jaWVzOiAlZFxuJyAlIHNlbGYubnVtX3JlZW50cmFuY3kKICAgICAgICBzICs9ICdUb3RhbCBudW1iZXIgb2YgcHJlZGljYXRlczogJWRcbicgJSBsZW4oc2VsZi5udW1fcHJlZGljYXRlcykKICAgICAgICBzICs9ICdUb3RhbCBudW1iZXIgb2Ygbm9uIHByZWRpY2F0ZXMgdmFyaWFibGVzOiAlZFxuJyAlIGxlbihzZWxmLm51bV9ub25wcmVkaWNhdGVfdmFscykKICAgICAgICBzICs9ICdUb3RhbCBudW1iZXIgb2YgY29uc3RhbnRzOiAlZFxuJyAlIGxlbihzZWxmLm51bV9jb25zdHMpCiAgICAgICAgcyArPSAnVG90YWwgbnVtYmVyIG9mIGVudGl0aWVzOiAlZFxuJyAlIGxlbihzZWxmLm51bV9lbnRpdGllcykKICAgICAgICBzICs9ICdUb3RhbCBudW1iZXIgb2YgbmFtZWQgZW50aXRpZXM6ICVkXG4nICUgbGVuKHNlbGYubnVtX25hbWVkX2VudGl0aWVzKQoKICAgICAgICByZXR1cm4gcw==</text>
+        <text>temp_unaligned = set(xrange(len(pos_seq))) - temp_aligned</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IG9zCg==</text>
+        <text encoding="base64">ICAgICAgICAjZm9yIChmcmFnLCByb290X3NyY3MsIG9wdF9zcmNzKSBpbiBhbXJfZ3JhcGguZXh0cmFjdF9lbnRpdGllcygpOgo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnJvbSBhbXJfZ3JhcGggaW1wb3J0ICoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">Y2xhc3MgQU1SX3N0YXRzKG9iamVjdCk6CiAgICBkZWYgX19pbml0X18oc2VsZik6CiAgICAgICAgc2VsZi5udW1fcmVlbnRyYW5jeSA9IDAKICAgICAgICBzZWxmLm51bV9wcmVkaWNhdGVzID0gZGVmYXVsdGRpY3QoaW50KQogICAgICAgIHNlbGYubnVtX25vbnByZWRpY2F0ZV92YWxzID0gZGVmYXVsdGRpY3QoaW50KQogICAgICAgIHNlbGYubnVtX2NvbnN0cyA9IGRlZmF1bHRkaWN0KGludCkKICAgICAgICBzZWxmLm51bV9uYW1lZF9lbnRpdGllcyA9IGRlZmF1bHRkaWN0KGludCkKICAgICAgICBzZWxmLm51bV9lbnRpdGllcyA9IGRlZmF1bHRkaWN0KGludCkKICAgICAgICBzZWxmLm51bV9yZWxhdGlvbnMgPSBkZWZhdWx0ZGljdChpbnQpCgogICAgZGVmIHVwZGF0ZShzZWxmLCBsb2NhbF9yZSwgbG9jYWxfcHJlLCBsb2NhbF9ub24sIGxvY2FsX2NvbiwgbG9jYWxfZW50LCBsb2NhbF9uZSk6CiAgICAgICAgc2VsZi5udW1fcmVlbnRyYW5jeSArPSBsb2NhbF9yZQogICAgICAgIGZvciBzIGluIGxvY2FsX3ByZToKICAgICAgICAgICAgc2VsZi5udW1fcHJlZGljYXRlc1tzXSArPSBsb2NhbF9wcmVbc10KCiAgICAgICAgZm9yIHMgaW4gbG9jYWxfbm9uOgogICAgICAgICAgICBzZWxmLm51bV9ub25wcmVkaWNhdGVfdmFsc1tzXSArPSBsb2NhbF9ub25bc10KCiAgICAgICAgZm9yIHMgaW4gbG9jYWxfY29uOgogICAgICAgICAgICBzZWxmLm51bV9jb25zdHNbc10gKz0gbG9jYWxfY29uW3NdCgogICAgICAgIGZvciBzIGluIGxvY2FsX2VudDoKICAgICAgICAgICAgc2VsZi5udW1fZW50aXRpZXNbc10gKz0gbG9jYWxfZW50W3NdCgogICAgICAgIGZvciBzIGluIGxvY2FsX25lOgogICAgICAgICAgICBzZWxmLm51bV9uYW1lZF9lbnRpdGllc1tzXSArPSBsb2NhbF9uZVtzXQogICAgICAgICNmb3IgcyBpbiBsb2NhbF9yZWw6CiAgICAgICAgIyAgICBzZWxmLm51bV9yZWxhdGlvbnNbc10gKz0gbG9jYWxfcmVsW3NdCgogICAgZGVmIGNvbGxlY3Rfc3RhdHMoc2VsZiwgYW1yX2dyYXBocyk6CiAgICAgICAgZm9yIGFtciBpbiBhbXJfZ3JhcGhzOgogICAgICAgICAgICAobmFtZWRfZW50aXR5X251bXMsIGVudGl0eV9udW1zLCBwcmVkaWNhdGVfbnVtcywgdmFyaWFibGVfbnVtcywgY29uc3RfbnVtcywgcmVlbnRyYW5jeV9udW1zKSA9IGFtci5zdGF0aXN0aWNzKCkKICAgICAgICAgICAgc2VsZi51cGRhdGUocmVlbnRyYW5jeV9udW1zLCBwcmVkaWNhdGVfbnVtcywgdmFyaWFibGVfbnVtcywgY29uc3RfbnVtcywgZW50aXR5X251bXMsIG5hbWVkX2VudGl0eV9udW1zKQoKICAgIGRlZiBkdW1wMmRpcihzZWxmLCBkaXIpOgogICAgICAgIGRlZiBkdW1wX2ZpbGUoZiwgZGljdCk6CiAgICAgICAgICAgIHNvcnRlZF9kaWN0ID0gc29ydGVkKGRpY3QuaXRlbXMoKSwga2V5PWxhbWJkYSBrOigta1sxXSwga1swXSkpCiAgICAgICAgICAgIGZvciAoaXRlbSwgY291bnQpIGluIHNvcnRlZF9kaWN0OgogICAgICAgICAgICAgICAgcHJpbnQgPj5mLCAnJXMgJWQnICUgKGl0ZW0sIGNvdW50KQogICAgICAgICAgICBmLmNsb3NlKCkKCiAgICAgICAgcHJlZF9mID0gb3Blbihvcy5wYXRoLmpvaW4oZGlyLCAncHJlZCcpLCAndycpCiAgICAgICAgbm9uX3ByZWRfZiA9IG9wZW4ob3MucGF0aC5qb2luKGRpciwgJ25vbl9wcmVkX3ZhbCcpLCAndycpCiAgICAgICAgY29uc3RfZiA9IG9wZW4ob3MucGF0aC5qb2luKGRpciwgJ2NvbnN0JyksICd3JykKICAgICAgICBlbnRpdHlfZiA9IG9wZW4ob3MucGF0aC5qb2luKGRpciwgJ2VudGl0aWVzJyksICd3JykKICAgICAgICBuYW1lZF9lbnRpdHlfZiA9IG9wZW4ob3MucGF0aC5qb2luKGRpciwgJ25hbWVkX2VudGl0aWVzJyksICd3JykKICAgICAgICAjcmVsYXRpb25fZiA9IG9wZW4ob3MucGF0aC5qb2luKGRpciwgJ3JlbGF0aW9ucycpLCAndycpCgogICAgICAgIGR1bXBfZmlsZShwcmVkX2YsIHNlbGYubnVtX3ByZWRpY2F0ZXMpCiAgICAgICAgZHVtcF9maWxlKG5vbl9wcmVkX2YsIHNlbGYubnVtX25vbnByZWRpY2F0ZV92YWxzKQogICAgICAgIGR1bXBfZmlsZShjb25zdF9mLCBzZWxmLm51bV9jb25zdHMpCiAgICAgICAgZHVtcF9maWxlKGVudGl0eV9mLCBzZWxmLm51bV9lbnRpdGllcykKICAgICAgICBkdW1wX2ZpbGUobmFtZWRfZW50aXR5X2YsIHNlbGYubnVtX25hbWVkX2VudGl0aWVzKQogICAgICAgICNkdW1wX2ZpbGUocmVsYXRpb25fZiwgc2VsZi5udW1fcmVsYXRpb25zKQoKICAgIGRlZiBsb2FkRnJvbURpcihzZWxmLCBkaXIpOgogICAgICAgIGRlZiBsb2FkX2ZpbGUoZiwgZGljdCk6CiAgICAgICAgICAgIGZvciBsaW5lIGluIGY6CiAgICAgICAgICAgICAgICBpdGVtID0gbGluZS5zdHJpcCgpLnNwbGl0KCcgJylbMF0KICAgICAgICAgICAgICAgIGNvdW50ID0gaW50KGxpbmUuc3RyaXAoKS5zcGxpdCgnICcpWzFdKQogICAgICAgICAgICAgICAgZGljdFtpdGVtXSA9IGNvdW50CiAgICAgICAgICAgIGYuY2xvc2UoKQoKICAgICAgICBwcmVkX2YgPSBvcGVuKG9zLnBhdGguam9pbihkaXIsICdwcmVkJyksICdyJykKICAgICAgICBub25fcHJlZF9mID0gb3Blbihvcy5wYXRoLmpvaW4oZGlyLCAnbm9uX3ByZWRfdmFsJyksICdyJykKICAgICAgICBjb25zdF9mID0gb3Blbihvcy5wYXRoLmpvaW4oZGlyLCAnY29uc3QnKSwgJ3InKQogICAgICAgIGVudGl0eV9mID0gb3Blbihvcy5wYXRoLmpvaW4oZGlyLCAnZW50aXRpZXMnKSwgJ3InKQogICAgICAgIG5hbWVkX2VudGl0eV9mID0gb3Blbihvcy5wYXRoLmpvaW4oZGlyLCAnbmFtZWRfZW50aXRpZXMnKSwgJ3InKQoKICAgICAgICBsb2FkX2ZpbGUocHJlZF9mLCBzZWxmLm51bV9wcmVkaWNhdGVzKQogICAgICAgIGxvYWRfZmlsZShub25fcHJlZF9mLCBzZWxmLm51bV9ub25wcmVkaWNhdGVfdmFscykKICAgICAgICBsb2FkX2ZpbGUoY29uc3RfZiwgc2VsZi5udW1fY29uc3RzKQogICAgICAgIGxvYWRfZmlsZShlbnRpdHlfZiwgc2VsZi5udW1fZW50aXRpZXMpCiAgICAgICAgbG9hZF9maWxlKG5hbWVkX2VudGl0eV9mLCBzZWxmLm51bV9uYW1lZF9lbnRpdGllcykKCiAgICBkZWYgX19zdHJfXyhzZWxmKToKICAgICAgICBzID0gJycKICAgICAgICBzICs9ICdUb3RhbCBudW1iZXIgb2YgcmVlbnRyYW5jaWVzOiAlZFxuJyAlIHNlbGYubnVtX3JlZW50cmFuY3kKICAgICAgICBzICs9ICdUb3RhbCBudW1iZXIgb2YgcHJlZGljYXRlczogJWRcbicgJSBsZW4oc2VsZi5udW1fcHJlZGljYXRlcykKICAgICAgICBzICs9ICdUb3RhbCBudW1iZXIgb2Ygbm9uIHByZWRpY2F0ZXMgdmFyaWFibGVzOiAlZFxuJyAlIGxlbihzZWxmLm51bV9ub25wcmVkaWNhdGVfdmFscykKICAgICAgICBzICs9ICdUb3RhbCBudW1iZXIgb2YgY29uc3RhbnRzOiAlZFxuJyAlIGxlbihzZWxmLm51bV9jb25zdHMpCiAgICAgICAgcyArPSAnVG90YWwgbnVtYmVyIG9mIGVudGl0aWVzOiAlZFxuJyAlIGxlbihzZWxmLm51bV9lbnRpdGllcykKICAgICAgICBzICs9ICdUb3RhbCBudW1iZXIgb2YgbmFtZWQgZW50aXRpZXM6ICVkXG4nICUgbGVuKHNlbGYubnVtX25hbWVkX2VudGl0aWVzKQoKICAgICAgICByZXR1cm4gcwo=</text>
+        <text>#temp_unaligned = set(xrange(len(toks))) - temp_aligned
+        #temp_unaligned = set(xrange(len(pos_seq))) - temp_aligned</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnJvbSBhbXJfdXRpbHMgaW1wb3J0IEFNUl9zdGF0cwo=</text>
+        <text encoding="base64">ICAgICAgICAjdGVtcF9hbGlnbmVkID0gc2V0KGFsaWduZWRfZnJhZ21lbnRzLmtleXMoKSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IGFtcl9ncmFwaAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="7" type="2">
+      <register name="7" type="4">
+        <text>#logger.writeln(str(opt_toks))
+        #logger.writeln(str(role_toks))</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text>import cPickle
-import sys</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">I2ltcG9ydCBhbGlnbm1lbnQK</text>
+        <text encoding="base64">ICAgICAgICBhbGlnbmVkX2ZyYWdtZW50cyA9IFtdCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>lemma_map</last-search>
+      <last-search>mergeSpans</last-search>
       <last-offset />
-      <last-pattern>lemma_map</last-pattern>
+      <last-pattern>mergeSpans</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -560,6 +559,8 @@ import sys</text>
         <entry>HRGSample</entry>
         <entry>frag</entry>
         <entry>lemma_map</entry>
+        <entry>print_sign</entry>
+        <entry>mergeSpans</entry>
       </history-search>
       <history-cmd>
         <entry>vs CacheTransition.java</entry>
