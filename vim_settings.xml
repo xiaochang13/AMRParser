@@ -55,6 +55,7 @@
         <mark key="." line="359" column="10" />
         <mark key="^" line="359" column="10" />
       </file>
+      <file name="$USER_HOME$/AMRParser/neuralAMR/system/daisylu_main.py" timestamp="1507492214114" />
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
@@ -115,6 +116,7 @@
         <mark key="." line="617" column="16" />
         <mark key="^" line="617" column="16" />
       </file>
+      <file name="$USER_HOME$/AMRParser/neuralAMR/system/daisylu_endec.py" timestamp="1507491809193" />
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1491924821174">
         <mark key="'" line="123" column="14" />
         <mark key="[" line="106" column="3" />
@@ -189,15 +191,6 @@
         <mark key="]" line="653" column="15" />
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
-      </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1490823486021">
-        <mark key="w" line="451" column="27" />
-        <mark key="'" line="854" column="6" />
-        <mark key="[" line="862" column="17" />
-        <mark key="]" line="864" column="16" />
-        <mark key="^" line="864" column="16" />
-        <mark key="n" line="61" column="3" />
-        <mark key="." line="864" column="16" />
       </file>
       <file name="$USER_HOME$/dragnn/models/syntaxnet/dragnn/conll2017/make_parser_spec.py" timestamp="1496342522350">
         <mark key="'" line="96" column="25" />
@@ -306,6 +299,7 @@
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/process/CoreLabelTokenFactory.java" timestamp="1481120408495">
         <mark key="'" line="59" column="13" />
       </file>
+      <file name="$USER_HOME$/AMRParser/neuralAMR/networks/AMR_NN_Forward.py" timestamp="1507489780984" />
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr.py" timestamp="1478007206733">
         <mark key="'" line="34" column="0" />
       </file>
@@ -537,25 +531,10 @@
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>argmaxCho</entry>
-        <entry>conceptIDFeatures</entry>
-        <entry>candidate</entry>
-        <entry>arcLabelEmi</entry>
-        <entry>wdist=</entry>
-        <entry>ddist</entry>
-        <entry>arcBinaryCan</entry>
-        <entry>pushPopF</entry>
-        <entry>conceptIDF</entry>
-        <entry>thresho</entry>
-        <entry>evaluate</entry>
-        <entry>evaluate(</entry>
-        <entry>conceptIDRatio</entry>
-        <entry>outputDir</entry>
-        <entry>pushPopFeat</entry>
         <entry>children</entry>
         <entry>PushInd</entry>
         <entry>depDis</entry>
@@ -578,7 +557,6 @@
         <entry>def</entry>
       </history-search>
       <history-cmd>
-        <entry>vs CacheTransition.java</entry>
         <entry>158</entry>
         <entry>wq</entry>
         <entry>new AMRParser.java</entry>
