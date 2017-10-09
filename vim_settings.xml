@@ -24,6 +24,9 @@
         <mark key="." line="803" column="12" />
         <mark key="^" line="803" column="12" />
       </file>
+      <file name="/Library/Python/2.7/site-packages/keras/models.py" timestamp="1507512722592">
+        <mark key="'" line="344" column="32" />
+      </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
         <mark key="[" line="139" column="25" />
@@ -59,6 +62,13 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
+      <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507513716760">
+        <mark key="'" line="123" column="15" />
+        <mark key="[" line="119" column="0" />
+        <mark key="]" line="119" column="1" />
+        <mark key="." line="119" column="1" />
+        <mark key="^" line="119" column="1" />
+      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492217011370">
         <mark key="'" line="1075" column="0" />
         <mark key="[" line="2531" column="106" />
@@ -91,6 +101,9 @@
       </file>
       <file name="$USER_HOME$/dragnn_rerun/models/syntaxnet/tensorflow/util/python/python_lib/dragnn/core/ops/gen_dragnn_ops.py" timestamp="1496608584771">
         <mark key="'" line="57" column="23" />
+      </file>
+      <file name="/Library/Python/2.7/site-packages/keras/utils/generic_utils.py" timestamp="1507512880511">
+        <mark key="'" line="136" column="34" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1481132997758">
         <mark key="'" line="33" column="24" />
@@ -290,6 +303,9 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
+      <file name="/Library/Python/2.7/site-packages/keras/layers/__init__.py" timestamp="1507512832294">
+        <mark key="'" line="50" column="32" />
+      </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/ParsingSystem.java" timestamp="1478090963814">
         <mark key="'" line="108" column="4" />
       </file>
@@ -374,18 +390,8 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/ling/CoreAnnotations.java" timestamp="1481288218667">
         <mark key="'" line="77" column="65" />
       </file>
-      <file name="/fragment.java" timestamp="1492153940547">
-        <mark key="[" line="0" column="0" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="170" column="4" filename="/Library/Python/2.7/site-packages/dragnn/python/spec_builder.py" />
-      <jump line="43" column="24" filename="$USER_HOME$/dragnn/models/syntaxnet/dragnn/conll2017/make_parser_spec.py" />
-      <jump line="168" column="6" filename="/Library/Python/2.7/site-packages/dragnn/python/spec_builder.py" />
-      <jump line="42" column="28" filename="$USER_HOME$/dragnn/models/syntaxnet/dragnn/conll2017/make_parser_spec.py" />
-      <jump line="60" column="2" filename="/Library/Python/2.7/site-packages/dragnn/python/spec_builder.py" />
-      <jump line="47" column="18" filename="$USER_HOME$/dragnn/models/syntaxnet/dragnn/conll2017/make_parser_spec.py" />
-      <jump line="183" column="2" filename="/Library/Python/2.7/site-packages/dragnn/python/spec_builder.py" />
       <jump line="40" column="2" filename="$USER_HOME$/dragnn/models/syntaxnet/dragnn/conll2017/make_parser_spec.py" />
       <jump line="96" column="25" filename="$USER_HOME$/dragnn/models/syntaxnet/dragnn/conll2017/make_parser_spec.py" />
       <jump line="860" column="0" filename="/Library/Python/2.7/site-packages/dragnn/protos/spec_pb2.py" />
@@ -479,10 +485,17 @@
       <jump line="29" column="6" filename="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_output.py" />
       <jump line="675" column="31" filename="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_output.py" />
       <jump line="93" column="27" filename="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_main.py" />
+      <jump line="50" column="32" filename="/Library/Python/2.7/site-packages/keras/layers/__init__.py" />
+      <jump line="138" column="79" filename="/Library/Python/2.7/site-packages/keras/utils/generic_utils.py" />
+      <jump line="2507" column="8" filename="$USER_HOME$/Library/Caches/IntelliJIdea2016.2/python_stubs/348993582/__builtin__.py" />
+      <jump line="136" column="34" filename="/Library/Python/2.7/site-packages/keras/utils/generic_utils.py" />
+      <jump line="122" column="15" filename="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" />
+      <jump line="344" column="4" filename="/Library/Python/2.7/site-packages/keras/models.py" />
+      <jump line="123" column="15" filename="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>_graph</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">c3lzLmV4aXQoMSkK</text>
       </register>
       <register name="-" type="4">
         <text>_graph</text>
@@ -496,39 +509,38 @@
         total_num = 0.0
         empty_num = 0.0</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      <register name="1" type="2">
+        <text encoding="base64">c3lzLmV4aXQoMSkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjKG9wdF90b2tzLCByb2xlX3Rva3MsIGFsaWduZWRfZnJhZ21lbnRzKSA9IGV4dHJhY3RfZnJhZ21lbnRzKHMyZ19hbGlnbm1lbnQsIGFtcl9ncmFwaCkK</text>
+        <text encoding="base64">c3lzLmV4aXQoMSkK</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">cHJpbnQganNvbl9maWxlCg==</text>
+      </register>
+      <register name="4" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAjKG9wdF90b2tzLCByb2xlX3Rva3MsIGFsaWduZWRfZnJhZ21lbnRzKSA9IGV4dHJhY3RfZnJhZ21lbnRzKHMyZ19hbGlnbm1lbnQsIGFtcl9ncmFwaCkK</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text>#print len(align_seq), len(amr_seq)
                 #s = ' '.join(amr_seq)
                 #print s
                 #print len(s.strip().split(' '))</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAjYWxpZ25lZF9mcmFnbWVudHMgPSBzb3J0ZWQoYWxpZ25lZF9mcmFnbWVudHMuaXRlbXMoKSwga2V5PWxhbWJkYSBmcmFnOiBmcmFnWzBdKQo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="8" type="4">
-        <text>all_alignments = defaultdict(list)
-        #aligned_fragments = sorted(aligned_fragments.items(), key=lambda frag: frag[0])</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>1</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -583,8 +595,10 @@
         <entry encoding="base64">JzwsJz5jYWxsIFZpc3VhbFNlYXJjaCgnYicp</entry>
         <entry>w!</entry>
         <entry>2</entry>
-        <entry>w</entry>
         <entry>1</entry>
+        <entry>123</entry>
+        <entry>139</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
