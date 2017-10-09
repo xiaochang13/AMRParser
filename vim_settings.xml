@@ -89,11 +89,12 @@
       <file name="$USER_HOME$/dragnn/models/syntaxnet/dragnn/python/dragnn_ops.py" timestamp="1496544918598">
         <mark key="'" line="20" column="29" />
       </file>
-      <file name="/Library/Python/2.7/site-packages/keras/engine/topology.py" timestamp="1507517665046">
-        <mark key="[" line="396" column="30" />
-        <mark key="]" line="393" column="17" />
-        <mark key="^" line="393" column="17" />
-        <mark key="." line="393" column="17" />
+      <file name="/Library/Python/2.7/site-packages/keras/engine/topology.py" timestamp="1507519229125">
+        <mark key="'" line="396" column="27" />
+        <mark key="[" line="396" column="39" />
+        <mark key="]" line="396" column="51" />
+        <mark key="." line="396" column="51" />
+        <mark key="^" line="396" column="51" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_utils.py" timestamp="1478441703990">
         <mark key="'" line="26" column="24" />
@@ -404,7 +405,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="19" column="29" filename="$USER_HOME$/dragnn/models/syntaxnet/dragnn/python/dragnn_ops.py" />
       <jump line="310" column="0" filename="/Library/Python/2.7/site-packages/dragnn/core/ops/gen_dragnn_bulk_ops.py" />
       <jump line="20" column="29" filename="$USER_HOME$/dragnn/models/syntaxnet/dragnn/python/dragnn_ops.py" />
       <jump line="19" column="35" filename="$USER_HOME$/dragnn_rerun/models/syntaxnet/dragnn/python/dragnn_ops.py" />
@@ -504,10 +504,11 @@
       <jump line="134" column="41" filename="/Library/Python/2.7/site-packages/keras/utils/generic_utils.py" />
       <jump line="344" column="29" filename="/Library/Python/2.7/site-packages/keras/models.py" />
       <jump line="50" column="33" filename="/Library/Python/2.7/site-packages/keras/layers/__init__.py" />
+      <jump line="396" column="27" filename="/Library/Python/2.7/site-packages/keras/engine/topology.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">c3lzLmV4aXQoMSkK</text>
+        <text encoding="base64">ICAgICAgICBwcmludCAoaW5pdF93ZWlnaHQudmFsdWUoKSkK</text>
       </register>
       <register name="-" type="4">
         <text>_graph</text>
@@ -522,34 +523,34 @@
         empty_num = 0.0</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">c3lzLmV4aXQoMSkK</text>
+        <text encoding="base64">ICAgICAgICBwcmludCAoaW5pdF93ZWlnaHQudmFsdWUoKSkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">c3lzLmV4aXQoMSkK</text>
+        <text encoding="base64">ICAgICAgICBzeXMuZXhpdCgxKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">cHJpbnQganNvbl9maWxlCg==</text>
+        <text encoding="base64">c3lzLmV4aXQoMSkK</text>
       </register>
-      <register name="4" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      <register name="4" type="2">
+        <text encoding="base64">c3lzLmV4aXQoMSkK</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">cHJpbnQganNvbl9maWxlCg==</text>
+      </register>
+      <register name="6" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAjKG9wdF90b2tzLCByb2xlX3Rva3MsIGFsaWduZWRfZnJhZ21lbnRzKSA9IGV4dHJhY3RfZnJhZ21lbnRzKHMyZ19hbGlnbm1lbnQsIGFtcl9ncmFwaCkK</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="9" type="4">
         <text>#print len(align_seq), len(amr_seq)
                 #s = ' '.join(amr_seq)
                 #print s
                 #print len(s.strip().split(' '))</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAjYWxpZ25lZF9mcmFnbWVudHMgPSBzb3J0ZWQoYWxpZ25lZF9mcmFnbWVudHMuaXRlbXMoKSwga2V5PWxhbWJkYSBmcmFnOiBmcmFnWzBdKQo=</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
