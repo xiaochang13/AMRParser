@@ -24,8 +24,12 @@
         <mark key="." line="803" column="12" />
         <mark key="^" line="803" column="12" />
       </file>
-      <file name="/Library/Python/2.7/site-packages/keras/models.py" timestamp="1507515938267">
+      <file name="/Library/Python/2.7/site-packages/keras/models.py" timestamp="1507562521858">
         <mark key="'" line="344" column="29" />
+        <mark key="[" line="720" column="21" />
+        <mark key="]" line="722" column="20" />
+        <mark key="^" line="722" column="20" />
+        <mark key="." line="722" column="20" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -62,12 +66,12 @@
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/tagger/maxent/MaxentTagger.java" timestamp="1481541068255">
         <mark key="'" line="980" column="26" />
       </file>
-      <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507513716760">
-        <mark key="'" line="123" column="15" />
-        <mark key="[" line="119" column="0" />
-        <mark key="]" line="119" column="1" />
-        <mark key="." line="119" column="1" />
-        <mark key="^" line="119" column="1" />
+      <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507563012878">
+        <mark key="'" line="123" column="10" />
+        <mark key="[" line="122" column="42" />
+        <mark key="]" line="122" column="20" />
+        <mark key="." line="122" column="20" />
+        <mark key="^" line="122" column="20" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1492217011370">
         <mark key="'" line="1075" column="0" />
@@ -258,6 +262,7 @@
         <mark key="." line="17" column="0" />
         <mark key="^" line="17" column="0" />
       </file>
+      <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_main.py" timestamp="1507562730716" />
       <file name="$USER_HOME$/SHRG-induction/fragment_forest.py" timestamp="1480507121150">
         <mark key="'" line="184" column="69" />
         <mark key="[" line="1003" column="12" />
@@ -405,7 +410,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="310" column="0" filename="/Library/Python/2.7/site-packages/dragnn/core/ops/gen_dragnn_bulk_ops.py" />
       <jump line="20" column="29" filename="$USER_HOME$/dragnn/models/syntaxnet/dragnn/python/dragnn_ops.py" />
       <jump line="19" column="35" filename="$USER_HOME$/dragnn_rerun/models/syntaxnet/dragnn/python/dragnn_ops.py" />
       <jump line="57" column="23" filename="$USER_HOME$/dragnn_rerun/models/syntaxnet/tensorflow/util/python/python_lib/dragnn/core/ops/gen_dragnn_ops.py" />
@@ -497,7 +501,6 @@
       <jump line="2507" column="8" filename="$USER_HOME$/Library/Caches/IntelliJIdea2016.2/python_stubs/348993582/__builtin__.py" />
       <jump line="136" column="34" filename="/Library/Python/2.7/site-packages/keras/utils/generic_utils.py" />
       <jump line="122" column="15" filename="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" />
-      <jump line="123" column="15" filename="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" />
       <jump line="139" column="32" filename="/Library/Python/2.7/site-packages/keras/utils/generic_utils.py" />
       <jump line="84" column="23" filename="/Library/Python/2.7/site-packages/keras/utils/generic_utils.py" />
       <jump line="138" column="65" filename="/Library/Python/2.7/site-packages/keras/utils/generic_utils.py" />
@@ -505,6 +508,8 @@
       <jump line="344" column="29" filename="/Library/Python/2.7/site-packages/keras/models.py" />
       <jump line="50" column="33" filename="/Library/Python/2.7/site-packages/keras/layers/__init__.py" />
       <jump line="396" column="27" filename="/Library/Python/2.7/site-packages/keras/engine/topology.py" />
+      <jump line="125" column="16" filename="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" />
+      <jump line="123" column="10" filename="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
