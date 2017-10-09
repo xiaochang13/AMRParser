@@ -143,6 +143,9 @@
       <file name="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_output.py" timestamp="1507506923487">
         <mark key="'" line="675" column="31" />
       </file>
+      <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507569323582">
+        <mark key="'" line="844" column="16" />
+      </file>
       <file name="$USER_HOME$/AMRParser/neuralAMR/system/daisylu_endec.py" timestamp="1507491809193" />
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1491924821174">
         <mark key="'" line="123" column="14" />
@@ -262,7 +265,12 @@
         <mark key="." line="17" column="0" />
         <mark key="^" line="17" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_main.py" timestamp="1507563908370" />
+      <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_main.py" timestamp="1507569017828">
+        <mark key="[" line="93" column="12" />
+        <mark key="]" line="93" column="12" />
+        <mark key="^" line="93" column="12" />
+        <mark key="." line="93" column="12" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/fragment_forest.py" timestamp="1480507121150">
         <mark key="'" line="184" column="69" />
         <mark key="[" line="1003" column="12" />
@@ -410,7 +418,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="20" column="29" filename="$USER_HOME$/dragnn/models/syntaxnet/dragnn/python/dragnn_ops.py" />
       <jump line="19" column="35" filename="$USER_HOME$/dragnn_rerun/models/syntaxnet/dragnn/python/dragnn_ops.py" />
       <jump line="57" column="23" filename="$USER_HOME$/dragnn_rerun/models/syntaxnet/tensorflow/util/python/python_lib/dragnn/core/ops/gen_dragnn_ops.py" />
       <jump line="56" column="16" filename="$USER_HOME$/dragnn_rerun/models/syntaxnet/syntaxnet/context.pbtxt" />
@@ -510,6 +517,7 @@
       <jump line="396" column="27" filename="/Library/Python/2.7/site-packages/keras/engine/topology.py" />
       <jump line="125" column="16" filename="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" />
       <jump line="123" column="10" filename="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" />
+      <jump line="844" column="16" filename="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -558,7 +566,7 @@
                 #print len(s.strip().split(' '))</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>845</text>
       </register>
     </registers>
     <search>
@@ -621,6 +629,7 @@
         <entry>319</entry>
         <entry>399</entry>
         <entry>w</entry>
+        <entry>845</entry>
       </history-cmd>
       <history-expr />
       <history-input />
