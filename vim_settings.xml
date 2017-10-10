@@ -153,10 +153,10 @@
         <mark key="." line="617" column="16" />
         <mark key="^" line="617" column="16" />
       </file>
-      <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507615753679">
-        <mark key="[" line="31" column="0" />
-        <mark key="]" line="31" column="0" />
-        <mark key="." line="31" column="0" />
+      <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="27" column="0" />
+        <mark key="." line="27" column="0" />
         <mark key="^" line="29" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_output.py" timestamp="1507506923487">
@@ -550,19 +550,11 @@
       <jump line="195" column="19" filename="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="8">
-        <text>#
-#
-#
-#
-#
-#
-#
-#
-#</text>
+      <register name="&quot;" type="4">
+        <text>#</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IyA=</text>
+        <text>#</text>
       </register>
       <register name="/" type="4">
         <text>tune_cor</text>
@@ -575,6 +567,10 @@
       </register>
       <register name="1" type="8">
         <text>#
+#</text>
+      </register>
+      <register name="2" type="8">
+        <text>#
 #
 #
 #
@@ -584,26 +580,23 @@
 #
 #</text>
       </register>
-      <register name="2" type="2">
+      <register name="3" type="2">
         <text encoding="base64">ICAgIHRvcyA9IG54LnRvcG9sb2dpY2FsX3NvcnQoR1JlbGFiZWxsZWQgKSAgICAK</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICBHLmVkZ2VbbjFdW24yXVsnbGFiZWwnXSA9IEcuZWRnZVtuMV1bbjJdWydyTGFiZWwnXSArICdcbiUuMmYnICUgKEcuZWRnZVtuMV1bbjJdWydwcm9iJ10gKiAxMDAuMCkK</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICBHLmVkZ2VzW24xXVtuMl1bJ2xhYmVsJ10gPSBHLmVkZ2VzW24xXVtuMl1bJ3JMYWJlbCddICsgJ1xuJS4yZicgJSAoRy5lZGdlc1tuMV1bbjJdWydwcm9iJ10gKiAxMDAuMCkK</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAjIEcuYWRkX2VkZ2Uoc291cmNlTGJsLCBkZXN0TGJsLCB7ICdyTGFiZWwnOiBmZWF0dXJlc1ttYXhUeXBlXVsndG9rZW5zJ11bbWF4VGFnSVhdLCAncHJvYic6IG1heFAgfSApICAgCg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBwcmludCAoaW5pdF93ZWlnaHQudmFsdWUoKSkK</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzeXMuZXhpdCgxKQo=</text>
-      </register>
       <register name="8" type="2">
-        <text encoding="base64">c3lzLmV4aXQoMSkK</text>
+        <text encoding="base64">ICAgICAgICBzeXMuZXhpdCgxKQo=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">c3lzLmV4aXQoMSkK</text>
