@@ -90,6 +90,9 @@
         <mark key="^" line="495" column="48" />
         <mark key="." line="495" column="48" />
       </file>
+      <file name="$USER_HOME$/models/syntaxnet/syntaxnet/parser_trainer_test.sh" timestamp="1507667666369">
+        <mark key="'" line="30" column="9" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/hypergraph.py" timestamp="1479660489692">
         <mark key="'" line="319" column="13" />
       </file>
@@ -454,9 +457,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2507" column="8" filename="$USER_HOME$/Library/Caches/IntelliJIdea2016.2/python_stubs/348993582/__builtin__.py" />
-      <jump line="136" column="34" filename="/Library/Python/2.7/site-packages/keras/utils/generic_utils.py" />
-      <jump line="139" column="32" filename="/Library/Python/2.7/site-packages/keras/utils/generic_utils.py" />
       <jump line="84" column="23" filename="/Library/Python/2.7/site-packages/keras/utils/generic_utils.py" />
       <jump line="138" column="65" filename="/Library/Python/2.7/site-packages/keras/utils/generic_utils.py" />
       <jump line="134" column="41" filename="/Library/Python/2.7/site-packages/keras/utils/generic_utils.py" />
@@ -554,6 +554,9 @@
       <jump line="195" column="19" filename="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" />
       <jump line="4" column="0" filename="$USER_HOME$/models/syntaxnet/syntaxnet/testdata/document" />
       <jump line="0" column="0" filename="$USER_HOME$/models/syntaxnet/examples/dragnn/tutorial_data/sentence.prototext" />
+      <jump line="23" column="0" filename="$USER_HOME$/models/syntaxnet/syntaxnet/parser_trainer_test.sh" />
+      <jump line="29" column="0" filename="$USER_HOME$/models/syntaxnet/syntaxnet/parser_trainer_test.sh" />
+      <jump line="30" column="9" filename="$USER_HOME$/models/syntaxnet/syntaxnet/parser_trainer_test.sh" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -563,7 +566,7 @@
         <text>#</text>
       </register>
       <register name="/" type="4">
-        <text>tune_cor</text>
+        <text>OUTPATH</text>
       </register>
       <register name="0" type="4">
         <text>singleton_num = 0.0
@@ -612,9 +615,9 @@
       </register>
     </registers>
     <search>
-      <last-search>tune_cor</last-search>
+      <last-search>OUTPATH</last-search>
       <last-offset />
-      <last-pattern>tune_cor</last-pattern>
+      <last-pattern>OUTPATH</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -659,6 +662,9 @@
         <entry>training_corpus</entry>
         <entry>dev_</entry>
         <entry>tune_cor</entry>
+        <entry>TEST_SRCDIR</entry>
+        <entry>OUTPUTPATH</entry>
+        <entry>OUTPATH</entry>
       </history-search>
       <history-cmd>
         <entry>158</entry>
