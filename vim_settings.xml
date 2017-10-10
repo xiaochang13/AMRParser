@@ -110,8 +110,8 @@
         <mark key="^" line="55" column="70" />
         <mark key="." line="55" column="70" />
       </file>
-      <file name="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" timestamp="1507615810112">
-        <mark key="'" line="129" column="12" />
+      <file name="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" timestamp="1507617067148">
+        <mark key="'" line="169" column="16" />
         <mark key="[" line="55" column="27" />
         <mark key="]" line="55" column="26" />
         <mark key="^" line="55" column="26" />
@@ -448,9 +448,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="681" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" />
-      <jump line="727" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" />
-      <jump line="759" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" />
       <jump line="29" column="6" filename="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_output.py" />
       <jump line="675" column="31" filename="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_output.py" />
       <jump line="93" column="27" filename="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_main.py" />
@@ -548,6 +545,9 @@
       <jump line="121" column="19" filename="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" />
       <jump line="129" column="12" filename="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" />
       <jump line="71" column="23" filename="/Library/Python/2.7/site-packages/dragnn/python/lexicon.py" />
+      <jump line="70" column="27" filename="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" />
+      <jump line="112" column="2" filename="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" />
+      <jump line="169" column="16" filename="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="8">
@@ -565,7 +565,7 @@
         <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
-        <text>training_corpus</text>
+        <text>tune_cor</text>
       </register>
       <register name="0" type="4">
         <text>singleton_num = 0.0
@@ -613,9 +613,9 @@
       </register>
     </registers>
     <search>
-      <last-search>training_corpus</last-search>
+      <last-search>tune_cor</last-search>
       <last-offset />
-      <last-pattern>training_corpus</last-pattern>
+      <last-pattern>tune_cor</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -658,6 +658,8 @@
         <entry>train_corpus</entry>
         <entry>train</entry>
         <entry>training_corpus</entry>
+        <entry>dev_</entry>
+        <entry>tune_cor</entry>
       </history-search>
       <history-cmd>
         <entry>158</entry>
