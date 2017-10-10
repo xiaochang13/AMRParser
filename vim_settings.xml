@@ -48,6 +48,9 @@
         <mark key="^" line="24" column="24" />
         <mark key="." line="24" column="24" />
       </file>
+      <file name="/Library/Python/2.7/site-packages/dragnn/python/lexicon.py" timestamp="1507615841617">
+        <mark key="'" line="71" column="23" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/amr_parser.py" timestamp="1478441668944">
         <mark key="'" line="63" column="20" />
         <mark key="[" line="83" column="44" />
@@ -107,8 +110,8 @@
         <mark key="^" line="55" column="70" />
         <mark key="." line="55" column="70" />
       </file>
-      <file name="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" timestamp="1507615197391">
-        <mark key="'" line="165" column="17" />
+      <file name="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" timestamp="1507615810112">
+        <mark key="'" line="129" column="12" />
         <mark key="[" line="55" column="27" />
         <mark key="]" line="55" column="26" />
         <mark key="^" line="55" column="26" />
@@ -150,11 +153,11 @@
         <mark key="." line="617" column="16" />
         <mark key="^" line="617" column="16" />
       </file>
-      <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507613839111">
+      <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507615753679">
         <mark key="[" line="31" column="0" />
         <mark key="]" line="31" column="0" />
         <mark key="." line="31" column="0" />
-        <mark key="^" line="31" column="0" />
+        <mark key="^" line="29" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_output.py" timestamp="1507506923487">
         <mark key="'" line="675" column="31" />
@@ -445,11 +448,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="554" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" />
-      <jump line="557" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" />
-      <jump line="570" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" />
-      <jump line="599" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" />
-      <jump line="658" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" />
       <jump line="681" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" />
       <jump line="727" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" />
       <jump line="759" column="4" filename="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" />
@@ -545,16 +543,29 @@
       <jump line="55" column="26" filename="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" />
       <jump line="136" column="2" filename="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" />
       <jump line="165" column="17" filename="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" />
+      <jump line="166" column="17" filename="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" />
+      <jump line="100" column="5" filename="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" />
+      <jump line="121" column="19" filename="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" />
+      <jump line="129" column="12" filename="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" />
+      <jump line="71" column="23" filename="/Library/Python/2.7/site-packages/dragnn/python/lexicon.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHRvcyA9IG54LnRvcG9sb2dpY2FsX3NvcnQoR1JlbGFiZWxsZWQgKSAgICAK</text>
+      <register name="&quot;" type="8">
+        <text>#
+#
+#
+#
+#
+#
+#
+#
+#</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
-        <text>train</text>
+        <text>training_corpus</text>
       </register>
       <register name="0" type="4">
         <text>singleton_num = 0.0
@@ -562,41 +573,49 @@
         total_num = 0.0
         empty_num = 0.0</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIHRvcyA9IG54LnRvcG9sb2dpY2FsX3NvcnQoR1JlbGFiZWxsZWQgKSAgICAK</text>
+      <register name="1" type="8">
+        <text>#
+#
+#
+#
+#
+#
+#
+#
+#</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBHLmVkZ2VbbjFdW24yXVsnbGFiZWwnXSA9IEcuZWRnZVtuMV1bbjJdWydyTGFiZWwnXSArICdcbiUuMmYnICUgKEcuZWRnZVtuMV1bbjJdWydwcm9iJ10gKiAxMDAuMCkK</text>
+        <text encoding="base64">ICAgIHRvcyA9IG54LnRvcG9sb2dpY2FsX3NvcnQoR1JlbGFiZWxsZWQgKSAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBHLmVkZ2VzW24xXVtuMl1bJ2xhYmVsJ10gPSBHLmVkZ2VzW24xXVtuMl1bJ3JMYWJlbCddICsgJ1xuJS4yZicgJSAoRy5lZGdlc1tuMV1bbjJdWydwcm9iJ10gKiAxMDAuMCkK</text>
+        <text encoding="base64">ICAgICAgICBHLmVkZ2VbbjFdW24yXVsnbGFiZWwnXSA9IEcuZWRnZVtuMV1bbjJdWydyTGFiZWwnXSArICdcbiUuMmYnICUgKEcuZWRnZVtuMV1bbjJdWydwcm9iJ10gKiAxMDAuMCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAjIEcuYWRkX2VkZ2Uoc291cmNlTGJsLCBkZXN0TGJsLCB7ICdyTGFiZWwnOiBmZWF0dXJlc1ttYXhUeXBlXVsndG9rZW5zJ11bbWF4VGFnSVhdLCAncHJvYic6IG1heFAgfSApICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBHLmVkZ2VzW24xXVtuMl1bJ2xhYmVsJ10gPSBHLmVkZ2VzW24xXVtuMl1bJ3JMYWJlbCddICsgJ1xuJS4yZicgJSAoRy5lZGdlc1tuMV1bbjJdWydwcm9iJ10gKiAxMDAuMCkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCAoaW5pdF93ZWlnaHQudmFsdWUoKSkK</text>
+        <text encoding="base64">ICAgICAgICAjIEcuYWRkX2VkZ2Uoc291cmNlTGJsLCBkZXN0TGJsLCB7ICdyTGFiZWwnOiBmZWF0dXJlc1ttYXhUeXBlXVsndG9rZW5zJ11bbWF4VGFnSVhdLCAncHJvYic6IG1heFAgfSApICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzeXMuZXhpdCgxKQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCAoaW5pdF93ZWlnaHQudmFsdWUoKSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">c3lzLmV4aXQoMSkK</text>
+        <text encoding="base64">ICAgICAgICBzeXMuZXhpdCgxKQo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">c3lzLmV4aXQoMSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">cHJpbnQganNvbl9maWxlCg==</text>
+        <text encoding="base64">c3lzLmV4aXQoMSkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>train</last-search>
+      <last-search>training_corpus</last-search>
       <last-offset />
-      <last-pattern>train</last-pattern>
+      <last-pattern>training_corpus</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -636,7 +655,9 @@
         <entry>add_edge</entry>
         <entry>dragnn</entry>
         <entry>dragnn_spec</entry>
+        <entry>train_corpus</entry>
         <entry>train</entry>
+        <entry>training_corpus</entry>
       </history-search>
       <history-cmd>
         <entry>158</entry>
