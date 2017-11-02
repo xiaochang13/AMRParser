@@ -98,12 +98,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509645685730">
-        <mark key="'" line="1018" column="4" />
-        <mark key="[" line="726" column="0" />
-        <mark key="]" line="726" column="0" />
-        <mark key="^" line="611" column="16" />
-        <mark key="." line="726" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509655631786">
+        <mark key="'" line="1028" column="4" />
+        <mark key="[" line="733" column="8" />
+        <mark key="]" line="733" column="8" />
+        <mark key="^" line="733" column="8" />
+        <mark key="." line="733" column="8" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -200,8 +200,12 @@
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/fileinput.py" timestamp="1478072637687">
         <mark key="'" line="101" column="13" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1509646403359">
-        <mark key="'" line="248" column="11" />
+      <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1509649812604">
+        <mark key="'" line="245" column="14" />
+        <mark key="[" line="248" column="8" />
+        <mark key="]" line="248" column="9" />
+        <mark key="^" line="248" column="9" />
+        <mark key="." line="248" column="9" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" timestamp="1500748165318">
         <mark key="'" line="759" column="4" />
@@ -251,12 +255,12 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1509648217518">
-        <mark key="'" line="986" column="11" />
-        <mark key="[" line="19" column="0" />
-        <mark key="]" line="19" column="1" />
-        <mark key="." line="19" column="1" />
-        <mark key="^" line="19" column="1" />
+      <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1509649687222">
+        <mark key="'" line="486" column="12" />
+        <mark key="[" line="824" column="8" />
+        <mark key="]" line="824" column="8" />
+        <mark key="." line="824" column="8" />
+        <mark key="^" line="824" column="8" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1481240062876">
         <mark key="'" line="5" column="50" />
@@ -470,17 +474,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1055" column="11" filename="/Library/Python/2.7/site-packages/networkx/classes/digraph.py" />
-      <jump line="1279" column="36" filename="/Library/Python/2.7/site-packages/networkx/classes/digraph.py" />
-      <jump line="124" column="33" filename="/Library/Python/2.7/site-packages/networkx/classes/digraph.py" />
-      <jump line="245" column="10" filename="/Library/Python/2.7/site-packages/networkx/classes/digraph.py" />
-      <jump line="486" column="8" filename="/Library/Python/2.7/site-packages/networkx/classes/digraph.py" />
-      <jump line="487" column="11" filename="/Library/Python/2.7/site-packages/networkx/classes/digraph.py" />
-      <jump line="489" column="8" filename="/Library/Python/2.7/site-packages/networkx/classes/digraph.py" />
-      <jump line="490" column="22" filename="/Library/Python/2.7/site-packages/networkx/classes/digraph.py" />
-      <jump line="504" column="8" filename="/Library/Python/2.7/site-packages/networkx/classes/digraph.py" />
-      <jump line="511" column="14" filename="/Library/Python/2.7/site-packages/networkx/classes/digraph.py" />
-      <jump line="522" column="37" filename="/Library/Python/2.7/site-packages/networkx/classes/digraph.py" />
       <jump line="344" column="25" filename="/Library/Python/2.7/site-packages/keras/models.py" />
       <jump line="114" column="4" filename="/Library/Python/2.7/site-packages/keras/utils/generic_utils.py" />
       <jump line="398" column="29" filename="/Library/Python/2.7/site-packages/keras/engine/topology.py" />
@@ -570,36 +563,50 @@
       <jump line="248" column="11" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
       <jump line="691" column="8" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="986" column="11" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
+      <jump line="24" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="1019" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="344" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
+      <jump line="809" column="46" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
+      <jump line="933" column="48" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="414" column="19" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
+      <jump line="486" column="12" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
+      <jump line="245" column="14" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
+      <jump line="138" column="14" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
+      <jump line="220" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="1028" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="8">
+        <text>#
+#</text>
       </register>
       <register name="-" type="4">
-        <text>from amr_graph import *</text>
+        <text>all_pi</text>
       </register>
       <register name="/" type="4">
-        <text>depthFirstPi</text>
+        <text>runMachi</text>
       </register>
       <register name="0" type="4">
-        <text>singleton_num = 0.0
-        multiple_num = 0.0
-        total_num = 0.0
-        empty_num = 0.0</text>
+        <text>all_piseqs = []
+    all_edgemaps = []</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="8">
+        <text>#
+#</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="3" type="4">
-        <text encoding="base64">dGVzdF9jYXNlID0gMQogICAgICAgICNpZiBzZW50X2luZGV4IDwgdGVzdF9jYXNlOgogICAgICAgICMgICAgY29udGludWUKICAgICAgICAjZWxpZiBzZW50X2luZGV4ID4gdGVzdF9jYXNlOgogICAgICAgICMgICAgYnJlYWsKICAgICAgICAjaWYgc2VudF9pbmRleCA+IDM6CiAgICAgICAgIyAgICBicmVhawogICAgICAgICNpZiBzZW50X2luZGV4ID4gMToKICAgICAgICAjICAgIGNvbnRpbnVlCiAgICAgICAgI2lmIHNlbnRfaW5kZXggPCA1NzM6CiAgICAgICAgIyAgICBjb250aW51ZQ==</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">dGVzdF9jYXNlID0gMQogICAgICAgICNpZiBzZW50X2luZGV4IDwgdGVzdF9jYXNlOgogICAgICAgICMgICAgY29udGludWUKICAgICAgICAjZWxpZiBzZW50X2luZGV4ID4gdGVzdF9jYXNlOgogICAgICAgICMgICAgYnJlYWsKICAgICAgICAjaWYgc2VudF9pbmRleCA+IDM6CiAgICAgICAgIyAgICBicmVhawogICAgICAgICNpZiBzZW50X2luZGV4ID4gMToKICAgICAgICAjICAgIGNvbnRpbnVlCiAgICAgICAgI2lmIHNlbnRfaW5kZXggPCA1NzM6CiAgICAgICAgIyAgICBjb250aW51ZQ==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="4">
         <text>if __name__ == '__main__':
     argparser = argparse.ArgumentParser()
 
@@ -625,26 +632,23 @@
     args = argparser.parse_args()
     construct_forest(args)</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">I2lmIHNlbnRfaW5kZXggPCB0ZXN0X2Nhc2U6CiAgICAgICAgIyAgICBjb250aW51ZQogICAgICAgICNlbGlmIHNlbnRfaW5kZXggPiB0ZXN0X2Nhc2U6CiAgICAgICAgIyAgICBicmVhawogICAgICAgICNpZiBzZW50X2luZGV4ID4gMzoKICAgICAgICAjICAgIGJyZWFrCiAgICAgICAgI2lmIHNlbnRfaW5kZXggPiAxOgogICAgICAgICMgICAgY29udGludWUKICAgICAgICAjaWYgc2VudF9pbmRleCA8IDU3MzoKICAgICAgICAjICAgIGNvbnRpbnVl</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>depthFirstPi</last-search>
+      <last-search>runMachi</last-search>
       <last-offset />
-      <last-pattern>depthFirstPi</last-pattern>
+      <last-pattern>runMachi</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -673,6 +677,7 @@
         <entry>OUTPUTPATH</entry>
         <entry>OUTPATH</entry>
         <entry>depthFirstPi</entry>
+        <entry>runMachi</entry>
       </history-search>
       <history-cmd>
         <entry>310</entry>
@@ -694,6 +699,8 @@
         <entry>979</entry>
         <entry>115</entry>
         <entry>1</entry>
+        <entry>186</entry>
+        <entry>249</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
