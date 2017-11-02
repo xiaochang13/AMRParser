@@ -255,10 +255,10 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1509649687222">
+      <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1509656624477">
         <mark key="'" line="486" column="12" />
-        <mark key="[" line="824" column="8" />
-        <mark key="]" line="824" column="8" />
+        <mark key="[" line="653" column="21" />
+        <mark key="]" line="653" column="58" />
         <mark key="." line="824" column="8" />
         <mark key="^" line="824" column="8" />
       </file>
@@ -465,12 +465,11 @@
       <file name="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/util/Properties.java" timestamp="1482004217634">
         <mark key="'" line="1031" column="23" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1509647973508">
-        <mark key="'" line="691" column="8" />
-        <mark key="[" line="659" column="21" />
-        <mark key="]" line="659" column="21" />
-        <mark key="." line="659" column="21" />
-        <mark key="^" line="659" column="21" />
+      <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1509657311602">
+        <mark key="[" line="816" column="0" />
+        <mark key="]" line="816" column="0" />
+        <mark key="^" line="812" column="46" />
+        <mark key="." line="816" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -576,70 +575,45 @@
       <jump line="1028" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="8">
-        <text>#
-#</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text>all_pi</text>
+        <text>sent_index</text>
       </register>
       <register name="/" type="4">
         <text>runMachi</text>
       </register>
       <register name="0" type="4">
-        <text>all_piseqs = []
-    all_edgemaps = []</text>
+        <text>(tok_seq, pos_seq, alignment_seq, amr)</text>
       </register>
-      <register name="1" type="8">
-        <text>#
-#</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>logger.writeln(&quot;After collapse:&quot;)
+    logger.writeln(str(new_amr))</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gTm9uZQo=</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">dGVzdF9jYXNlID0gMQogICAgICAgICNpZiBzZW50X2luZGV4IDwgdGVzdF9jYXNlOgogICAgICAgICMgICAgY29udGludWUKICAgICAgICAjZWxpZiBzZW50X2luZGV4ID4gdGVzdF9jYXNlOgogICAgICAgICMgICAgYnJlYWsKICAgICAgICAjaWYgc2VudF9pbmRleCA+IDM6CiAgICAgICAgIyAgICBicmVhawogICAgICAgICNpZiBzZW50X2luZGV4ID4gMToKICAgICAgICAjICAgIGNvbnRpbnVlCiAgICAgICAgI2lmIHNlbnRfaW5kZXggPCA1NzM6CiAgICAgICAgIyAgICBjb250aW51ZQ==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBjb250aW51ZQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjYWxsX2RhdGVfaW5kaWNlcywgaW5kZXhfdG9fYXR0ciA9IGdldERhdGVBdHRyKGZyYWcpCg==</text>
       </register>
-      <register name="6" type="4">
-        <text>if __name__ == '__main__':
-    argparser = argparse.ArgumentParser()
-
-    argparser.add_argument(&quot;--amr_file&quot;, type=str, help=&quot;the original AMR graph files&quot;, required=False)
-    argparser.add_argument(&quot;--stop&quot;, type=str, help=&quot;stop words file&quot;, required=False)
-    argparser.add_argument(&quot;--lemma&quot;, type=str, help=&quot;lemma file&quot;, required=False)
-    argparser.add_argument(&quot;--dump_graph&quot;, action=&quot;store_true&quot;, help=&quot;if only to dump graph object&quot;)
-    argparser.add_argument(&quot;--preprocess&quot;, action=&quot;store_true&quot;, help=&quot;if needed to preprocess the AMR graphs into dumped AMR graph objects&quot;)
-    argparser.add_argument(&quot;--parallel&quot;, action=&quot;store_true&quot;, help=&quot;if to run multiple process to run the forest construction&quot;)
-    argparser.add_argument(&quot;--dump_rules&quot;, action=&quot;store_true&quot;, help=&quot;if to dump lexical rules&quot;)
-    argparser.add_argument(&quot;--use_stats&quot;, action=&quot;store_true&quot;, help=&quot;if to use stats&quot;)
-    argparser.add_argument(&quot;--refine&quot;, action=&quot;store_true&quot;, help=&quot;if to refine the nonterminals&quot;)
-    argparser.add_argument(&quot;--random&quot;, action=&quot;store_true&quot;, help=&quot;if use random order&quot;)
-    argparser.add_argument(&quot;--reversed&quot;, action=&quot;store_true&quot;, help=&quot;if to reverse the pi sequence&quot;)
-    argparser.add_argument(&quot;--depth&quot;, action=&quot;store_true&quot;, help=&quot;if to reverse the pi sequence&quot;)
-    argparser.add_argument(&quot;--data_dir&quot;, type=str, help=&quot;the data directory for dumped AMR graph objects, alignment and tokenized sentences&quot;)
-    argparser.add_argument(&quot;--save_dir&quot;, type=str, help=&quot;the output directory for saving the constructed forest&quot;)
-    argparser.add_argument(&quot;--stats_dir&quot;, type=str, help=&quot;the statistics directory&quot;)
-    argparser.add_argument(&quot;--nodes&quot;, type=str, help=&quot;nodes for running processes&quot;)
-    argparser.add_argument(&quot;--sent_per_node&quot;, type=int, help=&quot;number of sentences for each node&quot;)
-    argparser.add_argument(&quot;--nsplit&quot;, type=int, help=&quot;if to split the forest into multiple&quot;)
-
-    args = argparser.parse_args()
-    construct_forest(args)</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBjb250aW51ZQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZW1wdHlfbnVtICs9IDEuMAo=</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">I2lmIHNlbnRfaW5kZXggPCB0ZXN0X2Nhc2U6CiAgICAgICAgIyAgICBjb250aW51ZQogICAgICAgICNlbGlmIHNlbnRfaW5kZXggPiB0ZXN0X2Nhc2U6CiAgICAgICAgIyAgICBicmVhawogICAgICAgICNpZiBzZW50X2luZGV4ID4gMzoKICAgICAgICAjICAgIGJyZWFrCiAgICAgICAgI2lmIHNlbnRfaW5kZXggPiAxOgogICAgICAgICMgICAgY29udGludWUKICAgICAgICAjaWYgc2VudF9pbmRleCA8IDU3MzoKICAgICAgICAjICAgIGNvbnRpbnVl</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG11bHRpcGxlX251bSArPSAxLjAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNpbmdsZXRvbl9udW0gKz0gMS4wCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
