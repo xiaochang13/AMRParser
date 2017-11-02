@@ -148,7 +148,7 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509377806584">
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509644049260">
         <mark key="'" line="1030" column="4" />
         <mark key="[" line="651" column="0" />
         <mark key="]" line="651" column="0" />
@@ -445,6 +445,12 @@
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1481240062876">
         <mark key="'" line="5" column="50" />
       </file>
+      <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1509644953869">
+        <mark key="'" line="660" column="0" />
+        <mark key="[" line="658" column="0" />
+        <mark key="]" line="970" column="0" />
+        <mark key="." line="970" column="0" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/amr.py" timestamp="1478188826947">
         <mark key="'" line="3" column="0" />
       </file>
@@ -453,7 +459,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="844" column="8" filename="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" />
       <jump line="856" column="7" filename="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" />
       <jump line="696" column="17" filename="/Library/Python/2.7/site-packages/networkx/classes/digraph.py" />
       <jump line="870" column="51" filename="/Library/Python/2.7/site-packages/networkx/classes/digraph.py" />
@@ -553,13 +558,14 @@
       <jump line="1030" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="58" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="987" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
+      <jump line="659" column="0" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text>from amr_graph import *</text>
       </register>
       <register name="/" type="4">
         <text>OUTPATH</text>
@@ -571,35 +577,58 @@
         empty_num = 0.0</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="2" type="4">
-        <text>#if sent_index != 16453:
-        #    continue</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICNyZXR1cm4K</text>
+      <register name="2" type="4">
+        <text>if __name__ == '__main__':
+    argparser = argparse.ArgumentParser()
+
+    argparser.add_argument(&quot;--amr_file&quot;, type=str, help=&quot;the original AMR graph files&quot;, required=False)
+    argparser.add_argument(&quot;--stop&quot;, type=str, help=&quot;stop words file&quot;, required=False)
+    argparser.add_argument(&quot;--lemma&quot;, type=str, help=&quot;lemma file&quot;, required=False)
+    argparser.add_argument(&quot;--dump_graph&quot;, action=&quot;store_true&quot;, help=&quot;if only to dump graph object&quot;)
+    argparser.add_argument(&quot;--preprocess&quot;, action=&quot;store_true&quot;, help=&quot;if needed to preprocess the AMR graphs into dumped AMR graph objects&quot;)
+    argparser.add_argument(&quot;--parallel&quot;, action=&quot;store_true&quot;, help=&quot;if to run multiple process to run the forest construction&quot;)
+    argparser.add_argument(&quot;--dump_rules&quot;, action=&quot;store_true&quot;, help=&quot;if to dump lexical rules&quot;)
+    argparser.add_argument(&quot;--use_stats&quot;, action=&quot;store_true&quot;, help=&quot;if to use stats&quot;)
+    argparser.add_argument(&quot;--refine&quot;, action=&quot;store_true&quot;, help=&quot;if to refine the nonterminals&quot;)
+    argparser.add_argument(&quot;--random&quot;, action=&quot;store_true&quot;, help=&quot;if use random order&quot;)
+    argparser.add_argument(&quot;--reversed&quot;, action=&quot;store_true&quot;, help=&quot;if to reverse the pi sequence&quot;)
+    argparser.add_argument(&quot;--depth&quot;, action=&quot;store_true&quot;, help=&quot;if to reverse the pi sequence&quot;)
+    argparser.add_argument(&quot;--data_dir&quot;, type=str, help=&quot;the data directory for dumped AMR graph objects, alignment and tokenized sentences&quot;)
+    argparser.add_argument(&quot;--save_dir&quot;, type=str, help=&quot;the output directory for saving the constructed forest&quot;)
+    argparser.add_argument(&quot;--stats_dir&quot;, type=str, help=&quot;the statistics directory&quot;)
+    argparser.add_argument(&quot;--nodes&quot;, type=str, help=&quot;nodes for running processes&quot;)
+    argparser.add_argument(&quot;--sent_per_node&quot;, type=int, help=&quot;number of sentences for each node&quot;)
+    argparser.add_argument(&quot;--nsplit&quot;, type=int, help=&quot;if to split the forest into multiple&quot;)
+
+    args = argparser.parse_args()
+    construct_forest(args)</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">I2lmIHNlbnRfaW5kZXggPCB0ZXN0X2Nhc2U6CiAgICAgICAgIyAgICBjb250aW51ZQogICAgICAgICNlbGlmIHNlbnRfaW5kZXggPiB0ZXN0X2Nhc2U6CiAgICAgICAgIyAgICBicmVhawogICAgICAgICNpZiBzZW50X2luZGV4ID4gMzoKICAgICAgICAjICAgIGJyZWFrCiAgICAgICAgI2lmIHNlbnRfaW5kZXggPiAxOgogICAgICAgICMgICAgY29udGludWUKICAgICAgICAjaWYgc2VudF9pbmRleCA8IDU3MzoKICAgICAgICAjICAgIGNvbnRpbnVl</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">I29zLnN5c3RlbSgnbWtkaXIgLXAgdG1wJykKICAgICNhbXJfZiA9IG9wZW4oJ3RtcC9hbXInLCAndycpCiAgICAjdG9rX2YgPSBvcGVuKCd0bXAvdG9rZW4nLCAndycpCiAgICAjYWxpZ25tZW50X2YgPSBvcGVuKCd0bXAvYWxpZ25tZW50JywgJ3cnKQogICAgI3Bvc19mID0gb3BlbigndG1wL3BvcycsICd3JykKCiAgICAjZm9yIGkgaW4geHJhbmdlKDEzMywgMjMzKToKICAgICMgICAgcHJpbnQgPj5hbXJfZiwgc3RyKGFtcl9ncmFwaHNbaV0pCiAgICAjICAgIHByaW50ID4+YW1yX2YsICIiCiAgICAjICAgIHByaW50ID4+cG9zX2YsICcgJy5qb2luKHBvc3NbaV0pCiAgICAjICAgIHByaW50ID4+dG9rX2YsICcgJy5qb2luKHRva3NbaV0pCiAgICAjICAgIHByaW50ID4+YWxpZ25tZW50X2YsICcgJy5qb2luKGFsaWdubWVudHNbaV0p</text>
-      </register>
-      <register name="8" type="4">
-        <text>#lengths = [len(s) for s in toks]
-    #print 'maximum sentence length:', max(lengths)
+        <text>#    constructed_forests.append(hg)
+        #    sent_indexes.append(sent_index)
 
-    #return</text>
+        #else:
+        #    logger.writeln(&quot;Failed to build a forest&quot;)</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICNsb2dnZXIud3JpdGVsbigndG90YWwgZHVtcCBmb3Jlc3RzOiAlZCcgJSBsZW4oY29uc3RydWN0ZWRfZm9yZXN0cykpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICNsb2dnZXIud3JpdGVsbigndG90YWwgdXNlZCBzZW50cyBpczogJWQnICUgdXNlZF9zZW50cykK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
