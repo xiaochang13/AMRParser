@@ -261,12 +261,12 @@
       <file name="/Library/Python/2.7/site-packages/keras/initializers.py" timestamp="1507573131962">
         <mark key="'" line="481" column="19" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1480518352122">
-        <mark key="'" line="686" column="0" />
-        <mark key="[" line="874" column="4" />
-        <mark key="]" line="876" column="52" />
+      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1509643363586">
+        <mark key="'" line="967" column="4" />
+        <mark key="[" line="653" column="0" />
+        <mark key="]" line="653" column="0" />
         <mark key="^" line="422" column="4" />
-        <mark key="." line="422" column="4" />
+        <mark key="." line="653" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_main.py" timestamp="1507508754113">
         <mark key="'" line="93" column="27" />
@@ -453,8 +453,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="125" column="16" filename="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" />
-      <jump line="123" column="10" filename="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" />
       <jump line="844" column="8" filename="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" />
       <jump line="856" column="7" filename="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" />
       <jump line="696" column="17" filename="/Library/Python/2.7/site-packages/networkx/classes/digraph.py" />
@@ -553,10 +551,12 @@
       <jump line="971" column="25" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="437" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="1030" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="58" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
+      <jump line="987" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
         <text>#</text>
@@ -571,47 +571,35 @@
         empty_num = 0.0</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="2" type="4">
-        <text>#for node in chart[0][n]:
-    #    assert len(chart[0][n]) == 1 and is_goal_item(node)
-    #    #if is_goal_item(node):</text>
+        <text>#if sent_index != 16453:
+        #    continue</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>#root_node = amr_graph.nodes[frag.root]
-    #for edge_index in root_node.v_edges:
-    #    if frag.edges[edge_index] == 1:
-    #        return edge_index
-    #assert True, 'This is impossible'
-    #return None</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICNyZXR1cm4K</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">I3NwYW5fdG9fZnJhZyA9IGluaXRBbGlnbm1lbnRzKG5ld19hbXIsIGNvbGxhcHNlZF90b2tzLCBjb2xsYXBzZV9wb3MsIG5ld19hbGlnbm1lbnQsIHVuYWxpZ25lZF90b2tzLAogICAgICAgICMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2ZXJiX21hcCwgbm9kZWlkX3RvX2ZyYWcsIDAsIDApCgogICAgICAgICNlZGdlX2FsaWdubWVudCA9IGJpdGFycmF5KGxlbihuZXdfYW1yLmVkZ2VzKSkKICAgICAgICAjaWYgZWRnZV9hbGlnbm1lbnQuY291bnQoKSAhPSAwOgogICAgICAgICMgICAgZWRnZV9hbGlnbm1lbnQgXj0gZWRnZV9hbGlnbm1lbnQKCiAgICAgICAgI2Fzc2VydCBlZGdlX2FsaWdubWVudC5jb3VudCgpID09IDAKCiAgICAgICAgI3NvcnRlZF9mcmFnbWVudHMgPSBzb3J0ZWQoc3Bhbl90b19mcmFnLml0ZW1zKCksIGtleT1sYW1iZGEgeDogKHhbMF1bMF0sIHhbMF1bMV0pKQoKICAgICAgICAjYWxpZ25lZCA9IFtdCgogICAgICAgICNmb3IgKChzdGFydCwgZW5kKSwgZnJhZykgaW4gc29ydGVkX2ZyYWdtZW50czoKICAgICAgICAjICAgIGZyYWcuYnVpbGRfZXh0X2xpc3QoKQogICAgICAgICMgICAgZnJhZy5idWlsZF9leHRfc2V0KCkKICAgICAgICAjICAgIGVkZ2VfYWxpZ25tZW50IHw9IGZyYWcuZWRnZXMKCiAgICAgICAgIyAgICByb290X2VkZ2UgPSBmcmFnLnJvb3RFZGdlKCkKICAgICAgICAjICAgIGNhcGFjaXRpZXNbcm9vdF9lZGdlXSArPSAxCiAgICAgICAgIyAgICBpZiBjYXBhY2l0aWVzW3Jvb3RfZWRnZV0gPiAxOgogICAgICAgICMgICAgICAgIHByaW50ICJtdWx0aXBsZSB0byBvbmUgZm91bmQ6Iiwgc2VudF9pbmRleAogICAgICAgICMgICAgICAgIGZyYWcgPSBkZWVwY29weShmcmFnKQoKICAgICAgICAjICAgIGZyYWcuc2V0U3BhbihzdGFydCwgZW5kKQogICAgICAgICMgICAgYWxpZ25lZC5hcHBlbmQoZnJhZykKCiAgICAgICAgIyAgICBwcmludCAiJWQtJWQsICVzIDogJXMgLCAlcyIgJSAoc3RhcnQsIGVuZCwgJyAnLmpvaW4oY29sbGFwc2VkX3Rva3Nbc3RhcnQ6ZW5kXSksCiAgICAgICAgIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0cihmcmFnKSwgZnJhZy5jYXRlZ29yeSk=</text>
+        <text encoding="base64">I29zLnN5c3RlbSgnbWtkaXIgLXAgdG1wJykKICAgICNhbXJfZiA9IG9wZW4oJ3RtcC9hbXInLCAndycpCiAgICAjdG9rX2YgPSBvcGVuKCd0bXAvdG9rZW4nLCAndycpCiAgICAjYWxpZ25tZW50X2YgPSBvcGVuKCd0bXAvYWxpZ25tZW50JywgJ3cnKQogICAgI3Bvc19mID0gb3BlbigndG1wL3BvcycsICd3JykKCiAgICAjZm9yIGkgaW4geHJhbmdlKDEzMywgMjMzKToKICAgICMgICAgcHJpbnQgPj5hbXJfZiwgc3RyKGFtcl9ncmFwaHNbaV0pCiAgICAjICAgIHByaW50ID4+YW1yX2YsICIiCiAgICAjICAgIHByaW50ID4+cG9zX2YsICcgJy5qb2luKHBvc3NbaV0pCiAgICAjICAgIHByaW50ID4+dG9rX2YsICcgJy5qb2luKHRva3NbaV0pCiAgICAjICAgIHByaW50ID4+YWxpZ25tZW50X2YsICcgJy5qb2luKGFsaWdubWVudHNbaV0p</text>
       </register>
-      <register name="8" type="8">
-        <text>#
-#</text>
+      <register name="8" type="4">
+        <text>#lengths = [len(s) for s in toks]
+    #print 'maximum sentence length:', max(lengths)
+
+    #return</text>
       </register>
-      <register name="9" type="8">
-        <text>#
-#
-#
-#
-#
-#
-#
-#
-#</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
