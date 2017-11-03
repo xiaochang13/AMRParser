@@ -98,8 +98,8 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509683497764">
-        <mark key="'" line="757" column="45" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509721160440">
+        <mark key="'" line="13" column="0" />
         <mark key="[" line="784" column="33" />
         <mark key="]" line="785" column="19" />
         <mark key="^" line="785" column="19" />
@@ -474,7 +474,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2689" column="65" filename="/Library/Python/2.7/site-packages/keras/engine/topology.py" />
       <jump line="2690" column="11" filename="/Library/Python/2.7/site-packages/keras/engine/topology.py" />
       <jump line="2699" column="22" filename="/Library/Python/2.7/site-packages/keras/engine/topology.py" />
       <jump line="2704" column="15" filename="/Library/Python/2.7/site-packages/keras/engine/topology.py" />
@@ -574,6 +573,7 @@
       <jump line="32" column="0" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="13" column="0" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="757" column="45" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="13" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -583,7 +583,7 @@
         <text>collapsed_toks</text>
       </register>
       <register name="/" type="4">
-        <text>FLAGS</text>
+        <text>fragment_decomposition_forest</text>
       </register>
       <register name="0" type="4">
         <text>(tok_seq, pos_seq, alignment_seq, amr)</text>
@@ -617,13 +617,13 @@ q_rule_f = open('another_poisoned_rule.gr', 'w')</text>
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>1</text>
       </register>
     </registers>
     <search>
-      <last-search>FLAGS</last-search>
+      <last-search>fragment_decomposition_forest</last-search>
       <last-offset />
-      <last-pattern>FLAGS</last-pattern>
+      <last-pattern>fragment_decomposition_forest</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -658,6 +658,7 @@ q_rule_f = open('another_poisoned_rule.gr', 'w')</text>
         <entry>FRAGMENT_NT</entry>
         <entry>GFLAGS</entry>
         <entry>FLAGS</entry>
+        <entry>fragment_decomposition_forest</entry>
       </history-search>
       <history-cmd>
         <entry>310</entry>
@@ -680,9 +681,9 @@ q_rule_f = open('another_poisoned_rule.gr', 'w')</text>
         <entry>115</entry>
         <entry>186</entry>
         <entry>249</entry>
-        <entry>1</entry>
         <entry>758</entry>
         <entry>w</entry>
+        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
