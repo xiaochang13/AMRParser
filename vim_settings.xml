@@ -98,12 +98,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509771955195">
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509822252013">
         <mark key="'" line="561" column="29" />
-        <mark key="[" line="637" column="0" />
-        <mark key="]" line="637" column="0" />
+        <mark key="[" line="585" column="0" />
+        <mark key="]" line="585" column="0" />
         <mark key="^" line="737" column="9" />
-        <mark key="." line="637" column="0" />
+        <mark key="." line="585" column="0" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -474,7 +474,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="53" column="36" filename="/Library/Python/2.7/site-packages/keras/layers/__init__.py" />
       <jump line="335" column="30" filename="/Library/Python/2.7/site-packages/keras/models.py" />
       <jump line="2" column="23" filename="/Library/Python/2.7/site-packages/keras/models.py" />
       <jump line="122" column="8" filename="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" />
@@ -574,10 +573,11 @@
       <jump line="16" column="8" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="801" column="51" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="561" column="29" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="494" column="0" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -589,40 +589,33 @@
         <text>(tok_seq, pos_seq, alignment_seq, amr)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="2" type="4">
-        <text>print 'Unaligned fragments:'
-        for frag in unaligned_fragments:
-            print str(frag)</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCAnQWxpZ25tZW50IGZyYWdtZW50czonCg==</text>
-      </register>
-      <register name="4" type="8">
-        <text>#
-#</text>
-      </register>
-      <register name="5" type="4">
-        <text>#if len(chart[i][k]) == 0 or len(chart[k][j]) == 0:
-                #    continue</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICNwcmludCAnY3VycmVudDonLCBpLCBqLCBuZXdfbm9kZS53aWR0aCwgbm9kZTEud2lkdGgsIG5vZGUyLndpZHRoLCBsZW4obm9kZTEuZnJhZy5leHRfc2V0IHwgbm9kZTIuZnJhZy5leHRfc2V0KQo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>#print new_frag.ext_list
-                #print '%d-%d' % (new_frag.start, new_frag.end)
-                #print '%d-%d' % (i, j)
-                #print new_frag.rootLabels()
-                #print '%d-%d:%s' % (new_frag.start, new_frag.end, ' '.join(new_frag.str_list()))
-                #print str(new_frag)</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="4" type="4">
+        <text>#These are the unaligned concepts in the graph
+    unaligned_nodes = []</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="6" type="4">
+        <text>#new_node.width = len(new_node.frag.ext_list)
+        #chart[i][j].add(new_node)</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICMgYXNzZXJ0IGxlbih1bmFsaWduZWRfZnJhZ21lbnRzKSA9PSAwCg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
