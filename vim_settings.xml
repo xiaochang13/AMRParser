@@ -98,12 +98,11 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509904442377">
-        <mark key="'" line="604" column="27" />
-        <mark key="[" line="560" column="10" />
-        <mark key="]" line="561" column="0" />
-        <mark key="^" line="561" column="0" />
-        <mark key="." line="561" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509918903661">
+        <mark key="[" line="578" column="5" />
+        <mark key="]" line="578" column="5" />
+        <mark key="." line="578" column="5" />
+        <mark key="^" line="578" column="5" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -474,14 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="149" column="4" filename="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" />
-      <jump line="407" column="8" filename="/Library/Python/2.7/site-packages/keras/engine/topology.py" />
-      <jump line="2691" column="0" filename="/Library/Python/2.7/site-packages/keras/engine/topology.py" />
-      <jump line="2693" column="41" filename="/Library/Python/2.7/site-packages/keras/engine/topology.py" />
-      <jump line="2724" column="6" filename="/Library/Python/2.7/site-packages/keras/engine/topology.py" />
-      <jump line="7" column="0" filename="/Library/Python/2.7/site-packages/keras/engine/topology.py" />
-      <jump line="17" column="49" filename="/Library/Python/2.7/site-packages/keras/engine/topology.py" />
-      <jump line="177" column="4" filename="/Library/Python/2.7/site-packages/networkx/algorithms/dag.py" />
       <jump line="391" column="4" filename="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" />
       <jump line="1062" column="14" filename="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" />
       <jump line="178" column="22" filename="/Library/Python/2.7/site-packages/networkx/algorithms/dag.py" />
@@ -574,64 +565,64 @@
       <jump line="763" column="32" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="604" column="27" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="560" column="27" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="767" column="25" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="559" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="770" column="25" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="834" column="47" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="562" column="27" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="223" column="23" filename="$USER_HOME$/SHRG-induction/hypergraph.py" />
+      <jump line="584" column="19" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="445" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>identified concept fragments</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IyA=</text>
+        <text>identified concept fragments</text>
       </register>
       <register name="/" type="4">
-        <text>return None</text>
+        <text>fragment_de</text>
       </register>
       <register name="0" type="4">
-        <text>(tok_seq, pos_seq, alignment_seq, amr)</text>
+        <text>chart = [[None for _ in range(n+1)] for _ in range(n+1)]
+    width = [[0 for _ in range(n+1)] for _ in range(n+1)]</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBuZXdfbm9kZSA9IGJ1aWxkX29uZV9ub2RlKGZyYWdtZW50c1tpXSwgaSwgaikK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgIHdpZHRoID0gW1swIGZvciBfIGluIHJhbmdlKG4rMSldIGZvciBfIGluIHJhbmdlKG4rMSldCg==</text>
       </register>
-      <register name="3" type="4">
-        <text>#for edge in new_node.incoming:
-                    #    chart[i][j].add_incoming(edge)</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="4">
-        <text>#if hg is None:
-    #    print '##################################'
-    #    print 'No goal item in the final chart'
-    #    print 'Alignment fragments:'
-    #    for frag in fragments:
-    #        print str(frag)
-
-    #    return None
-    #return hg</text>
+        <text encoding="base64">I3J1bGVfc3RyID0gbmV3X25vZGUubGV4aWNhbF9ydWxlKCkKICAgICNwcmludCA+PnJ1bGVfZiwgcnVsZV9zdHI=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgI2NoYXJ0W2ldW2pdLmVkZ2UgPSBsZW4oY2hhcnRbaV1bal0uaW5jb21pbmcpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">I2lmIGxlbihuZXdfbm9kZS5mcmFnLnN0cl9saXN0KCkpIDwgOToKICAgICAgICAgICAgICAgICMgICAgcnVsZV9zdHIgPSBuZXdfbm9kZS5sZXhpY2FsX3J1bGUoKQogICAgICAgICAgICAgICAgIyAgICBwcmludCA+PiBydWxlX2YsIHJ1bGVfc3RyCgogICAgICAgICAgICAgICAgI2FkZF9vbmVfaXRlbShjaGFydFtpXVtqXSwgbmV3X25vZGUp</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>return None</last-search>
+      <last-search>fragment_de</last-search>
       <last-offset />
-      <last-pattern>return None</last-pattern>
+      <last-pattern>fragment_de</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -672,9 +663,9 @@
         <entry>unaligned_fragments</entry>
         <entry>capacities</entry>
         <entry>build_enti</entry>
-        <entry>fragment_de</entry>
         <entry>max_width</entry>
         <entry>return None</entry>
+        <entry>fragment_de</entry>
       </history-search>
       <history-cmd>
         <entry>310</entry>
