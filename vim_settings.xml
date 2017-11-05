@@ -98,11 +98,11 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509918903661">
-        <mark key="[" line="578" column="5" />
-        <mark key="]" line="578" column="5" />
-        <mark key="." line="578" column="5" />
-        <mark key="^" line="578" column="5" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509920242400">
+        <mark key="[" line="594" column="44" />
+        <mark key="]" line="595" column="43" />
+        <mark key="^" line="595" column="43" />
+        <mark key="." line="595" column="43" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -473,9 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="391" column="4" filename="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" />
-      <jump line="1062" column="14" filename="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" />
-      <jump line="178" column="22" filename="/Library/Python/2.7/site-packages/networkx/algorithms/dag.py" />
       <jump line="1067" column="10" filename="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" />
       <jump line="384" column="4" filename="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" />
       <jump line="481" column="19" filename="/Library/Python/2.7/site-packages/keras/initializers.py" />
@@ -563,23 +560,26 @@
       <jump line="1389" column="21" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="23" column="4" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="763" column="32" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="604" column="27" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="560" column="27" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="767" column="25" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="559" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="770" column="25" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="834" column="47" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="562" column="27" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="223" column="23" filename="$USER_HOME$/SHRG-induction/hypergraph.py" />
       <jump line="584" column="19" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="445" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="604" column="30" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="469" column="4" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="483" column="0" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="559" column="37" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="495" column="4" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>identified concept fragments</text>
+        <text encoding="base64">aWYgYnNpemUgPiBjdXJyX3dpZHRoOgogICAgICAgICAgICAgICAgICAgIGN1cnJfd2lkdGg=</text>
       </register>
       <register name="-" type="4">
-        <text>identified concept fragments</text>
+        <text>width[i][j] =</text>
       </register>
       <register name="/" type="4">
         <text>fragment_de</text>
@@ -588,32 +588,42 @@
         <text>chart = [[None for _ in range(n+1)] for _ in range(n+1)]
     width = [[0 for _ in range(n+1)] for _ in range(n+1)]</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBuZXdfbm9kZSA9IGJ1aWxkX29uZV9ub2RlKGZyYWdtZW50c1tpXSwgaSwgaikK</text>
+      <register name="1" type="4">
+        <text encoding="base64">aWYgYnNpemUgPiBjdXJyX3dpZHRoOgogICAgICAgICAgICAgICAgICAgIGN1cnJfd2lkdGg=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHdpZHRoID0gW1swIGZvciBfIGluIHJhbmdlKG4rMSldIGZvciBfIGluIHJhbmdlKG4rMSldCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGN1cnJfd2lkdGggPSBtYXgod2lkdGhbaV1ba10sIHdpZHRoW2tdW2pdKQo=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">I3J1bGVfc3RyID0gbmV3X25vZGUubGV4aWNhbF9ydWxlKCkKICAgICNwcmludCA+PnJ1bGVfZiwgcnVsZV9zdHI=</text>
+      <register name="5" type="4">
+        <text>def combine_frag(i, j, node1, node2):
+        curr_width = max(node1.width, node2.width)
+        new_frag, b_size = general_combine_fragments(node1.frag, node2.frag)
+        curr_width = max(curr_width, b_size)
+        new_node = FragmentHGNode(FRAGMENT_NT, i, j, new_frag, False, False, False)
+        new_node.width = curr_width
+        edge = FragmentHGEdge()
+        edge.add_tail(node1)
+        edge.add_tail(node2)
+        new_node.add_incoming(edge)
+        return new_node</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBuZXdfbm9kZSA9IGJ1aWxkX29uZV9ub2RlKGZyYWdtZW50c1tpXSwgaSwgaikK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHdpZHRoID0gW1swIGZvciBfIGluIHJhbmdlKG4rMSldIGZvciBfIGluIHJhbmdlKG4rMSldCg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
