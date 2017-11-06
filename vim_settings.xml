@@ -582,7 +582,7 @@
         <text>b2</text>
       </register>
       <register name="/" type="4">
-        <text>build_entit</text>
+        <text>runMa</text>
       </register>
       <register name="0" type="4">
         <text>width = [[len(leafs) for _ in range(n+1)] for _ in range(n+1)]</text>
@@ -621,9 +621,9 @@
       </register>
     </registers>
     <search>
-      <last-search>build_entit</last-search>
+      <last-search>runMa</last-search>
       <last-offset />
-      <last-pattern>build_entit</last-pattern>
+      <last-pattern>runMa</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -676,6 +676,7 @@
         <entry>edge_set</entry>
         <entry>build_out</entry>
         <entry>build_entit</entry>
+        <entry>runMa</entry>
       </history-search>
       <history-cmd>
         <entry>310</entry>
