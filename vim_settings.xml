@@ -98,12 +98,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509947131567">
-        <mark key="'" line="587" column="50" />
-        <mark key="[" line="791" column="8" />
-        <mark key="]" line="791" column="9" />
-        <mark key="." line="791" column="9" />
-        <mark key="^" line="791" column="9" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509991174153">
+        <mark key="'" line="861" column="4" />
+        <mark key="[" line="815" column="0" />
+        <mark key="]" line="815" column="0" />
+        <mark key="." line="815" column="0" />
+        <mark key="^" line="860" column="77" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -473,8 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="486" column="12" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
-      <jump line="245" column="14" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
       <jump line="138" column="14" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
       <jump line="220" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="1028" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -573,57 +571,60 @@
       <jump line="158" column="8" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
       <jump line="231" column="53" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
       <jump line="80" column="12" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
+      <jump line="832" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="858" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgY3Vycl93aWR0aCA9PSAyIGFuZCBvdXRzaWRlX3dpZHRoID4gY3Vycl93aWR0aDoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>b2</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>outside_s</text>
+        <text>runMachine</text>
       </register>
       <register name="0" type="4">
         <text>width = [[len(leafs) for _ in range(n+1)] for _ in range(n+1)]</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgY3Vycl93aWR0aCA9PSAyIGFuZCBvdXRzaWRlX3dpZHRoID4gY3Vycl93aWR0aDoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgIHByaW50ICdBJwo=</text>
+      </register>
+      <register name="3" type="4">
+        <text>all_piseqs.append(pi_seq)
+        all_collapsed_toks.append(new_amr.sent)
+        all_edgemaps.append(edge_map)</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBhbGxfcGlzZXFzLmFwcGVuZChwaV9zZXEpCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgY3Vycl93aWR0aCA9PSAyIGFuZCBvdXRzaWRlX3dpZHRoID4gY3Vycl93aWR0aDoK</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgb3V0c2lkZV93aWR0aFtpXVtqXSA9IG1pbihvdXRzaWRlX3dpZHRoW2ldW2pdLCBiMikK</text>
       </register>
-      <register name="3" type="8">
+      <register name="7" type="8">
         <text>#
 #</text>
       </register>
-      <register name="4" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgY3Vycl9mcmFnLm91dHNpZGVfc2V0LmFkZCgpCg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgY3Vycl9mcmFnLmJ1aWxkX291dHNpZGVfc2V0KHNldChbXSkpCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBmcmFnLmJ1aWxkX291dHNpZGVfc2V0KCkK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmCg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="9" type="4">
-        <text>else:
-                outside_set.add(curr_edge.tail)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>outside_s</last-search>
+      <last-search>runMachine</last-search>
       <last-offset />
-      <last-pattern>outside_s</last-pattern>
+      <last-pattern>runMachine</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -679,6 +680,7 @@
         <entry>runMa</entry>
         <entry>ouside_set</entry>
         <entry>outside_s</entry>
+        <entry>runMachine</entry>
       </history-search>
       <history-cmd>
         <entry>310</entry>
