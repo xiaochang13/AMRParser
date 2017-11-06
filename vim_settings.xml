@@ -41,12 +41,12 @@
         <mark key="." line="359" column="10" />
         <mark key="^" line="359" column="10" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1509945059557">
-        <mark key="'" line="316" column="40" />
-        <mark key="[" line="318" column="28" />
-        <mark key="]" line="318" column="33" />
-        <mark key="^" line="318" column="33" />
-        <mark key="." line="318" column="33" />
+      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1509946097444">
+        <mark key="'" line="480" column="29" />
+        <mark key="[" line="314" column="34" />
+        <mark key="]" line="315" column="34" />
+        <mark key="^" line="315" column="34" />
+        <mark key="." line="315" column="34" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/syntaxnet/parser_trainer_test.sh" timestamp="1507667666369">
         <mark key="'" line="30" column="9" />
@@ -98,12 +98,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509945201973">
-        <mark key="'" line="584" column="26" />
-        <mark key="[" line="762" column="8" />
-        <mark key="]" line="762" column="8" />
-        <mark key="." line="762" column="8" />
-        <mark key="^" line="762" column="8" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509946403318">
+        <mark key="'" line="587" column="50" />
+        <mark key="[" line="607" column="0" />
+        <mark key="]" line="607" column="0" />
+        <mark key="." line="607" column="0" />
+        <mark key="^" line="599" column="29" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -473,9 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="248" column="11" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="691" column="8" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
-      <jump line="986" column="11" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
       <jump line="24" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="1019" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="344" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
@@ -573,13 +570,16 @@
       <jump line="449" column="33" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="806" column="36" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="583" column="26" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="587" column="50" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="480" column="29" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="185" column="4" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">cHJlLW9yZGVyIA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgb3V0c2lkZV93aWR0aFtpXVtqXSA9IG1pbihvdXRzaWRlX3dpZHRoW2ldW2pdLCBiMikK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">cHJlLW9yZGVyIA==</text>
+        <text>b2</text>
       </register>
       <register name="/" type="4">
         <text>build_entit</text>
@@ -587,34 +587,34 @@
       <register name="0" type="4">
         <text>width = [[len(leafs) for _ in range(n+1)] for _ in range(n+1)]</text>
       </register>
-      <register name="1" type="8">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgb3V0c2lkZV93aWR0aFtpXVtqXSA9IG1pbihvdXRzaWRlX3dpZHRoW2ldW2pdLCBiMikK</text>
+      </register>
+      <register name="2" type="8">
         <text>#
 #</text>
       </register>
-      <register name="2" type="2">
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgY3Vycl9mcmFnLm91dHNpZGVfc2V0LmFkZCgpCg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgY3Vycl9mcmFnLmJ1aWxkX291dHNpZGVfc2V0KHNldChbXSkpCg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICBmcmFnLmJ1aWxkX291dHNpZGVfc2V0KCkK</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGlmCg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>else:
                 outside_set.add(curr_edge.tail)</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJhbmRvbS5zZWVkKDApCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmFuZG9tCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJhbmRvbS5zZWVkKDApCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
