@@ -98,12 +98,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509946403318">
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509947131567">
         <mark key="'" line="587" column="50" />
-        <mark key="[" line="607" column="0" />
-        <mark key="]" line="607" column="0" />
-        <mark key="." line="607" column="0" />
-        <mark key="^" line="599" column="29" />
+        <mark key="[" line="791" column="8" />
+        <mark key="]" line="791" column="9" />
+        <mark key="." line="791" column="9" />
+        <mark key="^" line="791" column="9" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -576,7 +576,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3V0c2lkZV93aWR0aFtpXVtqXSA9IG1pbihvdXRzaWRlX3dpZHRoW2ldW2pdLCBiMikK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgY3Vycl93aWR0aCA9PSAyIGFuZCBvdXRzaWRlX3dpZHRoID4gY3Vycl93aWR0aDoK</text>
       </register>
       <register name="-" type="4">
         <text>b2</text>
@@ -588,33 +588,33 @@
         <text>width = [[len(leafs) for _ in range(n+1)] for _ in range(n+1)]</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgY3Vycl93aWR0aCA9PSAyIGFuZCBvdXRzaWRlX3dpZHRoID4gY3Vycl93aWR0aDoK</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgICAgICAgb3V0c2lkZV93aWR0aFtpXVtqXSA9IG1pbihvdXRzaWRlX3dpZHRoW2ldW2pdLCBiMikK</text>
       </register>
-      <register name="2" type="8">
+      <register name="3" type="8">
         <text>#
 #</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgY3Vycl9mcmFnLm91dHNpZGVfc2V0LmFkZCgpCg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgY3Vycl9mcmFnLmJ1aWxkX291dHNpZGVfc2V0KHNldChbXSkpCg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBmcmFnLmJ1aWxkX291dHNpZGVfc2V0KCkK</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGlmCg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>else:
                 outside_set.add(curr_edge.tail)</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJhbmRvbS5zZWVkKDApCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
