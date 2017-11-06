@@ -163,8 +163,8 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1509645757271">
-        <mark key="'" line="840" column="27" />
+      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1509986273108">
+        <mark key="'" line="839" column="13" />
         <mark key="[" line="653" column="0" />
         <mark key="]" line="653" column="0" />
         <mark key="^" line="422" column="4" />
@@ -200,8 +200,8 @@
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/fileinput.py" timestamp="1478072637687">
         <mark key="'" line="101" column="13" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1509649812604">
-        <mark key="'" line="245" column="14" />
+      <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1509986449939">
+        <mark key="'" line="231" column="53" />
         <mark key="[" line="248" column="8" />
         <mark key="]" line="248" column="9" />
         <mark key="^" line="248" column="9" />
@@ -473,12 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="24" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="1019" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="344" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
-      <jump line="809" column="46" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
-      <jump line="933" column="48" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="414" column="19" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
       <jump line="486" column="12" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
       <jump line="245" column="14" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
       <jump line="138" column="14" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
@@ -573,6 +567,12 @@
       <jump line="587" column="50" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="480" column="29" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="185" column="4" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="839" column="13" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
+      <jump line="249" column="25" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
+      <jump line="172" column="34" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
+      <jump line="158" column="8" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
+      <jump line="231" column="53" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
+      <jump line="80" column="12" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -582,7 +582,7 @@
         <text>b2</text>
       </register>
       <register name="/" type="4">
-        <text>runMa</text>
+        <text>outside_s</text>
       </register>
       <register name="0" type="4">
         <text>width = [[len(leafs) for _ in range(n+1)] for _ in range(n+1)]</text>
@@ -621,9 +621,9 @@
       </register>
     </registers>
     <search>
-      <last-search>runMa</last-search>
+      <last-search>outside_s</last-search>
       <last-offset />
-      <last-pattern>runMa</last-pattern>
+      <last-pattern>outside_s</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -677,6 +677,8 @@
         <entry>build_out</entry>
         <entry>build_entit</entry>
         <entry>runMa</entry>
+        <entry>ouside_set</entry>
+        <entry>outside_s</entry>
       </history-search>
       <history-cmd>
         <entry>310</entry>
