@@ -98,12 +98,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510026146358">
-        <mark key="'" line="873" column="8" />
-        <mark key="[" line="839" column="35" />
-        <mark key="]" line="840" column="47" />
-        <mark key="." line="840" column="47" />
-        <mark key="^" line="840" column="47" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510028207430">
+        <mark key="'" line="816" column="45" />
+        <mark key="[" line="816" column="43" />
+        <mark key="]" line="816" column="47" />
+        <mark key="." line="816" column="47" />
+        <mark key="^" line="816" column="47" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -473,7 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="220" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="1028" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="754" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="797" column="23" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
@@ -573,16 +572,17 @@
       <jump line="832" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="858" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="861" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="816" column="45" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>total_width</text>
+        <text>str</text>
       </register>
       <register name="-" type="4">
-        <text>total_width</text>
+        <text>str</text>
       </register>
       <register name="/" type="4">
-        <text>runMachine</text>
+        <text>node_repr</text>
       </register>
       <register name="0" type="4">
         <text>sorted_width = sorted(width_dist.items(), key=lambda x: -x[1])
@@ -625,9 +625,9 @@
       </register>
     </registers>
     <search>
-      <last-search>runMachine</last-search>
+      <last-search>node_repr</last-search>
       <last-offset />
-      <last-pattern>runMachine</last-pattern>
+      <last-pattern>node_repr</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -684,6 +684,7 @@
         <entry>ouside_set</entry>
         <entry>outside_s</entry>
         <entry>runMachine</entry>
+        <entry>node_repr</entry>
       </history-search>
       <history-cmd>
         <entry>310</entry>
@@ -706,9 +707,9 @@
         <entry>186</entry>
         <entry>249</entry>
         <entry>758</entry>
-        <entry>1</entry>
         <entry>323</entry>
         <entry encoding="base64">JzwsJz5jYWxsIFZpc3VhbFNlYXJjaCgnYicp</entry>
+        <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
