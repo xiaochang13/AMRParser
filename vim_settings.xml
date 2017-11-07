@@ -98,12 +98,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510081097171">
-        <mark key="'" line="949" column="4" />
-        <mark key="[" line="629" column="62" />
-        <mark key="]" line="629" column="74" />
-        <mark key="." line="629" column="74" />
-        <mark key="^" line="629" column="74" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510086639223">
+        <mark key="'" line="959" column="4" />
+        <mark key="[" line="625" column="20" />
+        <mark key="]" line="625" column="23" />
+        <mark key="." line="625" column="23" />
+        <mark key="^" line="625" column="23" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -575,49 +575,44 @@
       <jump line="949" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>width</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>width</text>
+        <text encoding="base64">IHwgc2V0KFtpXSk=</text>
       </register>
       <register name="/" type="4">
         <text>deque</text>
       </register>
       <register name="0" type="4">
-        <text>sorted_width = sorted(width_dist.items(), key=lambda x: -x[1])
-    print 'Analyzed a total of %d sentences.' % int(n_success)
-    for (width, count) in sorted_width:
-        print 'width: %d, count: %d' % (width, count)
-    print 'Maximum width:', max_width
-    print 'Average inside width:', total_width/n_success</text>
+        <text>chart[i][k].outside_set | chart[k][j].outside_set</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBiYWNrcG9pbnRlcnNbKGksIGopXSA9IFsoaSwgayksIChrLCBqKV0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaW50ICdNYXhpbXVtIHdpZHRoOicsIG1heF9jYWNoZV93aWR0aAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgYmFja3BvaW50ZXJzWyhpLCBqKV0gCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICMgcHJpbnQgJ01heGltdW0gd2lkdGg6JywgbWF4X3dpZHRoCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBvdXRzaWRlX3dpZHRoW2ldW2pdID0gY3Vycl93aWR0aAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaW50ICJvdXRzaWRlIHRyZWV3aWR0aDoiCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIHByaW50ICdBbmFseXplZCBhIHRvdGFsIG9mICVkIHNlbnRlbmNlcy4nICUgaW50KG5fc3VjY2VzcykK</text>
+      <register name="6" type="8">
+        <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGVycm9yX29jY3VyID0gRmFsc2UK</text>
+        <text encoding="base64">ICAgIHByaW50ICdNYXhpbXVtIHdpZHRoOicsIG1heF9jYWNoZV93aWR0aAo=</text>
       </register>
-      <register name="8" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICMgcHJpbnQgJ01heGltdW0gd2lkdGg6JywgbWF4X3dpZHRoCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAjIGFzc2VydCBhcmdzLmRlcHRoCg==</text>
+        <text encoding="base64">ICAgIHByaW50ICJvdXRzaWRlIHRyZWV3aWR0aDoiCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
