@@ -98,12 +98,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1509993725964">
-        <mark key="'" line="861" column="8" />
-        <mark key="[" line="815" column="0" />
-        <mark key="]" line="815" column="0" />
-        <mark key="." line="815" column="0" />
-        <mark key="^" line="860" column="77" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510008376224">
+        <mark key="'" line="857" column="8" />
+        <mark key="[" line="801" column="0" />
+        <mark key="]" line="801" column="0" />
+        <mark key="^" line="856" column="77" />
+        <mark key="." line="801" column="0" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -576,7 +576,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIGFzc2VydCBhcmdzLmRlcHRoCg==</text>
       </register>
       <register name="-" type="4">
         <text>v</text>
@@ -588,34 +588,34 @@
         <text>width = [[len(leafs) for _ in range(n+1)] for _ in range(n+1)]</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIGFzc2VydCBhcmdzLmRlcHRoCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaW50ICdBJwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="3" type="4">
+        <text># print &quot;get here!&quot;
+                # sys.exit(1)</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAjIGNhcGFjaXRpZXMgPSBkZWZhdWx0ZGljdChpbnQpICAjTWFwIGZyb20gZWFjaCByZWVudHJhbmN5IGluZGV4IHRvIGEgbnVtYmVyCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIHByaW50ICdBJwo=</text>
+      </register>
+      <register name="7" type="4">
         <text>all_piseqs.append(pi_seq)
         all_collapsed_toks.append(new_amr.sent)
         all_edgemaps.append(edge_map)</text>
       </register>
-      <register name="4" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBhbGxfcGlzZXFzLmFwcGVuZChwaV9zZXEpCg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgY3Vycl93aWR0aCA9PSAyIGFuZCBvdXRzaWRlX3dpZHRoID4gY3Vycl93aWR0aDoK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3V0c2lkZV93aWR0aFtpXVtqXSA9IG1pbihvdXRzaWRlX3dpZHRoW2ldW2pdLCBiMikK</text>
-      </register>
-      <register name="7" type="8">
-        <text>#
-#</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY3Vycl9mcmFnLm91dHNpZGVfc2V0LmFkZCgpCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY3Vycl9mcmFnLmJ1aWxkX291dHNpZGVfc2V0KHNldChbXSkpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgY3Vycl93aWR0aCA9PSAyIGFuZCBvdXRzaWRlX3dpZHRoID4gY3Vycl93aWR0aDoK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -686,7 +686,6 @@
         <entry>310</entry>
         <entry>716</entry>
         <entry>130</entry>
-        <entry encoding="base64">JzwsJz5jYWxsIFZpc3VhbFNlYXJjaCgnYicp</entry>
         <entry>w!</entry>
         <entry>2</entry>
         <entry>123</entry>
@@ -706,6 +705,7 @@
         <entry>758</entry>
         <entry>1</entry>
         <entry>323</entry>
+        <entry encoding="base64">JzwsJz5jYWxsIFZpc3VhbFNlYXJjaCgnYicp</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
