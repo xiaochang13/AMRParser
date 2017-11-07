@@ -98,12 +98,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510070760869">
-        <mark key="'" line="816" column="45" />
-        <mark key="[" line="879" column="54" />
-        <mark key="]" line="880" column="37" />
-        <mark key="." line="880" column="37" />
-        <mark key="^" line="880" column="37" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510080046772">
+        <mark key="'" line="727" column="4" />
+        <mark key="[" line="603" column="36" />
+        <mark key="]" line="603" column="45" />
+        <mark key="." line="603" column="45" />
+        <mark key="^" line="603" column="45" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -487,7 +487,6 @@
       <jump line="13" column="0" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="757" column="45" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="13" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="723" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="803" column="37" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="693" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="648" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -573,16 +572,17 @@
       <jump line="858" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="861" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="816" column="45" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="723" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>str</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name="-" type="4">
         <text>str</text>
       </register>
       <register name="/" type="4">
-        <text>node_repr</text>
+        <text encoding="base64">U2VudGVuY2Ug</text>
       </register>
       <register name="0" type="4">
         <text>sorted_width = sorted(width_dist.items(), key=lambda x: -x[1])
@@ -592,42 +592,41 @@
     print 'Maximum width:', max_width
     print 'Average inside width:', total_width/n_success</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaW50ICdNYXhpbXVtIHdpZHRoOicsIG1heF9jYWNoZV93aWR0aAo=</text>
+      <register name="1" type="8">
+        <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMgcHJpbnQgJ01heGltdW0gd2lkdGg6JywgbWF4X3dpZHRoCg==</text>
+        <text encoding="base64">ICAgIHByaW50ICdNYXhpbXVtIHdpZHRoOicsIG1heF9jYWNoZV93aWR0aAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaW50ICJvdXRzaWRlIHRyZWV3aWR0aDoiCg==</text>
+        <text encoding="base64">ICAgICMgcHJpbnQgJ01heGltdW0gd2lkdGg6JywgbWF4X3dpZHRoCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaW50ICdBbmFseXplZCBhIHRvdGFsIG9mICVkIHNlbnRlbmNlcy4nICUgaW50KG5fc3VjY2VzcykK</text>
+        <text encoding="base64">ICAgIHByaW50ICJvdXRzaWRlIHRyZWV3aWR0aDoiCg==</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICAgIHByaW50ICdBbmFseXplZCBhIHRvdGFsIG9mICVkIHNlbnRlbmNlcy4nICUgaW50KG5fc3VjY2VzcykK</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgIGVycm9yX29jY3VyID0gRmFsc2UK</text>
       </register>
-      <register name="6" type="8">
+      <register name="7" type="8">
         <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAjIGFzc2VydCBhcmdzLmRlcHRoCg==</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="9" type="4">
-        <text># print &quot;get here!&quot;
-                # sys.exit(1)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>node_repr</last-search>
+      <last-search encoding="base64">U2VudGVuY2Ug</last-search>
       <last-offset />
-      <last-pattern>node_repr</last-pattern>
+      <last-pattern encoding="base64">U2VudGVuY2Ug</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -685,6 +684,7 @@
         <entry>outside_s</entry>
         <entry>runMachine</entry>
         <entry>node_repr</entry>
+        <entry encoding="base64">U2VudGVuY2Ug</entry>
       </history-search>
       <history-cmd>
         <entry>310</entry>
