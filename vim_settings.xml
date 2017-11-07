@@ -98,12 +98,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510086639223">
-        <mark key="'" line="959" column="4" />
-        <mark key="[" line="625" column="20" />
-        <mark key="]" line="625" column="23" />
-        <mark key="." line="625" column="23" />
-        <mark key="^" line="625" column="23" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510087407275">
+        <mark key="'" line="631" column="72" />
+        <mark key="[" line="631" column="100" />
+        <mark key="]" line="632" column="27" />
+        <mark key="." line="632" column="27" />
+        <mark key="^" line="632" column="27" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -473,11 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="797" column="23" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
-      <jump line="753" column="18" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="687" column="44" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
-      <jump line="74" column="4" filename="$USER_HOME$/SHRG-induction/re_utils.py" />
-      <jump line="538" column="4" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="583" column="31" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="0" column="0" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="423" column="0" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
@@ -501,7 +496,6 @@
       <jump line="652" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="794" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="765" column="52" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="558" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="594" column="32" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="561" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="755" column="32" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -573,6 +567,12 @@
       <jump line="723" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="615" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="949" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="558" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="863" column="58" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="581" column="64" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="613" column="66" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="621" column="63" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="631" column="72" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -582,7 +582,7 @@
         <text encoding="base64">IHwgc2V0KFtpXSk=</text>
       </register>
       <register name="/" type="4">
-        <text>deque</text>
+        <text>outside_set</text>
       </register>
       <register name="0" type="4">
         <text>chart[i][k].outside_set | chart[k][j].outside_set</text>
@@ -619,9 +619,9 @@
       </register>
     </registers>
     <search>
-      <last-search>deque</last-search>
+      <last-search>outside_set</last-search>
       <last-offset />
-      <last-pattern>deque</last-pattern>
+      <last-pattern>outside_set</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -681,6 +681,8 @@
         <entry>node_repr</entry>
         <entry encoding="base64">U2VudGVuY2Ug</entry>
         <entry>deque</entry>
+        <entry>inside_tree</entry>
+        <entry>outside_set</entry>
       </history-search>
       <history-cmd>
         <entry>310</entry>
