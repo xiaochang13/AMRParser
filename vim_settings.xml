@@ -98,12 +98,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510008376224">
-        <mark key="'" line="857" column="8" />
-        <mark key="[" line="801" column="0" />
-        <mark key="]" line="801" column="0" />
-        <mark key="^" line="856" column="77" />
-        <mark key="." line="801" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510026146358">
+        <mark key="'" line="873" column="8" />
+        <mark key="[" line="839" column="35" />
+        <mark key="]" line="840" column="47" />
+        <mark key="." line="840" column="47" />
+        <mark key="^" line="840" column="47" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -576,46 +576,49 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>None</text>
+        <text>total_width</text>
       </register>
       <register name="-" type="4">
-        <text>None</text>
+        <text>total_width</text>
       </register>
       <register name="/" type="4">
         <text>runMachine</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZWRnZV9tYXBfbGlzdCA9IGRlZmF1bHRkaWN0KGRlcXVlKQoKICAgICAgICBlcnJvcl9vY2N1ciA9IEZhbHNlCiAgICAgICAgZm9yIChpLCBjdXJyX3ZlcnRleCkgaW4gZW51bWVyYXRlKHBpX3NlcSk6CiAgICAgICAgICAgIGZvciAoaiwgbmV4dF92ZXJ0ZXgpIGluIGVudW1lcmF0ZShwaV9zZXEpOgogICAgICAgICAgICAgICAgaWYgaiA8PSBpOgogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICBpZiBuZXh0X3ZlcnRleCBpbiBlZGdlX21hcFtjdXJyX3ZlcnRleF06CiAgICAgICAgICAgICAgICAgICAgY3Vycl9kaXN0ID0gbGVuKHBpX3NlcSkgLSBqCiAgICAgICAgICAgICAgICAgICAgZWRnZV9tYXBfbGlzdFtjdXJyX3ZlcnRleF0uYXBwZW5kKGN1cnJfZGlzdCk=</text>
+        <text>sorted_width = sorted(width_dist.items(), key=lambda x: -x[1])
+    print 'Analyzed a total of %d sentences.' % int(n_success)
+    for (width, count) in sorted_width:
+        print 'width: %d, count: %d' % (width, count)
+    print 'Maximum width:', max_width
+    print 'Average inside width:', total_width/n_success</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGVycm9yX29jY3VyID0gRmFsc2UK</text>
+        <text encoding="base64">ICAgIHByaW50ICdNYXhpbXVtIHdpZHRoOicsIG1heF9jYWNoZV93aWR0aAo=</text>
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICMgcHJpbnQgJ01heGltdW0gd2lkdGg6JywgbWF4X3dpZHRoCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjIGFzc2VydCBhcmdzLmRlcHRoCg==</text>
+        <text encoding="base64">ICAgIHByaW50ICJvdXRzaWRlIHRyZWV3aWR0aDoiCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgIHByaW50ICdBbmFseXplZCBhIHRvdGFsIG9mICVkIHNlbnRlbmNlcy4nICUgaW50KG5fc3VjY2VzcykK</text>
       </register>
-      <register name="5" type="4">
-        <text># print &quot;get here!&quot;
-                # sys.exit(1)</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIGVycm9yX29jY3VyID0gRmFsc2UK</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIGNhcGFjaXRpZXMgPSBkZWZhdWx0ZGljdChpbnQpICAjTWFwIGZyb20gZWFjaCByZWVudHJhbmN5IGluZGV4IHRvIGEgbnVtYmVyCg==</text>
+      <register name="6" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIGFzc2VydCBhcmdzLmRlcHRoCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaW50ICdBJwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="9" type="4">
-        <text>all_piseqs.append(pi_seq)
-        all_collapsed_toks.append(new_amr.sent)
-        all_edgemaps.append(edge_map)</text>
+        <text># print &quot;get here!&quot;
+                # sys.exit(1)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
