@@ -255,12 +255,12 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1509656624477">
+      <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510024868675">
         <mark key="'" line="486" column="12" />
-        <mark key="[" line="653" column="21" />
-        <mark key="]" line="653" column="58" />
-        <mark key="." line="824" column="8" />
-        <mark key="^" line="824" column="8" />
+        <mark key="[" line="879" column="8" />
+        <mark key="]" line="879" column="8" />
+        <mark key="." line="879" column="8" />
+        <mark key="^" line="879" column="8" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1481240062876">
         <mark key="'" line="5" column="50" />
@@ -575,47 +575,47 @@
       <jump line="861" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAjIGFzc2VydCBhcmdzLmRlcHRoCg==</text>
+      <register name="&quot;" type="4">
+        <text>None</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>None</text>
       </register>
       <register name="/" type="4">
         <text>runMachine</text>
       </register>
       <register name="0" type="4">
-        <text>width = [[len(leafs) for _ in range(n+1)] for _ in range(n+1)]</text>
+        <text encoding="base64">ZWRnZV9tYXBfbGlzdCA9IGRlZmF1bHRkaWN0KGRlcXVlKQoKICAgICAgICBlcnJvcl9vY2N1ciA9IEZhbHNlCiAgICAgICAgZm9yIChpLCBjdXJyX3ZlcnRleCkgaW4gZW51bWVyYXRlKHBpX3NlcSk6CiAgICAgICAgICAgIGZvciAoaiwgbmV4dF92ZXJ0ZXgpIGluIGVudW1lcmF0ZShwaV9zZXEpOgogICAgICAgICAgICAgICAgaWYgaiA8PSBpOgogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICBpZiBuZXh0X3ZlcnRleCBpbiBlZGdlX21hcFtjdXJyX3ZlcnRleF06CiAgICAgICAgICAgICAgICAgICAgY3Vycl9kaXN0ID0gbGVuKHBpX3NlcSkgLSBqCiAgICAgICAgICAgICAgICAgICAgZWRnZV9tYXBfbGlzdFtjdXJyX3ZlcnRleF0uYXBwZW5kKGN1cnJfZGlzdCk=</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgIGVycm9yX29jY3VyID0gRmFsc2UK</text>
+      </register>
+      <register name="2" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAjIGFzc2VydCBhcmdzLmRlcHRoCg==</text>
       </register>
-      <register name="2" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text># print &quot;get here!&quot;
                 # sys.exit(1)</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAjIGNhcGFjaXRpZXMgPSBkZWZhdWx0ZGljdChpbnQpICAjTWFwIGZyb20gZWFjaCByZWVudHJhbmN5IGluZGV4IHRvIGEgbnVtYmVyCg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIHByaW50ICdBJwo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="9" type="4">
         <text>all_piseqs.append(pi_seq)
         all_collapsed_toks.append(new_amr.sent)
         all_edgemaps.append(edge_map)</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBhbGxfcGlzZXFzLmFwcGVuZChwaV9zZXEpCg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgY3Vycl93aWR0aCA9PSAyIGFuZCBvdXRzaWRlX3dpZHRoID4gY3Vycl93aWR0aDoK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
