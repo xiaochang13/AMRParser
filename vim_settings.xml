@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510690379122">
-        <mark key="'" line="878" column="36" />
-        <mark key="[" line="838" column="0" />
-        <mark key="]" line="838" column="0" />
-        <mark key="^" line="887" column="15" />
-        <mark key="." line="838" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510691995842">
+        <mark key="'" line="978" column="4" />
+        <mark key="[" line="762" column="5" />
+        <mark key="]" line="762" column="5" />
+        <mark key="^" line="762" column="5" />
+        <mark key="." line="762" column="5" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -473,8 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="439" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
-      <jump line="778" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="872" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="727" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="783" column="48" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -573,10 +571,12 @@
       <jump line="879" column="43" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="661" column="46" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="878" column="36" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="652" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="976" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAjIHByaW50IHN0cihuZXdfYW1yKQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">ICsgMQ==</text>
@@ -588,32 +588,36 @@
         <text>chart[i][k].outside_set | chart[k][j].outside_set</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="2" type="4">
+        <text>singleton_num = 0.0
+    multiple_num = 0.0
+    total_num = 0.0
+
+    empty_num = 0.0</text>
+      </register>
+      <register name="3" type="8">
+        <text encoding="base64">IyAKIyA=</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAjIHByaW50IHN0cihuZXdfYW1yKQo=</text>
       </register>
-      <register name="2" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIGxlbihwaV9zZXEpIDwgODoK</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text>curr_width -= 1
             outside_width -= 1</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIG5ld19hbXJfZ3JhcGhzID0gW10K</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBvdXRzaWRlX2JhZ3NbKGksIGopXSA9IG1hcF90b19vcmRlcihjaGFydFtpXVtqXS5vdXRzaWRlX3NldCkgfCBzZXQoW2ldKQo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG91dHNpZGVfYmFnc1soaSwgaildID0gbWFwX3RvX29yZGVyKGNoYXJ0W2krMV1bal0ub3V0c2lkZV9zZXQpIHwgc2V0KFtpXSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBvdXRzaWRlX2JhZ3NbKGksIGopXSA9IG1hcF90b19vcmRlcihjaGFydFtpXVtqXS5vdXRzaWRlX3NldCkgfCBzZXQoW2ldKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
