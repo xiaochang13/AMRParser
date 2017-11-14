@@ -82,8 +82,8 @@
         <mark key="^" line="2531" column="109" />
         <mark key="." line="2531" column="109" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1510678700014">
-        <mark key="'" line="313" column="8" />
+      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1510682791595">
+        <mark key="'" line="14" column="7" />
         <mark key="[" line="497" column="4" />
         <mark key="]" line="497" column="5" />
         <mark key="^" line="497" column="5" />
@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510678670545">
-        <mark key="'" line="872" column="52" />
-        <mark key="[" line="602" column="50" />
-        <mark key="]" line="602" column="57" />
-        <mark key="." line="602" column="57" />
-        <mark key="^" line="602" column="57" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510686232128">
+        <mark key="'" line="978" column="4" />
+        <mark key="[" line="883" column="57" />
+        <mark key="]" line="883" column="58" />
+        <mark key="." line="883" column="58" />
+        <mark key="^" line="883" column="58" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -261,12 +261,12 @@
       <file name="/Library/Python/2.7/site-packages/keras/initializers.py" timestamp="1507573131962">
         <mark key="'" line="481" column="19" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1509986273108">
-        <mark key="'" line="839" column="13" />
-        <mark key="[" line="653" column="0" />
-        <mark key="]" line="653" column="0" />
-        <mark key="^" line="422" column="4" />
-        <mark key="." line="653" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1510685236570">
+        <mark key="'" line="500" column="4" />
+        <mark key="[" line="579" column="17" />
+        <mark key="]" line="579" column="19" />
+        <mark key="^" line="579" column="19" />
+        <mark key="." line="579" column="19" />
       </file>
       <file name="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_main.py" timestamp="1507508754113">
         <mark key="'" line="93" column="27" />
@@ -473,16 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="767" column="25" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="770" column="25" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="834" column="47" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="562" column="27" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="223" column="23" filename="$USER_HOME$/SHRG-induction/hypergraph.py" />
-      <jump line="445" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="604" column="30" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="469" column="4" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="559" column="37" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="495" column="4" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="556" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="227" column="22" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="1433" column="28" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
@@ -537,7 +527,6 @@
       <jump line="723" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="615" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="949" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="558" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="863" column="58" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="581" column="64" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="613" column="66" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -573,55 +562,66 @@
       <jump line="497" column="13" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="313" column="8" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="870" column="52" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="14" column="7" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="971" column="9" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="500" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
+      <jump line="845" column="27" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="847" column="30" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="547" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="558" column="60" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="874" column="38" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="559" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="860" column="33" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="975" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBvdXRzaWRlX2JhZ3NbKGksIGopXSA9IG1hcF90b19vcmRlcihjaGFydFtpXVtqXS5vdXRzaWRlX3NldCkgfCBzZXQoW2ldKQo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">TGlzdDxJbnRlZ2VyPiBkaXN0czs=</text>
+        <text>most</text>
       </register>
       <register name="/" type="4">
-        <text>build_outside_set</text>
+        <text>edge_list</text>
       </register>
       <register name="0" type="4">
         <text>chart[i][k].outside_set | chart[k][j].outside_set</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBvdXRzaWRlX2JhZ3NbKGksIGopXSA9IG1hcF90b19vcmRlcihjaGFydFtpXVtqXS5vdXRzaWRlX3NldCkgfCBzZXQoW2ldKQo=</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">Ly9MaXN0PFN0cmluZz4KICAvL0xpc3Q8SW50ZWdlcj4gaGVhZDsKICAvL0xpc3Q8U3RyaW5nPiBsYWJlbDs=</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG91dHNpZGVfYmFnc1soaSwgaildID0gbWFwX3RvX29yZGVyKGNoYXJ0W2krMV1bal0ub3V0c2lkZV9zZXQpIHwgc2V0KFtpXSkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICAgICMgc3RhcnRfdGltZSA9IHRpbWUudGltZSgpCg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">Ly9SZW1haW4gdG8gYmUgaW1wbGVtZW50ZWQKICBwdWJsaWMgU2V0PEludGVnZXI+IHNlYXJjaFJvb3RzKCkgewogICAgU2V0PEludGVnZXI+IHJvb3RzID0gbmV3IEhhc2hTZXQ8PigpOwoKICAgIHJldHVybiByb290czsKICB9</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="7" type="4">
+        <text encoding="base64">IyBjdXJyX3RpbWUgPSB0aW1lLnRpbWUoKQogICAgICAgICAgICAjaWYgY3Vycl90aW1lIC0gc3RhcnRfdGltZSA+IDYwOgogICAgICAgICAgICAjICAgIHByaW50ICJvdmVyIHRpbWUhIgogICAgICAgICAgICAjICAgIHJldHVybiAoTm9uZSwgTm9uZSk=</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">Ly9oZWFkID0gbmV3IEFycmF5TGlzdDxJbnRlZ2VyPihncmFwaC5oZWFkKTsKICAgIC8vbGFiZWwgPSBuZXcgQXJyYXlMaXN0PFN0cmluZz4oZ3JhcGgubGFiZWwpOw==</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIHJpZ2h0X21vc3QgPSAtMQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>build_outside_set</last-search>
+      <last-search>edge_list</last-search>
       <last-offset />
-      <last-pattern>build_outside_set</last-pattern>
+      <last-pattern>edge_list</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -650,6 +650,9 @@
         <entry>toks</entry>
         <entry>outside_set</entry>
         <entry>build_outside_set</entry>
+        <entry>build_ou</entry>
+        <entry>edge_map</entry>
+        <entry>edge_list</entry>
       </history-search>
       <history-cmd>
         <entry>new /Library/Python/2.7/site-packages/keras/utils/generic_utils.py</entry>
@@ -671,6 +674,8 @@
         <entry>616</entry>
         <entry>626</entry>
         <entry>1</entry>
+        <entry>861</entry>
+        <entry>621</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
