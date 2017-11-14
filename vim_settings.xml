@@ -82,12 +82,12 @@
         <mark key="^" line="2531" column="109" />
         <mark key="." line="2531" column="109" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1509946097444">
-        <mark key="'" line="480" column="29" />
-        <mark key="[" line="314" column="34" />
-        <mark key="]" line="315" column="34" />
-        <mark key="^" line="315" column="34" />
-        <mark key="." line="315" column="34" />
+      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1510678700014">
+        <mark key="'" line="313" column="8" />
+        <mark key="[" line="497" column="4" />
+        <mark key="]" line="497" column="5" />
+        <mark key="^" line="497" column="5" />
+        <mark key="." line="497" column="5" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/syntaxnet/parser_trainer_test.sh" timestamp="1507667666369">
         <mark key="'" line="30" column="9" />
@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510113975165">
-        <mark key="'" line="871" column="27" />
-        <mark key="[" line="615" column="40" />
-        <mark key="]" line="615" column="49" />
-        <mark key="." line="615" column="49" />
-        <mark key="^" line="615" column="49" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510678670545">
+        <mark key="'" line="872" column="52" />
+        <mark key="[" line="602" column="50" />
+        <mark key="]" line="602" column="57" />
+        <mark key="." line="602" column="57" />
+        <mark key="^" line="602" column="57" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -445,12 +445,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510089719148">
+      <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
-        <mark key="[" line="879" column="8" />
-        <mark key="]" line="879" column="8" />
-        <mark key="." line="879" column="8" />
-        <mark key="^" line="879" column="8" />
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+        <mark key="^" line="2" column="0" />
       </file>
       <file name="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/util/Properties.java" timestamp="1482004217634">
         <mark key="'" line="1031" column="23" />
@@ -473,11 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="755" column="32" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="1389" column="21" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
-      <jump line="23" column="4" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="763" column="32" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="560" column="27" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="767" column="25" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="770" column="25" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="834" column="47" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -548,7 +543,6 @@
       <jump line="613" column="66" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="621" column="63" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="631" column="72" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="871" column="27" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="847" column="21" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
       <jump line="245" column="13" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
       <jump line="558" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -573,6 +567,12 @@
       <jump line="1834" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2048" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="914" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="594" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="871" column="27" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="862" column="22" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="497" column="13" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="313" column="8" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="870" column="52" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -582,7 +582,7 @@
         <text encoding="base64">TGlzdDxJbnRlZ2VyPiBkaXN0czs=</text>
       </register>
       <register name="/" type="4">
-        <text>toks</text>
+        <text>build_outside_set</text>
       </register>
       <register name="0" type="4">
         <text>chart[i][k].outside_set | chart[k][j].outside_set</text>
@@ -619,9 +619,9 @@
       </register>
     </registers>
     <search>
-      <last-search>toks</last-search>
+      <last-search>build_outside_set</last-search>
       <last-offset />
-      <last-pattern>toks</last-pattern>
+      <last-pattern>build_outside_set</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -629,7 +629,6 @@
     </search>
     <history>
       <history-search>
-        <entry>return None</entry>
         <entry>fragment_de</entry>
         <entry>inside_</entry>
         <entry>build_ent</entry>
@@ -648,8 +647,9 @@
         <entry encoding="base64">U2VudGVuY2Ug</entry>
         <entry>deque</entry>
         <entry>inside_tree</entry>
-        <entry>outside_set</entry>
         <entry>toks</entry>
+        <entry>outside_set</entry>
+        <entry>build_outside_set</entry>
       </history-search>
       <history-cmd>
         <entry>new /Library/Python/2.7/site-packages/keras/utils/generic_utils.py</entry>
