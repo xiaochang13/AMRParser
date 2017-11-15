@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510708174561">
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510715407795">
         <mark key="'" line="898" column="45" />
-        <mark key="[" line="660" column="20" />
-        <mark key="]" line="660" column="20" />
-        <mark key="^" line="655" column="20" />
-        <mark key="." line="660" column="20" />
+        <mark key="[" line="629" column="110" />
+        <mark key="]" line="629" column="110" />
+        <mark key="^" line="629" column="110" />
+        <mark key="." line="629" column="110" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -575,8 +575,8 @@
       <jump line="898" column="45" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="8">
-        <text encoding="base64">ICAgIAogICAg</text>
+      <register name="&quot;" type="4">
+        <text>map_to_order(</text>
       </register>
       <register name="-" type="4">
         <text>e</text>
@@ -585,15 +585,7 @@
         <text>edge_list</text>
       </register>
       <register name="0" type="4">
-        <text>stack = [(0, n, 0)]
-    while stack:
-        l, r, level = stack.pop()
-        curr_repr = &quot;%s(%d %d width: %d %s)&quot; % (&quot;  &quot;*level, l, r, outside_width[l][r], str(outside_bags[(l, r)]))
-        print curr_repr
-        assert (l, r) in backpointers
-        if backpointers[(l, r)] is not None:
-            for (new_l, new_r) in backpointers[(l, r)]:
-                stack.append((new_l, new_r, level+1))</text>
+        <text>map_to_order(</text>
       </register>
       <register name="1" type="8">
         <text encoding="base64">ICAgIAogICAg</text>
