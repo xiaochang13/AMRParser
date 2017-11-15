@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510723044997">
-        <mark key="'" line="23" column="81" />
-        <mark key="[" line="879" column="8" />
-        <mark key="]" line="879" column="9" />
-        <mark key="^" line="879" column="9" />
-        <mark key="." line="879" column="9" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510724814454">
+        <mark key="'" line="879" column="46" />
+        <mark key="[" line="819" column="8" />
+        <mark key="]" line="819" column="9" />
+        <mark key="^" line="819" column="9" />
+        <mark key="." line="819" column="9" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -473,7 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="110" column="0" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="181" column="12" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="70" column="0" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="812" column="26" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -573,13 +572,14 @@
       <jump line="898" column="45" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="867" column="41" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="23" column="81" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="883" column="46" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>print</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>edge_list</text>
@@ -591,40 +591,34 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBjdXJyIGluIGVkZ2VfbWFwOgo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text># print ' '.join(new_amr.sent)
+        # print str(new_amr)
+        # rule_f.write('#Sentence %d: %s\n' % (sent_index, ' '.join(tok_seq)))
+        # rule_f.write('#Collapsed Sentence: %s\n' % (' '.join(new_amr.sent)))</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaW50ICdBbmFseXplZCBhIHRvdGFsIG9mICVkIHNlbnRlbmNlcy4nICUgaW50KG5fc3VjY2VzcykK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="5" type="4">
+        <text># print ' '.join(new_amr.sent)
+        # print str(new_amr)
+        # rule_f.write('#Sentence %d: %s\n' % (sent_index, ' '.join(tok_seq)))
+        # rule_f.write('#Collapsed Sentence: %s\n' % (' '.join(new_amr.sent)))</text>
       </register>
       <register name="6" type="4">
-        <text>#stack = [(0, n, 0)]
-    #while stack:
-    #    l, r, level = stack.pop()
-    #    curr_repr = &quot;%s(%d %d width: %d %s)&quot; % (&quot;  &quot;*level, l, r, outside_width[l][r], str(outside_bags[(l, r)]))
-    #    print curr_repr
-    #    assert (l, r) in backpointers
-    #    if backpointers[(l, r)] is not None:
-    #        for (new_l, new_r) in backpointers[(l, r)]:
-    #            stack.append((new_l, new_r, level+1))</text>
+        <text encoding="base64">aWYgbGVuKHBpX3NlcSkgPCA3OgogICAgICAgICAgICAgICAgaWYgY3Vycl93aWR0aCA+IG91dHNpZGVfd2lkdGg6CiAgICAgICAgICAgICAgICAgICAgcHJpbnQgIm91dHNpZGUgYmV0dGVyLiIKICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgcHJpbnQgImluc2lkZSBiZXR0ZXIi</text>
       </register>
-      <register name="7" type="4">
-        <text># if curr_width == outside_width[i][k]:
-                    #     outside_bags[(i, j)] = outside_bags[(i, k)]
-                    # elif curr_width == outside_width[k][j]:
-                    #     outside_bags[(i, j)] = outside_bags[(k, j)]
-                    # else:</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgIyBIZXJlIHdlIG9ubHkgbWFyayBleGFtcGxlcyB3aXRoIGxlc3MgdGhhbiA3IHZlcnRpY2VzLgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">IyBpZiBiMSA+IG91dHNpZGVfd2lkdGhbaSsxXVtqXToKICAgICAgICAgICAgICAgICMgICAgIGJhY2twb2ludGVyc1soaSwgaildID0gTm9uZQogICAgICAgICAgICAgICAgIyAgICAgIyBvdXRzaWRlX2JhZ3NbKGksIGopXSA9IG1hcF90b19vcmRlcihjaGFydFtpKzFdW2pdLm91dHNpZGVfc2V0KSB8IHNldChbaV0pCiAgICAgICAgICAgICAgICAjIGVsc2U6CiAgICAgICAgICAgICAgICAjICAgICBiYWNrcG9pbnRlcnNbKGksIGopXSA9IFsoaSwgaSsxKSwgKGkrMSwgaildCiAgICAgICAgICAgICAgICAgICAgIyBpZiAoaSsxLCBqKSBpbiBvdXRzaWRlX2JhZ3M6CiAgICAgICAgICAgICAgICAgICAgIyAgICAgb3V0c2lkZV9iYWdzWyhpLCBqKV0gPSBvdXRzaWRlX2JhZ3NbKGkrMSwgaild</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBjdXJyIGluIGVkZ2VfbWFwOgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
