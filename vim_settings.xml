@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510698400022">
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510708174561">
         <mark key="'" line="898" column="45" />
-        <mark key="[" line="901" column="21" />
-        <mark key="]" line="901" column="32" />
-        <mark key="^" line="901" column="32" />
-        <mark key="." line="901" column="32" />
+        <mark key="[" line="660" column="20" />
+        <mark key="]" line="660" column="20" />
+        <mark key="^" line="655" column="20" />
+        <mark key="." line="660" column="20" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -575,8 +575,8 @@
       <jump line="898" column="45" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">ICAgIAogICAg</text>
       </register>
       <register name="-" type="4">
         <text>e</text>
@@ -595,41 +595,41 @@
             for (new_l, new_r) in backpointers[(l, r)]:
                 stack.append((new_l, new_r, level+1))</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="8">
+        <text encoding="base64">ICAgIAogICAg</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text># singleton_num = 0.0
     # multiple_num = 0.0
     # total_num = 0.0
 
     # empty_num = 0.0</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>if outside_width != cache_width:
                 print &quot;special example here.&quot;</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAjIG5ld19ub2RlID0gYnVpbGRfb25lX25vZGUoZnJhZ21lbnRzW2ldLCBpLCBqKQo=</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>singleton_num = 0.0
     multiple_num = 0.0
     total_num = 0.0
 
     empty_num = 0.0</text>
-      </register>
-      <register name="9" type="8">
-        <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
