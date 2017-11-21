@@ -10,8 +10,8 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1480602359644">
-        <mark key="'" line="957" column="8" />
+      <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1511289923038">
+        <mark key="'" line="409" column="26" />
         <mark key="[" line="379" column="12" />
         <mark key="]" line="379" column="12" />
         <mark key="^" line="570" column="62" />
@@ -148,8 +148,8 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1511282992920">
-        <mark key="'" line="774" column="25" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1511289916366">
+        <mark key="'" line="904" column="0" />
         <mark key="[" line="819" column="8" />
         <mark key="]" line="819" column="9" />
         <mark key="^" line="819" column="9" />
@@ -473,11 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="183" column="29" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="225" column="36" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="395" column="3" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
-      <jump line="208" column="4" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="479" column="22" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="467" column="29" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="105" column="11" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="463" column="10" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
@@ -573,6 +568,11 @@
       <jump line="770" column="59" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="772" column="11" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="774" column="25" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="413" column="13" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
+      <jump line="411" column="8" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
+      <jump line="410" column="13" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
+      <jump line="904" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="409" column="26" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -582,7 +582,7 @@
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>rule</text>
+        <text>extract_deri</text>
       </register>
       <register name="0" type="4">
         <text>map_to_order(</text>
@@ -625,9 +625,9 @@
       </register>
     </registers>
     <search>
-      <last-search>rule</last-search>
+      <last-search>extract_deri</last-search>
       <last-offset />
-      <last-pattern>rule</last-pattern>
+      <last-pattern>extract_deri</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -659,7 +659,9 @@
         <entry>build_ou</entry>
         <entry>edge_map</entry>
         <entry>edge_list</entry>
+        <entry>initialize_graph_side</entry>
         <entry>rule</entry>
+        <entry>extract_deri</entry>
       </history-search>
       <history-cmd>
         <entry>new /Library/Python/2.7/site-packages/keras/utils/generic_utils.py</entry>
