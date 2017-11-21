@@ -148,8 +148,8 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1510724814454">
-        <mark key="'" line="879" column="46" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1511281800301">
+        <mark key="'" line="774" column="25" />
         <mark key="[" line="819" column="8" />
         <mark key="]" line="819" column="9" />
         <mark key="^" line="819" column="9" />
@@ -473,10 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="181" column="12" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="70" column="0" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="812" column="26" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="484" column="13" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="183" column="29" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="225" column="36" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="395" column="3" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
@@ -573,6 +569,10 @@
       <jump line="867" column="41" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="23" column="81" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="883" column="46" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="680" column="22" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="770" column="59" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="772" column="11" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="774" column="25" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -582,7 +582,7 @@
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>edge_list</text>
+        <text>rule</text>
       </register>
       <register name="0" type="4">
         <text>map_to_order(</text>
@@ -625,9 +625,9 @@
       </register>
     </registers>
     <search>
-      <last-search>edge_list</last-search>
+      <last-search>rule</last-search>
       <last-offset />
-      <last-pattern>edge_list</last-pattern>
+      <last-pattern>rule</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -659,6 +659,7 @@
         <entry>build_ou</entry>
         <entry>edge_map</entry>
         <entry>edge_list</entry>
+        <entry>rule</entry>
       </history-search>
       <history-cmd>
         <entry>new /Library/Python/2.7/site-packages/keras/utils/generic_utils.py</entry>
