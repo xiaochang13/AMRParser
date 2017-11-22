@@ -10,12 +10,12 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1511289923038">
+      <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1511369930843">
         <mark key="'" line="409" column="26" />
-        <mark key="[" line="379" column="12" />
-        <mark key="]" line="379" column="12" />
+        <mark key="[" line="494" column="8" />
+        <mark key="]" line="494" column="8" />
         <mark key="^" line="570" column="62" />
-        <mark key="." line="379" column="12" />
+        <mark key="." line="494" column="8" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" timestamp="1480459743077">
         <mark key="'" line="914" column="17" />
@@ -575,11 +575,11 @@
       <jump line="879" column="50" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>#logger.writeln('sentence is: %s' % root_node.frag.str_side())</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>#logger.writeln('sentence is: %s' % root_node.frag.str_side())</text>
       </register>
       <register name="/" type="4">
         <text>extract_deri</text>
