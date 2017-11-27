@@ -10,12 +10,11 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1511797667963">
+      <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1511801275811">
         <mark key="'" line="409" column="26" />
-        <mark key="[" line="618" column="0" />
-        <mark key="]" line="618" column="0" />
-        <mark key="^" line="570" column="62" />
-        <mark key="." line="618" column="0" />
+        <mark key="[" line="498" column="0" />
+        <mark key="]" line="498" column="0" />
+        <mark key="." line="498" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" timestamp="1480459743077">
         <mark key="'" line="914" column="17" />
@@ -575,8 +574,8 @@
       <jump line="984" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>16453, 16247, 4179, 2040, 4721, 4720</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>16453, 16247, 4179, 2040, 4721, 4720</text>
@@ -588,37 +587,35 @@
         <text>map_to_order(</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIG1lc3NlZF9zZW50cyA9IHNldChbMTY0NTMsIDE2MjQ3LCA0MTc5LCAyMDQwLCA0NzIxLCA0NzIwXSkK</text>
-      </register>
-      <register name="2" type="8">
-        <text encoding="base64">IyAKIyA=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjZi53cml0ZSgnXG4nKQo=</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="6" type="4">
-        <text># print ' '.join(new_amr.sent)
-        # print str(new_amr)
-        # rule_f.write('#Sentence %d: %s\n' % (sent_index, ' '.join(tok_seq)))
-        # rule_f.write('#Collapsed Sentence: %s\n' % (' '.join(new_amr.sent)))</text>
+      <register name="3" type="4">
+        <text>result = ''
+        first = True</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIG1lc3NlZF9zZW50cyA9IHNldChbMTY0NTMsIDE2MjQ3LCA0MTc5LCAyMDQwLCA0NzIxLCA0NzIwXSkK</text>
+      </register>
+      <register name="5" type="8">
+        <text encoding="base64">IyAKIyA=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAjZi53cml0ZSgnXG4nKQo=</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text># print ' '.join(new_amr.sent)
         # print str(new_amr)
         # rule_f.write('#Sentence %d: %s\n' % (sent_index, ' '.join(tok_seq)))
         # rule_f.write('#Collapsed Sentence: %s\n' % (' '.join(new_amr.sent)))</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">aWYgbGVuKHBpX3NlcSkgPCA3OgogICAgICAgICAgICAgICAgaWYgY3Vycl93aWR0aCA+IG91dHNpZGVfd2lkdGg6CiAgICAgICAgICAgICAgICAgICAgcHJpbnQgIm91dHNpZGUgYmV0dGVyLiIKICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgcHJpbnQgImluc2lkZSBiZXR0ZXIi</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
