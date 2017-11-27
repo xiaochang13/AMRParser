@@ -10,19 +10,19 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1511815047476">
-        <mark key="'" line="453" column="33" />
+      <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1511819479187">
+        <mark key="'" line="457" column="33" />
         <mark key="[" line="486" column="5" />
         <mark key="]" line="486" column="5" />
         <mark key="." line="486" column="5" />
         <mark key="^" line="486" column="5" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" timestamp="1511814776645">
-        <mark key="'" line="760" column="30" />
-        <mark key="[" line="803" column="12" />
-        <mark key="]" line="803" column="12" />
-        <mark key="." line="803" column="12" />
-        <mark key="^" line="803" column="12" />
+      <file name="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" timestamp="1511819855135">
+        <mark key="'" line="15" column="28" />
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="15" column="1" />
+        <mark key="." line="15" column="1" />
+        <mark key="^" line="15" column="1" />
       </file>
       <file name="/Library/Python/2.7/site-packages/keras/models.py" timestamp="1507572523705">
         <mark key="'" line="2" column="23" />
@@ -473,8 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="581" column="64" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="613" column="66" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="621" column="63" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="631" column="72" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="847" column="21" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
@@ -565,7 +563,6 @@
       <jump line="375" column="32" filename="$USER_HOME$/SHRG-induction/rule.py" />
       <jump line="371" column="22" filename="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" />
       <jump line="374" column="30" filename="$USER_HOME$/SHRG-induction/rule.py" />
-      <jump line="1293" column="8" filename="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" />
       <jump line="578" column="19" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="453" column="33" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="493" column="0" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
@@ -573,6 +570,9 @@
       <jump line="96" column="8" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="144" column="60" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="295" column="10" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="457" column="33" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
+      <jump line="1293" column="8" filename="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" />
+      <jump line="15" column="28" filename="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -582,7 +582,7 @@
         <text>16453, 16247, 4179, 2040, 4721, 4720</text>
       </register>
       <register name="/" type="4">
-        <text>extSuffix</text>
+        <text>DerivationException</text>
       </register>
       <register name="0" type="4">
         <text>map_to_order(</text>
@@ -619,13 +619,13 @@
         # rule_f.write('#Collapsed Sentence: %s\n' % (' '.join(new_amr.sent)))</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>1</text>
       </register>
     </registers>
     <search>
-      <last-search>extSuffix</last-search>
+      <last-search>DerivationException</last-search>
       <last-offset />
-      <last-pattern>extSuffix</last-pattern>
+      <last-pattern>DerivationException</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -665,6 +665,8 @@
         <entry>allTriples</entry>
         <entry>ext_suffix</entry>
         <entry>extSuffix</entry>
+        <entry>registerN</entry>
+        <entry>DerivationException</entry>
       </history-search>
       <history-cmd>
         <entry>new /Library/Python/2.7/site-packages/keras/utils/generic_utils.py</entry>
@@ -687,8 +689,8 @@
         <entry>626</entry>
         <entry>861</entry>
         <entry>621</entry>
-        <entry>1</entry>
         <entry>w</entry>
+        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
