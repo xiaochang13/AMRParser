@@ -82,8 +82,8 @@
         <mark key="^" line="2531" column="109" />
         <mark key="." line="2531" column="109" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1511815330907">
-        <mark key="'" line="144" column="54" />
+      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1511818897436">
+        <mark key="'" line="295" column="10" />
         <mark key="[" line="497" column="4" />
         <mark key="]" line="497" column="5" />
         <mark key="^" line="497" column="5" />
@@ -473,9 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="615" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="949" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="863" column="58" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="581" column="64" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="613" column="66" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="621" column="63" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -572,7 +569,10 @@
       <jump line="578" column="19" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="453" column="33" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="493" column="0" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="144" column="54" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="141" column="54" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="96" column="8" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="144" column="60" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="295" column="10" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -582,7 +582,7 @@
         <text>16453, 16247, 4179, 2040, 4721, 4720</text>
       </register>
       <register name="/" type="4">
-        <text>allTriples</text>
+        <text>extSuffix</text>
       </register>
       <register name="0" type="4">
         <text>map_to_order(</text>
@@ -623,9 +623,9 @@
       </register>
     </registers>
     <search>
-      <last-search>allTriples</last-search>
+      <last-search>extSuffix</last-search>
       <last-offset />
-      <last-pattern>allTriples</last-pattern>
+      <last-pattern>extSuffix</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -663,6 +663,8 @@
         <entry>extract_der</entry>
         <entry>compose</entry>
         <entry>allTriples</entry>
+        <entry>ext_suffix</entry>
+        <entry>extSuffix</entry>
       </history-search>
       <history-cmd>
         <entry>new /Library/Python/2.7/site-packages/keras/utils/generic_utils.py</entry>
