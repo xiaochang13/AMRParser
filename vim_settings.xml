@@ -10,8 +10,8 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1511808720228">
-        <mark key="'" line="508" column="28" />
+      <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1511815047476">
+        <mark key="'" line="453" column="33" />
         <mark key="[" line="486" column="5" />
         <mark key="]" line="486" column="5" />
         <mark key="." line="486" column="5" />
@@ -82,8 +82,8 @@
         <mark key="^" line="2531" column="109" />
         <mark key="." line="2531" column="109" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1510682791595">
-        <mark key="'" line="14" column="7" />
+      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1511815330907">
+        <mark key="'" line="144" column="54" />
         <mark key="[" line="497" column="4" />
         <mark key="]" line="497" column="5" />
         <mark key="^" line="497" column="5" />
@@ -141,8 +141,8 @@
         <mark key="^" line="53" column="0" />
         <mark key="." line="20" column="21" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/rule.py" timestamp="1511814814500">
-        <mark key="'" line="375" column="32" />
+      <file name="$USER_HOME$/SHRG-induction/rule.py" timestamp="1511814972784">
+        <mark key="'" line="374" column="30" />
         <mark key="[" line="427" column="34" />
         <mark key="]" line="427" column="7" />
         <mark key="^" line="427" column="7" />
@@ -473,13 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="231" column="53" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="80" column="12" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="832" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="858" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="861" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="816" column="45" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="723" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="615" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="949" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="863" column="58" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -573,6 +566,13 @@
       <jump line="760" column="30" filename="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" />
       <jump line="1019" column="30" filename="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" />
       <jump line="375" column="32" filename="$USER_HOME$/SHRG-induction/rule.py" />
+      <jump line="371" column="22" filename="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" />
+      <jump line="374" column="30" filename="$USER_HOME$/SHRG-induction/rule.py" />
+      <jump line="1293" column="8" filename="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" />
+      <jump line="578" column="19" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
+      <jump line="453" column="33" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
+      <jump line="493" column="0" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="144" column="54" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -582,7 +582,7 @@
         <text>16453, 16247, 4179, 2040, 4721, 4720</text>
       </register>
       <register name="/" type="4">
-        <text>compose</text>
+        <text>allTriples</text>
       </register>
       <register name="0" type="4">
         <text>map_to_order(</text>
@@ -623,9 +623,9 @@
       </register>
     </registers>
     <search>
-      <last-search>compose</last-search>
+      <last-search>allTriples</last-search>
       <last-offset />
-      <last-pattern>compose</last-pattern>
+      <last-pattern>allTriples</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -662,6 +662,7 @@
         <entry>extract_deri</entry>
         <entry>extract_der</entry>
         <entry>compose</entry>
+        <entry>allTriples</entry>
       </history-search>
       <history-cmd>
         <entry>new /Library/Python/2.7/site-packages/keras/utils/generic_utils.py</entry>
