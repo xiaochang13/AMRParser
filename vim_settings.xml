@@ -10,8 +10,8 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1512332298402">
-        <mark key="'" line="519" column="39" />
+      <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1512336619721">
+        <mark key="'" line="578" column="13" />
         <mark key="[" line="501" column="0" />
         <mark key="]" line="501" column="0" />
         <mark key="^" line="486" column="5" />
@@ -537,7 +537,6 @@
       <jump line="774" column="25" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="413" column="13" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="411" column="8" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
-      <jump line="410" column="13" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="904" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="879" column="50" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="502" column="20" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
@@ -553,7 +552,6 @@
       <jump line="665" column="22" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="984" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="558" column="8" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
-      <jump line="508" column="28" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="427" column="8" filename="$USER_HOME$/SHRG-induction/rule.py" />
       <jump line="129" column="18" filename="$USER_HOME$/SHRG-induction/rule.py" />
       <jump line="353" column="34" filename="$USER_HOME$/SHRG-induction/rule.py" />
@@ -562,7 +560,6 @@
       <jump line="375" column="32" filename="$USER_HOME$/SHRG-induction/rule.py" />
       <jump line="371" column="22" filename="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" />
       <jump line="374" column="30" filename="$USER_HOME$/SHRG-induction/rule.py" />
-      <jump line="578" column="19" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="453" column="33" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="493" column="0" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="141" column="54" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
@@ -573,6 +570,9 @@
       <jump line="1293" column="8" filename="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" />
       <jump line="15" column="28" filename="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" />
       <jump line="519" column="39" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
+      <jump line="410" column="13" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
+      <jump line="508" column="29" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
+      <jump line="578" column="13" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -582,7 +582,7 @@
         <text>16453, 16247, 4179, 2040, 4721, 4720</text>
       </register>
       <register name="/" type="4">
-        <text>DerivationException</text>
+        <text>initialize_graph</text>
       </register>
       <register name="0" type="4">
         <text>map_to_order(</text>
@@ -625,13 +625,13 @@
       </register>
     </registers>
     <search>
-      <last-search>DerivationException</last-search>
+      <last-search>initialize_graph</last-search>
       <last-offset />
-      <last-pattern>DerivationException</last-pattern>
+      <last-pattern>initialize_graph</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
@@ -655,6 +655,7 @@
         <entry>extSuffix</entry>
         <entry>registerN</entry>
         <entry>DerivationException</entry>
+        <entry>initialize_graph</entry>
       </history-search>
       <history-cmd>
         <entry>845</entry>
