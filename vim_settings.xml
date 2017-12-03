@@ -10,12 +10,12 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1511819479187">
-        <mark key="'" line="457" column="33" />
-        <mark key="[" line="486" column="5" />
-        <mark key="]" line="486" column="5" />
-        <mark key="." line="486" column="5" />
+      <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1512332298402">
+        <mark key="'" line="519" column="39" />
+        <mark key="[" line="501" column="0" />
+        <mark key="]" line="501" column="0" />
         <mark key="^" line="486" column="5" />
+        <mark key="." line="501" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" timestamp="1511819855135">
         <mark key="'" line="15" column="28" />
@@ -473,7 +473,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="621" column="63" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="631" column="72" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="847" column="21" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
       <jump line="245" column="13" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
@@ -573,10 +572,11 @@
       <jump line="457" column="33" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="1293" column="8" filename="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" />
       <jump line="15" column="28" filename="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" />
+      <jump line="519" column="39" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
         <text>16453, 16247, 4179, 2040, 4721, 4720</text>
@@ -588,38 +588,40 @@
         <text>map_to_order(</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="2" type="4">
+        <text>#print curr_root.frag.ext_list
+            #if leafs:
+            #    for node in leafs:
+            #        if node.cut == 1:
+            #            print str(node.frag)
+            #            print node.frag.ext_list</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text>result = ''
         first = True</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgIG1lc3NlZF9zZW50cyA9IHNldChbMTY0NTMsIDE2MjQ3LCA0MTc5LCAyMDQwLCA0NzIxLCA0NzIwXSkK</text>
       </register>
-      <register name="5" type="8">
+      <register name="7" type="8">
         <text encoding="base64">IyAKIyA=</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAjZi53cml0ZSgnXG4nKQo=</text>
       </register>
-      <register name="7" type="2">
+      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="9" type="4">
-        <text># print ' '.join(new_amr.sent)
-        # print str(new_amr)
-        # rule_f.write('#Sentence %d: %s\n' % (sent_index, ' '.join(tok_seq)))
-        # rule_f.write('#Collapsed Sentence: %s\n' % (' '.join(new_amr.sent)))</text>
-      </register>
       <register name=":" type="4">
-        <text>1</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -629,24 +631,10 @@
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>fragment_de</entry>
-        <entry>inside_</entry>
-        <entry>build_ent</entry>
-        <entry>depth</entry>
-        <entry>random.seed</entry>
-        <entry>ext_set</entry>
-        <entry>combine_</entry>
-        <entry>edge_set</entry>
-        <entry>build_out</entry>
-        <entry>build_entit</entry>
-        <entry>runMa</entry>
-        <entry>ouside_set</entry>
-        <entry>outside_s</entry>
-        <entry>runMachine</entry>
         <entry>node_repr</entry>
         <entry encoding="base64">U2VudGVuY2Ug</entry>
         <entry>deque</entry>
@@ -669,8 +657,6 @@
         <entry>DerivationException</entry>
       </history-search>
       <history-cmd>
-        <entry>new /Library/Python/2.7/site-packages/keras/utils/generic_utils.py</entry>
-        <entry>319</entry>
         <entry>845</entry>
         <entry>230</entry>
         <entry>231</entry>
@@ -689,8 +675,8 @@
         <entry>626</entry>
         <entry>861</entry>
         <entry>621</entry>
-        <entry>w</entry>
         <entry>1</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
