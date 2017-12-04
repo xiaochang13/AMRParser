@@ -341,12 +341,12 @@
         <mark key="." line="781" column="4" />
         <mark key="^" line="651" column="48" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" timestamp="1512353741144">
+      <file name="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" timestamp="1512355607429">
         <mark key="'" line="158" column="17" />
-        <mark key="[" line="1386" column="0" />
-        <mark key="]" line="1386" column="3" />
+        <mark key="[" line="1405" column="0" />
+        <mark key="]" line="1405" column="0" />
         <mark key="^" line="1386" column="3" />
-        <mark key="." line="1386" column="3" />
+        <mark key="." line="1405" column="0" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" timestamp="1500748165318">
         <mark key="'" line="759" column="4" />
@@ -582,8 +582,8 @@
       <jump line="158" column="17" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>Actual AMR class</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
         <text>Actual AMR class</text>
@@ -595,20 +595,22 @@
         <text>&quot;Derivation produces contradictory node labels.&quot;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>#if '_1' == parent:
+        #    print '^^^^^^^^^^^^^^^'
+        #    for key in self.keys():
+        #        print key, self[key]</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="4">
-        <text>#print &quot;boundary_map before remove old fragment&quot;, boundary_map
-
-        # now remove the old fragment
-        #print self.roots
-        #print self.triples()</text>
+        <text>#if '_1' == parent:
+        #    print '^^^^^^^^^^^^^^^'
+        #    for key in self.keys():
+        #        print key, self[key]</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
@@ -616,19 +618,18 @@
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">IyAgICBkZWYgbWFrZV9yb290ZWRfYW1yKHNlbGYsIHJvb3QsIHN3YXBfY2FsbGJhY2s9Tm9uZSBhbmQgKGxhbWJkYSBvbGR0cmlwLG5ld3RyaXA6IFRydWUpLCB3YXJuPXN5cy5zdGRlcnIpOgojICAgICAgICAiIiIKIyAgICAgICAgRmxpcCBlZGdlcyBpbiB0aGUgQU1SIHNvIHRoYXQgYWxsIG5vZGVzIGFyZSByZWFjaGFibGUgZnJvbSB0aGUgdW5pcXVlIHJvb3QuCiMgICAgICAgIElmICdzd2FwX2NhbGxiYWNrJyBpcyBwcm92aWRlZCwgaXQgaXMgY2FsbGVkIHdoZW5ldmVyIGFuIGVkZ2UgaXMgaW52ZXJ0ZWQgd2l0aAojICAgICAgICB0d28gYXJndW1lbnRzOiB0aGUgb2xkIHRyaXBsZSBhbmQgdGhlIG5ldyB0cmlwbGUuCiMgICAgICAgID4+PiB4ID1IZ3JhcGguZnJvbV90cmlwbGVzKCBbKHUnaicsIHUnQVJHMCcsICh1J3AnLCkpLCAodSdqJywgdSdBUkcxJywgKHUnYicsKSksICh1J2onLCB1J0FSR00tUFJEJywgKCd0JywpKSwgKHUnaicsICd0aW1lJywgKCdkJywpKSwgKHUncCcsICdhZ2UnLCAoJ3QxJywpKSwgKHUncCcsICduYW1lJywgKCduJywpKSwgKCd0JywgdSdBUkcwLW9mJywgKCdkMScsKSksICgnZCcsICdkYXknLCAoMjksKSksICgnZCcsICdtb250aCcsICgxMSwpKSwgKCd0MScsICdxdWFudCcsICg2MSwpKSwgKCd0MScsICd1bml0JywgKCd5JywpKSwgKCduJywgJ29wMScsICh1JyJQaWVycmUiJywpKSwgKCduJywgJ29wMicsICh1JyJWaW5rZW4iJywpKSwgKCdkMScsIHUnQVJHMCcsICgndCcsKSksICgnZDEnLCB1J0FSRzMnLCAodSduMScsKSldICwge3UnYic6IHUnYm9hcmQnLCAnZCc6ICdkYXRlLWVudGl0eScsIHUnaic6IHUnam9pbi0wMS1ST09UJywgJ3QxJzogJ3RlbXBvcmFsLXF1YW50aXR5JywgdSdwJzogdSdwZXJzb24nLCAndCc6ICd0aGluZycsICd5JzogJ3llYXInLCB1J24xJzogdSdub25leGVjdXRpdmUnLCAnbic6ICduYW1lJywgJ2QxJzogJ2RpcmVjdC0wMSd9ICkKIyAgICAgICAgPj4+IHgKIyAgICAgICAgREFHeyAoaiAvIGpvaW4tMDEtUk9PVCA6QVJHMCAocCAvIHBlcnNvbiA6YWdlICh0MSAvIHRlbXBvcmFsLXF1YW50aXR5IDpxdWFudCA2MSA6dW5pdCAoeSAvIHllYXIpICkgOm5hbWUgKG4gLyBuYW1lIDpvcDEgIlBpZXJyZSIgOm9wMiAiVmlua2VuIikpIDpBUkcxIChiIC8gYm9hcmQpIDpBUkdNLVBSRCAodCAvIHRoaW5nIDpBUkcwLW9mIChkMSAvIGRpcmVjdC0wMSA6QVJHMCB0IDpBUkczIChuMSAvIG5vbmV4ZWN1dGl2ZSkgKSkgOnRpbWUgKGQgLyBkYXRlLWVudGl0eSA6ZGF5IDI5IDptb250aCAxMSkpIH0KIyAgICAgICAgPj4+IHgubWFrZV9yb290ZWRfYW1yKCJuIikKIyAgICAgICAgREFHeyAobiAvIG5hbWUgOm5hbWUtb2YgKHAgLyBwZXJzb24gOkFSRzAtb2YgKGogLyBqb2luLTAxLVJPT1QgOkFSRzEgKGIgLyBib2FyZCkgOkFSR00tUFJEICh0IC8gdGhpbmcgOkFSRzAtb2YgKGQxIC8gZGlyZWN0LTAxIDpBUkcwIHQgOkFSRzMgKG4xIC8gbm9uZXhlY3V0aXZlKSApKSA6dGltZSAoZCAvIGRhdGUtZW50aXR5IDpkYXkgMjkgOm1vbnRoIDExKSkgOmFnZSAodDEgLyB0ZW1wb3JhbC1xdWFudGl0eSA6cXVhbnQgNjEgOnVuaXQgKHkgLyB5ZWFyKSApKSA6b3AxICJQaWVycmUiIDpvcDIgIlZpbmtlbiIpIH0KIyAgICAgICAgIiIiCiMgICAgICAgIGlmIG5vdCByb290IGluIHNlbGY6CiMgICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yLCAiJXMgaXMgbm90IGEgbm9kZSBpbiB0aGlzIEFNUi4iICUgcm9vdAojICAgICAgICBhbXIgPSBzZWxmLmNsb25lKHdhcm49d2FybikKIwojICAgICAgICBhbGxfbm9kZXMgPSBzZXQoYW1yLmdldF9ub2RlcygpKQojCiMgICAgICAgIHVucmVhY2hlZCAgPSBUcnVlCiMgICAgICAgIHdoaWxlIHVucmVhY2hlZDoKIyAgICAgICAgICAgIHJlYWNoX3RyaXBsZXMgPSBhbXIudHJpcGxlcyhzdGFydF9ub2RlID0gcm9vdCwgaW5zdGFuY2VzID0gRmFsc2UpCiMgICAgICAgICAgICByZWFjaGVkID0gc2V0KCkKIyAgICAgICAgICAgIHJlYWNoZWQuYWRkKHJvb3QpCiMgICAgICAgICAgICBmb3IgcCxyLGMgaW4gcmVhY2hfdHJpcGxlczoKIyAgICAgICAgICAgICAgICByZWFjaGVkLmFkZChwKQojICAgICAgICAgICAgICAgIHJlYWNoZWQudXBkYXRlKGMpCiMKIyAgICAgICAgICAgIHVucmVhY2hlZCA9IGFsbF9ub2RlcyAtIHJlYWNoZWQKIwojICAgICAgICAgICAgb3V0X3RyaXBsZXMgPSBbKHAscixjKSBmb3IgcCxyLGMgaW4gYW1yLnRyaXBsZXMocmVmcmVzaCA9IFRydWUsIGluc3RhbmNlcyA9IEZhbHNlKSBpZiBjWzBdIGluIHJlYWNoZWQgYW5kIHAgaW4gdW5yZWFjaGVkXQojICAgICAgICAgICAgZm9yIHAscixjIGluIG91dF90cmlwbGVzOgojICAgICAgICAgICAgICAgIG5ld3RyaXAgPSAoY1swXSwiJXMtb2YiICVyLCAocCwpKQojICAgICAgICAgICAgICAgIGFtci5fcmVwbGFjZV90cmlwbGUocCxyLGMsKm5ld3RyaXAsIHdhcm49d2FybikKIyAgICAgICAgICAgICAgICBpZiBzd2FwX2NhbGxiYWNrOiBzd2FwX2NhbGxiYWNrKChwLHIsYyksbmV3dHJpcCkKIyAgICAgICAgYW1yLnRyaXBsZXMocmVmcmVzaCA9IFRydWUpCiMgICAgICAgIGFtci5yb290cyA9IFtyb290XQojICAgICAgICBhbXIubm9kZV9hbGlnbm1lbnRzID0gc2VsZi5ub2RlX2FsaWdubWVudHMKIyAgICAgICAgcmV0dXJuIGFtcg==</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="8" type="4">
+        <text>#print &quot;boundary_map before remove old fragment&quot;, boundary_map
+
+        # now remove the old fragment
+        #print self.roots
+        #print self.triples()</text>
       </register>
-      <register name="9" type="4">
-        <text>#print curr_root.frag.ext_list
-            #if leafs:
-            #    for node in leafs:
-            #        if node.cut == 1:
-            #            print str(node.frag)
-            #            print node.frag.ext_list</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
