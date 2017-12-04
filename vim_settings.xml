@@ -341,6 +341,12 @@
         <mark key="." line="781" column="4" />
         <mark key="^" line="651" column="48" />
       </file>
+      <file name="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" timestamp="1512339550454">
+        <mark key="[" line="113" column="6" />
+        <mark key="]" line="113" column="15" />
+        <mark key="." line="113" column="15" />
+        <mark key="^" line="113" column="15" />
+      </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" timestamp="1500748165318">
         <mark key="'" line="759" column="4" />
         <mark key="[" line="26" column="15" />
@@ -575,11 +581,11 @@
       <jump line="578" column="13" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="&quot;" type="4">
+        <text>Hgraph</text>
       </register>
       <register name="-" type="4">
-        <text>16453, 16247, 4179, 2040, 4721, 4720</text>
+        <text>Hgraph</text>
       </register>
       <register name="/" type="4">
         <text>initialize_graph</text>
