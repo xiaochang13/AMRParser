@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1512493415408">
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1512497733376">
         <mark key="'" line="649" column="62" />
-        <mark key="[" line="604" column="38" />
-        <mark key="]" line="604" column="38" />
-        <mark key="^" line="603" column="9" />
-        <mark key="." line="604" column="38" />
+        <mark key="[" line="667" column="35" />
+        <mark key="]" line="669" column="43" />
+        <mark key="^" line="669" column="43" />
+        <mark key="." line="669" column="43" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -583,16 +583,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>)</text>
+        <text>v</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>map_to_order</text>
       </register>
       <register name="0" type="4">
-        <text>map_to_order(leafs[i].outside_set) | set([i])</text>
+        <text encoding="base64">Zm9yIHNwYW4gaW4geHJhbmdlKDIsIG4rMSk6CiAgICAgICAgZm9yIGkgaW4geHJhbmdlKDAsIG4pOgogICAgICAgICAgICBqID0gaSArIHNwYW4KICAgICAgICAgICAgaWYgaiA+IG46CiAgICAgICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAgICAgIyBGaXJzdCBjb21wdXRlIHRoZSB0cmVld2lkdGggb2YgaW5zaWRlIHRyZWUgZGVjb21wb3NpdGlvbi4KICAgICAgICAgICAgZm9yIGsgaW4geHJhbmdlKGkrMSwgaik6CiAgICAgICAgICAgICAgICBhc3NlcnQgY2hhcnRbaV1ba10gaXMgbm90IE5vbmUgYW5kIGNoYXJ0W2tdW2pdIGlzIG5vdCBOb25lCiAgICAgICAgICAgICAgICBpZiBub3QgY2hhcnRbaV1bal06CiAgICAgICAgICAgICAgICAgICAgY2hhcnRbaV1bal0sIF8gPSBnZW5lcmFsX2NvbWJpbmVfZnJhZ21lbnRzKGNoYXJ0W2ldW2tdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaGFydFtrXVtqXSkKICAgICAgICAgICAgICAgICAgICBub2RlX3NldCA9IHNldChjaGFydFtpXVtqXS5ub2RlX2xpc3QoKSkKICAgICAgICAgICAgICAgICAgICBjaGFydFtpXVtqXS5idWlsZF9vdXRzaWRlX3NldChub2RlX3NldCwgcGlfbWFwKQoKICAgICAgICAgICAgICAgICMgVGhlbiB3ZSB1cGRhdGUgdGhlIHdpZHRoIHN0YXRzCiAgICAgICAgICAgICAgICBic2l6ZSA9IGxlbihjaGFydFtpXVtrXS5leHRfc2V0IHwgY2hhcnRba11bal0uZXh0X3NldCkKICAgICAgICAgICAgICAgIGN1cnJfd2lkdGggPSBtYXgod2lkdGhbaV1ba10sIHdpZHRoW2tdW2pdLCBic2l6ZSkKICAgICAgICAgICAgICAgIGlmIGN1cnJfd2lkdGggPD0gd2lkdGhbaV1bal06CiAgICAgICAgICAgICAgICAgICAgd2lkdGhbaV1bal0gPSBjdXJyX3dpZHRoCiAgICAgICAgICAgICAgICAgICAgaW5zaWRlX3BvaW50ZXJzWyhpLCBqKV0gPSBbKGksIGspLCAoaywgaildCiAgICAgICAgICAgICAgICAgICAgaW5zaWRlX2JhZ3NbKGksIGopXSA9IG1hcF90b19vcmRlcihjaGFydFtpXVtrXS5leHRfc2V0KSB8IG1hcF90b19vcmRlcihjaGFydFtrXVtqXS5leHRfc2V0KQoKICAgICAgICAgICAgIyBUaGVuIHdlIGNvbXB1dGUgdGhlIHRyZWV3aWR0aCBvZiBwcmUtb3JkZXIgdHJlZSBkZWNvbXBvc2l0aW9uLgogICAgICAgICAgICAjIEZpcnN0IHVuYXJ5CiAgICAgICAgICAgIGlmIGkgaW4gcmlnaHRfbmVpZ2hib3JzIGFuZCByaWdodF9uZWlnaGJvcnNbaV0gPCBqOgogICAgICAgICAgICAgICAgIyBiMSA9IGxlbihjaGFydFtpKzFdW2pdLm91dHNpZGVfc2V0KSArIDEKICAgICAgICAgICAgICAgIGIxID0gbGVuKGNoYXJ0W2ldW2pdLm91dHNpZGVfc2V0KSArIDEKICAgICAgICAgICAgICAgICMgb3V0c2lkZV9iYWdzWyhpLCBqKV0gPSBtYXBfdG9fb3JkZXIoY2hhcnRbaV1bal0ub3V0c2lkZV9zZXQpIHwgc2V0KFtpXSkKICAgICAgICAgICAgICAgIG91dHNpZGVfYmFnc1soaSwgaildID0gY2hhcnRbaV1bal0ub3V0c2lkZV9zZXQgfCBzZXQoW2ldKQogICAgICAgICAgICAgICAgb3V0c2lkZV93aWR0aFtpXVtqXSA9IG1heChiMSwgb3V0c2lkZV93aWR0aFtpKzFdW2pdKQoKICAgICAgICAgICAgICAgIGJhY2twb2ludGVyc1soaSwgaildID0gWyhpKzEsIGopXQoKICAgICAgICAgICAgIyBOZXh0IHdlIGNvbnNpZGVyIGJpbmFyeQogICAgICAgICAgICBmb3IgayBpbiByYW5nZShpKzEsIGopOgogICAgICAgICAgICAgICAgYjMgPSBsZW4oY2hhcnRbaV1ba10ub3V0c2lkZV9zZXQgfCBjaGFydFtrXVtqXS5vdXRzaWRlX3NldCkKICAgICAgICAgICAgICAgIGN1cnJfd2lkdGggPSBtYXgob3V0c2lkZV93aWR0aFtpXVtrXSwgb3V0c2lkZV93aWR0aFtrXVtqXSwgYjMpCiAgICAgICAgICAgICAgICBpZiBjdXJyX3dpZHRoIDwgb3V0c2lkZV93aWR0aFtpXVtqXToKICAgICAgICAgICAgICAgICAgICBvdXRzaWRlX3dpZHRoW2ldW2pdID0gY3Vycl93aWR0aAogICAgICAgICAgICAgICAgICAgIGJhY2twb2ludGVyc1soaSwgaildID0gWyhpLCBrKSwgKGssIGopXQoKICAgICAgICAgICAgICAgICAgICAjb3V0c2lkZV9iYWdzWyhpLCBqKV0gPSBtYXBfdG9fb3JkZXIoY2hhcnRbaV1ba10ub3V0c2lkZV9zZXQpIHwgbWFwX3RvX29yZGVyKAogICAgICAgICAgICAgICAgICAgIG91dHNpZGVfYmFnc1soaSwgaildID0gY2hhcnRbaV1ba10ub3V0c2lkZV9zZXQgfCBjaGFydFtrXVtqXS5vdXRzaWRlX3NldA==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBvdXRfYmFnID0gbWFwX3RvX29yZGVyKGxlYWZzW2ldLm91dHNpZGVfc2V0KSB8IHNldChbaV0pCg==</text>
