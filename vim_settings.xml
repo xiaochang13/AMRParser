@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1512457440303">
-        <mark key="'" line="880" column="37" />
-        <mark key="[" line="806" column="24" />
-        <mark key="]" line="806" column="27" />
-        <mark key="^" line="806" column="27" />
-        <mark key="." line="806" column="27" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1512490281736">
+        <mark key="'" line="891" column="37" />
+        <mark key="[" line="613" column="48" />
+        <mark key="]" line="614" column="28" />
+        <mark key="^" line="614" column="28" />
+        <mark key="." line="614" column="28" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -582,54 +582,54 @@
       <jump line="880" column="37" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="&quot;" type="4">
+        <text>inside_pointers</text>
       </register>
       <register name="-" type="4">
-        <text>Actual AMR class</text>
+        <text>inside_pointers</text>
       </register>
       <register name="/" type="4">
         <text>DerivationException</text>
       </register>
       <register name="0" type="4">
-        <text>&quot;Derivation produces contradictory node labels.&quot;</text>
+        <text>map_to_order(leafs[i].outside_set) | set([i])</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAjIHByaW50ICJcblxuIgo=</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>#if '_1' == parent:
         #    print '^^^^^^^^^^^^^^^'
         #    for key in self.keys():
         #        print key, self[key]</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>#if '_1' == parent:
         #    print '^^^^^^^^^^^^^^^'
         #    for key in self.keys():
         #        print key, self[key]</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>#print &quot;boundary_map before remove old fragment&quot;, boundary_map
 
         # now remove the old fragment
         #print self.roots
         #print self.triples()</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
