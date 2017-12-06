@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1512509911279">
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1512528383774">
         <mark key="'" line="651" column="62" />
-        <mark key="[" line="696" column="20" />
-        <mark key="]" line="696" column="20" />
-        <mark key="^" line="696" column="20" />
-        <mark key="." line="696" column="20" />
+        <mark key="[" line="673" column="53" />
+        <mark key="]" line="673" column="55" />
+        <mark key="^" line="673" column="55" />
+        <mark key="." line="673" column="55" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -582,11 +582,11 @@
       <jump line="648" column="62" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>|</text>
       </register>
       <register name="-" type="4">
-        <text>+1</text>
+        <text>|</text>
       </register>
       <register name="/" type="4">
         <text>map_to_order</text>
