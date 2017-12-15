@@ -82,8 +82,8 @@
         <mark key="^" line="2531" column="109" />
         <mark key="." line="2531" column="109" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1512493059552">
-        <mark key="'" line="314" column="8" />
+      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1513370796375">
+        <mark key="'" line="14" column="0" />
         <mark key="[" line="484" column="4" />
         <mark key="]" line="484" column="5" />
         <mark key="^" line="484" column="5" />
@@ -310,8 +310,8 @@
       <file name="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/fileinput.py" timestamp="1478072637687">
         <mark key="'" line="101" column="13" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amr_graph.py" timestamp="1509943803627">
-        <mark key="'" line="449" column="33" />
+      <file name="$USER_HOME$/SHRG-induction/amr_graph.py" timestamp="1513370788751">
+        <mark key="'" line="427" column="0" />
         <mark key="[" line="1435" column="0" />
         <mark key="]" line="1435" column="0" />
         <mark key="." line="1435" column="0" />
@@ -479,7 +479,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1380" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1819" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="421" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="1820" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -491,7 +490,6 @@
       <jump line="862" column="22" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="497" column="13" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="870" column="52" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="14" column="7" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="971" column="9" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="500" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="845" column="27" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -579,6 +577,8 @@
       <jump line="632" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="648" column="62" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="871" column="5" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="427" column="0" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
+      <jump line="14" column="0" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -621,7 +621,7 @@
         <text encoding="base64">ICAgIHByaW50ICJcblxuIgo=</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>1</text>
       </register>
     </registers>
     <search>
@@ -631,16 +631,10 @@
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>node_repr</entry>
-        <entry encoding="base64">U2VudGVuY2Ug</entry>
-        <entry>deque</entry>
-        <entry>inside_tree</entry>
-        <entry>toks</entry>
-        <entry>outside_set</entry>
         <entry>build_outside_set</entry>
         <entry>build_ou</entry>
         <entry>edge_map</entry>
@@ -663,7 +657,6 @@
         <entry>map_to_order</entry>
       </history-search>
       <history-cmd>
-        <entry>845</entry>
         <entry>230</entry>
         <entry>231</entry>
         <entry>397</entry>
@@ -681,9 +674,9 @@
         <entry>626</entry>
         <entry>861</entry>
         <entry>621</entry>
-        <entry>1</entry>
         <entry>673</entry>
         <entry>w</entry>
+        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
