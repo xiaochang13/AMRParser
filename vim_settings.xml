@@ -340,9 +340,12 @@
         <mark key="." line="781" column="4" />
         <mark key="^" line="651" column="48" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" timestamp="1513514354013">
-        <mark key="'" line="801" column="19" />
-        <mark key="^" line="117" column="26" />
+      <file name="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" timestamp="1513515346256">
+        <mark key="'" line="234" column="50" />
+        <mark key="[" line="150" column="26" />
+        <mark key="]" line="151" column="27" />
+        <mark key="^" line="151" column="27" />
+        <mark key="." line="151" column="27" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" timestamp="1500748165318">
         <mark key="'" line="759" column="4" />
@@ -476,12 +479,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="862" column="22" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="497" column="13" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="870" column="52" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="971" column="9" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="500" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
-      <jump line="845" column="27" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="847" column="30" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="547" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="558" column="60" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -568,7 +565,6 @@
       <jump line="871" column="5" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="427" column="0" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="14" column="0" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="143" column="0" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
       <jump line="146" column="15" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
       <jump line="381" column="16" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
       <jump line="759" column="85" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
@@ -576,6 +572,13 @@
       <jump line="795" column="20" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
       <jump line="798" column="20" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
       <jump line="801" column="19" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
+      <jump line="143" column="8" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
+      <jump line="144" column="13" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
+      <jump line="236" column="44" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
+      <jump line="248" column="16" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
+      <jump line="243" column="16" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
+      <jump line="232" column="63" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
+      <jump line="231" column="50" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -585,7 +588,7 @@
         <text>None</text>
       </register>
       <register name="/" type="4">
-        <text>cached_triples</text>
+        <text>edge_alignments</text>
       </register>
       <register name="0" type="4">
         <text>sorted_inorder_width</text>
@@ -622,9 +625,9 @@
       </register>
     </registers>
     <search>
-      <last-search>cached_triples</last-search>
+      <last-search>edge_alignments</last-search>
       <last-offset />
-      <last-pattern>cached_triples</last-pattern>
+      <last-pattern>edge_alignments</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -653,6 +656,7 @@
         <entry>build_out</entry>
         <entry>map_to_order</entry>
         <entry>cached_triples</entry>
+        <entry>edge_alignments</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
