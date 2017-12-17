@@ -340,12 +340,12 @@
         <mark key="." line="781" column="4" />
         <mark key="^" line="651" column="48" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" timestamp="1512355607429">
-        <mark key="'" line="158" column="17" />
-        <mark key="[" line="1405" column="0" />
-        <mark key="]" line="1405" column="0" />
-        <mark key="^" line="1386" column="3" />
-        <mark key="." line="1405" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" timestamp="1513492290456">
+        <mark key="'" line="801" column="19" />
+        <mark key="[" line="1233" column="0" />
+        <mark key="]" line="1233" column="0" />
+        <mark key="^" line="117" column="26" />
+        <mark key="." line="1233" column="0" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" timestamp="1500748165318">
         <mark key="'" line="759" column="4" />
@@ -479,14 +479,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1819" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="421" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="1820" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="92" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
-      <jump line="1834" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2048" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="914" column="34" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="594" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="862" column="22" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="497" column="13" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="870" column="52" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -579,59 +571,67 @@
       <jump line="871" column="5" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="427" column="0" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="14" column="0" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="143" column="0" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
+      <jump line="146" column="15" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
+      <jump line="381" column="16" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
+      <jump line="759" column="85" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
+      <jump line="760" column="26" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
+      <jump line="795" column="20" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
+      <jump line="798" column="20" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
+      <jump line="801" column="19" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
-        <text>=</text>
+        <text>None</text>
       </register>
       <register name="/" type="4">
-        <text>map_to_order</text>
+        <text>cached_triples</text>
       </register>
       <register name="0" type="4">
         <text>sorted_inorder_width</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIG1lc3NlZF9zZW50cyA9IHNldChbMTExM10pCg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">I3ByaW50ID4+c3lzLnN0ZGVyciwgJ2V4aXQgMScKICAgICAgICAgICAgICAgICAgICAjc3lzLmV4aXQoMCk=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaW50ICJcblxuIgo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaW50ICJcblxuIgo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaW50ICJcbiIK</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
+      <register name="4" type="4">
+        <text encoding="base64">I3ByaW50ID4+c3lzLnN0ZGVyciwgJy0tLS0tLS0tTm9udGVybWluYWxMYWJlbC0tLS0nCiAgICAgICAgICAgICAgICAjcHJpbnQgPj5zeXMuc3RkZXJyLCByLmxhYmVsCiAgICAgICAgICAgICAgICAjcHJpbnQgPj5zeXMuc3RkZXJyLCByLmluZGV4</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">I3ByaW50ID4+c3lzLnN0ZGVyciwgJ2V4aXQgMicKICAgICAgICAjc3lzLmV4aXQoMCk=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
       <register name="7" type="4">
-        <text encoding="base64">aWYgY3Vycl93aWR0aCA+IG91dHNpZGVfd2lkdGg6CiAgICAgICAgICAgICAgICAgICAgcHJpbnQgIm91dHNpZGUgYmV0dGVyLiIKICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgcHJpbnQgImluc2lkZSBiZXR0ZXIi</text>
+        <text encoding="base64">I3ByaW50ID4+c3lzLnN0ZGVyciwgJz09PT1JbiBmaW5kX250X2VkZ2U9PT09PT09PT09JwogICAgICAgICNwcmludCA+PnN5cy5zdGRlcnIsIHNlbGYKICAgICAgICAjcHJpbnQgPj5zeXMuc3RkZXJyLCBzZWxmLnRyaXBsZXMoKQogICAgICAgICNwcmludCA+PnN5cy5zdGRlcnIsIGxhYmVsCiAgICAgICAgI3ByaW50ID4+c3lzLnN0ZGVyciwgaW5kZXg=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IGlub3JkZXJfd2lkdGggPD0gb3V0c2lkZV93aWR0aCwgInVuZXhwZWN0ZWQgb3V0c2lkZSBiZXR0ZXIgdGhhbiBpbm9yZGVyIGZvdW5kIgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaW50ICJcblxuIgo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
-        <text>1</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>map_to_order</last-search>
+      <last-search>cached_triples</last-search>
       <last-offset />
-      <last-pattern>map_to_order</last-pattern>
+      <last-pattern>cached_triples</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
@@ -655,6 +655,7 @@
         <entry>outside</entry>
         <entry>build_out</entry>
         <entry>map_to_order</entry>
+        <entry>cached_triples</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
@@ -675,8 +676,8 @@
         <entry>861</entry>
         <entry>621</entry>
         <entry>673</entry>
-        <entry>w</entry>
         <entry>1</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
