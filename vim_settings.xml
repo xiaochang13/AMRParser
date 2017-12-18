@@ -148,8 +148,8 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513630947001">
-        <mark key="'" line="19" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513631420001">
+        <mark key="'" line="609" column="4" />
         <mark key="[" line="573" column="15" />
         <mark key="]" line="573" column="44" />
         <mark key="^" line="573" column="44" />
@@ -474,7 +474,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="883" column="46" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="680" column="22" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="770" column="59" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="772" column="11" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -574,6 +573,7 @@
       <jump line="361" column="4" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="469" column="12" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="556" column="4" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="609" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -583,7 +583,7 @@
         <text>:</text>
       </register>
       <register name="/" type="4">
-        <text>connect_adja</text>
+        <text>bags</text>
       </register>
       <register name="0" type="4">
         <text>self.vertices = []  # A list of variable names for all vertices.
@@ -625,9 +625,9 @@
       </register>
     </registers>
     <search>
-      <last-search>connect_adja</last-search>
+      <last-search>bags</last-search>
       <last-offset />
-      <last-pattern>connect_adja</last-pattern>
+      <last-pattern>bags</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -666,6 +666,7 @@
         <entry>hyper</entry>
         <entry>combine_fragments</entry>
         <entry>connect_adja</entry>
+        <entry>bags</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
