@@ -10,8 +10,8 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1512354753611">
-        <mark key="'" line="578" column="13" />
+      <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1513560531596">
+        <mark key="'" line="487" column="8" />
         <mark key="[" line="501" column="0" />
         <mark key="]" line="501" column="0" />
         <mark key="^" line="486" column="5" />
@@ -479,9 +479,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="847" column="30" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="547" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="558" column="60" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="874" column="38" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="860" column="33" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="975" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -579,6 +576,9 @@
       <jump line="243" column="16" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
       <jump line="232" column="63" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
       <jump line="231" column="50" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
+      <jump line="394" column="14" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
+      <jump line="493" column="8" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
+      <jump line="487" column="8" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -588,7 +588,7 @@
         <text>None</text>
       </register>
       <register name="/" type="4">
-        <text>edge_alignments</text>
+        <text>extract_derivation</text>
       </register>
       <register name="0" type="4">
         <text>sorted_inorder_width</text>
@@ -625,9 +625,9 @@
       </register>
     </registers>
     <search>
-      <last-search>edge_alignments</last-search>
+      <last-search>extract_derivation</last-search>
       <last-offset />
-      <last-pattern>edge_alignments</last-pattern>
+      <last-pattern>extract_derivation</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -657,6 +657,7 @@
         <entry>map_to_order</entry>
         <entry>cached_triples</entry>
         <entry>edge_alignments</entry>
+        <entry>extract_derivation</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
