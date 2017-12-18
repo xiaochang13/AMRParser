@@ -82,8 +82,8 @@
         <mark key="^" line="2531" column="109" />
         <mark key="." line="2531" column="109" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1513623573953">
-        <mark key="'" line="336" column="10" />
+      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1513630442160">
+        <mark key="'" line="556" column="4" />
         <mark key="[" line="333" column="8" />
         <mark key="]" line="333" column="9" />
         <mark key="^" line="333" column="9" />
@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513628917007">
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513630947001">
         <mark key="'" line="19" column="0" />
-        <mark key="[" line="574" column="34" />
-        <mark key="]" line="575" column="41" />
-        <mark key="^" line="575" column="41" />
-        <mark key="." line="575" column="41" />
+        <mark key="[" line="573" column="15" />
+        <mark key="]" line="573" column="44" />
+        <mark key="^" line="573" column="44" />
+        <mark key="." line="573" column="44" />
       </file>
       <file name="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_output.py" timestamp="1507506923487">
         <mark key="'" line="675" column="31" />
@@ -474,11 +474,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="769" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="1007" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="898" column="45" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="867" column="41" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="23" column="81" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="883" column="46" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="680" column="22" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="770" column="59" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -574,16 +569,21 @@
       <jump line="336" column="10" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="447" column="8" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="20" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="495" column="4" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="571" column="29" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="361" column="4" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="469" column="12" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="556" column="4" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi52ZXJ0ZXhfaWR4W2N1cnJfbGFiXSA9IGxlbihzZWxmLnZlcnRpY2VzKQo=</text>
+      <register name="&quot;" type="4">
+        <text>:</text>
       </register>
       <register name="-" type="4">
-        <text>, root</text>
+        <text>:</text>
       </register>
       <register name="/" type="4">
-        <text>hyper</text>
+        <text>connect_adja</text>
       </register>
       <register name="0" type="4">
         <text>self.vertices = []  # A list of variable names for all vertices.
@@ -592,40 +592,42 @@
         self.ext_list = []  # A list of all</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi52ZXJ0ZXhfaWR4W2N1cnJfbGFiXSA9IGxlbihzZWxmLnZlcnRpY2VzKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgcmVnaXN0ZXJWZXJ0ZXgodmVydGV4KToK</text>
+      <register name="2" type="4">
+        <text>curr_bag = bgs[(l, r)]
+            curr_hg = Hypergraph()
+            curr_hg.init_vertices(curr_bag)</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBleHRfcmVwciA9ICIsIi5qb2luKHNlbGYuZXh0X2xpc3QpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIGJwWyhsLCByKV0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi52ZXJ0ZXhfaWR4W2N1cnJfbGFiXSA9IGxlbihzZWxmLnZlcnRpY2VzKQo=</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">aW1wb3J0IG9zCmltcG9ydCBzeXMK</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBkZWYgcmVnaXN0ZXJWZXJ0ZXgodmVydGV4KToK</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBleHRfcmVwciA9ICIsIi5qb2luKHNlbGYuZXh0X2xpc3QpCg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">ZnJvbSBjb21tb24gaW1wb3J0IElORgpmcm9tIGxvZ3Byb2IgaW1wb3J0IGxvZ3N1bSwgbG9ncHJvZCwgTE9HWkVSTwppbXBvcnQgbG9nZ2VyCg==</text>
+      <register name="8" type="4">
+        <text encoding="base64">aW1wb3J0IG9zCmltcG9ydCBzeXMK</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">Y2xhc3MgTm9kZShvYmplY3QpOgogICAgZGVmIF9faW5pdF9fKHNlbGYpOgogICAgICAgIHNlbGYuaW5jb21pbmcgPSBbXQogICAgICAgIHNlbGYubm91dCA9IDAgICMgbnVtYmVyIG9mIG91dGdvaW5nIGVkZ2VzCiAgICAgICAgc2VsZi5oZyA9IE5vbmUgICMgaHlwZXJncmFwaCB0aGlzIG5vZGUgYmVsb25ncyB0bwogICAgICAgIHNlbGYuYmVzdF9wYXRoc19saXN0ID0gTm9uZQoKICAgIGRlZiBhZGRfaW5jb21pbmcoc2VsZiwgZWRnZSk6CiAgICAgICAgc2VsZi5pbmNvbWluZy5hcHBlbmQoZWRnZSkKICAgICAgICBlZGdlLmhlYWQgPSBzZWxmCgogICAgZGVmIGlkX3N0cihzZWxmKToKICAgICAgICAiIiJUaGUgaWQgb2YgYSBub2RlIGlzIGFzc2lnbmVkIGFmdGVyIHRvcG9sb2dpY2FsIHNvcnQgaW4gcmV2ZXJzZWQKICAgICAgICB0b3BvbG9naWNhbCBvcmRlci4gKFJvb3QgaGFzIGlkIDAuKSBVc2UgcHl0aG9uIG9iamVjdCBpZCBpZiB0aGlzIG5vZGUKICAgICAgICBpcyBub3QgYXNzaWduZWQgYSBpZCIiIgogICAgICAgIGlmIGhhc2F0dHIoc2VsZiwgJ2lkJyk6CiAgICAgICAgICAgIHJldHVybiBzdHIoc2VsZi5pZCkKICAgICAgICBlbHNlOgogICAgICAgICAgICByZXR1cm4gJ29iaiVzJyAlIGlkKHNlbGYpCgogICAgZGVmIG5laWdoYm9ycyhzZWxmLCBtYXhfZGlzdD0zKToKICAgICAgICAiIiJyZXR1cm4gYSBzZXQgb2Ygbm9kZXMgd2hvIGFyZSB3aXRoaW4gbWF4X2Rpc3Qgb2Ygc2VsZiIiIgogICAgICAgICMgVE9ETzogdGhpcyBtYXkgaGF2ZSBwcm9ibGVtcyBiZWNhdXNlIHRoZSBzZXQgZG9lc24ndAogICAgICAgICMgY29tcGFyZSBvYmplY3QgaWQgYnV0IHVzZXMgdXNlciBkZWZpbmVkIGNvbXBhcmlzb24gbWV0aG9kcwogICAgICAgICMgVE9ETzogb3V0Z29pbmcgZWRnZXMgYXJlIG5vIGxvbmdlciBzYXZlZAogICAgICAgIGZvdW5kID0gc2V0KCkKICAgICAgICBmb3VuZC5hZGQoc2VsZikKICAgICAgICBxdWV1ZSA9IFsoc2VsZiwgMCldCiAgICAgICAgd2hpbGUgcXVldWU6CiAgICAgICAgICAgIG5vZGUsIGQgPSBxdWV1ZS5wb3AoMCkKICAgICAgICAgICAgaWYgZCA8IG1heF9kaXN0OgogICAgICAgICAgICAgICAgZm9yIGVkZ2UgaW4gbm9kZS5vdXRnb2luZzoKICAgICAgICAgICAgICAgICAgICBpZiBlZGdlLmhlYWQgbm90IGluIGZvdW5kOgogICAgICAgICAgICAgICAgICAgICAgICBmb3VuZC5hZGQoZWRnZS5oZWFkKQogICAgICAgICAgICAgICAgICAgICAgICBxdWV1ZS5hcHBlbmQoKGVkZ2UuaGVhZCwgZCsxKSkKICAgICAgICAgICAgICAgIGZvciBlZGdlIGluIG5vZGUuaW5jb21pbmc6CiAgICAgICAgICAgICAgICAgICAgZm9yIHRhaWxub2RlIGluIGVkZ2UudGFpbDoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgdGFpbG5vZGUgbm90IGluIGZvdW5kOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZm91bmQuYWRkKHRhaWxub2RlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcXVldWUuYXBwZW5kKCh0YWlsbm9kZSwgZCsxKSkKICAgICAgICByZXR1cm4gZm91bmQKCiAgICBkZWYgc2VyaWFsaXplKHNlbGYpOgogICAgICAgIHJldHVybiAnWyVzXScgJSBzZWxmLmlkCgogICAgZGVmIGRlc2VyaWFsaXplKHNlbGYsIHMpOgogICAgICAgIHMgPSBzLnN0cmlwKCkKICAgICAgICBhc3NlcnQgcy5zdGFydHN3aXRoKCdbJykgYW5kIHMuZW5kc3dpdGgoJ10nKQogICAgICAgIHNlbGYuaWQgPSBpbnQoc1sxOi0xXSkKCiAgICBkZWYgc2hvd19uZWlnaGJvcmhvb2Qoc2VsZiwgbWF4X2Rpc3Q9MywgZGV0YWlsZWQ9VHJ1ZSk6CiAgICAgICAgIiIic2hvdyB0aGUgbmVpZ2hib3Job29kIG9mIHRoaXMgbm9kZSBpbiBhIHBpY3R1cmUiIiIKICAgICAgICBkb3RzdHIgPSAnJwogICAgICAgIGZvciBub2RlIGluIHNlbGYubmVpZ2hib3JzKG1heF9kaXN0KToKICAgICAgICAgICAgaWYgbm9kZSBpcyBzZWxmOgogICAgICAgICAgICAgICAgZG90c3RyICs9IG5vZGUuZG90KGNvbG9yPSdkb2RnZXJibHVlJywgZGV0YWlsZWQ9ZGV0YWlsZWQpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBkb3RzdHIgKz0gbm9kZS5kb3QoZGV0YWlsZWQ9ZGV0YWlsZWQpCiAgICAgICAgZG90c3RyID0gJ2RpZ3JhcGggaHlwZXJncmFwaCB7XG5yYW5rZGlyPUJUXG4lc31cbicgJSBkb3RzdHIKICAgICAgICBmID0gb3BlbignL3RtcC9kb3R0eScsICd3JykKICAgICAgICBmLndyaXRlKGRvdHN0cikKICAgICAgICBmLmNsb3NlKCkKICAgICAgICBvcy5zeXN0ZW0oJ2NhdCAvdG1wL2RvdHR5IHwgZG90IC1UZ2lmID4gL3RtcC9kb3R0eS5naWYnKQogICAgICAgIG9zLnN5c3RlbSgnZW9nIC90bXAvZG90dHkuZ2lmJykK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>hyper</last-search>
+      <last-search>connect_adja</last-search>
       <last-offset />
-      <last-pattern>hyper</last-pattern>
+      <last-pattern>connect_adja</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -662,6 +664,8 @@
         <entry>FragmentHG</entry>
         <entry>FragmentH</entry>
         <entry>hyper</entry>
+        <entry>combine_fragments</entry>
+        <entry>connect_adja</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
