@@ -341,10 +341,10 @@
         <mark key="." line="781" column="4" />
         <mark key="^" line="651" column="48" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" timestamp="1513622853570">
+      <file name="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" timestamp="1513624349355">
         <mark key="'" line="236" column="50" />
-        <mark key="[" line="153" column="39" />
-        <mark key="]" line="153" column="43" />
+        <mark key="[" line="150" column="8" />
+        <mark key="]" line="153" column="42" />
         <mark key="^" line="153" column="43" />
         <mark key="." line="153" column="43" />
       </file>
@@ -473,11 +473,11 @@
         <mark key="^" line="830" column="49" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513624124017">
-        <mark key="[" line="76" column="11" />
-        <mark key="]" line="76" column="12" />
-        <mark key="." line="76" column="12" />
-        <mark key="^" line="76" column="10" />
+      <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513624994670">
+        <mark key="[" line="88" column="0" />
+        <mark key="]" line="88" column="0" />
+        <mark key="^" line="87" column="31" />
+        <mark key="." line="88" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr.py" timestamp="1478188826947">
         <mark key="'" line="3" column="0" />
@@ -593,13 +593,16 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>None</text>
+        <text>tail</text>
       </register>
       <register name="/" type="4">
         <text>FragmentH</text>
       </register>
       <register name="0" type="4">
-        <text>sorted_inorder_width</text>
+        <text>self.vertices = []  # A list of variable names for all vertices.
+        self.vertex_idx = {}
+        self.edges = []  # A list of hyperedges, ordered according to vertex order.
+        self.ext_list = []  # A list of all</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -608,7 +611,7 @@
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">ZGVmIGRvdChzZWxmLCBjb2xvcj0nJywgZGV0YWlsZWQ9VHJ1ZSk6CiAgICAgICAgIiIiZG90IGxhbmd1YWdlIHJlcHJlc2VudGF0aW9uIG9mIHRoaXMgbm9kZSBhbmQgaXRzIGluY29taW5nIGVkZ2VzIiIiCiAgICAgICAgcmVzdWx0ID0gJ24lcyBbbGFiZWw9IiVzIiBzdHlsZT0iZmlsbGVkIiBjb2xvcj0iJXMiXTtcbicgJSBcCiAgICAgICAgICAgICAgICAoc2VsZi5pZF9zdHIoKSwKICAgICAgICAgICAgICAgICBzZWxmLmRvdF9sYWJlbChkZXRhaWxlZD1kZXRhaWxlZCksCiAgICAgICAgICAgICAgICAgY29sb3IpCiAgICAgICAgIyB3cml0ZSBoeXBlcmVkZ2VzCiAgICAgICAgZm9yIGksIGVkZ2UgaW4gZW51bWVyYXRlKHNlbGYuaW5jb21pbmcpOgogICAgICAgICAgICBlZGdlbmFtZSA9ICdlJXNfJXMnICUgKHNlbGYuaWRfc3RyKCksIGkpCiAgICAgICAgICAgICMgZ3JhcGggbm9kZSBmb3IgaHlwZXJlZGdlCiAgICAgICAgICAgIHJlc3VsdCArPSAnJXMgW3NoYXBlPSJwb2ludCJdXG4nICUgZWRnZW5hbWUKICAgICAgICAgICAgIyBoeXBlcmVkZ2UgaGVhZAogICAgICAgICAgICByZXN1bHQgKz0gJyVzIC0+IG4lcyBbbGFiZWw9IiVzIl1cbicgJSBcCiAgICAgICAgICAgICAgICAgICAgKGVkZ2VuYW1lLAogICAgICAgICAgICAgICAgICAgICBlZGdlLmhlYWQuaWRfc3RyKCksCiAgICAgICAgICAgICAgICAgICAgIGVzY2FwZV9xdW90ZShzdHIoZWRnZSkpIGlmIGRldGFpbGVkIGVsc2UgJycpCiAgICAgICAgICAgICMgaHlwZXJlZGdlIHRhaWxzCiAgICAgICAgICAgIGZvciB0YWlsbm9kZSBpbiBlZGdlLnRhaWw6CiAgICAgICAgICAgICAgICByZXN1bHQgKz0gJ24lcyAtPiAlcyBbZGlyPSJub25lIl1cbicgJSBcCiAgICAgICAgICAgICAgICAgICAgICAgICh0YWlsbm9kZS5pZF9zdHIoKSwgZWRnZW5hbWUpCiAgICAgICAgcmV0dXJuIHJlc3VsdA==</text>
+        <text encoding="base64">ZGVmIGFkZF90YWlsKHNlbGYsIG5vZGUpOgogICAgICAgIHNlbGYudGFpbC5hcHBlbmQobm9kZSkKCiAgICBkZWYgcG9zdGVyaW9yKHNlbGYpOgogICAgICAgICIiIlxzdW17ZDogZSBcaW4gZH0gdyhkKSIiIgogICAgICAgIHByb2QgPSBzZWxmLmhnLnByb2QKICAgICAgICB3ID0gc2VsZi5oZy53CiAgICAgICAgcCA9IHNlbGYuaGVhZC5vdXRzaWRlCiAgICAgICAgZm9yIG5vZGUgaW4gc2VsZi50YWlsOgogICAgICAgICAgICBwID0gcHJvZChwLCBub2RlLmluc2lkZSkKICAgICAgICBwID0gcHJvZChwLCB3KHNlbGYpKQogICAgICAgIHJldHVybiBwCgogICAgZGVmIGV4cGVjdGF0aW9uKHNlbGYpOgogICAgICAgICIiIlxzdW17ZDogZSBcaW4gZH0gdyhkKWYoZCkiIiIKICAgICAgICB6ZXJvID0gc2VsZi5oZy56ZXJvCiAgICAgICAgb25lID0gc2VsZi5oZy5vbmUKICAgICAgICBzdW0gPSBzZWxmLmhnLnN1bQogICAgICAgIHByb2QgPSBzZWxmLmhnLnByb2QKICAgICAgICB3ID0gc2VsZi5oZy53CiAgICAgICAgZiA9IHNlbGYuaGcuZgoKICAgICAgICB0ZXJtMSA9IHNlbGYuaGVhZC5vdXRzaWRlCiAgICAgICAgZm9yIG5vZGUgaW4gc2VsZi50YWlsOgogICAgICAgICAgICB0ZXJtMSA9IHByb2QodGVybTEsIG5vZGUuaW5zaWRlKQogICAgICAgIHRlcm0xID0gcHJvZCh0ZXJtMSwgZihzZWxmKSkKCiAgICAgICAgdGVybTIgPSB6ZXJvCiAgICAgICAgZm9yIHYgaW4gc2VsZi50YWlsOgogICAgICAgICAgICB0bXAgPSB2Lmluc2lkZV9leHAKICAgICAgICAgICAgZm9yIHUgaW4gc2VsZi50YWlsOgogICAgICAgICAgICAgICAgaWYgdSBpcyBub3QgdjoKICAgICAgICAgICAgICAgICAgICB0bXAgPSBwcm9kKHRtcCwgdS5pbnNpZGUpCiAgICAgICAgICAgIHRlcm0yID0gc3VtKHRlcm0yLCB0bXApCiAgICAgICAgdGVybTIgPSBwcm9kKHRlcm0yLCBzZWxmLmhlYWQub3V0c2lkZSkKCiAgICAgICAgdGVybTMgPSBzZWxmLmhlYWQub3V0c2lkZV9leHAKICAgICAgICBmb3Igbm9kZSBpbiBzZWxmLnRhaWw6CiAgICAgICAgICAgIHRlcm0zID0gcHJvZCh0ZXJtMywgbm9kZS5pbnNpZGUpCgogICAgICAgIHJldHVybiBwcm9kKHcoc2VsZiksCiAgICAgICAgICAgICAgICAgICAgc3VtKHRlcm0xLCBzdW0odGVybTIsIHRlcm0zKSkpCgogICAgZGVmIG1ha2VfcGF0aChzZWxmLCBzdWJwYXRocyk6CiAgICAgICAgIiIic3VicGF0aHMgaXMgYSBsaXN0IG9mIHBhdGhzIG9uIHRhaWwgbm9kZXMuCiAgICAgICAgcmV0dXJuIGEgbmV3IHBhdGggZ2VuZXJhdGVkIGJ5IGNvbmNhdGVuYXRpbmcgdGhpcyBlZGdlLgogICAgICAgIHRoaXMgaXMgdXNlZCBpbiBrLWJlc3QgcGF0aHMgZ2VuZXJhdGlvbi4KCiAgICAgICAgYm91bmRhcnkgY2FzZSAoZGFuZ2xpbmcgZWRnZXMgdW5kZXIgYSBub2RlKToKICAgICAgICBpZiB0aGlzIGVkZ2UgaGFzIG5vIHRhaWwgbm9kZSwgbWFrZV9wYXRoKFtdKSByZXR1cm5zIGEgUGF0aCBvYmplY3QKICAgICAgICB3aXRoIGVkZ2Ugd2VpZ2h0IGFzIGl0cyB3ZWlnaHQiIiIKICAgICAgICBhc3NlcnQgbGVuKHNlbGYudGFpbCkgPT0gbGVuKHN1YnBhdGhzKSwgJyVzJyAlIHNlbGYKICAgICAgICBwYXRoID0gUGF0aChzZWxmLCBzdWJwYXRocykKICAgICAgICB3ZWlnaHQgPSBzZWxmLmhnLm9uZQogICAgICAgIGZvciBwIGluIHN1YnBhdGhzOgogICAgICAgICAgICBpZiBwIGlzIG5vdCBOb25lOgogICAgICAgICAgICAgICAgd2VpZ2h0ID0gc2VsZi5oZy5wcm9kKHdlaWdodCwgcC53ZWlnaHQpCiAgICAgICAgd2VpZ2h0ID0gc2VsZi5oZy5wcm9kKHdlaWdodCwgc2VsZi5oZy53KHNlbGYpKQogICAgICAgIHBhdGgud2VpZ2h0ID0gd2VpZ2h0CiAgICAgICAgcmV0dXJuIHBhdGgKCiAgICBkZWYgc2VyaWFsaXplKHNlbGYpOgogICAgICAgIHRhaWxfc3RyID0gJyAnLmpvaW4odGFpbG5vZGUuc2VyaWFsaXplKCkgZm9yIHRhaWxub2RlIGluIHNlbGYudGFpbCkKICAgICAgICBoZWFkX3N0ciA9IHNlbGYuaGVhZC5zZXJpYWxpemUoKQogICAgICAgIHJldHVybiAnIC0+ICcuam9pbihbdGFpbF9zdHIsIGhlYWRfc3RyXSkKCiAgICBkZWYgZG90X2xhYmVsKHNlbGYpOgogICAgICAgIHJldHVybiBzdHIoc2VsZikKCiAgICBkZWYgZGVzZXJpYWxpemUoc2VsZiwgcyk6CiAgICAgICAgdGFpbF9ub2RlcywgaGVhZF9ub2RlID0gcy5zcGxpdCgnLT4nKQogICAgICAgIHRhaWxfaWRzID0gW2ludCh0WzE6LTFdKSBmb3IgdCBpbiB0YWlsX25vZGVzLnNwbGl0KCldCiAgICAgICAgaGVhZF9pZCA9IGludChoZWFkX25vZGUuc3RyaXAoKVsxOi0xXSkKICAgICAgICByZXR1cm4gdGFpbF9pZHMsIGhlYWRfaWQKCmNsYXNzIFBhdGgob2JqZWN0KToKICAgICIiIkEgcGF0aCBwb2ludHMgdG8gYSBlZGdlIGFuZCBoYXMgYSBzZXQgb2Ygc3VicGF0aHMuIEFueSBzdWJwYXRocyBjYW4gYmUKICAgIE5vbmUuIGUuZy4gQSBsZWFmIG5vZGUgaGFzIE5vbmUgYXMgaXRzIHNpbmdsZSBwYXRoLiBUaGlzIGlzIGFsc28gdXNlZnVsIGlmCiAgICBhIHBhdGggZG9lcyBub3Qgc3RhcnQgZnJvbSB0aGUgbGVhZiBub2RlcyAodHJlZWxldHMpLgoKICAgIElmIG9ubHkgY29tcGxldGUgcGF0aHMgYXJlIHVzZWQsIGEgY29tcGxldGUgcGF0aCBzdGFydHMgZnJvbSBlaXRoZXIgYSBsZWFmCiAgICBub2RlIChOb25lIHBhdGgpLCBvciBhIGRhbmdsaW5nIGVkZ2UgKGEgcGF0aCBvYmplY3Qgd2l0aCBlbXB0eSBzdWJwYXRocwogICAgbGlzdCkuIiIiCiAgICBkZWYgX19pbml0X18oc2VsZiwgZWRnZSwgc3VicGF0aHMpOgogICAgICAgIHNlbGYuZWRnZSA9IGVkZ2UKICAgICAgICBzZWxmLnN1YnBhdGhzID0gc3VicGF0aHMKICAgICAgICBzZWxmLndlaWdodCA9IDAKCiAgICBkZWYgX19sdF9fKHNlbGYsIG90aGVyKToKICAgICAgICBiZXN0ID0gc2VsZi5lZGdlLmhnLm9uZQogICAgICAgIGJlc3QgPSAtMTAwMDAKICAgICAgICBpZiBGTEFHUy5taW5pbWl6ZV9wYXRoX2Nvc3Q6CiAgICAgICAgICAgIHJldHVybiBzZWxmLndlaWdodCA8IG90aGVyLndlaWdodAogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJldHVybiBhYnMoYmVzdCAtIHNlbGYud2VpZ2h0KSA8IGFicyhiZXN0IC0gb3RoZXIud2VpZ2h0KQoKICAgIGRlZiB0cmVlX3N0cihzZWxmLCBpbmRlbnQ9MCk6CiAgICAgICAgaW5kZW50X2xldmVsID0gMgogICAgICAgIG15aW5kZW50ID0gJyAnKmluZGVudAogICAgICAgIHJlc3VsdCA9ICclcyVzXG4nICUgKG15aW5kZW50LCBzZWxmLmVkZ2UuaGVhZCkKICAgICAgICByZXN1bHQgKz0gJyVzJXNcbicgJSAgKG15aW5kZW50LCBzZWxmLmVkZ2UpCiAgICAgICAgZm9yIHAgaW4gc2VsZi5zdWJwYXRoczoKICAgICAgICAgICAgaWYgcCBpcyBOb25lOgogICAgICAgICAgICAgICAgcmVzdWx0ICs9ICclcyVzXG4nICUgKG15aW5kZW50ICsgJyAnKmluZGVudF9sZXZlbCwgJ05vbmUnKQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgcmVzdWx0ICs9IHAudHJlZV9zdHIoaW5kZW50ICsgaW5kZW50X2xldmVsKQogICAgICAgIHJldHVybiByZXN1bHQKCiAgICBkZWYgZWRnZXMoc2VsZik6CiAgICAgICAgeWllbGQgc2VsZi5lZGdlCiAgICAgICAgZm9yIHAgaW4gc2VsZi5zdWJwYXRoczoKICAgICAgICAgICAgaWYgcCBpcyBub3QgTm9uZToKICAgICAgICAgICAgICAgIGZvciBlZGdlIGluIHAuZWRnZXMoKToKICAgICAgICAgICAgICAgICAgICB5aWVsZCBlZGdl</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
@@ -617,18 +620,20 @@
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="4">
-        <text>def dot_label(self, detailed = True):
-        &quot;&quot;&quot;Returns label used in dot representation.&quot;&quot;&quot;
-        if detailed:
-            return '%s: %s' % (self.id_str(), escape_quote(str(self)))
-        else:
-            return '%s' % self.id_str()</text>
+        <text># def __init__(self):
+    #     # TODO: consider removing this head field to break the reference cycle
+    #     # between a edge and its head. The reference cycle may cause memory
+    #     # problems or an overhead on garbage collector
+    #     self.head = None
+    #     self.tail = []
+    #     self.weight = 1
+    #     self.hg = None  # hypergraph this edge belongs to</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">ZGVmIGVzY2FwZV9xdW90ZShzKToKICAgIHJldHVybiBzLnJlcGxhY2UoJyInLCByJ1wiJykK</text>
+        <text encoding="base64">IyBzZW1pcmluZ3MKTE9HUFJPQiA9IChsb2dzdW0sCiAgICAgICAgICAgbG9ncHJvZCwKICAgICAgICAgICBMT0daRVJPLAogICAgICAgICAgIDApCgpJTlNJREUgPSAobGFtYmRhIHgseTogeCArIHksCiAgICAgICAgICBsYW1iZGEgeCx5OiB4KnksCiAgICAgICAgICAwLAogICAgICAgICAgMSkKClNIT1JURVNUX1BBVEggPSAobGFtYmRhIHgseTogbWluKFt4LHldKSwKICAgICAgICAgICAgICAgICBsYW1iZGEgeCx5OiB4ICsgeSwKICAgICAgICAgICAgICAgICBJTkYsCiAgICAgICAgICAgICAgICAgMCkK</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
