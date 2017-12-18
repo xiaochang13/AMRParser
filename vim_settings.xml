@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513623011577">
-        <mark key="'" line="442" column="0" />
-        <mark key="[" line="721" column="0" />
-        <mark key="]" line="721" column="0" />
-        <mark key="^" line="691" column="35" />
-        <mark key="." line="721" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513625468208">
+        <mark key="'" line="19" column="0" />
+        <mark key="[" line="25" column="29" />
+        <mark key="]" line="26" column="19" />
+        <mark key="^" line="26" column="19" />
+        <mark key="." line="26" column="19" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
         <mark key="[" line="27" column="0" />
@@ -473,11 +473,11 @@
         <mark key="^" line="830" column="49" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513624994670">
-        <mark key="[" line="88" column="0" />
-        <mark key="]" line="88" column="0" />
-        <mark key="^" line="87" column="31" />
-        <mark key="." line="88" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513625717728">
+        <mark key="[" line="17" column="22" />
+        <mark key="]" line="17" column="19" />
+        <mark key="^" line="17" column="19" />
+        <mark key="." line="17" column="19" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr.py" timestamp="1478188826947">
         <mark key="'" line="3" column="0" />
@@ -487,7 +487,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="672" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="769" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="1007" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="898" column="45" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -587,6 +586,7 @@
       <jump line="16" column="18" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="336" column="10" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="447" column="8" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
+      <jump line="20" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -596,7 +596,7 @@
         <text>tail</text>
       </register>
       <register name="/" type="4">
-        <text>FragmentH</text>
+        <text>hyper</text>
       </register>
       <register name="0" type="4">
         <text>self.vertices = []  # A list of variable names for all vertices.
@@ -607,45 +607,38 @@
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="2" type="4">
+        <text encoding="base64">aW1wb3J0IG9zCmltcG9ydCBzeXMK</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">ZGVmIGFkZF90YWlsKHNlbGYsIG5vZGUpOgogICAgICAgIHNlbGYudGFpbC5hcHBlbmQobm9kZSkKCiAgICBkZWYgcG9zdGVyaW9yKHNlbGYpOgogICAgICAgICIiIlxzdW17ZDogZSBcaW4gZH0gdyhkKSIiIgogICAgICAgIHByb2QgPSBzZWxmLmhnLnByb2QKICAgICAgICB3ID0gc2VsZi5oZy53CiAgICAgICAgcCA9IHNlbGYuaGVhZC5vdXRzaWRlCiAgICAgICAgZm9yIG5vZGUgaW4gc2VsZi50YWlsOgogICAgICAgICAgICBwID0gcHJvZChwLCBub2RlLmluc2lkZSkKICAgICAgICBwID0gcHJvZChwLCB3KHNlbGYpKQogICAgICAgIHJldHVybiBwCgogICAgZGVmIGV4cGVjdGF0aW9uKHNlbGYpOgogICAgICAgICIiIlxzdW17ZDogZSBcaW4gZH0gdyhkKWYoZCkiIiIKICAgICAgICB6ZXJvID0gc2VsZi5oZy56ZXJvCiAgICAgICAgb25lID0gc2VsZi5oZy5vbmUKICAgICAgICBzdW0gPSBzZWxmLmhnLnN1bQogICAgICAgIHByb2QgPSBzZWxmLmhnLnByb2QKICAgICAgICB3ID0gc2VsZi5oZy53CiAgICAgICAgZiA9IHNlbGYuaGcuZgoKICAgICAgICB0ZXJtMSA9IHNlbGYuaGVhZC5vdXRzaWRlCiAgICAgICAgZm9yIG5vZGUgaW4gc2VsZi50YWlsOgogICAgICAgICAgICB0ZXJtMSA9IHByb2QodGVybTEsIG5vZGUuaW5zaWRlKQogICAgICAgIHRlcm0xID0gcHJvZCh0ZXJtMSwgZihzZWxmKSkKCiAgICAgICAgdGVybTIgPSB6ZXJvCiAgICAgICAgZm9yIHYgaW4gc2VsZi50YWlsOgogICAgICAgICAgICB0bXAgPSB2Lmluc2lkZV9leHAKICAgICAgICAgICAgZm9yIHUgaW4gc2VsZi50YWlsOgogICAgICAgICAgICAgICAgaWYgdSBpcyBub3QgdjoKICAgICAgICAgICAgICAgICAgICB0bXAgPSBwcm9kKHRtcCwgdS5pbnNpZGUpCiAgICAgICAgICAgIHRlcm0yID0gc3VtKHRlcm0yLCB0bXApCiAgICAgICAgdGVybTIgPSBwcm9kKHRlcm0yLCBzZWxmLmhlYWQub3V0c2lkZSkKCiAgICAgICAgdGVybTMgPSBzZWxmLmhlYWQub3V0c2lkZV9leHAKICAgICAgICBmb3Igbm9kZSBpbiBzZWxmLnRhaWw6CiAgICAgICAgICAgIHRlcm0zID0gcHJvZCh0ZXJtMywgbm9kZS5pbnNpZGUpCgogICAgICAgIHJldHVybiBwcm9kKHcoc2VsZiksCiAgICAgICAgICAgICAgICAgICAgc3VtKHRlcm0xLCBzdW0odGVybTIsIHRlcm0zKSkpCgogICAgZGVmIG1ha2VfcGF0aChzZWxmLCBzdWJwYXRocyk6CiAgICAgICAgIiIic3VicGF0aHMgaXMgYSBsaXN0IG9mIHBhdGhzIG9uIHRhaWwgbm9kZXMuCiAgICAgICAgcmV0dXJuIGEgbmV3IHBhdGggZ2VuZXJhdGVkIGJ5IGNvbmNhdGVuYXRpbmcgdGhpcyBlZGdlLgogICAgICAgIHRoaXMgaXMgdXNlZCBpbiBrLWJlc3QgcGF0aHMgZ2VuZXJhdGlvbi4KCiAgICAgICAgYm91bmRhcnkgY2FzZSAoZGFuZ2xpbmcgZWRnZXMgdW5kZXIgYSBub2RlKToKICAgICAgICBpZiB0aGlzIGVkZ2UgaGFzIG5vIHRhaWwgbm9kZSwgbWFrZV9wYXRoKFtdKSByZXR1cm5zIGEgUGF0aCBvYmplY3QKICAgICAgICB3aXRoIGVkZ2Ugd2VpZ2h0IGFzIGl0cyB3ZWlnaHQiIiIKICAgICAgICBhc3NlcnQgbGVuKHNlbGYudGFpbCkgPT0gbGVuKHN1YnBhdGhzKSwgJyVzJyAlIHNlbGYKICAgICAgICBwYXRoID0gUGF0aChzZWxmLCBzdWJwYXRocykKICAgICAgICB3ZWlnaHQgPSBzZWxmLmhnLm9uZQogICAgICAgIGZvciBwIGluIHN1YnBhdGhzOgogICAgICAgICAgICBpZiBwIGlzIG5vdCBOb25lOgogICAgICAgICAgICAgICAgd2VpZ2h0ID0gc2VsZi5oZy5wcm9kKHdlaWdodCwgcC53ZWlnaHQpCiAgICAgICAgd2VpZ2h0ID0gc2VsZi5oZy5wcm9kKHdlaWdodCwgc2VsZi5oZy53KHNlbGYpKQogICAgICAgIHBhdGgud2VpZ2h0ID0gd2VpZ2h0CiAgICAgICAgcmV0dXJuIHBhdGgKCiAgICBkZWYgc2VyaWFsaXplKHNlbGYpOgogICAgICAgIHRhaWxfc3RyID0gJyAnLmpvaW4odGFpbG5vZGUuc2VyaWFsaXplKCkgZm9yIHRhaWxub2RlIGluIHNlbGYudGFpbCkKICAgICAgICBoZWFkX3N0ciA9IHNlbGYuaGVhZC5zZXJpYWxpemUoKQogICAgICAgIHJldHVybiAnIC0+ICcuam9pbihbdGFpbF9zdHIsIGhlYWRfc3RyXSkKCiAgICBkZWYgZG90X2xhYmVsKHNlbGYpOgogICAgICAgIHJldHVybiBzdHIoc2VsZikKCiAgICBkZWYgZGVzZXJpYWxpemUoc2VsZiwgcyk6CiAgICAgICAgdGFpbF9ub2RlcywgaGVhZF9ub2RlID0gcy5zcGxpdCgnLT4nKQogICAgICAgIHRhaWxfaWRzID0gW2ludCh0WzE6LTFdKSBmb3IgdCBpbiB0YWlsX25vZGVzLnNwbGl0KCldCiAgICAgICAgaGVhZF9pZCA9IGludChoZWFkX25vZGUuc3RyaXAoKVsxOi0xXSkKICAgICAgICByZXR1cm4gdGFpbF9pZHMsIGhlYWRfaWQKCmNsYXNzIFBhdGgob2JqZWN0KToKICAgICIiIkEgcGF0aCBwb2ludHMgdG8gYSBlZGdlIGFuZCBoYXMgYSBzZXQgb2Ygc3VicGF0aHMuIEFueSBzdWJwYXRocyBjYW4gYmUKICAgIE5vbmUuIGUuZy4gQSBsZWFmIG5vZGUgaGFzIE5vbmUgYXMgaXRzIHNpbmdsZSBwYXRoLiBUaGlzIGlzIGFsc28gdXNlZnVsIGlmCiAgICBhIHBhdGggZG9lcyBub3Qgc3RhcnQgZnJvbSB0aGUgbGVhZiBub2RlcyAodHJlZWxldHMpLgoKICAgIElmIG9ubHkgY29tcGxldGUgcGF0aHMgYXJlIHVzZWQsIGEgY29tcGxldGUgcGF0aCBzdGFydHMgZnJvbSBlaXRoZXIgYSBsZWFmCiAgICBub2RlIChOb25lIHBhdGgpLCBvciBhIGRhbmdsaW5nIGVkZ2UgKGEgcGF0aCBvYmplY3Qgd2l0aCBlbXB0eSBzdWJwYXRocwogICAgbGlzdCkuIiIiCiAgICBkZWYgX19pbml0X18oc2VsZiwgZWRnZSwgc3VicGF0aHMpOgogICAgICAgIHNlbGYuZWRnZSA9IGVkZ2UKICAgICAgICBzZWxmLnN1YnBhdGhzID0gc3VicGF0aHMKICAgICAgICBzZWxmLndlaWdodCA9IDAKCiAgICBkZWYgX19sdF9fKHNlbGYsIG90aGVyKToKICAgICAgICBiZXN0ID0gc2VsZi5lZGdlLmhnLm9uZQogICAgICAgIGJlc3QgPSAtMTAwMDAKICAgICAgICBpZiBGTEFHUy5taW5pbWl6ZV9wYXRoX2Nvc3Q6CiAgICAgICAgICAgIHJldHVybiBzZWxmLndlaWdodCA8IG90aGVyLndlaWdodAogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJldHVybiBhYnMoYmVzdCAtIHNlbGYud2VpZ2h0KSA8IGFicyhiZXN0IC0gb3RoZXIud2VpZ2h0KQoKICAgIGRlZiB0cmVlX3N0cihzZWxmLCBpbmRlbnQ9MCk6CiAgICAgICAgaW5kZW50X2xldmVsID0gMgogICAgICAgIG15aW5kZW50ID0gJyAnKmluZGVudAogICAgICAgIHJlc3VsdCA9ICclcyVzXG4nICUgKG15aW5kZW50LCBzZWxmLmVkZ2UuaGVhZCkKICAgICAgICByZXN1bHQgKz0gJyVzJXNcbicgJSAgKG15aW5kZW50LCBzZWxmLmVkZ2UpCiAgICAgICAgZm9yIHAgaW4gc2VsZi5zdWJwYXRoczoKICAgICAgICAgICAgaWYgcCBpcyBOb25lOgogICAgICAgICAgICAgICAgcmVzdWx0ICs9ICclcyVzXG4nICUgKG15aW5kZW50ICsgJyAnKmluZGVudF9sZXZlbCwgJ05vbmUnKQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgcmVzdWx0ICs9IHAudHJlZV9zdHIoaW5kZW50ICsgaW5kZW50X2xldmVsKQogICAgICAgIHJldHVybiByZXN1bHQKCiAgICBkZWYgZWRnZXMoc2VsZik6CiAgICAgICAgeWllbGQgc2VsZi5lZGdlCiAgICAgICAgZm9yIHAgaW4gc2VsZi5zdWJwYXRoczoKICAgICAgICAgICAgaWYgcCBpcyBub3QgTm9uZToKICAgICAgICAgICAgICAgIGZvciBlZGdlIGluIHAuZWRnZXMoKToKICAgICAgICAgICAgICAgICAgICB5aWVsZCBlZGdl</text>
-      </register>
-      <register name="4" type="2">
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">ZnJvbSBjb21tb24gaW1wb3J0IElORgpmcm9tIGxvZ3Byb2IgaW1wb3J0IGxvZ3N1bSwgbG9ncHJvZCwgTE9HWkVSTwppbXBvcnQgbG9nZ2VyCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="4">
-        <text># def __init__(self):
-    #     # TODO: consider removing this head field to break the reference cycle
-    #     # between a edge and its head. The reference cycle may cause memory
-    #     # problems or an overhead on garbage collector
-    #     self.head = None
-    #     self.tail = []
-    #     self.weight = 1
-    #     self.hg = None  # hypergraph this edge belongs to</text>
+        <text encoding="base64">Y2xhc3MgTm9kZShvYmplY3QpOgogICAgZGVmIF9faW5pdF9fKHNlbGYpOgogICAgICAgIHNlbGYuaW5jb21pbmcgPSBbXQogICAgICAgIHNlbGYubm91dCA9IDAgICMgbnVtYmVyIG9mIG91dGdvaW5nIGVkZ2VzCiAgICAgICAgc2VsZi5oZyA9IE5vbmUgICMgaHlwZXJncmFwaCB0aGlzIG5vZGUgYmVsb25ncyB0bwogICAgICAgIHNlbGYuYmVzdF9wYXRoc19saXN0ID0gTm9uZQoKICAgIGRlZiBhZGRfaW5jb21pbmcoc2VsZiwgZWRnZSk6CiAgICAgICAgc2VsZi5pbmNvbWluZy5hcHBlbmQoZWRnZSkKICAgICAgICBlZGdlLmhlYWQgPSBzZWxmCgogICAgZGVmIGlkX3N0cihzZWxmKToKICAgICAgICAiIiJUaGUgaWQgb2YgYSBub2RlIGlzIGFzc2lnbmVkIGFmdGVyIHRvcG9sb2dpY2FsIHNvcnQgaW4gcmV2ZXJzZWQKICAgICAgICB0b3BvbG9naWNhbCBvcmRlci4gKFJvb3QgaGFzIGlkIDAuKSBVc2UgcHl0aG9uIG9iamVjdCBpZCBpZiB0aGlzIG5vZGUKICAgICAgICBpcyBub3QgYXNzaWduZWQgYSBpZCIiIgogICAgICAgIGlmIGhhc2F0dHIoc2VsZiwgJ2lkJyk6CiAgICAgICAgICAgIHJldHVybiBzdHIoc2VsZi5pZCkKICAgICAgICBlbHNlOgogICAgICAgICAgICByZXR1cm4gJ29iaiVzJyAlIGlkKHNlbGYpCgogICAgZGVmIG5laWdoYm9ycyhzZWxmLCBtYXhfZGlzdD0zKToKICAgICAgICAiIiJyZXR1cm4gYSBzZXQgb2Ygbm9kZXMgd2hvIGFyZSB3aXRoaW4gbWF4X2Rpc3Qgb2Ygc2VsZiIiIgogICAgICAgICMgVE9ETzogdGhpcyBtYXkgaGF2ZSBwcm9ibGVtcyBiZWNhdXNlIHRoZSBzZXQgZG9lc24ndAogICAgICAgICMgY29tcGFyZSBvYmplY3QgaWQgYnV0IHVzZXMgdXNlciBkZWZpbmVkIGNvbXBhcmlzb24gbWV0aG9kcwogICAgICAgICMgVE9ETzogb3V0Z29pbmcgZWRnZXMgYXJlIG5vIGxvbmdlciBzYXZlZAogICAgICAgIGZvdW5kID0gc2V0KCkKICAgICAgICBmb3VuZC5hZGQoc2VsZikKICAgICAgICBxdWV1ZSA9IFsoc2VsZiwgMCldCiAgICAgICAgd2hpbGUgcXVldWU6CiAgICAgICAgICAgIG5vZGUsIGQgPSBxdWV1ZS5wb3AoMCkKICAgICAgICAgICAgaWYgZCA8IG1heF9kaXN0OgogICAgICAgICAgICAgICAgZm9yIGVkZ2UgaW4gbm9kZS5vdXRnb2luZzoKICAgICAgICAgICAgICAgICAgICBpZiBlZGdlLmhlYWQgbm90IGluIGZvdW5kOgogICAgICAgICAgICAgICAgICAgICAgICBmb3VuZC5hZGQoZWRnZS5oZWFkKQogICAgICAgICAgICAgICAgICAgICAgICBxdWV1ZS5hcHBlbmQoKGVkZ2UuaGVhZCwgZCsxKSkKICAgICAgICAgICAgICAgIGZvciBlZGdlIGluIG5vZGUuaW5jb21pbmc6CiAgICAgICAgICAgICAgICAgICAgZm9yIHRhaWxub2RlIGluIGVkZ2UudGFpbDoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgdGFpbG5vZGUgbm90IGluIGZvdW5kOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZm91bmQuYWRkKHRhaWxub2RlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcXVldWUuYXBwZW5kKCh0YWlsbm9kZSwgZCsxKSkKICAgICAgICByZXR1cm4gZm91bmQKCiAgICBkZWYgc2VyaWFsaXplKHNlbGYpOgogICAgICAgIHJldHVybiAnWyVzXScgJSBzZWxmLmlkCgogICAgZGVmIGRlc2VyaWFsaXplKHNlbGYsIHMpOgogICAgICAgIHMgPSBzLnN0cmlwKCkKICAgICAgICBhc3NlcnQgcy5zdGFydHN3aXRoKCdbJykgYW5kIHMuZW5kc3dpdGgoJ10nKQogICAgICAgIHNlbGYuaWQgPSBpbnQoc1sxOi0xXSkKCiAgICBkZWYgc2hvd19uZWlnaGJvcmhvb2Qoc2VsZiwgbWF4X2Rpc3Q9MywgZGV0YWlsZWQ9VHJ1ZSk6CiAgICAgICAgIiIic2hvdyB0aGUgbmVpZ2hib3Job29kIG9mIHRoaXMgbm9kZSBpbiBhIHBpY3R1cmUiIiIKICAgICAgICBkb3RzdHIgPSAnJwogICAgICAgIGZvciBub2RlIGluIHNlbGYubmVpZ2hib3JzKG1heF9kaXN0KToKICAgICAgICAgICAgaWYgbm9kZSBpcyBzZWxmOgogICAgICAgICAgICAgICAgZG90c3RyICs9IG5vZGUuZG90KGNvbG9yPSdkb2RnZXJibHVlJywgZGV0YWlsZWQ9ZGV0YWlsZWQpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBkb3RzdHIgKz0gbm9kZS5kb3QoZGV0YWlsZWQ9ZGV0YWlsZWQpCiAgICAgICAgZG90c3RyID0gJ2RpZ3JhcGggaHlwZXJncmFwaCB7XG5yYW5rZGlyPUJUXG4lc31cbicgJSBkb3RzdHIKICAgICAgICBmID0gb3BlbignL3RtcC9kb3R0eScsICd3JykKICAgICAgICBmLndyaXRlKGRvdHN0cikKICAgICAgICBmLmNsb3NlKCkKICAgICAgICBvcy5zeXN0ZW0oJ2NhdCAvdG1wL2RvdHR5IHwgZG90IC1UZ2lmID4gL3RtcC9kb3R0eS5naWYnKQogICAgICAgIG9zLnN5c3RlbSgnZW9nIC90bXAvZG90dHkuZ2lmJykK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IGh5cGVyZ3JhcGgK</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">IyBzZW1pcmluZ3MKTE9HUFJPQiA9IChsb2dzdW0sCiAgICAgICAgICAgbG9ncHJvZCwKICAgICAgICAgICBMT0daRVJPLAogICAgICAgICAgIDApCgpJTlNJREUgPSAobGFtYmRhIHgseTogeCArIHksCiAgICAgICAgICBsYW1iZGEgeCx5OiB4KnksCiAgICAgICAgICAwLAogICAgICAgICAgMSkKClNIT1JURVNUX1BBVEggPSAobGFtYmRhIHgseTogbWluKFt4LHldKSwKICAgICAgICAgICAgICAgICBsYW1iZGEgeCx5OiB4ICsgeSwKICAgICAgICAgICAgICAgICBJTkYsCiAgICAgICAgICAgICAgICAgMCkK</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>FragmentH</last-search>
+      <last-search>hyper</last-search>
       <last-offset />
-      <last-pattern>FragmentH</last-pattern>
+      <last-pattern>hyper</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -681,6 +674,7 @@
         <entry>build_one</entry>
         <entry>FragmentHG</entry>
         <entry>FragmentH</entry>
+        <entry>hyper</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
