@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513668252535">
-        <mark key="'" line="916" column="61" />
-        <mark key="[" line="594" column="59" />
-        <mark key="]" line="596" column="42" />
-        <mark key="^" line="596" column="42" />
-        <mark key="." line="596" column="42" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513672217779">
+        <mark key="'" line="891" column="0" />
+        <mark key="[" line="611" column="39" />
+        <mark key="]" line="611" column="43" />
+        <mark key="." line="611" column="43" />
+        <mark key="^" line="611" column="43" />
       </file>
       <file name="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_output.py" timestamp="1507506923487">
         <mark key="'" line="675" column="31" />
@@ -461,11 +461,11 @@
         <mark key="^" line="830" column="49" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668237633">
-        <mark key="[" line="38" column="36" />
-        <mark key="]" line="39" column="32" />
-        <mark key="." line="39" column="32" />
-        <mark key="^" line="39" column="32" />
+      <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668521968">
+        <mark key="[" line="9" column="49" />
+        <mark key="]" line="9" column="52" />
+        <mark key="." line="9" column="52" />
+        <mark key="^" line="9" column="52" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr.py" timestamp="1478188826947">
         <mark key="'" line="3" column="0" />
@@ -475,15 +475,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="510" column="28" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
-      <jump line="582" column="27" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
-      <jump line="677" column="17" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
-      <jump line="577" column="31" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
-      <jump line="631" column="8" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
-      <jump line="409" column="26" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
-      <jump line="559" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="667" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="665" column="22" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="984" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="558" column="8" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="427" column="8" filename="$USER_HOME$/SHRG-induction/rule.py" />
@@ -575,60 +566,66 @@
       <jump line="856" column="49" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="572" column="53" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="895" column="61" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="1053" column="14" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="947" column="73" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="549" column="78" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="649" column="16" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="1058" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="48" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="51" column="35" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="794" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="889" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBpZiBsZXZlbCAhPSAwOgo=</text>
+      <register name="&quot;" type="4">
+        <text>stack</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>stack</text>
       </register>
       <register name="/" type="4">
-        <text>right_neig</text>
+        <text>p_rule_f</text>
       </register>
       <register name="0" type="4">
-        <text>self.vertices = []  # A list of variable names for all vertices.
-        self.vertex_idx = {}
-        self.edges = []  # A list of hyperedges, ordered according to vertex order.
-        self.ext_list = []  # A list of all</text>
+        <text encoding="base64">cHJpbnQgPj4gIkluc2lkZSBkZXJpdmF0aW9uOiIKICAgICAgICBwcmludCA+PiBydWxlX2YsICJcbiIuam9pbihjdXJyX2RlcikKICAgICAgICBwcmludCA+PiBydWxlX2YsICIi</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBpZiBsZXZlbCAhPSAwOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNoaWxkX2VkZ2VzID0gW10K</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzdGFjay5hcHBlbmQoKGNoaWxkX2wsIGNoaWxkX3IsIGxldmVsKzEpKQo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4dF9saXN0ID0gW10K</text>
+      <register name="3" type="8">
+        <text>#
+#</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGVsc2U6Cg==</text>
+      <register name="4" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICA=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBleHRfbGlzdCA9IFtdCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgc3RhcnQgPCBlbmQK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBzdGFydCA+IGVuZCBhbmQgKCkK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="9" type="4">
-        <text>curr_bag = bgs[(l, r)]
-            curr_hg = Hypergraph()
-            curr_hg.init_vertices(curr_bag)</text>
+      <register name="7" type="4">
+        <text>else: # Leaf node, introduce vertex labels.
+                assert r == l + 1, &quot;Leaves should have one vertex&quot;</text>
+      </register>
+      <register name="8" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICA=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgYnBbKGwsIHIpXSBpcyBub3QgTm9uZToK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>right_neig</last-search>
+      <last-search>p_rule_f</last-search>
       <last-offset />
-      <last-pattern>right_neig</last-pattern>
+      <last-pattern>p_rule_f</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -669,6 +666,8 @@
         <entry>connect_adja</entry>
         <entry>bags</entry>
         <entry>right_neig</entry>
+        <entry>vertex_labs</entry>
+        <entry>p_rule_f</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
@@ -689,6 +688,7 @@
         <entry>861</entry>
         <entry>621</entry>
         <entry>673</entry>
+        <entry>782</entry>
         <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
