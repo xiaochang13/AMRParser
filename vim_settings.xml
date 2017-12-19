@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513653706355">
-        <mark key="'" line="896" column="61" />
-        <mark key="[" line="576" column="23" />
-        <mark key="]" line="577" column="22" />
-        <mark key="^" line="577" column="22" />
-        <mark key="." line="577" column="22" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513664193308">
+        <mark key="'" line="898" column="61" />
+        <mark key="[" line="585" column="16" />
+        <mark key="]" line="585" column="15" />
+        <mark key="^" line="585" column="15" />
+        <mark key="." line="585" column="15" />
       </file>
       <file name="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_output.py" timestamp="1507506923487">
         <mark key="'" line="675" column="31" />
@@ -461,10 +461,11 @@
         <mark key="^" line="830" column="49" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513628404825">
-        <mark key="[" line="33" column="0" />
-        <mark key="]" line="33" column="58" />
-        <mark key="." line="33" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513664135645">
+        <mark key="[" line="33" column="28" />
+        <mark key="]" line="33" column="33" />
+        <mark key="." line="33" column="33" />
+        <mark key="^" line="33" column="33" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr.py" timestamp="1478188826947">
         <mark key="'" line="3" column="0" />
@@ -577,10 +578,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>edge_label_map[(start_id)]</text>
+        <text>curr_lab</text>
       </register>
       <register name="-" type="4">
-        <text>edge_label_map[(start_id)]</text>
+        <text>curr_lab</text>
       </register>
       <register name="/" type="4">
         <text>right_neig</text>
