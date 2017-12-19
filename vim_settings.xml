@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513702012867">
-        <mark key="'" line="1028" column="4" />
-        <mark key="[" line="881" column="11" />
-        <mark key="]" line="881" column="12" />
-        <mark key="^" line="881" column="33" />
-        <mark key="." line="881" column="12" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513706998114">
+        <mark key="'" line="828" column="0" />
+        <mark key="[" line="767" column="0" />
+        <mark key="]" line="767" column="0" />
+        <mark key="^" line="765" column="40" />
+        <mark key="." line="767" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_output.py" timestamp="1507506923487">
         <mark key="'" line="675" column="31" />
@@ -475,10 +475,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="144" column="60" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="295" column="10" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="457" column="33" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
-      <jump line="1293" column="8" filename="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" />
       <jump line="15" column="28" filename="$USER_HOME$/SHRG-induction/util/hgraph/hgraph.py" />
       <jump line="519" column="39" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="410" column="13" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
@@ -553,7 +549,6 @@
       <jump line="572" column="53" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="895" column="61" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="1053" column="14" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="947" column="73" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="549" column="78" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="649" column="16" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="1058" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -575,57 +570,62 @@
       <jump line="73" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="753" column="15" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="1027" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="947" column="74" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="755" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="27" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="1062" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="820" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IyA=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICMgcHJpbnQgPj4gcnVsZV9mLCAiIgo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IyA=</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>Original sen</text>
+        <text>rule_f</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHJpbnQgPj4gIkluc2lkZSBkZXJpdmF0aW9uOiIKICAgICAgICBwcmludCA+PiBydWxlX2YsICJcbiIuam9pbihjdXJyX2RlcikKICAgICAgICBwcmludCA+PiBydWxlX2YsICIi</text>
+        <text encoding="base64">aWYgbGVuKGxlYWZzKSA8IDEwOgogICAgICAgIHByaW50ICJJbnNpZGUgdHJlZSBkZWNvbXBvc2l0aW9uIGRldGFpbHM6IgogICAgICAgIHByaW50X2RlY29tcG9zaXRpb24oaW5zaWRlX3BvaW50ZXJzLCB3aWR0aCwgaW5zaWRlX2JhZ3Mp</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICMgcHJpbnQgPj4gcnVsZV9mLCAiIgo=</text>
       </register>
-      <register name="2" type="4">
-        <text># p_rule_f = open('poisoned_rule.gr', 'w')
-# q_rule_f = open('another_poisoned_rule.gr', 'w')
-# unalign_f = open('unaligned_info', 'w')</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICMgcHJpbnQgPj4gcnVsZV9mLCAiXG4iLmpvaW4oY3Vycl9kZXIpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICMgcHJpbnQgPj4gcnVsZV9mLCAiSW5zaWRlIGRlcml2YXRpb246Igo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">RkxBR1MgPSBnZmxhZ3MuRkxBR1MK</text>
+        <text encoding="base64">ICAgICMgcHJpbnQgIlxuIi5qb2luKGN1cnJfZGVyKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IGdmbGFncwo=</text>
+        <text encoding="base64">ICAgICMgcnVsZV9mLndyaXRlKGN1cnJfZGVyX3JlcHIpCg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">Z2ZsYWdzLkRFRklORV9zdHJpbmcoCiAgICAnZnJhZ21lbnRfbm9udGVybWluYWwnLAogICAgJ1gnLAogICAgJ05vbnRlcm1pbmFsIHVzZWQgZm9yIHBocmFzZSBmb3Jlc3QuJykK</text>
+        <text># p_rule_f = open('poisoned_rule.gr', 'w')
+# q_rule_f = open('another_poisoned_rule.gr', 'w')
+# unalign_f = open('unaligned_info', 'w')</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">Z2ZsYWdzLkRFRklORV9ib29sKAogICAgJ2RlbGV0ZV91bmFsaWduZWQnLAogICAgRmFsc2UsCiAgICAnRGVsZXRlIHVuYWxpZ25lZCB3b3JkcyBpbiBwaHJhc2UgZGVjb21wb3NpdGlvbiBmb3Jlc3QuJykK</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">Z2ZsYWdzLkRFRklORV9ib29sKAogICAgJ2hyZWYnLAogICAgRmFsc2UsCiAgICAnRGVsZXRlIHVuYWxpZ25lZCB3b3JkcyBpbiBwaHJhc2UgZGVjb21wb3NpdGlvbiBmb3Jlc3QuJykK</text>
+      <register name="9" type="2">
+        <text encoding="base64">RkxBR1MgPSBnZmxhZ3MuRkxBR1MK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>Original sen</last-search>
+      <last-search>rule_f</last-search>
       <last-offset />
-      <last-pattern>Original sen</last-pattern>
+      <last-pattern>rule_f</last-pattern>
       <last-replace>end</last-replace>
       <last-substitute>frag_end</last-substitute>
       <last-dir>1</last-dir>
@@ -674,6 +674,7 @@
         <entry>fragment_non</entry>
         <entry>FLAGS</entry>
         <entry>Original sen</entry>
+        <entry>rule_f</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
