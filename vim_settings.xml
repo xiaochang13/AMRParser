@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513672217779">
-        <mark key="'" line="891" column="0" />
-        <mark key="[" line="611" column="39" />
-        <mark key="]" line="611" column="43" />
-        <mark key="." line="611" column="43" />
-        <mark key="^" line="611" column="43" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513673348039">
+        <mark key="'" line="897" column="0" />
+        <mark key="[" line="613" column="33" />
+        <mark key="]" line="613" column="43" />
+        <mark key="." line="613" column="43" />
+        <mark key="^" line="613" column="43" />
       </file>
       <file name="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_output.py" timestamp="1507506923487">
         <mark key="'" line="675" column="31" />
@@ -578,10 +578,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>stack</text>
+        <text>k+1</text>
       </register>
       <register name="-" type="4">
-        <text>stack</text>
+        <text>k+1</text>
       </register>
       <register name="/" type="4">
         <text>p_rule_f</text>
