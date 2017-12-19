@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513644942073">
-        <mark key="'" line="856" column="49" />
-        <mark key="[" line="854" column="39" />
-        <mark key="]" line="854" column="51" />
-        <mark key="^" line="854" column="51" />
-        <mark key="." line="854" column="51" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513647464020">
+        <mark key="'" line="895" column="61" />
+        <mark key="[" line="549" column="5" />
+        <mark key="]" line="549" column="4" />
+        <mark key="^" line="549" column="4" />
+        <mark key="." line="549" column="4" />
       </file>
       <file name="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_output.py" timestamp="1507506923487">
         <mark key="'" line="675" column="31" />
@@ -249,12 +249,12 @@
       <file name="/Library/Python/2.7/site-packages/keras/initializers.py" timestamp="1507573131962">
         <mark key="'" line="481" column="19" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1513644814829">
-        <mark key="'" line="503" column="4" />
-        <mark key="[" line="442" column="41" />
-        <mark key="]" line="442" column="53" />
-        <mark key="^" line="442" column="53" />
-        <mark key="." line="442" column="53" />
+      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1513646350464">
+        <mark key="'" line="504" column="4" />
+        <mark key="[" line="572" column="41" />
+        <mark key="]" line="572" column="53" />
+        <mark key="^" line="572" column="53" />
+        <mark key="." line="572" column="53" />
       </file>
       <file name="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_main.py" timestamp="1507508754113">
         <mark key="'" line="93" column="27" />
@@ -474,8 +474,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="502" column="20" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
-      <jump line="1025" column="0" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="510" column="28" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="582" column="27" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="677" column="17" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
@@ -574,13 +572,15 @@
       <jump line="854" column="51" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="365" column="31" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="856" column="49" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="572" column="53" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
+      <jump line="895" column="61" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>:</text>
+        <text>edge_label_map[(start_id)]</text>
       </register>
       <register name="-" type="4">
-        <text>:</text>
+        <text>edge_label_map[(start_id)]</text>
       </register>
       <register name="/" type="4">
         <text>right_neig</text>
