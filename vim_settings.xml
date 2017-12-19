@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513665998984">
-        <mark key="'" line="908" column="61" />
-        <mark key="[" line="594" column="45" />
-        <mark key="]" line="594" column="48" />
-        <mark key="." line="594" column="48" />
-        <mark key="^" line="594" column="48" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513667556394">
+        <mark key="'" line="914" column="61" />
+        <mark key="[" line="590" column="29" />
+        <mark key="]" line="592" column="63" />
+        <mark key="^" line="592" column="63" />
+        <mark key="." line="592" column="63" />
       </file>
       <file name="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_output.py" timestamp="1507506923487">
         <mark key="'" line="675" column="31" />
@@ -461,11 +461,11 @@
         <mark key="^" line="830" column="49" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513664135645">
-        <mark key="[" line="33" column="28" />
-        <mark key="]" line="33" column="33" />
-        <mark key="." line="33" column="33" />
-        <mark key="^" line="33" column="33" />
+      <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513667246038">
+        <mark key="[" line="35" column="38" />
+        <mark key="]" line="35" column="45" />
+        <mark key="." line="35" column="45" />
+        <mark key="^" line="35" column="45" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr.py" timestamp="1478188826947">
         <mark key="'" line="3" column="0" />
@@ -577,11 +577,11 @@
       <jump line="895" column="61" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>end_id</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICBpZiBsZXZlbCAhPSAwOgo=</text>
       </register>
       <register name="-" type="4">
-        <text>end_id</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>right_neig</text>
@@ -593,33 +593,33 @@
         self.ext_list = []  # A list of all</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgc3RhcnQgPCBlbmQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBpZiBsZXZlbCAhPSAwOgo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBzdGFydCA+IGVuZCBhbmQgKCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4dF9saXN0ID0gW10K</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGVsc2U6Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBleHRfbGlzdCA9IFtdCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgc3RhcnQgPCBlbmQK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBzdGFydCA+IGVuZCBhbmQgKCkK</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="9" type="4">
         <text>curr_bag = bgs[(l, r)]
             curr_hg = Hypergraph()
             curr_hg.init_vertices(curr_bag)</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIGJwWyhsLCByKV0K</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi52ZXJ0ZXhfaWR4W2N1cnJfbGFiXSA9IGxlbihzZWxmLnZlcnRpY2VzKQo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBkZWYgcmVnaXN0ZXJWZXJ0ZXgodmVydGV4KToK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBleHRfcmVwciA9ICIsIi5qb2luKHNlbGYuZXh0X2xpc3QpCg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
