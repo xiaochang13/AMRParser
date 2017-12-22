@@ -148,12 +148,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513713617764">
-        <mark key="'" line="864" column="6" />
-        <mark key="[" line="1027" column="0" />
-        <mark key="]" line="1027" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1513964985462">
+        <mark key="'" line="862" column="6" />
+        <mark key="[" line="819" column="0" />
+        <mark key="]" line="819" column="0" />
         <mark key="^" line="603" column="25" />
-        <mark key="." line="1027" column="0" />
+        <mark key="." line="819" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_output.py" timestamp="1507506923487">
         <mark key="'" line="675" column="31" />
@@ -592,29 +592,29 @@
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">CiAgICAjIGR1bXBlZF9ydWxlX2ZpbGUgPSBvcy5wYXRoLmpvaW4oYXJncy5zYXZlX2RpciwgJ2R1bXBlZF9ydWxlcycp</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICMgcnVsZV9mID0gb3BlbihkdW1wZWRfcnVsZV9maWxlLCAndycpCg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIHJ1bGVfZi5jbG9zZSgpCg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="6" type="4">
-        <text encoding="base64">IyBjdXJyX3NhbXBsZSA9IFNhbXBsZShoZywgc2VudF9pbmRleCkKICAgICAgICAgICAgIyBkZXJpdmF0aW9uX3J1bGVzID0gY3Vycl9zYW1wbGUuZXh0cmFjdF9kZXJpdmF0aW9uKCkKICAgICAgICAgICAgIyBmb3IgcnVsZSBpbiBkZXJpdmF0aW9uX3J1bGVzOgogICAgICAgICAgICAjICAgICBydWxlX3N0ciA9IGZpbHRlcl92YXJzKHJ1bGUuZHVtcGVkX2Zvcm1hdCgpKQogICAgICAgICAgICAjICAgICBwcmludCA+PiBydWxlX2YsIHJ1bGVfc3Ry</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">cHJpbnQgIklub3JkZXIgZGVyaXZhdGlvbjoiCiAgICAgICAgY3Vycl9kZXIgPSBleHRyYWN0X2Rlcml2YXRpb24oaW5vcmRlcl9wb2ludGVycywgaW5vcmRlcl9iYWdzLCBlZGdlX2xhYmVsX21hcCwgVHJ1ZSkKICAgICAgICBwcmludCAiXG4iLmpvaW4oY3Vycl9kZXIpCiAgICAgICAgY3Vycl9kZXJfcmVwciA9ICIlc1xuIiAlICJcbiIuam9pbihbKCIgICIqbGV2ZWwrIHJ1bGVfc3RyKSBmb3IKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIChsZXZlbCwgcnVsZV9zdHIpIGluIGN1cnJfZGVyXSkKICAgICAgICAjIHByaW50ID4+IGlub3JkZXJfcnVsZV9mLCAiSW5vcmRlciBkZXJpdmF0aW9uOiIKICAgICAgICBwcmludCA+PiBpbm9yZGVyX3J1bGVfZiwgY3Vycl9kZXJfcmVwcgogICAgICAgICMgcHJpbnQgPj4gaW5vcmRlcl9ydWxlX2YsICIi</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICMgcnVsZV9mID0gb3BlbihkdW1wZWRfcnVsZV9maWxlLCAndycpCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIHJ1bGVfZi5jbG9zZSgpCg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">IyBjdXJyX3NhbXBsZSA9IFNhbXBsZShoZywgc2VudF9pbmRleCkKICAgICAgICAgICAgIyBkZXJpdmF0aW9uX3J1bGVzID0gY3Vycl9zYW1wbGUuZXh0cmFjdF9kZXJpdmF0aW9uKCkKICAgICAgICAgICAgIyBmb3IgcnVsZSBpbiBkZXJpdmF0aW9uX3J1bGVzOgogICAgICAgICAgICAjICAgICBydWxlX3N0ciA9IGZpbHRlcl92YXJzKHJ1bGUuZHVtcGVkX2Zvcm1hdCgpKQogICAgICAgICAgICAjICAgICBwcmludCA+PiBydWxlX2YsIHJ1bGVfc3Ry</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
