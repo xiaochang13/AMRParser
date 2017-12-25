@@ -105,12 +105,6 @@
         <mark key="^" line="603" column="25" />
         <mark key="." line="819" column="0" />
       </file>
-      <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
-        <mark key="[" line="27" column="0" />
-        <mark key="]" line="27" column="0" />
-        <mark key="." line="27" column="0" />
-        <mark key="^" line="29" column="0" />
-      </file>
       <file name="$USER_HOME$/AMRParser/neuralTransition/system/daisylu_output.py" timestamp="1507506923487">
         <mark key="'" line="675" column="31" />
       </file>
@@ -121,8 +115,8 @@
         <mark key="." line="1063" column="47" />
         <mark key="^" line="1063" column="47" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514157528910">
-        <mark key="'" line="914" column="29" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514188263203">
+        <mark key="'" line="192" column="39" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1510364711817">
         <mark key="'" line="90" column="14" />
@@ -136,12 +130,6 @@
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/util/concurrent/MulticoreWrapper.java" timestamp="1481206496007">
         <mark key="'" line="129" column="12" />
-      </file>
-      <file name="/Library/Python/2.7/site-packages/keras/backend/tensorflow_backend.py" timestamp="1507516510612">
-        <mark key="[" line="317" column="18" />
-        <mark key="]" line="317" column="22" />
-        <mark key="^" line="317" column="22" />
-        <mark key="." line="317" column="22" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1510343548899">
         <mark key="'" line="13" column="0" />
@@ -272,11 +260,12 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514164855508">
-        <mark key="[" line="9" column="30" />
-        <mark key="]" line="11" column="9" />
-        <mark key="^" line="11" column="9" />
-        <mark key="." line="11" column="9" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514165903495">
+        <mark key="'" line="52" column="4" />
+        <mark key="[" line="16" column="21" />
+        <mark key="]" line="16" column="23" />
+        <mark key="^" line="16" column="23" />
+        <mark key="." line="16" column="23" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1481240062876">
         <mark key="'" line="5" column="50" />
@@ -426,8 +415,8 @@
       <file name="$USER_HOME$/dragnn_rerun/models/syntaxnet/dragnn/python/dragnn_ops.py" timestamp="1496602929530">
         <mark key="'" line="19" column="35" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514157004496">
-        <mark key="'" line="21" column="8" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514165780091">
+        <mark key="'" line="150" column="27" />
         <mark key="[" line="45" column="0" />
         <mark key="]" line="45" column="0" />
         <mark key="^" line="41" column="42" />
@@ -509,16 +498,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="878" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="275" column="25" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="888" column="22" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="629" column="37" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="484" column="5" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="329" column="4" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="500" column="15" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="314" column="8" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="626" column="21" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="632" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="648" column="62" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="871" column="5" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="427" column="0" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
@@ -605,59 +584,69 @@
       <jump line="21" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
       <jump line="275" column="24" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="476" column="31" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
+      <jump line="43" column="1" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
+      <jump line="148" column="27" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
+      <jump line="150" column="27" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
       <jump line="1172" column="25" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="2154" column="25" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="2381" column="25" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="914" column="29" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
+      <jump line="63" column="0" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
+      <jump line="58" column="2" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
+      <jump line="37" column="15" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
+      <jump line="52" column="4" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
+      <jump line="1174" column="15" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
+      <jump line="1936" column="88" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
+      <jump line="192" column="39" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>:</text>
+        <text>[]</text>
       </register>
       <register name="/" type="4">
-        <text>new AMRCon</text>
+        <text>actionSeq</text>
       </register>
       <register name="0" type="4">
         <text>transtion_type</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">ZmluYWwgTGlzdDxQYWlyPEludGVnZXIsIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4+PiBzdGFjazsKICBmaW5hbCBMaXN0PEludGVnZXI+IGJ1ZmZlcjsKICBmaW5hbCBMaXN0PFBhaXI8SW50ZWdlciwgSW50ZWdlcj4+IGNhY2hlOw==</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICAK</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">Ly9maW5hbCBDb3JlTWFwIHNlbnRlbmNlOwogIHB1YmxpYyBBTVJDb25maWd1cmF0aW9uKGludCBjYWNoZVMpIHsKICAgIHN0YWNrID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBidWZmZXIgPSBudWxsOwogICAgY2FjaGVTaXplID0gY2FjaGVTOwogICAgY2FjaGUgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHB1c2hJbmRleCA9IC0xOwogICAgZm9yIChpbnQgaSA9IDA7IGkgPCBjYWNoZVNpemU7IGkrKykgewogICAgICBjYWNoZS5hZGQobmV3IFBhaXIoLTEsIC0xKSk7CiAgICB9CiAgICB3b3JkU2VxID0gbnVsbDsKICAgIHBvc1NlcSA9IG51bGw7CgogICAgdGhpcy5ncmFwaCA9IG5ldyBBTVJHcmFwaCgpOwogICAgdGhpcy5nb2xkR3JhcGggPSBudWxsOwogICAgc3RhcnRBY3Rpb24gPSB0cnVlOwogIH0=</text>
+        <text encoding="base64">cHVibGljIEFNUkNvbmZpZ3VyYXRpb24oQU1SQ29uZmlndXJhdGlvbiBjb25maWcpIHsKICAgIGNhY2hlU2l6ZSA9IGNvbmZpZy5jYWNoZVNpemU7CiAgICBzdGFjayA9IG5ldyBBcnJheUxpc3Q8Pihjb25maWcuc3RhY2spOwogICAgYnVmZmVyID0gbmV3IEFycmF5TGlzdDxJbnRlZ2VyPihjb25maWcuYnVmZmVyKTsKICAgIGNhY2hlID0gbmV3IEFycmF5TGlzdDw+KGNvbmZpZy5jYWNoZSk7CgogICAgZ3JhcGggPSBuZXcgQU1SR3JhcGgoY29uZmlnLmdyYXBoKTsKICAgIHB1c2hJbmRleCA9IC0xOwogICAgc3RhcnRBY3Rpb24gPSB0cnVlOwogIH0=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">Ci8qKgogKiBEZXNjcmliZSB0aGUgY3VycmVudCBjb25maWd1cmF0aW9uIG9mIGEgcGFyc2VyIChpLmUuLCBwYXJzZXIgc3RhdGUpLgogKgogKiBUaGlzIGNsYXNzIHVzZXMgYW4gaW5kZXhpbmcgc2NoZW1lIHdoZXJlIGFuIGluZGV4IG9mIHplcm8gcmVmZXJzIHRvCiAqIHRoZSBST09UIG5vZGUgYW5kIGFjdHVhbCB3b3JkIGluZGljZXMgYmVnaW4gYXQgb25lLgogKgogKiBAYXV0aG9yIERhbnFpIENoZW4KICov</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">CmltcG9ydCBlZHUuc3RhbmZvcmQubmxwLmxpbmcuQ29yZUFubm90YXRpb25zOwppbXBvcnQgZWR1LnN0YW5mb3JkLm5scC5saW5nLkNvcmVMYWJlbDsKaW1wb3J0IGVkdS5zdGFuZm9yZC5ubHAudXRpbC5Db3JlTWFwOwppbXBvcnQgZWR1LnN0YW5mb3JkLm5scC51dGlsLlBhaXI7CgppbXBvcnQgamF2YS51dGlsLio7Cg==</text>
+        <text encoding="base64">cHVibGljIEFNUkNvbmZpZ3VyYXRpb24oQU1SQ29uZmlndXJhdGlvbiBjb25maWcpIHsKICAgIGNhY2hlU2l6ZSA9IGNvbmZpZy5jYWNoZVNpemU7CiAgICBzdGFjayA9IG5ldyBBcnJheUxpc3Q8Pihjb25maWcuc3RhY2spOwogICAgYnVmZmVyID0gbmV3IEFycmF5TGlzdDxJbnRlZ2VyPihjb25maWcuYnVmZmVyKTsKICAgIGNhY2hlID0gbmV3IEFycmF5TGlzdDw+KGNvbmZpZy5jYWNoZSk7CgogICAgZ3JhcGggPSBuZXcgQU1SR3JhcGgoY29uZmlnLmdyYXBoKTsKICAgIHB1c2hJbmRleCA9IC0xOwogICAgc3RhcnRBY3Rpb24gPSB0cnVlOwogIH0=</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">CnBhY2thZ2UgZWR1LnN0YW5mb3JkLm5scC5wYXJzZXIubm5kZXA7Cg==</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>new AMRCon</last-search>
+      <last-search>actionSeq</last-search>
       <last-offset />
-      <last-pattern>new AMRCon</last-pattern>
+      <last-pattern>actionSeq</last-pattern>
       <last-replace>action_type</last-replace>
       <last-substitute>transtion_type</last-substitute>
       <last-dir>1</last-dir>
@@ -713,6 +702,8 @@
         <entry>transtion_type</entry>
         <entry>AMRConfiguration</entry>
         <entry>new AMRCon</entry>
+        <entry>new AMRConfiguration</entry>
+        <entry>actionSeq</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
