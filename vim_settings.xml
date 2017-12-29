@@ -260,12 +260,12 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514567763715">
-        <mark key="'" line="199" column="22" />
-        <mark key="[" line="69" column="74" />
-        <mark key="]" line="70" column="13" />
-        <mark key="^" line="70" column="13" />
-        <mark key="." line="70" column="13" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514576073423">
+        <mark key="'" line="215" column="22" />
+        <mark key="[" line="28" column="25" />
+        <mark key="]" line="29" column="29" />
+        <mark key="." line="29" column="29" />
+        <mark key="^" line="29" column="29" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Classifier.java" timestamp="1481240062876">
         <mark key="'" line="5" column="50" />
@@ -600,8 +600,12 @@
       <jump line="173" column="22" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>..</text>
+      <register name="&quot;" type="8">
+        <text>:
+:
+:
+:
+:</text>
       </register>
       <register name="-" type="4">
         <text>..</text>
@@ -612,20 +616,24 @@
       <register name="0" type="4">
         <text>transtion_type</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="8">
+        <text>:
+:
+:
+:
+:</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">cHVibGljIEFNUkNvbmZpZ3VyYXRpb24oQU1SQ29uZmlndXJhdGlvbiBjb25maWcpIHsKICAgIGNhY2hlU2l6ZSA9IGNvbmZpZy5jYWNoZVNpemU7CiAgICBzdGFjayA9IG5ldyBBcnJheUxpc3Q8Pihjb25maWcuc3RhY2spOwogICAgYnVmZmVyID0gbmV3IEFycmF5TGlzdDxJbnRlZ2VyPihjb25maWcuYnVmZmVyKTsKICAgIGNhY2hlID0gbmV3IEFycmF5TGlzdDw+KGNvbmZpZy5jYWNoZSk7CgogICAgZ3JhcGggPSBuZXcgQU1SR3JhcGgoY29uZmlnLmdyYXBoKTsKICAgIHB1c2hJbmRleCA9IC0xOwogICAgc3RhcnRBY3Rpb24gPSB0cnVlOwogIH0=</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
@@ -637,7 +645,7 @@
         <text encoding="base64">cHVibGljIEFNUkNvbmZpZ3VyYXRpb24oQU1SQ29uZmlndXJhdGlvbiBjb25maWcpIHsKICAgIGNhY2hlU2l6ZSA9IGNvbmZpZy5jYWNoZVNpemU7CiAgICBzdGFjayA9IG5ldyBBcnJheUxpc3Q8Pihjb25maWcuc3RhY2spOwogICAgYnVmZmVyID0gbmV3IEFycmF5TGlzdDxJbnRlZ2VyPihjb25maWcuYnVmZmVyKTsKICAgIGNhY2hlID0gbmV3IEFycmF5TGlzdDw+KGNvbmZpZy5jYWNoZSk7CgogICAgZ3JhcGggPSBuZXcgQU1SR3JhcGgoY29uZmlnLmdyYXBoKTsKICAgIHB1c2hJbmRleCA9IC0xOwogICAgc3RhcnRBY3Rpb24gPSB0cnVlOwogIH0=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
