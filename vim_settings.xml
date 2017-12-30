@@ -218,12 +218,12 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514674698344">
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514675580459">
         <mark key="'" line="56" column="64" />
-        <mark key="[" line="146" column="52" />
-        <mark key="]" line="144" column="58" />
-        <mark key="." line="144" column="58" />
-        <mark key="^" line="144" column="58" />
+        <mark key="[" line="185" column="0" />
+        <mark key="]" line="185" column="0" />
+        <mark key="^" line="85" column="28" />
+        <mark key="." line="185" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668521968">
         <mark key="[" line="9" column="49" />
@@ -485,10 +485,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY2FjaGVfYyA9IHNlbGYuaHlwb3RoZXNpcy5jb25jZXB0c1tdIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>cache</text>
+        <text>k</text>
       </register>
       <register name="/" type="4">
         <text>wordToConcept</text>
@@ -504,35 +504,31 @@
                         break</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY2FjaGVfYyA9IHNlbGYuaHlwb3RoZXNpcy5jb25jZXB0c1tdIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY2FuZF9jID0gc2VsZi5oeXBvdGhlc2lzLmNvbmNlcHRzW2NhbmRfdmVydGV4X2lkeF0K</text>
+        <text encoding="base64">ICAK</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">Ly9rIGlzIHRoZSB3aW5kb3cgc2l6ZQogIHB1YmxpYyB2b2lkIGdldEJ1ZmZlckZlYXRzKGludCBrLCBNYXA8U3RyaW5nLCBJbnRlZ2VyPiBpZE1hcCwgTGlzdDxJbnRlZ2VyPiBmZWF0cywgaW50IHRva0Zvcm0pIHsKICAgIGlmIChidWZmZXIuc2l6ZSgpID09IDApIHsKICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPD0gMiprOyBpKyspIHsKICAgICAgICBmZWF0cy5hZGQoZ2V0SUQoQ29uZmlnLk5VTEwsIGlkTWFwKSk7CiAgICAgIH0KICAgICAgcmV0dXJuOwogICAgfQogICAgaW50IGN1cnJQb3MgPSBidWZmZXIuZ2V0KDApOwogICAgZm9yIChpbnQgaSA9IGN1cnJQb3MtazsgaSA8PSBjdXJyUG9zK2s7IGkrKykgewogICAgICBTdHJpbmcgd29yZCA9IENvbmZpZy5OVUxMOwogICAgICBpZiAoaSA+PSAwICYmIGkgPCB3b3JkU2VxLmxlbmd0aCkgewogICAgICAgIGlmICh0b2tGb3JtID09IDApCiAgICAgICAgICB3b3JkID0gd29yZFNlcVtpXTsKICAgICAgICBlbHNlIGlmICh0b2tGb3JtID09IDEpCiAgICAgICAgICB3b3JkID0gbGVtbWFTZXFbaV07CiAgICAgICAgZWxzZQogICAgICAgICAgd29yZCA9IHBvc1NlcVtpXTsKICAgICAgfQogICAgICBmZWF0cy5hZGQoZ2V0SUQod29yZCwgaWRNYXApKTsKICAgIH0KICB9</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="5" type="4">
-        <text>public void printConfig() {
-    System.err.println(buffer);
-    System.err.println(cache);
-    System.err.println(stack);
-  }</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text encoding="base64">cHVibGljIHZvaWQgZ2V0Q2FjaGVGZWF0cyhpbnQgaywgTWFwPFN0cmluZywgSW50ZWdlcj4gaWRNYXAsIExpc3Q8SW50ZWdlcj4gZmVhdHMsIGJvb2xlYW4gaXNXb3JkKSB7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IGs7IGkrKykgewogICAgICBpbnQgdmVydGV4ID0gZ2V0Q2FjaGVWZXJ0ZXgoY2FjaGVTaXplLTEtaSk7CiAgICAgIFN0cmluZyBjb25jZXB0ID0gZ2V0Q29uY2VwdCh2ZXJ0ZXgpOwogICAgICBpZiAoaXNXb3JkKSB7CiAgICAgICAgdmVydGV4ID0gZ2V0Q2FjaGVXb3JkKGNhY2hlU2l6ZS0xLWkpOyAvL0Zyb20gdGhlIHJpZ2h0bW9zdAogICAgICAgIGNvbmNlcHQgPSBnZXRXb3JkKHZlcnRleCk7CiAgICAgIH0KICAgICAgZmVhdHMuYWRkKGdldElEKGNvbmNlcHQsIGlkTWFwKSk7CiAgICB9CiAgfQ==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAK</text>
       </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name="9" type="4">
-        <text encoding="base64">cHVibGljIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gZ2V0Q2FjaGUoaW50IGluZGV4KSB7CiAgICBpZiAoaW5kZXggPCAwIHx8IGluZGV4ID49IGNhY2hlU2l6ZSkKICAgICAgcmV0dXJuIENvbmZpZy5OT05QQUlSOwogICAgcmV0dXJuIGNhY2hlLmdldChpbmRleCk7CiAgfQ==</text>
+        <text encoding="base64">Ly9HZXQgdGhlIGFyYyBsYWJlbHMgZm9yIHRoZSBjdXJyZW50IHZlcnRleAogIHB1YmxpYyB2b2lkIGdldEFyY0ZlYXRzKGludCB2ZXJ0ZXgsIGludCBrLCBMaXN0PEludGVnZXI+IGZlYXRzKSB7CiAgICBnZXRDb25jZXB0KHZlcnRleCk7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IGs7IGkrKykgewoKICAgIH0KICB9</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
