@@ -218,12 +218,12 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514670376047">
-        <mark key="'" line="53" column="64" />
-        <mark key="[" line="91" column="49" />
-        <mark key="]" line="91" column="49" />
-        <mark key="^" line="89" column="8" />
-        <mark key="." line="89" column="8" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514671581875">
+        <mark key="'" line="56" column="64" />
+        <mark key="[" line="166" column="0" />
+        <mark key="]" line="166" column="0" />
+        <mark key="^" line="109" column="23" />
+        <mark key="." line="166" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668521968">
         <mark key="[" line="9" column="49" />
@@ -484,52 +484,64 @@
       <jump line="48" column="64" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>v</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>:</text>
       </register>
       <register name="/" type="4">
         <text>wordToConcept</text>
       </register>
       <register name="0" type="4">
-        <text>headToTail = self.gold.headToTail
-        tailToHead = self.gold.tailToHead
-        widToConceptID = self.gold.widToConceptID</text>
+        <text>for (buffer_idx, word_idx) in enumerate(self.buffer):
+                if word_idx in widToConceptID:
+                    buffer_concept_id = widToConceptID[word_idx]
+                    if (buffer_concept_id in tail_set
+                        or (head_set is not None
+                            and buffer_concept_id in head_set))):
+                        curr_dist = buffer_idx
+                        break</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAK</text>
-      </register>
-      <register name="3" type="4">
-        <text encoding="base64">cHVibGljIFBhaXI8SW50ZWdlciwgUGFpcjxJbnRlZ2VyLCBJbnRlZ2VyPj4gcmVtb3ZlVG9wKCkgewogICAgaW50IHN0YWNrU2l6ZSA9IHN0YWNrLnNpemUoKTsKICAgIGlmIChzdGFja1NpemUgPCAxKSB7CiAgICAgIHJldHVybiBudWxsOwogICAgfQogICAgUGFpcjxJbnRlZ2VyLCBQYWlyPEludGVnZXIsIEludGVnZXI+PiBwYWlyID0gc3RhY2sucmVtb3ZlKHN0YWNrU2l6ZS0xKTsKICAgIHJldHVybiBwYWlyOwogIH0=</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="3" type="2">
         <text encoding="base64">ICAK</text>
       </register>
+      <register name="4" type="4">
+        <text encoding="base64">cHVibGljIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gZ2V0Q2FjaGUoaW50IGluZGV4KSB7CiAgICBpZiAoaW5kZXggPCAwIHx8IGluZGV4ID49IGNhY2hlU2l6ZSkKICAgICAgcmV0dXJuIENvbmZpZy5OT05QQUlSOwogICAgcmV0dXJuIGNhY2hlLmdldChpbmRleCk7CiAgfQ==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name="6" type="4">
-        <text>public void setGold(AMRGraph g) {
-    goldGraph = g;
+        <text>public boolean shift() {
+    return shiftN(0);
   }
 
-  public void popBuffer() {
+  public boolean shiftN(int n) {
+    int k = getBuffer(0);
+    if (k == Config.NONEXIST)
+      return false;
     buffer.remove(0);
+    if (n != 0) {
+      pushIndex = n;
+    }
+    return true;
   }</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAK</text>
       </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name="9" type="4">
-        <text encoding="base64">cHVibGljIEFNUkNvbmZpZ3VyYXRpb24oaW50IGNhY2hlUywgaW50IGxlbmd0aCkgewogICAgc3RhY2sgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIGJ1ZmZlciA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgZm9yIChpbnQgaSA9IDA7IGkgPCBsZW5ndGg7IGkrKykKICAgICAgYnVmZmVyLmFkZChpKTsKICAgIGNhY2hlU2l6ZSA9IGNhY2hlUzsKICAgIGNhY2hlID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBwdXNoSW5kZXggPSAtMTsKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgY2FjaGVTaXplOyBpKyspCiAgICAgIGNhY2hlLmFkZChuZXcgUGFpcigtMSwgLTEpKTsKCiAgICB0aGlzLmdyYXBoID0gbmV3IEFNUkdyYXBoKCk7CiAgICB0aGlzLmdvbGRHcmFwaCA9IG51bGw7CiAgICBhY3Rpb25TZXEgPSBuZXcgQXJyYXlMaXN0PD4oKTsKCiAgICB3b3JkU2VxID0gbnVsbDsKICAgIHBvc1NlcSA9IG51bGw7CgogICAgc3RhcnRBY3Rpb24gPSB0cnVlOwogIH0=</text>
+        <text encoding="base64">cHVibGljIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gcmlnaHRNb3N0Q2FjaGUoKSB7CiAgICByZXR1cm4gY2FjaGUuZ2V0KGNhY2hlU2l6ZS0xKTsKICB9</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
