@@ -218,12 +218,12 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514673925062">
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514674698344">
         <mark key="'" line="56" column="64" />
-        <mark key="[" line="141" column="8" />
-        <mark key="]" line="141" column="8" />
-        <mark key="^" line="141" column="8" />
-        <mark key="." line="141" column="8" />
+        <mark key="[" line="146" column="52" />
+        <mark key="]" line="144" column="58" />
+        <mark key="." line="144" column="58" />
+        <mark key="^" line="144" column="58" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668521968">
         <mark key="[" line="9" column="49" />
@@ -485,10 +485,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgY2FjaGVfYyA9IHNlbGYuaHlwb3RoZXNpcy5jb25jZXB0c1tdIAo=</text>
       </register>
       <register name="-" type="4">
-        <text>:</text>
+        <text>cache</text>
       </register>
       <register name="/" type="4">
         <text>wordToConcept</text>
@@ -504,48 +504,35 @@
                         break</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgY2FjaGVfYyA9IHNlbGYuaHlwb3RoZXNpcy5jb25jZXB0c1tdIAo=</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgY2FuZF9jID0gc2VsZi5oeXBvdGhlc2lzLmNvbmNlcHRzW2NhbmRfdmVydGV4X2lkeF0K</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text>public void printConfig() {
     System.err.println(buffer);
     System.err.println(cache);
     System.err.println(stack);
   }</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">cHVibGljIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gZ2V0Q2FjaGUoaW50IGluZGV4KSB7CiAgICBpZiAoaW5kZXggPCAwIHx8IGluZGV4ID49IGNhY2hlU2l6ZSkKICAgICAgcmV0dXJuIENvbmZpZy5OT05QQUlSOwogICAgcmV0dXJuIGNhY2hlLmdldChpbmRleCk7CiAgfQ==</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="9" type="4">
-        <text>public boolean shift() {
-    return shiftN(0);
-  }
-
-  public boolean shiftN(int n) {
-    int k = getBuffer(0);
-    if (k == Config.NONEXIST)
-      return false;
-    buffer.remove(0);
-    if (n != 0) {
-      pushIndex = n;
-    }
-    return true;
-  }</text>
+        <text encoding="base64">cHVibGljIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gZ2V0Q2FjaGUoaW50IGluZGV4KSB7CiAgICBpZiAoaW5kZXggPCAwIHx8IGluZGV4ID49IGNhY2hlU2l6ZSkKICAgICAgcmV0dXJuIENvbmZpZy5OT05QQUlSOwogICAgcmV0dXJuIGNhY2hlLmdldChpbmRleCk7CiAgfQ==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
