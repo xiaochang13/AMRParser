@@ -94,12 +94,12 @@
         <mark key="." line="1063" column="47" />
         <mark key="^" line="1063" column="47" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514598279633">
+      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514599238014">
         <mark key="'" line="130" column="39" />
-        <mark key="[" line="79" column="0" />
-        <mark key="]" line="79" column="0" />
-        <mark key="^" line="78" column="4" />
-        <mark key="." line="79" column="0" />
+        <mark key="[" line="248" column="2" />
+        <mark key="]" line="248" column="4" />
+        <mark key="." line="248" column="4" />
+        <mark key="^" line="248" column="4" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1510364711817">
         <mark key="'" line="90" column="14" />
@@ -476,45 +476,48 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGRlZiAK</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IHs=</text>
       </register>
       <register name="/" type="4">
-        <text>isProjective</text>
+        <text encoding="base64">XDx9XD4=</text>
       </register>
       <register name="0" type="4">
         <text>transtion_type</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGRlZiAK</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>AMRParser() {
     this(new Properties());
   }</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>/**
    * Language used to generate
    * {@link edu.stanford.nlp.trees.GrammaticalRelation} instances.
    */
   private final Language language;</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>/**
    * Given a particular parser configuration, this classifier will
    * predict the best transition to make next.
@@ -524,20 +527,17 @@
    */
   //private Classifier classifier</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>isProjective</last-search>
+      <last-search encoding="base64">XDx9XD4=</last-search>
       <last-offset />
-      <last-pattern>isProjective</last-pattern>
+      <last-pattern encoding="base64">XDx9XD4=</last-pattern>
       <last-replace>action_type</last-replace>
       <last-substitute>transtion_type</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
@@ -597,6 +597,7 @@
         <entry>isProjec</entry>
         <entry>isTree</entry>
         <entry>isProjective</entry>
+        <entry encoding="base64">XDx9XD4=</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
