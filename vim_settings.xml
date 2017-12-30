@@ -87,6 +87,12 @@
         <mark key="^" line="603" column="25" />
         <mark key="." line="819" column="0" />
       </file>
+      <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="27" column="0" />
+        <mark key="." line="27" column="0" />
+        <mark key="^" line="29" column="0" />
+      </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
         <mark key="[" line="1063" column="48" />
@@ -105,6 +111,12 @@
         <mark key="]" line="23" column="0" />
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
+      </file>
+      <file name="/Library/Python/2.7/site-packages/keras/backend/tensorflow_backend.py" timestamp="1507516510612">
+        <mark key="[" line="317" column="18" />
+        <mark key="]" line="317" column="22" />
+        <mark key="^" line="317" column="22" />
+        <mark key="." line="317" column="22" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1510343548899">
         <mark key="'" line="13" column="0" />
@@ -204,12 +216,11 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1514646084749">
-        <mark key="'" line="96" column="8" />
-        <mark key="[" line="87" column="26" />
-        <mark key="]" line="87" column="28" />
-        <mark key="^" line="87" column="28" />
-        <mark key="." line="87" column="28" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1514648540379">
+        <mark key="[" line="106" column="44" />
+        <mark key="]" line="108" column="24" />
+        <mark key="^" line="108" column="24" />
+        <mark key="." line="108" column="24" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -484,8 +495,8 @@
       <jump line="111" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>IDX</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="-" type="4">
         <text>IDX</text>
@@ -502,25 +513,17 @@
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">cHVibGljIHZvaWQgcHJpbnRHcmFwaCgpIHsKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgY29uY2VwdHMuc2l6ZSgpOyBpKyspIHsKICAgICAgQ29uY2VwdExhYmVsIGMgPSBjb25jZXB0cy5nZXQoaSk7CiAgICAgIFN5c3RlbS5lcnIucHJpbnRsbigiQ3VycmVudCBjb25jZXB0OiIgKyBjLnZhbHVlKCkpOwogICAgICBjLmJ1aWxkUmVsTWFwKCk7CiAgICAgIFN0cmluZyByZWxSZXAgPSAiIjsKICAgICAgZm9yIChpbnQgdGFpbDogYy50YWlscykgewogICAgICAgIHJlbFJlcCArPSBjLnJlbE1hcC5nZXQodGFpbCk7CiAgICAgICAgcmVsUmVwICs9ICgiOiIgKyBjb25jZXB0cy5nZXQodGFpbCkudmFsdWUoKSArICIgIik7CiAgICAgIH0KICAgICAgU3lzdGVtLmVyci5wcmludGxuKCJUYWlsIGNvbmNlcHRzOiIgKyByZWxSZXApOwogICAgfQogIH0=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text>public void setLemmas(String[] lems) {
-    this.lemmas = lems;
-  }
-
-  public int nextConceptId() {
-    return counter;
-  }</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="6" type="4">
-        <text>public void setSentence(String[] toks) {
-    this.toks = toks;
-  }</text>
+        <text encoding="base64">Ly9Ob3Qgc3VyZSBpZiB0aGlzIHdpbGwgcmVzdWx0IGluIGEgZnVsbCBjb3ZlciB0aG91Z2gKICBwdWJsaWMgdm9pZCBidWlsZFdvcmRUb0luZGljZXMoKSB7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IGNvbmNlcHRzLnNpemUoKTsgaSsrKSB7CiAgICAgIENvbmNlcHRMYWJlbCBjID0gY29uY2VwdHMuZ2V0KGkpOwogICAgICAvL1N5c3RlbS5vdXQucHJpbnRsbihjKTsKICAgICAgLy9TeXN0ZW0ub3V0LnByaW50bG4oYy52YWx1ZSgpKTsKICAgICAgZm9yIChpbnQgd29yZElEIDogYy5hbGlnbm1lbnRzKQogICAgICAgIHdvcmRUb0NvbmNlcHQucHV0KHdvcmRJRCwgaSk7CiAgICB9CiAgfQ==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAK</text>
