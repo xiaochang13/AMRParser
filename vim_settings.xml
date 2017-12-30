@@ -218,12 +218,12 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514664655265">
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514670376047">
         <mark key="'" line="53" column="64" />
-        <mark key="[" line="39" column="16" />
-        <mark key="]" line="39" column="53" />
-        <mark key="^" line="39" column="53" />
-        <mark key="." line="39" column="53" />
+        <mark key="[" line="91" column="49" />
+        <mark key="]" line="91" column="49" />
+        <mark key="^" line="89" column="8" />
+        <mark key="." line="89" column="8" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668521968">
         <mark key="[" line="9" column="49" />
@@ -484,17 +484,19 @@
       <jump line="48" column="64" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>v</text>
       </register>
       <register name="-" type="4">
-        <text>-1</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>wordToConcept</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHJpdmF0ZSBTdHJpbmcgdmFsdWU7CiAgcHVibGljIGJvb2xlYW4gaXNWYXI7CiAgcHVibGljIGJvb2xlYW4gYWxpZ25lZDsKICBwdWJsaWMgTGlzdDxJbnRlZ2VyPiBhbGlnbm1lbnRzOwogIHB1YmxpYyBMaXN0PFN0cmluZz4gcmVsczsKICBwdWJsaWMgTWFwPEludGVnZXIsIFN0cmluZz4gcmVsTWFwOwogIHB1YmxpYyBMaXN0PEludGVnZXI+IHRhaWxzOwogIHB1YmxpYyBMaXN0PFN0cmluZz4gcGFyUmVsczsKICBwdWJsaWMgTGlzdDxJbnRlZ2VyPiBwYXJDb25jZXB0czsKICAvL3B1YmxpYwoKICBwdWJsaWMgQ29uY2VwdExhYmVsKCkgewogICAgdmFsdWUgPSBudWxsOwogICAgYWxpZ25tZW50cyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgcmVscyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgdGFpbHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHBhclJlbHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHBhckNvbmNlcHRzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBhbGlnbmVkID0gZmFsc2U7CiAgfQoKICBwdWJsaWMgQ29uY2VwdExhYmVsKFN0cmluZyBsYWJlbCkgewogICAgdmFsdWUgPSBsYWJlbDsKICAgIGFsaWdubWVudHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHJlbHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHJlbE1hcCA9IG5ldyBIYXNoTWFwPD4oKTsKICAgIHRhaWxzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBwYXJSZWxzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBwYXJDb25jZXB0cyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgYWxpZ25lZCA9IGZhbHNlOwogIH0KCiAgcHVibGljIGZpbmFsIHZvaWQgc2V0VmFyKGJvb2xlYW4gdikgewogICAgaXNWYXIgPSB2OwogIH0KCiAgcHVibGljIFN0cmluZyBnZXRSZWwoaW50IGluZGV4KSB7CiAgICBhc3NlcnQgcmVsTWFwLmNvbnRhaW5zS2V5KGluZGV4KTsKICAgIHJldHVybiByZWxNYXAuZ2V0KGluZGV4KTsKICB9CgogIHB1YmxpYyB2b2lkIGJ1aWxkUmVsTWFwKCkgewogICAgaW50IG5SZWxzID0gcmVscy5zaXplKCk7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IG5SZWxzOyBpKyspIHsKICAgICAgaW50IGN1cnJJbmRleCA9IHRhaWxzLmdldChpKTsKICAgICAgcmVsTWFwLnB1dChjdXJySW5kZXgsIHJlbHMuZ2V0KGkpKTsKICAgIH0KICAgIGludCBuUFJlbHMgPSBwYXJSZWxzLnNpemUoKTsKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgblBSZWxzOyBpKyspIHsKICAgICAgaW50IGN1cnJJbmRleCA9IHBhckNvbmNlcHRzLmdldChpKTsKICAgICAgcmVsTWFwLnB1dChjdXJySW5kZXgsIHBhclJlbHMuZ2V0KGkpKTsKICAgIH0KICB9CgogIHB1YmxpYyBmaW5hbCB2b2lkIHNldFZhbHVlKFN0cmluZyB2YWx1ZSkgewogICAgdGhpcy52YWx1ZSA9IHZhbHVlOwogIH0KCiAgcHVibGljIGZpbmFsIFN0cmluZyB2YWx1ZSgpIHsKICAgIHJldHVybiB2YWx1ZTsKICB9CgogIHB1YmxpYyBmaW5hbCB2b2lkIGFkZFdvcmQoaW50IHdvcmRJbmRleCkgewogICAgYWxpZ25tZW50cy5hZGQod29yZEluZGV4KTsKICB9</text>
+        <text>headToTail = self.gold.headToTail
+        tailToHead = self.gold.tailToHead
+        widToConceptID = self.gold.widToConceptID</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -503,28 +505,31 @@
         <text encoding="base64">ICAK</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">Ly9HaXZlbiB0aGUgQU1SIGdyYXBoLCBjaG9vc2UgdGhlIHZlcnRleCBpbiBjYWNoZSB0aGF0IHdpbGwKICAvLyBoYXZlIHRoZSBmdXJ0aGVzdCBjb25uZWN0aW9uCiAgcHVibGljIGludCBjaG9vc2VDYWNoZSgpIHsKICAgIE1hcDxJbnRlZ2VyLCBTZXQ8SW50ZWdlcj4+IGhlYWRUb1RhaWwgPSBnb2xkR3JhcGguaGVhZFRvVGFpbDsKICAgIE1hcDxJbnRlZ2VyLCBTZXQ8SW50ZWdlcj4+IHRhaWxUb0hlYWQgPSBnb2xkR3JhcGgudGFpbFRvSGVhZDsKICAgIE1hcDxJbnRlZ2VyLCBJbnRlZ2VyPiB3b3JkVG9Db25jZXB0ID0gZ29sZEdyYXBoLndvcmRUb0NvbmNlcHQ7CiAgICBpbnQgbWF4RGlzdCA9IC0xOwogICAgaW50IG1heEluZGV4ID0gLTE7CiAgICBmb3IgKGludCBjYWNoZVBvcyA9IDA7IGNhY2hlUG9zIDwgY2FjaGUuc2l6ZSgpOyBjYWNoZVBvcysrKSB7CiAgICAgIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gcCA9IGNhY2hlLmdldChjYWNoZVBvcyk7CiAgICAgIGludCBjYWNoZVZlcnRleCA9IHAuc2Vjb25kOwogICAgICAvL2ludCBjYWNoZVZlcnRleCA9IGNhY2hlLmdldChjYWNoZVBvcyk7CiAgICAgIGludCBjdXJyRGlzdCA9IDEwMDA7CiAgICAgIFNldDxJbnRlZ2VyPiB0YWlsU2V0ID0gaGVhZFRvVGFpbC5nZXQoY2FjaGVWZXJ0ZXgpOwogICAgICBTZXQ8SW50ZWdlcj4gaGVhZFNldCA9IG51bGw7CiAgICAgIGlmICh0YWlsVG9IZWFkLmNvbnRhaW5zS2V5KGNhY2hlVmVydGV4KSkKICAgICAgICBoZWFkU2V0ID0gdGFpbFRvSGVhZC5nZXQoY2FjaGVWZXJ0ZXgpOwogICAgICAvL1NldDxJbnRlZ2VyPiBoZWFkU2V0ID0gdGFpbFRvSGVhZC5nZXQoY2FjaGVWZXIpCiAgICAgIGZvciAoaW50IGJ1ZmZlclBvcyA9IDA7IGJ1ZmZlclBvcyA8IGJ1ZmZlci5zaXplKCk7IGJ1ZmZlclBvcysrKSB7CiAgICAgICAgaW50IHdvcmRJbmRleCA9IGJ1ZmZlci5nZXQoYnVmZmVyUG9zKTsKICAgICAgICBpZiAod29yZFRvQ29uY2VwdC5jb250YWluc0tleSh3b3JkSW5kZXgpKSB7CiAgICAgICAgICBpbnQgYnVmZkluZGV4ID0gd29yZFRvQ29uY2VwdC5nZXQod29yZEluZGV4KTsKICAgICAgICAgIGlmICh0YWlsU2V0LmNvbnRhaW5zKGJ1ZmZJbmRleCkgfHwgKGhlYWRTZXQgIT0gbnVsbCAmJiBoZWFkU2V0LmNvbnRhaW5zKGJ1ZmZJbmRleCkpKSB7CiAgICAgICAgICAgIGN1cnJEaXN0ID0gYnVmZmVyUG9zOwogICAgICAgICAgICBicmVhazsKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgIH0KICAgICAgaWYgKGN1cnJEaXN0ID4gbWF4RGlzdCkgewogICAgICAgIG1heEluZGV4ID0gY2FjaGVQb3M7CiAgICAgICAgbWF4RGlzdCA9IGN1cnJEaXN0OwogICAgICB9CiAgICB9CiAgICByZXR1cm4gbWF4SW5kZXg7CiAgfQ==</text>
+        <text encoding="base64">cHVibGljIFBhaXI8SW50ZWdlciwgUGFpcjxJbnRlZ2VyLCBJbnRlZ2VyPj4gcmVtb3ZlVG9wKCkgewogICAgaW50IHN0YWNrU2l6ZSA9IHN0YWNrLnNpemUoKTsKICAgIGlmIChzdGFja1NpemUgPCAxKSB7CiAgICAgIHJldHVybiBudWxsOwogICAgfQogICAgUGFpcjxJbnRlZ2VyLCBQYWlyPEludGVnZXIsIEludGVnZXI+PiBwYWlyID0gc3RhY2sucmVtb3ZlKHN0YWNrU2l6ZS0xKTsKICAgIHJldHVybiBwYWlyOwogIH0=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="4">
-        <text>public void add(ConceptLabel c) {
-    concepts.add(c);
-    n += 1;
+      <register name="6" type="4">
+        <text>public void setGold(AMRGraph g) {
+    goldGraph = g;
+  }
+
+  public void popBuffer() {
+    buffer.remove(0);
   }</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">cHVibGljIEFNUkNvbmZpZ3VyYXRpb24oaW50IGNhY2hlUywgaW50IGxlbmd0aCkgewogICAgc3RhY2sgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIGJ1ZmZlciA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgZm9yIChpbnQgaSA9IDA7IGkgPCBsZW5ndGg7IGkrKykKICAgICAgYnVmZmVyLmFkZChpKTsKICAgIGNhY2hlU2l6ZSA9IGNhY2hlUzsKICAgIGNhY2hlID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBwdXNoSW5kZXggPSAtMTsKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgY2FjaGVTaXplOyBpKyspCiAgICAgIGNhY2hlLmFkZChuZXcgUGFpcigtMSwgLTEpKTsKCiAgICB0aGlzLmdyYXBoID0gbmV3IEFNUkdyYXBoKCk7CiAgICB0aGlzLmdvbGRHcmFwaCA9IG51bGw7CiAgICBhY3Rpb25TZXEgPSBuZXcgQXJyYXlMaXN0PD4oKTsKCiAgICB3b3JkU2VxID0gbnVsbDsKICAgIHBvc1NlcSA9IG51bGw7CgogICAgc3RhcnRBY3Rpb24gPSB0cnVlOwogIH0=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
