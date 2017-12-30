@@ -94,12 +94,10 @@
         <mark key="." line="1063" column="47" />
         <mark key="^" line="1063" column="47" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514607105523">
-        <mark key="'" line="132" column="39" />
-        <mark key="[" line="423" column="28" />
-        <mark key="]" line="423" column="25" />
-        <mark key="^" line="423" column="25" />
-        <mark key="." line="423" column="25" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514607926943">
+        <mark key="[" line="773" column="0" />
+        <mark key="]" line="773" column="0" />
+        <mark key="." line="773" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1510364711817">
         <mark key="'" line="90" column="14" />
@@ -205,6 +203,13 @@
         <mark key="]" line="20" column="5" />
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
+      </file>
+      <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1514608458956">
+        <mark key="'" line="161" column="18" />
+        <mark key="[" line="21" column="20" />
+        <mark key="]" line="21" column="21" />
+        <mark key="^" line="21" column="21" />
+        <mark key="." line="21" column="21" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -349,6 +354,10 @@
         <mark key="^" line="312" column="11" />
         <mark key="." line="312" column="11" />
       </file>
+      <file name="$USER_HOME$/AMRParser/CacheTransition/ConceptLabel.py" timestamp="1514608200835">
+        <mark key="[" line="31" column="2" />
+        <mark key="]" line="95" column="2" />
+      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" timestamp="1491997939027">
         <mark key="'" line="391" column="13" />
         <mark key="[" line="619" column="0" />
@@ -373,11 +382,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="795" column="20" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
-      <jump line="798" column="20" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
-      <jump line="801" column="19" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
-      <jump line="143" column="8" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
-      <jump line="144" column="13" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
       <jump line="236" column="44" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
       <jump line="248" column="16" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
       <jump line="243" column="16" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
@@ -473,58 +477,63 @@
       <jump line="39" column="23" filename="$USER_HOME$/AMRParser/CacheTransition/dependency.py" />
       <jump line="87" column="21" filename="$USER_HOME$/AMRParser/CacheTransition/dependency.py" />
       <jump line="90" column="3" filename="$USER_HOME$/AMRParser/CacheTransition/dependency.py" />
+      <jump line="431" column="17" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
+      <jump line="12" column="25" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
+      <jump line="30" column="4" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
+      <jump line="3" column="10" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
+      <jump line="104" column="18" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAK</text>
+      <register name="&quot;" type="4">
+        <text>Boolean</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">bmV3IEFycmF5TGlzdDw+KCk7</text>
+        <text>Boolean</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx9XD4=</text>
+        <text>ConceptLabe</text>
       </register>
       <register name="0" type="4">
-        <text>defaultdict(int)</text>
+        <text encoding="base64">cHJpdmF0ZSBTdHJpbmcgdmFsdWU7CiAgcHVibGljIGJvb2xlYW4gaXNWYXI7CiAgcHVibGljIGJvb2xlYW4gYWxpZ25lZDsKICBwdWJsaWMgTGlzdDxJbnRlZ2VyPiBhbGlnbm1lbnRzOwogIHB1YmxpYyBMaXN0PFN0cmluZz4gcmVsczsKICBwdWJsaWMgTWFwPEludGVnZXIsIFN0cmluZz4gcmVsTWFwOwogIHB1YmxpYyBMaXN0PEludGVnZXI+IHRhaWxzOwogIHB1YmxpYyBMaXN0PFN0cmluZz4gcGFyUmVsczsKICBwdWJsaWMgTGlzdDxJbnRlZ2VyPiBwYXJDb25jZXB0czsKICAvL3B1YmxpYwoKICBwdWJsaWMgQ29uY2VwdExhYmVsKCkgewogICAgdmFsdWUgPSBudWxsOwogICAgYWxpZ25tZW50cyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgcmVscyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgdGFpbHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHBhclJlbHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHBhckNvbmNlcHRzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBhbGlnbmVkID0gZmFsc2U7CiAgfQoKICBwdWJsaWMgQ29uY2VwdExhYmVsKFN0cmluZyBsYWJlbCkgewogICAgdmFsdWUgPSBsYWJlbDsKICAgIGFsaWdubWVudHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHJlbHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHJlbE1hcCA9IG5ldyBIYXNoTWFwPD4oKTsKICAgIHRhaWxzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBwYXJSZWxzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBwYXJDb25jZXB0cyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgYWxpZ25lZCA9IGZhbHNlOwogIH0KCiAgcHVibGljIGZpbmFsIHZvaWQgc2V0VmFyKGJvb2xlYW4gdikgewogICAgaXNWYXIgPSB2OwogIH0KCiAgcHVibGljIFN0cmluZyBnZXRSZWwoaW50IGluZGV4KSB7CiAgICBhc3NlcnQgcmVsTWFwLmNvbnRhaW5zS2V5KGluZGV4KTsKICAgIHJldHVybiByZWxNYXAuZ2V0KGluZGV4KTsKICB9CgogIHB1YmxpYyB2b2lkIGJ1aWxkUmVsTWFwKCkgewogICAgaW50IG5SZWxzID0gcmVscy5zaXplKCk7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IG5SZWxzOyBpKyspIHsKICAgICAgaW50IGN1cnJJbmRleCA9IHRhaWxzLmdldChpKTsKICAgICAgcmVsTWFwLnB1dChjdXJySW5kZXgsIHJlbHMuZ2V0KGkpKTsKICAgIH0KICAgIGludCBuUFJlbHMgPSBwYXJSZWxzLnNpemUoKTsKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgblBSZWxzOyBpKyspIHsKICAgICAgaW50IGN1cnJJbmRleCA9IHBhckNvbmNlcHRzLmdldChpKTsKICAgICAgcmVsTWFwLnB1dChjdXJySW5kZXgsIHBhclJlbHMuZ2V0KGkpKTsKICAgIH0KICB9CgogIHB1YmxpYyBmaW5hbCB2b2lkIHNldFZhbHVlKFN0cmluZyB2YWx1ZSkgewogICAgdGhpcy52YWx1ZSA9IHZhbHVlOwogIH0KCiAgcHVibGljIGZpbmFsIFN0cmluZyB2YWx1ZSgpIHsKICAgIHJldHVybiB2YWx1ZTsKICB9CgogIHB1YmxpYyBmaW5hbCB2b2lkIGFkZFdvcmQoaW50IHdvcmRJbmRleCkgewogICAgYWxpZ25tZW50cy5hZGQod29yZEluZGV4KTsKICB9</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAK</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAK</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">Ly9EZWZpbmUgYSBzZXBhcmF0ZSBzZXQgb2YgZmVhdHVyZXMgZm9yIHB1c2hpbmcgaW5kZXggdG8gYW4gaW5kZXggaW4gdGhlIGNhY2hlLgogIHB1YmxpYyBMaXN0PEludGVnZXI+IHB1c2hJbmRleEZlYXR1cmVzKEFNUkNvbmZpZ3VyYXRpb24gYykgewogICAgTGlzdDxJbnRlZ2VyPiBmZWF0dXJlID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBjLmdldENhY2hlRmVhdHMoYy5jYWNoZVNpemUsIGNvbmNlcHRJRHMsIGZlYXR1cmUsIGZhbHNlKTsKICAgIGMuZ2V0Q2FjaGVGZWF0cyhjLmNhY2hlU2l6ZSwgd29yZElEcywgZmVhdHVyZSwgdHJ1ZSk7CiAgICAvL2MuZ2V0QnVmZmVyRmVhdHMoYy5jYWNoZVNpemUsIHBvc0lEcywgZmVhdHVyZSwgZmFsc2UpOwogICAgcmV0dXJuIGZlYXR1cmU7CiAgfQoKICBwdWJsaWMgU2V0PEludGVnZXI+IHB1c2hJbmRleEJpbmFyeShBTVJDb25maWd1cmF0aW9uIGMpIHsKICAgIFNldDxJbnRlZ2VyPiBmZWF0dXJlID0gbmV3IEhhc2hTZXQ8PigpOwoKICAgIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gY29uY2VwdFAgPSBjLmxhc3RQOwoKICAgIGludCB3b3JkSW5kZXggPSBjb25jZXB0UC5maXJzdDsKICAgIGludCBjb25jZXB0SW5kZXggPSBjb25jZXB0UC5zZWNvbmQ7CgogICAgaW50IGRlcFNpemUgPSBkZXBJRHMuc2l6ZSgpOwogICAgLy9GaXJzdCBkZXBlbmRlbmN5IGNoaWxkcmVuIG9mIGdlbmVyYXRlZCB3b3JkCiAgICBpbnQgc3RhcnRfaW5kZXggPSBkZXBJRHMuZ2V0KENvbmZpZy5VTktOT1dOKTsKICAgIFNldDxTdHJpbmc+IGRlcENoaWxkcmVuID0gYy5nZXRBbGxDaGlsZHJlbih3b3JkSW5kZXgpOwogICAgZm9yIChTdHJpbmcgbDogZGVwQ2hpbGRyZW4pCiAgICAgIGZlYXR1cmUuYWRkKGdldERlcElEKGwpLXN0YXJ0X2luZGV4KTsKCiAgICAvL1RoZW4gYWxsIHRoZSBhcmNzIHRoYXQgaGFzIGJlZW4gZ2VuZXJhdGVkIGZvciB0aGUgY3VycmVudCBub2RlCiAgICBMaXN0PFN0cmluZz4gYXJjQ2hpbGRyZW4gPSBjLmdyYXBoLmdldEFsbEFyY3MoY29uY2VwdEluZGV4KTsKICAgIHN0YXJ0X2luZGV4ID0gYXJjSURzLmdldChDb25maWcuVU5LTk9XTik7CiAgICBpZiAoYXJjQ2hpbGRyZW4gIT0gbnVsbCkKICAgIGZvciAoU3RyaW5nIGw6IGFyY0NoaWxkcmVuKQogICAgICBmZWF0dXJlLmFkZChnZXRBcmNJRChsKS1zdGFydF9pbmRleCtkZXBTaXplKTsKCiAgICByZXR1cm4gZmVhdHVyZTsKICB9</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAK</text>
+      <register name="4" type="4">
+        <text encoding="base64">cHVibGljIENvbmNlcHRMYWJlbChTdHJpbmcgbGFiZWwpIHsKICAgIHZhbHVlID0gbGFiZWw7CiAgICBhbGlnbm1lbnRzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICByZWxzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICByZWxNYXAgPSBuZXcgSGFzaE1hcDw+KCk7CiAgICB0YWlscyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgcGFyUmVscyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgcGFyQ29uY2VwdHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIGFsaWduZWQgPSBmYWxzZTsKICB9</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">cHVibGljIFN0cmluZyBwdXNoSW5kZXhGZWF0cyhBTVJDb25maWd1cmF0aW9uIGMpIHsKICAgIFN0cmluZyByZXQgPSAiIjsKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgYy5jYWNoZVNpemU7IGkrKykgewogICAgICBpbnQgY2FjaGVXb3JkSW5kZXggPSBjLmNhY2hlLmdldChpKS5maXJzdDsKICAgICAgaW50IGNhY2hlQ29uY2VwdEluZGV4ID0gYy5jYWNoZS5nZXQoaSkuc2Vjb25kOwogICAgICBTdHJpbmcgd29yZCA9IGMuZ2V0V29yZChjYWNoZVdvcmRJbmRleCk7CiAgICAgIHJldCArPSAoIiBjYSIrIGkgKyJ3PSIgKyB3b3JkKTsKICAgICAgU3RyaW5nIGxlbSA9IGMuZ2V0TGVtbWEoY2FjaGVXb3JkSW5kZXgpOwogICAgICByZXQgKz0gKCIgY2EiKyBpICsibD0iICsgbGVtKTsKICAgICAgU3RyaW5nIHBvcyA9IGMuZ2V0UE9TKGNhY2hlV29yZEluZGV4KTsKICAgICAgcmV0ICs9ICgiIGNhIisgaSArInA9IiArIHBvcyk7CiAgICAgIFN0cmluZyBjb25jZXB0ID0gYy5nZXRDb25jZXB0KGNhY2hlQ29uY2VwdEluZGV4KTsKICAgICAgcmV0ICs9ICgiIGNhIisgaSArImM9IiArIGNvbmNlcHQpOwogICAgfQogICAgcmV0dXJuIHJldDsKICB9</text>
+        <text encoding="base64">cHVibGljIENvbmNlcHRMYWJlbCgpIHsKICAgIHZhbHVlID0gbnVsbDsKICAgIGFsaWdubWVudHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHJlbHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHRhaWxzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBwYXJSZWxzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBwYXJDb25jZXB0cyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgYWxpZ25lZCA9IGZhbHNlOwogIH0=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICAvL3B1YmxpYwo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">cHVibGljIFN0cmluZyBhcmNDb25uZWN0RmVhdHMoQU1SQ29uZmlndXJhdGlvbiBjLCBpbnQgY2FjaGVJbmRleCkgewogICAgU3RyaW5nIHJldCA9ICIiOwoKICAgIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gY29uY2VwdFAgPSBjLmxhc3RQOwoKICAgIGludCB3b3JkSW5kZXggPSBjb25jZXB0UC5maXJzdDsKICAgIGludCBjb25jZXB0SW5kZXggPSBjb25jZXB0UC5zZWNvbmQ7CgogICAgU3RyaW5nIGZpcnN0d29yZCwgc2Vjb25kd29yZDsKCiAgICAvL0NhbmRpZGF0ZSB3b3JkCiAgICBTdHJpbmcgd29yZCA9IGMuZ2V0V29yZCh3b3JkSW5kZXgpOwogICAgcmV0ICs9ICgiIGN3PSIgKyB3b3JkKTsKICAgIGZpcnN0d29yZCA9IHdvcmQ7CiAgICBTdHJpbmcgbGVtID0gYy5nZXRMZW1tYSh3b3JkSW5kZXgpOwogICAgcmV0ICs9ICgiIGNsPSIgKyBsZW0pOwogICAgU3RyaW5nIHBvcyA9IGMuZ2V0UE9TKHdvcmRJbmRleCk7CiAgICByZXQgKz0gKCIgY3A9IiArIHBvcyk7CiAgICBTdHJpbmcgY29uY2VwdCA9IGMuZ2V0Q29uY2VwdChjb25jZXB0SW5kZXgpOwogICAgcmV0ICs9ICgiIGNjPSIgKyBjb25jZXB0KTsKICAgIFN0cmluZyBjdXJyQ2F0ZWdvcnkgPSBnZXRDb25jZXB0Q2F0ZWdvcnkoY29uY2VwdCk7CiAgICByZXQgKz0gKCIgY2NhdD0iICsgY3VyckNhdGVnb3J5KTsKICAgIGZvciAoU3RyaW5nIGw6IGMuZ2V0QWxsQ2hpbGRyZW4od29yZEluZGV4KSkKICAgICAgcmV0ICs9ICgiIGNkZXA9IiArIGwpOwoKICAgIC8vQ2FjaGUgd29yZAogICAgUGFpcjxJbnRlZ2VyLCBJbnRlZ2VyPiBjYWNoZVAgPSBjLmNhY2hlLmdldChjYWNoZUluZGV4KTsKICAgIGludCBjYWNoZVdvcmRJbmRleCA9IGNhY2hlUC5maXJzdDsKICAgIGludCBjYWNoZUNvbmNlcHRJbmRleCA9IGNhY2hlUC5zZWNvbmQ7CiAgICB3b3JkID0gYy5nZXRXb3JkKGNhY2hlV29yZEluZGV4KTsKICAgIHNlY29uZHdvcmQgPSB3b3JkOwogICAgcmV0ICs9ICgiIGNhdz0iICsgd29yZCk7CiAgICBsZW0gPSBjLmdldExlbW1hKGNhY2hlV29yZEluZGV4KTsKICAgIHJldCArPSAoIiBjYWw9IiArIGxlbSk7CiAgICBwb3MgPSBjLmdldFBPUyhjYWNoZVdvcmRJbmRleCk7CiAgICByZXQgKz0gKCIgY2FwPSIgKyBwb3MpOwogICAgY29uY2VwdCA9IGMuZ2V0Q29uY2VwdChjYWNoZUNvbmNlcHRJbmRleCk7CiAgICByZXQgKz0gKCIgY2FjPSIgKyBjb25jZXB0KTsKICAgIGN1cnJDYXRlZ29yeSA9IGdldENvbmNlcHRDYXRlZ29yeShjb25jZXB0KTsKICAgIHJldCArPSAoIiBjYWNhdD0iICsgY3VyckNhdGVnb3J5KTsKICAgIGZvciAoU3RyaW5nIGw6IGMuZ2V0QWxsQ2hpbGRyZW4oY2FjaGVXb3JkSW5kZXgpKQogICAgICByZXQgKz0gKCIgY2FkZXA9IiArIGwpOwoKICAgIHJldCArPSAoIiBhcmM9IiArIGMuZ2V0QXJjTGFiZWwoY2FjaGVXb3JkSW5kZXgsIHdvcmRJbmRleCkpOwoKICAgIC8vR2V0IGFsbCB0aGUgY29ubmVjdGVkIEFSQ3MgZm9yIGNhbmRpZGF0ZSB3b3JkCiAgICBmb3IgKFN0cmluZyBsOiBjLmdyYXBoLmdldEFsbEFyY3MoY29uY2VwdEluZGV4KSkgewogICAgICByZXQgKz0gKCIgY2FyYz0iICsgbCk7CiAgICB9CgogICAgLy9HZXQgYWxsIHRoZSBjb25uZWN0ZWQgQVJDcyBmb3IgdGhlIGNhY2hlIHdvcmQKICAgIGZvciAoU3RyaW5nIGw6IGMuZ3JhcGguZ2V0QWxsQXJjcyhjYWNoZUNvbmNlcHRJbmRleCkpIHsKICAgICAgcmV0ICs9ICgiIGNhYXJjPSIgKyBsKTsKICAgIH0KCiAgICBpbnQgd29yZERpc3QgPSB3b3JkSW5kZXggLSBjYWNoZVdvcmRJbmRleDsKICAgIGlmICh3b3JkRGlzdCA8PSAwKSB7CiAgICAgIFN5c3RlbS5lcnIucHJpbnRsbigiV2VpcmQgd29yZCBkaXN0YW5jZSIpOwogICAgICBTeXN0ZW0uZXhpdCgxKTsKICAgIH0KICAgIGlmICh3b3JkRGlzdCA+IDQpCiAgICAgIHdvcmREaXN0ID0gNDsKICAgIHJldCArPSAoIiB3ZGlzdD0iICsgd29yZERpc3QpOwogICAgaW50IGRlcERpc3QgPSBjLnRyZWUuZ2V0RGVwRGlzdCh3b3JkSW5kZXgsIGNhY2hlV29yZEluZGV4KTsKICAgIHJldCArPSAoIiBkZGlzdD0iICsgZGVwRGlzdCk7CgoKICAgIHJldHVybiByZXQ7CiAgfQ==</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDx9XD4=</last-search>
+      <last-search>ConceptLabe</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx9XD4=</last-pattern>
+      <last-pattern>ConceptLabe</last-pattern>
       <last-replace>action_type</last-replace>
       <last-substitute>transtion_type</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
@@ -585,6 +594,8 @@
         <entry>isTree</entry>
         <entry>isProjective</entry>
         <entry encoding="base64">XDx9XD4=</entry>
+        <entry>checkGold</entry>
+        <entry>ConceptLabe</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
