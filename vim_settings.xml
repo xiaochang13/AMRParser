@@ -204,12 +204,12 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1514608458956">
-        <mark key="'" line="161" column="18" />
-        <mark key="[" line="21" column="20" />
-        <mark key="]" line="21" column="21" />
-        <mark key="^" line="21" column="21" />
-        <mark key="." line="21" column="21" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1514609720662">
+        <mark key="'" line="6" column="33" />
+        <mark key="[" line="31" column="36" />
+        <mark key="]" line="32" column="23" />
+        <mark key="^" line="32" column="23" />
+        <mark key="." line="32" column="23" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -382,14 +382,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="236" column="44" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
-      <jump line="248" column="16" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
-      <jump line="243" column="16" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
-      <jump line="232" column="63" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
-      <jump line="231" column="50" filename="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" />
-      <jump line="394" column="14" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
-      <jump line="493" column="8" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
-      <jump line="487" column="8" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="365" column="8" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="14" column="4" filename="$USER_HOME$/SHRG-induction/levels.py" />
       <jump line="508" column="28" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
@@ -482,22 +474,30 @@
       <jump line="30" column="4" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
       <jump line="3" column="10" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
       <jump line="104" column="18" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
+      <jump line="32" column="23" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
+      <jump line="38" column="6" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
+      <jump line="43" column="6" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
+      <jump line="137" column="13" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
+      <jump line="140" column="20" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
+      <jump line="34" column="19" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
+      <jump line="28" column="13" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
+      <jump line="6" column="33" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>Boolean</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>Boolean</text>
       </register>
       <register name="/" type="4">
-        <text>ConceptLabe</text>
+        <text>relMap</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">cHJpdmF0ZSBTdHJpbmcgdmFsdWU7CiAgcHVibGljIGJvb2xlYW4gaXNWYXI7CiAgcHVibGljIGJvb2xlYW4gYWxpZ25lZDsKICBwdWJsaWMgTGlzdDxJbnRlZ2VyPiBhbGlnbm1lbnRzOwogIHB1YmxpYyBMaXN0PFN0cmluZz4gcmVsczsKICBwdWJsaWMgTWFwPEludGVnZXIsIFN0cmluZz4gcmVsTWFwOwogIHB1YmxpYyBMaXN0PEludGVnZXI+IHRhaWxzOwogIHB1YmxpYyBMaXN0PFN0cmluZz4gcGFyUmVsczsKICBwdWJsaWMgTGlzdDxJbnRlZ2VyPiBwYXJDb25jZXB0czsKICAvL3B1YmxpYwoKICBwdWJsaWMgQ29uY2VwdExhYmVsKCkgewogICAgdmFsdWUgPSBudWxsOwogICAgYWxpZ25tZW50cyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgcmVscyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgdGFpbHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHBhclJlbHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHBhckNvbmNlcHRzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBhbGlnbmVkID0gZmFsc2U7CiAgfQoKICBwdWJsaWMgQ29uY2VwdExhYmVsKFN0cmluZyBsYWJlbCkgewogICAgdmFsdWUgPSBsYWJlbDsKICAgIGFsaWdubWVudHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHJlbHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHJlbE1hcCA9IG5ldyBIYXNoTWFwPD4oKTsKICAgIHRhaWxzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBwYXJSZWxzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBwYXJDb25jZXB0cyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgYWxpZ25lZCA9IGZhbHNlOwogIH0KCiAgcHVibGljIGZpbmFsIHZvaWQgc2V0VmFyKGJvb2xlYW4gdikgewogICAgaXNWYXIgPSB2OwogIH0KCiAgcHVibGljIFN0cmluZyBnZXRSZWwoaW50IGluZGV4KSB7CiAgICBhc3NlcnQgcmVsTWFwLmNvbnRhaW5zS2V5KGluZGV4KTsKICAgIHJldHVybiByZWxNYXAuZ2V0KGluZGV4KTsKICB9CgogIHB1YmxpYyB2b2lkIGJ1aWxkUmVsTWFwKCkgewogICAgaW50IG5SZWxzID0gcmVscy5zaXplKCk7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IG5SZWxzOyBpKyspIHsKICAgICAgaW50IGN1cnJJbmRleCA9IHRhaWxzLmdldChpKTsKICAgICAgcmVsTWFwLnB1dChjdXJySW5kZXgsIHJlbHMuZ2V0KGkpKTsKICAgIH0KICAgIGludCBuUFJlbHMgPSBwYXJSZWxzLnNpemUoKTsKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgblBSZWxzOyBpKyspIHsKICAgICAgaW50IGN1cnJJbmRleCA9IHBhckNvbmNlcHRzLmdldChpKTsKICAgICAgcmVsTWFwLnB1dChjdXJySW5kZXgsIHBhclJlbHMuZ2V0KGkpKTsKICAgIH0KICB9CgogIHB1YmxpYyBmaW5hbCB2b2lkIHNldFZhbHVlKFN0cmluZyB2YWx1ZSkgewogICAgdGhpcy52YWx1ZSA9IHZhbHVlOwogIH0KCiAgcHVibGljIGZpbmFsIFN0cmluZyB2YWx1ZSgpIHsKICAgIHJldHVybiB2YWx1ZTsKICB9CgogIHB1YmxpYyBmaW5hbCB2b2lkIGFkZFdvcmQoaW50IHdvcmRJbmRleCkgewogICAgYWxpZ25tZW50cy5hZGQod29yZEluZGV4KTsKICB9</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">ICAK</text>
@@ -506,31 +506,36 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">cHVibGljIENvbmNlcHRMYWJlbChTdHJpbmcgbGFiZWwpIHsKICAgIHZhbHVlID0gbGFiZWw7CiAgICBhbGlnbm1lbnRzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICByZWxzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICByZWxNYXAgPSBuZXcgSGFzaE1hcDw+KCk7CiAgICB0YWlscyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgcGFyUmVscyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgcGFyQ29uY2VwdHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIGFsaWduZWQgPSBmYWxzZTsKICB9</text>
+        <text>public String getRel(int index) {
+    assert relMap.containsKey(index);
+    return relMap.get(index);
+  }</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">cHVibGljIENvbmNlcHRMYWJlbCgpIHsKICAgIHZhbHVlID0gbnVsbDsKICAgIGFsaWdubWVudHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHJlbHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHRhaWxzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBwYXJSZWxzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBwYXJDb25jZXB0cyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgYWxpZ25lZCA9IGZhbHNlOwogIH0=</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAvL3B1YmxpYwo=</text>
+      <register name="7" type="4">
+        <text>public final void setVar(boolean v) {
+    isVar = v;
+  }</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>ConceptLabe</last-search>
+      <last-search>relMap</last-search>
       <last-offset />
-      <last-pattern>ConceptLabe</last-pattern>
+      <last-pattern>relMap</last-pattern>
       <last-replace>action_type</last-replace>
       <last-substitute>transtion_type</last-substitute>
       <last-dir>1</last-dir>
@@ -596,6 +601,7 @@
         <entry encoding="base64">XDx9XD4=</entry>
         <entry>checkGold</entry>
         <entry>ConceptLabe</entry>
+        <entry>relMap</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
