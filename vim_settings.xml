@@ -87,12 +87,6 @@
         <mark key="^" line="603" column="25" />
         <mark key="." line="819" column="0" />
       </file>
-      <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
-        <mark key="[" line="27" column="0" />
-        <mark key="]" line="27" column="0" />
-        <mark key="." line="27" column="0" />
-        <mark key="^" line="29" column="0" />
-      </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
         <mark key="[" line="1063" column="48" />
@@ -111,12 +105,6 @@
         <mark key="]" line="23" column="0" />
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
-      </file>
-      <file name="/Library/Python/2.7/site-packages/keras/backend/tensorflow_backend.py" timestamp="1507516510612">
-        <mark key="[" line="317" column="18" />
-        <mark key="]" line="317" column="22" />
-        <mark key="^" line="317" column="22" />
-        <mark key="." line="317" column="22" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1510343548899">
         <mark key="'" line="13" column="0" />
@@ -216,11 +204,12 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1514648540379">
-        <mark key="[" line="106" column="44" />
-        <mark key="]" line="108" column="24" />
-        <mark key="^" line="108" column="24" />
-        <mark key="." line="108" column="24" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1514649444908">
+        <mark key="'" line="58" column="0" />
+        <mark key="[" line="119" column="0" />
+        <mark key="]" line="119" column="0" />
+        <mark key="^" line="118" column="18" />
+        <mark key="." line="119" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -229,12 +218,12 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514579818507">
-        <mark key="'" line="22" column="32" />
-        <mark key="[" line="21" column="69" />
-        <mark key="]" line="22" column="35" />
-        <mark key="." line="22" column="35" />
-        <mark key="^" line="22" column="35" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514649629687">
+        <mark key="'" line="23" column="32" />
+        <mark key="[" line="1" column="24" />
+        <mark key="]" line="2" column="21" />
+        <mark key="." line="2" column="21" />
+        <mark key="^" line="2" column="21" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668521968">
         <mark key="[" line="9" column="49" />
@@ -491,15 +480,15 @@
       <jump line="28" column="13" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
       <jump line="6" column="33" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
       <jump line="52" column="31" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
-      <jump line="58" column="4" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
       <jump line="111" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
+      <jump line="58" column="0" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="-" type="4">
-        <text>IDX</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text>wordToConcept</text>
@@ -508,31 +497,34 @@
         <text encoding="base64">cHJpdmF0ZSBTdHJpbmcgdmFsdWU7CiAgcHVibGljIGJvb2xlYW4gaXNWYXI7CiAgcHVibGljIGJvb2xlYW4gYWxpZ25lZDsKICBwdWJsaWMgTGlzdDxJbnRlZ2VyPiBhbGlnbm1lbnRzOwogIHB1YmxpYyBMaXN0PFN0cmluZz4gcmVsczsKICBwdWJsaWMgTWFwPEludGVnZXIsIFN0cmluZz4gcmVsTWFwOwogIHB1YmxpYyBMaXN0PEludGVnZXI+IHRhaWxzOwogIHB1YmxpYyBMaXN0PFN0cmluZz4gcGFyUmVsczsKICBwdWJsaWMgTGlzdDxJbnRlZ2VyPiBwYXJDb25jZXB0czsKICAvL3B1YmxpYwoKICBwdWJsaWMgQ29uY2VwdExhYmVsKCkgewogICAgdmFsdWUgPSBudWxsOwogICAgYWxpZ25tZW50cyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgcmVscyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgdGFpbHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHBhclJlbHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHBhckNvbmNlcHRzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBhbGlnbmVkID0gZmFsc2U7CiAgfQoKICBwdWJsaWMgQ29uY2VwdExhYmVsKFN0cmluZyBsYWJlbCkgewogICAgdmFsdWUgPSBsYWJlbDsKICAgIGFsaWdubWVudHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHJlbHMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIHJlbE1hcCA9IG5ldyBIYXNoTWFwPD4oKTsKICAgIHRhaWxzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBwYXJSZWxzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICBwYXJDb25jZXB0cyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgYWxpZ25lZCA9IGZhbHNlOwogIH0KCiAgcHVibGljIGZpbmFsIHZvaWQgc2V0VmFyKGJvb2xlYW4gdikgewogICAgaXNWYXIgPSB2OwogIH0KCiAgcHVibGljIFN0cmluZyBnZXRSZWwoaW50IGluZGV4KSB7CiAgICBhc3NlcnQgcmVsTWFwLmNvbnRhaW5zS2V5KGluZGV4KTsKICAgIHJldHVybiByZWxNYXAuZ2V0KGluZGV4KTsKICB9CgogIHB1YmxpYyB2b2lkIGJ1aWxkUmVsTWFwKCkgewogICAgaW50IG5SZWxzID0gcmVscy5zaXplKCk7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IG5SZWxzOyBpKyspIHsKICAgICAgaW50IGN1cnJJbmRleCA9IHRhaWxzLmdldChpKTsKICAgICAgcmVsTWFwLnB1dChjdXJySW5kZXgsIHJlbHMuZ2V0KGkpKTsKICAgIH0KICAgIGludCBuUFJlbHMgPSBwYXJSZWxzLnNpemUoKTsKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgblBSZWxzOyBpKyspIHsKICAgICAgaW50IGN1cnJJbmRleCA9IHBhckNvbmNlcHRzLmdldChpKTsKICAgICAgcmVsTWFwLnB1dChjdXJySW5kZXgsIHBhclJlbHMuZ2V0KGkpKTsKICAgIH0KICB9CgogIHB1YmxpYyBmaW5hbCB2b2lkIHNldFZhbHVlKFN0cmluZyB2YWx1ZSkgewogICAgdGhpcy52YWx1ZSA9IHZhbHVlOwogIH0KCiAgcHVibGljIGZpbmFsIFN0cmluZyB2YWx1ZSgpIHsKICAgIHJldHVybiB2YWx1ZTsKICB9CgogIHB1YmxpYyBmaW5hbCB2b2lkIGFkZFdvcmQoaW50IHdvcmRJbmRleCkgewogICAgYWxpZ25tZW50cy5hZGQod29yZEluZGV4KTsKICB9</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAK</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">cHVibGljIHZvaWQgcHJpbnRHcmFwaCgpIHsKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgY29uY2VwdHMuc2l6ZSgpOyBpKyspIHsKICAgICAgQ29uY2VwdExhYmVsIGMgPSBjb25jZXB0cy5nZXQoaSk7CiAgICAgIFN5c3RlbS5lcnIucHJpbnRsbigiQ3VycmVudCBjb25jZXB0OiIgKyBjLnZhbHVlKCkpOwogICAgICBjLmJ1aWxkUmVsTWFwKCk7CiAgICAgIFN0cmluZyByZWxSZXAgPSAiIjsKICAgICAgZm9yIChpbnQgdGFpbDogYy50YWlscykgewogICAgICAgIHJlbFJlcCArPSBjLnJlbE1hcC5nZXQodGFpbCk7CiAgICAgICAgcmVsUmVwICs9ICgiOiIgKyBjb25jZXB0cy5nZXQodGFpbCkudmFsdWUoKSArICIgIik7CiAgICAgIH0KICAgICAgU3lzdGVtLmVyci5wcmludGxuKCJUYWlsIGNvbmNlcHRzOiIgKyByZWxSZXApOwogICAgfQogIH0=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>public void add(ConceptLabel c) {
+    concepts.add(c);
+    n += 1;
+  }</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">Ly9Ob3Qgc3VyZSBpZiB0aGlzIHdpbGwgcmVzdWx0IGluIGEgZnVsbCBjb3ZlciB0aG91Z2gKICBwdWJsaWMgdm9pZCBidWlsZFdvcmRUb0luZGljZXMoKSB7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IGNvbmNlcHRzLnNpemUoKTsgaSsrKSB7CiAgICAgIENvbmNlcHRMYWJlbCBjID0gY29uY2VwdHMuZ2V0KGkpOwogICAgICAvL1N5c3RlbS5vdXQucHJpbnRsbihjKTsKICAgICAgLy9TeXN0ZW0ub3V0LnByaW50bG4oYy52YWx1ZSgpKTsKICAgICAgZm9yIChpbnQgd29yZElEIDogYy5hbGlnbm1lbnRzKQogICAgICAgIHdvcmRUb0NvbmNlcHQucHV0KHdvcmRJRCwgaSk7CiAgICB9CiAgfQ==</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">cHVibGljIHZvaWQgYnVpbGRFZGdlTWFwKCkgewogICAgaGVhZFRvVGFpbCA9IG5ldyBIYXNoTWFwPD4oKTsKICAgIHRhaWxUb0hlYWQgPSBuZXcgSGFzaE1hcDw+KCk7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IGNvbmNlcHRzLnNpemUoKTsgaSsrKSB7CiAgICAgIENvbmNlcHRMYWJlbCBjID0gY29uY2VwdHMuZ2V0KGkpOwogICAgICBoZWFkVG9UYWlsLnB1dChpLCBuZXcgSGFzaFNldDw+KCkpOwogICAgICBmb3IgKGludCB0YWlsOiBjLnRhaWxzKSB7CiAgICAgICAgaGVhZFRvVGFpbC5nZXQoaSkuYWRkKHRhaWwpOwogICAgICAgIGlmICghdGFpbFRvSGVhZC5jb250YWluc0tleSh0YWlsKSkKICAgICAgICAgIHRhaWxUb0hlYWQucHV0KHRhaWwsIG5ldyBIYXNoU2V0PD4oKSk7CiAgICAgICAgdGFpbFRvSGVhZC5nZXQodGFpbCkuYWRkKGkpOwogICAgICB9CiAgICB9CiAgfQ==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uY2VwdCA9IHNlbGYuY29uY2VwdHNbaV0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
