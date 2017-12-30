@@ -218,12 +218,12 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514671581875">
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514673925062">
         <mark key="'" line="56" column="64" />
-        <mark key="[" line="166" column="0" />
-        <mark key="]" line="166" column="0" />
-        <mark key="^" line="109" column="23" />
-        <mark key="." line="166" column="0" />
+        <mark key="[" line="141" column="8" />
+        <mark key="]" line="141" column="8" />
+        <mark key="^" line="141" column="8" />
+        <mark key="." line="141" column="8" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668521968">
         <mark key="[" line="9" column="49" />
@@ -507,18 +507,31 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">cHVibGljIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gZ2V0Q2FjaGUoaW50IGluZGV4KSB7CiAgICBpZiAoaW5kZXggPCAwIHx8IGluZGV4ID49IGNhY2hlU2l6ZSkKICAgICAgcmV0dXJuIENvbmZpZy5OT05QQUlSOwogICAgcmV0dXJuIGNhY2hlLmdldChpbmRleCk7CiAgfQ==</text>
+      <register name="3" type="4">
+        <text>public void printConfig() {
+    System.err.println(buffer);
+    System.err.println(cache);
+    System.err.println(stack);
+  }</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="6" type="2">
+        <text encoding="base64">ICAK</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">cHVibGljIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gZ2V0Q2FjaGUoaW50IGluZGV4KSB7CiAgICBpZiAoaW5kZXggPCAwIHx8IGluZGV4ID49IGNhY2hlU2l6ZSkKICAgICAgcmV0dXJuIENvbmZpZy5OT05QQUlSOwogICAgcmV0dXJuIGNhY2hlLmdldChpbmRleCk7CiAgfQ==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="4">
         <text>public boolean shift() {
     return shiftN(0);
   }
@@ -533,15 +546,6 @@
     }
     return true;
   }</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">cHVibGljIFBhaXI8SW50ZWdlciwgSW50ZWdlcj4gcmlnaHRNb3N0Q2FjaGUoKSB7CiAgICByZXR1cm4gY2FjaGUuZ2V0KGNhY2hlU2l6ZS0xKTsKICB9</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
