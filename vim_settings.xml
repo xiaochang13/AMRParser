@@ -319,12 +319,12 @@
         <mark key="^" line="125" column="2" />
         <mark key="." line="109" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514688742685">
-        <mark key="'" line="151" column="27" />
-        <mark key="[" line="44" column="38" />
-        <mark key="]" line="44" column="56" />
-        <mark key="^" line="44" column="56" />
-        <mark key="." line="44" column="56" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514690912590">
+        <mark key="'" line="132" column="27" />
+        <mark key="[" line="68" column="0" />
+        <mark key="]" line="68" column="0" />
+        <mark key="^" line="62" column="43" />
+        <mark key="." line="68" column="0" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481283180076">
         <mark key="'" line="653" column="9" />
@@ -484,11 +484,11 @@
       <jump line="48" column="64" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>config.</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIG5lQ2hvaWNlcyA9IG5ldyBIYXNoU2V0PD4oKTsK</text>
       </register>
       <register name="-" type="4">
-        <text>config.</text>
+        <text>arc_actionIDs</text>
       </register>
       <register name="/" type="4">
         <text>wordToConcept</text>
@@ -504,31 +504,45 @@
                         break</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIG5lQ2hvaWNlcyA9IG5ldyBIYXNoU2V0PD4oKTsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>//for (String label: unalignLabels) {
+    //  String currTran = &quot;conGen:&quot; + label;
+    //  conIDTransitionIDs.put(currTran, conceptIDTransitions.size());
+    //  conceptIDTransitions.add(currTran);
+    //}</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">ZmluYWwgaW50IGNhY2hlU2l6ZTsKICBpbnQgcHVzaEluZGV4OwogIFN0cmluZyBsYXN0QWN0aW9uID0gbnVsbDsKICBpbnQgbGFzdFR5cGUgPSAtMTsKICBQYWlyPEludGVnZXIsIEludGVnZXI+IGxhc3RQID0gbmV3IFBhaXIoLTEsIC0xKTsgLy8od29yZCwgY29uY2VwdCkgcGFpcgogIGludCBudW1BcmNzID0gMDsKCiAgLy9maW5hbCBEZXBlbmRlbmN5VHJlZSB0cmVlOwogIGZpbmFsIEFNUkdyYXBoIGdyYXBoOwogIGJvb2xlYW4gc3RhcnRBY3Rpb247CiAgQU1SR3JhcGggZ29sZEdyYXBoOwoKICBTdHJpbmdbXSB3b3JkU2VxOwogIFN0cmluZ1tdIGxlbW1hU2VxOwogIFN0cmluZ1tdIHBvc1NlcTsKICBEZXBlbmRlbmN5VHJlZSB0cmVlOwogIE1hcDxJbnRlZ2VyLCBJbnRlZ2VyPiB3b3JkVG9Db25jZXB0OwogIExpc3Q8U3RyaW5nPiBhY3Rpb25TZXE7</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">fQo=</text>
+      <register name="8" type="4">
+        <text>String nullTran = &quot;conID:&quot; + Config.NULL;
+    if (!conIDTransitionIDs.containsKey(nullTran)) {
+      conIDTransitionIDs.put(nullTran, conceptIDTransitions.size());
+      conceptIDTransitions.add(nullTran);
+    }
+
+    String unkTran = &quot;conID:&quot; + Config.UNKNOWN;
+    if (!conIDTransitionIDs.containsKey(unkTran)) {
+      conIDTransitionIDs.put(unkTran, conceptIDTransitions.size());
+      conceptIDTransitions.add(unkTran);
+    }</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
