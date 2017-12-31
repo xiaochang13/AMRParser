@@ -319,12 +319,12 @@
         <mark key="^" line="125" column="2" />
         <mark key="." line="109" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514165780091">
-        <mark key="'" line="150" column="27" />
-        <mark key="[" line="45" column="0" />
-        <mark key="]" line="45" column="0" />
-        <mark key="^" line="41" column="42" />
-        <mark key="." line="45" column="0" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514688742685">
+        <mark key="'" line="151" column="27" />
+        <mark key="[" line="44" column="38" />
+        <mark key="]" line="44" column="56" />
+        <mark key="^" line="44" column="56" />
+        <mark key="." line="44" column="56" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481283180076">
         <mark key="'" line="653" column="9" />
@@ -484,11 +484,11 @@
       <jump line="48" column="64" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>config.</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>config.</text>
       </register>
       <register name="/" type="4">
         <text>wordToConcept</text>
