@@ -218,11 +218,11 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514687992557">
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514697234259">
         <mark key="'" line="56" column="64" />
-        <mark key="[" line="191" column="0" />
-        <mark key="]" line="191" column="0" />
-        <mark key="." line="191" column="0" />
+        <mark key="[" line="130" column="11" />
+        <mark key="]" line="130" column="11" />
+        <mark key="." line="130" column="11" />
         <mark key="^" line="62" column="22" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668521968">
@@ -319,11 +319,12 @@
         <mark key="^" line="125" column="2" />
         <mark key="." line="109" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514693182818">
-        <mark key="[" line="103" column="19" />
-        <mark key="]" line="105" column="28" />
-        <mark key="^" line="105" column="28" />
-        <mark key="." line="105" column="28" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514698206186">
+        <mark key="'" line="107" column="28" />
+        <mark key="[" line="113" column="53" />
+        <mark key="]" line="114" column="47" />
+        <mark key="^" line="114" column="47" />
+        <mark key="." line="114" column="47" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481283180076">
         <mark key="'" line="653" column="9" />
@@ -381,8 +382,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="500" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="594" column="14" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="446" column="15" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="735" column="19" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="7" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -481,13 +480,15 @@
       <jump line="111" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
       <jump line="58" column="0" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
       <jump line="48" column="64" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
+      <jump line="107" column="28" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
+      <jump line="130" column="11" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">Ly9XaGV0aGVyIGl0J3MgcG9zc2libGUgdG8gYXBwbHkgdGhlIG5leHQgdHJhbnN0aW9ucwogIHB1YmxpYyBib29sZWFuIGNhbkFwcGx5KEFNUkNvbmZpZ3VyYXRpb24gYywgU3RyaW5nIHQpIHsKICAgIC8vaWYgKHQuc3RhcnRzV2l0aCgiTCIpIHx8IHQuc3RhcnRzV2l0aCgiUiIpKSB7CiAgICAvLyAgU3RyaW5nIGxhYmVsID0gdC5zdWJzdHJpbmcoMiwgdC5sZW5ndGgoKSAtIDEpOwogICAgLy8gIGludCBoID0gdC5zdGFydHNXaXRoKCJMIikgPyBjLmdldFN0YWNrKDApIDogYy5nZXRTdGFjaygxKTsKICAgIC8vICBpZiAoaCA8IDApIHJldHVybiBmYWxzZTsKICAgIC8vICBpZiAoaCA9PSAwICYmICFsYWJlbC5lcXVhbHMocm9vdExhYmVsKSkgcmV0dXJuIGZhbHNlOwogICAgLy8gIC8vaWYgKGggPiAwICYmIGxhYmVsLmVxdWFscyhyb290TGFiZWwpKSByZXR1cm4gZmFsc2U7CiAgICAvL30KCiAgICAvL2ludCBuU3RhY2sgPSBjLmdldFN0YWNrU2l6ZSgpOwogICAgLy9pbnQgbkJ1ZmZlciA9IGMuZ2V0QnVmZmVyU2l6ZSgpOwoKICAgIC8vaWYgKHQuc3RhcnRzV2l0aCgiTCIpKQogICAgLy8gIHJldHVybiBuU3RhY2sgPiAyOwogICAgLy9lbHNlIGlmICh0LnN0YXJ0c1dpdGgoIlIiKSkgewogICAgLy8gIGlmIChzaW5nbGVSb290KQogICAgLy8gICAgcmV0dXJuIChuU3RhY2sgPiAyKSB8fCAoblN0YWNrID09IDIgJiYgbkJ1ZmZlciA9PSAwKTsKICAgIC8vICBlbHNlCiAgICAvLyAgICByZXR1cm4gblN0YWNrID49IDI7CiAgICAvL30gZWxzZQogICAgLy8gIHJldHVybiBuQnVmZmVyID4gMDsKICAgIHJldHVybiB0cnVlOwogIH0=</text>
+        <text encoding="base64">YWN0aW9uID09IA==</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text encoding="base64">YWN0aW9uID09IA==</text>
       </register>
       <register name="/" type="4">
         <text>wordToConcept</text>
