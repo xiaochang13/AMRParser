@@ -218,12 +218,12 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514685229293">
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514686923484">
         <mark key="'" line="56" column="64" />
-        <mark key="[" line="162" column="45" />
-        <mark key="]" line="163" column="22" />
-        <mark key="^" line="163" column="22" />
-        <mark key="." line="163" column="22" />
+        <mark key="[" line="210" column="0" />
+        <mark key="]" line="210" column="0" />
+        <mark key="^" line="189" column="71" />
+        <mark key="." line="210" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668521968">
         <mark key="[" line="9" column="49" />
@@ -510,7 +510,7 @@
         <text encoding="base64">ICAK</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">Ly9rIGlzIHRoZSB3aW5kb3cgc2l6ZQogIHB1YmxpYyB2b2lkIGdldEJ1ZmZlckZlYXRzKGludCBrLCBNYXA8U3RyaW5nLCBJbnRlZ2VyPiBpZE1hcCwgTGlzdDxJbnRlZ2VyPiBmZWF0cywgaW50IHRva0Zvcm0pIHsKICAgIGlmIChidWZmZXIuc2l6ZSgpID09IDApIHsKICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPD0gMiprOyBpKyspIHsKICAgICAgICBmZWF0cy5hZGQoZ2V0SUQoQ29uZmlnLk5VTEwsIGlkTWFwKSk7CiAgICAgIH0KICAgICAgcmV0dXJuOwogICAgfQogICAgaW50IGN1cnJQb3MgPSBidWZmZXIuZ2V0KDApOwogICAgZm9yIChpbnQgaSA9IGN1cnJQb3MtazsgaSA8PSBjdXJyUG9zK2s7IGkrKykgewogICAgICBTdHJpbmcgd29yZCA9IENvbmZpZy5OVUxMOwogICAgICBpZiAoaSA+PSAwICYmIGkgPCB3b3JkU2VxLmxlbmd0aCkgewogICAgICAgIGlmICh0b2tGb3JtID09IDApCiAgICAgICAgICB3b3JkID0gd29yZFNlcVtpXTsKICAgICAgICBlbHNlIGlmICh0b2tGb3JtID09IDEpCiAgICAgICAgICB3b3JkID0gbGVtbWFTZXFbaV07CiAgICAgICAgZWxzZQogICAgICAgICAgd29yZCA9IHBvc1NlcVtpXTsKICAgICAgfQogICAgICBmZWF0cy5hZGQoZ2V0SUQod29yZCwgaWRNYXApKTsKICAgIH0KICB9</text>
+        <text encoding="base64">cHVibGljIFN0cmluZyBnZXRQYXJBcmMoaW50IHZlcnRleCwgaW50IGspIHsKICAgIGludCBudW1Db25jZXB0cyA9IGdyYXBoLmNvbmNlcHRzLnNpemUoKTsKCiAgICBpZiAodmVydGV4ID49IG51bUNvbmNlcHRzKQogICAgICByZXR1cm4gQ29uZmlnLk5VTEw7CiAgICBDb25jZXB0TGFiZWwgYyA9IGdyYXBoLmNvbmNlcHRzLmdldCh2ZXJ0ZXgpOwogICAgaW50IHJlbFNpemUgPSBjLnBhclJlbHMuc2l6ZSgpOwogICAgaWYgKGsgPj0gcmVsU2l6ZSkKICAgICAgcmV0dXJuIENvbmZpZy5OVUxMOwogICAgcmV0dXJuIGMucGFyUmVscy5nZXQoayk7CiAgfQ==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
@@ -519,16 +519,21 @@
         <text encoding="base64">ICAK</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">cHVibGljIHZvaWQgZ2V0Q2FjaGVGZWF0cyhpbnQgaywgTWFwPFN0cmluZywgSW50ZWdlcj4gaWRNYXAsIExpc3Q8SW50ZWdlcj4gZmVhdHMsIGJvb2xlYW4gaXNXb3JkKSB7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IGs7IGkrKykgewogICAgICBpbnQgdmVydGV4ID0gZ2V0Q2FjaGVWZXJ0ZXgoY2FjaGVTaXplLTEtaSk7CiAgICAgIFN0cmluZyBjb25jZXB0ID0gZ2V0Q29uY2VwdCh2ZXJ0ZXgpOwogICAgICBpZiAoaXNXb3JkKSB7CiAgICAgICAgdmVydGV4ID0gZ2V0Q2FjaGVXb3JkKGNhY2hlU2l6ZS0xLWkpOyAvL0Zyb20gdGhlIHJpZ2h0bW9zdAogICAgICAgIGNvbmNlcHQgPSBnZXRXb3JkKHZlcnRleCk7CiAgICAgIH0KICAgICAgZmVhdHMuYWRkKGdldElEKGNvbmNlcHQsIGlkTWFwKSk7CiAgICB9CiAgfQ==</text>
+        <text encoding="base64">cHVibGljIGludCBnZXRCdWZmZXIoaW50IGspIHsKICAgIHJldHVybiAoayA+PSAwICYmIGsgPCBnZXRCdWZmZXJTaXplKCkpID8gYnVmZmVyLmdldChrKSA6IENvbmZpZy5OT05FWElTVDsKICB9CgogIHB1YmxpYyBMaXN0PENvcmVMYWJlbD4gZ2V0Q29yZUxhYmVscygpIHsKICAgIHJldHVybiBudWxsOwogIH0KCiAgLyoqCiAgICogQHBhcmFtIGsgV29yZCBpbmRleCAoemVybyA9IHJvb3Qgbm9kZTsgYWN0dWFsIHdvcmQgaW5kZXhpbmcKICAgKiAgICAgICAgICBiZWdpbnMgYXQgMSkKICAgKi8KICBwdWJsaWMgU3RyaW5nIGdldFdvcmQoaW50IGspIHsKICAgIGlmIChrIDwgMCkgcmV0dXJuIENvbmZpZy5OVUxMOwogICAgcmV0dXJuIHdvcmRTZXFba107CiAgfQoKICBwdWJsaWMgU3RyaW5nIGdldExlbW1hKGludCBrKSB7CiAgICBpZiAoayA8IDApIHJldHVybiBDb25maWcuTlVMTDsKICAgIHJldHVybiBsZW1tYVNlcVtrXTsKICB9CgogIHB1YmxpYyBTdHJpbmcgZ2V0Q29uY2VwdChpbnQgaykgewogICAgaW50IG51bUNvbmNlcHRzID0gZ3JhcGguY29uY2VwdHMuc2l6ZSgpOwogICAgaWYgKGsgPCAwIHx8IGsgPj0gbnVtQ29uY2VwdHMpIHsKICAgICAgcmV0dXJuIENvbmZpZy5OVUxMOwogICAgfQoKICAgIHJldHVybiBncmFwaC5jb25jZXB0cy5nZXQoaykudmFsdWUoKTsKICB9</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>/**
+   * Get the sentence index of the kth word on the buffer.
+   *
+   * @return Sentence index or {@link Config#NONEXIST} if stack doesn't
+   *         have an element at this index
+   */</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">Ly9HZXQgdGhlIGFyYyBsYWJlbHMgZm9yIHRoZSBjdXJyZW50IHZlcnRleAogIHB1YmxpYyB2b2lkIGdldEFyY0ZlYXRzKGludCB2ZXJ0ZXgsIGludCBrLCBMaXN0PEludGVnZXI+IGZlYXRzKSB7CiAgICBnZXRDb25jZXB0KHZlcnRleCk7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IGs7IGkrKykgewoKICAgIH0KICB9</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -632,6 +637,7 @@
         <entry>%s/transtion_type/action_type/g</entry>
         <entry>374</entry>
         <entry>1</entry>
+        <entry>w;</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
