@@ -204,12 +204,12 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1514649444908">
-        <mark key="'" line="58" column="0" />
-        <mark key="[" line="119" column="0" />
-        <mark key="]" line="119" column="0" />
-        <mark key="^" line="118" column="18" />
-        <mark key="." line="119" column="0" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1514687681762">
+        <mark key="'" line="63" column="0" />
+        <mark key="[" line="42" column="23" />
+        <mark key="]" line="43" column="25" />
+        <mark key="^" line="43" column="25" />
+        <mark key="." line="43" column="25" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -218,12 +218,12 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514686923484">
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" timestamp="1514687992557">
         <mark key="'" line="56" column="64" />
-        <mark key="[" line="210" column="0" />
-        <mark key="]" line="210" column="0" />
-        <mark key="^" line="189" column="71" />
-        <mark key="." line="210" column="0" />
+        <mark key="[" line="191" column="0" />
+        <mark key="]" line="191" column="0" />
+        <mark key="." line="191" column="0" />
+        <mark key="^" line="62" column="22" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668521968">
         <mark key="[" line="9" column="49" />
@@ -488,7 +488,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>k</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text>wordToConcept</text>
@@ -507,10 +507,10 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">cHVibGljIFN0cmluZyBnZXRQYXJBcmMoaW50IHZlcnRleCwgaW50IGspIHsKICAgIGludCBudW1Db25jZXB0cyA9IGdyYXBoLmNvbmNlcHRzLnNpemUoKTsKCiAgICBpZiAodmVydGV4ID49IG51bUNvbmNlcHRzKQogICAgICByZXR1cm4gQ29uZmlnLk5VTEw7CiAgICBDb25jZXB0TGFiZWwgYyA9IGdyYXBoLmNvbmNlcHRzLmdldCh2ZXJ0ZXgpOwogICAgaW50IHJlbFNpemUgPSBjLnBhclJlbHMuc2l6ZSgpOwogICAgaWYgKGsgPj0gcmVsU2l6ZSkKICAgICAgcmV0dXJuIENvbmZpZy5OVUxMOwogICAgcmV0dXJuIGMucGFyUmVscy5nZXQoayk7CiAgfQ==</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
@@ -518,22 +518,17 @@
       <register name="5" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">cHVibGljIGludCBnZXRCdWZmZXIoaW50IGspIHsKICAgIHJldHVybiAoayA+PSAwICYmIGsgPCBnZXRCdWZmZXJTaXplKCkpID8gYnVmZmVyLmdldChrKSA6IENvbmZpZy5OT05FWElTVDsKICB9CgogIHB1YmxpYyBMaXN0PENvcmVMYWJlbD4gZ2V0Q29yZUxhYmVscygpIHsKICAgIHJldHVybiBudWxsOwogIH0KCiAgLyoqCiAgICogQHBhcmFtIGsgV29yZCBpbmRleCAoemVybyA9IHJvb3Qgbm9kZTsgYWN0dWFsIHdvcmQgaW5kZXhpbmcKICAgKiAgICAgICAgICBiZWdpbnMgYXQgMSkKICAgKi8KICBwdWJsaWMgU3RyaW5nIGdldFdvcmQoaW50IGspIHsKICAgIGlmIChrIDwgMCkgcmV0dXJuIENvbmZpZy5OVUxMOwogICAgcmV0dXJuIHdvcmRTZXFba107CiAgfQoKICBwdWJsaWMgU3RyaW5nIGdldExlbW1hKGludCBrKSB7CiAgICBpZiAoayA8IDApIHJldHVybiBDb25maWcuTlVMTDsKICAgIHJldHVybiBsZW1tYVNlcVtrXTsKICB9CgogIHB1YmxpYyBTdHJpbmcgZ2V0Q29uY2VwdChpbnQgaykgewogICAgaW50IG51bUNvbmNlcHRzID0gZ3JhcGguY29uY2VwdHMuc2l6ZSgpOwogICAgaWYgKGsgPCAwIHx8IGsgPj0gbnVtQ29uY2VwdHMpIHsKICAgICAgcmV0dXJuIENvbmZpZy5OVUxMOwogICAgfQoKICAgIHJldHVybiBncmFwaC5jb25jZXB0cy5nZXQoaykudmFsdWUoKTsKICB9</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAK</text>
+      <register name="7" type="4">
+        <text encoding="base64">ZmluYWwgaW50IGNhY2hlU2l6ZTsKICBpbnQgcHVzaEluZGV4OwogIFN0cmluZyBsYXN0QWN0aW9uID0gbnVsbDsKICBpbnQgbGFzdFR5cGUgPSAtMTsKICBQYWlyPEludGVnZXIsIEludGVnZXI+IGxhc3RQID0gbmV3IFBhaXIoLTEsIC0xKTsgLy8od29yZCwgY29uY2VwdCkgcGFpcgogIGludCBudW1BcmNzID0gMDsKCiAgLy9maW5hbCBEZXBlbmRlbmN5VHJlZSB0cmVlOwogIGZpbmFsIEFNUkdyYXBoIGdyYXBoOwogIGJvb2xlYW4gc3RhcnRBY3Rpb247CiAgQU1SR3JhcGggZ29sZEdyYXBoOwoKICBTdHJpbmdbXSB3b3JkU2VxOwogIFN0cmluZ1tdIGxlbW1hU2VxOwogIFN0cmluZ1tdIHBvc1NlcTsKICBEZXBlbmRlbmN5VHJlZSB0cmVlOwogIE1hcDxJbnRlZ2VyLCBJbnRlZ2VyPiB3b3JkVG9Db25jZXB0OwogIExpc3Q8U3RyaW5nPiBhY3Rpb25TZXE7</text>
       </register>
-      <register name="8" type="4">
-        <text>/**
-   * Get the sentence index of the kth word on the buffer.
-   *
-   * @return Sentence index or {@link Config#NONEXIST} if stack doesn't
-   *         have an element at this index
-   */</text>
+      <register name="8" type="2">
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
