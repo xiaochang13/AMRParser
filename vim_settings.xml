@@ -319,12 +319,12 @@
         <mark key="^" line="125" column="2" />
         <mark key="." line="109" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514690912590">
-        <mark key="'" line="132" column="27" />
-        <mark key="[" line="68" column="0" />
-        <mark key="]" line="68" column="0" />
-        <mark key="^" line="62" column="43" />
-        <mark key="." line="68" column="0" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514691640538">
+        <mark key="'" line="108" column="27" />
+        <mark key="[" line="78" column="0" />
+        <mark key="]" line="78" column="0" />
+        <mark key="^" line="72" column="12" />
+        <mark key="." line="78" column="0" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481283180076">
         <mark key="'" line="653" column="9" />
@@ -485,61 +485,45 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIG5lQ2hvaWNlcyA9IG5ldyBIYXNoU2V0PD4oKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>arc_actionIDs</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>wordToConcept</text>
       </register>
       <register name="0" type="4">
-        <text>for (buffer_idx, word_idx) in enumerate(self.buffer):
-                if word_idx in widToConceptID:
-                    buffer_concept_id = widToConceptID[word_idx]
-                    if (buffer_concept_id in tail_set
-                        or (head_set is not None
-                            and buffer_concept_id in head_set))):
-                        curr_dist = buffer_idx
-                        break</text>
+        <text>self.arc_actionIDs[curr_action] = len(self.arc_actions)
+            self.arc_actions.append(curr_action)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIG5lQ2hvaWNlcyA9IG5ldyBIYXNoU2V0PD4oKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="2">
+      <register name="3" type="4">
+        <text encoding="base64">TWFwPEludGVnZXIsIFNldDxJbnRlZ2VyPj4gZGljdCA9IG5ldyBIYXNoTWFwPD4oKTsKICAgIGNvbnN0QXJjSW5DaG9pY2VzID0gbmV3IEhhc2hTZXQ8PigpOwogICAgY29uc3RBcmNPdXRDaG9pY2VzID0gbmV3IEhhc2hTZXQ8PigpOwoKICAgIGZvciAoaW50IHdvcmRJRDogY29uTWFwLmtleVNldCgpKSB7CiAgICAgIE1hcDxTdHJpbmcsIEludGVnZXI+IGNvbmNlcHRDb3VudHMgPSBjb25NYXAuZ2V0KHdvcmRJRCk7CiAgICAgIGRpY3QucHV0KHdvcmRJRCwgbmV3IEhhc2hTZXQ8PigpKTsKICAgICAgZm9yIChTdHJpbmcgczogY29uY2VwdENvdW50cy5rZXlTZXQoKSkgewogICAgICAgIFN0cmluZyBhY3Rpb24gPSAiY29uSUQ6IiArIHM7CiAgICAgICAgZGljdC5nZXQod29yZElEKS5hZGQoY29uSURUcmFuc2l0aW9uSURzLmdldChhY3Rpb24pKTsKICAgICAgfQogICAgfQoKICAgIC8vVW5pdCBkZWNpc2lvbiBhdCBlYWNoIHZlcnRleCBvZiB0aGUgY2FjaGUsIGRpc2FsbG93IE5VTEwgb3IgVU5LTk9XTgogICAgZm9yIChTdHJpbmcgbGFiZWwgOiBhcmNMYWJlbHMpIHsKICAgICAgaWYgKGxhYmVsLmVxdWFscyhDb25maWcuTlVMTCkgfHwgbGFiZWwuZXF1YWxzKENvbmZpZy5VTktOT1dOKSkgewogICAgICAgIGNvbnRpbnVlOwogICAgICB9CiAgICAgIFN0cmluZyBjdXJyVHJhbiA9ICJMLSIgKyBsYWJlbDsKICAgICAgYXJjVHJhbnNpdGlvbklEcy5wdXQoY3VyclRyYW4sIGFyY1RyYW5zaXRpb25zLnNpemUoKSk7CiAgICAgIGFyY1RyYW5zaXRpb25zLmFkZChjdXJyVHJhbik7CgogICAgICBjb25zdEFyY091dENob2ljZXMuYWRkKGFyY1RyYW5zaXRpb25JRHMuZ2V0KGN1cnJUcmFuKSk7CiAgICB9CiAgICBmb3IgKFN0cmluZyBsYWJlbCA6IGFyY0xhYmVscykgewogICAgICBpZiAobGFiZWwuZXF1YWxzKENvbmZpZy5OVUxMKSB8fCBsYWJlbC5lcXVhbHMoQ29uZmlnLlVOS05PV04pKSB7CiAgICAgICAgY29udGludWU7CiAgICAgIH0KICAgICAgU3RyaW5nIGN1cnJUcmFuID0gIlItIiArIGxhYmVsOwogICAgICBhcmNUcmFuc2l0aW9uSURzLnB1dChjdXJyVHJhbiwgYXJjVHJhbnNpdGlvbnMuc2l6ZSgpKTsKICAgICAgYXJjVHJhbnNpdGlvbnMuYWRkKGN1cnJUcmFuKTsKCiAgICAgIGNvbnN0QXJjSW5DaG9pY2VzLmFkZChhcmNUcmFuc2l0aW9uSURzLmdldChjdXJyVHJhbikpOwogICAgfQ==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIG5lQ2hvaWNlcyA9IG5ldyBIYXNoU2V0PD4oKTsK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text>//for (String label: unalignLabels) {
     //  String currTran = &quot;conGen:&quot; + label;
     //  conIDTransitionIDs.put(currTran, conceptIDTransitions.size());
     //  conceptIDTransitions.add(currTran);
     //}</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="8" type="4">
-        <text>String nullTran = &quot;conID:&quot; + Config.NULL;
-    if (!conIDTransitionIDs.containsKey(nullTran)) {
-      conIDTransitionIDs.put(nullTran, conceptIDTransitions.size());
-      conceptIDTransitions.add(nullTran);
-    }
-
-    String unkTran = &quot;conID:&quot; + Config.UNKNOWN;
-    if (!conIDTransitionIDs.containsKey(unkTran)) {
-      conIDTransitionIDs.put(unkTran, conceptIDTransitions.size());
-      conceptIDTransitions.add(unkTran);
-    }</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
