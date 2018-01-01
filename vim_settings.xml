@@ -319,12 +319,12 @@
         <mark key="^" line="125" column="2" />
         <mark key="." line="109" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514742783223">
-        <mark key="'" line="107" column="28" />
-        <mark key="[" line="118" column="32" />
-        <mark key="]" line="119" column="68" />
-        <mark key="^" line="119" column="68" />
-        <mark key="." line="119" column="68" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514840213472">
+        <mark key="'" line="146" column="25" />
+        <mark key="[" line="119" column="69" />
+        <mark key="]" line="123" column="34" />
+        <mark key="^" line="123" column="34" />
+        <mark key="." line="123" column="34" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481283180076">
         <mark key="'" line="653" column="9" />
@@ -382,10 +382,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="735" column="19" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="7" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="442" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="16" column="18" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="336" column="10" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="447" column="8" filename="$USER_HOME$/SHRG-induction/HRGSample.py" />
       <jump line="20" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -482,16 +478,20 @@
       <jump line="130" column="11" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
       <jump line="43" column="26" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
       <jump line="53" column="39" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
+      <jump line="137" column="19" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
+      <jump line="139" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
+      <jump line="172" column="22" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
+      <jump line="141" column="25" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>concept_label</text>
+        <text>(</text>
       </register>
       <register name="-" type="4">
-        <text>concept_label</text>
+        <text>(</text>
       </register>
       <register name="/" type="4">
-        <text>nextC</text>
+        <text>lastType</text>
       </register>
       <register name="0" type="4">
         <text>nextConceptIDX</text>
@@ -536,9 +536,9 @@
       </register>
     </registers>
     <search>
-      <last-search>nextC</last-search>
+      <last-search>lastType</last-search>
       <last-offset />
-      <last-pattern>nextC</last-pattern>
+      <last-pattern>lastType</last-pattern>
       <last-replace>action_type</last-replace>
       <last-substitute>transtion_type</last-substitute>
       <last-dir>1</last-dir>
@@ -607,6 +607,7 @@
         <entry>relMap</entry>
         <entry>wordToConcept</entry>
         <entry>nextC</entry>
+        <entry>lastType</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
