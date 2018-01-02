@@ -204,12 +204,12 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1514860273286">
+      <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1514860857251">
         <mark key="'" line="53" column="39" />
-        <mark key="[" line="97" column="45" />
-        <mark key="]" line="98" column="29" />
-        <mark key="^" line="98" column="29" />
-        <mark key="." line="98" column="29" />
+        <mark key="[" line="97" column="32" />
+        <mark key="]" line="97" column="34" />
+        <mark key="^" line="97" column="34" />
+        <mark key="." line="97" column="34" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -319,12 +319,12 @@
         <mark key="^" line="125" column="2" />
         <mark key="." line="109" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514860176175">
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514860948351">
         <mark key="'" line="252" column="19" />
-        <mark key="[" line="185" column="96" />
-        <mark key="]" line="186" column="45" />
-        <mark key="^" line="186" column="45" />
-        <mark key="." line="186" column="45" />
+        <mark key="[" line="186" column="16" />
+        <mark key="]" line="186" column="73" />
+        <mark key="^" line="186" column="73" />
+        <mark key="." line="186" column="73" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481283180076">
         <mark key="'" line="653" column="9" />
@@ -485,10 +485,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>c.gold</text>
+        <text>concept_idx = next_concept_idx</text>
       </register>
       <register name="-" type="4">
-        <text>c.gold</text>
+        <text>concept_idx = next_concept_idx</text>
       </register>
       <register name="/" type="4">
         <text>headToTail</text>
