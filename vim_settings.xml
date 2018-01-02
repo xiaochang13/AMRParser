@@ -100,10 +100,12 @@
         <mark key="." line="1063" column="47" />
         <mark key="^" line="1063" column="47" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514873574856">
-        <mark key="[" line="433" column="0" />
-        <mark key="]" line="433" column="0" />
-        <mark key="." line="433" column="0" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514875796753">
+        <mark key="'" line="1237" column="21" />
+        <mark key="[" line="87" column="41" />
+        <mark key="]" line="87" column="40" />
+        <mark key="." line="87" column="40" />
+        <mark key="^" line="87" column="40" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1510364711817">
         <mark key="'" line="90" column="14" />
@@ -393,7 +395,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="589" column="6" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="615" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="685" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="346" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
@@ -493,6 +494,7 @@
       <jump line="296" column="15" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
       <jump line="300" column="6" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
       <jump line="267" column="12" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
+      <jump line="1228" column="21" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -502,7 +504,7 @@
         <text>, re</text>
       </register>
       <register name="/" type="4">
-        <text>action</text>
+        <text>void trai</text>
       </register>
       <register name="0" type="4">
         <text>for cache_idx in range(c.cache_size):
@@ -540,9 +542,9 @@
       </register>
     </registers>
     <search>
-      <last-search>action</last-search>
+      <last-search>void trai</last-search>
       <last-offset />
-      <last-pattern>action</last-pattern>
+      <last-pattern>void trai</last-pattern>
       <last-replace>action_type</last-replace>
       <last-substitute>transtion_type</last-substitute>
       <last-dir>1</last-dir>
@@ -615,6 +617,7 @@
         <entry>chooseVertex</entry>
         <entry>headToTail</entry>
         <entry>action</entry>
+        <entry>void trai</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
@@ -641,8 +644,8 @@
         <entry>%s/transition_type/action_type/g</entry>
         <entry>%s/transtion_type/action_type/g</entry>
         <entry>374</entry>
-        <entry>1</entry>
         <entry>w;</entry>
+        <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
