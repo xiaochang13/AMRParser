@@ -80,12 +80,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1514914191282">
-        <mark key="'" line="963" column="51" />
-        <mark key="[" line="567" column="12" />
-        <mark key="]" line="567" column="13" />
-        <mark key="^" line="567" column="13" />
-        <mark key="." line="567" column="13" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1514918321008">
+        <mark key="'" line="527" column="23" />
+        <mark key="[" line="831" column="50" />
+        <mark key="]" line="831" column="56" />
+        <mark key="^" line="831" column="56" />
+        <mark key="." line="831" column="56" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -390,13 +390,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="895" column="61" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="1053" column="14" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="549" column="78" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="649" column="16" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="1058" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="48" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="51" column="35" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="794" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="889" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="44" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -414,7 +407,6 @@
       <jump line="753" column="15" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="1027" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="947" column="74" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="755" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="27" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="1062" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="820" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -490,62 +482,65 @@
       <jump line="960" column="56" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="481" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="957" column="51" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="616" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="6" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="600" column="36" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="9" column="8" filename="$USER_HOME$/SHRG-induction/hgraph.py" />
+      <jump line="755" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="756" column="15" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="769" column="15" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="527" column="23" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IG9yIHIgPT0gLTE=</text>
+        <text>dironly</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IG9yIHIgPT0gLTE=</text>
+        <text>dironly</text>
       </register>
       <register name="/" type="4">
-        <text>loadConllFile</text>
+        <text>txt</text>
       </register>
       <register name="0" type="4">
-        <text>counts = defaultdict(int)
-    for l in label_list:
-        counts[l] += 1
-    new_label_list = []
-    sorted_label_list = sorted(counts.items(), key=lambda x: -x[1])</text>
+        <text>inside_stat_f = open(&quot;inside_rule_stats_dironly.txt&quot;, 'w')
+            inorder_stat_f = open(&quot;inorder_rule_stats_dironly.txt&quot;, 'w')</text>
       </register>
-      <register name="1" type="4">
-        <text>#matched_list = extract_patterns(str(frag), '~e\.[0-9]+(,[0-9]+)*')
-            #matched_indexes = parse_indexes(matched_list)
-            #for matched_index in matched_indexes:
-            #    frag2map[frag].add(matched_index)</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaW5vcmRlcl9zdGF0X2YgPSBvcGVuKCJpbm9yZGVyX3J1bGVfc3RhdHNfbm9sYWJlbF9ub2Rpci50eHQiLCAndycpCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3BsaXRzID0gbGluZS5zcGxpdCgiXHQiKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW5zaWRlX3N0YXRfZiA9IG9wZW4oImluc2lkZV9ydWxlX3N0YXRzX25vbGFiZWxfbm9kaXIudHh0IiwgJ3cnKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgbGluZQo=</text>
+        <text encoding="base64">ICAgIGlub3JkZXJfc3RhdF9mID0gb3BlbigiaW5vcmRlcl9ydWxlX3N0YXRzLnR4dCIsICd3JykK</text>
       </register>
-      <register name="4" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICA=</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGluc2lkZV9zdGF0X2YgPSBvcGVuKCJpbnNpZGVfcnVsZV9zdGF0cy50eHQiLCAndycpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgbGluZToK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICNhc3NlcnQgc3RhcnQgPj0gY3Vycl9lbmQsIHNwYW5fbGlzdAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIC8vTWFwPFN0cmluZywgTWFwPFN0cmluZywgSW50ZWdlcj4+IHRva1RvQ29uY2VwdCA9IG5ldyBIYXNoTWFwPD4oKTsK</text>
+        <text encoding="base64">IyBydWxlX2YgPSBvcGVuKCJkZXJpdmF0aW9uLnR4dCIsICd3JykK</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIEJ1ZmZlcmVkUmVhZGVyIHJlYWRlciA9IG51bGw7Cg==</text>
+      <register name="9" type="4">
+        <text># import time
+import pickle</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>loadConllFile</last-search>
+      <last-search>txt</last-search>
       <last-offset />
-      <last-pattern>loadConllFile</last-pattern>
+      <last-pattern>txt</last-pattern>
       <last-replace>action_type</last-replace>
       <last-substitute>transtion_type</last-substitute>
       <last-dir>1</last-dir>
@@ -575,7 +570,6 @@
         <entry>map_to_order</entry>
         <entry>cached_triples</entry>
         <entry>edge_alignments</entry>
-        <entry>extract_derivation</entry>
         <entry>inside</entry>
         <entry>fragmentHGNode</entry>
         <entry>build_one</entry>
@@ -621,6 +615,9 @@
         <entry>void trai</entry>
         <entry>generateDict</entry>
         <entry>loadConllFile</entry>
+        <entry>extract_derivation</entry>
+        <entry>rule_stat</entry>
+        <entry>txt</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
@@ -650,8 +647,9 @@
         <entry>w;</entry>
         <entry>65</entry>
         <entry>71</entry>
-        <entry>1</entry>
         <entry>100</entry>
+        <entry>1</entry>
+        <entry>757</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
