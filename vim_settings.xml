@@ -80,12 +80,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1514911846563">
-        <mark key="'" line="957" column="51" />
-        <mark key="[" line="586" column="46" />
-        <mark key="]" line="586" column="57" />
-        <mark key="^" line="586" column="57" />
-        <mark key="." line="586" column="57" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1514914191282">
+        <mark key="'" line="963" column="51" />
+        <mark key="[" line="567" column="12" />
+        <mark key="]" line="567" column="13" />
+        <mark key="^" line="567" column="13" />
+        <mark key="." line="567" column="13" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -493,13 +493,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>#matched_list = extract_patterns(str(frag), '~e\.[0-9]+(,[0-9]+)*')
-            #matched_indexes = parse_indexes(matched_list)
-            #for matched_index in matched_indexes:
-            #    frag2map[frag].add(matched_index)</text>
+        <text encoding="base64">IG9yIHIgPT0gLTE=</text>
       </register>
       <register name="-" type="4">
-        <text>AMRGraph</text>
+        <text encoding="base64">IG9yIHIgPT0gLTE=</text>
       </register>
       <register name="/" type="4">
         <text>loadConllFile</text>
