@@ -319,12 +319,12 @@
         <mark key="^" line="125" column="2" />
         <mark key="." line="109" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514867881862">
-        <mark key="'" line="284" column="19" />
-        <mark key="[" line="215" column="42" />
-        <mark key="]" line="215" column="40" />
-        <mark key="^" line="215" column="40" />
-        <mark key="." line="215" column="40" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514869181296">
+        <mark key="'" line="267" column="12" />
+        <mark key="[" line="225" column="33" />
+        <mark key="]" line="225" column="33" />
+        <mark key="^" line="225" column="33" />
+        <mark key="." line="225" column="33" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481283180076">
         <mark key="'" line="653" column="9" />
@@ -382,9 +382,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="469" column="12" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="556" column="4" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="609" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="589" column="6" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="615" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="685" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -482,58 +479,61 @@
       <jump line="187" column="50" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
       <jump line="235" column="12" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
       <jump line="253" column="19" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
+      <jump line="296" column="15" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
+      <jump line="300" column="6" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
+      <jump line="267" column="12" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">Zm9yIA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgYWN0aW9uID0gIkFSQzoiCg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">Zm9yIA==</text>
       </register>
       <register name="/" type="4">
-        <text>headToTail</text>
+        <text>action</text>
       </register>
       <register name="0" type="4">
         <text>for cache_idx in range(c.cache_size):
             cache_word_idx, cache_concept_idx = c.getCache(cache_idx)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgLy9TeXN0ZW0uZXJyLnByaW50bG4oIkN1cnJlbnQgY29uY2VwdDoiICsgZ3JhcGguY29uY2VwdHMuZ2V0KCkpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgYWN0aW9uID0gIkFSQzoiCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAvL1N5c3RlbS5leGl0KDEpOwo=</text>
+        <text encoding="base64">ICAgICAgLy9TeXN0ZW0uZXJyLnByaW50bG4oIkN1cnJlbnQgY29uY2VwdDoiICsgZ3JhcGguY29uY2VwdHMuZ2V0KCkpCg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAvL1N5c3RlbS5leGl0KDEpOwo=</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAvL1N5c3RlbS5lcnIucHJpbnRsbigiR2V0IGhlcmUiKTsK</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>//System.err.println(graph.concepts.size());
         //System.
         //c.printConfig();</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">cHVibGljIGludCBjaG9vc2VWZXJ0ZXgoQU1SQ29uZmlndXJhdGlvbiBjLCBNYXA8SW50ZWdlciwgU2V0PEludGVnZXI+PiBoZWFkVG9UYWlsLAogICAgICAgICAgICAgICAgICAgICAgICAgIE1hcDxJbnRlZ2VyLCBTZXQ8SW50ZWdlcj4+IHRhaWxUb0hlYWQsIE1hcDxJbnRlZ2VyLCBJbnRlZ2VyPiB3b3JkVG9Db25jZXB0KSB7CiAgICBpbnQgbWF4RGlzdCA9IC0xOwogICAgaW50IG1heEluZGV4ID0gLTE7CiAgICBmb3IgKGludCBjYWNoZVBvcyA9IDA7IGNhY2hlUG9zIDwgYy5jYWNoZVNpemU7IGNhY2hlUG9zKyspIHsKICAgICAgaW50IGNhY2hlVmVydGV4ID0gYy5jYWNoZS5nZXQoY2FjaGVQb3MpLnNlY29uZDsKICAgICAgaW50IGN1cnJEaXN0ID0gMTAwMDsKICAgICAgaWYgKGNhY2hlVmVydGV4ID09IC0xKSB7CiAgICAgICAgcmV0dXJuIGNhY2hlUG9zOwogICAgICB9CiAgICAgIFNldDxJbnRlZ2VyPiB0YWlsU2V0ID0gaGVhZFRvVGFpbC5nZXQoY2FjaGVWZXJ0ZXgpOwogICAgICBTZXQ8SW50ZWdlcj4gaGVhZFNldCA9IG51bGw7CiAgICAgIGlmICh0YWlsVG9IZWFkLmNvbnRhaW5zS2V5KGNhY2hlVmVydGV4KSkKICAgICAgICBoZWFkU2V0ID0gdGFpbFRvSGVhZC5nZXQoY2FjaGVWZXJ0ZXgpOwogICAgICBmb3IgKGludCBidWZmZXJQb3MgPSAwOyBidWZmZXJQb3MgPCBjLmJ1ZmZlci5zaXplKCk7IGJ1ZmZlclBvcysrKSB7CiAgICAgICAgaW50IHdvcmRJbmRleCA9IGMuYnVmZmVyLmdldChidWZmZXJQb3MpOwogICAgICAgIGlmICh3b3JkVG9Db25jZXB0LmNvbnRhaW5zS2V5KHdvcmRJbmRleCkpIHsKICAgICAgICAgIGludCBidWZmSW5kZXggPSB3b3JkVG9Db25jZXB0LmdldCh3b3JkSW5kZXgpOwogICAgICAgICAgaWYgKHRhaWxTZXQuY29udGFpbnMoYnVmZkluZGV4KSB8fCAoaGVhZFNldCAhPSBudWxsICYmIGhlYWRTZXQuY29udGFpbnMoYnVmZkluZGV4KSkpIHsKICAgICAgICAgICAgY3VyckRpc3QgPSBidWZmZXJQb3M7CiAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfQogICAgICBpZiAoY3VyckRpc3QgPiBtYXhEaXN0KSB7CiAgICAgICAgbWF4SW5kZXggPSBjYWNoZVBvczsKICAgICAgICBtYXhEaXN0ID0gY3VyckRpc3Q7CiAgICAgIH0KICAgIH0KICAgIHJldHVybiBtYXhJbmRleDsKICB9</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBjYWNoZV9zaXplCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjYWNoZV9zaXplCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>headToTail</last-search>
+      <last-search>action</last-search>
       <last-offset />
-      <last-pattern>headToTail</last-pattern>
+      <last-pattern>action</last-pattern>
       <last-replace>action_type</last-replace>
       <last-substitute>transtion_type</last-substitute>
       <last-dir>1</last-dir>
@@ -605,6 +605,7 @@
         <entry>lastType</entry>
         <entry>chooseVertex</entry>
         <entry>headToTail</entry>
+        <entry>action</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
