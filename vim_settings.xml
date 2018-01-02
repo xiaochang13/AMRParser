@@ -204,12 +204,12 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1514860857251">
+      <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1514865426086">
         <mark key="'" line="53" column="39" />
-        <mark key="[" line="97" column="32" />
-        <mark key="]" line="97" column="34" />
-        <mark key="^" line="97" column="34" />
-        <mark key="." line="97" column="34" />
+        <mark key="[" line="100" column="30" />
+        <mark key="]" line="101" column="31" />
+        <mark key="^" line="101" column="31" />
+        <mark key="." line="101" column="31" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -319,12 +319,12 @@
         <mark key="^" line="125" column="2" />
         <mark key="." line="109" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514863240500">
-        <mark key="'" line="259" column="19" />
-        <mark key="[" line="192" column="47" />
-        <mark key="]" line="193" column="28" />
-        <mark key="^" line="193" column="28" />
-        <mark key="." line="193" column="28" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514865445113">
+        <mark key="'" line="275" column="19" />
+        <mark key="[" line="209" column="28" />
+        <mark key="]" line="209" column="72" />
+        <mark key="^" line="209" column="72" />
+        <mark key="." line="209" column="72" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481283180076">
         <mark key="'" line="653" column="9" />
@@ -485,16 +485,17 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>concept_idx = next_concept_idx</text>
+        <text encoding="base64">Zm9yIA==</text>
       </register>
       <register name="-" type="4">
-        <text>concept_idx = next_concept_idx</text>
+        <text encoding="base64">Zm9yIA==</text>
       </register>
       <register name="/" type="4">
         <text>headToTail</text>
       </register>
       <register name="0" type="4">
-        <text>gold_graph</text>
+        <text>for cache_idx in range(c.cache_size):
+            cache_word_idx, cache_concept_idx = c.getCache(cache_idx)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgLy9TeXN0ZW0uZXJyLnByaW50bG4oIkN1cnJlbnQgY29uY2VwdDoiICsgZ3JhcGguY29uY2VwdHMuZ2V0KCkpCg==</text>
