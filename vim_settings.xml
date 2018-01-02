@@ -199,12 +199,12 @@
         <mark key="^" line="432" column="3" />
         <mark key="." line="557" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" timestamp="1514878979571">
-        <mark key="'" line="65" column="4" />
-        <mark key="[" line="210" column="0" />
-        <mark key="]" line="210" column="0" />
-        <mark key="^" line="55" column="47" />
-        <mark key="." line="210" column="0" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" timestamp="1514881355521">
+        <mark key="'" line="142" column="4" />
+        <mark key="[" line="116" column="48" />
+        <mark key="]" line="117" column="42" />
+        <mark key="^" line="117" column="42" />
+        <mark key="." line="117" column="42" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/NeuralParam.java" timestamp="1489550491214">
         <mark key="'" line="16" column="40" />
@@ -492,11 +492,11 @@
       <jump line="47" column="4" filename="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgIC8vc2VudHMuYWRkKHNlbnRlbmNlKTsK</text>
+      <register name="&quot;" type="4">
+        <text>AMRGraph</text>
       </register>
       <register name="-" type="4">
-        <text>input</text>
+        <text>AMRGraph</text>
       </register>
       <register name="/" type="4">
         <text>loadConllFile</text>
@@ -509,31 +509,31 @@
     sorted_label_list = sorted(counts.items(), key=lambda x: -x[1])</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIC8vc2VudHMuYWRkKHNlbnRlbmNlKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3BsaXRzID0gbGluZS5zcGxpdCgiXHQiKQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgIC8vc2VudGVuY2Uuc2V0KENvcmVBbm5vdGF0aW9ucy5Ub2tlbnNBbm5vdGF0aW9uLmNsYXNzLCBzZW50ZW5jZVRva2Vucyk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgbGluZQo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIC8vdHJlZS5idWlsZERpc3RzKCk7Cg==</text>
+      <register name="3" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICA=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHRva19zZXFzID0gW10K</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgbGluZToK</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgIC8vTWFwPFN0cmluZywgTWFwPFN0cmluZywgSW50ZWdlcj4+IHRva1RvQ29uY2VwdCA9IG5ldyBIYXNoTWFwPD4oKTsK</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">Ly9Db3JlTWFwIHNlbnRlbmNlID0gbmV3IENvcmVMYWJlbCgpOwogICAgICAvL0xpc3Q8Q29yZUxhYmVsPiBzZW50ZW5jZVRva2VucyA9IG5ldyBBcnJheUxpc3Q8PigpOw==</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">ICAgIEJ1ZmZlcmVkUmVhZGVyIHJlYWRlciA9IG51bGw7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -645,7 +645,10 @@
         <entry>%s/transtion_type/action_type/g</entry>
         <entry>374</entry>
         <entry>w;</entry>
+        <entry>65</entry>
+        <entry>71</entry>
         <entry>1</entry>
+        <entry>100</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
