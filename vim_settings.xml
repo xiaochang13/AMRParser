@@ -87,6 +87,12 @@
         <mark key="^" line="831" column="56" />
         <mark key="." line="831" column="56" />
       </file>
+      <file name="$USER_HOME$/models/syntaxnet/dragnn/conll2017/conll_parser_trainer.sh" timestamp="1507655749168">
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="27" column="0" />
+        <mark key="." line="27" column="0" />
+        <mark key="^" line="29" column="0" />
+      </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
         <mark key="[" line="1063" column="48" />
@@ -94,12 +100,12 @@
         <mark key="." line="1063" column="47" />
         <mark key="^" line="1063" column="47" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514876366837">
+      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514925205525">
         <mark key="'" line="1053" column="2" />
         <mark key="[" line="87" column="41" />
-        <mark key="]" line="87" column="40" />
-        <mark key="." line="87" column="40" />
-        <mark key="^" line="87" column="40" />
+        <mark key="]" line="24" column="52" />
+        <mark key="." line="24" column="52" />
+        <mark key="^" line="24" column="52" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1510364711817">
         <mark key="'" line="90" column="14" />
@@ -107,6 +113,12 @@
         <mark key="]" line="23" column="0" />
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
+      </file>
+      <file name="/Library/Python/2.7/site-packages/keras/backend/tensorflow_backend.py" timestamp="1507516510612">
+        <mark key="[" line="317" column="18" />
+        <mark key="]" line="317" column="22" />
+        <mark key="^" line="317" column="22" />
+        <mark key="." line="317" column="22" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1510343548899">
         <mark key="'" line="13" column="0" />
@@ -199,12 +211,11 @@
         <mark key="^" line="432" column="3" />
         <mark key="." line="557" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" timestamp="1514923762580">
-        <mark key="'" line="147" column="4" />
-        <mark key="[" line="121" column="48" />
-        <mark key="]" line="122" column="54" />
-        <mark key="^" line="122" column="54" />
-        <mark key="." line="122" column="54" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" timestamp="1514925163415">
+        <mark key="[" line="153" column="0" />
+        <mark key="]" line="153" column="0" />
+        <mark key="^" line="152" column="61" />
+        <mark key="." line="153" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/NeuralParam.java" timestamp="1489550491214">
         <mark key="'" line="16" column="40" />
@@ -390,10 +401,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="794" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="889" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="44" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="298" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="42" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="43" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="38" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -490,57 +497,63 @@
       <jump line="756" column="15" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="769" column="15" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="527" column="23" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="136" column="30" filename="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" />
+      <jump line="129" column="0" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
+      <jump line="173" column="0" filename="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" />
+      <jump line="166" column="21" filename="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>dironly</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>dironly</text>
       </register>
       <register name="/" type="4">
-        <text>txt</text>
+        <text>writeConll</text>
       </register>
       <register name="0" type="4">
         <text>inside_stat_f = open(&quot;inside_rule_stats_dironly.txt&quot;, 'w')
             inorder_stat_f = open(&quot;inorder_rule_stats_dironly.txt&quot;, 'w')</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW5vcmRlcl9zdGF0X2YgPSBvcGVuKCJpbm9yZGVyX3J1bGVfc3RhdHNfbm9sYWJlbF9ub2Rpci50eHQiLCAndycpCg==</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW5zaWRlX3N0YXRfZiA9IG9wZW4oImluc2lkZV9ydWxlX3N0YXRzX25vbGFiZWxfbm9kaXIudHh0IiwgJ3cnKQo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIGlub3JkZXJfc3RhdF9mID0gb3BlbigiaW5vcmRlcl9ydWxlX3N0YXRzLnR4dCIsICd3JykK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIGluc2lkZV9zdGF0X2YgPSBvcGVuKCJpbnNpZGVfcnVsZV9zdGF0cy50eHQiLCAndycpCg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICNhc3NlcnQgc3RhcnQgPj0gY3Vycl9lbmQsIHNwYW5fbGlzdAo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">IyBydWxlX2YgPSBvcGVuKCJkZXJpdmF0aW9uLnR4dCIsICd3JykK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="q" type="4">
+        <text />
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIHByaW50VHJlZVN0YXRzKExpc3Q8RGVwZW5kZW5jeVRyZWU+IHRyZWVzKQogIHsKICAgIHByaW50VHJlZVN0YXRzKCIiLCB0cmVlcyk7CiAgfQp9</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAK</text>
+      </register>
+      <register name="6" type="4">
+        <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIHByaW50VHJlZVN0YXRzKFN0cmluZyBzdHIsIExpc3Q8RGVwZW5kZW5jeVRyZWU+IHRyZWVzKQogIHsKICAgIFN5c3RlbS5lcnIucHJpbnRsbihDb25maWcuU0VQQVJBVE9SICsgIiAiICsgc3RyKTsKICAgIGludCBuVHJlZXMgPSB0cmVlcy5zaXplKCk7CiAgICBpbnQgbm9uVHJlZSA9IDA7CiAgICBpbnQgbXVsdGlSb290ID0gMDsKICAgIGludCBub25Qcm9qZWN0aXZlID0gMDsKICAgIGZvciAoRGVwZW5kZW5jeVRyZWUgdHJlZSA6IHRyZWVzKSB7CiAgICAgIGlmICghdHJlZS5pc1RyZWUoKSkKICAgICAgICArK25vblRyZWU7CiAgICAgIGVsc2UKICAgICAgewogICAgICAgIGlmICghdHJlZS5pc1Byb2plY3RpdmUoKSkKICAgICAgICAgICsrbm9uUHJvamVjdGl2ZTsKICAgICAgICBpZiAoIXRyZWUuaXNTaW5nbGVSb290KCkpCiAgICAgICAgICArK211bHRpUm9vdDsKICAgICAgfQogICAgfQogICAgU3lzdGVtLmVyci5wcmludGYoIiNUcmVlczogJWQlbiIsIG5UcmVlcyk7CiAgICBTeXN0ZW0uZXJyLnByaW50ZigiJWQgdHJlZShzKSBhcmUgaWxsZWdhbCAoJS4yZiUlKS4lbiIsIG5vblRyZWUsIG5vblRyZWUgKiAxMDAuMCAvIG5UcmVlcyk7CiAgICBTeXN0ZW0uZXJyLnByaW50ZigiJWQgdHJlZShzKSBhcmUgbGVnYWwgYnV0IGhhdmUgbXVsdGlwbGUgcm9vdHMgKCUuMmYlJSkuJW4iLCBtdWx0aVJvb3QsIG11bHRpUm9vdCAqIDEwMC4wIC8gblRyZWVzKTsKICAgIFN5c3RlbS5lcnIucHJpbnRmKCIlZCB0cmVlKHMpIGFyZSBsZWdhbCBidXQgbm90IHByb2plY3RpdmUgKCUuMmYlJSkuJW4iLCBub25Qcm9qZWN0aXZlLCBub25Qcm9qZWN0aXZlICogMTAwLjAgLyBuVHJlZXMpOwogIH0=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAK</text>
+      </register>
       <register name="9" type="4">
-        <text># import time
-import pickle</text>
+        <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIHdyaXRlQ29ubGxGaWxlKFN0cmluZyBvdXRGaWxlLCBMaXN0PENvcmVNYXA+IHNlbnRlbmNlcywgTGlzdDxEZXBlbmRlbmN5VHJlZT4gdHJlZXMpCiAgewogICAgdHJ5CiAgICB7CiAgICAgIFByaW50V3JpdGVyIG91dHB1dCA9IElPVXRpbHMuZ2V0UHJpbnRXcml0ZXIob3V0RmlsZSk7CgogICAgICBmb3IgKGludCBpID0gMDsgaSA8IHNlbnRlbmNlcy5zaXplKCk7IGkrKykKICAgICAgewogICAgICAgIENvcmVNYXAgc2VudGVuY2UgPSBzZW50ZW5jZXMuZ2V0KGkpOwogICAgICAgIERlcGVuZGVuY3lUcmVlIHRyZWUgPSB0cmVlcy5nZXQoaSk7CgogICAgICAgIExpc3Q8Q29yZUxhYmVsPiB0b2tlbnMgPSBzZW50ZW5jZS5nZXQoQ29yZUFubm90YXRpb25zLlRva2Vuc0Fubm90YXRpb24uY2xhc3MpOwoKICAgICAgICBmb3IgKGludCBqID0gMSwgc2l6ZSA9IHRva2Vucy5zaXplKCk7IGogPD0gc2l6ZTsgKytqKQogICAgICAgIHsKICAgICAgICAgIENvcmVMYWJlbCB0b2tlbiA9IHRva2Vucy5nZXQoaiAtIDEpOwogICAgICAgICAgb3V0cHV0LnByaW50ZigiJWRcdCVzXHRfXHQlc1x0JXNcdF9cdCVkXHQlc1x0X1x0XyVuIiwKICAgICAgICAgICAgICBqLCB0b2tlbi53b3JkKCksIHRva2VuLnRhZygpLCB0b2tlbi50YWcoKSwKICAgICAgICAgICAgICB0cmVlLmdldEhlYWQoaiksIHRyZWUuZ2V0TGFiZWwoaikpOwogICAgICAgIH0KICAgICAgICBvdXRwdXQucHJpbnRsbigpOwogICAgICB9CiAgICAgIG91dHB1dC5jbG9zZSgpOwogICAgfQogICAgY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgIHRocm93IG5ldyBSdW50aW1lSU9FeGNlcHRpb24oZSk7CiAgICB9CiAgfQ==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>txt</last-search>
+      <last-search>writeConll</last-search>
       <last-offset />
-      <last-pattern>txt</last-pattern>
+      <last-pattern>writeConll</last-pattern>
       <last-replace>action_type</last-replace>
       <last-substitute>transtion_type</last-substitute>
       <last-dir>1</last-dir>
@@ -618,6 +631,8 @@ import pickle</text>
         <entry>extract_derivation</entry>
         <entry>rule_stat</entry>
         <entry>txt</entry>
+        <entry>loadAMRFi</entry>
+        <entry>writeConll</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
