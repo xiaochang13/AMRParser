@@ -66,8 +66,8 @@
         <mark key="." line="122" column="20" />
         <mark key="^" line="122" column="20" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1515000730803">
-        <mark key="'" line="1163" column="23" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1515003195689">
+        <mark key="'" line="1819" column="63" />
         <mark key="[" line="2531" column="106" />
         <mark key="]" line="2531" column="109" />
         <mark key="^" line="2531" column="109" />
@@ -129,12 +129,12 @@
         <mark key="." line="1063" column="47" />
         <mark key="^" line="1063" column="47" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515001178635">
-        <mark key="'" line="7" column="0" />
-        <mark key="[" line="111" column="0" />
-        <mark key="]" line="111" column="0" />
-        <mark key="^" line="10" column="8" />
-        <mark key="." line="111" column="0" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515004237270">
+        <mark key="'" line="167" column="11" />
+        <mark key="[" line="93" column="27" />
+        <mark key="]" line="93" column="26" />
+        <mark key="^" line="93" column="26" />
+        <mark key="." line="93" column="26" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1510364711817">
         <mark key="'" line="90" column="14" />
@@ -185,6 +185,11 @@
         <mark key="^" line="572" column="53" />
         <mark key="." line="572" column="53" />
       </file>
+      <file name="$USER_HOME$/AMRParser/CacheTransition/categorize_amr.py" timestamp="1515003310892">
+        <mark key="'" line="10" column="0" />
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="14" />
+      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
         <mark key="[" line="81" column="17" />
@@ -218,12 +223,6 @@
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
         <mark key="^" line="1" column="0" />
-      </file>
-      <file name="$USER_HOME$/SHRG-induction/amr_graph.py" timestamp="1513370788751">
-        <mark key="'" line="427" column="0" />
-        <mark key="[" line="1435" column="0" />
-        <mark key="]" line="1435" column="0" />
-        <mark key="." line="1435" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1510089736605">
         <mark key="'" line="245" column="13" />
@@ -325,7 +324,8 @@
         <mark key="^" line="432" column="3" />
         <mark key="." line="557" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" timestamp="1514957443431">
+      <file name="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" timestamp="1515003610037">
+        <mark key="'" line="328" column="17" />
         <mark key="[" line="60" column="57" />
         <mark key="]" line="61" column="15" />
         <mark key="." line="61" column="15" />
@@ -388,21 +388,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="43" column="1" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
-      <jump line="148" column="27" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
-      <jump line="1172" column="25" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="2154" column="25" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="2381" column="25" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="914" column="29" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="63" column="0" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
-      <jump line="58" column="2" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
-      <jump line="37" column="15" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
-      <jump line="52" column="4" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
-      <jump line="1174" column="15" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="1936" column="88" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="192" column="39" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="173" column="22" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
-      <jump line="32" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/dependency.py" />
       <jump line="22" column="32" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
       <jump line="12" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/dependency.py" />
       <jump line="10" column="10" filename="$USER_HOME$/AMRParser/CacheTransition/dependency.py" />
@@ -488,75 +473,84 @@
       <jump line="780" column="2" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="544" column="2" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="7" column="0" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
+      <jump line="46" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
+      <jump line="1819" column="63" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="34" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
+      <jump line="5" column="14" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
+      <jump line="10" column="0" filename="$USER_HOME$/AMRParser/CacheTransition/categorize_amr.py" />
+      <jump line="8" column="6" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
+      <jump line="34" column="23" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
+      <jump line="328" column="17" filename="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" />
+      <jump line="306" column="16" filename="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" />
+      <jump line="50" column="25" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
+      <jump line="62" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
+      <jump line="88" column="33" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
+      <jump line="146" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
+      <jump line="61" column="0" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
+      <jump line="164" column="11" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>if succeed:
+                print</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>input</text>
       </register>
       <register name="/" type="4">
-        <text>train_num</text>
+        <text>self.cache_size</text>
       </register>
       <register name="0" type="4">
-        <text>initTokens</text>
+        <text>CacheTransitionParser</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>if succeed:
+                print</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tZGF0YV9kaXIiLCB0eXBlPXN0ciwgaGVscD0iVGhlIGRhdGEgZGlyZWN0b3J5IGZvciB0aGUgaW5wdXQgZmlsZXMuIikK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmKToK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLndvcmRJRHMgPSB7fQo=</text>
+      <register name="4" type="4">
+        <text>argparser.add_argument(&quot;--min_var_freq&quot;, type=int, default=50, help=&quot;threshold for filtering non predicate variables&quot;)
+    argparser.add_argument(&quot;--index_unknown&quot;, action=&quot;store_true&quot;, help=&quot;if to index the unknown predicates or non predicate variables&quot;)</text>
       </register>
-      <register name="5" type="4">
-        <text>self.connectWordDistToCount = defaultdict(int)
-        self.nonConnectDistToCount = defaultdict(int)
-        self.depConnectDistToCount = defaultdict(int)
-        self.depNonConnectDistToCount = defaultdict(int)
-
-        self.wordConceptCounts = defaultdict(int)
-        self.lemmaConceptCounts = defaultdict(int)
-        self.mleConceptID = defaultdict(int)
-        self.lemMLEConceptID = defaultdict(int)
-        self.conceptIDDict = defaultdict(int)
-        self.unalignedSet = defaultdict(int)
-
-        self.wordIDs = {}
-        self.lemmaIDs = {}
-        self.conceptIDs = {}
-        self.posIDs = {}
-        self.depIDs = {}
-        self.arcIDs = {}</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>argparser.add_argument(&quot;--map_file&quot;, type=str, help=&quot;map file from training&quot;)
+    argparser.add_argument(&quot;--date_file&quot;, type=str, help=&quot;all the date in each sentence&quot;)
+    argparser.add_argument(&quot;--run_dir&quot;, type=str, help=&quot;the output directory for saving the constructed forest&quot;)
+    argparser.add_argument(&quot;--use_lemma&quot;, action=&quot;store_true&quot;, help=&quot;if use lemmatized tokens&quot;)
+    argparser.add_argument(&quot;--parallel&quot;, action=&quot;store_true&quot;, help=&quot;if to linearize parallel sequences&quot;)
+    argparser.add_argument(&quot;--use_stats&quot;, action=&quot;store_true&quot;, help=&quot;if use a built-up statistics&quot;)
+    argparser.add_argument(&quot;--stats_dir&quot;, type=str, help=&quot;the statistics directory&quot;)</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="8" type="4">
+        <text>argparser.add_argument(&quot;--amr_file&quot;, type=str, help=&quot;the original AMR graph files&quot;, required=False)
+    argparser.add_argument(&quot;--stop&quot;, type=str, help=&quot;stop words file&quot;, required=False)
+    argparser.add_argument(&quot;--lemma&quot;, type=str, help=&quot;lemma file&quot;, required=False)</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>1</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>train_num</last-search>
+      <last-search>self.cache_size</last-search>
       <last-offset />
-      <last-pattern>train_num</last-pattern>
+      <last-pattern>self.cache_size</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -587,6 +581,7 @@
         <entry>oracleSeq</entry>
         <entry>training_set</entry>
         <entry>train_num</entry>
+        <entry>self.cache_size</entry>
       </history-search>
       <history-cmd>
         <entry>616</entry>
@@ -610,8 +605,8 @@
         <entry>145</entry>
         <entry>%s/training_set/data_set/g</entry>
         <entry>%s/train_num/data_num/g</entry>
-        <entry>w</entry>
         <entry>1</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
