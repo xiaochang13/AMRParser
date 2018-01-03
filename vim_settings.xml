@@ -94,12 +94,12 @@
         <mark key="." line="1063" column="47" />
         <mark key="^" line="1063" column="47" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514929590645">
-        <mark key="'" line="1098" column="6" />
-        <mark key="[" line="97" column="20" />
-        <mark key="]" line="97" column="42" />
-        <mark key="." line="97" column="42" />
-        <mark key="^" line="97" column="42" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514948669501">
+        <mark key="'" line="1026" column="6" />
+        <mark key="[" line="684" column="2" />
+        <mark key="]" line="684" column="0" />
+        <mark key="." line="684" column="0" />
+        <mark key="^" line="684" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1510364711817">
         <mark key="'" line="90" column="14" />
@@ -199,11 +199,11 @@
         <mark key="^" line="432" column="3" />
         <mark key="." line="557" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" timestamp="1514947249448">
-        <mark key="[" line="76" column="0" />
-        <mark key="]" line="77" column="33" />
-        <mark key="^" line="77" column="33" />
-        <mark key="." line="77" column="33" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" timestamp="1514948731657">
+        <mark key="[" line="29" column="22" />
+        <mark key="]" line="29" column="22" />
+        <mark key="^" line="29" column="23" />
+        <mark key="." line="29" column="22" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/NeuralParam.java" timestamp="1489550491214">
         <mark key="'" line="16" column="40" />
@@ -492,19 +492,20 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>arcs</text>
+        <text>P</text>
       </register>
       <register name="-" type="4">
-        <text>arcs</text>
+        <text>P</text>
       </register>
       <register name="/" type="4">
         <text>genDict</text>
       </register>
       <register name="0" type="4">
-        <text>dist_threshold</text>
+        <text>self.known_deps.insert(0, UNKNOWN)
+        self.known_deps.insert(1, NULL)</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">LyoqCiAgICogU2NhbiBhIGNvcnB1cyBhbmQgc3RvcmUgYWxsIHdvcmRzLCBwYXJ0LW9mLXNwZWVjaCB0YWdzLCBhbmQKICAgKiBkZXBlbmRlbmN5IHJlbGF0aW9uIGxhYmVscyBvYnNlcnZlZC4gUHJlcGFyZSBvdGhlciBzdHJ1Y3R1cmVzCiAgICogd2hpY2ggc3VwcG9ydCB3b3JkIC8gUE9TIC8gbGFiZWwgbG9va3VwIGF0IHRyYWluLSAvIHJ1bi10aW1lLgogICAqLwogIHByaXZhdGUgdm9pZCBnZW5EaWN0aW9uYXJpZXMoTGlzdDxTdHJpbmdbXT4gdG9rZW5zLCBMaXN0PFN0cmluZ1tdPiBsZW1tYXMsIExpc3Q8U3RyaW5nW10+IHBvc1RhZ3MsIExpc3Q8RGVwZW5kZW5jeVRyZWU+IHRyZWVzLCBMaXN0PEFNUkdyYXBoPiBncmFwaHMpIHsKICAgIC8vIENvbGxlY3QgYWxsIHdvcmRzICghKSwgZXRjLiBpbiBsaXN0cywgdGFja2luZyBvbiBvbmUgc2VudGVuY2UKICAgIC8vIGFmdGVyIHRoZSBvdGhlcgogICAgTGlzdDxTdHJpbmc+IHdvcmQgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIExpc3Q8U3RyaW5nPiBsZW0gPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIExpc3Q8U3RyaW5nPiBwb3MgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIExpc3Q8U3RyaW5nPiBkZXAgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIExpc3Q8U3RyaW5nPiBjb25jZXB0cyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgTGlzdDxTdHJpbmc+IGFyY3MgPSBuZXcgQXJyYXlMaXN0PD4oKTsKCiAgICBmb3IgKFN0cmluZ1tdIHRva1NlcSA6IHRva2VucykKICAgICAgZm9yIChTdHJpbmcgdG9rIDogdG9rU2VxKQogICAgICAgIHdvcmQuYWRkKHRvayk7CgogICAgZm9yIChTdHJpbmdbXSBsZW1TZXEgOiBsZW1tYXMpCiAgICAgIGZvciAoU3RyaW5nIGxlbW1hIDogbGVtU2VxKQogICAgICAgIGxlbS5hZGQobGVtbWEpOwoKICAgIGZvciAoU3RyaW5nW10gcG9zU2VxIDogcG9zVGFncykKICAgICAgZm9yIChTdHJpbmcgdG9rIDogcG9zU2VxKQogICAgICAgIHBvcy5hZGQodG9rKTsKCiAgICBmb3IgKERlcGVuZGVuY3lUcmVlIHRyZWU6IHRyZWVzKSB7CiAgICAgIGZvciAoU3RyaW5nIGxhYjogdHJlZS5sYWJlbCkgewogICAgICAgIGRlcC5hZGQobGFiKTsKICAgICAgfQogICAgfQoKICAgIGZvciAoQU1SR3JhcGggZ3JhcGggOiBncmFwaHMpIHsKICAgICAgLy9pbnQgcm9vdEluZGV4ID0gZ3JhcGgucm9vdDsKICAgICAgZm9yIChDb25jZXB0TGFiZWwgYyA6IGdyYXBoLmNvbmNlcHRzKSB7CiAgICAgICAgY29uY2VwdHMuYWRkKGMudmFsdWUoKSk7CiAgICAgICAgZm9yIChTdHJpbmcgcyA6IGMucmVscykKICAgICAgICAgIGFyY3MuYWRkKHMpOwogICAgICB9CiAgICB9CgogICAgLy8gR2VuZXJhdGUgImRpY3Rpb25hcmllcywiIHBvc3NpYmx5IHdpdGggZnJlcXVlbmN5IGN1dG9mZgogICAga25vd25Xb3JkcyA9IFV0aWwuZ2VuZXJhdGVEaWN0KHdvcmQsIGNvbmZpZy53b3JkQ3V0T2ZmKTsKICAgIGtub3duTGVtbWFzID0gVXRpbC5nZW5lcmF0ZURpY3QobGVtKTsKICAgIGtub3duUG9zID0gVXRpbC5nZW5lcmF0ZURpY3QocG9zKTsKICAgIGtub3duRGVwcyA9IFV0aWwuZ2VuZXJhdGVEaWN0KGRlcCk7CiAgICBrbm93bkNvbmNlcHRzID0gVXRpbC5nZW5lcmF0ZURpY3QoY29uY2VwdHMpOwogICAgLy9jb25maWcuYXJjQ3V0T2ZmID0gMTA7IC8vbmVlZHMgdG8gYmUgY29tbWVudGVkCiAgICBrbm93bkFyY3MgPSBVdGlsLnRvcERpY3QoYXJjcywgY29uZmlnLmFyY0N1dE9mZik7CgogICAga25vd25Xb3Jkcy5hZGQoMCwgQ29uZmlnLlVOS05PV04pOyAvL1Rva2VucyBpbiB0aGUgYnVmZmVyIHRvIGJlIHByb2Nlc3NlZAogICAga25vd25Xb3Jkcy5hZGQoMSwgQ29uZmlnLk5VTEwpOwogICAga25vd25MZW1tYXMuYWRkKDAsIENvbmZpZy5VTktOT1dOKTsKICAgIGtub3duTGVtbWFzLmFkZCgxLCBDb25maWcuTlVMTCk7CiAgICBrbm93blBvcy5hZGQoMCwgQ29uZmlnLlVOS05PV04pOwogICAga25vd25Qb3MuYWRkKDEsIENvbmZpZy5OVUxMKTsKICAgIGtub3duRGVwcy5hZGQoMCwgQ29uZmlnLlVOS05PV04pOwogICAga25vd25EZXBzLmFkZCgxLCBDb25maWcuTlVMTCk7CgogICAga25vd25BcmNzLmFkZCgwLCBDb25maWcuVU5LTk9XTik7CiAgICBrbm93bkFyY3MuYWRkKDEsIENvbmZpZy5OVUxMKTsgLy9JbiBjYXNlIGluIHRoZSBjdXJyZW50IHNldHRpbmcgdGhlcmUgaXMgbm90CgogICAga25vd25Db25jZXB0cy5hZGQoMCwgQ29uZmlnLlVOS05PV04pOwogICAga25vd25Db25jZXB0cy5hZGQoMSwgQ29uZmlnLk5VTEwpOwoKICAgIGFsbExhYmVscyA9IG5ldyBBcnJheUxpc3Q8Pihrbm93bldvcmRzKTsKICAgIGFsbExhYmVscy5hZGRBbGwoa25vd25MZW1tYXMpOwogICAgYWxsTGFiZWxzLmFkZEFsbChrbm93blBvcyk7CiAgICBhbGxMYWJlbHMuYWRkQWxsKGtub3duRGVwcyk7CiAgICBhbGxMYWJlbHMuYWRkQWxsKGtub3duQ29uY2VwdHMpOwogICAgYWxsTGFiZWxzLmFkZEFsbChrbm93bkFyY3MpOwo=</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -512,11 +513,14 @@
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="4">
         <text>for seq in self.tok_seqs:
             for l in</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>def flattenedSeq(self, all_seqs):
         labels = []
         for seq in all_seqs:
@@ -524,20 +528,17 @@
                 labels.append(tok)
         return labels</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">ICAK</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIHByaW50VHJlZVN0YXRzKExpc3Q8RGVwZW5kZW5jeVRyZWU+IHRyZWVzKQogIHsKICAgIHByaW50VHJlZVN0YXRzKCIiLCB0cmVlcyk7CiAgfQp9</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
