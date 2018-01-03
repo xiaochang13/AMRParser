@@ -199,11 +199,11 @@
         <mark key="^" line="432" column="3" />
         <mark key="." line="557" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" timestamp="1514946479116">
-        <mark key="[" line="59" column="58" />
-        <mark key="]" line="59" column="56" />
-        <mark key="^" line="59" column="56" />
-        <mark key="." line="59" column="56" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" timestamp="1514947249448">
+        <mark key="[" line="76" column="0" />
+        <mark key="]" line="77" column="33" />
+        <mark key="^" line="77" column="33" />
+        <mark key="." line="77" column="33" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/NeuralParam.java" timestamp="1489550491214">
         <mark key="'" line="16" column="40" />
@@ -492,11 +492,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>for seq in self.tok_seqs:
-            for l in</text>
+        <text>arcs</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">c2VsZiwg</text>
+        <text>arcs</text>
       </register>
       <register name="/" type="4">
         <text>genDict</text>
@@ -504,14 +503,20 @@
       <register name="0" type="4">
         <text>dist_threshold</text>
       </register>
-      <register name="1" type="4">
-        <text>for seq in self.tok_seqs:
-            for l in</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="4">
+        <text>for seq in self.tok_seqs:
+            for l in</text>
+      </register>
+      <register name="4" type="4">
         <text>def flattenedSeq(self, all_seqs):
         labels = []
         for seq in all_seqs:
@@ -519,26 +524,20 @@
                 labels.append(tok)
         return labels</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAK</text>
-      </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIHByaW50VHJlZVN0YXRzKExpc3Q8RGVwZW5kZW5jeVRyZWU+IHRyZWVzKQogIHsKICAgIHByaW50VHJlZVN0YXRzKCIiLCB0cmVlcyk7CiAgfQp9</text>
-      </register>
-      <register name="7" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAK</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name="8" type="4">
-        <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIHByaW50VHJlZVN0YXRzKFN0cmluZyBzdHIsIExpc3Q8RGVwZW5kZW5jeVRyZWU+IHRyZWVzKQogIHsKICAgIFN5c3RlbS5lcnIucHJpbnRsbihDb25maWcuU0VQQVJBVE9SICsgIiAiICsgc3RyKTsKICAgIGludCBuVHJlZXMgPSB0cmVlcy5zaXplKCk7CiAgICBpbnQgbm9uVHJlZSA9IDA7CiAgICBpbnQgbXVsdGlSb290ID0gMDsKICAgIGludCBub25Qcm9qZWN0aXZlID0gMDsKICAgIGZvciAoRGVwZW5kZW5jeVRyZWUgdHJlZSA6IHRyZWVzKSB7CiAgICAgIGlmICghdHJlZS5pc1RyZWUoKSkKICAgICAgICArK25vblRyZWU7CiAgICAgIGVsc2UKICAgICAgewogICAgICAgIGlmICghdHJlZS5pc1Byb2plY3RpdmUoKSkKICAgICAgICAgICsrbm9uUHJvamVjdGl2ZTsKICAgICAgICBpZiAoIXRyZWUuaXNTaW5nbGVSb290KCkpCiAgICAgICAgICArK211bHRpUm9vdDsKICAgICAgfQogICAgfQogICAgU3lzdGVtLmVyci5wcmludGYoIiNUcmVlczogJWQlbiIsIG5UcmVlcyk7CiAgICBTeXN0ZW0uZXJyLnByaW50ZigiJWQgdHJlZShzKSBhcmUgaWxsZWdhbCAoJS4yZiUlKS4lbiIsIG5vblRyZWUsIG5vblRyZWUgKiAxMDAuMCAvIG5UcmVlcyk7CiAgICBTeXN0ZW0uZXJyLnByaW50ZigiJWQgdHJlZShzKSBhcmUgbGVnYWwgYnV0IGhhdmUgbXVsdGlwbGUgcm9vdHMgKCUuMmYlJSkuJW4iLCBtdWx0aVJvb3QsIG11bHRpUm9vdCAqIDEwMC4wIC8gblRyZWVzKTsKICAgIFN5c3RlbS5lcnIucHJpbnRmKCIlZCB0cmVlKHMpIGFyZSBsZWdhbCBidXQgbm90IHByb2plY3RpdmUgKCUuMmYlJSkuJW4iLCBub25Qcm9qZWN0aXZlLCBub25Qcm9qZWN0aXZlICogMTAwLjAgLyBuVHJlZXMpOwogIH0=</text>
+        <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIHByaW50VHJlZVN0YXRzKExpc3Q8RGVwZW5kZW5jeVRyZWU+IHRyZWVzKQogIHsKICAgIHByaW50VHJlZVN0YXRzKCIiLCB0cmVlcyk7CiAgfQp9</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
