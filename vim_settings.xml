@@ -94,12 +94,12 @@
         <mark key="." line="1063" column="47" />
         <mark key="^" line="1063" column="47" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514956867074">
-        <mark key="'" line="602" column="2" />
-        <mark key="[" line="112" column="42" />
-        <mark key="]" line="113" column="40" />
-        <mark key="." line="113" column="40" />
-        <mark key="^" line="113" column="40" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514957527525">
+        <mark key="'" line="604" column="2" />
+        <mark key="[" line="115" column="19" />
+        <mark key="]" line="115" column="12" />
+        <mark key="." line="115" column="12" />
+        <mark key="^" line="115" column="12" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1510364711817">
         <mark key="'" line="90" column="14" />
@@ -199,11 +199,11 @@
         <mark key="^" line="432" column="3" />
         <mark key="." line="557" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" timestamp="1514956000911">
-        <mark key="[" line="37" column="27" />
-        <mark key="]" line="39" column="33" />
-        <mark key="." line="39" column="33" />
-        <mark key="^" line="39" column="33" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" timestamp="1514957443431">
+        <mark key="[" line="60" column="57" />
+        <mark key="]" line="61" column="15" />
+        <mark key="." line="61" column="15" />
+        <mark key="^" line="61" column="15" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/NeuralParam.java" timestamp="1489550491214">
         <mark key="'" line="16" column="40" />
@@ -492,10 +492,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>arc_labels</text>
+        <text>(</text>
       </register>
       <register name="-" type="4">
-        <text>arc_labels</text>
+        <text>(</text>
       </register>
       <register name="/" type="4">
         <text>generateC</text>
@@ -505,22 +505,25 @@
 UNKNOWN = &quot;-UNK-&quot;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">VU5LTk9XTiA9ICJVTktOT1dOIgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGVtX3NlcSA9IHRyYWluaQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">VU5LTk9XTiA9ICJVTktOT1dOIgo=</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>conceptID_path = os.path.join(output_dir, &quot;conceptID.txt&quot;)
         mleConceptID_path = os.path.join(output_dir, &quot;mleConceptID.txt&quot;)</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>{
     generateIDs();
 
@@ -533,17 +536,14 @@ UNKNOWN = &quot;-UNK-&quot;</text>
     System.err.println(&quot;#Arcs: &quot; + knownArcs.size());
   }</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBwcmludD4+IHN5cy5zdGRlcnIsICIjVG9rZW5zOiAlZCIgJSBsZW4oc2VsZi5rbm93bl90b2tzKQo=</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAK</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text encoding="base64">LyoqCiAgICogR2VuZXJhdGUgdW5pcXVlIGludGVnZXIgSURzIGZvciBhbGwga25vd24gd29yZHMgLyBwYXJ0LW9mLXNwZWVjaAogICAqIHRhZ3MgLyBkZXBlbmRlbmN5IHJlbGF0aW9uIGxhYmVscy4KICAgKgogICAqIEFsbCB0aHJlZSBvZiB0aGUgYWZvcmVtZW50aW9uZWQgdHlwZXMgYXJlIGFzc2lnbmVkIElEcyBmcm9tIGEKICAgKiBjb250aW51b3VzIHJhbmdlIG9mIGludGVnZXJzOyBhbGwgSURzIDAgPD0gSUQgPCBuX3cgYXJlIHdvcmQgSURzLAogICAqIGFsbCBJRHMgbl93IDw9IElEIDwgbl93ICsgbl9wb3MgYXJlIFBPUyB0YWcgSURzLCBhbmQgc28gb24uCiAgICov</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
