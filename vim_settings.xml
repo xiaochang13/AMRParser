@@ -129,12 +129,12 @@
         <mark key="." line="1063" column="47" />
         <mark key="^" line="1063" column="47" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514994989267">
-        <mark key="'" line="582" column="21" />
-        <mark key="[" line="152" column="32" />
-        <mark key="]" line="153" column="45" />
-        <mark key="." line="153" column="45" />
-        <mark key="^" line="153" column="45" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514995835057">
+        <mark key="'" line="585" column="21" />
+        <mark key="[" line="132" column="36" />
+        <mark key="]" line="134" column="26" />
+        <mark key="." line="134" column="26" />
+        <mark key="^" line="134" column="26" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1510364711817">
         <mark key="'" line="90" column="14" />
@@ -491,7 +491,8 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>oracle</text>
+        <text>if oracle_action == &quot;POP&quot;:
+                        cac</text>
       </register>
       <register name="-" type="4">
         <text>oracle</text>
@@ -502,33 +503,37 @@
       <register name="0" type="4">
         <text>initTokens</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCA+PiBzeXMuc3RkZXJyLCAiIgo=</text>
+      <register name="1" type="4">
+        <text>if oracle_action == &quot;POP&quot;:
+                        cac</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCA+PiBzeXMuc3RkZXJyLCAiIgo=</text>
+      </register>
+      <register name="3" type="4">
         <text>c.lemSeq = lem_seq
             c.posSeq = pos_seq</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbGVtX3NlcSA9IHRyYWluaQo=</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">VU5LTk9XTiA9ICJVTktOT1dOIgo=</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>conceptID_path = os.path.join(output_dir, &quot;conceptID.txt&quot;)
         mleConceptID_path = os.path.join(output_dir, &quot;mleConceptID.txt&quot;)</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>{
     generateIDs();
 
@@ -540,9 +545,6 @@
     System.err.println(&quot;#Concepts: &quot; + knownConcepts.size());
     System.err.println(&quot;#Arcs: &quot; + knownArcs.size());
   }</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludD4+IHN5cy5zdGRlcnIsICIjVG9rZW5zOiAlZCIgJSBsZW4oc2VsZi5rbm93bl90b2tzKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
