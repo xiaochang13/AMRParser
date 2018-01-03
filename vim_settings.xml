@@ -94,11 +94,12 @@
         <mark key="." line="1063" column="47" />
         <mark key="^" line="1063" column="47" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514952861619">
-        <mark key="'" line="586" column="2" />
-        <mark key="[" line="653" column="0" />
-        <mark key="]" line="653" column="0" />
-        <mark key="." line="653" column="0" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1514956293311">
+        <mark key="'" line="599" column="2" />
+        <mark key="[" line="108" column="38" />
+        <mark key="]" line="108" column="37" />
+        <mark key="." line="108" column="37" />
+        <mark key="^" line="108" column="37" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1510364711817">
         <mark key="'" line="90" column="14" />
@@ -198,11 +199,11 @@
         <mark key="^" line="432" column="3" />
         <mark key="." line="557" column="0" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" timestamp="1514955054323">
+      <file name="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" timestamp="1514956000911">
         <mark key="[" line="37" column="27" />
-        <mark key="]" line="39" column="31" />
-        <mark key="." line="39" column="31" />
-        <mark key="^" line="39" column="31" />
+        <mark key="]" line="39" column="33" />
+        <mark key="." line="39" column="33" />
+        <mark key="^" line="39" column="33" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/NeuralParam.java" timestamp="1489550491214">
         <mark key="'" line="16" column="40" />
@@ -266,8 +267,8 @@
         <mark key="." line="122" column="20" />
         <mark key="^" line="122" column="20" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1514954794351">
-        <mark key="'" line="1260" column="19" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1514956168819">
+        <mark key="'" line="1820" column="33" />
         <mark key="[" line="2531" column="106" />
         <mark key="]" line="2531" column="109" />
         <mark key="^" line="2531" column="109" />
@@ -326,11 +327,11 @@
         <mark key="^" line="23" column="30" />
         <mark key="." line="23" column="30" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514877185973">
-        <mark key="[" line="2" column="0" />
-        <mark key="]" line="3" column="16" />
-        <mark key="^" line="228" column="17" />
-        <mark key="." line="20" column="0" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1514956202280">
+        <mark key="[" line="68" column="17" />
+        <mark key="]" line="68" column="29" />
+        <mark key="^" line="68" column="29" />
+        <mark key="." line="68" column="29" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481283180076">
         <mark key="'" line="653" column="9" />
@@ -388,8 +389,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="947" column="74" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="27" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="1062" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="820" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="768" column="32" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -485,30 +484,43 @@
       <jump line="60" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="1098" column="6" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="586" column="2" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="15" column="3" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1260" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="68" column="45" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="15" column="3" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1201" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1820" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>arc_labels</text>
       </register>
       <register name="-" type="4">
-        <text>toks</text>
+        <text>arc_labels</text>
       </register>
       <register name="/" type="4">
         <text>generateC</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cHJpbnQ+PiBzeXMuc3RkZXJyLCAiI1Rva2VuczogJWQiICUgbGVuKHNlbGYua25vd25fdG9rcyk=</text>
+        <text>NULL = &quot;-NULL-&quot;
+UNKNOWN = &quot;-UNK-&quot;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">VU5LTk9XTiA9ICJVTktOT1dOIgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="3" type="4">
+        <text>conceptID_path = os.path.join(output_dir, &quot;conceptID.txt&quot;)
+        mleConceptID_path = os.path.join(output_dir, &quot;mleConceptID.txt&quot;)</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="4">
         <text>{
     generateIDs();
 
@@ -521,26 +533,17 @@
     System.err.println(&quot;#Arcs: &quot; + knownArcs.size());
   }</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBwcmludD4+IHN5cy5zdGRlcnIsICIjVG9rZW5zOiAlZCIgJSBsZW4oc2VsZi5rbm93bl90b2tzKQo=</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAK</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">LyoqCiAgICogR2VuZXJhdGUgdW5pcXVlIGludGVnZXIgSURzIGZvciBhbGwga25vd24gd29yZHMgLyBwYXJ0LW9mLXNwZWVjaAogICAqIHRhZ3MgLyBkZXBlbmRlbmN5IHJlbGF0aW9uIGxhYmVscy4KICAgKgogICAqIEFsbCB0aHJlZSBvZiB0aGUgYWZvcmVtZW50aW9uZWQgdHlwZXMgYXJlIGFzc2lnbmVkIElEcyBmcm9tIGEKICAgKiBjb250aW51b3VzIHJhbmdlIG9mIGludGVnZXJzOyBhbGwgSURzIDAgPD0gSUQgPCBuX3cgYXJlIHdvcmQgSURzLAogICAqIGFsbCBJRHMgbl93IDw9IElEIDwgbl93ICsgbl9wb3MgYXJlIFBPUyB0YWcgSURzLCBhbmQgc28gb24uCiAgICov</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAK</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">cHJpdmF0ZSB2b2lkIGdlbmVyYXRlSURzKCkgewogICAgd29yZElEcyA9IG5ldyBIYXNoTWFwPD4oKTsKICAgIGxlbUlEcyA9IG5ldyBIYXNoTWFwPD4oKTsKICAgIHBvc0lEcyA9IG5ldyBIYXNoTWFwPD4oKTsKICAgIGRlcElEcyA9IG5ldyBIYXNoTWFwPD4oKTsKICAgIGNvbmNlcHRJRHM9IG5ldyBIYXNoTWFwPD4oKTsKICAgIGFyY0lEcyA9IG5ldyBIYXNoTWFwPD4oKTsKCiAgICBpbnQgaW5kZXggPSAwOwogICAgZm9yIChTdHJpbmcgd29yZCA6IGtub3duV29yZHMpCiAgICAgIHdvcmRJRHMucHV0KHdvcmQsIChpbmRleCsrKSk7CiAgICBmb3IgKFN0cmluZyBsZW06IGtub3duTGVtbWFzKQogICAgICBsZW1JRHMucHV0KGxlbSwgKGluZGV4KyspKTsKICAgIGZvciAoU3RyaW5nIHBvcyA6IGtub3duUG9zKQogICAgICBwb3NJRHMucHV0KHBvcywgKGluZGV4KyspKTsKICAgIGZvciAoU3RyaW5nIGRlcDoga25vd25EZXBzKQogICAgICBkZXBJRHMucHV0KGRlcCwgKGluZGV4KyspKTsKICAgIGZvciAoU3RyaW5nIGNvbmNlcHQgOiBrbm93bkNvbmNlcHRzKQogICAgICBjb25jZXB0SURzLnB1dChjb25jZXB0LCAoaW5kZXgrKykpOwogICAgZm9yIChTdHJpbmcgYXJjIDoga25vd25BcmNzKQogICAgICBhcmNJRHMucHV0KGFyYywgKGluZGV4KyspKTsKICB9</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">LyoqCiAgICogU2NhbiBhIGNvcnB1cyBhbmQgc3RvcmUgYWxsIHdvcmRzLCBwYXJ0LW9mLXNwZWVjaCB0YWdzLCBhbmQKICAgKiBkZXBlbmRlbmN5IHJlbGF0aW9uIGxhYmVscyBvYnNlcnZlZC4gUHJlcGFyZSBvdGhlciBzdHJ1Y3R1cmVzCiAgICogd2hpY2ggc3VwcG9ydCB3b3JkIC8gUE9TIC8gbGFiZWwgbG9va3VwIGF0IHRyYWluLSAvIHJ1bi10aW1lLgogICAqLwogIHByaXZhdGUgdm9pZCBnZW5EaWN0aW9uYXJpZXMoTGlzdDxTdHJpbmdbXT4gdG9rZW5zLCBMaXN0PFN0cmluZ1tdPiBsZW1tYXMsIExpc3Q8U3RyaW5nW10+IHBvc1RhZ3MsIExpc3Q8RGVwZW5kZW5jeVRyZWU+IHRyZWVzLCBMaXN0PEFNUkdyYXBoPiBncmFwaHMpIHsKICAgIC8vIENvbGxlY3QgYWxsIHdvcmRzICghKSwgZXRjLiBpbiBsaXN0cywgdGFja2luZyBvbiBvbmUgc2VudGVuY2UKICAgIC8vIGFmdGVyIHRoZSBvdGhlcgogICAgTGlzdDxTdHJpbmc+IHdvcmQgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIExpc3Q8U3RyaW5nPiBsZW0gPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIExpc3Q8U3RyaW5nPiBwb3MgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIExpc3Q8U3RyaW5nPiBkZXAgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgIExpc3Q8U3RyaW5nPiBjb25jZXB0cyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgTGlzdDxTdHJpbmc+IGFyY3MgPSBuZXcgQXJyYXlMaXN0PD4oKTsKCiAgICBmb3IgKFN0cmluZ1tdIHRva1NlcSA6IHRva2VucykKICAgICAgZm9yIChTdHJpbmcgdG9rIDogdG9rU2VxKQogICAgICAgIHdvcmQuYWRkKHRvayk7CgogICAgZm9yIChTdHJpbmdbXSBsZW1TZXEgOiBsZW1tYXMpCiAgICAgIGZvciAoU3RyaW5nIGxlbW1hIDogbGVtU2VxKQogICAgICAgIGxlbS5hZGQobGVtbWEpOwoKICAgIGZvciAoU3RyaW5nW10gcG9zU2VxIDogcG9zVGFncykKICAgICAgZm9yIChTdHJpbmcgdG9rIDogcG9zU2VxKQogICAgICAgIHBvcy5hZGQodG9rKTsKCiAgICBmb3IgKERlcGVuZGVuY3lUcmVlIHRyZWU6IHRyZWVzKSB7CiAgICAgIGZvciAoU3RyaW5nIGxhYjogdHJlZS5sYWJlbCkgewogICAgICAgIGRlcC5hZGQobGFiKTsKICAgICAgfQogICAgfQoKICAgIGZvciAoQU1SR3JhcGggZ3JhcGggOiBncmFwaHMpIHsKICAgICAgLy9pbnQgcm9vdEluZGV4ID0gZ3JhcGgucm9vdDsKICAgICAgZm9yIChDb25jZXB0TGFiZWwgYyA6IGdyYXBoLmNvbmNlcHRzKSB7CiAgICAgICAgY29uY2VwdHMuYWRkKGMudmFsdWUoKSk7CiAgICAgICAgZm9yIChTdHJpbmcgcyA6IGMucmVscykKICAgICAgICAgIGFyY3MuYWRkKHMpOwogICAgICB9CiAgICB9CgogICAgLy8gR2VuZXJhdGUgImRpY3Rpb25hcmllcywiIHBvc3NpYmx5IHdpdGggZnJlcXVlbmN5IGN1dG9mZgogICAga25vd25Xb3JkcyA9IFV0aWwuZ2VuZXJhdGVEaWN0KHdvcmQsIGNvbmZpZy53b3JkQ3V0T2ZmKTsKICAgIGtub3duTGVtbWFzID0gVXRpbC5nZW5lcmF0ZURpY3QobGVtKTsKICAgIGtub3duUG9zID0gVXRpbC5nZW5lcmF0ZURpY3QocG9zKTsKICAgIGtub3duRGVwcyA9IFV0aWwuZ2VuZXJhdGVEaWN0KGRlcCk7CiAgICBrbm93bkNvbmNlcHRzID0gVXRpbC5nZW5lcmF0ZURpY3QoY29uY2VwdHMpOwogICAgLy9jb25maWcuYXJjQ3V0T2ZmID0gMTA7IC8vbmVlZHMgdG8gYmUgY29tbWVudGVkCiAgICBrbm93bkFyY3MgPSBVdGlsLnRvcERpY3QoYXJjcywgY29uZmlnLmFyY0N1dE9mZik7CgogICAga25vd25Xb3Jkcy5hZGQoMCwgQ29uZmlnLlVOS05PV04pOyAvL1Rva2VucyBpbiB0aGUgYnVmZmVyIHRvIGJlIHByb2Nlc3NlZAogICAga25vd25Xb3Jkcy5hZGQoMSwgQ29uZmlnLk5VTEwpOwogICAga25vd25MZW1tYXMuYWRkKDAsIENvbmZpZy5VTktOT1dOKTsKICAgIGtub3duTGVtbWFzLmFkZCgxLCBDb25maWcuTlVMTCk7CiAgICBrbm93blBvcy5hZGQoMCwgQ29uZmlnLlVOS05PV04pOwogICAga25vd25Qb3MuYWRkKDEsIENvbmZpZy5OVUxMKTsKICAgIGtub3duRGVwcy5hZGQoMCwgQ29uZmlnLlVOS05PV04pOwogICAga25vd25EZXBzLmFkZCgxLCBDb25maWcuTlVMTCk7CgogICAga25vd25BcmNzLmFkZCgwLCBDb25maWcuVU5LTk9XTik7CiAgICBrbm93bkFyY3MuYWRkKDEsIENvbmZpZy5OVUxMKTsgLy9JbiBjYXNlIGluIHRoZSBjdXJyZW50IHNldHRpbmcgdGhlcmUgaXMgbm90CgogICAga25vd25Db25jZXB0cy5hZGQoMCwgQ29uZmlnLlVOS05PV04pOwogICAga25vd25Db25jZXB0cy5hZGQoMSwgQ29uZmlnLk5VTEwpOwoKICAgIGFsbExhYmVscyA9IG5ldyBBcnJheUxpc3Q8Pihrbm93bldvcmRzKTsKICAgIGFsbExhYmVscy5hZGRBbGwoa25vd25MZW1tYXMpOwogICAgYWxsTGFiZWxzLmFkZEFsbChrbm93blBvcyk7CiAgICBhbGxMYWJlbHMuYWRkQWxsKGtub3duRGVwcyk7CiAgICBhbGxMYWJlbHMuYWRkQWxsKGtub3duQ29uY2VwdHMpOwogICAgYWxsTGFiZWxzLmFkZEFsbChrbm93bkFyY3MpOwo=</text>
+        <text encoding="base64">LyoqCiAgICogR2VuZXJhdGUgdW5pcXVlIGludGVnZXIgSURzIGZvciBhbGwga25vd24gd29yZHMgLyBwYXJ0LW9mLXNwZWVjaAogICAqIHRhZ3MgLyBkZXBlbmRlbmN5IHJlbGF0aW9uIGxhYmVscy4KICAgKgogICAqIEFsbCB0aHJlZSBvZiB0aGUgYWZvcmVtZW50aW9uZWQgdHlwZXMgYXJlIGFzc2lnbmVkIElEcyBmcm9tIGEKICAgKiBjb250aW51b3VzIHJhbmdlIG9mIGludGVnZXJzOyBhbGwgSURzIDAgPD0gSUQgPCBuX3cgYXJlIHdvcmQgSURzLAogICAqIGFsbCBJRHMgbl93IDw9IElEIDwgbl93ICsgbl9wb3MgYXJlIFBPUyB0YWcgSURzLCBhbmQgc28gb24uCiAgICov</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
