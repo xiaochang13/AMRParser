@@ -31,7 +31,7 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1514929056434">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1514953987173">
         <mark key="'" line="60" column="17" />
         <mark key="[" line="370" column="10" />
         <mark key="]" line="359" column="10" />
@@ -266,8 +266,8 @@
         <mark key="." line="122" column="20" />
         <mark key="^" line="122" column="20" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1510470410543">
-        <mark key="'" line="914" column="34" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1514954013295">
+        <mark key="'" line="15" column="3" />
         <mark key="[" line="2531" column="106" />
         <mark key="]" line="2531" column="109" />
         <mark key="^" line="2531" column="109" />
@@ -388,7 +388,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="73" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="753" column="15" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="1027" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="947" column="74" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -488,6 +487,7 @@
       <jump line="60" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="1098" column="6" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="586" column="2" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
+      <jump line="15" column="3" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -497,7 +497,7 @@
         <text>toks</text>
       </register>
       <register name="/" type="4">
-        <text>void train</text>
+        <text>generateC</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">cHJpbnQ+PiBzeXMuc3RkZXJyLCAiI1Rva2VuczogJWQiICUgbGVuKHNlbGYua25vd25fdG9rcyk=</text>
@@ -547,9 +547,9 @@
       </register>
     </registers>
     <search>
-      <last-search>void train</last-search>
+      <last-search>generateC</last-search>
       <last-offset />
-      <last-pattern>void train</last-pattern>
+      <last-pattern>generateC</last-pattern>
       <last-replace>action_type</last-replace>
       <last-substitute>transtion_type</last-substitute>
       <last-dir>1</last-dir>
@@ -635,6 +635,8 @@
         <entry>void genDici</entry>
         <entry>genDict</entry>
         <entry>void train</entry>
+        <entry>generate</entry>
+        <entry>generateC</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
