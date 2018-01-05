@@ -293,6 +293,11 @@
         <mark key="." line="26" column="18" />
         <mark key="^" line="26" column="18" />
       </file>
+      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1515129364834">
+        <mark key="[" line="68" column="20" />
+        <mark key="]" line="68" column="20" />
+        <mark key="." line="68" column="20" />
+      </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="33" column="18" />
@@ -334,10 +339,6 @@
         <mark key="]" line="132" column="10" />
         <mark key="^" line="132" column="10" />
         <mark key="." line="132" column="10" />
-      </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/ConceptLabel.py" timestamp="1514608200835">
-        <mark key="[" line="31" column="2" />
-        <mark key="]" line="95" column="2" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1500614393650">
         <mark key="'" line="553" column="57" />
@@ -381,8 +382,11 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515128369845">
-        <mark key="'" line="918" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515129325986">
+        <mark key="'" line="1154" column="28" />
+        <mark key="[" line="908" column="0" />
+        <mark key="]" line="908" column="0" />
+        <mark key="." line="908" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -413,10 +417,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="957" column="51" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="616" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="6" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="600" column="36" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="9" column="8" filename="$USER_HOME$/SHRG-induction/hgraph.py" />
       <jump line="755" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="756" column="15" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -513,10 +513,16 @@
       <jump line="355" column="42" filename="$USER_HOME$/ConvParser/preprocessing.py" />
       <jump line="250" column="46" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="432" column="8" filename="$USER_HOME$/ConvParser/common/AMRGraph.py" />
+      <jump line="889" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="905" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="908" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1154" column="28" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>#return None
+                    #matched_index += 1
+                    #break</text>
       </register>
       <register name="-" type="4">
         <text>\n</text>
@@ -527,39 +533,42 @@
       <register name="0" type="4">
         <text>CacheTransitionParser</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>#return None
+                    #matched_index += 1
+                    #break</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50IHN0cihjKQo=</text>
+      <register name="2" type="4">
+        <text>#except:
+    #    print all_alignments.items()
+    #    sys.exit(1)</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICN0cnk6Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">I2ludCBuOwogICAgI0ludGVnZXIgcm9vdDsKICAgICNMaXN0PENvbmNlcHRMYWJlbD4gY29uY2VwdHM7CiAgICAjU3RyaW5nW10gdG9rczsKICAgICNTdHJpbmdbXSBsZW1tYXM7CiAgICAjTWFwPEludGVnZXIsIFNldDxJbnRlZ2VyPj4gaGVhZFRvVGFpbDsKICAgICNNYXA8SW50ZWdlciwgU2V0PEludGVnZXI+PiB0YWlsVG9IZWFkOwogICAgI01hcDxJbnRlZ2VyLCBJbnRlZ2VyPiB3b3JkVG9Db25jZXB0OwogICAgI3ByaXZhdGUgaW50IGNvdW50ZXI7IC8vQ291bnQgdGhlIGN1cnJlbnQgY29uY2VwdCBpbmRleA==</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCAK</text>
+        <text encoding="base64">ICAgICAgICAjaWYgYXJncy5yZWFsaWduOgo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGFzc2VydCByb290X251bSA9PSAxLCAiU2VudGVuY2UgJWQiICUgc2VudF9pZHgK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50IHN0cihjKQo=</text>
       </register>
-      <register name="8" type="4">
-        <text>if succeed:
-                print</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tZGF0YV9kaXIiLCB0eXBlPXN0ciwgaGVscD0iVGhlIGRhdGEgZGlyZWN0b3J5IGZvciB0aGUgaW5wdXQgZmlsZXMuIikK</text>
+      <register name="9" type="4">
+        <text encoding="base64">I2ludCBuOwogICAgI0ludGVnZXIgcm9vdDsKICAgICNMaXN0PENvbmNlcHRMYWJlbD4gY29uY2VwdHM7CiAgICAjU3RyaW5nW10gdG9rczsKICAgICNTdHJpbmdbXSBsZW1tYXM7CiAgICAjTWFwPEludGVnZXIsIFNldDxJbnRlZ2VyPj4gaGVhZFRvVGFpbDsKICAgICNNYXA8SW50ZWdlciwgU2V0PEludGVnZXI+PiB0YWlsVG9IZWFkOwogICAgI01hcDxJbnRlZ2VyLCBJbnRlZ2VyPiB3b3JkVG9Db25jZXB0OwogICAgI3ByaXZhdGUgaW50IGNvdW50ZXI7IC8vQ291bnQgdGhlIGN1cnJlbnQgY29uY2VwdCBpbmRleA==</text>
       </register>
       <register name=":" type="4">
-        <text>1</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -618,8 +627,8 @@
         <entry>81</entry>
         <entry>94</entry>
         <entry>107</entry>
-        <entry>w</entry>
         <entry>1</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
