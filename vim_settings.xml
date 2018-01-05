@@ -211,6 +211,9 @@
         <mark key="^" line="93" column="12" />
         <mark key="." line="93" column="12" />
       </file>
+      <file name="$USER_HOME$/ConvParser/preprocessing.py" timestamp="1515124068385">
+        <mark key="'" line="484" column="20" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/fragment_forest.py" timestamp="1480507121150">
         <mark key="'" line="184" column="69" />
         <mark key="[" line="1003" column="12" />
@@ -389,7 +392,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="107" column="28" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
       <jump line="130" column="11" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
       <jump line="43" column="26" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
       <jump line="53" column="39" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
@@ -489,6 +491,7 @@
       <jump line="103" column="43" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="144" column="14" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
       <jump line="105" column="21" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
+      <jump line="484" column="20" filename="$USER_HOME$/ConvParser/preprocessing.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -545,19 +548,10 @@
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>chooseVertex</entry>
-        <entry>headToTail</entry>
-        <entry>action</entry>
-        <entry>void trai</entry>
-        <entry>generateDict</entry>
-        <entry>loadConllFile</entry>
-        <entry>extract_derivation</entry>
-        <entry>rule_stat</entry>
-        <entry>txt</entry>
         <entry>loadAMRFi</entry>
         <entry>writeConll</entry>
         <entry>train</entry>
@@ -580,15 +574,6 @@
         <entry>loadConll</entry>
       </history-search>
       <history-cmd>
-        <entry>616</entry>
-        <entry>626</entry>
-        <entry>861</entry>
-        <entry>621</entry>
-        <entry>673</entry>
-        <entry>782</entry>
-        <entry>577</entry>
-        <entry>602</entry>
-        <entry>%s/transition_type/action_type/g</entry>
         <entry>%s/transtion_type/action_type/g</entry>
         <entry>374</entry>
         <entry>w;</entry>
