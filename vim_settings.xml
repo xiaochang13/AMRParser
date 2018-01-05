@@ -383,11 +383,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515132385934">
-        <mark key="'" line="898" column="16" />
-        <mark key="[" line="878" column="0" />
-        <mark key="]" line="878" column="0" />
-        <mark key="." line="878" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515134156003">
+        <mark key="'" line="1691" column="69" />
+        <mark key="[" line="1719" column="4" />
+        <mark key="]" line="1719" column="4" />
+        <mark key="." line="1719" column="4" />
+        <mark key="^" line="1720" column="5" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -418,7 +419,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="84" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="1795" column="38" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="29" column="0" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="42" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
@@ -518,64 +518,65 @@
       <jump line="51" column="0" filename="$USER_HOME$/data_processing/utils.py" />
       <jump line="825" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="898" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1691" column="69" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IyA=</text>
       </register>
       <register name="-" type="4">
-        <text>\n</text>
+        <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
-        <text>reali</text>
+        <text>Somet</text>
       </register>
       <register name="0" type="4">
         <text>CacheTransitionParser</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="1" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICA=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="3" type="4">
         <text>#op_concepts = set()
     #labelToRels = {}
     #labelToIncoming = {}</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>#return None
                     #matched_index += 1
                     #break</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>#except:
     #    print all_alignments.items()
     #    sys.exit(1)</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICN0cnk6Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAjaWYgYXJncy5yZWFsaWduOgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjaWYgYXJncy5yZWFsaWduOgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50IHN0cihjKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>reali</last-search>
+      <last-search>Somet</last-search>
       <last-offset />
-      <last-pattern>reali</last-pattern>
+      <last-pattern>Somet</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -613,6 +614,8 @@
         <entry>dep_tok_seq</entry>
         <entry>tokenized_seq</entry>
         <entry>reali</entry>
+        <entry>Some wrong here</entry>
+        <entry>Somet</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
