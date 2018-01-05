@@ -293,12 +293,12 @@
         <mark key="." line="26" column="18" />
         <mark key="^" line="26" column="18" />
       </file>
-      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1515188158042">
+      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1515193622900">
         <mark key="'" line="55" column="0" />
-        <mark key="[" line="42" column="44" />
-        <mark key="]" line="43" column="22" />
-        <mark key="." line="43" column="22" />
-        <mark key="^" line="43" column="22" />
+        <mark key="[" line="21" column="11" />
+        <mark key="]" line="21" column="15" />
+        <mark key="^" line="21" column="15" />
+        <mark key="." line="21" column="15" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -384,12 +384,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515191651834">
-        <mark key="'" line="1742" column="4" />
-        <mark key="[" line="801" column="44" />
-        <mark key="]" line="802" column="39" />
-        <mark key="." line="802" column="39" />
-        <mark key="^" line="802" column="39" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515194181773">
+        <mark key="'" line="1762" column="4" />
+        <mark key="[" line="803" column="55" />
+        <mark key="]" line="803" column="61" />
+        <mark key="." line="803" column="61" />
+        <mark key="^" line="803" column="61" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -523,54 +523,49 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>toks</text>
+        <text>#%s$ to $&quot;</text>
       </register>
       <register name="-" type="4">
-        <text>toks</text>
+        <text>#%s$ to $&quot;</text>
       </register>
       <register name="/" type="4">
         <text>Somet</text>
       </register>
       <register name="0" type="4">
-        <text>alignment_file</text>
+        <text>#%s# to #%s#&quot; % (orig_tok, &quot;&quot;.join(tokenized_seq[new_start:new_end]))</text>
       </register>
-      <register name="1" type="4">
-        <text># toks = [line.strip().split() for line in open(tok_file, 'r')]
-    # lems = [line.strip().split() for line in open(lem_file, 'r')]
-    # poss = [line.strip().split() for line in open(pos_file, 'r')]</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">I3JlX3N5bWJvbHMgPSByZS5jb21waWxlKCJbJ1wiLi0hIyYqfFxcL0A9XFtcXV0iKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmICIiLmpvaW4odG9rZW5pemVkX3NlcSkK</text>
       </register>
-      <register name="3" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICA=</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICNzMl9zdWIgPSBzMl9zdWIucmVwbGFjZSgiIyIsICJceGMyXHhhMyIpCg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="5" type="4">
-        <text>#op_concepts = set()
-    #labelToRels = {}
-    #labelToIncoming = {}</text>
+        <text encoding="base64">I2lmIGxlbihzMl9zdWIpID4gMCBhbmQgczJfc3ViWzBdICE9IHMyWzBdOgogICAgIyAgICBwcmludCAibm90IHN0YXJ0IHdpdGg6IiwgczIsIHMyX3N1YgogICAgIyAgICByZXR1cm4gRmFsc2U=</text>
       </register>
-      <register name="6" type="4">
-        <text>#return None
-                    #matched_index += 1
-                    #break</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="7" type="4">
-        <text>#except:
-    #    print all_alignments.items()
-    #    sys.exit(1)</text>
+        <text>#s1_sub = s1_sub.replace(&quot;\xc2\xa3&quot;, &quot;\#&quot;)
+    #print s1, s1_sub, s2, s2_sub, s1_sub == s2_sub</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICN0cnk6Cg==</text>
+      <register name="8" type="4">
+        <text># toks = [line.strip().split() for line in open(tok_file, 'r')]
+    # lems = [line.strip().split() for line in open(lem_file, 'r')]
+    # poss = [line.strip().split() for line in open(pos_file, 'r')]</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">I3JlX3N5bWJvbHMgPSByZS5jb21waWxlKCJbJ1wiLi0hIyYqfFxcL0A9XFtcXV0iKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
