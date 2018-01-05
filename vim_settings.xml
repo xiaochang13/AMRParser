@@ -384,12 +384,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515188218179">
-        <mark key="'" line="1724" column="4" />
-        <mark key="[" line="827" column="4" />
-        <mark key="]" line="827" column="4" />
-        <mark key="." line="827" column="4" />
-        <mark key="^" line="827" column="5" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515188762070">
+        <mark key="'" line="1728" column="4" />
+        <mark key="[" line="800" column="43" />
+        <mark key="]" line="799" column="45" />
+        <mark key="." line="799" column="45" />
+        <mark key="^" line="799" column="45" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -523,12 +523,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text># toks = [line.strip().split() for line in open(tok_file, 'r')]
-    # lems = [line.strip().split() for line in open(lem_file, 'r')]
-    # poss = [line.strip().split() for line in open(pos_file, 'r')]</text>
+        <text>toks</text>
       </register>
       <register name="-" type="4">
-        <text>]</text>
+        <text>toks</text>
       </register>
       <register name="/" type="4">
         <text>Somet</text>
