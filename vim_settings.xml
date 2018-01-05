@@ -148,6 +148,9 @@
         <mark key="^" line="107" column="82" />
         <mark key="." line="107" column="82" />
       </file>
+      <file name="$USER_HOME$/ConvParser/Aligner.py" timestamp="1515128555798">
+        <mark key="'" line="250" column="46" />
+      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1510364711817">
         <mark key="'" line="90" column="14" />
         <mark key="[" line="23" column="0" />
@@ -226,8 +229,8 @@
         <mark key="^" line="93" column="12" />
         <mark key="." line="93" column="12" />
       </file>
-      <file name="$USER_HOME$/ConvParser/preprocessing.py" timestamp="1515125049181">
-        <mark key="'" line="359" column="30" />
+      <file name="$USER_HOME$/ConvParser/preprocessing.py" timestamp="1515128522213">
+        <mark key="'" line="355" column="42" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/fragment_forest.py" timestamp="1480507121150">
         <mark key="'" line="184" column="69" />
@@ -378,6 +381,9 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515128369845">
+        <mark key="'" line="918" column="0" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
         <mark key="[" line="2" column="0" />
@@ -407,13 +413,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="267" column="12" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
-      <jump line="1228" column="21" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="1053" column="2" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="43" column="2" filename="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" />
-      <jump line="47" column="4" filename="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" />
-      <jump line="960" column="56" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="481" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="957" column="51" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="616" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="6" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -507,6 +506,13 @@
       <jump line="40" column="4" filename="$USER_HOME$/data_processing/date_extraction.py" />
       <jump line="183" column="4" filename="$USER_HOME$/data_processing/date_extraction.py" />
       <jump line="204" column="33" filename="$USER_HOME$/data_processing/date_extraction.py" />
+      <jump line="1712" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="918" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="351" column="60" filename="$USER_HOME$/ConvParser/preprocessing.py" />
+      <jump line="157" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
+      <jump line="355" column="42" filename="$USER_HOME$/ConvParser/preprocessing.py" />
+      <jump line="250" column="46" filename="$USER_HOME$/ConvParser/Aligner.py" />
+      <jump line="432" column="8" filename="$USER_HOME$/ConvParser/common/AMRGraph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -516,7 +522,7 @@
         <text>\n</text>
       </register>
       <register name="/" type="4">
-        <text>extract</text>
+        <text>realign</text>
       </register>
       <register name="0" type="4">
         <text>CacheTransitionParser</text>
@@ -557,9 +563,9 @@
       </register>
     </registers>
     <search>
-      <last-search>extract</last-search>
+      <last-search>realign</last-search>
       <last-offset />
-      <last-pattern>extract</last-pattern>
+      <last-pattern>realign</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -591,6 +597,7 @@
         <entry>cate</entry>
         <entry>NEGATION</entry>
         <entry>extract</entry>
+        <entry>realign</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
