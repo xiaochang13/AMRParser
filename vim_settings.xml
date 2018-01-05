@@ -66,12 +66,18 @@
         <mark key="." line="122" column="20" />
         <mark key="^" line="122" column="20" />
       </file>
+      <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515125735027">
+        <mark key="'" line="877" column="8" />
+      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1515007696552">
         <mark key="'" line="2048" column="29" />
         <mark key="[" line="2531" column="106" />
         <mark key="]" line="2531" column="109" />
         <mark key="^" line="2531" column="109" />
         <mark key="." line="2531" column="109" />
+      </file>
+      <file name="$USER_HOME$/ConvParser/common/data.py" timestamp="1515125054578">
+        <mark key="'" line="85" column="8" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1513630442160">
         <mark key="'" line="556" column="4" />
@@ -128,6 +134,9 @@
         <mark key="]" line="1063" column="47" />
         <mark key="." line="1063" column="47" />
         <mark key="^" line="1063" column="47" />
+      </file>
+      <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515125586542">
+        <mark key="'" line="78" column="17" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515009382462">
         <mark key="'" line="103" column="43" />
@@ -211,8 +220,8 @@
         <mark key="^" line="93" column="12" />
         <mark key="." line="93" column="12" />
       </file>
-      <file name="$USER_HOME$/ConvParser/preprocessing.py" timestamp="1515124068385">
-        <mark key="'" line="484" column="20" />
+      <file name="$USER_HOME$/ConvParser/preprocessing.py" timestamp="1515125049181">
+        <mark key="'" line="359" column="30" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/fragment_forest.py" timestamp="1480507121150">
         <mark key="'" line="184" column="69" />
@@ -392,14 +401,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="130" column="11" filename="$USER_HOME$/AMRParser/CacheTransition/cacheConfiguration.py" />
-      <jump line="43" column="26" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
-      <jump line="53" column="39" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
-      <jump line="137" column="19" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
-      <jump line="139" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
-      <jump line="172" column="22" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
-      <jump line="141" column="25" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
-      <jump line="157" column="22" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
       <jump line="150" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
       <jump line="266" column="23" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
       <jump line="152" column="13" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
@@ -491,7 +492,15 @@
       <jump line="103" column="43" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="144" column="14" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
       <jump line="105" column="21" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
+      <jump line="423" column="16" filename="$USER_HOME$/ConvParser/preprocessing.py" />
       <jump line="484" column="20" filename="$USER_HOME$/ConvParser/preprocessing.py" />
+      <jump line="359" column="30" filename="$USER_HOME$/ConvParser/preprocessing.py" />
+      <jump line="85" column="8" filename="$USER_HOME$/ConvParser/common/data.py" />
+      <jump line="76" column="6" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
+      <jump line="323" column="31" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
+      <jump line="78" column="17" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
+      <jump line="309" column="30" filename="$USER_HOME$/ConvParser/preprocessing.py" />
+      <jump line="877" column="8" filename="$USER_HOME$/data_processing/categorize_amr.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -501,7 +510,7 @@
         <text>\n</text>
       </register>
       <register name="/" type="4">
-        <text>loadConll</text>
+        <text>NEGATION</text>
       </register>
       <register name="0" type="4">
         <text>CacheTransitionParser</text>
@@ -542,13 +551,13 @@
       </register>
     </registers>
     <search>
-      <last-search>loadConll</last-search>
+      <last-search>NEGATION</last-search>
       <last-offset />
-      <last-pattern>loadConll</last-pattern>
+      <last-pattern>NEGATION</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
@@ -572,6 +581,9 @@
         <entry>getValue</entry>
         <entry>value(</entry>
         <entry>loadConll</entry>
+        <entry>toJ</entry>
+        <entry>cate</entry>
+        <entry>NEGATION</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
