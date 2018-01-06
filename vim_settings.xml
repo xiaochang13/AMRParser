@@ -384,12 +384,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515210091955">
-        <mark key="'" line="1775" column="8" />
-        <mark key="[" line="873" column="0" />
-        <mark key="]" line="873" column="0" />
-        <mark key="^" line="1775" column="7" />
-        <mark key="." line="873" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515212564693">
+        <mark key="'" line="1738" column="30" />
+        <mark key="[" line="859" column="0" />
+        <mark key="]" line="860" column="41" />
+        <mark key="^" line="860" column="41" />
+        <mark key="." line="860" column="41" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -420,15 +420,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1098" column="6" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="586" column="2" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="1260" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="68" column="45" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="15" column="3" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1201" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1820" column="33" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1840" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="76" column="31" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1834" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="571" column="21" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="1104" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -520,59 +511,72 @@
       <jump line="1770" column="7" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1775" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1778" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="848" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="944" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1193" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1205" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1349" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="815" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1178" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1747" column="36" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1737" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">ICAgIAogICAg</text>
       </register>
       <register name="-" type="4">
-        <text>tized_token</text>
+        <text encoding="base64">ICAgIA==</text>
       </register>
       <register name="/" type="4">
-        <text>Somet</text>
+        <text>conll_file</text>
       </register>
       <register name="0" type="4">
         <text>argparser.add_argument(&quot;--amr_file&quot;, type=str, help=&quot;the original AMR graph files&quot;, required=False)</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="8">
+        <text encoding="base64">ICAgIAogICAg</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgIGlmIG5vdCBhcmdzLnJlYWxpZ246Cg==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>if args.realign:
-        dep_toks = [line.strip().split() for line in open(args.dep_file, 'r')]</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICMgcmVhbGlnbihhcmdzLmlucHV0X2ZpbGUsIGFyZ3MudG9rZW5fZmlsZSwgYXJncy5hbGlnbl9maWxlLCBhcmdzLm91dHB1dCkK</text>
+            pi_seq, edge_map, edge_list = buildPiSeq(new_amr, dep_tok_seq, new_alignment, sorted_indexes, print_info)
+        else:</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tYWxpZ25fZmlsZSIsIHR5cGU9c3RyLCBoZWxwPSJ0aGUgb3JpZ2luYWwgQU1SIGdyYXBoIGZpbGVzIiwgcmVxdWlyZWQ9RmFsc2UpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tYW1yX2ZpbGUiLCB0eXBlPXN0ciwgaGVscD0idGhlIG9yaWdpbmFsIEFNUiBncmFwaCBmaWxlcyIsIHJlcXVpcmVkPUZhbHNlKQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0taW5wdXRfZmlsZSIsIHR5cGU9c3RyLCBoZWxwPSJ0aGUgb3JpZ2luYWwgc2VudGVuY2UgZmlsZSIsIHJlcXVpcmVkPUZhbHNlKQo=</text>
+      <register name="7" type="4">
+        <text>if args.realign:
+            new_alignment = mergeToks(collapsed_toks, dep_tok_seq, new_alignment, sent_index)
+            if new_alignment is None:
+                continue</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tYW1yX2ZpbGUiLCB0eXBlPXN0ciwgaGVscD0idGhlIG9yaWdpbmFsIEFNUiBncmFwaCBmaWxlcyIsIHJlcXVpcmVkPUZhbHNlKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>Somet</last-search>
+      <last-search>conll_file</last-search>
       <last-offset />
-      <last-pattern>Somet</last-pattern>
+      <last-pattern>conll_file</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -604,7 +608,6 @@
         <entry>cate</entry>
         <entry>NEGATION</entry>
         <entry>extract</entry>
-        <entry>realign</entry>
         <entry>collapsed</entry>
         <entry>align_table</entry>
         <entry>dep_tok_seq</entry>
@@ -612,6 +615,8 @@
         <entry>reali</entry>
         <entry>Some wrong here</entry>
         <entry>Somet</entry>
+        <entry>realign</entry>
+        <entry>conll_file</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
