@@ -293,12 +293,12 @@
         <mark key="." line="26" column="18" />
         <mark key="^" line="26" column="18" />
       </file>
-      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1515193622900">
-        <mark key="'" line="55" column="0" />
-        <mark key="[" line="21" column="11" />
-        <mark key="]" line="21" column="15" />
-        <mark key="^" line="21" column="15" />
-        <mark key="." line="21" column="15" />
+      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1515208027543">
+        <mark key="'" line="68" column="0" />
+        <mark key="[" line="5" column="32" />
+        <mark key="]" line="5" column="32" />
+        <mark key="^" line="5" column="32" />
+        <mark key="." line="5" column="32" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -384,12 +384,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515194794991">
-        <mark key="'" line="840" column="8" />
-        <mark key="[" line="1745" column="30" />
-        <mark key="]" line="1745" column="34" />
-        <mark key="." line="1745" column="34" />
-        <mark key="^" line="1745" column="34" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515208089038">
+        <mark key="'" line="1774" column="7" />
+        <mark key="[" line="813" column="12" />
+        <mark key="]" line="796" column="0" />
+        <mark key="." line="796" column="0" />
+        <mark key="^" line="796" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -420,7 +420,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="42" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="59" column="12" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="60" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="1098" column="6" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
@@ -520,13 +519,14 @@
       <jump line="1691" column="69" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1720" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="840" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1770" column="7" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>amr</text>
+        <text>6488</text>
       </register>
       <register name="-" type="4">
-        <text>amr</text>
+        <text>6488</text>
       </register>
       <register name="/" type="4">
         <text>Somet</text>
@@ -535,34 +535,34 @@
         <text>#%s# to #%s#&quot; % (orig_tok, &quot;&quot;.join(tokenized_seq[new_start:new_end]))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tYW1yX2ZpbGUiLCB0eXBlPXN0ciwgaGVscD0idGhlIG9yaWdpbmFsIEFNUiBncmFwaCBmaWxlcyIsIHJlcXVpcmVkPUZhbHNlKQo=</text>
+        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tYWxpZ25fZmlsZSIsIHR5cGU9c3RyLCBoZWxwPSJ0aGUgb3JpZ2luYWwgQU1SIGdyYXBoIGZpbGVzIiwgcmVxdWlyZWQ9RmFsc2UpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0taW5wdXRfZmlsZSIsIHR5cGU9c3RyLCBoZWxwPSJ0aGUgb3JpZ2luYWwgc2VudGVuY2UgZmlsZSIsIHJlcXVpcmVkPUZhbHNlKQo=</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tYW1yX2ZpbGUiLCB0eXBlPXN0ciwgaGVscD0idGhlIG9yaWdpbmFsIEFNUiBncmFwaCBmaWxlcyIsIHJlcXVpcmVkPUZhbHNlKQo=</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0taW5wdXRfZmlsZSIsIHR5cGU9c3RyLCBoZWxwPSJ0aGUgb3JpZ2luYWwgc2VudGVuY2UgZmlsZSIsIHJlcXVpcmVkPUZhbHNlKQo=</text>
+      </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tYW1yX2ZpbGUiLCB0eXBlPXN0ciwgaGVscD0idGhlIG9yaWdpbmFsIEFNUiBncmFwaCBmaWxlcyIsIHJlcXVpcmVkPUZhbHNlKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmICIiLmpvaW4odG9rZW5pemVkX3NlcSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICNzMl9zdWIgPSBzMl9zdWIucmVwbGFjZSgiIyIsICJceGMyXHhhMyIpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmICIiLmpvaW4odG9rZW5pemVkX3NlcSkK</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">ICAgICNzMl9zdWIgPSBzMl9zdWIucmVwbGFjZSgiIyIsICJceGMyXHhhMyIpCg==</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text encoding="base64">I2lmIGxlbihzMl9zdWIpID4gMCBhbmQgczJfc3ViWzBdICE9IHMyWzBdOgogICAgIyAgICBwcmludCAibm90IHN0YXJ0IHdpdGg6IiwgczIsIHMyX3N1YgogICAgIyAgICByZXR1cm4gRmFsc2U=</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
