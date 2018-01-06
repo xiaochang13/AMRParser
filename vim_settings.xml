@@ -384,12 +384,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515208690451">
-        <mark key="'" line="1775" column="4" />
-        <mark key="[" line="1775" column="4" />
-        <mark key="]" line="1775" column="4" />
-        <mark key="." line="1775" column="4" />
-        <mark key="^" line="1774" column="5" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515210091955">
+        <mark key="'" line="1775" column="8" />
+        <mark key="[" line="873" column="0" />
+        <mark key="]" line="873" column="0" />
+        <mark key="^" line="1775" column="7" />
+        <mark key="." line="873" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -420,7 +420,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="60" column="17" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" />
       <jump line="1098" column="6" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="586" column="2" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="1260" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -520,49 +519,51 @@
       <jump line="840" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1770" column="7" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1775" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1778" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IyA=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IyA=</text>
+        <text>tized_token</text>
       </register>
       <register name="/" type="4">
         <text>Somet</text>
       </register>
       <register name="0" type="4">
-        <text>#%s# to #%s#&quot; % (orig_tok, &quot;&quot;.join(tokenized_seq[new_start:new_end]))</text>
+        <text>argparser.add_argument(&quot;--amr_file&quot;, type=str, help=&quot;the original AMR graph files&quot;, required=False)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tYWxpZ25fZmlsZSIsIHR5cGU9c3RyLCBoZWxwPSJ0aGUgb3JpZ2luYWwgQU1SIGdyYXBoIGZpbGVzIiwgcmVxdWlyZWQ9RmFsc2UpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tYW1yX2ZpbGUiLCB0eXBlPXN0ciwgaGVscD0idGhlIG9yaWdpbmFsIEFNUiBncmFwaCBmaWxlcyIsIHJlcXVpcmVkPUZhbHNlKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0taW5wdXRfZmlsZSIsIHR5cGU9c3RyLCBoZWxwPSJ0aGUgb3JpZ2luYWwgc2VudGVuY2UgZmlsZSIsIHJlcXVpcmVkPUZhbHNlKQo=</text>
+      <register name="3" type="4">
+        <text>if args.realign:
+        dep_toks = [line.strip().split() for line in open(args.dep_file, 'r')]</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tYW1yX2ZpbGUiLCB0eXBlPXN0ciwgaGVscD0idGhlIG9yaWdpbmFsIEFNUiBncmFwaCBmaWxlcyIsIHJlcXVpcmVkPUZhbHNlKQo=</text>
+        <text encoding="base64">ICAgICMgcmVhbGlnbihhcmdzLmlucHV0X2ZpbGUsIGFyZ3MudG9rZW5fZmlsZSwgYXJncy5hbGlnbl9maWxlLCBhcmdzLm91dHB1dCkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tYWxpZ25fZmlsZSIsIHR5cGU9c3RyLCBoZWxwPSJ0aGUgb3JpZ2luYWwgQU1SIGdyYXBoIGZpbGVzIiwgcmVxdWlyZWQ9RmFsc2UpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmICIiLmpvaW4odG9rZW5pemVkX3NlcSkK</text>
+        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tYW1yX2ZpbGUiLCB0eXBlPXN0ciwgaGVscD0idGhlIG9yaWdpbmFsIEFNUiBncmFwaCBmaWxlcyIsIHJlcXVpcmVkPUZhbHNlKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICNzMl9zdWIgPSBzMl9zdWIucmVwbGFjZSgiIyIsICJceGMyXHhhMyIpCg==</text>
+        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0taW5wdXRfZmlsZSIsIHR5cGU9c3RyLCBoZWxwPSJ0aGUgb3JpZ2luYWwgc2VudGVuY2UgZmlsZSIsIHJlcXVpcmVkPUZhbHNlKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tYW1yX2ZpbGUiLCB0eXBlPXN0ciwgaGVscD0idGhlIG9yaWdpbmFsIEFNUiBncmFwaCBmaWxlcyIsIHJlcXVpcmVkPUZhbHNlKQo=</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">I2lmIGxlbihzMl9zdWIpID4gMCBhbmQgczJfc3ViWzBdICE9IHMyWzBdOgogICAgIyAgICBwcmludCAibm90IHN0YXJ0IHdpdGg6IiwgczIsIHMyX3N1YgogICAgIyAgICByZXR1cm4gRmFsc2U=</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
