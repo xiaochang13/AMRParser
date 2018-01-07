@@ -31,11 +31,11 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515359969303">
-        <mark key="'" line="1155" column="28" />
-        <mark key="[" line="1187" column="0" />
-        <mark key="]" line="1187" column="0" />
-        <mark key="." line="1187" column="0" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515360755609">
+        <mark key="'" line="1488" column="31" />
+        <mark key="[" line="1489" column="0" />
+        <mark key="]" line="1489" column="0" />
+        <mark key="." line="1489" column="0" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -195,7 +195,8 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515356946116">
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515360225875">
+        <mark key="'" line="1019" column="38" />
         <mark key="[" line="1262" column="0" />
         <mark key="]" line="1262" column="0" />
         <mark key="." line="1262" column="0" />
@@ -413,14 +414,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="62" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
-      <jump line="88" column="33" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="146" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
-      <jump line="61" column="0" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="164" column="11" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="74" column="0" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
-      <jump line="78" column="53" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="171" column="4" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
       <jump line="287" column="16" filename="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" />
       <jump line="256" column="23" filename="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" />
       <jump line="261" column="16" filename="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" />
@@ -513,62 +506,68 @@
       <jump line="96" column="0" filename="$USER_HOME$/data_processing/re_utils.py" />
       <jump line="966" column="38" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1155" column="28" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1019" column="38" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="1291" column="33" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1467" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1500" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1587" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1499" column="0" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1459" column="31" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1490" column="31" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICByb290X3NyYyA9IGN1cnJfbm9kZV9pbmRleAo=</text>
       </register>
       <register name="-" type="4">
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>aligned_set</text>
+        <text>node_dict</text>
       </register>
       <register name="0" type="4">
         <text>argparser.add_argument(&quot;--amr_file&quot;, type=str, help=&quot;the original AMR graph files&quot;, required=False)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICByb290X3NyYyA9IGN1cnJfbm9kZV9pbmRleAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text>#entity_tag = str(curr_node)
-                #assert len(entity_tag.split('/')) == 2, entity_tag
-                #entity_tag = entity_tag.split('/')[1]</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAjb3B0X3NyY3MgPSBbXQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBkYXRlX2ZyYWdzID0gW10K</text>
+        <text encoding="base64">ICAgICAgICByb290X3NyYyA9IGN1cnJfbm9kZV9pbmRleAo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBwYXJfbm9kZV9pbmRleCA9IGN1cnJfbm9kZV9pbmRleAo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBwYXJfbm9kZV9pbmRleCA9IGN1cnJfbm9kZV9pbmRleAo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="9" type="4">
         <text>#entity_tag = str(curr_node)
                 #assert len(entity_tag.split('/')) == 2, entity_tag
                 #entity_tag = entity_tag.split('/')[1]</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICNwcmludCAncmVjb3ZlcmVkOiAlcycgJSBjdXJyX3Rvawo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgI3ByaW50ICdEYXRlOiAlcycgJSB0b2tfc2VxW2luZGV4XQo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYWxsX2RhdGVfaW5kaWNlcywgaW5kZXhfdG9fYXR0ciA9IGdldERhdGVBdHRyKGZyYWcpCg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>aligned_set</last-search>
+      <last-search>node_dict</last-search>
       <last-offset />
-      <last-pattern>aligned_set</last-pattern>
+      <last-pattern>node_dict</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -619,6 +618,8 @@
         <entry>has_multi</entry>
         <entry>no_alignment</entry>
         <entry>aligned_set</entry>
+        <entry>par_node_index</entry>
+        <entry>node_dict</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
