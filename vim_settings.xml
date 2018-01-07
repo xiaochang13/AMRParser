@@ -384,12 +384,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515212564693">
-        <mark key="'" line="1738" column="30" />
-        <mark key="[" line="859" column="0" />
-        <mark key="]" line="860" column="41" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515355647144">
+        <mark key="'" line="1184" column="0" />
+        <mark key="[" line="918" column="0" />
+        <mark key="]" line="918" column="0" />
         <mark key="^" line="860" column="41" />
-        <mark key="." line="860" column="41" />
+        <mark key="." line="918" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -420,8 +420,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="7" column="0" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="46" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="1819" column="63" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="34" column="13" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Config.java" />
       <jump line="5" column="14" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
@@ -489,7 +487,6 @@
       <jump line="1155" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="257" column="36" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="879" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="918" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="48" column="0" filename="$USER_HOME$/data_processing/utils.py" />
       <jump line="72" column="12" filename="$USER_HOME$/data_processing/utils.py" />
       <jump line="1154" column="28" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -520,63 +517,63 @@
       <jump line="49" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="81" column="37" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="281" column="8" filename="$USER_HOME$/ConvParser/Aligner.py" />
+      <jump line="924" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="918" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1185" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="8">
-        <text encoding="base64">ICAgIAogICAg</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIGRlcF9zZW50X2luZGV4ID0gMAo=</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">ICAgIA==</text>
       </register>
       <register name="/" type="4">
-        <text>span_align</text>
+        <text>dep_sent_index</text>
       </register>
       <register name="0" type="4">
         <text>argparser.add_argument(&quot;--amr_file&quot;, type=str, help=&quot;the original AMR graph files&quot;, required=False)</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">ICAgIAogICAg</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIGRlcF9zZW50X2luZGV4ID0gMAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGlmIG5vdCBhcmdzLnJlYWxpZ246Cg==</text>
+        <text encoding="base64">ICAgICAgICBkZXBfc2VudF9pbmRleCArPSAxCg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgIGRlcF90b2tfc2VxID0gTm9uZQo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIHVzZWRfc2VudHMgPSAwCg==</text>
+      </register>
+      <register name="5" type="8">
+        <text encoding="base64">ICAgIAogICAg</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGlmIG5vdCBhcmdzLnJlYWxpZ246Cg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="8" type="4">
         <text>if args.realign:
             pi_seq, edge_map, edge_list = buildPiSeq(new_amr, dep_tok_seq, new_alignment, sorted_indexes, print_info)
         else:</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="7" type="4">
-        <text>if args.realign:
-            new_alignment = mergeToks(collapsed_toks, dep_tok_seq, new_alignment, sent_index)
-            if new_alignment is None:
-                continue</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>span_align</last-search>
+      <last-search>dep_sent_index</last-search>
       <last-offset />
-      <last-pattern>span_align</last-pattern>
+      <last-pattern>dep_sent_index</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -621,6 +618,7 @@
         <entry>neg_pola</entry>
         <entry>word_align</entry>
         <entry>span_align</entry>
+        <entry>dep_sent_index</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
