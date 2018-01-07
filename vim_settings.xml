@@ -31,11 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515364525694">
-        <mark key="[" line="1447" column="0" />
-        <mark key="]" line="1447" column="0" />
-        <mark key="^" line="1289" column="65" />
-        <mark key="." line="1447" column="0" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515366866025">
+        <mark key="'" line="1159" column="28" />
+        <mark key="[" line="1245" column="0" />
+        <mark key="]" line="1245" column="0" />
+        <mark key="^" line="1160" column="48" />
+        <mark key="." line="1245" column="0" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -195,11 +196,11 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515360225875">
-        <mark key="'" line="1019" column="38" />
-        <mark key="[" line="1262" column="0" />
-        <mark key="]" line="1262" column="0" />
-        <mark key="." line="1262" column="0" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515366150580">
+        <mark key="[" line="64" column="20" />
+        <mark key="]" line="66" column="26" />
+        <mark key="." line="66" column="26" />
+        <mark key="^" line="66" column="26" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/io/IOUtils.java" timestamp="1491962694595">
         <mark key="'" line="667" column="17" />
@@ -251,12 +252,6 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/preprocessing/seq2graph/amr2seq/data_prep/cacheTransition.py" timestamp="1514154408789">
-        <mark key="[" line="0" column="14" />
-        <mark key="]" line="1" column="0" />
-        <mark key="." line="1" column="0" />
-        <mark key="^" line="1" column="0" />
-      </file>
       <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1510089736605">
         <mark key="'" line="245" column="13" />
         <mark key="[" line="248" column="8" />
@@ -270,12 +265,6 @@
         <mark key="]" line="714" column="8" />
         <mark key="^" line="714" column="8" />
         <mark key="." line="714" column="8" />
-      </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/dependency.py" timestamp="1514929428507">
-        <mark key="[" line="23" column="13" />
-        <mark key="]" line="23" column="26" />
-        <mark key="^" line="23" column="30" />
-        <mark key="." line="23" column="30" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1515008518064">
         <mark key="'" line="105" column="21" />
@@ -396,12 +385,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515365110928">
-        <mark key="'" line="235" column="31" />
-        <mark key="[" line="207" column="0" />
-        <mark key="]" line="207" column="0" />
-        <mark key="^" line="932" column="8" />
-        <mark key="." line="207" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515367028483">
+        <mark key="'" line="941" column="91" />
+        <mark key="[" line="954" column="29" />
+        <mark key="]" line="954" column="38" />
+        <mark key="." line="954" column="38" />
+        <mark key="^" line="954" column="38" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -417,6 +406,10 @@
         <mark key="." line="208" column="17" />
         <mark key="^" line="208" column="17" />
       </file>
+      <file name="$USER_HOME$/data_processing/preprocess.py" timestamp="1515365784801">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="29" column="24" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1513623255940">
         <mark key="'" line="10" column="0" />
         <mark key="[" line="1" column="0" />
@@ -424,36 +417,8 @@
         <mark key="^" line="830" column="49" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668521968">
-        <mark key="[" line="9" column="49" />
-        <mark key="]" line="9" column="52" />
-        <mark key="." line="9" column="52" />
-        <mark key="^" line="9" column="52" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="53" column="26" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="46" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
-      <jump line="79" column="60" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="93" column="37" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="2048" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="103" column="43" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="144" column="14" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
-      <jump line="105" column="21" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
-      <jump line="423" column="16" filename="$USER_HOME$/ConvParser/preprocessing.py" />
-      <jump line="484" column="20" filename="$USER_HOME$/ConvParser/preprocessing.py" />
-      <jump line="359" column="30" filename="$USER_HOME$/ConvParser/preprocessing.py" />
-      <jump line="85" column="8" filename="$USER_HOME$/ConvParser/common/data.py" />
-      <jump line="76" column="6" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
-      <jump line="323" column="31" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
-      <jump line="78" column="17" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
-      <jump line="309" column="30" filename="$USER_HOME$/ConvParser/preprocessing.py" />
-      <jump line="877" column="8" filename="$USER_HOME$/data_processing/categorize_amr.py" />
-      <jump line="192" column="23" filename="$USER_HOME$/data_processing/rebuild_conceptid.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/data_processing/date_extraction.py" />
-      <jump line="226" column="4" filename="$USER_HOME$/data_processing/date_extraction.py" />
-      <jump line="227" column="5" filename="$USER_HOME$/data_processing/date_extraction.py" />
-      <jump line="231" column="26" filename="$USER_HOME$/data_processing/date_extraction.py" />
       <jump line="40" column="4" filename="$USER_HOME$/data_processing/date_extraction.py" />
       <jump line="183" column="4" filename="$USER_HOME$/data_processing/date_extraction.py" />
       <jump line="204" column="33" filename="$USER_HOME$/data_processing/date_extraction.py" />
@@ -522,7 +487,6 @@
       <jump line="16" column="0" filename="$USER_HOME$/data_processing/constants.py" />
       <jump line="966" column="38" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1171" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="1186" column="16" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1010" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1288" column="7" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1289" column="49" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -532,26 +496,42 @@
       <jump line="1448" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="953" column="82" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="235" column="31" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="985" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="19" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="13" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="986" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1028" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="19" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="968" column="51" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1419" column="46" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1189" column="46" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1452" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1186" column="43" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="156" column="42" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="962" column="15" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1245" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="954" column="46" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1141" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1436" column="30" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1420" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1159" column="28" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1464" column="20" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="998" column="36" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="941" column="91" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="229" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>build_date_fragments</text>
+        <text>ENT</text>
       </register>
       <register name="/" type="4">
-        <text>build_date_fragments</text>
+        <text>extract_all</text>
       </register>
       <register name="0" type="4">
-        <text>if curr_edge.label in date_relations:
-                frag.set_edge(curr_edge_index)
-                tail_node_index = curr_edge.tail
-                frag.set_node(tail_node_index)
-                tail_node = self.nodes[tail_node_index]
-                frag.set_edge(tail_node.c_edge)
-                if len(tail_node.v_edges) != 0:
-                    return None</text>
+        <text>curr_node.is_date_entity():</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -563,8 +543,7 @@
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="4">
-        <text>num_nodes = len(amr_graph.nodes)
-    num_edges = len(amr_graph.edges)</text>
+        <text encoding="base64">ZGVmIGV4dHJhY3RfYWxsX2RhdGVzKHNlbGYpOgogICAgICAgIGVudGl0eV9mcmFncyA9IFtdCgogICAgICAgIHZpc2l0ZWRfbm9kZXMgPSBzZXQoKQogICAgICAgIHN0YWNrID0gWyhzZWxmLnJvb3QsIE5vbmUsIDAsIEZhbHNlKV0KCiAgICAgICAgd2hpbGUgc3RhY2s6CiAgICAgICAgICAgIGN1cnJfbm9kZV9pbmRleCwgcGFyX3JlbCwgZGVwdGgsIGlzX2NvcmVmID0gc3RhY2sucG9wKCkKCiAgICAgICAgICAgIGlmIGlzX2NvcmVmOgogICAgICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgIHZpc2l0ZWRfbm9kZXMuYWRkKGN1cnJfbm9kZV9pbmRleCkKICAgICAgICAgICAgY3Vycl9ub2RlID0gc2VsZi5ub2Rlc1tjdXJyX25vZGVfaW5kZXhdCgogICAgICAgICAgICBpZiBjdXJyX25vZGUuaXNfZGF0ZV9lbnRpdHkoKToKICAgICAgICAgICAgICAgIGZyYWcgPSBzZWxmLmJ1aWxkX2VudGl0eV9mcmFnbWVudChjdXJyX25vZGUsICJEQVRFIikKCiAgICAgICAgICAgICAgICBpZiBmcmFnOgogICAgICAgICAgICAgICAgICAgIGVudGl0eV9mcmFncy5hcHBlbmQoZnJhZykKCiAgICAgICAgICAgIGlmIGxlbihjdXJyX25vZGUudl9lZGdlcykgPiAwOgogICAgICAgICAgICAgICAgZm9yIGVkZ2VfaW5kZXggaW4gcmV2ZXJzZWQoY3Vycl9ub2RlLnZfZWRnZXMpOiAgI2RlcHRoIGZpcnN0IHNlYXJjaAogICAgICAgICAgICAgICAgICAgIGN1cnJfZWRnZSA9IHNlbGYuZWRnZXNbZWRnZV9pbmRleF0KICAgICAgICAgICAgICAgICAgICBjdXJyX3JlbCA9IGN1cnJfZWRnZS5sYWJlbAogICAgICAgICAgICAgICAgICAgIGNoaWxkX2luZGV4ID0gY3Vycl9lZGdlLnRhaWwKICAgICAgICAgICAgICAgICAgICBpZiBub3QgY3Vycl9lZGdlLmlzX2NvcmVmOgogICAgICAgICAgICAgICAgICAgICAgICBzdGFjay5hcHBlbmQoKGNoaWxkX2luZGV4LCBjdXJyX3JlbCwgZGVwdGgrMSwgRmFsc2UpKQogICAgICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgICAgIHN0YWNrLmFwcGVuZCgoY2hpbGRfaW5kZXgsIGN1cnJfcmVsLCBkZXB0aCsxLCBUcnVlKSkKICAgICAgICByZXR1cm4gZW50aXR5X2ZyYWdz</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
@@ -573,53 +552,25 @@
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="4">
-        <text>def build_date_fragments(self, node):
-        n_nodes = len(self.nodes)
-        n_edges = len(self.edges)
-
-        frag = AMRFragment(n_edges, n_nodes, self)
-
-        curr_node = node
-        curr_node_index = self.node_dict[curr_node]
-
-        frag.set_root(curr_node_index)
-
-        c_edge_index = curr_node.c_edge
-        frag.set_edge(c_edge_index)
-
-        for curr_edge_index in curr_node.v_edges:
-            curr_edge = self.edges[curr_edge_index]
-            if curr_edge.label in date_relations:
-                frag.set_edge(curr_edge_index)
-                tail_node_index = curr_edge.tail
-                frag.set_node(tail_node_index)
-                tail_node = self.nodes[tail_node_index]
-                frag.set_edge(tail_node.c_edge)
-                if len(tail_node.v_edges) != 0:
-                    return None
-
-        frag.build_ext_list()
-        frag.build_ext_set()
-        return frag</text>
+        <text encoding="base64">ZGVmIGV4dHJhY3RfZGF0ZXMoc2VsZik6CiAgICAgICAgdmlzaXRlZF9ub2RlcyA9IHNldCgpCiAgICAgICAgc3RhY2sgPSBbKHNlbGYucm9vdCwgTm9uZSwgMCwgRmFsc2UpXQogICAgICAgIGVudGl0eV9mcmFncyA9IFtdCgogICAgICAgIHdoaWxlIHN0YWNrOgogICAgICAgICAgICBjdXJyX25vZGVfaW5kZXgsIHBhcl9yZWwsIGRlcHRoLCBpc19jb3JlZiA9IHN0YWNrLnBvcCgpCgogICAgICAgICAgICBpZiBpc19jb3JlZjoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICB2aXNpdGVkX25vZGVzLmFkZChjdXJyX25vZGVfaW5kZXgpCiAgICAgICAgICAgIGN1cnJfbm9kZSA9IHNlbGYubm9kZXNbY3Vycl9ub2RlX2luZGV4XQogICAgICAgICAgICBpZiBjdXJyX25vZGUuaXNfZGF0ZV9lbnRpdHkoKToKICAgICAgICAgICAgICAgIGZyYWcgPSBzZWxmLmJ1aWxkX2VudGl0eV9mcmFnbWVudChjdXJyX25vZGUpCgogICAgICAgICAgICAgICAgd2lraV9sYWJlbCA9IGN1cnJfbm9kZS5nZXRXaWtpKCkKICAgICAgICAgICAgICAgIGVudGl0eV9mcmFncy5hcHBlbmQoKGZyYWcsIHdpa2lfbGFiZWwpKQoKICAgICAgICAgICAgaWYgbGVuKGN1cnJfbm9kZS52X2VkZ2VzKSA+IDA6CiAgICAgICAgICAgICAgICBmb3IgZWRnZV9pbmRleCBpbiByZXZlcnNlZChjdXJyX25vZGUudl9lZGdlcyk6ICAjZGVwdGggZmlyc3Qgc2VhcmNoCiAgICAgICAgICAgICAgICAgICAgY3Vycl9lZGdlID0gc2VsZi5lZGdlc1tlZGdlX2luZGV4XQogICAgICAgICAgICAgICAgICAgIGN1cnJfcmVsID0gY3Vycl9lZGdlLmxhYmVsCiAgICAgICAgICAgICAgICAgICAgY2hpbGRfaW5kZXggPSBjdXJyX2VkZ2UudGFpbAogICAgICAgICAgICAgICAgICAgIGlmIG5vdCBjdXJyX2VkZ2UuaXNfY29yZWY6CiAgICAgICAgICAgICAgICAgICAgICAgIHN0YWNrLmFwcGVuZCgoY2hpbGRfaW5kZXgsIGN1cnJfcmVsLCBkZXB0aCsxLCBGYWxzZSkpCiAgICAgICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICAgICAgc3RhY2suYXBwZW5kKChjaGlsZF9pbmRleCwgY3Vycl9yZWwsIGRlcHRoKzEsIFRydWUpKQogICAgICAgIHJldHVybiBlbnRpdHlfZnJhZ3M=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text>root2entityfrag = {}
-        root2entitynames = {}</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHdpa2lfbGFiZWwgPSBjdXJyX25vZGUuZ2V0V2lraSgpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgI3Jvb3Rfc3JjcyA9IE5vbmUK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>build_date_fragments</last-search>
+      <last-search>extract_all</last-search>
       <last-offset />
-      <last-pattern>build_date_fragments</last-pattern>
+      <last-pattern>extract_all</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -675,6 +626,11 @@
         <entry>build_entit</entry>
         <entry>build_</entry>
         <entry>build_date_fragments</entry>
+        <entry>removeRedundan</entry>
+        <entry>removeDate</entry>
+        <entry>removeAligned</entry>
+        <entry>extract_date</entry>
+        <entry>extract_all</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
