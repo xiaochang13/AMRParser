@@ -31,11 +31,11 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515363235500">
-        <mark key="'" line="1466" column="38" />
-        <mark key="[" line="1519" column="0" />
-        <mark key="]" line="1519" column="0" />
-        <mark key="." line="1519" column="0" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515364525694">
+        <mark key="[" line="1447" column="0" />
+        <mark key="]" line="1447" column="0" />
+        <mark key="^" line="1289" column="65" />
+        <mark key="." line="1447" column="0" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -251,6 +251,12 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
+      <file name="$USER_HOME$/AMRParser/preprocessing/seq2graph/amr2seq/data_prep/cacheTransition.py" timestamp="1514154408789">
+        <mark key="[" line="0" column="14" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+        <mark key="^" line="1" column="0" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1510089736605">
         <mark key="'" line="245" column="13" />
         <mark key="[" line="248" column="8" />
@@ -264,6 +270,12 @@
         <mark key="]" line="714" column="8" />
         <mark key="^" line="714" column="8" />
         <mark key="." line="714" column="8" />
+      </file>
+      <file name="$USER_HOME$/AMRParser/CacheTransition/dependency.py" timestamp="1514929428507">
+        <mark key="[" line="23" column="13" />
+        <mark key="]" line="23" column="26" />
+        <mark key="^" line="23" column="30" />
+        <mark key="." line="23" column="30" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1515008518064">
         <mark key="'" line="105" column="21" />
@@ -384,8 +396,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515359498021">
-        <mark key="'" line="966" column="38" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515364467164">
+        <mark key="'" line="1010" column="33" />
         <mark key="[" line="1042" column="0" />
         <mark key="]" line="1042" column="0" />
         <mark key="^" line="935" column="8" />
@@ -412,17 +424,14 @@
         <mark key="^" line="830" column="49" />
         <mark key="." line="1" column="0" />
       </file>
+      <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668521968">
+        <mark key="[" line="9" column="49" />
+        <mark key="]" line="9" column="52" />
+        <mark key="." line="9" column="52" />
+        <mark key="^" line="9" column="52" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="261" column="16" filename="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" />
-      <jump line="120" column="60" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
-      <jump line="34" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
-      <jump line="98" column="23" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
-      <jump line="115" column="59" filename="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" />
-      <jump line="262" column="0" filename="$USER_HOME$/AMRParser/CacheTransition/ioutil.py" />
-      <jump line="48" column="27" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="10" column="4" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
-      <jump line="40" column="1" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1915" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="53" column="26" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="46" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
@@ -502,7 +511,6 @@
       <jump line="1440" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="971" column="59" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="96" column="0" filename="$USER_HOME$/data_processing/re_utils.py" />
-      <jump line="966" column="38" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1155" column="28" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1019" column="38" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="1291" column="33" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -514,46 +522,95 @@
       <jump line="1490" column="31" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1468" column="38" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="16" column="0" filename="$USER_HOME$/data_processing/constants.py" />
+      <jump line="966" column="38" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1171" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1186" column="16" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1010" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1288" column="7" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1289" column="49" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1333" column="21" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1334" column="21" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1437" column="25" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1448" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjb3B0X3NyY3MgKz0gZXh0cmFjdF9wYXR0ZXJucyhzdHIoY3Vycl90YWlsX25vZGUpLCAnfmVcLlswLTldKygsWzAtOV0rKSonKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>build_date_fragments</text>
       </register>
       <register name="/" type="4">
-        <text>node_dict</text>
+        <text>build_date_fragments</text>
       </register>
       <register name="0" type="4">
-        <text>argparser.add_argument(&quot;--amr_file&quot;, type=str, help=&quot;the original AMR graph files&quot;, required=False)</text>
+        <text>if curr_edge.label in date_relations:
+                frag.set_edge(curr_edge_index)
+                tail_node_index = curr_edge.tail
+                frag.set_node(tail_node_index)
+                tail_node = self.nodes[tail_node_index]
+                frag.set_edge(tail_node.c_edge)
+                if len(tail_node.v_edges) != 0:
+                    return None</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjb3B0X3NyY3MgKz0gZXh0cmFjdF9wYXR0ZXJucyhzdHIoY3Vycl90YWlsX25vZGUpLCAnfmVcLlswLTldKygsWzAtOV0rKSonKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjZGF0ZV9yZWxhdGlvbnMgPSBzZXQoWyd0aW1lJywgJ3llYXInLCAnbW9udGgnLCAnZGF5JywgJ3dlZWtkYXknLCAnY2VudHVyeScsICdlcmEnLCAnZGVjYWRlJywgJ2RheXBlcmlvZCcsICdzZWFzb24nLCAndGltZXpvbmUnXSkK</text>
+      <register name="3" type="4">
+        <text>def build_date_fragments(self, node):
+        n_nodes = len(self.nodes)
+        n_edges = len(self.edges)
+
+        frag = AMRFragment(n_edges, n_nodes, self)
+
+        curr_node = node
+        curr_node_index = self.node_dict[curr_node]
+
+        frag.set_root(curr_node_index)
+
+        c_edge_index = curr_node.c_edge
+        frag.set_edge(c_edge_index)
+
+        for curr_edge_index in curr_node.v_edges:
+            curr_edge = self.edges[curr_edge_index]
+            if curr_edge.label in date_relations:
+                frag.set_edge(curr_edge_index)
+                tail_node_index = curr_edge.tail
+                frag.set_node(tail_node_index)
+                tail_node = self.nodes[tail_node_index]
+                frag.set_edge(tail_node.c_edge)
+                if len(tail_node.v_edges) != 0:
+                    return None
+
+        frag.build_ext_list()
+        frag.build_ext_set()
+        return frag</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICByb290X3NyYyA9IGN1cnJfbm9kZV9pbmRleAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjb3B0X3NyY3MgPSBbXQo=</text>
+      <register name="5" type="4">
+        <text>root2entityfrag = {}
+        root2entitynames = {}</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICByb290X3NyYyA9IGN1cnJfbm9kZV9pbmRleAo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwYXJfbm9kZV9pbmRleCA9IGN1cnJfbm9kZV9pbmRleAo=</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      </register>
+      <register name="8" type="4">
+        <text>frag.set_edge(curr_edge_index)
+                    tail_node_index = curr_edge.tail
+                    frag.set_node(tail_node_index)
+                    tail_node = self.nodes[tail_node_index]
+                    frag.set_edge(tail_node.c_edge)</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -563,9 +620,9 @@
       </register>
     </registers>
     <search>
-      <last-search>node_dict</last-search>
+      <last-search>build_date_fragments</last-search>
       <last-offset />
-      <last-pattern>node_dict</last-pattern>
+      <last-pattern>build_date_fragments</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -618,6 +675,9 @@
         <entry>aligned_set</entry>
         <entry>par_node_index</entry>
         <entry>node_dict</entry>
+        <entry>build_entit</entry>
+        <entry>build_</entry>
+        <entry>build_date_fragments</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
