@@ -189,6 +189,11 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515356946116">
+        <mark key="[" line="1262" column="0" />
+        <mark key="]" line="1262" column="0" />
+        <mark key="." line="1262" column="0" />
+      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/io/IOUtils.java" timestamp="1491962694595">
         <mark key="'" line="667" column="17" />
         <mark key="[" line="652" column="5" />
@@ -523,7 +528,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGRlcF9zZW50X2luZGV4ID0gMAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">ICAgIA==</text>
@@ -535,36 +540,34 @@
         <text>argparser.add_argument(&quot;--amr_file&quot;, type=str, help=&quot;the original AMR graph files&quot;, required=False)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGRlcF9zZW50X2luZGV4ID0gMAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBkZXBfc2VudF9pbmRleCArPSAxCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIGRlcF90b2tfc2VxID0gTm9uZQo=</text>
+      <register name="3" type="4">
+        <text encoding="base64">I29yX2YgPSBvcGVuKCdvcHNfY29uY2VwdHMudHh0JywgJ3cnKQogICAgI3NvcnRlZF9vcGNvdW50cyA9IHNvcnRlZChvcF9jb25jZXB0cy5pdGVtcygpLCBrZXk9bGFtYmRhIHg6IC14WzFdKQogICAgI2ZvciBjb25jZXB0LCBjb3VudCBpbiBzb3J0ZWRfb3Bjb3VudHM6CiAgICAjICAgIGlmIGNvdW50ID49IDMwOgogICAgIyAgICAgICAgcHJpbnQgPj4gb3JfZiwgKCclcyAlcycgJSAoY29uY2VwdCwgY291bnQpKQogICAgI29yX2YuY2xvc2UoKQogICAgI2NvbmNlcHRGcmVxID0gZGVmYXVsdGRpY3QoaW50KQogICAgI2ZvciBjb25jZXB0IGluIGxhYmVsVG9SZWxzOgogICAgIyAgICBmb3IgKHJlbCwgY291bnQpIGluIGxhYmVsVG9SZWxzW2NvbmNlcHRdLml0ZW1zKCk6CiAgICAjICAgICAgICBjb25jZXB0RnJlcVtjb25jZXB0XSArPSBjb3VudAoKICAgICNzb3J0ZWRfZnJlcSA9IHNvcnRlZChjb25jZXB0RnJlcS5pdGVtcygpLCBrZXk9bGFtYmRhIHg6IC14WzFdKQogICAgI2NvbmNlcHRfcmVsc193ZiA9IG9wZW4oJ2NvbmNlcHRfcmVscy50eHQnLCAndycpCiAgICAjZm9yIChjb25jZXB0LCBjb3VudCkgaW4gc29ydGVkX2ZyZXE6CiAgICAjICAgIHJlbHMgPSBzb3J0ZWQobGFiZWxUb1JlbHNbY29uY2VwdF0uaXRlbXMoKSwga2V5PWxhbWJkYSB4Oi14WzFdKQogICAgIyAgICByZWxfc3RyID0gJzsnLmpvaW4oWyclczolZCcgJSAobCwgYykgZm9yIChsLCBjKSBpbiByZWxzXSkKICAgICMgICAgcHJpbnQgPj5jb25jZXB0X3JlbHNfd2YsICgiJXMgJWQgJXMiICUgKGNvbmNlcHQsIGNvdW50LCByZWxfc3RyKSkKICAgICNjb25jZXB0X3JlbHNfd2YuY2xvc2UoKQoKICAgICNpbmNvbWVGcmVxID0gZGVmYXVsdGRpY3QoaW50KQogICAgI2ZvciBjb25jZXB0IGluIGxhYmVsVG9JbmNvbWluZzoKICAgICMgICAgZm9yIChyZWwsIGNvdW50KSBpbiBsYWJlbFRvSW5jb21pbmdbY29uY2VwdF0uaXRlbXMoKToKICAgICMgICAgICAgIGluY29tZUZyZXFbY29uY2VwdF0gKz0gY291bnQKCiAgICAjc29ydGVkX2ZyZXEgPSBzb3J0ZWQoaW5jb21lRnJlcS5pdGVtcygpLCBrZXk9bGFtYmRhIHg6IC14WzFdKQogICAgI2NvbmNlcHRfcmVsc193ZiA9IG9wZW4oJ2NvbmNlcHRfaW5jb21lX3JlbHMudHh0JywgJ3cnKQogICAgI2ZvciAoY29uY2VwdCwgY291bnQpIGluIHNvcnRlZF9mcmVxOgogICAgIyAgICByZWxzID0gc29ydGVkKGxhYmVsVG9JbmNvbWluZ1tjb25jZXB0XS5pdGVtcygpLCBrZXk9bGFtYmRhIHg6LXhbMV0pCiAgICAjICAgIHJlbF9zdHIgPSAnOycuam9pbihbJyVzOiVkJyAlIChsLCBjKSBmb3IgKGwsIGMpIGluIHJlbHNdKQogICAgIyAgICBwcmludCA+PmNvbmNlcHRfcmVsc193ZiwgKCIlcyAlZCAlcyIgJSAoY29uY2VwdCwgY291bnQsIHJlbF9zdHIpKQogICAgI2NvbmNlcHRfcmVsc193Zi5jbG9zZSgp</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHVzZWRfc2VudHMgPSAwCg==</text>
+        <text encoding="base64">ICAgIGRlcF9zZW50X2luZGV4ID0gMAo=</text>
       </register>
-      <register name="5" type="8">
-        <text encoding="base64">ICAgIAogICAg</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBkZXBfc2VudF9pbmRleCArPSAxCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGlmIG5vdCBhcmdzLnJlYWxpZ246Cg==</text>
+        <text encoding="base64">ICAgIGRlcF90b2tfc2VxID0gTm9uZQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHVzZWRfc2VudHMgPSAwCg==</text>
       </register>
-      <register name="8" type="4">
-        <text>if args.realign:
-            pi_seq, edge_map, edge_list = buildPiSeq(new_amr, dep_tok_seq, new_alignment, sorted_indexes, print_info)
-        else:</text>
+      <register name="8" type="8">
+        <text encoding="base64">ICAgIAogICAg</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGlmIG5vdCBhcmdzLnJlYWxpZ246Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
