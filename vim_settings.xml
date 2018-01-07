@@ -396,12 +396,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515364467164">
-        <mark key="'" line="1010" column="33" />
-        <mark key="[" line="1042" column="0" />
-        <mark key="]" line="1042" column="0" />
-        <mark key="^" line="935" column="8" />
-        <mark key="." line="1042" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515365110928">
+        <mark key="'" line="235" column="31" />
+        <mark key="[" line="207" column="0" />
+        <mark key="]" line="207" column="0" />
+        <mark key="^" line="932" column="8" />
+        <mark key="." line="207" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -432,7 +432,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1915" column="11" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="53" column="26" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
       <jump line="46" column="8" filename="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" />
       <jump line="79" column="60" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
@@ -506,7 +505,6 @@
       <jump line="1185" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="511" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="952" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="953" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1452" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1440" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="971" column="59" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -532,6 +530,8 @@
       <jump line="1334" column="21" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1437" column="25" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1448" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="953" column="82" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="235" column="31" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -563,6 +563,16 @@
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="4">
+        <text>num_nodes = len(amr_graph.nodes)
+    num_edges = len(amr_graph.edges)</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="6" type="4">
         <text>def build_date_fragments(self, node):
         n_nodes = len(self.nodes)
         n_edges = len(self.edges)
@@ -592,25 +602,12 @@
         frag.build_ext_set()
         return frag</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="5" type="4">
+      <register name="8" type="4">
         <text>root2entityfrag = {}
         root2entitynames = {}</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
-      </register>
-      <register name="8" type="4">
-        <text>frag.set_edge(curr_edge_index)
-                    tail_node_index = curr_edge.tail
-                    frag.set_node(tail_node_index)
-                    tail_node = self.nodes[tail_node_index]
-                    frag.set_edge(tail_node.c_edge)</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
