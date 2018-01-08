@@ -199,14 +199,15 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515387781170">
-        <mark key="'" line="229" column="33" />
-        <mark key="[" line="224" column="67" />
-        <mark key="]" line="224" column="67" />
-        <mark key="." line="224" column="67" />
-        <mark key="^" line="144" column="19" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515388893215">
+        <mark key="'" line="229" column="24" />
+        <mark key="[" line="240" column="33" />
+        <mark key="]" line="240" column="33" />
+        <mark key="." line="240" column="33" />
+        <mark key="^" line="240" column="33" />
       </file>
-      <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515387787106">
+      <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515388902625">
+        <mark key="'" line="66" column="0" />
         <mark key="[" line="51" column="0" />
         <mark key="]" line="51" column="0" />
         <mark key="." line="51" column="0" />
@@ -389,8 +390,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515382044237">
-        <mark key="'" line="631" column="49" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515388865587">
+        <mark key="'" line="446" column="47" />
         <mark key="[" line="450" column="32" />
         <mark key="]" line="451" column="33" />
         <mark key="^" line="451" column="33" />
@@ -423,20 +424,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="962" column="15" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1245" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="1141" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="1436" column="30" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="1420" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="1464" column="20" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="941" column="91" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="229" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="954" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1154" column="16" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="1402" column="0" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="298" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="518" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="320" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="516" column="18" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="694" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1125" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -521,64 +508,81 @@
       <jump line="441" column="22" filename="$USER_HOME$/ConvParser/common/AMRGraph.py" />
       <jump line="225" column="55" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="97" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="229" column="33" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="54" column="28" filename="$USER_HOME$/data_processing/re_utils.py" />
+      <jump line="235" column="24" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="185" column="36" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="96" column="0" filename="$USER_HOME$/data_processing/re_utils.py" />
+      <jump line="98" column="52" filename="$USER_HOME$/data_processing/re_utils.py" />
+      <jump line="94" column="30" filename="$USER_HOME$/data_processing/re_utils.py" />
+      <jump line="40" column="4" filename="$USER_HOME$/data_processing/re_utils.py" />
+      <jump line="187" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="193" column="91" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="186" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="433" column="98" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="166" column="25" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="446" column="47" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="201" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="229" column="24" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="66" column="0" filename="$USER_HOME$/data_processing/re_utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHRtcF9lbmQgPSBOb25lCg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">PSBlbmQg</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">dG9rX3NlcSwg</text>
+        <text encoding="base64">PSBlbmQg</text>
       </register>
       <register name="/" type="4">
-        <text>VERB</text>
+        <text>unaligned</text>
       </register>
       <register name="0" type="4">
         <text>(tok_seq, amr, align_seq, opt_toks, role_toks, nodeid_to_frag, entity_toks, aligned_toks
                   , all_alignments, temp_unaligned)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHRtcF9lbmQgPSBOb25lCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBlbmQgPSBzdGFydCArIDEK</text>
+      <register name="2" type="4">
+        <text># temp_spans.append((start-1, end))
+                        # else:
+                        # temp_spans.append((start, end))
+                    #else:</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHRtcF9lbmQgPSBOb25lCg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">I0ZvciBlYWNoIHNlbnRlbmNlLCByZWJ1aWxkIHRoZSBtYXAgZnJvbSBjYXRlZ29yaXplZCBmb3JtIHRvIGdyYXBoIHNpZGUgbm9kZXMKZGVmIHJlYnVpbGRNYXAoYXJncyk6CiAgICByZXR1cm4K</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBlbmQgPSBzdGFydCArIDEK</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="6" type="4">
+        <text encoding="base64">I0ZvciBlYWNoIHNlbnRlbmNlLCByZWJ1aWxkIHRoZSBtYXAgZnJvbSBjYXRlZ29yaXplZCBmb3JtIHRvIGdyYXBoIHNpZGUgbm9kZXMKZGVmIHJlYnVpbGRNYXAoYXJncyk6CiAgICByZXR1cm4K</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="4">
         <text>#Given dev or test data, build the linearized token sequence
 #Based on entity mapping from training, NER tagger
 def conceptID(args):
     return</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICMgY2hlY2tfdG9rZW5pemVyKGFyZ3MuYW1yX2ZpbGUsIGFyZ3MuZGVwX2ZpbGUpCg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>VERB</last-search>
+      <last-search>unaligned</last-search>
       <last-offset />
-      <last-pattern>VERB</last-pattern>
+      <last-pattern>unaligned</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -628,7 +632,6 @@ def conceptID(args):
         <entry>reentrancies</entry>
         <entry>has_multi</entry>
         <entry>no_alignment</entry>
-        <entry>aligned_set</entry>
         <entry>par_node_index</entry>
         <entry>node_dict</entry>
         <entry>build_</entry>
@@ -675,6 +678,10 @@ def conceptID(args):
         <entry>Unaligned entit</entry>
         <entry>entity_not</entry>
         <entry>VERB</entry>
+        <entry>tok_seq</entry>
+        <entry>aligned_set</entry>
+        <entry>temp_unaligned</entry>
+        <entry>unaligned</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
