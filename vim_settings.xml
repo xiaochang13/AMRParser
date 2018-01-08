@@ -201,12 +201,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515450300750">
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515452500013">
         <mark key="'" line="211" column="0" />
-        <mark key="[" line="309" column="27" />
-        <mark key="]" line="29" column="0" />
-        <mark key="." line="29" column="0" />
-        <mark key="^" line="29" column="0" />
+        <mark key="[" line="311" column="0" />
+        <mark key="]" line="311" column="1" />
+        <mark key="." line="311" column="1" />
+        <mark key="^" line="311" column="1" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515447945272">
         <mark key="'" line="66" column="0" />
@@ -532,11 +532,11 @@
       <jump line="211" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>_graph</text>
       </register>
       <register name="-" type="4">
-        <text>if</text>
+        <text>_graph</text>
       </register>
       <register name="/" type="4">
         <text>get_concept_tag</text>
