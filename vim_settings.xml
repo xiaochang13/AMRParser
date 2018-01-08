@@ -385,12 +385,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515377759246">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515378799148">
         <mark key="'" line="1000" column="12" />
-        <mark key="[" line="1044" column="28" />
-        <mark key="]" line="1045" column="31" />
-        <mark key="^" line="1045" column="31" />
-        <mark key="." line="1045" column="31" />
+        <mark key="[" line="1226" column="29" />
+        <mark key="]" line="1228" column="85" />
+        <mark key="^" line="1228" column="85" />
+        <mark key="." line="1228" column="85" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -521,11 +521,11 @@
       <jump line="998" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">KSA=</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text encoding="base64">KSA=</text>
       </register>
       <register name="/" type="4">
         <text>Unaligned entity</text>
