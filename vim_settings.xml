@@ -201,12 +201,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515395120640">
-        <mark key="'" line="186" column="51" />
-        <mark key="[" line="258" column="36" />
-        <mark key="]" line="259" column="28" />
-        <mark key="." line="259" column="28" />
-        <mark key="^" line="259" column="28" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515396311153">
+        <mark key="'" line="241" column="71" />
+        <mark key="[" line="241" column="44" />
+        <mark key="]" line="241" column="44" />
+        <mark key="." line="241" column="44" />
+        <mark key="^" line="245" column="32" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515388902625">
         <mark key="'" line="66" column="0" />
@@ -259,6 +259,12 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
+      <file name="$USER_HOME$/AMRParser/preprocessing/seq2graph/amr2seq/data_prep/cacheTransition.py" timestamp="1514154408789">
+        <mark key="[" line="0" column="14" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+        <mark key="^" line="1" column="0" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1510089736605">
         <mark key="'" line="245" column="13" />
         <mark key="[" line="248" column="8" />
@@ -272,6 +278,12 @@
         <mark key="]" line="714" column="8" />
         <mark key="^" line="714" column="8" />
         <mark key="." line="714" column="8" />
+      </file>
+      <file name="$USER_HOME$/AMRParser/CacheTransition/dependency.py" timestamp="1514929428507">
+        <mark key="[" line="23" column="13" />
+        <mark key="]" line="23" column="26" />
+        <mark key="^" line="23" column="30" />
+        <mark key="." line="23" column="30" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1515008518064">
         <mark key="'" line="105" column="21" />
@@ -392,12 +404,11 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515395116862">
-        <mark key="'" line="440" column="50" />
-        <mark key="[" line="435" column="0" />
-        <mark key="]" line="435" column="0" />
-        <mark key="^" line="445" column="33" />
-        <mark key="." line="435" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515396359398">
+        <mark key="[" line="419" column="0" />
+        <mark key="]" line="419" column="0" />
+        <mark key="^" line="440" column="33" />
+        <mark key="." line="419" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -424,11 +435,14 @@
         <mark key="^" line="830" column="49" />
         <mark key="." line="1" column="0" />
       </file>
+      <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668521968">
+        <mark key="[" line="9" column="49" />
+        <mark key="]" line="9" column="52" />
+        <mark key="." line="9" column="52" />
+        <mark key="^" line="9" column="52" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="761" column="27" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="738" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="813" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="866" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="867" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="870" column="19" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -526,62 +540,67 @@
       <jump line="440" column="50" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="186" column="51" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="1056" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="241" column="71" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="420" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="423" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBhbGxfZnJhZ3MgPSBbXQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>str(frag)</text>
+        <text encoding="base64">IGFuZCBlbmQgaW4gdGVtcF91bmFsaWduZWQ=</text>
       </register>
       <register name="/" type="4">
-        <text>buildFragment</text>
+        <text>has_cycle</text>
       </register>
       <register name="0" type="4">
         <text>&quot;sixties&quot;:1960, &quot;seventies&quot;:1970, &quot;eighties&quot;:1980, &quot;nineties&quot;:1990</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBhbGxfZnJhZ3MgPSBbXQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="3" type="4">
+        <text>has_cycle = False
+        if amr.check_self_cycle():
+            num_self_cycle += 1
+            has_cycle = True</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="4">
+        <text encoding="base64">ZWxpZiB0b2tfc2VxW3N0YXJ0LTFdID09ICJ0aCI6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGFydCAtIA==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBhbGxfZnJhZ3MgPSBbXQo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="9" type="4">
         <text>singleton_num = 0.0
     multiple_num = 0.0
     total_num = 0.0
     empty_num = 0.0</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="6" type="4">
-        <text>#else:
-            #    ret_var = SURF</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgI2lmIHNlbGYuc3RhdHMubnVtX25vbnByZWRpY2F0ZV92YWxzW2N1cnJfdmFyXSA+PSB2YXJfZnJlcV90aHJlOgo=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>buildFragment</last-search>
+      <last-search>has_cycle</last-search>
       <last-offset />
-      <last-pattern>buildFragment</last-pattern>
+      <last-pattern>has_cycle</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -688,6 +707,7 @@
         <entry>op</entry>
         <entry>:op</entry>
         <entry>buildFragment</entry>
+        <entry>has_cycle</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
