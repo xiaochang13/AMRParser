@@ -115,12 +115,12 @@
       <file name="$USER_HOME$/ConvParser/common/AMRGraph.py" timestamp="1515387532676">
         <mark key="'" line="441" column="22" />
       </file>
-      <file name="$USER_HOME$/data_processing/date_extraction.py" timestamp="1515392596182">
+      <file name="$USER_HOME$/data_processing/date_extraction.py" timestamp="1515442489746">
         <mark key="'" line="9" column="0" />
-        <mark key="[" line="226" column="0" />
-        <mark key="]" line="226" column="0" />
-        <mark key="^" line="226" column="0" />
-        <mark key="." line="226" column="0" />
+        <mark key="[" line="7" column="42" />
+        <mark key="]" line="7" column="52" />
+        <mark key="^" line="7" column="52" />
+        <mark key="." line="7" column="52" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/constants.py" timestamp="1478440893183">
         <mark key="'" line="53" column="0" />
@@ -424,6 +424,11 @@
         <mark key="." line="208" column="17" />
         <mark key="^" line="208" column="17" />
       </file>
+      <file name="$USER_HOME$/data_processing/constants.py" timestamp="1515442200404">
+        <mark key="[" line="56" column="0" />
+        <mark key="]" line="56" column="0" />
+        <mark key="." line="56" column="0" />
+      </file>
       <file name="$USER_HOME$/data_processing/preprocess.py" timestamp="1515365784801">
         <mark key="[" line="3" column="0" />
         <mark key="]" line="29" column="24" />
@@ -546,7 +551,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IGFuZCBlbmQgaW4gdGVtcF91bmFsaWduZWQ=</text>
@@ -558,40 +563,39 @@
         <text>&quot;sixties&quot;:1960, &quot;seventies&quot;:1970, &quot;eighties&quot;:1980, &quot;nineties&quot;:1990</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
+      <register name="2" type="4">
+        <text>#if num_relations == 2:
+                    #    print subgraph_str</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      </register>
+      <register name="4" type="4">
+        <text>#if len(l) == 1:
+                    #else: # have sub-structure</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="3" type="4">
+      <register name="7" type="4">
         <text>has_cycle = False
         if amr.check_self_cycle():
             num_self_cycle += 1
             has_cycle = True</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">ZWxpZiB0b2tfc2VxW3N0YXJ0LTFdID09ICJ0aCI6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGFydCAtIA==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBhbGxfZnJhZ3MgPSBbXQo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="4">
-        <text>singleton_num = 0.0
-    multiple_num = 0.0
-    total_num = 0.0
-    empty_num = 0.0</text>
+        <text encoding="base64">ZWxpZiB0b2tfc2VxW3N0YXJ0LTFdID09ICJ0aCI6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGFydCAtIA==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
