@@ -392,7 +392,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515450000000">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515453627215">
+        <mark key="'" line="126" column="8" />
         <mark key="[" line="438" column="0" />
         <mark key="]" line="438" column="0" />
         <mark key="^" line="524" column="11" />
@@ -430,10 +431,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="184" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="275" column="47" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="142" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="185" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="223" column="15" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="179" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="156" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -530,6 +527,10 @@
       <jump line="195" column="74" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="228" column="4" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
       <jump line="211" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="588" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="79" column="9" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="80" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="126" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -539,7 +540,7 @@
         <text>_graph</text>
       </register>
       <register name="/" type="4">
-        <text>get_concept_tag</text>
+        <text>unaligned</text>
       </register>
       <register name="0" type="4">
         <text>matched_span = searchEntityTokens(frag, tok_seq, temp_unaligned)</text>
@@ -580,9 +581,9 @@
       </register>
     </registers>
     <search>
-      <last-search>get_concept_tag</last-search>
+      <last-search>unaligned</last-search>
       <last-offset />
-      <last-pattern>get_concept_tag</last-pattern>
+      <last-pattern>unaligned</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -680,7 +681,6 @@
         <entry>tok_seq</entry>
         <entry>aligned_set</entry>
         <entry>temp_unaligned</entry>
-        <entry>unaligned</entry>
         <entry>aligned_toks</entry>
         <entry>date_relations</entry>
         <entry>Unaligned entity</entry>
@@ -695,6 +695,8 @@
         <entry>extract_node</entry>
         <entry>preprocess</entry>
         <entry>get_concept_tag</entry>
+        <entry>unaligned concepts</entry>
+        <entry>unaligned</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
