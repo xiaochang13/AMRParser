@@ -201,18 +201,18 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515447868860">
-        <mark key="'" line="197" column="26" />
-        <mark key="[" line="187" column="29" />
-        <mark key="]" line="188" column="26" />
-        <mark key="." line="188" column="26" />
-        <mark key="^" line="188" column="26" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515448886522">
+        <mark key="'" line="195" column="74" />
+        <mark key="[" line="199" column="45" />
+        <mark key="]" line="201" column="26" />
+        <mark key="." line="201" column="26" />
+        <mark key="^" line="201" column="26" />
       </file>
-      <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515388902625">
+      <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515447945272">
         <mark key="'" line="66" column="0" />
-        <mark key="[" line="51" column="0" />
-        <mark key="]" line="51" column="0" />
-        <mark key="." line="51" column="0" />
+        <mark key="[" line="130" column="0" />
+        <mark key="]" line="130" column="0" />
+        <mark key="." line="130" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/io/IOUtils.java" timestamp="1491962694595">
         <mark key="'" line="667" column="17" />
@@ -525,26 +525,24 @@
       <jump line="824" column="4" filename="$USER_HOME$/data_processing/rebuild_conceptid.py" />
       <jump line="207" column="70" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="181" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="195" column="60" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="166" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="51" column="24" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="250" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="197" column="26" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="195" column="74" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>entity_mention = frag.</text>
+        <text>if</text>
       </register>
       <register name="/" type="4">
         <text>entity_mention_toks</text>
       </register>
       <register name="0" type="4">
-        <text>root_node = amr.nodes[frag.root]
-
-            entity_mention_toks = root_node.namedEntityMention()</text>
+        <text>matched_span = searchEntityTokens(frag, tok_seq, temp_unaligned)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -553,32 +551,52 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHJvb3Rfbm9kZSA9IGFtci5ub2Rlc1tmcmFnLnJvb3RdCgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGVudGl0eV9tZW50aW9uX3Rva3MgPSByb290X25vZGUubmFtZWRFbnRpdHlNZW50aW9uKCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZGVmIHNlYXJjaERhdGVTcGFucygpCg==</text>
+        <text encoding="base64">ICAgIHJvb3Rfbm9kZSA9IGFtci5ub2Rlc1tmcmFnLnJvb3RdCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="6" type="4">
-        <text>if entity_not_align:
-            unaligned_sents += 1
-            logger.writeln(str(amr))
-            continue</text>
+        <text>matched_span = searchEntityTokens(frag, tok_seq, temp_unaligned)
+                if matched_span:</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="4">
-        <text>unaligned_idxs = sorted(list(unaligned_toks))
-            logger.writeln(&quot;Unaligned tokens: %s&quot; % (&quot; &quot;.join([tok_seq[i] for i in unaligned_idxs])))</text>
+        <text>#toks = extract_patterns(frag_repr, '~e\.[0-9]+(,[0-9]+)*')
+    #toks = [tok.split('.')[1] for tok in toks]
+    #spans = []
+    #for tok in toks:
+    #    spans += [int(p) for p in tok.split(',')]
+
+    #if len(spans) == 0:
+    #    return None
+    #spans.sort()
+    #continous_spans = []
+    #start = spans[0]
+    #end = start + 1
+    #for tok in spans[1:]:
+    #    if tok == end - 1:
+    #        continue
+    #    if tok == end:
+    #        end += 1
+    #    else:
+    #        continous_spans.append((start, end))
+    #        start = tok
+    #        end = tok + 1
+    #if len(continous_spans) == 0 or continous_spans[-1] != (start, end):
+    #    continous_spans.append((start, end))
+    #return continous_spans</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
