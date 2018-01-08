@@ -385,12 +385,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515372972582">
-        <mark key="'" line="993" column="31" />
-        <mark key="[" line="326" column="8" />
-        <mark key="]" line="326" column="9" />
-        <mark key="^" line="326" column="9" />
-        <mark key="." line="326" column="9" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515377759246">
+        <mark key="'" line="1000" column="12" />
+        <mark key="[" line="1044" column="28" />
+        <mark key="]" line="1045" column="31" />
+        <mark key="^" line="1045" column="31" />
+        <mark key="." line="1045" column="31" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -495,7 +495,6 @@
       <jump line="1436" column="30" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1420" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1464" column="20" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="998" column="36" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="941" column="91" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="229" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="954" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -519,6 +518,7 @@
       <jump line="388" column="47" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="326" column="9" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="993" column="31" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="998" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -528,7 +528,7 @@
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>buildPiSeq</text>
+        <text>Unaligned entity</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">Y292ZXJlZF90b2tzLCBub25fY292ZXJlZCwgaW5kZXhfdG9fdG9rcyA9IGdldFNwYW5TaWRlKHRva19zZXEsIGFsaWdubWVudF9zZXEsIGZyYWcsIHRlbXBfdW5hbGlnbmVkKQoKICAgICAgICAgICAgY292ZXJlZF9zZXQgPSBzZXQoY292ZXJlZF90b2tzKQogICAgICAgICAgICByb290X2luZGV4ID0gZnJhZy5yb290CgogICAgICAgICAgICBhbGxfc3BhbnMgPSBnZXRDb250aW51b3VzU3BhbnMoY292ZXJlZF90b2tzLCB0ZW1wX3VuYWxpZ25lZCwgY292ZXJlZF9zZXQpCiAgICAgICAgICAgIGFsbF9zcGFucyA9IGFsaWdubWVudF91dGlscy5yZW1vdmVBbGlnbmVkKGFsbF9zcGFucywgYWxpZ25lZF90b2tzKQogICAgICAgICAgICBpZiBhbGxfc3BhbnM6CiAgICAgICAgICAgICAgICB0ZW1wX3NwYW5zID0gW10KICAgICAgICAgICAgICAgIGZvciBzdGFydCwgZW5kIGluIGFsbF9zcGFuczoKICAgICAgICAgICAgICAgICAgICBpZiBzdGFydCA+IDAgYW5kIChzdGFydC0xKSBpbiB0ZW1wX3VuYWxpZ25lZDoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgdG9rX3NlcVtzdGFydC0xXSBpbiBzdHIoZnJhZykgYW5kIHRva19zZXFbMF0gaW4gJzAxMjM0NTY3ODknOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGVtcF9zcGFucy5hcHBlbmQoKHN0YXJ0LTEsIGVuZCkpCiAgICAgICAgICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZW1wX3NwYW5zLmFwcGVuZCgoc3RhcnQsIGVuZCkpCiAgICAgICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICAgICAgdGVtcF9zcGFucy5hcHBlbmQoKHN0YXJ0LCBlbmQpKQogICAgICAgICAgICAgICAgYWxsX3NwYW5zID0gdGVtcF9zcGFucwogICAgICAgICAgICAgICAgYWxsX3NwYW5zID0gYWxpZ25tZW50X3V0aWxzLnJlbW92ZURhdGVSZWR1bmRhbnQoYWxsX3NwYW5zKQogICAgICAgICAgICAgICAgZm9yIHN0YXJ0LCBlbmQgaW4gYWxsX3NwYW5zOgogICAgICAgICAgICAgICAgICAgIG5vZGVpZF90b19mcmFnW3Jvb3RfaW5kZXhdID0gZnJhZwogICAgICAgICAgICAgICAgICAgIGFsbF9hbGlnbm1lbnRzW2ZyYWcucm9vdF0uYXBwZW5kKChzdGFydCwgZW5kLCBOb25lKSkKICAgICAgICAgICAgICAgICAgICBhbGlnbmVkX3Rva3MgfD0gc2V0KHhyYW5nZShzdGFydCwgZW5kKSkKICAgICAgICAgICAgICAgICAgICBlbnRpdHlfdG9rcyB8PSBzZXQoeHJhbmdlKHN0YXJ0LCBlbmQpKQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgZm9yIGluZGV4IGluIHRlbXBfdW5hbGlnbmVkOgogICAgICAgICAgICAgICAgICAgIGN1cnJfdG9rID0gdG9rX3NlcVtpbmRleF0KICAgICAgICAgICAgICAgICAgICBmb3VuZCA9IEZhbHNlCiAgICAgICAgICAgICAgICAgICAgZm9yIHVuX3RvayBpbiBub25fY292ZXJlZDoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgY3Vycl90b2tbMF0gaW4gJzAxMjM0NTY3ODknIGFuZCBjdXJyX3RvayBpbiB1bl90b2s6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3VuZCA9IFRydWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgaWYgZm91bmQ6CiAgICAgICAgICAgICAgICAgICAgICAgIG5vZGVpZF90b19mcmFnW3Jvb3RfaW5kZXhdID0gZnJhZwogICAgICAgICAgICAgICAgICAgICAgICBhbGxfYWxpZ25tZW50c1tmcmFnLnJvb3RdLmFwcGVuZCgoaW5kZXgsIGluZGV4KzEsIE5vbmUpKQogICAgICAgICAgICAgICAgICAgICAgICBhbGlnbmVkX3Rva3MuYWRkKGluZGV4KQogICAgICAgICAgICAgICAgICAgICAgICBlbnRpdHlfdG9rcy5hZGQoaW5kZXgp</text>
@@ -570,9 +570,9 @@
       </register>
     </registers>
     <search>
-      <last-search>buildPiSeq</last-search>
+      <last-search>Unaligned entity</last-search>
       <last-offset />
-      <last-pattern>buildPiSeq</last-pattern>
+      <last-pattern>Unaligned entity</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -639,6 +639,7 @@
         <entry>exclude_rels</entry>
         <entry>unalignedOutTails</entry>
         <entry>buildPiSeq</entry>
+        <entry>Unaligned entity</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
