@@ -201,12 +201,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515445179156">
-        <mark key="'" line="250" column="28" />
-        <mark key="[" line="217" column="61" />
-        <mark key="]" line="217" column="88" />
-        <mark key="." line="217" column="88" />
-        <mark key="^" line="217" column="88" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515447868860">
+        <mark key="'" line="197" column="26" />
+        <mark key="[" line="187" column="29" />
+        <mark key="]" line="188" column="26" />
+        <mark key="." line="188" column="26" />
+        <mark key="^" line="188" column="26" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515388902625">
         <mark key="'" line="66" column="0" />
@@ -430,7 +430,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="473" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="180" column="11" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="183" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="184" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -530,19 +529,22 @@
       <jump line="166" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="51" column="24" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="250" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="197" column="26" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>entity_mention = frag.</text>
       </register>
       <register name="/" type="4">
-        <text>removeDateRe</text>
+        <text>entity_mention_toks</text>
       </register>
       <register name="0" type="4">
-        <text>&quot;sixties&quot;:1960, &quot;seventies&quot;:1970, &quot;eighties&quot;:1980, &quot;nineties&quot;:1990</text>
+        <text>root_node = amr.nodes[frag.root]
+
+            entity_mention_toks = root_node.namedEntityMention()</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -550,44 +552,42 @@
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text>if entity_not_align:
-            unaligned_sents += 1
-            logger.writeln(str(amr))
-            continue</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIHJvb3Rfbm9kZSA9IGFtci5ub2Rlc1tmcmFnLnJvb3RdCgo=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ZGVmIHNlYXJjaERhdGVTcGFucygpCg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text>unaligned_idxs = sorted(list(unaligned_toks))
-            logger.writeln(&quot;Unaligned tokens: %s&quot; % (&quot; &quot;.join([tok_seq[i] for i in unaligned_idxs])))</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIlVuYWxpZ25lZCB0b2tlbnM6ICVzIiAlICgiICIuam9pbihbdG9rX3NlcVtpXSBmb3IgaSBpbiB1bmFsaWduZWRfaWR4c10pKSkK</text>
-      </register>
-      <register name="7" type="4">
-        <text>if has_wrong_align:
+      <register name="6" type="4">
+        <text>if entity_not_align:
+            unaligned_sents += 1
+            logger.writeln(str(amr))
             continue</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="4">
-        <text>#if num_relations == 2:
-                    #    print subgraph_str</text>
+        <text>unaligned_idxs = sorted(list(unaligned_toks))
+            logger.writeln(&quot;Unaligned tokens: %s&quot; % (&quot; &quot;.join([tok_seq[i] for i in unaligned_idxs])))</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>removeDateRe</last-search>
+      <last-search>entity_mention_toks</last-search>
       <last-offset />
-      <last-pattern>removeDateRe</last-pattern>
+      <last-pattern>entity_mention_toks</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -695,8 +695,8 @@
         <entry>:op</entry>
         <entry>buildFragment</entry>
         <entry>has_cycle</entry>
-        <entry>entity_mention_toks</entry>
         <entry>removeDateRe</entry>
+        <entry>entity_mention_toks</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
