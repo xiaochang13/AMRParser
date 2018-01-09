@@ -31,8 +31,8 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515467934720">
-        <mark key="'" line="880" column="47" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515469851164">
+        <mark key="'" line="855" column="0" />
         <mark key="[" line="1071" column="0" />
         <mark key="]" line="1071" column="0" />
         <mark key="." line="1071" column="0" />
@@ -202,12 +202,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515469058790">
-        <mark key="'" line="117" column="0" />
-        <mark key="[" line="209" column="0" />
-        <mark key="]" line="210" column="0" />
-        <mark key="." line="210" column="0" />
-        <mark key="^" line="210" column="0" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515470428220">
+        <mark key="'" line="334" column="46" />
+        <mark key="[" line="338" column="81" />
+        <mark key="]" line="338" column="91" />
+        <mark key="." line="338" column="91" />
+        <mark key="^" line="338" column="91" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515447945272">
         <mark key="'" line="66" column="0" />
@@ -435,11 +435,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1080" column="31" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="1427" column="38" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="11" column="15" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="10" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="1435" column="20" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="9" column="1" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="240" column="22" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="67" column="6" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -535,16 +530,21 @@
       <jump line="321" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="117" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="451" column="40" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="132" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="855" column="0" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="326" column="17" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="334" column="46" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="1114" column="0" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>n</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>extractNodeMapping</text>
+        <text>matchSubgraph</text>
       </register>
       <register name="0" type="4">
         <text>matched_tuples = set()</text>
@@ -621,9 +621,9 @@
       </register>
     </registers>
     <search>
-      <last-search>extractNodeMapping</last-search>
+      <last-search>matchSubgraph</last-search>
       <last-offset />
-      <last-pattern>extractNodeMapping</last-pattern>
+      <last-pattern>matchSubgraph</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -747,6 +747,7 @@
         <entry>verb_map</entry>
         <entry>matched_tuples</entry>
         <entry>extractNodeMapping</entry>
+        <entry>matchSubgraph</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
