@@ -201,12 +201,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515452500013">
-        <mark key="'" line="211" column="0" />
-        <mark key="[" line="311" column="0" />
-        <mark key="]" line="311" column="1" />
-        <mark key="." line="311" column="1" />
-        <mark key="^" line="311" column="1" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515458826495">
+        <mark key="'" line="179" column="34" />
+        <mark key="[" line="314" column="56" />
+        <mark key="]" line="316" column="82" />
+        <mark key="." line="316" column="82" />
+        <mark key="^" line="316" column="82" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515447945272">
         <mark key="'" line="66" column="0" />
@@ -395,12 +395,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515456658076">
-        <mark key="'" line="126" column="8" />
-        <mark key="[" line="519" column="40" />
-        <mark key="]" line="519" column="40" />
-        <mark key="^" line="519" column="40" />
-        <mark key="." line="519" column="40" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515459025811">
+        <mark key="'" line="555" column="8" />
+        <mark key="[" line="555" column="31" />
+        <mark key="]" line="555" column="34" />
+        <mark key="^" line="555" column="34" />
+        <mark key="." line="555" column="34" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -434,15 +434,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="54" column="10" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="607" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1046" column="58" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="31" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="20" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="23" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1150" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="745" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1090" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="734" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="735" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="146" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -514,7 +505,6 @@
       <jump line="1056" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="241" column="71" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="420" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="423" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="14" column="0" filename="$USER_HOME$/data_processing/rebuild_conceptid.py" />
       <jump line="824" column="4" filename="$USER_HOME$/data_processing/rebuild_conceptid.py" />
       <jump line="207" column="70" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -534,16 +524,26 @@
       <jump line="932" column="13" filename="$USER_HOME$/data_processing/fragment_forest.py" />
       <jump line="1172" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="817" column="49" filename="$USER_HOME$/data_processing/fragment_forest.py" />
+      <jump line="164" column="40" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="179" column="34" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="425" column="58" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="423" column="43" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="554" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="533" column="111" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="519" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="520" column="10" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="536" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="555" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>[tok_seq[i] for i in unaligned_idxs]</text>
+        <text>toks</text>
       </register>
       <register name="-" type="4">
         <text>toks</text>
       </register>
       <register name="/" type="4">
-        <text>unaligned</text>
+        <text>unaligned_toks</text>
       </register>
       <register name="0" type="4">
         <text>[tok_seq[i] for i in unaligned_idxs]</text>
@@ -555,38 +555,38 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnJvbSBwcmVwcm9jZXNzIGltcG9ydCAqCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSBwcmVwcm9jZXNzIGltcG9ydCAqCg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGVudGl0eV9tZW50aW9uX3Rva3MgPSByb290X25vZGUubmFtZWRFbnRpdHlNZW50aW9uKCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHJvb3Rfbm9kZSA9IGFtci5ub2Rlc1tmcmFnLnJvb3RdCg==</text>
+        <text encoding="base64">ICAgIGVudGl0eV9tZW50aW9uX3Rva3MgPSByb290X25vZGUubmFtZWRFbnRpdHlNZW50aW9uKCkK</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">ICAgIHJvb3Rfbm9kZSA9IGFtci5ub2Rlc1tmcmFnLnJvb3RdCg==</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>matched_span = searchEntityTokens(frag, tok_seq, temp_unaligned)
                 if matched_span:</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>unaligned</last-search>
+      <last-search>unaligned_toks</last-search>
       <last-offset />
-      <last-pattern>unaligned</last-pattern>
+      <last-pattern>unaligned_toks</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -700,6 +700,8 @@
         <entry>get_concept_tag</entry>
         <entry>unaligned concepts</entry>
         <entry>unaligned</entry>
+        <entry>edge_to_span</entry>
+        <entry>unaligned_toks</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
@@ -724,6 +726,7 @@
         <entry>327</entry>
         <entry>1</entry>
         <entry>q</entry>
+        <entry>556</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
