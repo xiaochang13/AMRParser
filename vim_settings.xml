@@ -161,8 +161,8 @@
         <mark key="^" line="107" column="82" />
         <mark key="." line="107" column="82" />
       </file>
-      <file name="$USER_HOME$/ConvParser/Aligner.py" timestamp="1515487991650">
-        <mark key="'" line="87" column="4" />
+      <file name="$USER_HOME$/ConvParser/Aligner.py" timestamp="1515515256145">
+        <mark key="'" line="941" column="24" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1510364711817">
         <mark key="'" line="90" column="14" />
@@ -435,13 +435,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="468" column="36" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="531" column="48" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="836" column="87" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="880" column="47" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="362" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="443" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="462" column="56" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="465" column="32" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="117" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="451" column="40" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -535,6 +528,13 @@
       <jump line="716" column="48" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="86" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="87" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
+      <jump line="893" column="59" filename="$USER_HOME$/ConvParser/Aligner.py" />
+      <jump line="90" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
+      <jump line="39" column="8" filename="/Library/Python/2.7/site-packages/nltk/stem/wordnet.py" />
+      <jump line="119" column="12" filename="$USER_HOME$/ConvParser/Aligner.py" />
+      <jump line="35" column="8" filename="/Library/Python/2.7/site-packages/nltk/stem/wordnet.py" />
+      <jump line="144" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
+      <jump line="941" column="24" filename="$USER_HOME$/ConvParser/Aligner.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -544,7 +544,7 @@
         <text>&quot;&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>neg_prefix</text>
+        <text>lmtzr</text>
       </register>
       <register name="0" type="4">
         <text>&quot;Sentence #%d&quot; % sent_index</text>
@@ -584,9 +584,9 @@
       </register>
     </registers>
     <search>
-      <last-search>neg_prefix</last-search>
+      <last-search>lmtzr</last-search>
       <last-offset />
-      <last-pattern>neg_prefix</last-pattern>
+      <last-pattern>lmtzr</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -724,6 +724,8 @@
         <entry>nega</entry>
         <entry>neg_polarity</entry>
         <entry>neg_prefix</entry>
+        <entry>plural_suffix</entry>
+        <entry>lmtzr</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
