@@ -350,6 +350,9 @@
         <mark key="^" line="132" column="10" />
         <mark key="." line="132" column="10" />
       </file>
+      <file name="$USER_HOME$/data_processing/fragment_forest.py" timestamp="1515456440795">
+        <mark key="'" line="817" column="49" />
+      </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1500614393650">
         <mark key="'" line="553" column="57" />
         <mark key="[" line="395" column="8" />
@@ -392,12 +395,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515453627215">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515456658076">
         <mark key="'" line="126" column="8" />
-        <mark key="[" line="438" column="0" />
-        <mark key="]" line="438" column="0" />
-        <mark key="^" line="524" column="11" />
-        <mark key="." line="438" column="0" />
+        <mark key="[" line="519" column="40" />
+        <mark key="]" line="519" column="40" />
+        <mark key="^" line="519" column="40" />
+        <mark key="." line="519" column="40" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -431,10 +434,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="223" column="15" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="179" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="156" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="201" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="54" column="10" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="607" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1046" column="58" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -531,19 +530,23 @@
       <jump line="79" column="9" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="80" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="126" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/data_processing/fragment_forest.py" />
+      <jump line="932" column="13" filename="$USER_HOME$/data_processing/fragment_forest.py" />
+      <jump line="1172" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="817" column="49" filename="$USER_HOME$/data_processing/fragment_forest.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>_graph</text>
+        <text>[tok_seq[i] for i in unaligned_idxs]</text>
       </register>
       <register name="-" type="4">
-        <text>_graph</text>
+        <text>toks</text>
       </register>
       <register name="/" type="4">
         <text>unaligned</text>
       </register>
       <register name="0" type="4">
-        <text>matched_span = searchEntityTokens(frag, tok_seq, temp_unaligned)</text>
+        <text>[tok_seq[i] for i in unaligned_idxs]</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
