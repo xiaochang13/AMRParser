@@ -426,6 +426,9 @@
         <mark key="[" line="3" column="0" />
         <mark key="]" line="29" column="24" />
       </file>
+      <file name="$USER_HOME$/data_processing/Aligner.py" timestamp="1515517204617">
+        <mark key="'" line="602" column="24" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1513623255940">
         <mark key="'" line="10" column="0" />
         <mark key="[" line="1" column="0" />
@@ -435,13 +438,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="334" column="46" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="1114" column="0" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="219" column="46" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="94" column="16" filename="$USER_HOME$/data_processing/re_utils.py" />
-      <jump line="71" column="0" filename="$USER_HOME$/data_processing/re_utils.py" />
-      <jump line="342" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="289" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="226" column="38" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="232" column="37" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="186" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -535,6 +531,13 @@
       <jump line="405" column="8" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="900" column="61" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="87" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
+      <jump line="471" column="110" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="472" column="46" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="591" column="16" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="592" column="16" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="600" column="31" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="601" column="24" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="602" column="24" filename="$USER_HOME$/data_processing/Aligner.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -544,7 +547,7 @@
         <text>&quot;&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>is_neg_form</text>
+        <text>unit</text>
       </register>
       <register name="0" type="4">
         <text>&quot;Sentence #%d&quot; % sent_index</text>
@@ -584,9 +587,9 @@
       </register>
     </registers>
     <search>
-      <last-search>is_neg_form</last-search>
+      <last-search>unit</last-search>
       <last-offset />
-      <last-pattern>is_neg_form</last-pattern>
+      <last-pattern>unit</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -728,6 +731,7 @@
         <entry>lmtzr</entry>
         <entry>neg_pre</entry>
         <entry>is_neg_form</entry>
+        <entry>unit</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
