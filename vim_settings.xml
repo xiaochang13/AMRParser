@@ -426,8 +426,8 @@
         <mark key="[" line="3" column="0" />
         <mark key="]" line="29" column="24" />
       </file>
-      <file name="$USER_HOME$/data_processing/Aligner.py" timestamp="1515517204617">
-        <mark key="'" line="602" column="24" />
+      <file name="$USER_HOME$/data_processing/Aligner.py" timestamp="1515529282192">
+        <mark key="'" line="453" column="39" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1513623255940">
         <mark key="'" line="10" column="0" />
@@ -438,9 +438,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="226" column="38" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="232" column="37" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="186" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="66" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="227" column="39" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="65" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -538,6 +535,9 @@
       <jump line="600" column="31" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="601" column="24" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="602" column="24" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="955" column="8" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="70" column="8" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="453" column="39" filename="$USER_HOME$/data_processing/Aligner.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -547,7 +547,7 @@
         <text>&quot;&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>unit</text>
+        <text>NE_pattern</text>
       </register>
       <register name="0" type="4">
         <text>&quot;Sentence #%d&quot; % sent_index</text>
@@ -587,9 +587,9 @@
       </register>
     </registers>
     <search>
-      <last-search>unit</last-search>
+      <last-search>NE_pattern</last-search>
       <last-offset />
-      <last-pattern>unit</last-pattern>
+      <last-pattern>NE_pattern</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -732,6 +732,7 @@
         <entry>neg_pre</entry>
         <entry>is_neg_form</entry>
         <entry>unit</entry>
+        <entry>NE_pattern</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
