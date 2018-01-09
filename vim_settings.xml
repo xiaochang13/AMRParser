@@ -202,12 +202,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515472002170">
-        <mark key="'" line="342" column="8" />
-        <mark key="[" line="354" column="79" />
-        <mark key="]" line="355" column="32" />
-        <mark key="^" line="355" column="32" />
-        <mark key="." line="355" column="32" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515475344756">
+        <mark key="'" line="223" column="27" />
+        <mark key="[" line="224" column="0" />
+        <mark key="]" line="224" column="0" />
+        <mark key="." line="224" column="0" />
+        <mark key="^" line="224" column="16" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -435,24 +435,10 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="79" column="6" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="76" column="30" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="223" column="62" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="91" column="42" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="9" column="0" filename="$USER_HOME$/data_processing/date_extraction.py" />
-      <jump line="259" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="1052" column="28" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="1038" column="0" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="1073" column="25" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="692" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="433" column="103" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="379" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="741" column="28" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="358" column="0" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="352" column="10" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="268" column="42" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="440" column="50" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="186" column="51" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="1056" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="241" column="71" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="420" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -535,58 +521,72 @@
       <jump line="94" column="16" filename="$USER_HOME$/data_processing/re_utils.py" />
       <jump line="71" column="0" filename="$USER_HOME$/data_processing/re_utils.py" />
       <jump line="342" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="243" column="53" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="289" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="226" column="38" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="232" column="37" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="186" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="66" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="227" column="39" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="65" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="225" column="35" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="60" column="29" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="218" column="46" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="73" column="4" filename="$USER_HOME$/data_processing/re_utils.py" />
+      <jump line="222" column="27" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="58" column="6" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIlZlcmJhbGl6ZSAlcyB0byAlcyEiICUgKGN1cnJfdG9rLCBzdWJncmFwaF9yZXByKSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text># i</text>
+        <text encoding="base64">IGVudGl0eV9zcGFuczo=</text>
       </register>
       <register name="/" type="4">
-        <text>matched_tuples</text>
+        <text>entity_toks</text>
       </register>
       <register name="0" type="4">
-        <text>matched_tuples = set()</text>
+        <text>set(xrange(start, end))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIlZlcmJhbGl6ZSAlcyB0byAlcyEiICUgKGN1cnJfdG9rLCBzdWJncmFwaF9yZXByKSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgc3RhcnQsIGVuZCA9IGFsbF9zcGFuc1swXQo=</text>
       </register>
-      <register name="3" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIA==</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgZm9yIChzdGFydCwgZW5kKSBpbiBlbnRpdHlfc3BhbnM6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICNmb3IgKHN0YXJ0LCBlbmQpIGluIGVudGl0eV9zcGFuczoK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGN1cnJfc2V0ID0gc2V0KHhyYW5nZShzdGFydCwgZW5kKSkK</text>
       </register>
-      <register name="6" type="8">
-        <text encoding="base64">IyAgICAgCiMgICAgIAojICAgICAKIyAgICAg</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBicmVhawo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIA==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text encoding="base64">ICAgIGlmIGxlbihjdXJyX3NldCAmIGFsaWduZWRfdG9rcykgIT0gMDoKICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWU=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHN0YXJ0LCBlbmQgPSBlbnRpdHlfc3BhbnNbMF0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>matched_tuples</last-search>
+      <last-search>entity_toks</last-search>
       <last-offset />
-      <last-pattern>matched_tuples</last-pattern>
+      <last-pattern>entity_toks</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -711,6 +711,7 @@
         <entry>extractNodeMapping</entry>
         <entry>matchSubgraph</entry>
         <entry>matched_tuples</entry>
+        <entry>entity_toks</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
