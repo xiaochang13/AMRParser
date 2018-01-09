@@ -31,8 +31,8 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515469851164">
-        <mark key="'" line="855" column="0" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515532419125">
+        <mark key="'" line="1129" column="15" />
         <mark key="[" line="1071" column="0" />
         <mark key="]" line="1071" column="0" />
         <mark key="." line="1071" column="0" />
@@ -202,12 +202,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515529961745">
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515533323838">
         <mark key="'" line="91" column="0" />
-        <mark key="[" line="179" column="58" />
-        <mark key="]" line="180" column="72" />
-        <mark key="." line="180" column="72" />
-        <mark key="^" line="180" column="72" />
+        <mark key="[" line="319" column="42" />
+        <mark key="]" line="320" column="47" />
+        <mark key="." line="320" column="47" />
+        <mark key="^" line="320" column="47" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -351,8 +351,10 @@
         <mark key="^" line="132" column="10" />
         <mark key="." line="132" column="10" />
       </file>
-      <file name="$USER_HOME$/data_processing/fragment_forest.py" timestamp="1515456440795">
-        <mark key="'" line="817" column="49" />
+      <file name="$USER_HOME$/data_processing/fragment_forest.py" timestamp="1515533258564">
+        <mark key="'" line="631" column="15" />
+        <mark key="[" line="627" column="8" />
+        <mark key="]" line="631" column="41" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1500614393650">
         <mark key="'" line="553" column="57" />
@@ -396,12 +398,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515531451721">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515533241335">
         <mark key="'" line="559" column="52" />
-        <mark key="[" line="720" column="0" />
-        <mark key="]" line="720" column="0" />
-        <mark key="^" line="525" column="32" />
-        <mark key="." line="720" column="0" />
+        <mark key="[" line="430" column="0" />
+        <mark key="]" line="430" column="0" />
+        <mark key="^" line="430" column="9" />
+        <mark key="." line="430" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -438,12 +440,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="144" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="267" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="122" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="167" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1101" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="487" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="488" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="180" column="23" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="145" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -538,58 +534,76 @@
       <jump line="1014" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="954" column="4" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="559" column="52" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1129" column="15" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="566" column="29" filename="$USER_HOME$/data_processing/fragment_forest.py" />
+      <jump line="627" column="8" filename="$USER_HOME$/data_processing/fragment_forest.py" />
+      <jump line="628" column="11" filename="$USER_HOME$/data_processing/fragment_forest.py" />
+      <jump line="629" column="30" filename="$USER_HOME$/data_processing/fragment_forest.py" />
+      <jump line="631" column="15" filename="$USER_HOME$/data_processing/fragment_forest.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIGdsb2JhbCBlZGdlX2FsaWdubWVudAo=</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;&quot;</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>verb_</text>
+        <text>edge_alignment</text>
       </register>
       <register name="0" type="4">
-        <text>&quot;Sentence #%d&quot; % sent_index</text>
+        <text>edge_alignment = bitarray(len(amr.edges))
+        if edge_alignment.count() != 0:
+            edge_alignment ^= edge_alignment
+
+        assert edge_alignment.count() == 0</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIGdsb2JhbCBlZGdlX2FsaWdubWVudAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaW50ICd0b3RhbCBpbiB2ZXJibGlzdCBudW0nLCBpbl92ZXJibGlzdF9udW0K</text>
+      <register name="2" type="4">
+        <text>bitarray(len(amr.edges))
+        if edge_alignment.count() != 0:
+            edge_alignment ^= edge_alignment
+
+        assert edge_alignment.count() == 0</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIGluX3ZlcmJsaXN0X251bSA9IDAK</text>
+      <register name="3" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICA=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIG1hdGNoZWRfdmVyYl9udW0gPSAwCg==</text>
+      <register name="4" type="4">
+        <text>edge_alignment = bitarray(len(amr.edges))
+        if edge_alignment.count() != 0:
+            edge_alignment ^= edge_alignment
+
+        assert edge_alignment.count() == 0</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaW50ICd0b3RhbCBtYXRjaGVkIHZlcmJhbGl6YXRpb24nLCBtYXRjaGVkX3ZlcmJfbnVtCg==</text>
+      <register name="5" type="4">
+        <text encoding="base64">I2lmIHNlbnRfaW5kZXggPiAzOgogICAgICAgICMgICAgc3lzLmV4aXQoMSk=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCA+PiBhbGlnbm1lbnRfd2YsICJTZW50ZW5jZSAjJWQiICUgc2VudF9pbmRleAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCA+PiBvbGRfYWxpZ25fd2YsICIiCg==</text>
+        <text encoding="base64">ICAgIHByaW50ICd0b3RhbCBpbiB2ZXJibGlzdCBudW0nLCBpbl92ZXJibGlzdF9udW0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCA+PiBhbGlnbm1lbnRfd2YsICIiCg==</text>
+        <text encoding="base64">ICAgIGluX3ZlcmJsaXN0X251bSA9IDAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIG1hdGNoZWRfdmVyYl9udW0gPSAwCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>verb_</last-search>
+      <last-search>edge_alignment</last-search>
       <last-offset />
-      <last-pattern>verb_</last-pattern>
+      <last-pattern>edge_alignment</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -736,6 +750,9 @@
         <entry>extract_unaligned</entry>
         <entry>matched_verb_num</entry>
         <entry>verb_</entry>
+        <entry>edge_align</entry>
+        <entry>recall_unaligned</entry>
+        <entry>edge_alignment</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
@@ -758,11 +775,11 @@
         <entry>1413</entry>
         <entry>1161</entry>
         <entry>327</entry>
-        <entry>1</entry>
         <entry>q</entry>
         <entry>556</entry>
         <entry>499</entry>
         <entry>501</entry>
+        <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
