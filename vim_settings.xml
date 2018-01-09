@@ -202,12 +202,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515476628716">
-        <mark key="'" line="227" column="32" />
-        <mark key="[" line="185" column="28" />
-        <mark key="]" line="187" column="22" />
-        <mark key="." line="187" column="22" />
-        <mark key="^" line="187" column="22" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515479063513">
+        <mark key="'" line="231" column="32" />
+        <mark key="[" line="192" column="43" />
+        <mark key="]" line="192" column="52" />
+        <mark key="." line="192" column="52" />
+        <mark key="^" line="192" column="52" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -396,8 +396,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515476165628">
-        <mark key="'" line="451" column="40" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515479248316">
+        <mark key="'" line="1101" column="8" />
         <mark key="[" line="443" column="0" />
         <mark key="]" line="443" column="0" />
         <mark key="^" line="442" column="116" />
@@ -435,11 +435,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="358" column="0" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="352" column="10" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="268" column="42" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="440" column="50" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1056" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="241" column="71" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="420" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="14" column="0" filename="$USER_HOME$/data_processing/rebuild_conceptid.py" />
@@ -535,16 +530,21 @@
       <jump line="222" column="27" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="58" column="6" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="225" column="32" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="144" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="267" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="122" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="167" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1101" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>False</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IGVudGl0eV9zcGFuczo=</text>
+        <text>False</text>
       </register>
       <register name="/" type="4">
-        <text>entity_toks</text>
+        <text>visitUnaligned</text>
       </register>
       <register name="0" type="4">
         <text>set(xrange(start, end))</text>
@@ -584,9 +584,9 @@
       </register>
     </registers>
     <search>
-      <last-search>entity_toks</last-search>
+      <last-search>visitUnaligned</last-search>
       <last-offset />
-      <last-pattern>entity_toks</last-pattern>
+      <last-pattern>visitUnaligned</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -671,7 +671,6 @@
         <entry>unalignedOutTails</entry>
         <entry>def mergeSpans</entry>
         <entry>removeLeaves</entry>
-        <entry>visitUnaligned</entry>
         <entry>collapseTokens</entry>
         <entry>rebuild_fragment_map</entry>
         <entry>build_bimap</entry>
@@ -712,6 +711,7 @@
         <entry>matchSubgraph</entry>
         <entry>matched_tuples</entry>
         <entry>entity_toks</entry>
+        <entry>visitUnaligned</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
