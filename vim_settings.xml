@@ -202,8 +202,8 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515528021384">
-        <mark key="'" line="360" column="28" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515529961745">
+        <mark key="'" line="91" column="0" />
         <mark key="[" line="179" column="58" />
         <mark key="]" line="180" column="72" />
         <mark key="." line="180" column="72" />
@@ -396,12 +396,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515485942430">
-        <mark key="'" line="506" column="8" />
-        <mark key="[" line="526" column="0" />
-        <mark key="]" line="526" column="58" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515530095741">
+        <mark key="'" line="1014" column="29" />
+        <mark key="[" line="720" column="0" />
+        <mark key="]" line="720" column="0" />
         <mark key="^" line="525" column="32" />
-        <mark key="." line="526" column="0" />
+        <mark key="." line="720" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -438,14 +438,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="66" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="227" column="39" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="65" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="60" column="29" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="218" column="46" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="73" column="4" filename="$USER_HOME$/data_processing/re_utils.py" />
-      <jump line="222" column="27" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="58" column="6" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="225" column="32" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="144" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="267" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -538,58 +530,66 @@
       <jump line="955" column="8" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="70" column="8" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="453" column="39" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="91" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="385" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="722" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="386" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="455" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="565" column="77" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1014" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="954" column="4" filename="$USER_HOME$/data_processing/Aligner.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCA+PiBhbGlnbm1lbnRfd2YsICJTZW50ZW5jZSAjJWQiICUgc2VudF9pbmRleAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>&quot;&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>NE_pattern</text>
+        <text>verb_</text>
       </register>
       <register name="0" type="4">
         <text>&quot;Sentence #%d&quot; % sent_index</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCA+PiBhbGlnbm1lbnRfd2YsICJTZW50ZW5jZSAjJWQiICUgc2VudF9pbmRleAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCA+PiBvbGRfYWxpZ25fd2YsICIiCg==</text>
+        <text encoding="base64">ICAgIHByaW50ICd0b3RhbCBpbiB2ZXJibGlzdCBudW0nLCBpbl92ZXJibGlzdF9udW0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCA+PiBhbGlnbm1lbnRfd2YsICIiCg==</text>
+        <text encoding="base64">ICAgIGluX3ZlcmJsaXN0X251bSA9IDAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIG1hdGNoZWRfdmVyYl9udW0gPSAwCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHJlbGF0aW9uX2FsaWduX3dmID0gb3BlbihyZWxhdGlvbl9hbGlnbl9vdXRwdXQsICd3JykK</text>
+        <text encoding="base64">ICAgIHByaW50ICd0b3RhbCBtYXRjaGVkIHZlcmJhbGl6YXRpb24nLCBtYXRjaGVkX3ZlcmJfbnVtCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHJlbGF0aW9uX2FsaWduX291dHB1dCA9IG9zLnBhdGguam9pbihhcmdzLnJ1bl9kaXIsICJyZWxhdGlvbl9hbGlnbiIpCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCA+PiBhbGlnbm1lbnRfd2YsICJTZW50ZW5jZSAjJWQiICUgc2VudF9pbmRleAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHJlbGF0aW9uX2FsaWduX291dHB1dCA9IG9zLnBhdGguam9pbihhcmdzLnJ1bl9kaXIsICJyZWxhdGlvbl9hbGlnbiIpCg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCA+PiBvbGRfYWxpZ25fd2YsICIiCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uY2VwdF9hbGlnbl9tYXBbc3RhcnRdLmFwcGVuZChhbXJfZ3JhcGgubm9kZXNbaW5kZXhdKQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCA+PiBhbGlnbm1lbnRfd2YsICIiCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAjIHRyeToK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>NE_pattern</last-search>
+      <last-search>verb_</last-search>
       <last-offset />
-      <last-pattern>NE_pattern</last-pattern>
+      <last-pattern>verb_</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -733,6 +733,9 @@
         <entry>is_neg_form</entry>
         <entry>unit</entry>
         <entry>NE_pattern</entry>
+        <entry>extract_unaligned</entry>
+        <entry>matched_verb_num</entry>
+        <entry>verb_</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
