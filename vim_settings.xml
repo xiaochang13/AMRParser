@@ -202,15 +202,15 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515470428220">
-        <mark key="'" line="334" column="46" />
-        <mark key="[" line="338" column="81" />
-        <mark key="]" line="338" column="91" />
-        <mark key="." line="338" column="91" />
-        <mark key="^" line="338" column="91" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515472002170">
+        <mark key="'" line="342" column="8" />
+        <mark key="[" line="354" column="79" />
+        <mark key="]" line="355" column="32" />
+        <mark key="^" line="355" column="32" />
+        <mark key="." line="355" column="32" />
       </file>
-      <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515447945272">
-        <mark key="'" line="66" column="0" />
+      <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
+        <mark key="'" line="94" column="16" />
         <mark key="[" line="130" column="0" />
         <mark key="]" line="130" column="0" />
         <mark key="." line="130" column="0" />
@@ -396,12 +396,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515469514094">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515472088531">
         <mark key="'" line="451" column="40" />
-        <mark key="[" line="442" column="0" />
-        <mark key="]" line="442" column="0" />
-        <mark key="^" line="443" column="102" />
-        <mark key="." line="442" column="0" />
+        <mark key="[" line="442" column="103" />
+        <mark key="]" line="442" column="116" />
+        <mark key="^" line="442" column="116" />
+        <mark key="." line="442" column="116" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -435,10 +435,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="9" column="1" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="240" column="22" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="67" column="6" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="77" column="30" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="79" column="6" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="76" column="30" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="223" column="62" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -535,95 +531,62 @@
       <jump line="326" column="17" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="334" column="46" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="1114" column="0" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="219" column="46" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="94" column="16" filename="$USER_HOME$/data_processing/re_utils.py" />
+      <jump line="71" column="0" filename="$USER_HOME$/data_processing/re_utils.py" />
+      <jump line="342" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIlZlcmJhbGl6ZSAlcyB0byAlcyEiICUgKGN1cnJfdG9rLCBzdWJncmFwaF9yZXByKSkK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text># i</text>
       </register>
       <register name="/" type="4">
-        <text>matchSubgraph</text>
+        <text>matched_tuples</text>
       </register>
       <register name="0" type="4">
         <text>matched_tuples = set()</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIlZlcmJhbGl6ZSAlcyB0byAlcyEiICUgKGN1cnJfdG9rLCBzdWJncmFwaF9yZXByKSkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIA==</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgZm9yIChzdGFydCwgZW5kKSBpbiBlbnRpdHlfc3BhbnM6Cg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text>matched_tuples = set()
-
-        for (index, curr_tok) in enumerate(tok_seq):
-            curr_lem = lemma_seq[index]
-            if not curr_tok in VERB_LIST:
-                curr_tok = lemma_seq[index]
-            if curr_tok in VERB_LIST:
-                in_verblist_num += 1
-
-                matched = False
-                for subgraph in VERB_LIST[curr_tok]:
-
-                    matched_frags = amr.matchSubgraph(subgraph)
-                    if matched_frags:
-                        matched = True
-                        matched_verb_num += 1
-                        for frag_tuples in matched_frags:
-                            valid = True
-                            for (head, rel, tail) in frag_tuples:
-                                if (head, rel, tail) in matched_tuples:
-                                    valid = False
-                                    break
-                                matched_tuples.add((head, rel, tail))
-                            if valid:
-                                for (head, rel, tail) in frag_tuples:
-                                    verb_map[head].add((head, rel, tail))
-                                    all_alignments[head].append((index, index+1, None))
-                if curr_lem not in verbalization_map:
-                    verbalization_map[curr_lem] = defaultdict(int)
-                if matched:
-                    verbalization_map[curr_lem][&quot;y&quot;] += 1
-                else:
-                    verbalization_map[curr_lem][&quot;n&quot;] += 1</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBtYXRjaGVkID0gVHJ1ZQo=</text>
+      <register name="6" type="8">
+        <text encoding="base64">IyAgICAgCiMgICAgIAojICAgICAKIyAgICAg</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWF0Y2hlZCA9IEZhbHNlCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text>if curr_lem not in verbalization_map:
-                verbalization_map[curr_lem] = defaultdict(int)
-            if matched:
-                verbalization_map[curr_lem][&quot;y&quot;] += 1
-            else:
-                verbalization_map[curr_lem][&quot;n&quot;] += 1</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b2sydHVwbGVzW2luZGV4XS5hZGQoKGhlYWQsIHJlbCwgdGFpbCkpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>matchSubgraph</last-search>
+      <last-search>matched_tuples</last-search>
       <last-offset />
-      <last-pattern>matchSubgraph</last-pattern>
+      <last-pattern>matched_tuples</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -745,9 +708,9 @@
         <entry>matched_tup</entry>
         <entry>tok2tuples</entry>
         <entry>verb_map</entry>
-        <entry>matched_tuples</entry>
         <entry>extractNodeMapping</entry>
         <entry>matchSubgraph</entry>
+        <entry>matched_tuples</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
