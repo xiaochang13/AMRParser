@@ -151,8 +151,8 @@
         <mark key="." line="1063" column="47" />
         <mark key="^" line="1063" column="47" />
       </file>
-      <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515466734711">
-        <mark key="'" line="100" column="72" />
+      <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
+        <mark key="'" line="271" column="32" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515009382462">
         <mark key="'" line="103" column="43" />
@@ -161,8 +161,8 @@
         <mark key="^" line="107" column="82" />
         <mark key="." line="107" column="82" />
       </file>
-      <file name="$USER_HOME$/ConvParser/Aligner.py" timestamp="1515466475802">
-        <mark key="'" line="250" column="47" />
+      <file name="$USER_HOME$/ConvParser/Aligner.py" timestamp="1515487792964">
+        <mark key="'" line="86" column="4" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRGraph.java" timestamp="1510364711817">
         <mark key="'" line="90" column="14" />
@@ -250,7 +250,7 @@
         <mark key="^" line="93" column="12" />
         <mark key="." line="93" column="12" />
       </file>
-      <file name="$USER_HOME$/ConvParser/preprocessing.py" timestamp="1515467222604">
+      <file name="$USER_HOME$/ConvParser/preprocessing.py" timestamp="1515487616905">
         <mark key="'" line="355" column="59" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/fragment_forest.py" timestamp="1480507121150">
@@ -435,23 +435,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="244" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="250" column="47" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="441" column="22" filename="$USER_HOME$/ConvParser/common/AMRGraph.py" />
-      <jump line="426" column="4" filename="$USER_HOME$/ConvParser/common/AMRGraph.py" />
-      <jump line="253" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="100" column="72" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
-      <jump line="428" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="351" column="65" filename="$USER_HOME$/ConvParser/preprocessing.py" />
-      <jump line="154" column="0" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="355" column="59" filename="$USER_HOME$/ConvParser/preprocessing.py" />
-      <jump line="477" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="383" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="473" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="475" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="327" column="36" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="1112" column="38" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="1074" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="472" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="463" column="56" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="469" column="36" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -535,6 +518,23 @@
       <jump line="116" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="436" column="104" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="506" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="245" column="24" filename="$USER_HOME$/ConvParser/Aligner.py" />
+      <jump line="252" column="49" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
+      <jump line="254" column="10" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
+      <jump line="410" column="22" filename="$USER_HOME$/ConvParser/common/AMRGraph.py" />
+      <jump line="260" column="45" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
+      <jump line="400" column="22" filename="$USER_HOME$/ConvParser/common/AMRGraph.py" />
+      <jump line="280" column="4" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
+      <jump line="289" column="30" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
+      <jump line="290" column="30" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
+      <jump line="14" column="13" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
+      <jump line="3" column="0" filename="$USER_HOME$/ConvParser/constants.py" />
+      <jump line="271" column="32" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
+      <jump line="34" column="4" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
+      <jump line="355" column="59" filename="$USER_HOME$/ConvParser/preprocessing.py" />
+      <jump line="234" column="16" filename="$USER_HOME$/ConvParser/Aligner.py" />
+      <jump line="231" column="50" filename="$USER_HOME$/ConvParser/Aligner.py" />
+      <jump line="86" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -544,7 +544,7 @@
         <text>&quot;&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>node_str</text>
+        <text>neg_polarity</text>
       </register>
       <register name="0" type="4">
         <text>&quot;Sentence #%d&quot; % sent_index</text>
@@ -584,9 +584,9 @@
       </register>
     </registers>
     <search>
-      <last-search>node_str</last-search>
+      <last-search>neg_polarity</last-search>
       <last-offset />
-      <last-pattern>node_str</last-pattern>
+      <last-pattern>neg_polarity</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -616,7 +616,6 @@
         <entry>loadConll</entry>
         <entry>toJ</entry>
         <entry>cate</entry>
-        <entry>NEGATION</entry>
         <entry>extract</entry>
         <entry>collapsed</entry>
         <entry>align_table</entry>
@@ -718,6 +717,12 @@
         <entry>all_alignments</entry>
         <entry>all_align</entry>
         <entry>node_str</entry>
+        <entry>negation</entry>
+        <entry>cpt_type</entry>
+        <entry>NEGATION</entry>
+        <entry>ne</entry>
+        <entry>nega</entry>
+        <entry>neg_polarity</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
