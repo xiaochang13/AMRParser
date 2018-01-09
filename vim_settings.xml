@@ -72,8 +72,8 @@
         <mark key="." line="122" column="20" />
         <mark key="^" line="122" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515125735027">
-        <mark key="'" line="877" column="8" />
+      <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515482880350">
+        <mark key="'" line="426" column="54" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1515007696552">
         <mark key="'" line="2048" column="29" />
@@ -202,12 +202,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515479063513">
-        <mark key="'" line="231" column="32" />
-        <mark key="[" line="192" column="43" />
-        <mark key="]" line="192" column="52" />
-        <mark key="." line="192" column="52" />
-        <mark key="^" line="192" column="52" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515484742176">
+        <mark key="'" line="360" column="28" />
+        <mark key="[" line="179" column="58" />
+        <mark key="]" line="180" column="72" />
+        <mark key="." line="180" column="72" />
+        <mark key="^" line="180" column="72" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -396,12 +396,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515479248316">
-        <mark key="'" line="1101" column="8" />
-        <mark key="[" line="443" column="0" />
-        <mark key="]" line="443" column="0" />
-        <mark key="^" line="442" column="116" />
-        <mark key="." line="443" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515485942430">
+        <mark key="'" line="506" column="8" />
+        <mark key="[" line="526" column="0" />
+        <mark key="]" line="526" column="58" />
+        <mark key="^" line="525" column="32" />
+        <mark key="." line="526" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -435,43 +435,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="241" column="71" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="420" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="14" column="0" filename="$USER_HOME$/data_processing/rebuild_conceptid.py" />
-      <jump line="824" column="4" filename="$USER_HOME$/data_processing/rebuild_conceptid.py" />
-      <jump line="207" column="70" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="181" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="166" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="51" column="24" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="250" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="197" column="26" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="195" column="74" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="228" column="4" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
-      <jump line="211" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="588" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="79" column="9" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="80" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="126" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/data_processing/fragment_forest.py" />
-      <jump line="932" column="13" filename="$USER_HOME$/data_processing/fragment_forest.py" />
-      <jump line="1172" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="817" column="49" filename="$USER_HOME$/data_processing/fragment_forest.py" />
-      <jump line="164" column="40" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="179" column="34" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="425" column="58" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="423" column="43" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="554" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="533" column="111" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="519" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="520" column="10" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="536" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="555" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="442" column="8" filename="$USER_HOME$/ConvParser/common/AMRGraph.py" />
-      <jump line="152" column="0" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="157" column="8" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="353" column="56" filename="$USER_HOME$/ConvParser/preprocessing.py" />
-      <jump line="162" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="147" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="244" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="250" column="47" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="441" column="22" filename="$USER_HOME$/ConvParser/common/AMRGraph.py" />
@@ -482,7 +445,6 @@
       <jump line="351" column="65" filename="$USER_HOME$/ConvParser/preprocessing.py" />
       <jump line="154" column="0" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="355" column="59" filename="$USER_HOME$/ConvParser/preprocessing.py" />
-      <jump line="448" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="477" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="383" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="473" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -492,7 +454,6 @@
       <jump line="1074" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="472" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="463" column="56" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="444" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="469" column="36" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="532" column="77" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="441" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -504,7 +465,6 @@
       <jump line="443" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="462" column="56" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="465" column="32" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="321" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="117" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="451" column="40" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="132" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -516,7 +476,6 @@
       <jump line="94" column="16" filename="$USER_HOME$/data_processing/re_utils.py" />
       <jump line="71" column="0" filename="$USER_HOME$/data_processing/re_utils.py" />
       <jump line="342" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="243" column="53" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="289" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="226" column="38" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="232" column="37" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -535,58 +494,99 @@
       <jump line="122" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="167" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1101" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="487" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="488" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="180" column="23" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="145" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="314" column="52" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="321" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="493" column="32" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="430" column="72" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="378" column="45" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="490" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="308" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="514" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="535" column="66" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="80" column="27" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="101" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="145" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="147" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="437" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="444" column="57" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="216" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="243" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="286" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="305" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="324" column="59" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="358" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="500" column="45" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="499" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="489" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="452" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="448" column="79" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="442" column="55" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="464" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="877" column="8" filename="$USER_HOME$/data_processing/categorize_amr.py" />
+      <jump line="339" column="4" filename="$USER_HOME$/data_processing/categorize_amr.py" />
+      <jump line="665" column="45" filename="$USER_HOME$/data_processing/categorize_amr.py" />
+      <jump line="426" column="54" filename="$USER_HOME$/data_processing/categorize_amr.py" />
+      <jump line="483" column="42" filename="$USER_HOME$/data_processing/categorize_amr.py" />
+      <jump line="1144" column="14" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="116" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="436" column="104" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="506" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>False</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCA+PiBhbGlnbm1lbnRfd2YsICJTZW50ZW5jZSAjJWQiICUgc2VudF9pbmRleAo=</text>
       </register>
       <register name="-" type="4">
-        <text>False</text>
+        <text>&quot;&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>visitUnaligned</text>
+        <text>node_str</text>
       </register>
       <register name="0" type="4">
-        <text>set(xrange(start, end))</text>
+        <text>&quot;Sentence #%d&quot; % sent_index</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCA+PiBhbGlnbm1lbnRfd2YsICJTZW50ZW5jZSAjJWQiICUgc2VudF9pbmRleAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCA+PiBvbGRfYWxpZ25fd2YsICIiCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgc3RhcnQsIGVuZCA9IGFsbF9zcGFuc1swXQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCA+PiBhbGlnbm1lbnRfd2YsICIiCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICNmb3IgKHN0YXJ0LCBlbmQpIGluIGVudGl0eV9zcGFuczoK</text>
+        <text encoding="base64">ICAgIHJlbGF0aW9uX2FsaWduX3dmID0gb3BlbihyZWxhdGlvbl9hbGlnbl9vdXRwdXQsICd3JykK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGN1cnJfc2V0ID0gc2V0KHhyYW5nZShzdGFydCwgZW5kKSkK</text>
+        <text encoding="base64">ICAgIHJlbGF0aW9uX2FsaWduX291dHB1dCA9IG9zLnBhdGguam9pbihhcmdzLnJ1bl9kaXIsICJyZWxhdGlvbl9hbGlnbiIpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBicmVhawo=</text>
+        <text encoding="base64">ICAgIHJlbGF0aW9uX2FsaWduX291dHB1dCA9IG9zLnBhdGguam9pbihhcmdzLnJ1bl9kaXIsICJyZWxhdGlvbl9hbGlnbiIpCg==</text>
       </register>
-      <register name="8" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIA==</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgY29uY2VwdF9hbGlnbl9tYXBbc3RhcnRdLmFwcGVuZChhbXJfZ3JhcGgubm9kZXNbaW5kZXhdKQo=</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgIGlmIGxlbihjdXJyX3NldCAmIGFsaWduZWRfdG9rcykgIT0gMDoKICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWU=</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAjIHRyeToK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>visitUnaligned</last-search>
+      <last-search>node_str</last-search>
       <last-offset />
-      <last-pattern>visitUnaligned</last-pattern>
+      <last-pattern>node_str</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -712,6 +712,12 @@
         <entry>matched_tuples</entry>
         <entry>entity_toks</entry>
         <entry>visitUnaligned</entry>
+        <entry>unaligned_set</entry>
+        <entry>tok2rels</entry>
+        <entry>output_ali</entry>
+        <entry>all_alignments</entry>
+        <entry>all_align</entry>
+        <entry>node_str</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
@@ -737,6 +743,8 @@
         <entry>1</entry>
         <entry>q</entry>
         <entry>556</entry>
+        <entry>499</entry>
+        <entry>501</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
