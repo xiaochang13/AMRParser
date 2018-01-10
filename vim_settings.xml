@@ -399,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515556717173">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515558765545">
         <mark key="'" line="563" column="57" />
-        <mark key="[" line="466" column="48" />
-        <mark key="]" line="467" column="48" />
+        <mark key="[" line="411" column="0" />
+        <mark key="]" line="411" column="0" />
         <mark key="^" line="467" column="48" />
-        <mark key="." line="467" column="48" />
+        <mark key="." line="411" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -544,7 +544,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsb2dnZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>)</text>
@@ -560,7 +560,7 @@
         assert edge_alignment.count() == 0</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsb2dnZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -569,25 +569,25 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmb3IgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsb2dnZQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmb3IgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIG51bV9zZWxmX2N5Y2xlID0gMAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaGFzX3dyb25nX2FsaWduID0gVHJ1ZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIG51bV9zZWxmX2N5Y2xlID0gMAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaGFzX3dyb25nX2FsaWduID0gVHJ1ZQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
