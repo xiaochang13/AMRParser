@@ -399,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515612931633">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515614346401">
         <mark key="'" line="442" column="49" />
-        <mark key="[" line="424" column="0" />
-        <mark key="]" line="424" column="0" />
+        <mark key="[" line="407" column="0" />
+        <mark key="]" line="407" column="0" />
         <mark key="^" line="507" column="49" />
-        <mark key="." line="424" column="0" />
+        <mark key="." line="407" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -599,31 +599,31 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjIGVkZ2VfYWxpZ25tZW50ID0gYWxpZ25tZW50X3V0aWxzLmluaXRpYWxpemVBbGlnbm1lbnQoYW1yKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBjX2VkZ2VfaW5kZXggPSBjdXJyX25vZGUuY19lZGdlCg==</text>
+        <text encoding="base64">ICAgICAgICAjIGVkZ2VfYWxpZ25tZW50ID0gYWxpZ25tZW50X3V0aWxzLmluaXRpYWxpemVBbGlnbm1lbnQoYW1yKQo=</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgIyBjX2VkZ2VfaW5kZXggPSBjdXJyX25vZGUuY19lZGdlCg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>#Assume there is unaligned constant edge
             # if edge_alignment[c_edge_index] == 0:
             #     unaligned_nodes.append(curr_node)</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YWlsX2VkZ2UgPSBhbXIubm9kZXNbdGFpbF0uY19lZGdlCg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWFkX2VkZ2UgPSBhbXIubm9kZXNbaGVhZF0uY19lZGdlCg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>if edge_alignment.count() != 0:
         edge_alignment ^= edge_alignment</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
