@@ -155,8 +155,8 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515009382462">
-        <mark key="'" line="103" column="43" />
+      <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515615653217">
+        <mark key="'" line="79" column="61" />
         <mark key="[" line="107" column="74" />
         <mark key="]" line="107" column="82" />
         <mark key="^" line="107" column="82" />
@@ -445,7 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="86" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="893" column="59" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="90" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="39" column="8" filename="/Library/Python/2.7/site-packages/nltk/stem/wordnet.py" />
@@ -545,6 +544,7 @@
       <jump line="507" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="429" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="442" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="79" column="61" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
