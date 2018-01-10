@@ -31,11 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515532419125">
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515554093482">
         <mark key="'" line="1129" column="15" />
-        <mark key="[" line="1071" column="0" />
-        <mark key="]" line="1071" column="0" />
-        <mark key="." line="1071" column="0" />
+        <mark key="[" line="1154" column="15" />
+        <mark key="]" line="1154" column="29" />
+        <mark key="^" line="1154" column="29" />
+        <mark key="." line="1154" column="29" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -398,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515551915493">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515554174268">
         <mark key="'" line="563" column="57" />
-        <mark key="[" line="455" column="55" />
-        <mark key="]" line="455" column="70" />
-        <mark key="^" line="455" column="70" />
-        <mark key="." line="455" column="70" />
+        <mark key="[" line="504" column="84" />
+        <mark key="]" line="504" column="103" />
+        <mark key="^" line="504" column="103" />
+        <mark key="." line="504" column="103" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -543,10 +544,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>head</text>
+        <text>unaligned_fragments</text>
       </register>
       <register name="-" type="4">
-        <text>head</text>
+        <text>unaligned_fragments</text>
       </register>
       <register name="/" type="4">
         <text>edge_alignment</text>
@@ -559,42 +560,41 @@
         assert edge_alignment.count() == 0</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAjIGdsb2JhbCBlZGdlX2FsaWdubWVudAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text>bitarray(len(amr.edges))
-        if edge_alignment.count() != 0:
-            edge_alignment ^= edge_alignment
-
-        assert edge_alignment.count() == 0</text>
-      </register>
-      <register name="3" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICA=</text>
-      </register>
-      <register name="4" type="4">
-        <text>edge_alignment = bitarray(len(amr.edges))
-        if edge_alignment.count() != 0:
-            edge_alignment ^= edge_alignment
-
-        assert edge_alignment.count() == 0</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">I2lmIHNlbnRfaW5kZXggPiAzOgogICAgICAgICMgICAgc3lzLmV4aXQoMSk=</text>
-      </register>
-      <register name="6" type="2">
+      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaW50ICd0b3RhbCBpbiB2ZXJibGlzdCBudW0nLCBpbl92ZXJibGlzdF9udW0K</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIHRhaWxfbm9kZV9pbmRleCBub3QgaW4gdmlzaXRlZF9ub2RlczoK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="6" type="4">
+        <text>n_nodes = len(self.nodes)
+        n_edges = len(self.edges)</text>
+      </register>
+      <register name="7" type="4">
+        <text>frag = AMRFragment(n_edges, n_nodes, self)
+                frag.set_node(curr_node_index)
+                frag.set_edge(c_edge_index)
+                frag.set_root(curr_node_index)
+
+                frag.build_ext_list()
+                frag.build_ext_set()</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGluX3ZlcmJsaXN0X251bSA9IDAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHVuYWxpZ25lZF9mcmFnbWVudHMuYWRkKGZyYWcpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIG1hdGNoZWRfdmVyYl9udW0gPSAwCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
