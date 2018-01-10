@@ -31,11 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515561371175">
-        <mark key="[" line="1155" column="0" />
-        <mark key="]" line="1155" column="0" />
-        <mark key="^" line="1154" column="29" />
-        <mark key="." line="1155" column="0" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515610435012">
+        <mark key="'" line="1187" column="37" />
+        <mark key="[" line="1143" column="0" />
+        <mark key="]" line="1143" column="0" />
+        <mark key="^" line="1145" column="47" />
+        <mark key="." line="1143" column="0" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -202,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515609891497">
-        <mark key="'" line="246" column="91" />
-        <mark key="[" line="116" column="29" />
-        <mark key="]" line="118" column="42" />
-        <mark key="^" line="118" column="42" />
-        <mark key="." line="118" column="42" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515611276358">
+        <mark key="'" line="126" column="27" />
+        <mark key="[" line="389" column="0" />
+        <mark key="]" line="389" column="0" />
+        <mark key="^" line="386" column="35" />
+        <mark key="." line="389" column="0" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -260,12 +261,6 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/preprocessing/seq2graph/amr2seq/data_prep/cacheTransition.py" timestamp="1514154408789">
-        <mark key="[" line="0" column="14" />
-        <mark key="]" line="1" column="0" />
-        <mark key="." line="1" column="0" />
-        <mark key="^" line="1" column="0" />
-      </file>
       <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1510089736605">
         <mark key="'" line="245" column="13" />
         <mark key="[" line="248" column="8" />
@@ -279,12 +274,6 @@
         <mark key="]" line="714" column="8" />
         <mark key="^" line="714" column="8" />
         <mark key="." line="714" column="8" />
-      </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/dependency.py" timestamp="1514929428507">
-        <mark key="[" line="23" column="13" />
-        <mark key="]" line="23" column="26" />
-        <mark key="^" line="23" column="30" />
-        <mark key="." line="23" column="30" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1515008518064">
         <mark key="'" line="105" column="21" />
@@ -410,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515609862507">
-        <mark key="'" line="424" column="58" />
-        <mark key="[" line="410" column="0" />
-        <mark key="]" line="410" column="0" />
-        <mark key="^" line="444" column="70" />
-        <mark key="." line="410" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515610783127">
+        <mark key="'" line="429" column="70" />
+        <mark key="[" line="424" column="0" />
+        <mark key="]" line="424" column="0" />
+        <mark key="^" line="507" column="49" />
+        <mark key="." line="424" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -454,40 +443,8 @@
         <mark key="^" line="830" column="49" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668521968">
-        <mark key="[" line="9" column="49" />
-        <mark key="]" line="9" column="52" />
-        <mark key="." line="9" column="52" />
-        <mark key="^" line="9" column="52" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="665" column="45" filename="$USER_HOME$/data_processing/categorize_amr.py" />
-      <jump line="426" column="54" filename="$USER_HOME$/data_processing/categorize_amr.py" />
-      <jump line="483" column="42" filename="$USER_HOME$/data_processing/categorize_amr.py" />
-      <jump line="1144" column="14" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="116" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="436" column="104" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="506" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="245" column="24" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="252" column="49" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
-      <jump line="254" column="10" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
-      <jump line="410" column="22" filename="$USER_HOME$/ConvParser/common/AMRGraph.py" />
-      <jump line="260" column="45" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
-      <jump line="400" column="22" filename="$USER_HOME$/ConvParser/common/AMRGraph.py" />
-      <jump line="280" column="4" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
-      <jump line="289" column="30" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
-      <jump line="290" column="30" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
-      <jump line="14" column="13" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
-      <jump line="3" column="0" filename="$USER_HOME$/ConvParser/constants.py" />
-      <jump line="271" column="32" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
-      <jump line="34" column="4" filename="$USER_HOME$/ConvParser/categorize_concept.py" />
-      <jump line="355" column="59" filename="$USER_HOME$/ConvParser/preprocessing.py" />
-      <jump line="234" column="16" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="231" column="50" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="372" column="20" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="373" column="52" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="482" column="52" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="716" column="48" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="86" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="893" column="59" filename="$USER_HOME$/ConvParser/Aligner.py" />
@@ -562,16 +519,42 @@
       <jump line="409" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="117" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="424" column="58" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="425" column="67" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="448" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="242" column="49" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="1043" column="38" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1189" column="37" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="64" column="8" filename="$USER_HOME$/data_processing/amr_fragment.py" />
+      <jump line="262" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="218" column="38" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="268" column="43" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="314" column="47" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="334" column="47" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="351" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="386" column="35" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="121" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="123" column="18" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="125" column="43" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="126" column="27" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="426" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="444" column="106" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="449" column="60" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="440" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="512" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="517" column="46" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1136" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="507" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="429" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>edges</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>edges</text>
+        <text>edge</text>
       </register>
       <register name="/" type="4">
-        <text>sent_index</text>
+        <text>edge_alignment</text>
       </register>
       <register name="0" type="4">
         <text>aligned_set = set()
@@ -616,33 +599,28 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIGVkZ2VfYWxpZ25tZW50ID0gYWxpZ25tZW50X3V0aWxzLmluaXRpYWxpemVBbGlnbm1lbnQoYW1yKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgI3JldHVybiAob3BfdG9rcywgcm9sZV90b2tzLCBuZXdfbm9kZV90b19zcGFuLCBuZXdfZWRnZV90b19zcGFuLCBhbGlnbmVkX3NldCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBjX2VkZ2VfaW5kZXggPSBjdXJyX25vZGUuY19lZGdlCg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="4">
+        <text>#Assume there is unaligned constant edge
+            # if edge_alignment[c_edge_index] == 0:
+            #     unaligned_nodes.append(curr_node)</text>
       </register>
-      <register name="6" type="4">
-        <text>#Extract ops for entities
-            if len(curr_node.p_edges) == 1:
-                par_edge = amr_graph.edges[curr_node.p_edges[0]]
-                if 'op' == par_edge.label[:2]:
-                    op_toks.append((start, curr_node.c_edge))
-
-            if curr_node.is_named_entity():
-                role_toks.append((start, curr_node.c_edge))</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YWlsX2VkZ2UgPSBhbXIubm9kZXNbdGFpbF0uY19lZGdlCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWFkX2VkZ2UgPSBhbXIubm9kZXNbaGVhZF0uY19lZGdlCg==</text>
       </register>
       <register name="8" type="4">
-        <text>op_toks = []
-    role_toks = []</text>
+        <text>if edge_alignment.count() != 0:
+        edge_alignment ^= edge_alignment</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -652,9 +630,9 @@
       </register>
     </registers>
     <search>
-      <last-search>sent_index</last-search>
+      <last-search>edge_alignment</last-search>
       <last-offset />
-      <last-pattern>sent_index</last-pattern>
+      <last-pattern>edge_alignment</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
@@ -800,7 +778,6 @@
         <entry>verb_</entry>
         <entry>edge_align</entry>
         <entry>recall_unaligned</entry>
-        <entry>edge_alignment</entry>
         <entry>recall_un</entry>
         <entry>NegPolarity</entry>
         <entry>neg_polarity</entry>
@@ -811,6 +788,8 @@
         <entry>amr_graph</entry>
         <entry>temp_unaligned</entry>
         <entry>sent_index</entry>
+        <entry>node_idx</entry>
+        <entry>edge_alignment</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
