@@ -202,12 +202,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515607576646">
-        <mark key="'" line="265" column="56" />
-        <mark key="[" line="154" column="0" />
-        <mark key="]" line="154" column="0" />
-        <mark key="." line="154" column="0" />
-        <mark key="^" line="192" column="3" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515608612141">
+        <mark key="'" line="256" column="91" />
+        <mark key="[" line="226" column="50" />
+        <mark key="]" line="227" column="3" />
+        <mark key="^" line="227" column="3" />
+        <mark key="." line="227" column="3" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -462,15 +462,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="305" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="324" column="59" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="358" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="500" column="45" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="499" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="489" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="452" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="448" column="79" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="442" column="55" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="464" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="877" column="8" filename="$USER_HOME$/data_processing/categorize_amr.py" />
       <jump line="339" column="4" filename="$USER_HOME$/data_processing/categorize_amr.py" />
@@ -562,23 +553,61 @@
       <jump line="71" column="4" filename="$USER_HOME$/data_processing/re_utils.py" />
       <jump line="265" column="56" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="103" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="154" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="300" column="59" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="92" column="42" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="234" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="228" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="226" column="18" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="292" column="57" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="263" column="80" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="256" column="91" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>new_</text>
+        <text>_graph</text>
       </register>
       <register name="/" type="4">
-        <text>is_neg_form</text>
+        <text>temp_unaligned</text>
       </register>
       <register name="0" type="4">
-        <text>edge_alignment = bitarray(len(amr.edges))
-        if edge_alignment.count() != 0:
-            edge_alignment ^= edge_alignment
+        <text>aligned_set = set()
 
-        assert edge_alignment.count() == 0</text>
+    node_to_span = defaultdict(list)
+    edge_to_span = defaultdict(list)
+
+    op_toks = []
+    role_toks = []
+    for curr_align in reversed(alignments):
+        curr_tok = curr_align.split('-')[0]
+        curr_frag = curr_align.split('-')[1]
+
+        start = int(curr_tok)
+        end = start + 1
+
+        aligned_set.add(start)
+
+        (index_type, index) = amr_graph.get_concept_relation(curr_frag)
+        if index_type == 'c':
+            node_to_span[index].append((start, end, None))
+            curr_node = amr_graph.nodes[index]
+            concept_align_map[start].append(curr_node.node_str())
+
+            #Extract ops for entities
+            if len(curr_node.p_edges) == 1:
+                par_edge = amr_graph.edges[curr_node.p_edges[0]]
+                if 'op' == par_edge.label[:2]:
+                    op_toks.append((start, curr_node.c_edge))
+
+            if curr_node.is_named_entity():
+                role_toks.append((start, curr_node.c_edge))
+
+        else:
+            edge_to_span[index].append((start, end, None))
+            relation_align_map[start].append(amr_graph.edges[index].label)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -587,37 +616,39 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICNyZXR1cm4gKG9wX3Rva3MsIHJvbGVfdG9rcywgbmV3X25vZGVfdG9fc3BhbiwgbmV3X2VkZ2VfdG9fc3BhbiwgYWxpZ25lZF9zZXQpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZW5kID0gc3RhcnQgKyAxCg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>else:
+            edge_to_span[index].append((start, end, None))
+            relation_align_map[start].append(amr_graph.edges[index].label)</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ZGVmIHJlY2FsbF91bmFsaWduZWRfY29uY2VwdHMoc2VsZiwgZWRnZV9hbGlnbm1lbnQsIHVuYWxpZ25lZF90b2tzLCBsZW1tYV9tYXAsIHN0b3Bfd29yZHMsIHJlZmluZT1GYWxzZSk6CiAgICAgICAgbl9ub2RlcyA9IGxlbihzZWxmLm5vZGVzKQogICAgICAgIG5fZWRnZXMgPSBsZW4oc2VsZi5lZGdlcykKCiAgICAgICAgdW5hbGlnbmVkX2ZyYWdtZW50cyA9IHNldCgpCiAgICAgICAgYWxpZ25lZF9mcmFnbWVudHMgPSBbXQoKICAgICAgICB2aXNpdGVkX25vZGVzID0gc2V0KCkKICAgICAgICBzdGFjayA9IGRlcXVlKFtzZWxmLnJvb3RdKQogICAgICAgIHVzZWRfcG9zID0gc2V0KCkKICAgICAgICB3aGlsZSBzdGFjazoKICAgICAgICAgICAgY3Vycl9ub2RlX2luZGV4ID0gc3RhY2sucG9wbGVmdCgpCgogICAgICAgICAgICB2aXNpdGVkID0gY3Vycl9ub2RlX2luZGV4IGluIHZpc2l0ZWRfbm9kZXMKICAgICAgICAgICAgaWYgdmlzaXRlZDoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICB2aXNpdGVkX25vZGVzLmFkZChjdXJyX25vZGVfaW5kZXgpCiAgICAgICAgICAgIGN1cnJfbm9kZSA9IHNlbGYubm9kZXNbY3Vycl9ub2RlX2luZGV4XQogICAgICAgICAgICBjX2VkZ2VfaW5kZXggPSBjdXJyX25vZGUuY19lZGdlCgogICAgICAgICAgICBmcmFnID0gTm9uZQogICAgICAgICAgICByb290X2FyY3MgPSBbXQogICAgICAgICAgICBoZWFkX2FyY3MgPSBbXQogICAgICAgICAgICBpc19wcmVkID0gRmFsc2UgI1VzZSBmb3IgZGVjaWRpbmcgdGhlIGNhdGVnb3J5IG9mIHRoZSByb290IG5vZGUKICAgICAgICAgICAgaXNfb3AgPSBGYWxzZQoKICAgICAgICAgICAgaWYgZWRnZV9hbGlnbm1lbnRbY19lZGdlX2luZGV4XSA9PSAwOgogICAgICAgICAgICAgICAgZnJhZyA9IEFNUkZyYWdtZW50KG5fZWRnZXMsIG5fbm9kZXMsIHNlbGYpCiAgICAgICAgICAgICAgICBmcmFnLnNldF9ub2RlKGN1cnJfbm9kZV9pbmRleCkKICAgICAgICAgICAgICAgIGZyYWcuc2V0X3Jvb3QoY3Vycl9ub2RlX2luZGV4KQogICAgICAgICAgICAgICAgZWRnZV9hbGlnbm1lbnRbY19lZGdlX2luZGV4XSA9IDEKCgogICAgICAgICAgICAgICAgY29uY2VwdF9sID0gc3RyKGN1cnJfbm9kZSkKICAgICAgICAgICAgICAgIGNvbmNlcHRfbCA9IGNvbmNlcHRfbGFiZWwoY29uY2VwdF9sKQoKICAgICAgICAgICAgICAgIGZvciBjdXJyX2VkZ2VfaW5kZXggaW4gY3Vycl9ub2RlLnBfZWRnZXM6CiAgICAgICAgICAgICAgICAgICAgY3Vycl9lZGdlID0gc2VsZi5lZGdlc1tjdXJyX2VkZ2VfaW5kZXhdCiAgICAgICAgICAgICAgICAgICAgaWYgZWRnZV9hbGlnbm1lbnRbY3Vycl9lZGdlX2luZGV4XSA9PSAxOiAjVGhpcyBlZGdlIGhhcyBhbHJlYWR5IGJlZW4gYWxpZ25lZAogICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAgICAgICAgICAgICBlZGdlX2xhYmVsID0gY3Vycl9lZGdlLmxhYmVsCiAgICAgICAgICAgICAgICAgICAgaWYgKGVkZ2VfbGFiZWxbOjNdID09ICdBUkcnIGFuZCAnb2YnIGluIGVkZ2VfbGFiZWwpOgogICAgICAgICAgICAgICAgICAgICAgICBpc19wcmVkID0gVHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICBoZWFkX2FyY3MuYXBwZW5kKChjdXJyX2VkZ2VfaW5kZXgsIGN1cnJfZWRnZS5oZWFkKSkKCiAgICAgICAgICAgICAgICAjRmluZCB0aGUgYXJndW1lbnRzIHN0cnVjdHVyZSBmb3IgdGhlIGN1cnJlbnQgY29uY2VwdAogICAgICAgICAgICAgICAgZm9yIGN1cnJfZWRnZV9pbmRleCBpbiBjdXJyX25vZGUudl9lZGdlczoKICAgICAgICAgICAgICAgICAgICBjdXJyX2VkZ2UgPSBzZWxmLmVkZ2VzW2N1cnJfZWRnZV9pbmRleF0KICAgICAgICAgICAgICAgICAgICBpZiBlZGdlX2FsaWdubWVudFtjdXJyX2VkZ2VfaW5kZXhdID09IDE6ICNUaGlzIGVkZ2UgaGFzIGFscmVhZHkgYmVlbiBhbGlnbmVkCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIGN1cnJfZWRnZS50YWlsIG5vdCBpbiB2aXNpdGVkX25vZGVzOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhY2suYXBwZW5kKGN1cnJfZWRnZS50YWlsKQogICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAgICAgICAgICAgICB0YWlsX25vZGVfaW5kZXggPSBjdXJyX2VkZ2UudGFpbAogICAgICAgICAgICAgICAgICAgIGVkZ2VfbGFiZWwgPSBzdHIoY3Vycl9lZGdlKQogICAgICAgICAgICAgICAgICAgIGlmIGlzX3Jvb3RfYXJjKGVkZ2VfbGFiZWwpOgogICAgICAgICAgICAgICAgICAgICAgICBpZiAnQVJHJyBpbiBlZGdlX2xhYmVsOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgaXNfcHJlZCA9IFRydWUKICAgICAgICAgICAgICAgICAgICAgICAgZWxpZiAnb3AnIGluIGVkZ2VfbGFiZWw6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc19vcCA9IFRydWUKCiAgICAgICAgICAgICAgICAgICAgICAgIHJvb3RfYXJjcy5hcHBlbmQoKGN1cnJfZWRnZV9pbmRleCwgdGFpbF9ub2RlX2luZGV4KSkKCiAgICAgICAgICAgICAgICAjaWYgbGVuKHJvb3RfYXJjcykgIT0gMCBhbmQgRmFsc2U6ICAjVGhlcmUgYXJlIGFyZ3VtZW50cyBnb2luZyBvdXQgb2YgdGhlIGN1cnJlbnQgbm9kZQogICAgICAgICAgICAgICAgZm9yIHJlbF9pbmRleCwgdGFpbF9pbmRleCBpbiByb290X2FyY3M6CiAgICAgICAgICAgICAgICAgICAgZWRnZV9hbGlnbm1lbnRbcmVsX2luZGV4XSA9IDEKICAgICAgICAgICAgICAgICAgICBmcmFnLnNldF9lZGdlKHJlbF9pbmRleCkKICAgICAgICAgICAgICAgICAgICBmcmFnLnNldF9ub2RlKHRhaWxfaW5kZXgpCgogICAgICAgICAgICAgICAgaWYgbGVuKGhlYWRfYXJjcykgPiAwOgogICAgICAgICAgICAgICAgICAgIChyZWxfaW5kZXgsIGhlYWRfaW5kZXgpID0gaGVhZF9hcmNzWzBdCiAgICAgICAgICAgICAgICAgICAgZWRnZV9hbGlnbm1lbnRbcmVsX2luZGV4XSA9IDEKICAgICAgICAgICAgICAgICAgICBmcmFnLnNldF9lZGdlKHJlbF9pbmRleCkKICAgICAgICAgICAgICAgICAgICBmcmFnLnNldF9yb290KGhlYWRfaW5kZXgpCgogICAgICAgICAgICAgICAgKHBvcywgd29yZCkgPSBtYXRjaF93b3JkKGNvbmNlcHRfbCwgdW5hbGlnbmVkX3Rva3MsIGxlbW1hX21hcCwgc3RvcF93b3JkcykKICAgICAgICAgICAgICAgIGlmIHJlZmluZToKICAgICAgICAgICAgICAgICAgICBpbml0X2V4dF9mcmFnKGZyYWcsIGlzX3ByZWQsIGlzX29wKQoKICAgICAgICAgICAgICAgIGlmIHBvcyBpcyBub3QgTm9uZSBhbmQgcG9zIG5vdCBpbiB1c2VkX3BvczoKICAgICAgICAgICAgICAgICAgICBmcmFnLnNldF9zcGFuKHBvcywgcG9zKzEpCiAgICAgICAgICAgICAgICAgICAgZnJhZ19sYWJlbCA9IHN0cihmcmFnKS5yZXBsYWNlKCcgJywgJycpCiAgICAgICAgICAgICAgICAgICAgdXNlZF9wb3MuYWRkKHBvcykKICAgICAgICAgICAgICAgICAgICBmcmFnLnNldF9lZGdlKGNfZWRnZV9pbmRleCkKICAgICAgICAgICAgICAgICAgICBhbGlnbmVkX2ZyYWdtZW50cy5hcHBlbmQoKGZyYWcsIGZyYWdfbGFiZWwsIGlzX3ByZWQsIEZhbHNlKSkKICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgZnJhZy5zZXRfZWRnZShjX2VkZ2VfaW5kZXgpCiAgICAgICAgICAgICAgICAgICAgZnJhZy5zZXRfc3BhbigtMSwgLTEpCiAgICAgICAgICAgICAgICAgICAgZnJhZy5idWlsZF9leHRfbGlzdCgpCiAgICAgICAgICAgICAgICAgICAgZnJhZy5idWlsZF9leHRfc2V0KCkKICAgICAgICAgICAgICAgICAgICB1bmFsaWduZWRfZnJhZ21lbnRzLmFkZChmcmFnKQoKICAgICAgICAgICAgZm9yIGN1cnJfZWRnZV9pbmRleCBpbiBjdXJyX25vZGUudl9lZGdlczoKICAgICAgICAgICAgICAgIGN1cnJfZWRnZSA9IHNlbGYuZWRnZXNbY3Vycl9lZGdlX2luZGV4XQogICAgICAgICAgICAgICAgaWYgY3Vycl9lZGdlLnRhaWwgbm90IGluIHZpc2l0ZWRfbm9kZXM6CiAgICAgICAgICAgICAgICAgICAgc3RhY2suYXBwZW5kKGN1cnJfZWRnZS50YWlsKQoKICAgICAgICByZXR1cm4gKGFsaWduZWRfZnJhZ21lbnRzLCB1bmFsaWduZWRfZnJhZ21lbnRzKQ==</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICNFeHRyYWN0IG9wcyBmb3IgZW50aXRpZXMK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbmNlcHRfYWxpZ25fbWFwW3N0YXJ0XS5hcHBlbmQoY3Vycl9ub2RlLm5vZGVfc3RyKCkpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG5vZGVfdG9fc3BhbltpbmRleF0uYXBwZW5kKChzdGFydCwgZW5kLCBOb25lKSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsb2dnZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgY3Vycl9mcmFnID0gCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>is_neg_form</last-search>
+      <last-search>temp_unaligned</last-search>
       <last-offset />
-      <last-pattern>is_neg_form</last-pattern>
+      <last-pattern>temp_unaligned</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -712,7 +743,6 @@
         <entry>VERB</entry>
         <entry>tok_seq</entry>
         <entry>aligned_set</entry>
-        <entry>temp_unaligned</entry>
         <entry>aligned_toks</entry>
         <entry>date_relations</entry>
         <entry>Unaligned entity</entry>
@@ -771,6 +801,9 @@
         <entry>special_morph</entry>
         <entry>is_spec_form</entry>
         <entry>is_neg_form</entry>
+        <entry>align_seq</entry>
+        <entry>amr_graph</entry>
+        <entry>temp_unaligned</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
