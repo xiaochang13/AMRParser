@@ -31,12 +31,11 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515557608322">
-        <mark key="'" line="1233" column="31" />
-        <mark key="[" line="1154" column="15" />
-        <mark key="]" line="1154" column="29" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515561371175">
+        <mark key="[" line="1155" column="0" />
+        <mark key="]" line="1155" column="0" />
         <mark key="^" line="1154" column="29" />
-        <mark key="." line="1154" column="29" />
+        <mark key="." line="1155" column="0" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -261,6 +260,12 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
+      <file name="$USER_HOME$/AMRParser/preprocessing/seq2graph/amr2seq/data_prep/cacheTransition.py" timestamp="1514154408789">
+        <mark key="[" line="0" column="14" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+        <mark key="^" line="1" column="0" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1510089736605">
         <mark key="'" line="245" column="13" />
         <mark key="[" line="248" column="8" />
@@ -274,6 +279,12 @@
         <mark key="]" line="714" column="8" />
         <mark key="^" line="714" column="8" />
         <mark key="." line="714" column="8" />
+      </file>
+      <file name="$USER_HOME$/AMRParser/CacheTransition/dependency.py" timestamp="1514929428507">
+        <mark key="[" line="23" column="13" />
+        <mark key="]" line="23" column="26" />
+        <mark key="^" line="23" column="30" />
+        <mark key="." line="23" column="30" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1515008518064">
         <mark key="'" line="105" column="21" />
@@ -399,12 +410,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515558765545">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515561134490">
         <mark key="'" line="563" column="57" />
-        <mark key="[" line="411" column="0" />
-        <mark key="]" line="411" column="0" />
-        <mark key="^" line="467" column="48" />
-        <mark key="." line="411" column="0" />
+        <mark key="[" line="453" column="31" />
+        <mark key="]" line="455" column="47" />
+        <mark key="^" line="455" column="47" />
+        <mark key="." line="455" column="47" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -429,8 +440,8 @@
         <mark key="[" line="3" column="0" />
         <mark key="]" line="29" column="24" />
       </file>
-      <file name="$USER_HOME$/data_processing/Aligner.py" timestamp="1515529282192">
-        <mark key="'" line="453" column="39" />
+      <file name="$USER_HOME$/data_processing/Aligner.py" timestamp="1515562157939">
+        <mark key="'" line="393" column="34" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1513623255940">
         <mark key="'" line="10" column="0" />
@@ -439,15 +450,14 @@
         <mark key="^" line="830" column="49" />
         <mark key="." line="1" column="0" />
       </file>
+      <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668521968">
+        <mark key="[" line="9" column="49" />
+        <mark key="]" line="9" column="52" />
+        <mark key="." line="9" column="52" />
+        <mark key="^" line="9" column="52" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="430" column="72" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="378" column="45" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="490" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="308" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="514" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="535" column="66" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="80" column="27" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="101" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="145" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="147" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -541,6 +551,13 @@
       <jump line="563" column="57" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1233" column="31" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1642" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="296" column="29" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="127" column="26" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="377" column="16" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="370" column="35" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="373" column="52" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="86" column="4" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="393" column="34" filename="$USER_HOME$/data_processing/Aligner.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -550,7 +567,7 @@
         <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>edge_alignment</text>
+        <text>neg_polarity</text>
       </register>
       <register name="0" type="4">
         <text>edge_alignment = bitarray(len(amr.edges))
@@ -566,37 +583,37 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsb2dnZQo=</text>
+      <register name="3" type="4">
+        <text encoding="base64">ZGVmIHJlY2FsbF91bmFsaWduZWRfY29uY2VwdHMoc2VsZiwgZWRnZV9hbGlnbm1lbnQsIHVuYWxpZ25lZF90b2tzLCBsZW1tYV9tYXAsIHN0b3Bfd29yZHMsIHJlZmluZT1GYWxzZSk6CiAgICAgICAgbl9ub2RlcyA9IGxlbihzZWxmLm5vZGVzKQogICAgICAgIG5fZWRnZXMgPSBsZW4oc2VsZi5lZGdlcykKCiAgICAgICAgdW5hbGlnbmVkX2ZyYWdtZW50cyA9IHNldCgpCiAgICAgICAgYWxpZ25lZF9mcmFnbWVudHMgPSBbXQoKICAgICAgICB2aXNpdGVkX25vZGVzID0gc2V0KCkKICAgICAgICBzdGFjayA9IGRlcXVlKFtzZWxmLnJvb3RdKQogICAgICAgIHVzZWRfcG9zID0gc2V0KCkKICAgICAgICB3aGlsZSBzdGFjazoKICAgICAgICAgICAgY3Vycl9ub2RlX2luZGV4ID0gc3RhY2sucG9wbGVmdCgpCgogICAgICAgICAgICB2aXNpdGVkID0gY3Vycl9ub2RlX2luZGV4IGluIHZpc2l0ZWRfbm9kZXMKICAgICAgICAgICAgaWYgdmlzaXRlZDoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICB2aXNpdGVkX25vZGVzLmFkZChjdXJyX25vZGVfaW5kZXgpCiAgICAgICAgICAgIGN1cnJfbm9kZSA9IHNlbGYubm9kZXNbY3Vycl9ub2RlX2luZGV4XQogICAgICAgICAgICBjX2VkZ2VfaW5kZXggPSBjdXJyX25vZGUuY19lZGdlCgogICAgICAgICAgICBmcmFnID0gTm9uZQogICAgICAgICAgICByb290X2FyY3MgPSBbXQogICAgICAgICAgICBoZWFkX2FyY3MgPSBbXQogICAgICAgICAgICBpc19wcmVkID0gRmFsc2UgI1VzZSBmb3IgZGVjaWRpbmcgdGhlIGNhdGVnb3J5IG9mIHRoZSByb290IG5vZGUKICAgICAgICAgICAgaXNfb3AgPSBGYWxzZQoKICAgICAgICAgICAgaWYgZWRnZV9hbGlnbm1lbnRbY19lZGdlX2luZGV4XSA9PSAwOgogICAgICAgICAgICAgICAgZnJhZyA9IEFNUkZyYWdtZW50KG5fZWRnZXMsIG5fbm9kZXMsIHNlbGYpCiAgICAgICAgICAgICAgICBmcmFnLnNldF9ub2RlKGN1cnJfbm9kZV9pbmRleCkKICAgICAgICAgICAgICAgIGZyYWcuc2V0X3Jvb3QoY3Vycl9ub2RlX2luZGV4KQogICAgICAgICAgICAgICAgZWRnZV9hbGlnbm1lbnRbY19lZGdlX2luZGV4XSA9IDEKCgogICAgICAgICAgICAgICAgY29uY2VwdF9sID0gc3RyKGN1cnJfbm9kZSkKICAgICAgICAgICAgICAgIGNvbmNlcHRfbCA9IGNvbmNlcHRfbGFiZWwoY29uY2VwdF9sKQoKICAgICAgICAgICAgICAgIGZvciBjdXJyX2VkZ2VfaW5kZXggaW4gY3Vycl9ub2RlLnBfZWRnZXM6CiAgICAgICAgICAgICAgICAgICAgY3Vycl9lZGdlID0gc2VsZi5lZGdlc1tjdXJyX2VkZ2VfaW5kZXhdCiAgICAgICAgICAgICAgICAgICAgaWYgZWRnZV9hbGlnbm1lbnRbY3Vycl9lZGdlX2luZGV4XSA9PSAxOiAjVGhpcyBlZGdlIGhhcyBhbHJlYWR5IGJlZW4gYWxpZ25lZAogICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAgICAgICAgICAgICBlZGdlX2xhYmVsID0gY3Vycl9lZGdlLmxhYmVsCiAgICAgICAgICAgICAgICAgICAgaWYgKGVkZ2VfbGFiZWxbOjNdID09ICdBUkcnIGFuZCAnb2YnIGluIGVkZ2VfbGFiZWwpOgogICAgICAgICAgICAgICAgICAgICAgICBpc19wcmVkID0gVHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICBoZWFkX2FyY3MuYXBwZW5kKChjdXJyX2VkZ2VfaW5kZXgsIGN1cnJfZWRnZS5oZWFkKSkKCiAgICAgICAgICAgICAgICAjRmluZCB0aGUgYXJndW1lbnRzIHN0cnVjdHVyZSBmb3IgdGhlIGN1cnJlbnQgY29uY2VwdAogICAgICAgICAgICAgICAgZm9yIGN1cnJfZWRnZV9pbmRleCBpbiBjdXJyX25vZGUudl9lZGdlczoKICAgICAgICAgICAgICAgICAgICBjdXJyX2VkZ2UgPSBzZWxmLmVkZ2VzW2N1cnJfZWRnZV9pbmRleF0KICAgICAgICAgICAgICAgICAgICBpZiBlZGdlX2FsaWdubWVudFtjdXJyX2VkZ2VfaW5kZXhdID09IDE6ICNUaGlzIGVkZ2UgaGFzIGFscmVhZHkgYmVlbiBhbGlnbmVkCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIGN1cnJfZWRnZS50YWlsIG5vdCBpbiB2aXNpdGVkX25vZGVzOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhY2suYXBwZW5kKGN1cnJfZWRnZS50YWlsKQogICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAgICAgICAgICAgICB0YWlsX25vZGVfaW5kZXggPSBjdXJyX2VkZ2UudGFpbAogICAgICAgICAgICAgICAgICAgIGVkZ2VfbGFiZWwgPSBzdHIoY3Vycl9lZGdlKQogICAgICAgICAgICAgICAgICAgIGlmIGlzX3Jvb3RfYXJjKGVkZ2VfbGFiZWwpOgogICAgICAgICAgICAgICAgICAgICAgICBpZiAnQVJHJyBpbiBlZGdlX2xhYmVsOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgaXNfcHJlZCA9IFRydWUKICAgICAgICAgICAgICAgICAgICAgICAgZWxpZiAnb3AnIGluIGVkZ2VfbGFiZWw6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc19vcCA9IFRydWUKCiAgICAgICAgICAgICAgICAgICAgICAgIHJvb3RfYXJjcy5hcHBlbmQoKGN1cnJfZWRnZV9pbmRleCwgdGFpbF9ub2RlX2luZGV4KSkKCiAgICAgICAgICAgICAgICAjaWYgbGVuKHJvb3RfYXJjcykgIT0gMCBhbmQgRmFsc2U6ICAjVGhlcmUgYXJlIGFyZ3VtZW50cyBnb2luZyBvdXQgb2YgdGhlIGN1cnJlbnQgbm9kZQogICAgICAgICAgICAgICAgZm9yIHJlbF9pbmRleCwgdGFpbF9pbmRleCBpbiByb290X2FyY3M6CiAgICAgICAgICAgICAgICAgICAgZWRnZV9hbGlnbm1lbnRbcmVsX2luZGV4XSA9IDEKICAgICAgICAgICAgICAgICAgICBmcmFnLnNldF9lZGdlKHJlbF9pbmRleCkKICAgICAgICAgICAgICAgICAgICBmcmFnLnNldF9ub2RlKHRhaWxfaW5kZXgpCgogICAgICAgICAgICAgICAgaWYgbGVuKGhlYWRfYXJjcykgPiAwOgogICAgICAgICAgICAgICAgICAgIChyZWxfaW5kZXgsIGhlYWRfaW5kZXgpID0gaGVhZF9hcmNzWzBdCiAgICAgICAgICAgICAgICAgICAgZWRnZV9hbGlnbm1lbnRbcmVsX2luZGV4XSA9IDEKICAgICAgICAgICAgICAgICAgICBmcmFnLnNldF9lZGdlKHJlbF9pbmRleCkKICAgICAgICAgICAgICAgICAgICBmcmFnLnNldF9yb290KGhlYWRfaW5kZXgpCgogICAgICAgICAgICAgICAgKHBvcywgd29yZCkgPSBtYXRjaF93b3JkKGNvbmNlcHRfbCwgdW5hbGlnbmVkX3Rva3MsIGxlbW1hX21hcCwgc3RvcF93b3JkcykKICAgICAgICAgICAgICAgIGlmIHJlZmluZToKICAgICAgICAgICAgICAgICAgICBpbml0X2V4dF9mcmFnKGZyYWcsIGlzX3ByZWQsIGlzX29wKQoKICAgICAgICAgICAgICAgIGlmIHBvcyBpcyBub3QgTm9uZSBhbmQgcG9zIG5vdCBpbiB1c2VkX3BvczoKICAgICAgICAgICAgICAgICAgICBmcmFnLnNldF9zcGFuKHBvcywgcG9zKzEpCiAgICAgICAgICAgICAgICAgICAgZnJhZ19sYWJlbCA9IHN0cihmcmFnKS5yZXBsYWNlKCcgJywgJycpCiAgICAgICAgICAgICAgICAgICAgdXNlZF9wb3MuYWRkKHBvcykKICAgICAgICAgICAgICAgICAgICBmcmFnLnNldF9lZGdlKGNfZWRnZV9pbmRleCkKICAgICAgICAgICAgICAgICAgICBhbGlnbmVkX2ZyYWdtZW50cy5hcHBlbmQoKGZyYWcsIGZyYWdfbGFiZWwsIGlzX3ByZWQsIEZhbHNlKSkKICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgZnJhZy5zZXRfZWRnZShjX2VkZ2VfaW5kZXgpCiAgICAgICAgICAgICAgICAgICAgZnJhZy5zZXRfc3BhbigtMSwgLTEpCiAgICAgICAgICAgICAgICAgICAgZnJhZy5idWlsZF9leHRfbGlzdCgpCiAgICAgICAgICAgICAgICAgICAgZnJhZy5idWlsZF9leHRfc2V0KCkKICAgICAgICAgICAgICAgICAgICB1bmFsaWduZWRfZnJhZ21lbnRzLmFkZChmcmFnKQoKICAgICAgICAgICAgZm9yIGN1cnJfZWRnZV9pbmRleCBpbiBjdXJyX25vZGUudl9lZGdlczoKICAgICAgICAgICAgICAgIGN1cnJfZWRnZSA9IHNlbGYuZWRnZXNbY3Vycl9lZGdlX2luZGV4XQogICAgICAgICAgICAgICAgaWYgY3Vycl9lZGdlLnRhaWwgbm90IGluIHZpc2l0ZWRfbm9kZXM6CiAgICAgICAgICAgICAgICAgICAgc3RhY2suYXBwZW5kKGN1cnJfZWRnZS50YWlsKQoKICAgICAgICByZXR1cm4gKGFsaWduZWRfZnJhZ21lbnRzLCB1bmFsaWduZWRfZnJhZ21lbnRzKQ==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmb3IgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsb2dnZQo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIG51bV9zZWxmX2N5Y2xlID0gMAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmb3IgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaGFzX3dyb25nX2FsaWduID0gVHJ1ZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>edge_alignment</last-search>
+      <last-search>neg_polarity</last-search>
       <last-offset />
-      <last-pattern>edge_alignment</last-pattern>
+      <last-pattern>neg_polarity</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -732,7 +749,6 @@
         <entry>NEGATION</entry>
         <entry>ne</entry>
         <entry>nega</entry>
-        <entry>neg_polarity</entry>
         <entry>neg_prefix</entry>
         <entry>plural_suffix</entry>
         <entry>lmtzr</entry>
@@ -746,6 +762,9 @@
         <entry>edge_align</entry>
         <entry>recall_unaligned</entry>
         <entry>edge_alignment</entry>
+        <entry>recall_un</entry>
+        <entry>NegPolarity</entry>
+        <entry>neg_polarity</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
