@@ -202,12 +202,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515608612141">
-        <mark key="'" line="256" column="91" />
-        <mark key="[" line="226" column="50" />
-        <mark key="]" line="227" column="3" />
-        <mark key="^" line="227" column="3" />
-        <mark key="." line="227" column="3" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515609891497">
+        <mark key="'" line="246" column="91" />
+        <mark key="[" line="116" column="29" />
+        <mark key="]" line="118" column="42" />
+        <mark key="^" line="118" column="42" />
+        <mark key="." line="118" column="42" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -410,12 +410,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515606732675">
-        <mark key="'" line="430" column="93" />
-        <mark key="[" line="77" column="0" />
-        <mark key="]" line="77" column="0" />
-        <mark key="^" line="455" column="47" />
-        <mark key="." line="77" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515609862507">
+        <mark key="'" line="424" column="58" />
+        <mark key="[" line="410" column="0" />
+        <mark key="]" line="410" column="0" />
+        <mark key="^" line="444" column="70" />
+        <mark key="." line="410" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -462,9 +462,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="464" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="877" column="8" filename="$USER_HOME$/data_processing/categorize_amr.py" />
-      <jump line="339" column="4" filename="$USER_HOME$/data_processing/categorize_amr.py" />
       <jump line="665" column="45" filename="$USER_HOME$/data_processing/categorize_amr.py" />
       <jump line="426" column="54" filename="$USER_HOME$/data_processing/categorize_amr.py" />
       <jump line="483" column="42" filename="$USER_HOME$/data_processing/categorize_amr.py" />
@@ -562,16 +559,19 @@
       <jump line="292" column="57" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="263" column="80" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="256" column="91" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="409" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="117" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="424" column="58" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>edges</text>
       </register>
       <register name="-" type="4">
-        <text>_graph</text>
+        <text>edges</text>
       </register>
       <register name="/" type="4">
-        <text>temp_unaligned</text>
+        <text>sent_index</text>
       </register>
       <register name="0" type="4">
         <text>aligned_set = set()
@@ -619,38 +619,44 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZW5kID0gc3RhcnQgKyAxCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgI3JldHVybiAob3BfdG9rcywgcm9sZV90b2tzLCBuZXdfbm9kZV90b19zcGFuLCBuZXdfZWRnZV90b19zcGFuLCBhbGlnbmVkX3NldCkK</text>
       </register>
-      <register name="4" type="4">
-        <text>else:
-            edge_to_span[index].append((start, end, None))
-            relation_align_map[start].append(amr_graph.edges[index].label)</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICNFeHRyYWN0IG9wcyBmb3IgZW50aXRpZXMK</text>
+      <register name="6" type="4">
+        <text>#Extract ops for entities
+            if len(curr_node.p_edges) == 1:
+                par_edge = amr_graph.edges[curr_node.p_edges[0]]
+                if 'op' == par_edge.label[:2]:
+                    op_toks.append((start, curr_node.c_edge))
+
+            if curr_node.is_named_entity():
+                role_toks.append((start, curr_node.c_edge))</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbmNlcHRfYWxpZ25fbWFwW3N0YXJ0XS5hcHBlbmQoY3Vycl9ub2RlLm5vZGVfc3RyKCkpCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG5vZGVfdG9fc3BhbltpbmRleF0uYXBwZW5kKChzdGFydCwgZW5kLCBOb25lKSkK</text>
+      <register name="8" type="4">
+        <text>op_toks = []
+    role_toks = []</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY3Vycl9mcmFnID0gCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>temp_unaligned</last-search>
+      <last-search>sent_index</last-search>
       <last-offset />
-      <last-pattern>temp_unaligned</last-pattern>
-      <last-replace>data_num</last-replace>
-      <last-substitute>train_num</last-substitute>
+      <last-pattern>sent_index</last-pattern>
+      <last-replace>sent_idx</last-replace>
+      <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
@@ -804,6 +810,7 @@
         <entry>align_seq</entry>
         <entry>amr_graph</entry>
         <entry>temp_unaligned</entry>
+        <entry>sent_index</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
@@ -831,6 +838,7 @@
         <entry>499</entry>
         <entry>501</entry>
         <entry>1</entry>
+        <entry>%s/sent_index/sent_idx/g</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
