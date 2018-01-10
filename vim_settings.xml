@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515611276358">
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515612888954">
         <mark key="'" line="126" column="27" />
-        <mark key="[" line="389" column="0" />
-        <mark key="]" line="389" column="0" />
-        <mark key="^" line="386" column="35" />
-        <mark key="." line="389" column="0" />
+        <mark key="[" line="128" column="0" />
+        <mark key="]" line="128" column="1" />
+        <mark key="^" line="128" column="1" />
+        <mark key="." line="128" column="1" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -399,8 +399,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515610783127">
-        <mark key="'" line="429" column="70" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515612931633">
+        <mark key="'" line="442" column="49" />
         <mark key="[" line="424" column="0" />
         <mark key="]" line="424" column="0" />
         <mark key="^" line="507" column="49" />
@@ -445,7 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="716" column="48" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="86" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="893" column="59" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="90" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
@@ -545,6 +544,7 @@
       <jump line="1136" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="507" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="429" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="442" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -554,7 +554,7 @@
         <text>edge</text>
       </register>
       <register name="/" type="4">
-        <text>edge_alignment</text>
+        <text>node_set</text>
       </register>
       <register name="0" type="4">
         <text>aligned_set = set()
@@ -630,9 +630,9 @@
       </register>
     </registers>
     <search>
-      <last-search>edge_alignment</last-search>
+      <last-search>node_set</last-search>
       <last-offset />
-      <last-pattern>edge_alignment</last-pattern>
+      <last-pattern>node_set</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
@@ -790,6 +790,8 @@
         <entry>sent_index</entry>
         <entry>node_idx</entry>
         <entry>edge_alignment</entry>
+        <entry>node_set()</entry>
+        <entry>node_set</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
