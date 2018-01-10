@@ -440,8 +440,12 @@
         <mark key="[" line="3" column="0" />
         <mark key="]" line="29" column="24" />
       </file>
-      <file name="$USER_HOME$/data_processing/Aligner.py" timestamp="1515562157939">
-        <mark key="'" line="393" column="34" />
+      <file name="$USER_HOME$/data_processing/Aligner.py" timestamp="1515604520496">
+        <mark key="'" line="923" column="8" />
+        <mark key="[" line="813" column="127" />
+        <mark key="]" line="813" column="127" />
+        <mark key="^" line="7" column="0" />
+        <mark key="." line="813" column="127" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1513623255940">
         <mark key="'" line="10" column="0" />
@@ -458,8 +462,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="101" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="145" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="147" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="437" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="444" column="57" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -558,16 +560,18 @@
       <jump line="373" column="52" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="86" column="4" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="393" column="34" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="90" column="4" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="923" column="8" filename="$USER_HOME$/data_processing/Aligner.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>ence</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>ence</text>
       </register>
       <register name="/" type="4">
-        <text>neg_polarity</text>
+        <text>is_spec_form</text>
       </register>
       <register name="0" type="4">
         <text>edge_alignment = bitarray(len(amr.edges))
@@ -611,9 +615,9 @@
       </register>
     </registers>
     <search>
-      <last-search>neg_polarity</last-search>
+      <last-search>is_spec_form</last-search>
       <last-offset />
-      <last-pattern>neg_polarity</last-pattern>
+      <last-pattern>is_spec_form</last-pattern>
       <last-replace>data_num</last-replace>
       <last-substitute>train_num</last-substitute>
       <last-dir>1</last-dir>
@@ -765,6 +769,8 @@
         <entry>recall_un</entry>
         <entry>NegPolarity</entry>
         <entry>neg_polarity</entry>
+        <entry>special_morph</entry>
+        <entry>is_spec_form</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
