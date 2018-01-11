@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515657144258">
-        <mark key="'" line="384" column="37" />
-        <mark key="[" line="464" column="36" />
-        <mark key="]" line="463" column="27" />
-        <mark key="." line="463" column="27" />
-        <mark key="^" line="463" column="27" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515657628977">
+        <mark key="'" line="471" column="45" />
+        <mark key="[" line="480" column="61" />
+        <mark key="]" line="480" column="61" />
+        <mark key="." line="480" column="61" />
+        <mark key="^" line="480" column="61" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -399,10 +399,10 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515651140702">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515657441689">
         <mark key="'" line="430" column="72" />
-        <mark key="[" line="474" column="0" />
-        <mark key="]" line="474" column="0" />
+        <mark key="[" line="479" column="28" />
+        <mark key="]" line="486" column="46" />
         <mark key="^" line="457" column="65" />
         <mark key="." line="474" column="0" />
       </file>
@@ -445,8 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="300" column="59" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="92" column="42" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="234" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="228" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="226" column="18" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -545,51 +543,59 @@
       <jump line="75" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="492" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="384" column="37" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="471" column="45" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="14" column="0" filename="$USER_HOME$/data_processing/date_extraction.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>v</text>
+        <text>lemma_seq</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>lemma_seq</text>
       </register>
       <register name="/" type="4">
         <text>thing</text>
       </register>
       <register name="0" type="4">
-        <text>aligned_nodes.add(node_idx)
-                    aligned_nodes.add(parent_idx)</text>
+        <text>template = []
+                            for k in xrange(start, end):
+                                if not isNumber(lemma_seq[k]):
+                                    template.append(lemma_seq[k])
+                                else:
+                                    template.append(&quot;NUM&quot;)
+                            quantity_times[' '.join(template)] += 1
+                            category = &quot;NUMBER&quot;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHF1YW50aXR5X3RpbWVzWycgJy5qb2luKHRlbXBsYXRlKV0gKz0gMQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhbGlnbmVkX3Rva3MgfD0gc2V0KHJhbmdlKHN0YXJ0LCBlbmQpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcGhyYXNlX3JlcHIgPSAiQCIK</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhbGlnbmVkX3Rva3MgfD0gc2V0KHJhbmdlKHN0YXJ0LCBlbmQpKQo=</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text>if curr_node.p_edges:
                         parent_idx = amr.edges[]</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cgo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
