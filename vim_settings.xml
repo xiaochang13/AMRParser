@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515638459050">
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515638937089">
         <mark key="'" line="218" column="17" />
-        <mark key="[" line="392" column="55" />
-        <mark key="]" line="393" column="9" />
-        <mark key="^" line="393" column="9" />
-        <mark key="." line="393" column="9" />
+        <mark key="[" line="391" column="77" />
+        <mark key="]" line="391" column="90" />
+        <mark key="^" line="391" column="90" />
+        <mark key="." line="391" column="90" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -548,10 +548,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>()</text>
+        <text>node_alignment</text>
       </register>
       <register name="-" type="4">
-        <text>()</text>
+        <text>node_alignment</text>
       </register>
       <register name="/" type="4">
         <text>node_set</text>
