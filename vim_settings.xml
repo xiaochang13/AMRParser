@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515708807763">
-        <mark key="'" line="479" column="21" />
-        <mark key="[" line="479" column="93" />
-        <mark key="]" line="480" column="19" />
-        <mark key="^" line="480" column="19" />
-        <mark key="." line="480" column="19" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515710392075">
+        <mark key="'" line="479" column="69" />
+        <mark key="[" line="482" column="35" />
+        <mark key="]" line="482" column="35" />
+        <mark key="^" line="481" column="54" />
+        <mark key="." line="482" column="35" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -445,7 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="448" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1043" column="38" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1189" column="37" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="64" column="8" filename="$USER_HOME$/data_processing/amr_fragment.py" />
@@ -543,15 +542,16 @@
       <jump line="523" column="27" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="475" column="29" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="84" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="479" column="21" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="426" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="479" column="69" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="80" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICByZXQgPSAtMQo=</text>
+      <register name="&quot;" type="4">
+        <text>pare</text>
       </register>
       <register name="-" type="4">
-        <text>has</text>
+        <text>pare</text>
       </register>
       <register name="/" type="4">
         <text>aligned_nodes</text>
