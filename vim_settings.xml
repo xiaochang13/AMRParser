@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515612888954">
-        <mark key="'" line="126" column="27" />
-        <mark key="[" line="128" column="0" />
-        <mark key="]" line="128" column="1" />
-        <mark key="^" line="128" column="1" />
-        <mark key="." line="128" column="1" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515638459050">
+        <mark key="'" line="218" column="17" />
+        <mark key="[" line="392" column="55" />
+        <mark key="]" line="393" column="9" />
+        <mark key="^" line="393" column="9" />
+        <mark key="." line="393" column="9" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -399,8 +399,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515614346401">
-        <mark key="'" line="442" column="49" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515637663334">
+        <mark key="'" line="457" column="43" />
         <mark key="[" line="407" column="0" />
         <mark key="]" line="407" column="0" />
         <mark key="^" line="507" column="49" />
@@ -445,9 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="893" column="59" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="90" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="39" column="8" filename="/Library/Python/2.7/site-packages/nltk/stem/wordnet.py" />
       <jump line="119" column="12" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="35" column="8" filename="/Library/Python/2.7/site-packages/nltk/stem/wordnet.py" />
       <jump line="144" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
@@ -524,7 +521,6 @@
       <jump line="1189" column="37" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="64" column="8" filename="$USER_HOME$/data_processing/amr_fragment.py" />
       <jump line="262" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="218" column="38" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="268" column="43" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="314" column="47" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="334" column="47" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -545,52 +541,24 @@
       <jump line="429" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="442" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="79" column="61" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
+      <jump line="457" column="43" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="65" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="187" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="218" column="17" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>()</text>
       </register>
       <register name="-" type="4">
-        <text>edge</text>
+        <text>()</text>
       </register>
       <register name="/" type="4">
         <text>node_set</text>
       </register>
       <register name="0" type="4">
-        <text>aligned_set = set()
-
-    node_to_span = defaultdict(list)
-    edge_to_span = defaultdict(list)
-
-    op_toks = []
-    role_toks = []
-    for curr_align in reversed(alignments):
-        curr_tok = curr_align.split('-')[0]
-        curr_frag = curr_align.split('-')[1]
-
-        start = int(curr_tok)
-        end = start + 1
-
-        aligned_set.add(start)
-
-        (index_type, index) = amr_graph.get_concept_relation(curr_frag)
-        if index_type == 'c':
-            node_to_span[index].append((start, end, None))
-            curr_node = amr_graph.nodes[index]
-            concept_align_map[start].append(curr_node.node_str())
-
-            #Extract ops for entities
-            if len(curr_node.p_edges) == 1:
-                par_edge = amr_graph.edges[curr_node.p_edges[0]]
-                if 'op' == par_edge.label[:2]:
-                    op_toks.append((start, curr_node.c_edge))
-
-            if curr_node.is_named_entity():
-                role_toks.append((start, curr_node.c_edge))
-
-        else:
-            edge_to_span[index].append((start, end, None))
-            relation_align_map[start].append(amr_graph.edges[index].label)</text>
+        <text>(tok_seq, amr, align_seq, nodeid_to_frag, entity_toks, aligned_toks, all_alignments,
+                  temp_unaligned, node_alignment):</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
