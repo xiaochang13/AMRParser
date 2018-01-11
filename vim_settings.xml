@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515650715031">
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515652395816">
         <mark key="'" line="403" column="4" />
-        <mark key="[" line="405" column="24" />
-        <mark key="]" line="406" column="25" />
-        <mark key="^" line="406" column="25" />
-        <mark key="." line="406" column="25" />
+        <mark key="[" line="407" column="21" />
+        <mark key="]" line="407" column="46" />
+        <mark key="^" line="407" column="46" />
+        <mark key="." line="407" column="46" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -399,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515649050756">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515651140702">
         <mark key="'" line="430" column="72" />
-        <mark key="[" line="467" column="20" />
-        <mark key="]" line="468" column="97" />
+        <mark key="[" line="474" column="0" />
+        <mark key="]" line="474" column="0" />
         <mark key="^" line="457" column="65" />
-        <mark key="." line="457" column="65" />
+        <mark key="." line="474" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -548,33 +548,44 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>{}</text>
       </register>
       <register name="/" type="4">
         <text>NUMBER</text>
       </register>
       <register name="0" type="4">
-        <text>if node_idx in aligned_nodes:
-            continue</text>
+        <text encoding="base64">aWYgbGVuKHNwYW5zKSA+IDE6CiAgICAgICAgICAgICAgICBsb2dnZXIud3JpdGVsbigiTXVsdGlwbGUgdG8gb25lIGFsaWdubWVudCBmb3IgY29uY2VwdDogJXMiICUgbm9kZV9yZXByKQogICAgICAgICAgICAgICAgZm9yIHN0YXJ0LCBlbmQgaW4gc3BhbnM6CiAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIiMjJWQtJWQ6ICVzIiAlIChzdGFydCwgZW5kLCAiICIuam9pbih0b2tfc2VxW3N0YXJ0OmVuZF0pKSk=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
+      <register name="2" type="4">
+        <text encoding="base64">aWYgbGVuKHNwYW5zKSA+IDE6CiAgICAgICAgICAgICAgICBsb2dnZXIud3JpdGVsbigiTXVsdGlwbGUgdG8gb25lIGFsaWdubWVudCBmb3IgY29uY2VwdDogJXMiICUgbm9kZV9yZXByKQogICAgICAgICAgICAgICAgZm9yIHN0YXJ0LCBlbmQgaW4gc3BhbnM6CiAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIiMjJWQtJWQ6ICVzIiAlIChzdGFydCwgZW5kLCAiICIuam9pbih0b2tfc2VxW3N0YXJ0OmVuZF0pKSk=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">aWYgZW5kIC1zdGFydCAtIGxlbihub2RlX3JlcHIuc3BsaXQoJy0nKSkgPiAxOgogICAgICAgICAgICAgICAgICAgICAgICBsb2dnZXIud3JpdGVsbigiV3JvbmcgYWxpZ25tZW50IGhlcmU6IikKICAgICAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIiVzICVzICVzIiAlICgnXycuam9pbih0b2tfc2VxW3N0YXJ0OmVuZF0pLCAiOiIsIG5vZGVfcmVwcikpCiAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFr</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="7" type="4">
         <text>&quot;&quot;&quot;
     Remove token spans that have already been aligned.
     &quot;&quot;&quot;</text>
       </register>
-      <register name="4" type="4">
+      <register name="8" type="4">
         <text>def removeAligned(mapped_toks, aligned_toks):
     &quot;&quot;&quot;
     Remove token spans that have already been aligned.
@@ -596,20 +607,8 @@
         spans.append((start_idx, end_idx))
     return spans</text>
       </register>
-      <register name="5" type="8">
+      <register name="9" type="8">
         <text encoding="base64">ICAgIAogICAg</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gVHJ1ZQo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIEZhbHNlCg==</text>
-      </register>
-      <register name="8" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICA=</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBhbGlnbmVkX25vZGVzLmFkZChub2RlX2lkeCkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
