@@ -203,11 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515641740380">
-        <mark key="'" line="218" column="17" />
-        <mark key="[" line="394" column="20" />
-        <mark key="]" line="396" column="0" />
-        <mark key="." line="396" column="0" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515643058891">
+        <mark key="'" line="395" column="16" />
+        <mark key="[" line="395" column="52" />
+        <mark key="]" line="395" column="65" />
+        <mark key="." line="395" column="65" />
+        <mark key="^" line="395" column="65" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -398,8 +399,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515641656269">
-        <mark key="'" line="430" column="33" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515643053726">
+        <mark key="'" line="457" column="40" />
         <mark key="[" line="457" column="0" />
         <mark key="]" line="457" column="0" />
         <mark key="^" line="457" column="13" />
@@ -444,7 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="35" column="8" filename="/Library/Python/2.7/site-packages/nltk/stem/wordnet.py" />
       <jump line="144" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="941" column="24" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="981" column="21" filename="$USER_HOME$/ConvParser/Aligner.py" />
@@ -538,12 +538,13 @@
       <jump line="429" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="442" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="79" column="61" filename="$USER_HOME$/AMRParser/CacheTransition/oracle.py" />
-      <jump line="457" column="43" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="65" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="187" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="218" column="17" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="430" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="345" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="457" column="40" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="395" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -553,7 +554,7 @@
         <text># spans = [(x,y) for (x, y,_) in node_to_span[node_index]]</text>
       </register>
       <register name="/" type="4">
-        <text>node_set</text>
+        <text>removeAligned</text>
       </register>
       <register name="0" type="4">
         <text>node_to_span[node_index]</text>
@@ -595,9 +596,9 @@
       </register>
     </registers>
     <search>
-      <last-search>node_set</last-search>
+      <last-search>removeAligned</last-search>
       <last-offset />
-      <last-pattern>node_set</last-pattern>
+      <last-pattern>removeAligned</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
@@ -652,7 +653,6 @@
         <entry>build_date_fragments</entry>
         <entry>removeRedundan</entry>
         <entry>removeDate</entry>
-        <entry>removeAligned</entry>
         <entry>extract_date</entry>
         <entry>extract_all</entry>
         <entry>return None</entry>
@@ -757,6 +757,7 @@
         <entry>edge_alignment</entry>
         <entry>node_set()</entry>
         <entry>node_set</entry>
+        <entry>removeAligned</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
