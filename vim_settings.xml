@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515648419693">
-        <mark key="'" line="405" column="16" />
-        <mark key="[" line="398" column="42" />
-        <mark key="]" line="414" column="57" />
-        <mark key="." line="414" column="57" />
-        <mark key="^" line="414" column="57" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515649058421">
+        <mark key="'" line="408" column="16" />
+        <mark key="[" line="415" column="34" />
+        <mark key="]" line="415" column="34" />
+        <mark key="^" line="416" column="19" />
+        <mark key="." line="415" column="34" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -399,9 +399,9 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515647821272">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515649050756">
         <mark key="'" line="430" column="72" />
-        <mark key="[" line="465" column="16" />
+        <mark key="[" line="467" column="20" />
         <mark key="]" line="468" column="97" />
         <mark key="^" line="457" column="65" />
         <mark key="." line="457" column="65" />
@@ -557,37 +557,38 @@
         <text>NUMBER</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">aWYgbGVuKGFsbF9zcGFucykgPiAxOgogICAgICAgICAgICAgICAgICAgIGxvZ2dlci53cml0ZWxuKCJNdWx0aXBsZSB0byBvbmUgYWxpZ25tZW50IGZvciBjb25jZXB0OiAlcyIgJSBub2RlX3JlcHIpCiAgICAgICAgICAgICAgICAgICAgZm9yIHN0YXJ0LCBlbmQgaW4gYWxsX3NwYW5zOgogICAgICAgICAgICAgICAgICAgICAgICBsb2dnZXIud3JpdGVsbigiIyMlZC0lZDogJXMiICUgKHN0YXJ0LCBlbmQsICIgIi5qb2luKHRva19zZXFbc3RhcnQ6ZW5kXSkpKQ==</text>
+        <text>for start, end in all_spans:
+                        logger.writeln(&quot;##%d-%d: %s&quot; % (start, end, &quot; &quot;.join(tok_seq[start:end])))</text>
       </register>
       <register name="1" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICA=</text>
+        <text encoding="base64">ICAgIAogICAg</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBhbGlnbmVkX25vZGVzLmFkZChub2RlX2lkeCkK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gVHJ1ZQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIEZhbHNlCg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZW5kX2lkeCA9IHRva19pZHggKyAxCg==</text>
+      <register name="4" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICA=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZW5kX2lkeCA9IHRva19pZHggKyAxCg==</text>
+        <text encoding="base64">ICAgICAgICBhbGlnbmVkX25vZGVzLmFkZChub2RlX2lkeCkK</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">aWYgbGVuKGFsaWduZWRfdG9rcyAmIGNvdmVyZWQpID4gMDoKICAgICAgICAgICAgY29udGludWU=</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBjb3ZlcmVkID0gc2V0KHhyYW5nZShzdGFydCwgZW5kKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZW5kX2lkeCA9IHRva19pZHggKyAxCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZW5kX2lkeCA9IHRva19pZHggKyAxCg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">aWYgbGVuKGFsaWduZWRfdG9rcyAmIGNvdmVyZWQpID4gMDoKICAgICAgICAgICAgY29udGludWU=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
