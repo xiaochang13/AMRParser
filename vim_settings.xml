@@ -399,8 +399,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515713005652">
-        <mark key="'" line="430" column="72" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515714375864">
+        <mark key="'" line="764" column="42" />
         <mark key="[" line="538" column="42" />
         <mark key="]" line="538" column="66" />
         <mark key="^" line="538" column="66" />
@@ -445,9 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="218" column="17" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="395" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="589" column="31" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="462" column="43" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="458" column="35" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="332" column="35" filename="$USER_HOME$/data_processing/Aligner.py" />
@@ -545,6 +542,9 @@
       <jump line="476" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="482" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="489" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="438" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="567" column="87" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="764" column="42" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -554,7 +554,7 @@
         <text>l</text>
       </register>
       <register name="/" type="4">
-        <text>all_alignments</text>
+        <text>phrases</text>
       </register>
       <register name="0" type="4">
         <text>template = []
@@ -601,9 +601,9 @@
       </register>
     </registers>
     <search>
-      <last-search>all_alignments</last-search>
+      <last-search>phrases</last-search>
       <last-offset />
-      <last-pattern>all_alignments</last-pattern>
+      <last-pattern>phrases</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
@@ -781,6 +781,7 @@
         <entry>aligned_toks</entry>
         <entry>tok2rels</entry>
         <entry>all_alignments</entry>
+        <entry>phrases</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
