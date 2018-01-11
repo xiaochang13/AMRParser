@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515644584040">
-        <mark key="'" line="175" column="12" />
-        <mark key="[" line="169" column="8" />
-        <mark key="]" line="169" column="9" />
-        <mark key="." line="169" column="9" />
-        <mark key="^" line="169" column="9" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515645467707">
+        <mark key="'" line="173" column="12" />
+        <mark key="[" line="346" column="21" />
+        <mark key="]" line="346" column="27" />
+        <mark key="." line="346" column="27" />
+        <mark key="^" line="346" column="27" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -399,8 +399,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515643053726">
-        <mark key="'" line="457" column="40" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515645902332">
+        <mark key="'" line="568" column="82" />
         <mark key="[" line="457" column="0" />
         <mark key="]" line="457" column="0" />
         <mark key="^" line="457" column="13" />
@@ -445,11 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="87" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="471" column="110" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="472" column="46" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="591" column="16" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="592" column="16" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="600" column="31" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="601" column="24" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="602" column="24" filename="$USER_HOME$/data_processing/Aligner.py" />
@@ -474,7 +469,6 @@
       <jump line="454" column="41" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="354" column="42" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="1099" column="20" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="563" column="57" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1233" column="31" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1642" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="296" column="29" filename="$USER_HOME$/data_processing/Aligner.py" />
@@ -533,7 +527,6 @@
       <jump line="65" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="187" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="218" column="17" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="430" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="345" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="457" column="40" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="395" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -545,63 +538,68 @@
       <jump line="55" column="25" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="396" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="175" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="537" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="468" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="346" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="340" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="430" column="72" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="563" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="568" column="82" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>span</text>
+        <text>idx</text>
       </register>
       <register name="-" type="4">
-        <text>span</text>
+        <text>idx</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxub2RlX3RvX3Rva3NcPg==</text>
+        <text>tok</text>
       </register>
       <register name="0" type="4">
         <text>node_to_span[node_index]</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdG9rX3JlcHIgPSAiICIuam9pbih0b2tfc2VxW3N0YXJ0OmVuZF0pCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIGVuZCA9IHN0YXJ0ICsgMQo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjIGVkZ2VfYWxpZ25tZW50ID0gYWxpZ25tZW50X3V0aWxzLmluaXRpYWxpemVBbGlnbm1lbnQoYW1yKQo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBjX2VkZ2VfaW5kZXggPSBjdXJyX25vZGUuY19lZGdlCg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="8" type="4">
-        <text>#Assume there is unaligned constant edge
-            # if edge_alignment[c_edge_index] == 0:
-            #     unaligned_nodes.append(curr_node)</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAjIGVkZ2VfYWxpZ25tZW50ID0gYWxpZ25tZW50X3V0aWxzLmluaXRpYWxpemVBbGlnbm1lbnQoYW1yKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YWlsX2VkZ2UgPSBhbXIubm9kZXNbdGFpbF0uY19lZGdlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBjX2VkZ2VfaW5kZXggPSBjdXJyX25vZGUuY19lZGdlCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxub2RlX3RvX3Rva3NcPg==</last-search>
+      <last-search>tok</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxub2RlX3RvX3Rva3NcPg==</last-pattern>
+      <last-pattern>tok</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
@@ -722,7 +720,6 @@
         <entry>entity_toks</entry>
         <entry>visitUnaligned</entry>
         <entry>unaligned_set</entry>
-        <entry>tok2rels</entry>
         <entry>output_ali</entry>
         <entry>all_alignments</entry>
         <entry>all_align</entry>
@@ -760,6 +757,8 @@
         <entry>removeAligned</entry>
         <entry>QuantityEntity</entry>
         <entry encoding="base64">XDxub2RlX3RvX3Rva3NcPg==</entry>
+        <entry>tok2rels</entry>
+        <entry>tok</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
