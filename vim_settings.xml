@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515649058421">
-        <mark key="'" line="408" column="16" />
-        <mark key="[" line="415" column="34" />
-        <mark key="]" line="415" column="34" />
-        <mark key="^" line="416" column="19" />
-        <mark key="." line="415" column="34" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515650715031">
+        <mark key="'" line="403" column="4" />
+        <mark key="[" line="405" column="24" />
+        <mark key="]" line="406" column="25" />
+        <mark key="^" line="406" column="25" />
+        <mark key="." line="406" column="25" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -445,8 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="565" column="77" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1014" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="954" column="4" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="559" column="52" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1129" column="15" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -539,56 +537,79 @@
       <jump line="540" column="53" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="412" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="430" column="72" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="55" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="391" column="27" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="74" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="400" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="70" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="64" column="31" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="408" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="55" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="402" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>all_</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>all_</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>NUMBER</text>
       </register>
       <register name="0" type="4">
-        <text>for start, end in all_spans:
-                        logger.writeln(&quot;##%d-%d: %s&quot; % (start, end, &quot; &quot;.join(tok_seq[start:end])))</text>
+        <text>if node_idx in aligned_nodes:
+            continue</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">ICAgIAogICAg</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gVHJ1ZQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIEZhbHNlCg==</text>
+      <register name="3" type="4">
+        <text>&quot;&quot;&quot;
+    Remove token spans that have already been aligned.
+    &quot;&quot;&quot;</text>
       </register>
-      <register name="4" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICA=</text>
+      <register name="4" type="4">
+        <text>def removeAligned(mapped_toks, aligned_toks):
+    &quot;&quot;&quot;
+    Remove token spans that have already been aligned.
+    &quot;&quot;&quot;
+    spans = []
+    start_idx = -1
+    end_idx = -1
+    for tok_idx in mapped_toks:
+        if tok_idx in aligned_toks:
+            continue
+        if end_idx == -1:
+            start_idx = tok_idx
+        elif tok_idx != end_idx:
+            spans.append((start_idx, end_idx))
+            start_idx = tok_idx
+        end_idx = tok_idx + 1
+
+    if end_idx != -1:
+        spans.append((start_idx, end_idx))
+    return spans</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBhbGlnbmVkX25vZGVzLmFkZChub2RlX2lkeCkK</text>
+      <register name="5" type="8">
+        <text encoding="base64">ICAgIAogICAg</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gVHJ1ZQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZW5kX2lkeCA9IHRva19pZHggKyAxCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIEZhbHNlCg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZW5kX2lkeCA9IHRva19pZHggKyAxCg==</text>
+      <register name="8" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICA=</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">aWYgbGVuKGFsaWduZWRfdG9rcyAmIGNvdmVyZWQpID4gMDoKICAgICAgICAgICAgY29udGludWU=</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBhbGlnbmVkX25vZGVzLmFkZChub2RlX2lkeCkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
