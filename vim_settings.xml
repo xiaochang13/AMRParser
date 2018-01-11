@@ -203,12 +203,11 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515638937089">
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515641740380">
         <mark key="'" line="218" column="17" />
-        <mark key="[" line="391" column="77" />
-        <mark key="]" line="391" column="90" />
-        <mark key="^" line="391" column="90" />
-        <mark key="." line="391" column="90" />
+        <mark key="[" line="394" column="20" />
+        <mark key="]" line="396" column="0" />
+        <mark key="." line="396" column="0" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -399,12 +398,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515637663334">
-        <mark key="'" line="457" column="43" />
-        <mark key="[" line="407" column="0" />
-        <mark key="]" line="407" column="0" />
-        <mark key="^" line="507" column="49" />
-        <mark key="." line="407" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515641656269">
+        <mark key="'" line="430" column="33" />
+        <mark key="[" line="457" column="0" />
+        <mark key="]" line="457" column="0" />
+        <mark key="^" line="457" column="13" />
+        <mark key="." line="457" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -445,7 +444,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="119" column="12" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="35" column="8" filename="/Library/Python/2.7/site-packages/nltk/stem/wordnet.py" />
       <jump line="144" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="941" column="24" filename="$USER_HOME$/ConvParser/Aligner.py" />
@@ -497,7 +495,6 @@
       <jump line="90" column="4" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="923" column="8" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="925" column="4" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="430" column="93" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="270" column="30" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="71" column="4" filename="$USER_HOME$/data_processing/re_utils.py" />
       <jump line="265" column="56" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -545,20 +542,21 @@
       <jump line="65" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="187" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="218" column="17" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="430" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="345" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>node_alignment</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>node_alignment</text>
+        <text># spans = [(x,y) for (x, y,_) in node_to_span[node_index]]</text>
       </register>
       <register name="/" type="4">
         <text>node_set</text>
       </register>
       <register name="0" type="4">
-        <text>(tok_seq, amr, align_seq, nodeid_to_frag, entity_toks, aligned_toks, all_alignments,
-                  temp_unaligned, node_alignment):</text>
+        <text>node_to_span[node_index]</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -567,31 +565,30 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjIGVkZ2VfYWxpZ25tZW50ID0gYWxpZ25tZW50X3V0aWxzLmluaXRpYWxpemVBbGlnbm1lbnQoYW1yKQo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBjX2VkZ2VfaW5kZXggPSBjdXJyX25vZGUuY19lZGdlCg==</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAjIGVkZ2VfYWxpZ25tZW50ID0gYWxpZ25tZW50X3V0aWxzLmluaXRpYWxpemVBbGlnbm1lbnQoYW1yKQo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgIyBjX2VkZ2VfaW5kZXggPSBjdXJyX25vZGUuY19lZGdlCg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="8" type="4">
         <text>#Assume there is unaligned constant edge
             # if edge_alignment[c_edge_index] == 0:
             #     unaligned_nodes.append(curr_node)</text>
       </register>
-      <register name="7" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YWlsX2VkZ2UgPSBhbXIubm9kZXNbdGFpbF0uY19lZGdlCg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWFkX2VkZ2UgPSBhbXIubm9kZXNbaGVhZF0uY19lZGdlCg==</text>
-      </register>
-      <register name="9" type="4">
-        <text>if edge_alignment.count() != 0:
-        edge_alignment ^= edge_alignment</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
