@@ -31,10 +31,10 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515610435012">
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515653590317">
         <mark key="'" line="1187" column="37" />
-        <mark key="[" line="1143" column="0" />
-        <mark key="]" line="1143" column="0" />
+        <mark key="[" line="77" column="8" />
+        <mark key="]" line="77" column="27" />
         <mark key="^" line="1145" column="47" />
         <mark key="." line="1143" column="0" />
       </file>
@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515652395816">
-        <mark key="'" line="403" column="4" />
-        <mark key="[" line="407" column="21" />
-        <mark key="]" line="407" column="46" />
-        <mark key="^" line="407" column="46" />
-        <mark key="." line="407" column="46" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515654169114">
+        <mark key="'" line="183" column="8" />
+        <mark key="[" line="425" column="32" />
+        <mark key="]" line="425" column="31" />
+        <mark key="." line="425" column="31" />
+        <mark key="^" line="425" column="31" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -429,10 +429,10 @@
         <mark key="[" line="3" column="0" />
         <mark key="]" line="29" column="24" />
       </file>
-      <file name="$USER_HOME$/data_processing/Aligner.py" timestamp="1515648185408">
-        <mark key="'" line="64" column="31" />
-        <mark key="[" line="813" column="127" />
-        <mark key="]" line="813" column="127" />
+      <file name="$USER_HOME$/data_processing/Aligner.py" timestamp="1515653309690">
+        <mark key="'" line="505" column="34" />
+        <mark key="[" line="927" column="4" />
+        <mark key="]" line="933" column="23" />
         <mark key="^" line="7" column="0" />
         <mark key="." line="813" column="127" />
       </file>
@@ -445,18 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="954" column="4" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="559" column="52" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1129" column="15" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="566" column="29" filename="$USER_HOME$/data_processing/fragment_forest.py" />
-      <jump line="627" column="8" filename="$USER_HOME$/data_processing/fragment_forest.py" />
-      <jump line="628" column="11" filename="$USER_HOME$/data_processing/fragment_forest.py" />
-      <jump line="629" column="30" filename="$USER_HOME$/data_processing/fragment_forest.py" />
-      <jump line="631" column="15" filename="$USER_HOME$/data_processing/fragment_forest.py" />
-      <jump line="454" column="41" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="354" column="42" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="1099" column="20" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="1233" column="31" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1642" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="296" column="29" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="127" column="26" filename="$USER_HOME$/data_processing/Aligner.py" />
@@ -464,7 +452,6 @@
       <jump line="370" column="35" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="373" column="52" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="86" column="4" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="393" column="34" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="90" column="4" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="923" column="8" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="925" column="4" filename="$USER_HOME$/data_processing/Aligner.py" />
@@ -545,79 +532,76 @@
       <jump line="408" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="55" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="402" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="118" column="16" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="898" column="0" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="900" column="61" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="19" column="34" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="87" column="7" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="902" column="36" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="176" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="183" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="927" column="8" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="89" column="4" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="393" column="68" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="505" column="34" filename="$USER_HOME$/data_processing/Aligner.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgc3RhcnQK</text>
       </register>
       <register name="-" type="4">
-        <text>{}</text>
+        <text>is_nega</text>
       </register>
       <register name="/" type="4">
-        <text>NUMBER</text>
+        <text>is_neg</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">aWYgbGVuKHNwYW5zKSA+IDE6CiAgICAgICAgICAgICAgICBsb2dnZXIud3JpdGVsbigiTXVsdGlwbGUgdG8gb25lIGFsaWdubWVudCBmb3IgY29uY2VwdDogJXMiICUgbm9kZV9yZXByKQogICAgICAgICAgICAgICAgZm9yIHN0YXJ0LCBlbmQgaW4gc3BhbnM6CiAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIiMjJWQtJWQ6ICVzIiAlIChzdGFydCwgZW5kLCAiICIuam9pbih0b2tfc2VxW3N0YXJ0OmVuZF0pKSk=</text>
+        <text>is_negative_polarity</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgc3RhcnQK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="4">
-        <text encoding="base64">aWYgbGVuKHNwYW5zKSA+IDE6CiAgICAgICAgICAgICAgICBsb2dnZXIud3JpdGVsbigiTXVsdGlwbGUgdG8gb25lIGFsaWdubWVudCBmb3IgY29uY2VwdDogJXMiICUgbm9kZV9yZXByKQogICAgICAgICAgICAgICAgZm9yIHN0YXJ0LCBlbmQgaW4gc3BhbnM6CiAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIiMjJWQtJWQ6ICVzIiAlIChzdGFydCwgZW5kLCAiICIuam9pbih0b2tfc2VxW3N0YXJ0OmVuZF0pKSk=</text>
+        <text>node_repr = curr_node.node_str()
+
+                if node_repr == &quot;-&quot;:
+                    for</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">aWYgZW5kIC1zdGFydCAtIGxlbihub2RlX3JlcHIuc3BsaXQoJy0nKSkgPiAxOgogICAgICAgICAgICAgICAgICAgICAgICBsb2dnZXIud3JpdGVsbigiV3JvbmcgYWxpZ25tZW50IGhlcmU6IikKICAgICAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIiVzICVzICVzIiAlICgnXycuam9pbih0b2tfc2VxW3N0YXJ0OmVuZF0pLCAiOiIsIG5vZGVfcmVwcikpCiAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFr</text>
+        <text encoding="base64">aWYgbGVuKHNwYW5zKSA+IDE6CiAgICAgICAgICAgICAgICBsb2dnZXIud3JpdGVsbigiTXVsdGlwbGUgdG8gb25lIGFsaWdubWVudCBmb3IgY29uY2VwdDogJXMiICUgbm9kZV9yZXByKQogICAgICAgICAgICAgICAgZm9yIHN0YXJ0LCBlbmQgaW4gc3BhbnM6CiAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIiMjJWQtJWQ6ICVzIiAlIChzdGFydCwgZW5kLCAiICIuam9pbih0b2tfc2VxW3N0YXJ0OmVuZF0pKSk=</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      </register>
+      <register name="6" type="4">
+        <text encoding="base64">aWYgZW5kIC1zdGFydCAtIGxlbihub2RlX3JlcHIuc3BsaXQoJy0nKSkgPiAxOgogICAgICAgICAgICAgICAgICAgICAgICBsb2dnZXIud3JpdGVsbigiV3JvbmcgYWxpZ25tZW50IGhlcmU6IikKICAgICAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIiVzICVzICVzIiAlICgnXycuam9pbih0b2tfc2VxW3N0YXJ0OmVuZF0pLCAiOiIsIG5vZGVfcmVwcikpCiAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFr</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="9" type="4">
         <text>&quot;&quot;&quot;
     Remove token spans that have already been aligned.
     &quot;&quot;&quot;</text>
-      </register>
-      <register name="8" type="4">
-        <text>def removeAligned(mapped_toks, aligned_toks):
-    &quot;&quot;&quot;
-    Remove token spans that have already been aligned.
-    &quot;&quot;&quot;
-    spans = []
-    start_idx = -1
-    end_idx = -1
-    for tok_idx in mapped_toks:
-        if tok_idx in aligned_toks:
-            continue
-        if end_idx == -1:
-            start_idx = tok_idx
-        elif tok_idx != end_idx:
-            spans.append((start_idx, end_idx))
-            start_idx = tok_idx
-        end_idx = tok_idx + 1
-
-    if end_idx != -1:
-        spans.append((start_idx, end_idx))
-    return spans</text>
-      </register>
-      <register name="9" type="8">
-        <text encoding="base64">ICAgIAogICAg</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>NUMBER</last-search>
+      <last-search>is_neg</last-search>
       <last-offset />
-      <last-pattern>NUMBER</last-pattern>
+      <last-pattern>is_neg</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
@@ -750,7 +734,6 @@
         <entry>NEGATION</entry>
         <entry>ne</entry>
         <entry>nega</entry>
-        <entry>neg_prefix</entry>
         <entry>plural_suffix</entry>
         <entry>lmtzr</entry>
         <entry>neg_pre</entry>
@@ -766,7 +749,6 @@
         <entry>neg_polarity</entry>
         <entry>special_morph</entry>
         <entry>is_spec_form</entry>
-        <entry>is_neg_form</entry>
         <entry>align_seq</entry>
         <entry>amr_graph</entry>
         <entry>temp_unaligned</entry>
@@ -781,6 +763,13 @@
         <entry>tok</entry>
         <entry>tok2rels</entry>
         <entry>NUMBER</entry>
+        <entry>is_neg_form</entry>
+        <entry>is_nega</entry>
+        <entry>neg_prefix</entry>
+        <entry>fuzzy_equal</entry>
+        <entry>fuzzy_match</entry>
+        <entry>fuzzy_max_len</entry>
+        <entry>is_neg</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
@@ -807,8 +796,8 @@
         <entry>556</entry>
         <entry>499</entry>
         <entry>501</entry>
-        <entry>1</entry>
         <entry>%s/sent_index/sent_idx/g</entry>
+        <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
