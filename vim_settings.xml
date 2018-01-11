@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515643058891">
-        <mark key="'" line="395" column="16" />
-        <mark key="[" line="395" column="52" />
-        <mark key="]" line="395" column="65" />
-        <mark key="." line="395" column="65" />
-        <mark key="^" line="395" column="65" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515644584040">
+        <mark key="'" line="175" column="12" />
+        <mark key="[" line="169" column="8" />
+        <mark key="]" line="169" column="9" />
+        <mark key="." line="169" column="9" />
+        <mark key="^" line="169" column="9" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -429,8 +429,8 @@
         <mark key="[" line="3" column="0" />
         <mark key="]" line="29" column="24" />
       </file>
-      <file name="$USER_HOME$/data_processing/Aligner.py" timestamp="1515606108438">
-        <mark key="'" line="925" column="4" />
+      <file name="$USER_HOME$/data_processing/Aligner.py" timestamp="1515644159646">
+        <mark key="'" line="55" column="25" />
         <mark key="[" line="813" column="127" />
         <mark key="]" line="813" column="127" />
         <mark key="^" line="7" column="0" />
@@ -445,14 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="144" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="941" column="24" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="981" column="21" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="134" column="0" filename="$USER_HOME$/ConvParser/common/util.py" />
-      <jump line="296" column="59" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="589" column="22" filename="$USER_HOME$/ConvParser/common/AMRGraph.py" />
-      <jump line="405" column="8" filename="$USER_HOME$/ConvParser/Aligner.py" />
-      <jump line="900" column="61" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="87" column="4" filename="$USER_HOME$/ConvParser/Aligner.py" />
       <jump line="471" column="110" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="472" column="46" filename="$USER_HOME$/data_processing/Aligner.py" />
@@ -545,16 +537,24 @@
       <jump line="345" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="457" column="40" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="395" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="589" column="31" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="462" column="43" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="458" column="35" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="332" column="35" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="121" column="26" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="55" column="25" filename="$USER_HOME$/data_processing/Aligner.py" />
+      <jump line="396" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="175" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>span</text>
       </register>
       <register name="-" type="4">
-        <text># spans = [(x,y) for (x, y,_) in node_to_span[node_index]]</text>
+        <text>span</text>
       </register>
       <register name="/" type="4">
-        <text>removeAligned</text>
+        <text encoding="base64">XDxub2RlX3RvX3Rva3NcPg==</text>
       </register>
       <register name="0" type="4">
         <text>node_to_span[node_index]</text>
@@ -596,12 +596,12 @@
       </register>
     </registers>
     <search>
-      <last-search>removeAligned</last-search>
+      <last-search encoding="base64">XDxub2RlX3RvX3Rva3NcPg==</last-search>
       <last-offset />
-      <last-pattern>removeAligned</last-pattern>
+      <last-pattern encoding="base64">XDxub2RlX3RvX3Rva3NcPg==</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
@@ -758,6 +758,8 @@
         <entry>node_set()</entry>
         <entry>node_set</entry>
         <entry>removeAligned</entry>
+        <entry>QuantityEntity</entry>
+        <entry encoding="base64">XDxub2RlX3RvX3Rva3NcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
