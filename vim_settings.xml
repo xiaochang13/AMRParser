@@ -203,12 +203,11 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515713511420">
-        <mark key="'" line="490" column="28" />
-        <mark key="[" line="475" column="106" />
-        <mark key="]" line="476" column="93" />
-        <mark key="^" line="476" column="93" />
-        <mark key="." line="476" column="93" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515718527567">
+        <mark key="'" line="534" column="20" />
+        <mark key="[" line="403" column="0" />
+        <mark key="]" line="403" column="0" />
+        <mark key="." line="403" column="0" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -445,7 +444,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="462" column="43" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="458" column="35" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="332" column="35" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="121" column="26" filename="$USER_HOME$/data_processing/Aligner.py" />
@@ -545,10 +543,11 @@
       <jump line="438" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="567" column="87" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="764" column="42" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="534" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>l</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGVuZF9pZHggPSB0b2tfaWR4ICsgMQo=</text>
       </register>
       <register name="-" type="4">
         <text>l</text>
@@ -567,25 +566,25 @@
                             category = &quot;NUMBER&quot;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGVuZF9pZHggPSB0b2tfaWR4ICsgMQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByZXQgPSAtMQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGFsaWduZWRfdG9rcyB8PSBzZXQocmFuZ2Uoc3RhcnQsIGVuZCkpCg==</text>
+        <text encoding="base64">ICAgICAgICByZXQgPSAtMQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGFsaWduZWRfdG9rcyB8PSBzZXQocmFuZ2Uoc3RhcnQsIGVuZCkpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4K</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
