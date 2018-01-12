@@ -203,11 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515718527567">
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515719735050">
         <mark key="'" line="534" column="20" />
-        <mark key="[" line="403" column="0" />
-        <mark key="]" line="403" column="0" />
-        <mark key="." line="403" column="0" />
+        <mark key="[" line="398" column="41" />
+        <mark key="]" line="398" column="41" />
+        <mark key="." line="398" column="41" />
+        <mark key="^" line="398" column="41" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -444,7 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="458" column="35" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="332" column="35" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="121" column="26" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="55" column="25" filename="$USER_HOME$/data_processing/Aligner.py" />
@@ -508,7 +508,6 @@
       <jump line="523" column="27" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="475" column="29" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="84" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="426" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="479" column="69" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="80" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="510" column="43" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -516,7 +515,6 @@
       <jump line="1158" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="520" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="392" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="404" column="25" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="409" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="532" column="32" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="394" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -543,27 +541,23 @@
       <jump line="438" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="567" column="87" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="764" column="42" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="404" column="19" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="426" column="19" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="398" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="534" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGVuZF9pZHggPSB0b2tfaWR4ICsgMQo=</text>
+      <register name="&quot;" type="4">
+        <text>()</text>
       </register>
       <register name="-" type="4">
-        <text>l</text>
+        <text>()</text>
       </register>
       <register name="/" type="4">
-        <text>phrases</text>
+        <text>sort(</text>
       </register>
       <register name="0" type="4">
-        <text>template = []
-                            for k in xrange(start, end):
-                                if not isNumber(lemma_seq[k]):
-                                    template.append(lemma_seq[k])
-                                else:
-                                    template.append(&quot;NUM&quot;)
-                            quantity_times[' '.join(template)] += 1
-                            category = &quot;NUMBER&quot;</text>
+        <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGVuZF9pZHggPSB0b2tfaWR4ICsgMQo=</text>
@@ -600,9 +594,9 @@
       </register>
     </registers>
     <search>
-      <last-search>phrases</last-search>
+      <last-search>sort(</last-search>
       <last-offset />
-      <last-pattern>phrases</last-pattern>
+      <last-pattern>sort(</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
@@ -776,11 +770,12 @@
         <entry>wiki_l</entry>
         <entry>node_str</entry>
         <entry>valid</entry>
-        <entry>removeAligned</entry>
         <entry>aligned_toks</entry>
         <entry>tok2rels</entry>
         <entry>all_alignments</entry>
         <entry>phrases</entry>
+        <entry>removeAligned</entry>
+        <entry>sort(</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
