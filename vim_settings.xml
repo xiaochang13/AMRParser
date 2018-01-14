@@ -31,12 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515945583215">
-        <mark key="'" line="869" column="47" />
-        <mark key="[" line="873" column="0" />
-        <mark key="]" line="873" column="0" />
-        <mark key="^" line="366" column="15" />
-        <mark key="." line="873" column="0" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515947082862">
+        <mark key="'" line="879" column="47" />
+        <mark key="[" line="850" column="8" />
+        <mark key="]" line="850" column="25" />
+        <mark key="^" line="850" column="25" />
+        <mark key="." line="850" column="25" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -547,8 +547,20 @@
       <jump line="370" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>:param amr:
+        :param all_alignments:
+        :param tok_seq:
+        :param lemma_seq:
+        :param pos_seq:
+        :param unaligned:
+        :param verb_map:
+        :param phrases:
+        :param nodeid_to_frag:
+        :param pred_freq_thre:
+        :param var_freq_thre:
+        :param use_pos:
+        :return:</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">ICAgIA==</text>
@@ -559,38 +571,50 @@
       <register name="0" type="4">
         <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>:param amr:
+        :param all_alignments:
+        :param tok_seq:
+        :param lemma_seq:
+        :param pos_seq:
+        :param unaligned:
+        :param verb_map:
+        :param phrases:
+        :param nodeid_to_frag:
+        :param pred_freq_thre:
+        :param var_freq_thre:
+        :param use_pos:
+        :return:</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="3" type="4">
-        <text encoding="base64">ZnJlcSA9IGFtci5nZXRGcmVxKGN1cnJfbm9kZV9pbmRleCkKICAgICAgICAgICAgICAgIHJldHJpZXZlZCA9IEZhbHNlCiAgICAgICAgICAgICAgICBpZiBmcmVxIGFuZCBmcmVxIDwgMTAwIG9yIGFtci5pc19wcmVkaWNhdGUoY3Vycl9ub2RlKToKCiAgICAgICAgICAgICAgICAgICAgZm9yIGluZGV4IGluIHVuYWxpZ25lZDoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgc2ltaWxhclRvayhjdXJyX3ZhciwgdG9rX3NlcVtpbmRleF0pIG9yIHNpbWlsYXJUb2soY3Vycl92YXIsIGxlbW1hX3NlcVtpbmRleF0pOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgJ3JldHJpZXZlZDogJXMsICVzJyAlIChjdXJyX3ZhciwgdG9rX3NlcVtpbmRleF0pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGxfYWxpZ25tZW50c1tjdXJyX25vZGVfaW5kZXhdLmFwcGVuZCgoaW5kZXgsIGluZGV4KzEsIE5vbmUpKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4Y2x1ZGVfcmVscywgY3VyX3N5bWJvbCA9IGFtci5jYXRlZ29yaXplSW5mbygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyX25vZGVfaW5kZXgsIHZlcmJfbWFwLCBwcmVkX2ZyZXFfdGhyZSwgdmFyX2ZyZXFfdGhyZSwgbm9kZWlkX3RvX2ZyYWcpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXRyaWV2ZWQgPSBUcnVlCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgIGlmIG5vdCByZXRyaWV2ZWQ6</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">ZnJlcSA9IGFtci5nZXRGcmVxKGN1cnJfbm9kZV9pbmRleCkKICAgICAgICAgICAgICAgIHJldHJpZXZlZCA9IEZhbHNlCiAgICAgICAgICAgICAgICBpZiBmcmVxIGFuZCBmcmVxIDwgMTAwIG9yIGFtci5pc19wcmVkaWNhdGUoY3Vycl9ub2RlKToKCiAgICAgICAgICAgICAgICAgICAgZm9yIGluZGV4IGluIHVuYWxpZ25lZDoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgc2ltaWxhclRvayhjdXJyX3ZhciwgdG9rX3NlcVtpbmRleF0pIG9yIHNpbWlsYXJUb2soY3Vycl92YXIsIGxlbW1hX3NlcVtpbmRleF0pOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgJ3JldHJpZXZlZDogJXMsICVzJyAlIChjdXJyX3ZhciwgdG9rX3NlcVtpbmRleF0pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGxfYWxpZ25tZW50c1tjdXJyX25vZGVfaW5kZXhdLmFwcGVuZCgoaW5kZXgsIGluZGV4KzEsIE5vbmUpKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4Y2x1ZGVfcmVscywgY3VyX3N5bWJvbCA9IGFtci5jYXRlZ29yaXplSW5mbygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyX25vZGVfaW5kZXgsIHZlcmJfbWFwLCBwcmVkX2ZyZXFfdGhyZSwgdmFyX2ZyZXFfdGhyZSwgbm9kZWlkX3RvX2ZyYWcpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXRyaWV2ZWQgPSBUcnVlCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgIGlmIG5vdCByZXRyaWV2ZWQ6</text>
+      </register>
       <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>def isNum(s):
             regex = re.compile('[0-9]+([^0-9\s]*)')
             match = regex.match(s)
             return match and len(match.group(1)) == 0</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">ZGVmIHNpbWlsYXJUb2soY3Vycl92YXIsIHRvayk6CiAgICAgICAgICAgIGlmIGN1cnJfdmFyID09IHRvazoKICAgICAgICAgICAgICAgIHJldHVybiBUcnVlCiAgICAgICAgICAgIHZhcl9sZW4gPSBsZW4oY3Vycl92YXIpCiAgICAgICAgICAgIHRva19sZW4gPSBsZW4odG9rKQogICAgICAgICAgICBpZiB2YXJfbGVuID4gMyBhbmQgdG9rX2xlbiA+IDMgYW5kIHRva1s6NF0gPT0gY3Vycl92YXJbOjRdOgogICAgICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICAgICAgaWYgaXNOdW0odG9rKSBhbmQgdG9rIGluIGN1cnJfdmFyOgogICAgICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICAgICAgaWYgaXNOdW0oY3Vycl92YXIpIGFuZCBjdXJyX3ZhciBpbiB0b2s6CiAgICAgICAgICAgICAgICByZXR1cm4gVHJ1ZQ==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
