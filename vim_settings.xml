@@ -31,12 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515908637927">
-        <mark key="'" line="895" column="29" />
-        <mark key="[" line="366" column="15" />
-        <mark key="]" line="366" column="15" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515945583215">
+        <mark key="'" line="869" column="47" />
+        <mark key="[" line="873" column="0" />
+        <mark key="]" line="873" column="0" />
         <mark key="^" line="366" column="15" />
-        <mark key="." line="366" column="15" />
+        <mark key="." line="873" column="0" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -445,8 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="55" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="402" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="118" column="16" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="898" column="0" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="900" column="61" filename="$USER_HOME$/data_processing/Aligner.py" />
@@ -545,13 +543,15 @@
       <jump line="1120" column="55" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="21" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="582" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="869" column="47" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="370" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>relations</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>relations</text>
+        <text encoding="base64">ICAgIA==</text>
       </register>
       <register name="/" type="4">
         <text>align_file</text>
@@ -566,29 +566,31 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">ZnJlcSA9IGFtci5nZXRGcmVxKGN1cnJfbm9kZV9pbmRleCkKICAgICAgICAgICAgICAgIHJldHJpZXZlZCA9IEZhbHNlCiAgICAgICAgICAgICAgICBpZiBmcmVxIGFuZCBmcmVxIDwgMTAwIG9yIGFtci5pc19wcmVkaWNhdGUoY3Vycl9ub2RlKToKCiAgICAgICAgICAgICAgICAgICAgZm9yIGluZGV4IGluIHVuYWxpZ25lZDoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgc2ltaWxhclRvayhjdXJyX3ZhciwgdG9rX3NlcVtpbmRleF0pIG9yIHNpbWlsYXJUb2soY3Vycl92YXIsIGxlbW1hX3NlcVtpbmRleF0pOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgJ3JldHJpZXZlZDogJXMsICVzJyAlIChjdXJyX3ZhciwgdG9rX3NlcVtpbmRleF0pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGxfYWxpZ25tZW50c1tjdXJyX25vZGVfaW5kZXhdLmFwcGVuZCgoaW5kZXgsIGluZGV4KzEsIE5vbmUpKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4Y2x1ZGVfcmVscywgY3VyX3N5bWJvbCA9IGFtci5jYXRlZ29yaXplSW5mbygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyX25vZGVfaW5kZXgsIHZlcmJfbWFwLCBwcmVkX2ZyZXFfdGhyZSwgdmFyX2ZyZXFfdGhyZSwgbm9kZWlkX3RvX2ZyYWcpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXRyaWV2ZWQgPSBUcnVlCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgIGlmIG5vdCByZXRyaWV2ZWQ6</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBjb250aW51ZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="4">
-        <text>#if has_wrong_align:
-        #    continue</text>
+        <text>def isNum(s):
+            regex = re.compile('[0-9]+([^0-9\s]*)')
+            match = regex.match(s)
+            return match and len(match.group(1)) == 0</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">IyBNYXliZSBmaXggdGhpcyB3aXRoIHRoZSBNTEUgYWxpZ25tZW50LgogICAgICAgICNmb3Igbm9kZV9pbmRleCBpbiBub2RlX3RvX3Rva3M6CiAgICAgICAgIyAgICBpZiBub2RlX2luZGV4IGluIGFsbF9hbGlnbm1lbnRzOgogICAgICAgICMgICAgICAgIGNvbnRpbnVlCgogICAgICAgICMgICAgYWxsX3NwYW5zID0gYWxpZ25tZW50X3V0aWxzLnJlbW92ZUFsaWduZWQobm9kZV90b190b2tzW25vZGVfaW5kZXhdLCBhbGlnbmVkX3Rva3MpCgogICAgICAgICMgICAgaWYgYWxsX3NwYW5zOgogICAgICAgICMgICAgICAgIGN1cnJfbm9kZSA9IGFtci5ub2Rlc1tub2RlX2luZGV4XQogICAgICAgICMgICAgICAgIG5vZGVfcmVwciA9IGN1cnJfbm9kZS5ub2RlX3N0cigpCiAgICAgICAgIyAgICAgICAgIyBjdXJyX2VkZ2VfaWR4ID0gY3Vycl9ub2RlLmNfZWRnZQogICAgICAgICMgICAgICAgIG5vZGVfYWxpZ25tZW50W25vZGVfaW5kZXhdID0gMQoKICAgICAgICAjICAgICAgICBpZiBsZW4oYWxsX3NwYW5zKSA+IDE6CiAgICAgICAgIyAgICAgICAgICAgIGxvZ2dlci53cml0ZWxuKCJNdWx0aXBsZSB0byBvbmUgYWxpZ25tZW50IGZvciBjb25jZXB0OiAlcyIgJSBub2RlX3JlcHIpCiAgICAgICAgIyAgICAgICAgICAgIGZvciBzdGFydCwgZW5kIGluIGFsbF9zcGFuczoKICAgICAgICAjICAgICAgICAgICAgICAgIGxvZ2dlci53cml0ZWxuKCIjIyVkLSVkOiAlcyIgJSAoc3RhcnQsIGVuZCwgIiAiLmpvaW4odG9rX3NlcVtzdGFydDplbmRdKSkpCgogICAgICAgICMgICAgICAgIGZvciBzdGFydCwgZW5kIGluIGFsbF9zcGFuczoKCiAgICAgICAgIyAgICAgICAgICAgIGFsaWduZWRfdG9rcyB8PSBzZXQoeHJhbmdlKHN0YXJ0LCBlbmQpKQogICAgICAgICMgICAgICAgICAgICBjYXRlZ29yeSA9ICJUT0tFTiIKCiAgICAgICAgIyAgICAgICAgICAgIGlmIGVuZCAtIHN0YXJ0ID4gMToKICAgICAgICAjICAgICAgICAgICAgICAgIHBocmFzZV9yZXByID0gJ0AnLmpvaW4obGVtbWFfc2VxW3N0YXJ0OmVuZF0pCgogICAgICAgICMgICAgICAgICAgICAgICAgaWYgaXNOdW1iZXIobm9kZV9yZXByKToKICAgICAgICAjICAgICAgICAgICAgICAgICAgICB0ZW1wbGF0ZSA9IFtdCiAgICAgICAgIyAgICAgICAgICAgICAgICAgICAgZm9yIGsgaW4geHJhbmdlKHN0YXJ0LCBlbmQpOgogICAgICAgICMgICAgICAgICAgICAgICAgICAgICAgICBpZiBub3QgaXNOdW1iZXIobGVtbWFfc2VxW2tdKToKICAgICAgICAjICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRlbXBsYXRlLmFwcGVuZChsZW1tYV9zZXFba10pCiAgICAgICAgIyAgICAgICAgICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgIyAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZW1wbGF0ZS5hcHBlbmQoIk5VTSIpCiAgICAgICAgIyAgICAgICAgICAgICAgICAgICAgcXVhbnRpdHlfdGltZXNbJyAnLmpvaW4odGVtcGxhdGUpXSArPSAxCiAgICAgICAgIyAgICAgICAgICAgICAgICAgICAgY2F0ZWdvcnkgPSAiTlVNQkVSIgogICAgICAgICMgICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAjICAgICAgICAgICAgICAgICAgICBwaHJhc2VfdG9fY291bnRbcGhyYXNlX3JlcHJdICs9IDEKCiAgICAgICAgIyAgICAgICAgICAgICAgICAgICAgaWYgbm90IHBocmFzZV9yZXByIGluIHBocmFzZV90b19jb25jZXB0OgogICAgICAgICMgICAgICAgICAgICAgICAgICAgICAgICBwaHJhc2VfdG9fY29uY2VwdFtwaHJhc2VfcmVwcl0gPSBkZWZhdWx0ZGljdChpbnQpCiAgICAgICAgIyAgICAgICAgICAgICAgICAgICAgcGhyYXNlX3RvX2NvbmNlcHRbcGhyYXNlX3JlcHJdW25vZGVfcmVwcl0gKz0gMQogICAgICAgICMgICAgICAgICAgICAgICAgICAgIGNhdGVnb3J5ID0gIlBIUkFTRSIKICAgICAgICAjICAgICAgICAgICAgYWxsX2FsaWdubWVudHNbbm9kZV9pbmRleF0uYXBwZW5kKChzdGFydCwgZW5kLCAiTk9ORSIsIGNhdGVnb3J5KSk=</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGVuZF9pZHggPSB0b2tfaWR4ICsgMQo=</text>
+      <register name="9" type="4">
+        <text encoding="base64">ZGVmIHNpbWlsYXJUb2soY3Vycl92YXIsIHRvayk6CiAgICAgICAgICAgIGlmIGN1cnJfdmFyID09IHRvazoKICAgICAgICAgICAgICAgIHJldHVybiBUcnVlCiAgICAgICAgICAgIHZhcl9sZW4gPSBsZW4oY3Vycl92YXIpCiAgICAgICAgICAgIHRva19sZW4gPSBsZW4odG9rKQogICAgICAgICAgICBpZiB2YXJfbGVuID4gMyBhbmQgdG9rX2xlbiA+IDMgYW5kIHRva1s6NF0gPT0gY3Vycl92YXJbOjRdOgogICAgICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICAgICAgaWYgaXNOdW0odG9rKSBhbmQgdG9rIGluIGN1cnJfdmFyOgogICAgICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICAgICAgaWYgaXNOdW0oY3Vycl92YXIpIGFuZCBjdXJyX3ZhciBpbiB0b2s6CiAgICAgICAgICAgICAgICByZXR1cm4gVHJ1ZQ==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
