@@ -31,12 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515712249117">
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515906221801">
         <mark key="'" line="1150" column="52" />
-        <mark key="[" line="1150" column="15" />
-        <mark key="]" line="1150" column="50" />
-        <mark key="^" line="1150" column="50" />
-        <mark key="." line="1150" column="50" />
+        <mark key="[" line="366" column="15" />
+        <mark key="]" line="366" column="15" />
+        <mark key="^" line="366" column="15" />
+        <mark key="." line="366" column="15" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515721389526">
-        <mark key="'" line="501" column="28" />
-        <mark key="[" line="483" column="85" />
-        <mark key="]" line="483" column="90" />
-        <mark key="." line="483" column="90" />
-        <mark key="^" line="483" column="90" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1515906423383">
+        <mark key="'" line="405" column="0" />
+        <mark key="[" line="556" column="18" />
+        <mark key="]" line="384" column="35" />
+        <mark key="." line="384" column="35" />
+        <mark key="^" line="384" column="42" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -399,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515816047177">
-        <mark key="'" line="520" column="48" />
-        <mark key="[" line="518" column="0" />
-        <mark key="]" line="518" column="0" />
-        <mark key="^" line="538" column="66" />
-        <mark key="." line="518" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1515906410191">
+        <mark key="'" line="520" column="51" />
+        <mark key="[" line="454" column="43" />
+        <mark key="]" line="453" column="56" />
+        <mark key="^" line="453" column="56" />
+        <mark key="." line="453" column="56" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -445,12 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="340" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="563" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="568" column="82" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="393" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="58" column="6" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="457" column="65" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="539" column="26" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="540" column="53" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="412" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -543,15 +537,21 @@
       <jump line="477" column="99" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="483" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="501" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="520" column="48" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="841" column="15" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="460" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="520" column="51" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="550" column="67" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="364" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="552" column="29" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="366" column="15" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="405" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBjb250aW51ZQo=</text>
+      <register name="&quot;" type="4">
+        <text>ma</text>
       </register>
       <register name="-" type="4">
-        <text>()</text>
+        <text>ma</text>
       </register>
       <register name="/" type="4">
         <text>all_alignment</text>
