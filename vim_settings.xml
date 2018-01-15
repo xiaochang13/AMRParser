@@ -203,11 +203,11 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516049162151">
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516051241464">
         <mark key="'" line="365" column="44" />
-        <mark key="[" line="352" column="27" />
-        <mark key="]" line="352" column="28" />
-        <mark key="." line="352" column="28" />
+        <mark key="[" line="382" column="69" />
+        <mark key="]" line="382" column="81" />
+        <mark key="." line="382" column="81" />
         <mark key="^" line="382" column="81" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
@@ -548,10 +548,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>:</text>
+        <text>&quot;NONE&quot;</text>
       </register>
       <register name="-" type="4">
-        <text>:</text>
+        <text>&quot;NONE&quot;</text>
       </register>
       <register name="/" type="4">
         <text>subgraph_repr</text>
