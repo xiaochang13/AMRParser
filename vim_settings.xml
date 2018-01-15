@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516051241464">
-        <mark key="'" line="365" column="44" />
-        <mark key="[" line="382" column="69" />
-        <mark key="]" line="382" column="81" />
-        <mark key="." line="382" column="81" />
-        <mark key="^" line="382" column="81" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516052164560">
+        <mark key="'" line="523" column="12" />
+        <mark key="[" line="523" column="74" />
+        <mark key="]" line="523" column="78" />
+        <mark key="." line="523" column="78" />
+        <mark key="^" line="523" column="78" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -508,7 +508,6 @@
       <jump line="545" column="15" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="547" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="509" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="523" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="214" column="86" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="264" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="308" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -545,16 +544,17 @@
       <jump line="375" column="24" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="376" column="97" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="365" column="44" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="523" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>&quot;NONE&quot;</text>
+        <text>curr_category</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;NONE&quot;</text>
+        <text>curr_category</text>
       </register>
       <register name="/" type="4">
-        <text>subgraph_repr</text>
+        <text>curr_category</text>
       </register>
       <register name="0" type="4">
         <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
@@ -610,9 +610,9 @@
       </register>
     </registers>
     <search>
-      <last-search>subgraph_repr</last-search>
+      <last-search>curr_category</last-search>
       <last-offset />
-      <last-pattern>subgraph_repr</last-pattern>
+      <last-pattern>curr_category</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
@@ -802,6 +802,7 @@
         <entry>VERBAL</entry>
         <entry>MULT</entry>
         <entry>subgraph_repr</entry>
+        <entry>curr_category</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
