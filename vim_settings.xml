@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516056809151">
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516059345197">
         <mark key="'" line="496" column="28" />
-        <mark key="[" line="529" column="16" />
-        <mark key="]" line="529" column="19" />
-        <mark key="." line="529" column="19" />
-        <mark key="^" line="529" column="19" />
+        <mark key="[" line="519" column="0" />
+        <mark key="]" line="519" column="0" />
+        <mark key="^" line="528" column="15" />
+        <mark key="." line="519" column="0" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -548,7 +548,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlYWQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgY3Vycl9jYXRlZ29yeSA9IHBhcmVudF9jb25jZXB0Cg==</text>
       </register>
       <register name="-" type="4">
         <text>curr_category</text>
@@ -560,19 +560,34 @@
         <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlYWQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgY3Vycl9jYXRlZ29yeSA9IHBhcmVudF9jb25jZXB0Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIG11bHRpX21hcFtdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="3" type="4">
+        <text># if child_edges:
+                #     first_edge_idx, _ = child_edges[0]
+                #     curr_category += (&quot;-%s&quot; % amr.edges[first_edge_idx].label)</text>
+      </register>
+      <register name="4" type="4">
+        <text>else:
+                    all</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlYWQK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIG11bHRpX21hcFtdCg==</text>
+      </register>
+      <register name="7" type="4">
         <text>&quot;%s-%s&quot; % (parent_concept,
                                                                                                  parent_rel)</text>
       </register>
-      <register name="4" type="4">
+      <register name="8" type="4">
         <text>:param amr:
         :param all_alignments:
         :param tok_seq:
@@ -587,20 +602,8 @@
         :param use_pos:
         :return:</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">ZnJlcSA9IGFtci5nZXRGcmVxKGN1cnJfbm9kZV9pbmRleCkKICAgICAgICAgICAgICAgIHJldHJpZXZlZCA9IEZhbHNlCiAgICAgICAgICAgICAgICBpZiBmcmVxIGFuZCBmcmVxIDwgMTAwIG9yIGFtci5pc19wcmVkaWNhdGUoY3Vycl9ub2RlKToKCiAgICAgICAgICAgICAgICAgICAgZm9yIGluZGV4IGluIHVuYWxpZ25lZDoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgc2ltaWxhclRvayhjdXJyX3ZhciwgdG9rX3NlcVtpbmRleF0pIG9yIHNpbWlsYXJUb2soY3Vycl92YXIsIGxlbW1hX3NlcVtpbmRleF0pOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgJ3JldHJpZXZlZDogJXMsICVzJyAlIChjdXJyX3ZhciwgdG9rX3NlcVtpbmRleF0pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGxfYWxpZ25tZW50c1tjdXJyX25vZGVfaW5kZXhdLmFwcGVuZCgoaW5kZXgsIGluZGV4KzEsIE5vbmUpKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4Y2x1ZGVfcmVscywgY3VyX3N5bWJvbCA9IGFtci5jYXRlZ29yaXplSW5mbygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyX25vZGVfaW5kZXgsIHZlcmJfbWFwLCBwcmVkX2ZyZXFfdGhyZSwgdmFyX2ZyZXFfdGhyZSwgbm9kZWlkX3RvX2ZyYWcpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXRyaWV2ZWQgPSBUcnVlCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgIGlmIG5vdCByZXRyaWV2ZWQ6</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
