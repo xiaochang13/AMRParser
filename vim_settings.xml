@@ -31,8 +31,8 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1515947082862">
-        <mark key="'" line="879" column="47" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516052850504">
+        <mark key="'" line="1094" column="42" />
         <mark key="[" line="850" column="8" />
         <mark key="]" line="850" column="25" />
         <mark key="^" line="850" column="25" />
@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516052164560">
-        <mark key="'" line="523" column="12" />
-        <mark key="[" line="523" column="74" />
-        <mark key="]" line="523" column="78" />
-        <mark key="." line="523" column="78" />
-        <mark key="^" line="523" column="78" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516054643080">
+        <mark key="'" line="364" column="39" />
+        <mark key="[" line="386" column="28" />
+        <mark key="]" line="386" column="55" />
+        <mark key="." line="386" column="55" />
+        <mark key="^" line="386" column="55" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -445,19 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="87" column="7" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="902" column="36" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="176" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="183" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="927" column="8" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="89" column="4" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="393" column="68" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="505" column="34" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="435" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="444" column="58" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="386" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="274" column="24" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="242" column="31" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="904" column="19" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="69" column="25" filename="$USER_HOME$/data_processing/Aligner.py" />
@@ -471,7 +458,6 @@
       <jump line="75" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="471" column="45" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="443" column="7" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="492" column="39" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="160" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="521" column="34" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="475" column="29" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -545,28 +531,48 @@
       <jump line="376" column="97" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="365" column="44" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="523" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="465" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="161" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="177" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="182" column="26" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="339" column="38" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="340" column="22" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="342" column="23" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="386" column="23" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="492" column="57" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="524" column="45" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="525" column="75" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="363" column="39" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="1094" column="42" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1056" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>curr_category</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlYWQK</text>
       </register>
       <register name="-" type="4">
         <text>curr_category</text>
       </register>
       <register name="/" type="4">
-        <text>curr_category</text>
+        <text>MULT</text>
       </register>
       <register name="0" type="4">
         <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
       </register>
-      <register name="1" type="4">
-        <text>&quot;%s-%s&quot; % (parent_concept,
-                                                                                                 parent_rel)</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlYWQK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIG11bHRpX21hcFtdCg==</text>
+      </register>
+      <register name="3" type="4">
+        <text>&quot;%s-%s&quot; % (parent_concept,
+                                                                                                 parent_rel)</text>
+      </register>
+      <register name="4" type="4">
         <text>:param amr:
         :param all_alignments:
         :param tok_seq:
@@ -581,26 +587,17 @@
         :param use_pos:
         :return:</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">ZnJlcSA9IGFtci5nZXRGcmVxKGN1cnJfbm9kZV9pbmRleCkKICAgICAgICAgICAgICAgIHJldHJpZXZlZCA9IEZhbHNlCiAgICAgICAgICAgICAgICBpZiBmcmVxIGFuZCBmcmVxIDwgMTAwIG9yIGFtci5pc19wcmVkaWNhdGUoY3Vycl9ub2RlKToKCiAgICAgICAgICAgICAgICAgICAgZm9yIGluZGV4IGluIHVuYWxpZ25lZDoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgc2ltaWxhclRvayhjdXJyX3ZhciwgdG9rX3NlcVtpbmRleF0pIG9yIHNpbWlsYXJUb2soY3Vycl92YXIsIGxlbW1hX3NlcVtpbmRleF0pOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgJ3JldHJpZXZlZDogJXMsICVzJyAlIChjdXJyX3ZhciwgdG9rX3NlcVtpbmRleF0pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGxfYWxpZ25tZW50c1tjdXJyX25vZGVfaW5kZXhdLmFwcGVuZCgoaW5kZXgsIGluZGV4KzEsIE5vbmUpKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4Y2x1ZGVfcmVscywgY3VyX3N5bWJvbCA9IGFtci5jYXRlZ29yaXplSW5mbygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyX25vZGVfaW5kZXgsIHZlcmJfbWFwLCBwcmVkX2ZyZXFfdGhyZSwgdmFyX2ZyZXFfdGhyZSwgbm9kZWlkX3RvX2ZyYWcpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXRyaWV2ZWQgPSBUcnVlCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgIGlmIG5vdCByZXRyaWV2ZWQ6</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">ZnJlcSA9IGFtci5nZXRGcmVxKGN1cnJfbm9kZV9pbmRleCkKICAgICAgICAgICAgICAgIHJldHJpZXZlZCA9IEZhbHNlCiAgICAgICAgICAgICAgICBpZiBmcmVxIGFuZCBmcmVxIDwgMTAwIG9yIGFtci5pc19wcmVkaWNhdGUoY3Vycl9ub2RlKToKCiAgICAgICAgICAgICAgICAgICAgZm9yIGluZGV4IGluIHVuYWxpZ25lZDoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgc2ltaWxhclRvayhjdXJyX3ZhciwgdG9rX3NlcVtpbmRleF0pIG9yIHNpbWlsYXJUb2soY3Vycl92YXIsIGxlbW1hX3NlcVtpbmRleF0pOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgJ3JldHJpZXZlZDogJXMsICVzJyAlIChjdXJyX3ZhciwgdG9rX3NlcVtpbmRleF0pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGxfYWxpZ25tZW50c1tjdXJyX25vZGVfaW5kZXhdLmFwcGVuZCgoaW5kZXgsIGluZGV4KzEsIE5vbmUpKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4Y2x1ZGVfcmVscywgY3VyX3N5bWJvbCA9IGFtci5jYXRlZ29yaXplSW5mbygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyX25vZGVfaW5kZXgsIHZlcmJfbWFwLCBwcmVkX2ZyZXFfdGhyZSwgdmFyX2ZyZXFfdGhyZSwgbm9kZWlkX3RvX2ZyYWcpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXRyaWV2ZWQgPSBUcnVlCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgIGlmIG5vdCByZXRyaWV2ZWQ6</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="8" type="4">
-        <text>def isNum(s):
-            regex = re.compile('[0-9]+([^0-9\s]*)')
-            match = regex.match(s)
-            return match and len(match.group(1)) == 0</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
@@ -610,9 +607,9 @@
       </register>
     </registers>
     <search>
-      <last-search>curr_category</last-search>
+      <last-search>MULT</last-search>
       <last-offset />
-      <last-pattern>curr_category</last-pattern>
+      <last-pattern>MULT</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
@@ -781,7 +778,6 @@
         <entry>CAUSE</entry>
         <entry>cause</entry>
         <entry>thing</entry>
-        <entry>edge_to_toks</entry>
         <entry>aligned_nodes</entry>
         <entry>wiki_l</entry>
         <entry>node_str</entry>
@@ -800,9 +796,10 @@
         <entry>stop</entry>
         <entry>align_file</entry>
         <entry>VERBAL</entry>
-        <entry>MULT</entry>
         <entry>subgraph_repr</entry>
         <entry>curr_category</entry>
+        <entry>edge_to_toks</entry>
+        <entry>MULT</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
