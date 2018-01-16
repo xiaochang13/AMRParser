@@ -203,11 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516062166011">
-        <mark key="[" line="528" column="46" />
-        <mark key="]" line="529" column="37" />
-        <mark key="^" line="529" column="37" />
-        <mark key="." line="529" column="37" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516068070630">
+        <mark key="'" line="497" column="28" />
+        <mark key="[" line="531" column="37" />
+        <mark key="]" line="532" column="38" />
+        <mark key="^" line="532" column="38" />
+        <mark key="." line="532" column="38" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -398,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516061441652">
-        <mark key="'" line="1130" column="8" />
-        <mark key="[" line="627" column="54" />
-        <mark key="]" line="627" column="57" />
-        <mark key="^" line="627" column="57" />
-        <mark key="." line="627" column="57" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516068580592">
+        <mark key="'" line="522" column="48" />
+        <mark key="[" line="626" column="26" />
+        <mark key="]" line="626" column="30" />
+        <mark key="^" line="626" column="30" />
+        <mark key="." line="626" column="30" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -444,11 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="97" column="77" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="23" column="0" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="75" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="471" column="45" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="443" column="7" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="160" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="521" column="34" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="475" column="29" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -460,7 +456,6 @@
       <jump line="1158" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="392" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="409" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="532" column="32" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="399" column="26" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="503" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1136" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -536,24 +531,30 @@
       <jump line="1056" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1122" column="13" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="382" column="45" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="386" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="390" column="23" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="496" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="35" column="15" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1130" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="24" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="503" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="11" column="0" filename="$USER_HOME$/data_processing/date_extraction.py" />
+      <jump line="532" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="385" column="29" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="527" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="347" column="23" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="386" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="390" column="23" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="496" column="30" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="497" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="522" column="48" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>&quot;NONE&quot;</text>
+        <text>ead_concept</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;NONE&quot;</text>
+        <text>ead_concept</text>
       </register>
       <register name="/" type="4">
-        <text>NUMBER</text>
+        <text>multi_map</text>
       </register>
       <register name="0" type="4">
         <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
@@ -605,9 +606,9 @@
       </register>
     </registers>
     <search>
-      <last-search>NUMBER</last-search>
+      <last-search>multi_map</last-search>
       <last-offset />
-      <last-pattern>NUMBER</last-pattern>
+      <last-pattern>multi_map</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
@@ -797,8 +798,8 @@
         <entry>curr_category</entry>
         <entry>edge_to_toks</entry>
         <entry>MULT</entry>
-        <entry>multi_map</entry>
         <entry>NUMBER</entry>
+        <entry>multi_map</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
