@@ -31,12 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516075245233">
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516076099660">
         <mark key="'" line="374" column="12" />
-        <mark key="[" line="371" column="11" />
-        <mark key="]" line="371" column="26" />
-        <mark key="^" line="371" column="26" />
-        <mark key="." line="371" column="26" />
+        <mark key="[" line="388" column="13" />
+        <mark key="]" line="388" column="29" />
+        <mark key="^" line="388" column="29" />
+        <mark key="." line="388" column="29" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -548,10 +548,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>self.is_named_entity(curr_node)</text>
+        <text>node_index in verb_map</text>
       </register>
       <register name="-" type="4">
-        <text>self.is_named_entity(curr_node)</text>
+        <text>node_index in verb_map</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxhc3NlcnRcPg==</text>
