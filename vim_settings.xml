@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516059345197">
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516060367248">
         <mark key="'" line="496" column="28" />
-        <mark key="[" line="519" column="0" />
-        <mark key="]" line="519" column="0" />
-        <mark key="^" line="528" column="15" />
-        <mark key="." line="519" column="0" />
+        <mark key="[" line="528" column="74" />
+        <mark key="]" line="528" column="81" />
+        <mark key="^" line="528" column="81" />
+        <mark key="." line="528" column="81" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -547,11 +547,11 @@
       <jump line="496" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgY3Vycl9jYXRlZ29yeSA9IHBhcmVudF9jb25jZXB0Cg==</text>
+      <register name="&quot;" type="4">
+        <text>&quot;MULT&quot;</text>
       </register>
       <register name="-" type="4">
-        <text>curr_category</text>
+        <text>&quot;MULT&quot;</text>
       </register>
       <register name="/" type="4">
         <text>multi_map</text>
