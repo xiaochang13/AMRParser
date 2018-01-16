@@ -31,11 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516125891870">
-        <mark key="[" line="879" column="0" />
-        <mark key="]" line="879" column="0" />
-        <mark key="^" line="882" column="17" />
-        <mark key="." line="879" column="0" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516127322871">
+        <mark key="'" line="882" column="25" />
+        <mark key="[" line="893" column="78" />
+        <mark key="]" line="893" column="85" />
+        <mark key="^" line="893" column="85" />
+        <mark key="." line="893" column="85" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -260,12 +261,6 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
-      <file name="$USER_HOME$/AMRParser/preprocessing/seq2graph/amr2seq/data_prep/cacheTransition.py" timestamp="1514154408789">
-        <mark key="[" line="0" column="14" />
-        <mark key="]" line="1" column="0" />
-        <mark key="." line="1" column="0" />
-        <mark key="^" line="1" column="0" />
-      </file>
       <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1510089736605">
         <mark key="'" line="245" column="13" />
         <mark key="[" line="248" column="8" />
@@ -279,12 +274,6 @@
         <mark key="]" line="714" column="8" />
         <mark key="^" line="714" column="8" />
         <mark key="." line="714" column="8" />
-      </file>
-      <file name="$USER_HOME$/AMRParser/CacheTransition/dependency.py" timestamp="1514929428507">
-        <mark key="[" line="23" column="13" />
-        <mark key="]" line="23" column="26" />
-        <mark key="^" line="23" column="30" />
-        <mark key="." line="23" column="30" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/cacheTransition.py" timestamp="1515008518064">
         <mark key="'" line="105" column="21" />
@@ -454,29 +443,8 @@
         <mark key="^" line="830" column="49" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hgraph.py" timestamp="1513668521968">
-        <mark key="[" line="9" column="49" />
-        <mark key="]" line="9" column="52" />
-        <mark key="." line="9" column="52" />
-        <mark key="^" line="9" column="52" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="80" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="510" column="43" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="1150" column="52" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="1158" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="392" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="409" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="399" column="26" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="503" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1136" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="533" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="504" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="537" column="26" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="343" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="430" column="72" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="522" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="508" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="476" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="482" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -557,21 +525,36 @@
       <jump line="496" column="30" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="497" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="522" column="48" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="879" column="59" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1092" column="0" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="368" column="41" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="385" column="27" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="374" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="885" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="886" column="31" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="883" column="31" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="879" column="41" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="341" column="28" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="872" column="37" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="877" column="75" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="905" column="23" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="893" column="66" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="891" column="28" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="888" column="37" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="890" column="42" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="807" column="97" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="898" column="32" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="897" column="15" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="882" column="25" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text>wiki_label</text>
       </register>
       <register name="-" type="4">
-        <text>bol</text>
+        <text>wiki_label</text>
       </register>
       <register name="/" type="4">
-        <text>node_to_fr</text>
+        <text>parent</text>
       </register>
       <register name="0" type="4">
         <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
@@ -653,9 +636,9 @@
       </register>
     </registers>
     <search>
-      <last-search>node_to_fr</last-search>
+      <last-search>parent</last-search>
       <last-offset />
-      <last-pattern>node_to_fr</last-pattern>
+      <last-pattern>parent</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
@@ -829,7 +812,6 @@
         <entry>aligned_toks</entry>
         <entry>tok2rels</entry>
         <entry>all_alignments</entry>
-        <entry>phrases</entry>
         <entry>sort(</entry>
         <entry>removeAligned</entry>
         <entry>span_to_nodes</entry>
@@ -850,6 +832,10 @@
         <entry encoding="base64">XDxhc3NlcnRcPg==</entry>
         <entry>node2</entry>
         <entry>node_to_fr</entry>
+        <entry>new_node_index</entry>
+        <entry>cur_symbol</entry>
+        <entry>phrases</entry>
+        <entry>parent</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
