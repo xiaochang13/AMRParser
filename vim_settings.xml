@@ -31,12 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516072031889">
-        <mark key="'" line="879" column="59" />
-        <mark key="[" line="880" column="47" />
-        <mark key="]" line="880" column="47" />
-        <mark key="^" line="850" column="25" />
-        <mark key="." line="880" column="47" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516073018750">
+        <mark key="'" line="386" column="27" />
+        <mark key="[" line="371" column="11" />
+        <mark key="]" line="371" column="26" />
+        <mark key="^" line="371" column="26" />
+        <mark key="." line="371" column="26" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -445,8 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="475" column="29" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="84" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="479" column="69" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="80" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="510" column="43" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -543,18 +541,20 @@
       <jump line="496" column="30" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="497" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="522" column="48" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="368" column="51" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="879" column="59" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1092" column="0" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="368" column="41" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="385" column="27" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">cHJlZF9mcmVxX3RocmUsIHZhcl9mcmVxX3RocmUsIA==</text>
+        <text>self.is_named_entity(curr_node)</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">cHJlZF9mcmVxX3RocmUsIHZhcl9mcmVxX3RocmUsIA==</text>
+        <text>self.is_named_entity(curr_node)</text>
       </register>
       <register name="/" type="4">
-        <text>multi_map</text>
+        <text>verb_map</text>
       </register>
       <register name="0" type="4">
         <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
@@ -606,9 +606,9 @@
       </register>
     </registers>
     <search>
-      <last-search>multi_map</last-search>
+      <last-search>verb_map</last-search>
       <last-offset />
-      <last-pattern>multi_map</last-pattern>
+      <last-pattern>verb_map</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
@@ -724,7 +724,6 @@
         <entry>verbalization_map</entry>
         <entry>matched_tup</entry>
         <entry>tok2tuples</entry>
-        <entry>verb_map</entry>
         <entry>extractNodeMapping</entry>
         <entry>matchSubgraph</entry>
         <entry>matched_tuples</entry>
@@ -800,6 +799,7 @@
         <entry>MULT</entry>
         <entry>NUMBER</entry>
         <entry>multi_map</entry>
+        <entry>verb_map</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
