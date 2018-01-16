@@ -31,12 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516128016997">
-        <mark key="'" line="882" column="25" />
-        <mark key="[" line="905" column="23" />
-        <mark key="]" line="905" column="30" />
-        <mark key="^" line="905" column="30" />
-        <mark key="." line="905" column="30" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516128644895">
+        <mark key="'" line="881" column="25" />
+        <mark key="[" line="807" column="45" />
+        <mark key="]" line="807" column="45" />
+        <mark key="^" line="904" column="30" />
+        <mark key="." line="807" column="45" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -399,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516068580592">
-        <mark key="'" line="522" column="48" />
-        <mark key="[" line="626" column="26" />
-        <mark key="]" line="626" column="30" />
-        <mark key="^" line="626" column="30" />
-        <mark key="." line="626" column="30" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516128842108">
+        <mark key="'" line="528" column="16" />
+        <mark key="[" line="522" column="8" />
+        <mark key="]" line="522" column="8" />
+        <mark key="^" line="523" column="8" />
+        <mark key="." line="522" column="8" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -445,11 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="508" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="476" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="482" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="489" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="567" column="87" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="764" column="42" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="404" column="19" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="426" column="19" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -545,13 +540,18 @@
       <jump line="898" column="32" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="897" column="15" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="882" column="25" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="911" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="525" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="771" column="3" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="528" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="744" column="3" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>cur_symbol</text>
+        <text encoding="base64">ICAgIA==</text>
       </register>
       <register name="-" type="4">
-        <text>cur_symbol</text>
+        <text encoding="base64">ICAgIA==</text>
       </register>
       <register name="/" type="4">
         <text>parent</text>
@@ -559,31 +559,42 @@
       <register name="0" type="4">
         <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      <register name="1" type="8">
+        <text encoding="base64">IyAKIyAKIyA=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="4">
-        <text>#if amr.is_number(curr_node):
-                #    var_name = &quot;NUMBER&quot;
-                #else:
-                #    var_name = str(curr_node)</text>
+        <text>, tok_seq, lemma_seq, pos_seq,
+                                                         unaligned_idxs, verb_map, phrases, nodeid_to_frag, 0, 0</text>
       </register>
       <register name="3" type="4">
+        <text>, tok_seq, lemma_seq, pos_seq, unaligned, verb_map, phrases, nodeid_to_frag,
+                   pred_freq_thre=50, var_freq_thre=50, use_pos=False</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="5" type="4">
         <text>#if amr.is_number(curr_node):
                 #    var_name = &quot;NUMBER&quot;
                 #else:
                 #    var_name = str(curr_node)</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="4">
+        <text>#if amr.is_number(curr_node):
+                #    var_name = &quot;NUMBER&quot;
+                #else:
+                #    var_name = str(curr_node)</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="6" type="4">
+      <register name="9" type="4">
         <text>def categorizeInfo(self, node_index, category):
         curr_node = self.nodes[node_index]
         curr_var = curr_node.node_str()
@@ -621,15 +632,6 @@
             return [], ret_var
 
         return [], curr_var</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxzZToK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
