@@ -203,12 +203,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516060367248">
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516061431306">
         <mark key="'" line="496" column="28" />
-        <mark key="[" line="528" column="74" />
-        <mark key="]" line="528" column="81" />
-        <mark key="^" line="528" column="81" />
-        <mark key="." line="528" column="81" />
+        <mark key="[" line="19" column="34" />
+        <mark key="]" line="19" column="40" />
+        <mark key="^" line="19" column="40" />
+        <mark key="." line="19" column="40" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -399,8 +399,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516056622165">
-        <mark key="'" line="1122" column="13" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516061441652">
+        <mark key="'" line="1130" column="8" />
         <mark key="[" line="627" column="54" />
         <mark key="]" line="627" column="57" />
         <mark key="^" line="627" column="57" />
@@ -445,8 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="132" column="26" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="133" column="34" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="62" column="25" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="791" column="64" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="63" column="33" filename="$USER_HOME$/data_processing/Aligner.py" />
@@ -545,6 +543,8 @@
       <jump line="386" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="390" column="23" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="496" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="35" column="15" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1130" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
