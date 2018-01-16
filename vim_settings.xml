@@ -31,12 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516127322871">
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516128016997">
         <mark key="'" line="882" column="25" />
-        <mark key="[" line="893" column="78" />
-        <mark key="]" line="893" column="85" />
-        <mark key="^" line="893" column="85" />
-        <mark key="." line="893" column="85" />
+        <mark key="[" line="905" column="23" />
+        <mark key="]" line="905" column="30" />
+        <mark key="^" line="905" column="30" />
+        <mark key="." line="905" column="30" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -548,10 +548,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>wiki_label</text>
+        <text>cur_symbol</text>
       </register>
       <register name="-" type="4">
-        <text>wiki_label</text>
+        <text>cur_symbol</text>
       </register>
       <register name="/" type="4">
         <text>parent</text>
