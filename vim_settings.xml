@@ -31,12 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516132615285">
-        <mark key="'" line="851" column="8" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516134834732">
+        <mark key="'" line="832" column="27" />
         <mark key="[" line="635" column="8" />
-        <mark key="]" line="625" column="8" />
-        <mark key="^" line="625" column="8" />
-        <mark key="." line="625" column="8" />
+        <mark key="]" line="635" column="8" />
+        <mark key="." line="635" column="8" />
+        <mark key="^" line="836" column="19" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -399,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516132570983">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516134873048">
         <mark key="'" line="528" column="16" />
-        <mark key="[" line="523" column="8" />
-        <mark key="]" line="523" column="8" />
-        <mark key="^" line="522" column="11" />
-        <mark key="." line="523" column="8" />
+        <mark key="[" line="522" column="0" />
+        <mark key="]" line="522" column="0" />
+        <mark key="^" line="523" column="8" />
+        <mark key="." line="522" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -445,10 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="547" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="509" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="214" column="86" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="264" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="308" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="328" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="345" column="59" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -527,7 +523,6 @@
       <jump line="893" column="66" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="891" column="28" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="888" column="37" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="890" column="42" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="807" column="97" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="898" column="32" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="897" column="15" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -540,71 +535,71 @@
       <jump line="526" column="39" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="866" column="34" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1540" column="0" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="832" column="30" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="636" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="859" column="33" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="894" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="851" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="890" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="860" column="26" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="354" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="637" column="27" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="832" column="27" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="635" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="8">
-        <text encoding="base64">IyAKIyAKIyAKIyA=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IyA=</text>
+        <text>assert</text>
       </register>
       <register name="/" type="4">
-        <text>node_oldtonew</text>
+        <text>visited</text>
       </register>
       <register name="0" type="4">
         <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">IyAKIyAKIyAKIyA=</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">IyAKIyAKIyA=</text>
+      <register name="2" type="4">
+        <text>#except:
+        #    print 'problematic case here:', sent_idx
+        #    print str(amr)
+        #    sys.exit(1)</text>
       </register>
-      <register name="3" type="4">
-        <text>, tok_seq, lemma_seq, pos_seq,
-                                                         unaligned_idxs, verb_map, phrases, nodeid_to_frag, 0, 0</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAjIHRyeToK</text>
       </register>
-      <register name="4" type="4">
-        <text>, tok_seq, lemma_seq, pos_seq, unaligned, verb_map, phrases, nodeid_to_frag,
-                   pred_freq_thre=50, var_freq_thre=50, use_pos=False</text>
+      <register name="4" type="8">
+        <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsb2dnZXIud3JpdGVsbigpCg==</text>
       </register>
-      <register name="6" type="4">
-        <text>#if amr.is_number(curr_node):
-                #    var_name = &quot;NUMBER&quot;
-                #else:
-                #    var_name = str(curr_node)</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="7" type="4">
-        <text>#if amr.is_number(curr_node):
-                #    var_name = &quot;NUMBER&quot;
-                #else:
-                #    var_name = str(curr_node)</text>
+        <text encoding="base64">IyBpZiAobm90ICgnTkUnIGluIGNhdGVnb3J5IG9yICdEQVRFJyBpbiBjYXRlZ29yeSBvciAnTlVNQkVSJyA9PSBjYXRlZ29yeSkpIGFuZCBlbmQgLSBzdGFydCA+IDE6CiAgICAgICAgICAgICAgICAgICAgIyAgICAgY3Vycl9waHJhc2UgPSAnQCcuam9pbihsZW1tYV9zZXFbc3RhcnQ6ZW5kXSkKICAgICAgICAgICAgICAgICAgICAjICAgICBpZiBjdXJyX3BocmFzZSBpbiBwaHJhc2VzOgogICAgICAgICAgICAgICAgICAgICMgICAgICAgICBjdXJfc3ltYm9sID0gJ1BIUkFTRScKICAgICAgICAgICAgICAgICAgICAjICAgICAgICAgd2lraV9sYWJlbCA9IGN1cnJfdmFy</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb2xsYXBzZWQuYWRkKGNoaWxkX2luZGV4KQo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="9" type="8">
+        <text encoding="base64">IyAKIyAKIyAKIyA=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>node_oldtonew</last-search>
+      <last-search>visited</last-search>
       <last-offset />
-      <last-pattern>node_oldtonew</last-pattern>
+      <last-pattern>visited</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
@@ -803,6 +798,7 @@
         <entry>parent</entry>
         <entry>all_alignments</entry>
         <entry>node_oldtonew</entry>
+        <entry>visited</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
@@ -839,6 +835,8 @@
         <entry>234</entry>
         <entry>513</entry>
         <entry>868</entry>
+        <entry encoding="base64">JzwsJz5jYWxsIFZpc3VhbFNlYXJjaCgnYicp</entry>
+        <entry>833</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
