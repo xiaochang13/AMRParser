@@ -31,12 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516078877831">
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516118593643">
         <mark key="'" line="374" column="12" />
-        <mark key="[" line="856" column="11" />
-        <mark key="]" line="885" column="45" />
-        <mark key="^" line="388" column="29" />
-        <mark key="." line="885" column="45" />
+        <mark key="[" line="872" column="36" />
+        <mark key="]" line="873" column="42" />
+        <mark key="^" line="873" column="42" />
+        <mark key="." line="873" column="42" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -203,7 +203,7 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516068070630">
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516118626029">
         <mark key="'" line="497" column="28" />
         <mark key="[" line="531" column="37" />
         <mark key="]" line="532" column="38" />
@@ -548,10 +548,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>, nodeid_to_frag</text>
+        <text>curr_node</text>
       </register>
       <register name="-" type="4">
-        <text>, nodeid_to_frag</text>
+        <text>curr_node</text>
       </register>
       <register name="/" type="4">
         <text>node_to_fr</text>
