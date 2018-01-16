@@ -203,12 +203,11 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516061431306">
-        <mark key="'" line="496" column="28" />
-        <mark key="[" line="19" column="34" />
-        <mark key="]" line="19" column="40" />
-        <mark key="^" line="19" column="40" />
-        <mark key="." line="19" column="40" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516062166011">
+        <mark key="[" line="528" column="46" />
+        <mark key="]" line="529" column="37" />
+        <mark key="^" line="529" column="37" />
+        <mark key="." line="529" column="37" />
       </file>
       <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
         <mark key="'" line="94" column="16" />
@@ -445,9 +444,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="62" column="25" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="791" column="64" filename="$USER_HOME$/data_processing/Aligner.py" />
-      <jump line="63" column="33" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="97" column="77" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="23" column="0" filename="$USER_HOME$/data_processing/Aligner.py" />
       <jump line="75" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -545,74 +541,73 @@
       <jump line="496" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="35" column="15" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1130" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="24" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="503" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="11" column="0" filename="$USER_HOME$/data_processing/date_extraction.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>&quot;MULT&quot;</text>
+        <text>&quot;NONE&quot;</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;MULT&quot;</text>
+        <text>&quot;NONE&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>multi_map</text>
+        <text>NUMBER</text>
       </register>
       <register name="0" type="4">
         <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgY3Vycl9jYXRlZ29yeSA9IHBhcmVudF9jb25jZXB0Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxzZToK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      </register>
+      <register name="4" type="4">
+        <text>if isNumber(node_repr):
+                        category = &quot;NUMBER&quot;</text>
+      </register>
+      <register name="5" type="4">
+        <text>if isNumber(node_repr):
+                            template = []
+                            for k in xrange(start, end):
+                                if not isNumber(tok_seq[k]):
+                                    template.append(tok_seq[k])
+                                else:
+                                    template.append(&quot;NUM&quot;)
+                            category = &quot;NUMBER&quot;
+                            logger.writeln(&quot;NUMBER template:#%s&quot; % &quot; &quot;.join(template))</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgY3Vycl9jYXRlZ29yeSA9IHBhcmVudF9jb25jZXB0Cg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="8" type="4">
         <text># if child_edges:
                 #     first_edge_idx, _ = child_edges[0]
                 #     curr_category += (&quot;-%s&quot; % amr.edges[first_edge_idx].label)</text>
       </register>
-      <register name="4" type="4">
+      <register name="9" type="4">
         <text>else:
                     all</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlYWQK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIG11bHRpX21hcFtdCg==</text>
-      </register>
-      <register name="7" type="4">
-        <text>&quot;%s-%s&quot; % (parent_concept,
-                                                                                                 parent_rel)</text>
-      </register>
-      <register name="8" type="4">
-        <text>:param amr:
-        :param all_alignments:
-        :param tok_seq:
-        :param lemma_seq:
-        :param pos_seq:
-        :param unaligned:
-        :param verb_map:
-        :param phrases:
-        :param nodeid_to_frag:
-        :param pred_freq_thre:
-        :param var_freq_thre:
-        :param use_pos:
-        :return:</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>multi_map</last-search>
+      <last-search>NUMBER</last-search>
       <last-offset />
-      <last-pattern>multi_map</last-pattern>
+      <last-pattern>NUMBER</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
@@ -768,7 +763,6 @@
         <entry>QuantityEntity</entry>
         <entry encoding="base64">XDxub2RlX3RvX3Rva3NcPg==</entry>
         <entry>tok</entry>
-        <entry>NUMBER</entry>
         <entry>is_neg_form</entry>
         <entry>is_nega</entry>
         <entry>neg_prefix</entry>
@@ -804,6 +798,7 @@
         <entry>edge_to_toks</entry>
         <entry>MULT</entry>
         <entry>multi_map</entry>
+        <entry>NUMBER</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
