@@ -31,12 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516128644895">
-        <mark key="'" line="881" column="25" />
-        <mark key="[" line="807" column="45" />
-        <mark key="]" line="807" column="45" />
-        <mark key="^" line="904" column="30" />
-        <mark key="." line="807" column="45" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516131831563">
+        <mark key="'" line="832" column="30" />
+        <mark key="[" line="635" column="8" />
+        <mark key="]" line="625" column="8" />
+        <mark key="^" line="625" column="8" />
+        <mark key="." line="625" column="8" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -203,8 +203,8 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516118626029">
-        <mark key="'" line="497" column="28" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516128907854">
+        <mark key="'" line="526" column="39" />
         <mark key="[" line="531" column="37" />
         <mark key="]" line="532" column="38" />
         <mark key="^" line="532" column="38" />
@@ -445,11 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="764" column="42" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="404" column="19" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="426" column="19" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="398" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="534" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="394" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="544" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="545" column="15" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -545,6 +540,11 @@
       <jump line="771" column="3" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="528" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="744" column="3" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="526" column="39" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="866" column="34" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="1540" column="0" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="832" column="30" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="636" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -554,7 +554,7 @@
         <text encoding="base64">ICAgIA==</text>
       </register>
       <register name="/" type="4">
-        <text>parent</text>
+        <text>all_alignments</text>
       </register>
       <register name="0" type="4">
         <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
@@ -638,9 +638,9 @@
       </register>
     </registers>
     <search>
-      <last-search>parent</last-search>
+      <last-search>all_alignments</last-search>
       <last-offset />
-      <last-pattern>parent</last-pattern>
+      <last-pattern>all_alignments</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
@@ -813,7 +813,6 @@
         <entry>valid</entry>
         <entry>aligned_toks</entry>
         <entry>tok2rels</entry>
-        <entry>all_alignments</entry>
         <entry>sort(</entry>
         <entry>removeAligned</entry>
         <entry>span_to_nodes</entry>
@@ -838,6 +837,7 @@
         <entry>cur_symbol</entry>
         <entry>phrases</entry>
         <entry>parent</entry>
+        <entry>all_alignments</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
@@ -873,6 +873,7 @@
         <entry>523</entry>
         <entry>234</entry>
         <entry>513</entry>
+        <entry>868</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
