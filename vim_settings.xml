@@ -31,8 +31,8 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516131831563">
-        <mark key="'" line="832" column="30" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516132615285">
+        <mark key="'" line="851" column="8" />
         <mark key="[" line="635" column="8" />
         <mark key="]" line="625" column="8" />
         <mark key="^" line="625" column="8" />
@@ -399,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516128842108">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516132570983">
         <mark key="'" line="528" column="16" />
-        <mark key="[" line="522" column="8" />
-        <mark key="]" line="522" column="8" />
-        <mark key="^" line="523" column="8" />
-        <mark key="." line="522" column="8" />
+        <mark key="[" line="523" column="8" />
+        <mark key="]" line="523" column="8" />
+        <mark key="^" line="522" column="11" />
+        <mark key="." line="523" column="8" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -445,9 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="394" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="544" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="545" column="15" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="547" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="509" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="214" column="86" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -545,42 +542,42 @@
       <jump line="1540" column="0" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="832" column="30" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="636" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="859" column="33" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="894" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="851" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">ICAgIA==</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">IyAKIyAKIyAKIyA=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgIA==</text>
+        <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
-        <text>all_alignments</text>
+        <text>node_oldtonew</text>
       </register>
       <register name="0" type="4">
         <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
       </register>
       <register name="1" type="8">
-        <text encoding="base64">IyAKIyAKIyA=</text>
+        <text encoding="base64">IyAKIyAKIyAKIyA=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="8">
+        <text encoding="base64">IyAKIyAKIyA=</text>
+      </register>
+      <register name="3" type="4">
         <text>, tok_seq, lemma_seq, pos_seq,
                                                          unaligned_idxs, verb_map, phrases, nodeid_to_frag, 0, 0</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>, tok_seq, lemma_seq, pos_seq, unaligned, verb_map, phrases, nodeid_to_frag,
                    pred_freq_thre=50, var_freq_thre=50, use_pos=False</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="5" type="4">
-        <text>#if amr.is_number(curr_node):
-                #    var_name = &quot;NUMBER&quot;
-                #else:
-                #    var_name = str(curr_node)</text>
       </register>
       <register name="6" type="4">
         <text>#if amr.is_number(curr_node):
@@ -588,59 +585,26 @@
                 #else:
                 #    var_name = str(curr_node)</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>#if amr.is_number(curr_node):
+                #    var_name = &quot;NUMBER&quot;
+                #else:
+                #    var_name = str(curr_node)</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>def categorizeInfo(self, node_index, category):
-        curr_node = self.nodes[node_index]
-        curr_var = curr_node.node_str()
-        if category == &quot;NER&quot;:
-            assert self.is_named_entity(curr_node)
-            exclude_rels = ['wiki','name']
-            # assert node_index in nodeid_to_frag
-            entity_name = curr_node.node_str()
-            ret_var = 'NE_%s' % entity_name
-
-            return exclude_rels, ret_var
-        elif category == &quot;DATE&quot;:
-            assert self.is_date_entity(curr_node)
-            ret_var = 'DATE'
-            return date_relations, ret_var
-        elif category == &quot;NUMBER&quot;:
-            assert self.is_number(curr_node)
-            ret_var = 'NUMBER'
-            return [], ret_var
-
-        elif category == &quot;MULT&quot;:
-            if self.is_predicate(curr_node):
-                ret_var = 'VB_VERB'
-            else:
-                ret_var = 'VB_' + curr_var
-            exclude_rels = []
-            for (head, rel, tail) in verb_map[node_index]:
-                assert head == node_index
-                rel = self.edges[rel].label
-                exclude_rels.append(rel)
-            return exclude_rels, ret_var
-
-        else:
-            ret_var = curr_var
-            return [], ret_var
-
-        return [], curr_var</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>all_alignments</last-search>
+      <last-search>node_oldtonew</last-search>
       <last-offset />
-      <last-pattern>all_alignments</last-pattern>
+      <last-pattern>node_oldtonew</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
@@ -838,6 +802,7 @@
         <entry>phrases</entry>
         <entry>parent</entry>
         <entry>all_alignments</entry>
+        <entry>node_oldtonew</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
