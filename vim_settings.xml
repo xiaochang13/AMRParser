@@ -31,12 +31,11 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516119674872">
-        <mark key="'" line="374" column="12" />
-        <mark key="[" line="907" column="82" />
-        <mark key="]" line="907" column="93" />
-        <mark key="^" line="907" column="93" />
-        <mark key="." line="907" column="93" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516120501666">
+        <mark key="[" line="883" column="68" />
+        <mark key="]" line="883" column="72" />
+        <mark key="^" line="883" column="72" />
+        <mark key="." line="883" column="72" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -548,10 +547,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>izeI</text>
+        <text>bol</text>
       </register>
       <register name="-" type="4">
-        <text>izeI</text>
+        <text>bol</text>
       </register>
       <register name="/" type="4">
         <text>node_to_fr</text>
@@ -560,22 +559,67 @@
         <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxzZToK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="3" type="4">
+        <text>def categorizeInfo(self, node_index, category):
+        curr_node = self.nodes[node_index]
+        curr_var = curr_node.node_str()
+        if category == &quot;NER&quot;:
+            assert self.is_named_entity(curr_node)
+            exclude_rels = ['wiki','name']
+            # assert node_index in nodeid_to_frag
+            entity_name = curr_node.node_str()
+            ret_var = 'NE_%s' % entity_name
+
+            return exclude_rels, ret_var
+        elif category == &quot;DATE&quot;:
+            assert self.is_date_entity(curr_node)
+            ret_var = 'DATE'
+            return date_relations, ret_var
+        elif category == &quot;NUMBER&quot;:
+            assert self.is_number(curr_node)
+            ret_var = 'NUMBER'
+            return [], ret_var
+
+        elif category == &quot;MULT&quot;:
+            if self.is_predicate(curr_node):
+                ret_var = 'VB_VERB'
+            else:
+                ret_var = 'VB_' + curr_var
+            exclude_rels = []
+            for (head, rel, tail) in verb_map[node_index]:
+                assert head == node_index
+                rel = self.edges[rel].label
+                exclude_rels.append(rel)
+            return exclude_rels, ret_var
+
+        else:
+            ret_var = curr_var
+            return [], ret_var
+
+        return [], curr_var</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxzZToK</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="8">
+      <register name="6" type="8">
         <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text>if isNumber(node_repr):
                         category = &quot;NUMBER&quot;</text>
       </register>
-      <register name="5" type="4">
+      <register name="8" type="4">
         <text>if isNumber(node_repr):
                             template = []
                             for k in xrange(start, end):
@@ -586,20 +630,8 @@
                             category = &quot;NUMBER&quot;
                             logger.writeln(&quot;NUMBER template:#%s&quot; % &quot; &quot;.join(template))</text>
       </register>
-      <register name="6" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICMgY3Vycl9jYXRlZ29yeSA9IHBhcmVudF9jb25jZXB0Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="8" type="4">
-        <text># if child_edges:
-                #     first_edge_idx, _ = child_edges[0]
-                #     curr_category += (&quot;-%s&quot; % amr.edges[first_edge_idx].label)</text>
-      </register>
-      <register name="9" type="4">
-        <text>else:
-                    all</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
