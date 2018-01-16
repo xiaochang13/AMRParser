@@ -31,12 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516076099660">
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516077064841">
         <mark key="'" line="374" column="12" />
-        <mark key="[" line="388" column="13" />
-        <mark key="]" line="388" column="29" />
+        <mark key="[" line="884" column="45" />
+        <mark key="]" line="884" column="45" />
         <mark key="^" line="388" column="29" />
-        <mark key="." line="388" column="29" />
+        <mark key="." line="884" column="45" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -548,13 +548,13 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>node_index in verb_map</text>
+        <text>, nodeid_to_frag</text>
       </register>
       <register name="-" type="4">
-        <text>node_index in verb_map</text>
+        <text>, nodeid_to_frag</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxhc3NlcnRcPg==</text>
+        <text>node_to_fr</text>
       </register>
       <register name="0" type="4">
         <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
@@ -606,12 +606,12 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxhc3NlcnRcPg==</last-search>
+      <last-search>node_to_fr</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxhc3NlcnRcPg==</last-pattern>
+      <last-pattern>node_to_fr</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
@@ -801,6 +801,8 @@
         <entry>multi_map</entry>
         <entry>verb_map</entry>
         <entry encoding="base64">XDxhc3NlcnRcPg==</entry>
+        <entry>node2</entry>
+        <entry>node_to_fr</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
