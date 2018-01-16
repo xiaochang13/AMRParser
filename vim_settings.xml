@@ -31,12 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516052850504">
-        <mark key="'" line="1094" column="42" />
-        <mark key="[" line="850" column="8" />
-        <mark key="]" line="850" column="25" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516072031889">
+        <mark key="'" line="879" column="59" />
+        <mark key="[" line="880" column="47" />
+        <mark key="]" line="880" column="47" />
         <mark key="^" line="850" column="25" />
-        <mark key="." line="850" column="25" />
+        <mark key="." line="880" column="47" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -445,8 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="160" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="521" column="34" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="475" column="29" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="84" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="479" column="69" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -545,13 +543,15 @@
       <jump line="496" column="30" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="497" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="522" column="48" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="368" column="51" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="879" column="59" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>ead_concept</text>
+        <text encoding="base64">cHJlZF9mcmVxX3RocmUsIHZhcl9mcmVxX3RocmUsIA==</text>
       </register>
       <register name="-" type="4">
-        <text>ead_concept</text>
+        <text encoding="base64">cHJlZF9mcmVxX3RocmUsIHZhcl9mcmVxX3RocmUsIA==</text>
       </register>
       <register name="/" type="4">
         <text>multi_map</text>
