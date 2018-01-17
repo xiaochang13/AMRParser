@@ -399,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516168819880">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516170280233">
         <mark key="'" line="375" column="4" />
-        <mark key="[" line="679" column="4" />
-        <mark key="]" line="679" column="4" />
+        <mark key="[" line="48" column="0" />
+        <mark key="]" line="48" column="0" />
         <mark key="^" line="679" column="4" />
-        <mark key="." line="679" column="4" />
+        <mark key="." line="48" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -548,7 +548,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="-" type="4">
         <text>root_num = 0</text>
@@ -560,36 +560,39 @@
         <text>(category, subgraph_repr)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text># elif 'VB' in curr_sym:
+                #     collapsed_seq.append(curr_sym)
+                #     collapsed_lem.append(curr_sym)
+                #     collapsed_pos.append('VB')</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="4" type="4">
-        <text>#new_amr.set_sentence(collapsed_toks)
-        #new_amr.set_to(collapsed_toks)</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>#new_amr.set_sentence(collapsed_toks)
+        #new_amr.set_to(collapsed_toks)</text>
       </register>
-      <register name="7" type="4">
-        <text># if entity_not_align:
-        #     continue</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICNhbGlnbmVkX3Rva3MgPSBzZXQoKQo=</text>
-      </register>
-      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="4">
+        <text># if entity_not_align:
+        #     continue</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
