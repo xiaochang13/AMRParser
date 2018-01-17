@@ -146,8 +146,8 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1516219510233">
-        <mark key="'" line="957" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1516221498629">
+        <mark key="'" line="900" column="34" />
         <mark key="[" line="926" column="0" />
         <mark key="]" line="926" column="0" />
         <mark key="^" line="901" column="8" />
@@ -441,8 +441,8 @@
         <mark key="^" line="7" column="0" />
         <mark key="." line="813" column="127" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1516218189859">
-        <mark key="'" line="516" column="25" />
+      <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1516221521301">
+        <mark key="'" line="539" column="45" />
         <mark key="[" line="525" column="0" />
         <mark key="]" line="525" column="0" />
         <mark key="^" line="517" column="33" />
@@ -450,9 +450,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="792" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="797" column="19" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="840" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="528" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="524" column="48" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="20" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -506,7 +503,6 @@
       <jump line="1076" column="9" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="523" column="68" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="530" column="83" filename="$USER_HOME$/SHRG-induction/prepareTokens.py" />
-      <jump line="900" column="33" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="542" column="70" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="69" column="4" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="52" column="48" filename="$USER_HOME$/SHRG-induction/prepareTokens.py" />
@@ -550,6 +546,10 @@
       <jump line="734" column="20" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="936" column="28" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="957" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="820" column="30" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="571" column="33" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="900" column="34" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="539" column="45" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -560,7 +560,7 @@
         <text>NER</text>
       </register>
       <register name="/" type="4">
-        <text>inside_rule_st</text>
+        <text>addEdge</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">ZGVmIGNvbGxhcHNlVG9rZW5zKHRva19zZXEsIGxlbW1hX3NlcSwgcG9zX3NlcSwgc3Bhbl90b190eXBlLCBpc1RyYWluPVRydWUpOgogICAgbl90b2tzID0gbGVuKHRva19zZXEpCiAgICBjb2xsYXBzZWQgPSBzZXQoKQoKICAgIG5ld19hbGlnbm1lbnQgPSBkZWZhdWx0ZGljdChsaXN0KQogICAgY29sbGFwc2VkX3NlcSA9IFtdCiAgICBjb2xsYXBzZWRfbGVtID0gW10KICAgIGNvbGxhcHNlZF9wb3MgPSBbXQogICAgZm9yIGkgaW4geHJhbmdlKG5fdG9rcyk6CiAgICAgICAgaWYgaSBpbiBjb2xsYXBzZWQ6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgZm9yIGogaW4geHJhbmdlKGkrMSwgbl90b2tzKzEpOgogICAgICAgICAgICBpZiAoaSwgaikgaW4gc3Bhbl90b190eXBlOgogICAgICAgICAgICAgICAgbm9kZV9pZHgsIHN1YmdyYXBoX3JlcHIsIGN1cnJfc3ltID0gc3Bhbl90b190eXBlWyhpLCBqKV0KICAgICAgICAgICAgICAgIGNvbGxhcHNlZCB8PSBzZXQoeHJhbmdlKGksIGopKQogICAgICAgICAgICAgICAgY3Vycl9pZHggPSBsZW4oY29sbGFwc2VkX3NlcSkKICAgICAgICAgICAgICAgIG5ld19hbGlnbm1lbnRbbm9kZV9pZHhdLmFwcGVuZCgoY3Vycl9pZHgsIGN1cnJfaWR4KzEsIE5vbmUpKQogICAgICAgICAgICAgICAgaWYgJ05FXycgaW4gY3Vycl9zeW0gb3IgJ0RBVEUnIGluIGN1cnJfc3ltIG9yICdOVU1CRVInIGluIGN1cnJfc3ltIG9yIGN1cnJfc3ltID09ICJORSI6CiAgICAgICAgICAgICAgICAgICAgaWYgIk5FXyIgaW4gY3Vycl9zeW06CiAgICAgICAgICAgICAgICAgICAgICAgIHJkID0gcmFuZG9tLnJhbmRvbSgpCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIHJkID49IDAuOSBhbmQgaXNUcmFpbjoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1cnJfc3ltID0gIk5FIgogICAgICAgICAgICAgICAgICAgIGNvbGxhcHNlZF9zZXEuYXBwZW5kKGN1cnJfc3ltKQogICAgICAgICAgICAgICAgICAgIGNvbGxhcHNlZF9sZW0uYXBwZW5kKGN1cnJfc3ltKQogICAgICAgICAgICAgICAgICAgIGlmICdORScgaW4gY3Vycl9zeW06CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbGxhcHNlZF9wb3MuYXBwZW5kKCdORScpCiAgICAgICAgICAgICAgICAgICAgZWxpZiAnREFURScgaW4gY3Vycl9zeW06CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbGxhcHNlZF9wb3MuYXBwZW5kKCdEQVRFJykKICAgICAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgICAgICBjb2xsYXBzZWRfcG9zLmFwcGVuZCgnTlVNQkVSJykKICAgICAgICAgICAgICAgIGVsaWYgaiAtIGkgPiAxOgogICAgICAgICAgICAgICAgICAgIGNvbGxhcHNlZF9zZXEuYXBwZW5kKCdAJy5qb2luKHRva19zZXFbaTpqXSkubG93ZXIoKSkKICAgICAgICAgICAgICAgICAgICBjb2xsYXBzZWRfbGVtLmFwcGVuZCgnQCcuam9pbihsZW1tYV9zZXFbaTpqXSkubG93ZXIoKSkKICAgICAgICAgICAgICAgICAgICBjb2xsYXBzZWRfcG9zLmFwcGVuZCgnUEhSQVNFJykKICAgICAgICAgICAgICAgIGVsc2U6CgogICAgICAgICAgICAgICAgICAgIGNvbGxhcHNlZF9zZXEuYXBwZW5kKHRva19zZXFbai0xXS5sb3dlcigpKQogICAgICAgICAgICAgICAgICAgIGNvbGxhcHNlZF9sZW0uYXBwZW5kKGxlbW1hX3NlcVtqLTFdLmxvd2VyKCkpCiAgICAgICAgICAgICAgICAgICAgY29sbGFwc2VkX3Bvcy5hcHBlbmQocG9zX3NlcVtqLTFdKQoKICAgICAgICBpZiBpIG5vdCBpbiBjb2xsYXBzZWQ6CiAgICAgICAgICAgIGlmICJMUkIiIGluIHRva19zZXFbaV06CiAgICAgICAgICAgICAgICB0b2tfc2VxW2ldID0gJygnCiAgICAgICAgICAgICAgICBsZW1tYV9zZXFbaV0gPSAnKCcKICAgICAgICAgICAgZWxpZiAiUlJCIiBpbiB0b2tfc2VxW2ldOgogICAgICAgICAgICAgICAgdG9rX3NlcVtpXSA9ICcpJwogICAgICAgICAgICAgICAgbGVtbWFfc2VxW2ldID0gJyknCiAgICAgICAgICAgIGNvbGxhcHNlZF9zZXEuYXBwZW5kKHRva19zZXFbaV0ubG93ZXIoKSkKICAgICAgICAgICAgY29sbGFwc2VkX2xlbS5hcHBlbmQobGVtbWFfc2VxW2ldLmxvd2VyKCkpCiAgICAgICAgICAgIGNvbGxhcHNlZF9wb3MuYXBwZW5kKHBvc19zZXFbaV0pCgogICAgcmV0dXJuIGNvbGxhcHNlZF9zZXEsIGNvbGxhcHNlZF9sZW0sIGNvbGxhcHNlZF9wb3MsIG5ld19hbGlnbm1lbnQ=</text>
@@ -607,9 +607,9 @@
       </register>
     </registers>
     <search>
-      <last-search>inside_rule_st</last-search>
+      <last-search>addEdge</last-search>
       <last-offset />
-      <last-pattern>inside_rule_st</last-pattern>
+      <last-pattern>addEdge</last-pattern>
       <last-replace>curr_sym</last-replace>
       <last-substitute>node_label</last-substitute>
       <last-dir>1</last-dir>
@@ -839,6 +839,7 @@
         <entry>inside_tree_dec</entry>
         <entry>extract</entry>
         <entry>inside_rule_st</entry>
+        <entry>addEdge</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
