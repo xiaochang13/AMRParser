@@ -93,6 +93,13 @@
         <mark key="^" line="333" column="9" />
         <mark key="." line="333" column="9" />
       </file>
+      <file name="$USER_HOME$/SHRG-induction/alignment_utils.py" timestamp="1516209717580">
+        <mark key="'" line="347" column="23" />
+        <mark key="[" line="530" column="20" />
+        <mark key="]" line="530" column="23" />
+        <mark key="^" line="530" column="23" />
+        <mark key="." line="530" column="23" />
+      </file>
       <file name="/Library/Python/2.7/site-packages/keras/engine/topology.py" timestamp="1507572628652">
         <mark key="'" line="17" column="49" />
         <mark key="[" line="392" column="8" />
@@ -117,6 +124,11 @@
       <file name="$USER_HOME$/ConvParser/common/AMRGraph.py" timestamp="1515466512530">
         <mark key="'" line="441" column="22" />
       </file>
+      <file name="$USER_HOME$/SHRG-induction/prepareTokens.py" timestamp="1516209377643">
+        <mark key="'" line="533" column="23" />
+        <mark key="[" line="402" column="8" />
+        <mark key="]" line="403" column="67" />
+      </file>
       <file name="$USER_HOME$/data_processing/date_extraction.py" timestamp="1515442489746">
         <mark key="'" line="9" column="0" />
         <mark key="[" line="7" column="42" />
@@ -138,12 +150,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1516207071293">
-        <mark key="'" line="899" column="41" />
-        <mark key="[" line="894" column="8" />
-        <mark key="]" line="894" column="9" />
-        <mark key="^" line="894" column="9" />
-        <mark key="." line="894" column="9" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1516210120989">
+        <mark key="'" line="900" column="45" />
+        <mark key="[" line="901" column="8" />
+        <mark key="]" line="901" column="8" />
+        <mark key="^" line="901" column="8" />
+        <mark key="." line="901" column="8" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -203,8 +215,8 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516136103606">
-        <mark key="'" line="389" column="4" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1516209609364">
+        <mark key="'" line="323" column="35" />
         <mark key="[" line="531" column="37" />
         <mark key="]" line="532" column="38" />
         <mark key="^" line="532" column="38" />
@@ -260,6 +272,9 @@
         <mark key="]" line="1003" column="12" />
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
+      </file>
+      <file name="$USER_HOME$/SHRG-induction/amr_graph.py" timestamp="1516209267683">
+        <mark key="'" line="146" column="26" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1510089736605">
         <mark key="'" line="245" column="13" />
@@ -420,15 +435,6 @@
         <mark key="." line="208" column="17" />
         <mark key="^" line="208" column="17" />
       </file>
-      <file name="$USER_HOME$/data_processing/constants.py" timestamp="1515442200404">
-        <mark key="[" line="56" column="0" />
-        <mark key="]" line="56" column="0" />
-        <mark key="." line="56" column="0" />
-      </file>
-      <file name="$USER_HOME$/data_processing/preprocess.py" timestamp="1515365784801">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="29" column="24" />
-      </file>
       <file name="$USER_HOME$/data_processing/Aligner.py" timestamp="1515655655306">
         <mark key="'" line="23" column="0" />
         <mark key="[" line="687" column="30" />
@@ -436,38 +442,15 @@
         <mark key="^" line="7" column="0" />
         <mark key="." line="813" column="127" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1516206773901">
-        <mark key="'" line="471" column="40" />
-        <mark key="[" line="1" column="0" />
-        <mark key="]" line="1" column="0" />
-        <mark key="^" line="830" column="49" />
-        <mark key="." line="1" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1516210127218">
+        <mark key="'" line="523" column="70" />
+        <mark key="[" line="527" column="33" />
+        <mark key="]" line="527" column="35" />
+        <mark key="^" line="527" column="35" />
+        <mark key="." line="527" column="35" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="161" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="177" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="182" column="26" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="339" column="38" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="340" column="22" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="342" column="23" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="492" column="57" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="524" column="45" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="525" column="75" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="363" column="39" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="1094" column="42" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="1056" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="1122" column="13" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="382" column="45" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="35" column="15" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1130" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="24" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="503" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="11" column="0" filename="$USER_HOME$/data_processing/date_extraction.py" />
-      <jump line="532" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="385" column="29" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="527" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="347" column="23" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="386" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="390" column="23" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="496" column="30" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -545,59 +528,88 @@
       <jump line="899" column="41" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="261" column="27" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="254" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="474" column="20" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
+      <jump line="533" column="23" filename="$USER_HOME$/SHRG-induction/prepareTokens.py" />
+      <jump line="146" column="26" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
+      <jump line="484" column="20" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
+      <jump line="339" column="60" filename="$USER_HOME$/SHRG-induction/alignment_utils.py" />
+      <jump line="497" column="30" filename="$USER_HOME$/SHRG-induction/alignment_utils.py" />
+      <jump line="537" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="196" column="11" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="205" column="30" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="323" column="35" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="323" column="35" filename="$USER_HOME$/SHRG-induction/alignment_utils.py" />
+      <jump line="502" column="37" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
+      <jump line="346" column="4" filename="$USER_HOME$/SHRG-induction/alignment_utils.py" />
+      <jump line="387" column="32" filename="$USER_HOME$/SHRG-induction/alignment_utils.py" />
+      <jump line="391" column="23" filename="$USER_HOME$/SHRG-induction/alignment_utils.py" />
+      <jump line="498" column="31" filename="$USER_HOME$/SHRG-induction/alignment_utils.py" />
+      <jump line="499" column="32" filename="$USER_HOME$/SHRG-induction/alignment_utils.py" />
+      <jump line="530" column="24" filename="$USER_HOME$/SHRG-induction/alignment_utils.py" />
+      <jump line="347" column="23" filename="$USER_HOME$/SHRG-induction/alignment_utils.py" />
+      <jump line="386" column="31" filename="$USER_HOME$/SHRG-induction/alignment_utils.py" />
+      <jump line="1076" column="9" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="900" column="45" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="523" column="70" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ZGVmIHNpbWlsYXJUb2soY3Vycl92YXIsIHRvayk6CiAgICBpZiBjdXJyX3ZhciA9PSB0b2s6CiAgICAgICAgcmV0dXJuIFRydWUKICAgIHZhcl9sZW4gPSBsZW4oY3Vycl92YXIpCiAgICB0b2tfbGVuID0gbGVuKHRvaykKICAgIGlmIHZhcl9sZW4gPiAzIGFuZCB0b2tfbGVuID4gMyBhbmQgdG9rWzo0XSA9PSBjdXJyX3Zhcls6NF06CiAgICAgICAgcmV0dXJuIFRydWUKICAgIGlmIGlzTnVtKHRvaykgYW5kIHRvayBpbiBjdXJyX3ZhcjoKICAgICAgICByZXR1cm4gVHJ1ZQogICAgaWYgaXNOdW0oY3Vycl92YXIpIGFuZCBjdXJyX3ZhciBpbiB0b2s6CiAgICAgICAgcmV0dXJuIFRydWUK</text>
+        <text>toks</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IyA=</text>
+        <text>toks</text>
       </register>
       <register name="/" type="4">
-        <text>similarTok</text>
+        <text>multi_map</text>
       </register>
       <register name="0" type="4">
-        <text>(category, subgraph_repr)</text>
+        <text># Initialize the alignment
+        node_alignment, _ = alignment_utils.initializeAlignment(amr)</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">ZGVmIHNpbWlsYXJUb2soY3Vycl92YXIsIHRvayk6CiAgICBpZiBjdXJyX3ZhciA9PSB0b2s6CiAgICAgICAgcmV0dXJuIFRydWUKICAgIHZhcl9sZW4gPSBsZW4oY3Vycl92YXIpCiAgICB0b2tfbGVuID0gbGVuKHRvaykKICAgIGlmIHZhcl9sZW4gPiAzIGFuZCB0b2tfbGVuID4gMyBhbmQgdG9rWzo0XSA9PSBjdXJyX3Zhcls6NF06CiAgICAgICAgcmV0dXJuIFRydWUKICAgIGlmIGlzTnVtKHRvaykgYW5kIHRvayBpbiBjdXJyX3ZhcjoKICAgICAgICByZXR1cm4gVHJ1ZQogICAgaWYgaXNOdW0oY3Vycl92YXIpIGFuZCBjdXJyX3ZhciBpbiB0b2s6CiAgICAgICAgcmV0dXJuIFRydWUK</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>unaligned_toks = set(xrange(len(pos_seq))) - aligned_toks
+    verb_map = {}</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGFsaWdubWVudF91dGlscy5vdXRwdXRFZGdlQWxpZ25tZW50KHRva19zZXEsIGFtciwgZWRnZV90b190b2tzLCB0b2sycmVscykK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgI2hhc19jeWNsZSA9IFRydWUK</text>
+        <text encoding="base64">ICAgIG5ld19hbXIuc2V0U3RhdHMoYW1yX3N0YXRpc3RpY3MpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjaGFzX2N5Y2xlID0gRmFsc2UK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIHByaW50IHN0cihhbXIpCg==</text>
+        <text encoding="base64">ICAgIG5vX2FsaWdubWVudCA9IEZhbHNlCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="7" type="4">
+        <text>try:
+        new_amr, _, span_to_type = AMRGraph.collapsedAmr(amr, all_alignments, tok_seq, pos_seq, unaligned_toks,
+                                    verb_map, nodeid_to_frag, 30, 30)
+    except:
+        print 'problematic case here:', str(amr)
+        return None</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text># if sent_index not in messed_sents:
-        #     continue</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>similarTok</last-search>
+      <last-search>multi_map</last-search>
       <last-offset />
-      <last-pattern>similarTok</last-pattern>
+      <last-pattern>multi_map</last-pattern>
       <last-replace>curr_sym</last-replace>
       <last-substitute>node_label</last-substitute>
       <last-dir>1</last-dir>
@@ -785,7 +797,6 @@
         <entry>edge_to_toks</entry>
         <entry>MULT</entry>
         <entry>NUMBER</entry>
-        <entry>multi_map</entry>
         <entry>verb_map</entry>
         <entry encoding="base64">XDxhc3NlcnRcPg==</entry>
         <entry>node2</entry>
@@ -809,6 +820,11 @@
         <entry>new_amr</entry>
         <entry>amr_statistics</entry>
         <entry>similarTok</entry>
+        <entry>set_le</entry>
+        <entry>all_sym</entry>
+        <entry>allSymbols</entry>
+        <entry>decades</entry>
+        <entry>multi_map</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
@@ -837,7 +853,6 @@
         <entry>501</entry>
         <entry>%s/sent_index/sent_idx/g</entry>
         <entry>set noic</entry>
-        <entry>1</entry>
         <entry>393</entry>
         <entry>504</entry>
         <entry>514</entry>
@@ -850,6 +865,7 @@
         <entry>%s/node_index/node_idx/g</entry>
         <entry>%s/_index/_idx/g</entry>
         <entry>%s/node_label/curr_sym/g</entry>
+        <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
