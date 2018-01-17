@@ -399,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516207134717">
-        <mark key="'" line="375" column="4" />
-        <mark key="[" line="745" column="0" />
-        <mark key="]" line="745" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516207874188">
+        <mark key="'" line="254" column="4" />
+        <mark key="[" line="254" column="0" />
+        <mark key="]" line="254" column="0" />
         <mark key="^" line="679" column="4" />
-        <mark key="." line="745" column="0" />
+        <mark key="." line="254" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -445,8 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="523" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="465" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="161" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="177" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="182" column="26" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -545,22 +543,24 @@
       <jump line="445" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="918" column="64" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="899" column="41" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="261" column="27" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="254" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">ZGVmIHNpbWlsYXJUb2soY3Vycl92YXIsIHRvayk6CiAgICBpZiBjdXJyX3ZhciA9PSB0b2s6CiAgICAgICAgcmV0dXJuIFRydWUKICAgIHZhcl9sZW4gPSBsZW4oY3Vycl92YXIpCiAgICB0b2tfbGVuID0gbGVuKHRvaykKICAgIGlmIHZhcl9sZW4gPiAzIGFuZCB0b2tfbGVuID4gMyBhbmQgdG9rWzo0XSA9PSBjdXJyX3Zhcls6NF06CiAgICAgICAgcmV0dXJuIFRydWUKICAgIGlmIGlzTnVtKHRvaykgYW5kIHRvayBpbiBjdXJyX3ZhcjoKICAgICAgICByZXR1cm4gVHJ1ZQogICAgaWYgaXNOdW0oY3Vycl92YXIpIGFuZCBjdXJyX3ZhciBpbiB0b2s6CiAgICAgICAgcmV0dXJuIFRydWUK</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
-        <text>amr_statistics</text>
+        <text>similarTok</text>
       </register>
       <register name="0" type="4">
         <text>(category, subgraph_repr)</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">ZGVmIHNpbWlsYXJUb2soY3Vycl92YXIsIHRvayk6CiAgICBpZiBjdXJyX3ZhciA9PSB0b2s6CiAgICAgICAgcmV0dXJuIFRydWUKICAgIHZhcl9sZW4gPSBsZW4oY3Vycl92YXIpCiAgICB0b2tfbGVuID0gbGVuKHRvaykKICAgIGlmIHZhcl9sZW4gPiAzIGFuZCB0b2tfbGVuID4gMyBhbmQgdG9rWzo0XSA9PSBjdXJyX3Zhcls6NF06CiAgICAgICAgcmV0dXJuIFRydWUKICAgIGlmIGlzTnVtKHRvaykgYW5kIHRvayBpbiBjdXJyX3ZhcjoKICAgICAgICByZXR1cm4gVHJ1ZQogICAgaWYgaXNOdW0oY3Vycl92YXIpIGFuZCBjdXJyX3ZhciBpbiB0b2s6CiAgICAgICAgcmV0dXJuIFRydWUK</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -569,35 +569,35 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgI2hhc19jeWNsZSA9IFRydWUK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAjaGFzX2N5Y2xlID0gRmFsc2UK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjIHByaW50IHN0cihhbXIpCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgI2hhc19jeWNsZSA9IFRydWUK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAjaGFzX2N5Y2xlID0gRmFsc2UK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAjIHByaW50IHN0cihhbXIpCg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="4">
         <text># if sent_index not in messed_sents:
         #     continue</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>amr_statistics</last-search>
+      <last-search>similarTok</last-search>
       <last-offset />
-      <last-pattern>amr_statistics</last-pattern>
+      <last-pattern>similarTok</last-pattern>
       <last-replace>curr_sym</last-replace>
       <last-substitute>node_label</last-substitute>
       <last-dir>1</last-dir>
@@ -808,6 +808,7 @@
         <entry>phrase_to_concept</entry>
         <entry>new_amr</entry>
         <entry>amr_statistics</entry>
+        <entry>similarTok</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
