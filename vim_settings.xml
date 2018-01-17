@@ -399,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516162459992">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516164026053">
         <mark key="'" line="548" column="71" />
-        <mark key="[" line="25" column="24" />
-        <mark key="]" line="25" column="28" />
-        <mark key="^" line="25" column="28" />
-        <mark key="." line="25" column="28" />
+        <mark key="[" line="27" column="41" />
+        <mark key="]" line="27" column="48" />
+        <mark key="^" line="27" column="48" />
+        <mark key="." line="27" column="48" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -547,11 +547,11 @@
       <jump line="548" column="71" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICNhbGlnbmVkX3Rva3MgPSBzZXQoKQo=</text>
+      <register name="&quot;" type="4">
+        <text>_</text>
       </register>
       <register name="-" type="4">
-        <text>(curr_symbol, wiki_label)</text>
+        <text>_</text>
       </register>
       <register name="/" type="4">
         <text>_index</text>
