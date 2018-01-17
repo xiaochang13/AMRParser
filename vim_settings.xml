@@ -146,8 +146,8 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1516218069690">
-        <mark key="'" line="954" column="39" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1516219510233">
+        <mark key="'" line="957" column="0" />
         <mark key="[" line="926" column="0" />
         <mark key="]" line="926" column="0" />
         <mark key="^" line="901" column="8" />
@@ -268,12 +268,12 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amr_graph.py" timestamp="1516218223347">
-        <mark key="'" line="936" column="28" />
-        <mark key="[" line="1081" column="52" />
-        <mark key="]" line="1081" column="55" />
-        <mark key="." line="1081" column="55" />
-        <mark key="^" line="1081" column="55" />
+      <file name="$USER_HOME$/SHRG-induction/amr_graph.py" timestamp="1516219695151">
+        <mark key="'" line="898" column="28" />
+        <mark key="[" line="397" column="16" />
+        <mark key="]" line="397" column="16" />
+        <mark key="^" line="1043" column="55" />
+        <mark key="." line="397" column="16" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1510089736605">
         <mark key="'" line="245" column="13" />
@@ -450,7 +450,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="526" column="26" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="792" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="797" column="19" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="840" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -550,71 +549,67 @@
       <jump line="240" column="52" filename="$USER_HOME$/SHRG-induction/alignment_utils.py" />
       <jump line="734" column="20" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="936" column="28" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
+      <jump line="957" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>NER</text>
+        <text>#ret_var = SURF + ('%d' % self.var_index)
+                #self.var_index += 1</text>
       </register>
       <register name="-" type="4">
         <text>NER</text>
       </register>
       <register name="/" type="4">
-        <text>extract</text>
+        <text>inside_rule_st</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">ZGVmIGNvbGxhcHNlVG9rZW5zKHRva19zZXEsIGxlbW1hX3NlcSwgcG9zX3NlcSwgc3Bhbl90b190eXBlLCBpc1RyYWluPVRydWUpOgogICAgbl90b2tzID0gbGVuKHRva19zZXEpCiAgICBjb2xsYXBzZWQgPSBzZXQoKQoKICAgIG5ld19hbGlnbm1lbnQgPSBkZWZhdWx0ZGljdChsaXN0KQogICAgY29sbGFwc2VkX3NlcSA9IFtdCiAgICBjb2xsYXBzZWRfbGVtID0gW10KICAgIGNvbGxhcHNlZF9wb3MgPSBbXQogICAgZm9yIGkgaW4geHJhbmdlKG5fdG9rcyk6CiAgICAgICAgaWYgaSBpbiBjb2xsYXBzZWQ6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgZm9yIGogaW4geHJhbmdlKGkrMSwgbl90b2tzKzEpOgogICAgICAgICAgICBpZiAoaSwgaikgaW4gc3Bhbl90b190eXBlOgogICAgICAgICAgICAgICAgbm9kZV9pZHgsIHN1YmdyYXBoX3JlcHIsIGN1cnJfc3ltID0gc3Bhbl90b190eXBlWyhpLCBqKV0KICAgICAgICAgICAgICAgIGNvbGxhcHNlZCB8PSBzZXQoeHJhbmdlKGksIGopKQogICAgICAgICAgICAgICAgY3Vycl9pZHggPSBsZW4oY29sbGFwc2VkX3NlcSkKICAgICAgICAgICAgICAgIG5ld19hbGlnbm1lbnRbbm9kZV9pZHhdLmFwcGVuZCgoY3Vycl9pZHgsIGN1cnJfaWR4KzEsIE5vbmUpKQogICAgICAgICAgICAgICAgaWYgJ05FXycgaW4gY3Vycl9zeW0gb3IgJ0RBVEUnIGluIGN1cnJfc3ltIG9yICdOVU1CRVInIGluIGN1cnJfc3ltIG9yIGN1cnJfc3ltID09ICJORSI6CiAgICAgICAgICAgICAgICAgICAgaWYgIk5FXyIgaW4gY3Vycl9zeW06CiAgICAgICAgICAgICAgICAgICAgICAgIHJkID0gcmFuZG9tLnJhbmRvbSgpCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIHJkID49IDAuOSBhbmQgaXNUcmFpbjoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1cnJfc3ltID0gIk5FIgogICAgICAgICAgICAgICAgICAgIGNvbGxhcHNlZF9zZXEuYXBwZW5kKGN1cnJfc3ltKQogICAgICAgICAgICAgICAgICAgIGNvbGxhcHNlZF9sZW0uYXBwZW5kKGN1cnJfc3ltKQogICAgICAgICAgICAgICAgICAgIGlmICdORScgaW4gY3Vycl9zeW06CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbGxhcHNlZF9wb3MuYXBwZW5kKCdORScpCiAgICAgICAgICAgICAgICAgICAgZWxpZiAnREFURScgaW4gY3Vycl9zeW06CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbGxhcHNlZF9wb3MuYXBwZW5kKCdEQVRFJykKICAgICAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgICAgICBjb2xsYXBzZWRfcG9zLmFwcGVuZCgnTlVNQkVSJykKICAgICAgICAgICAgICAgIGVsaWYgaiAtIGkgPiAxOgogICAgICAgICAgICAgICAgICAgIGNvbGxhcHNlZF9zZXEuYXBwZW5kKCdAJy5qb2luKHRva19zZXFbaTpqXSkubG93ZXIoKSkKICAgICAgICAgICAgICAgICAgICBjb2xsYXBzZWRfbGVtLmFwcGVuZCgnQCcuam9pbihsZW1tYV9zZXFbaTpqXSkubG93ZXIoKSkKICAgICAgICAgICAgICAgICAgICBjb2xsYXBzZWRfcG9zLmFwcGVuZCgnUEhSQVNFJykKICAgICAgICAgICAgICAgIGVsc2U6CgogICAgICAgICAgICAgICAgICAgIGNvbGxhcHNlZF9zZXEuYXBwZW5kKHRva19zZXFbai0xXS5sb3dlcigpKQogICAgICAgICAgICAgICAgICAgIGNvbGxhcHNlZF9sZW0uYXBwZW5kKGxlbW1hX3NlcVtqLTFdLmxvd2VyKCkpCiAgICAgICAgICAgICAgICAgICAgY29sbGFwc2VkX3Bvcy5hcHBlbmQocG9zX3NlcVtqLTFdKQoKICAgICAgICBpZiBpIG5vdCBpbiBjb2xsYXBzZWQ6CiAgICAgICAgICAgIGlmICJMUkIiIGluIHRva19zZXFbaV06CiAgICAgICAgICAgICAgICB0b2tfc2VxW2ldID0gJygnCiAgICAgICAgICAgICAgICBsZW1tYV9zZXFbaV0gPSAnKCcKICAgICAgICAgICAgZWxpZiAiUlJCIiBpbiB0b2tfc2VxW2ldOgogICAgICAgICAgICAgICAgdG9rX3NlcVtpXSA9ICcpJwogICAgICAgICAgICAgICAgbGVtbWFfc2VxW2ldID0gJyknCiAgICAgICAgICAgIGNvbGxhcHNlZF9zZXEuYXBwZW5kKHRva19zZXFbaV0ubG93ZXIoKSkKICAgICAgICAgICAgY29sbGFwc2VkX2xlbS5hcHBlbmQobGVtbWFfc2VxW2ldLmxvd2VyKCkpCiAgICAgICAgICAgIGNvbGxhcHNlZF9wb3MuYXBwZW5kKHBvc19zZXFbaV0pCgogICAgcmV0dXJuIGNvbGxhcHNlZF9zZXEsIGNvbGxhcHNlZF9sZW0sIGNvbGxhcHNlZF9wb3MsIG5ld19hbGlnbm1lbnQ=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>#ret_var = SURF + ('%d' % self.var_index)
+                #self.var_index += 1</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">ZGVmIHVwZGF0ZV9zdGF0cyhzZWxmLCBjb25jZXB0VG9PdXRHbywgY29uY2VwdFRvSW5jb21lLCBmcmVxdWVudF9zZXQsIGNvbmNlcHRfY291bnRzLCByZWxjb3VudHMpOgoKICAgICAgICBkZWYgZ2V0Q2F0ZWdvcnkob2xkX2xhYmVsLCBjdXJyX25vZGUpOgogICAgICAgICAgICBpZiBvbGRfbGFiZWwgaW4gZnJlcXVlbnRfc2V0OgogICAgICAgICAgICAgICAgY3Vycl9sYWJlbCA9IG9sZF9sYWJlbAogICAgICAgICAgICBlbGlmIG9sZF9sYWJlbCA9PSAnTkUnIG9yICdORV8nIGluIG9sZF9sYWJlbDoKICAgICAgICAgICAgICAgIGN1cnJfbGFiZWwgPSAiTkUiCiAgICAgICAgICAgIGVsaWYgb2xkX2xhYmVsID09ICdWQl9WRVJCJzoKICAgICAgICAgICAgICAgIGN1cnJfbGFiZWwgPSAnVkJfVkVSQicKICAgICAgICAgICAgZWxpZiAnVkJfJyBpbiBvbGRfbGFiZWw6CiAgICAgICAgICAgICAgICBjdXJyX2xhYmVsID0gIlZCX05PVU4iCiAgICAgICAgICAgIGVsaWYgb2xkX2xhYmVsIGluIGNvbnN0YW50X3N5bWJvbHMgb3IgaXNTcGVjaWFsKG9sZF9sYWJlbCk6CiAgICAgICAgICAgICAgICBjdXJyX2xhYmVsID0gb2xkX2xhYmVsCiAgICAgICAgICAgIGVsaWYgc2VsZi5pc19wcmVkaWNhdGUoY3Vycl9ub2RlKToKICAgICAgICAgICAgICAgIGN1cnJfbGFiZWwgPSAiUFJFRC0wMSIKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGN1cnJfbGFiZWwgPSAiT1RIRVIiCiAgICAgICAgICAgIHJldHVybiBjdXJyX2xhYmVsCgogICAgICAgIHZpc2l0ZWRfbm9kZXMgPSBzZXQoKQogICAgICAgIHNlcXVlbmNlID0gW10KICAgICAgICBzdGFjayA9IFsoc2VsZi5yb290LCBOb25lLCAwLCBGYWxzZSldCgogICAgICAgIHdoaWxlIHN0YWNrOgogICAgICAgICAgICBjdXJyX25vZGVfaWR4LCBwYXJfcmVsLCBkZXB0aCwgaXNfY29yZWYgPSBzdGFjay5wb3AoKQogICAgICAgICAgICBpZiBpc19jb3JlZjoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICB2aXNpdGVkX25vZGVzLmFkZChjdXJyX25vZGVfaWR4KQogICAgICAgICAgICBjdXJyX25vZGUgPSBzZWxmLm5vZGVzW2N1cnJfbm9kZV9pZHhdCiAgICAgICAgICAgIGN1cnJfbGFiZWwgPSBjdXJyX25vZGUubm9kZV9zdHIoKQoKICAgICAgICAgICAgY29uY2VwdF9jb3VudHNbY3Vycl9sYWJlbF0gKz0gMQoKICAgICAgICAgICAgaWYgbGVuKGN1cnJfbm9kZS52X2VkZ2VzKSA+IDA6CiAgICAgICAgICAgICAgICBmb3IgZWRnZV9pbmRleCBpbiByZXZlcnNlZChjdXJyX25vZGUudl9lZGdlcyk6ICAjZGVwdGggZmlyc3Qgc2VhcmNoCiAgICAgICAgICAgICAgICAgICAgY3Vycl9lZGdlID0gc2VsZi5lZGdlc1tlZGdlX2luZGV4XQogICAgICAgICAgICAgICAgICAgIGN1cnJfcmVsID0gY3Vycl9lZGdlLmxhYmVsCgogICAgICAgICAgICAgICAgICAgIHJlbGNvdW50c1tjdXJyX3JlbF0gKz0gMQogICAgICAgICAgICAgICAgICAgIGNoaWxkX2luZGV4ID0gY3Vycl9lZGdlLnRhaWwKCiAgICAgICAgICAgICAgICAgICAgY2hpbGRfbm9kZSA9IHNlbGYubm9kZXNbY2hpbGRfaW5kZXhdCiAgICAgICAgICAgICAgICAgICAgY2hpbGRfbGFiZWwgPSBjaGlsZF9ub2RlLm5vZGVfc3RyKCkKCiAgICAgICAgICAgICAgICAgICAgY3Vycl9jYXRlZ29yeSA9IGdldENhdGVnb3J5KGN1cnJfbGFiZWwsIGN1cnJfbm9kZSkKCiAgICAgICAgICAgICAgICAgICAgaWYgY3Vycl9jYXRlZ29yeSBub3QgaW4gY29uY2VwdFRvT3V0R286CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbmNlcHRUb091dEdvW2N1cnJfY2F0ZWdvcnldID0gZGVmYXVsdGRpY3QoaW50KQogICAgICAgICAgICAgICAgICAgIGNvbmNlcHRUb091dEdvW2N1cnJfY2F0ZWdvcnldW2N1cnJfcmVsXSArPSAxCgogICAgICAgICAgICAgICAgICAgIGNoaWxkX2NhdGVnb3J5ID0gZ2V0Q2F0ZWdvcnkoY2hpbGRfbGFiZWwsIGNoaWxkX25vZGUpCgogICAgICAgICAgICAgICAgICAgIGlmIGNoaWxkX2NhdGVnb3J5IG5vdCBpbiBjb25jZXB0VG9JbmNvbWU6CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbmNlcHRUb0luY29tZVtjaGlsZF9jYXRlZ29yeV0gPSBkZWZhdWx0ZGljdChpbnQpCiAgICAgICAgICAgICAgICAgICAgY29uY2VwdFRvSW5jb21lW2NoaWxkX2NhdGVnb3J5XVtjdXJyX3JlbF0gKz0gMQoKICAgICAgICAgICAgICAgICAgICBpZiBub3QgY3Vycl9lZGdlLmlzX2NvcmVmOgogICAgICAgICAgICAgICAgICAgICAgICBzdGFjay5hcHBlbmQoKGNoaWxkX2luZGV4LCBjdXJyX3JlbCwgZGVwdGgrMSwgRmFsc2UpKQogICAgICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgICAgIHN0YWNrLmFwcGVuZCgoY2hpbGRfaW5kZXgsIGN1cnJfcmVsLCBkZXB0aCsxLCBUcnVlKSkKICAgICAgICByZXR1cm4gc2VxdWVuY2U=</text>
+        <text>#if node_idx in verb_map:
+                #    ex_rels = self.findMatch(curr_node, verb_map[node_idx])
+                #    ret_var = 'SURF_VERBAL'
+                #    return ex_rels, ret_var, True</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="5" type="4">
-        <text>if curr_edge.label in exclude_rels:
-                visited.add(child_index)
-                if curr_edge.label != 'name':
-                    tail_node = amr.nodes[child_index]
-                    for next_edge_index in reversed(tail_node.v_edges):
-                        next_edge = amr.edges[next_edge_index]
-                        next_child_index = next_edge.tail
-                        edge_map[curr_node_index].add(next_child_index)
-                        edge_map[next_child_index].add(curr_node_index)
-                        edge_labels[(curr_node_index, next_child_index)] = next_edge.label
-                        edge_list.append((curr_node_index, child_index))
-
-                        stack.append((next_child_index, next_edge.label, curr_node_index, unaligned))
-                continue</text>
+        <text>#if node_idx in verb_map:
+                #    ex_rels = self.findMatch(curr_node, verb_map[node_idx])
+                #    ret_var = curr_var + '_VERBAL'
+                #    return ex_rels, ret_var, True</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjYXNzZXJ0IEZhbHNlCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICNpZiAnVkVSQkFMJyBpbiBjdXJfc3ltYm9sOiAjTWlnaHQgaGF2ZSBvdGhlciByZWxhdGlvbnMK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">I2VsaWYgc2VsZi5pc19wcmVkaWNhdGUoY3Vycl9ub2RlKToKICAgICAgICAjICAgIGlmIHNlbGYuc3RhdHMubnVtX3ByZWRpY2F0ZXNbY3Vycl92YXJdID49IHByZWRfZnJlcV90aHJlOgogICAgICAgICMgICAgICAgICNpZiBub2RlX2lkeCBpbiB2ZXJiX21hcDoKICAgICAgICAjICAgICAgICAjICAgIGV4X3JlbHMgPSBzZWxmLmZpbmRNYXRjaChjdXJyX25vZGUsIHZlcmJfbWFwW25vZGVfaWR4XSkKICAgICAgICAjICAgICAgICAjICAgIHJldF92YXIgPSBjdXJyX3ZhciArICdfVkVSQkFMJwogICAgICAgICMgICAgICAgICMgICAgcmV0dXJuIGV4X3JlbHMsIHJldF92YXIsIFRydWUKICAgICAgICAjICAgICAgICByZXRfdmFyID0gY3Vycl92YXIKICAgICAgICAjICAgICAgICBjYXRlZ29yaXplZCA9IEZhbHNlCiAgICAgICAgIyAgICAgICAgY3Vycl9mcmFnID0gc2VsZi5idWlsZF9lbnRpdHlfZnJhZ21lbnQoY3Vycl9ub2RlKQogICAgICAgICMgICAgZWxzZToKICAgICAgICAjICAgICAgICAjaWYgbm9kZV9pZHggaW4gdmVyYl9tYXA6CiAgICAgICAgIyAgICAgICAgIyAgICBleF9yZWxzID0gc2VsZi5maW5kTWF0Y2goY3Vycl9ub2RlLCB2ZXJiX21hcFtub2RlX2lkeF0pCiAgICAgICAgIyAgICAgICAgIyAgICByZXRfdmFyID0gJ1ZFUkJBTCcKICAgICAgICAjICAgICAgICAjICAgIHJldHVybiBleF9yZWxzLCByZXRfdmFyLCBUcnVlCiAgICAgICAgIyAgICAgICAgcmV0X3ZhciA9IFZFUkIKICAgICAgICAjICAgICAgICBjdXJyX2ZyYWcgPSBzZWxmLmJ1aWxkX2VudGl0eV9mcmFnbWVudChjdXJyX25vZGUpCgogICAgICAgICMgICAgICAgIGNhdGVnb3JpemVkID0gVHJ1ZQogICAgICAgICMgICAgcmV0dXJuIGN1cnJfZnJhZywgW10sIHJldF92YXIsIGNhdGVnb3JpemVkCiAgICAgICAgI2VsaWYgc2VsZi5pc19jb25zdChjdXJyX25vZGUpOgogICAgICAgICMgICAgY3Vycl9mcmFnID0gc2VsZi5idWlsZF9lbnRpdHlfZnJhZ21lbnQoY3Vycl9ub2RlKQogICAgICAgICMgICAgI2lmIGN1cnJfdmFyIGluIFsnaW50ZXJyb2dhdGl2ZScsICdpbXBlcmF0aXZlJywgJ2V4cHJlc3NpdmUnLCAnLSddOgogICAgICAgICMgICAgaWYgVHJ1ZToKICAgICAgICAjICAgICAgICByZXR1cm4gY3Vycl9mcmFnLCBbXSwgY3Vycl92YXIsIEZhbHNlCiAgICAgICAgIyAgICBlbHNlOgogICAgICAgICMgICAgICAgIHJldF92YXIgPSBDT05TVAoKICAgICAgICAjICAgICAgICByZXR1cm4gY3Vycl9mcmFnLCBbXSwgcmV0X3ZhciwgVHJ1ZQ==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpID0gMAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>extract</last-search>
+      <last-search>inside_rule_st</last-search>
       <last-offset />
-      <last-pattern>extract</last-pattern>
+      <last-pattern>inside_rule_st</last-pattern>
       <last-replace>curr_sym</last-replace>
       <last-substitute>node_label</last-substitute>
       <last-dir>1</last-dir>
@@ -843,6 +838,7 @@
         <entry>set_node</entry>
         <entry>inside_tree_dec</entry>
         <entry>extract</entry>
+        <entry>inside_rule_st</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
