@@ -399,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516157453439">
-        <mark key="'" line="528" column="12" />
-        <mark key="[" line="524" column="55" />
-        <mark key="]" line="524" column="56" />
-        <mark key="^" line="474" column="32" />
-        <mark key="." line="524" column="56" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516158661765">
+        <mark key="'" line="524" column="48" />
+        <mark key="[" line="528" column="23" />
+        <mark key="]" line="528" column="25" />
+        <mark key="^" line="528" column="25" />
+        <mark key="." line="528" column="25" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -537,7 +537,6 @@
       <jump line="454" column="32" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="389" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="807" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="524" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="395" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="526" column="26" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="792" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -545,13 +544,14 @@
       <jump line="840" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="883" column="16" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="528" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="524" column="48" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>curr_symbol</text>
       </register>
       <register name="-" type="4">
-        <text>=</text>
+        <text>curr_symbol</text>
       </register>
       <register name="/" type="4">
         <text>node_index</text>
