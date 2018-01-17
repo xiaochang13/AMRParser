@@ -31,12 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516136252258">
-        <mark key="'" line="832" column="27" />
-        <mark key="[" line="844" column="31" />
-        <mark key="]" line="844" column="31" />
-        <mark key="." line="844" column="31" />
-        <mark key="^" line="844" column="28" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516152191757">
+        <mark key="'" line="840" column="8" />
+        <mark key="[" line="781" column="0" />
+        <mark key="]" line="781" column="0" />
+        <mark key="^" line="832" column="28" />
+        <mark key="." line="781" column="0" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -399,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516137198998">
-        <mark key="'" line="454" column="32" />
-        <mark key="[" line="473" column="0" />
-        <mark key="]" line="474" column="32" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516152018813">
+        <mark key="'" line="526" column="26" />
+        <mark key="[" line="524" column="55" />
+        <mark key="]" line="524" column="56" />
         <mark key="^" line="474" column="32" />
-        <mark key="." line="474" column="32" />
+        <mark key="." line="524" column="56" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -445,12 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="345" column="59" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="381" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="384" column="94" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="477" column="99" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="483" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="501" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="841" column="15" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="460" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="520" column="51" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -521,7 +515,6 @@
       <jump line="893" column="66" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="891" column="28" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="888" column="37" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="807" column="97" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="898" column="32" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="897" column="15" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="882" column="25" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -545,61 +538,70 @@
       <jump line="635" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="454" column="32" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="389" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="807" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="524" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="395" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="526" column="26" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="792" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="797" column="19" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="840" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>=</text>
       </register>
       <register name="/" type="4">
-        <text>NEG</text>
+        <text>span_to</text>
       </register>
       <register name="0" type="4">
         <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text>#except:
-        #    print 'problematic case here:', sent_idx
-        #    print str(amr)
-        #    sys.exit(1)</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjIHRyeToK</text>
-      </register>
-      <register name="4" type="8">
-        <text encoding="base64">IyAKIyA=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsb2dnZXIud3JpdGVsbigpCg==</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">IyBpZiAobm90ICgnTkUnIGluIGNhdGVnb3J5IG9yICdEQVRFJyBpbiBjYXRlZ29yeSBvciAnTlVNQkVSJyA9PSBjYXRlZ29yeSkpIGFuZCBlbmQgLSBzdGFydCA+IDE6CiAgICAgICAgICAgICAgICAgICAgIyAgICAgY3Vycl9waHJhc2UgPSAnQCcuam9pbihsZW1tYV9zZXFbc3RhcnQ6ZW5kXSkKICAgICAgICAgICAgICAgICAgICAjICAgICBpZiBjdXJyX3BocmFzZSBpbiBwaHJhc2VzOgogICAgICAgICAgICAgICAgICAgICMgICAgICAgICBjdXJfc3ltYm9sID0gJ1BIUkFTRScKICAgICAgICAgICAgICAgICAgICAjICAgICAgICAgd2lraV9sYWJlbCA9IGN1cnJfdmFy</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="4">
+        <text>#if curr_label == 'establish-01':
+                    #    print curr_label, curr_category
+                    #    sys.exit(1)</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjbGFiZWxUb1JlbHNbb2xkX2xhYmVsXVtjdXJyX3JlbF0gKz0gMQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb2xsYXBzZWQuYWRkKGNoaWxkX2luZGV4KQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="9" type="8">
-        <text encoding="base64">IyAKIyAKIyAKIyA=</text>
+      <register name="9" type="4">
+        <text>old_label = curr_label
+
+            #if old_label not in labelToRels:
+            #    labelToRels[old_label] = defaultdict(int)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>NEG</last-search>
+      <last-search>span_to</last-search>
       <last-offset />
-      <last-pattern>NEG</last-pattern>
+      <last-pattern>span_to</last-pattern>
       <last-replace>sent_idx</last-replace>
       <last-substitute>sent_index</last-substitute>
       <last-dir>1</last-dir>
@@ -800,6 +802,8 @@
         <entry>node_oldtonew</entry>
         <entry>visited</entry>
         <entry>NEG</entry>
+        <entry>conceptToOutGo</entry>
+        <entry>span_to</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
