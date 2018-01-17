@@ -31,12 +31,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516157439636">
-        <mark key="'" line="883" column="16" />
-        <mark key="[" line="781" column="0" />
-        <mark key="]" line="781" column="0" />
-        <mark key="^" line="832" column="28" />
-        <mark key="." line="781" column="0" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516166930789">
+        <mark key="'" line="865" column="46" />
+        <mark key="[" line="884" column="76" />
+        <mark key="]" line="884" column="83" />
+        <mark key="^" line="884" column="83" />
+        <mark key="." line="884" column="83" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -399,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516164026053">
-        <mark key="'" line="548" column="71" />
-        <mark key="[" line="27" column="41" />
-        <mark key="]" line="27" column="48" />
-        <mark key="^" line="27" column="48" />
-        <mark key="." line="27" column="48" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516167690821">
+        <mark key="'" line="563" column="38" />
+        <mark key="[" line="564" column="0" />
+        <mark key="]" line="564" column="0" />
+        <mark key="^" line="548" column="39" />
+        <mark key="." line="564" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -445,16 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="552" column="29" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="366" column="15" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="405" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="452" column="40" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="895" column="29" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="419" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="14" column="0" filename="$USER_HOME$/data_processing/date_extraction.py" />
-      <jump line="498" column="27" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="438" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1102" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1095" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1120" column="55" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="21" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -537,7 +527,6 @@
       <jump line="792" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="797" column="19" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="840" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="883" column="16" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="528" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="524" column="48" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="20" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -545,22 +534,33 @@
       <jump line="26" column="31" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="603" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="548" column="71" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="883" column="20" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="31" column="28" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="50" column="41" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="865" column="46" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="547" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="654" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="550" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="553" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="554" column="35" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="563" column="38" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="153" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>_</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
-        <text>_</text>
+        <text>root_num = 0</text>
       </register>
       <register name="/" type="4">
-        <text>_index</text>
+        <text>new_alignment</text>
       </register>
       <register name="0" type="4">
         <text>(category, subgraph_repr)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICNhbGlnbmVkX3Rva3MgPSBzZXQoKQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -568,30 +568,25 @@
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text>import sys
-import time
-import pickle
-import os
-import re
-import cPickle</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>#new_amr.set_sentence(collapsed_toks)
+        #new_amr.set_to(collapsed_toks)</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text>#if curr_label == 'establish-01':
-                    #    print curr_label, curr_category
-                    #    sys.exit(1)</text>
+      <register name="7" type="4">
+        <text># if entity_not_align:
+        #     continue</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICNhbGlnbmVkX3Rva3MgPSBzZXQoKQo=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -601,11 +596,11 @@ import cPickle</text>
       </register>
     </registers>
     <search>
-      <last-search>_index</last-search>
+      <last-search>new_alignment</last-search>
       <last-offset />
-      <last-pattern>_index</last-pattern>
-      <last-replace>_idx</last-replace>
-      <last-substitute>_index</last-substitute>
+      <last-pattern>new_alignment</last-pattern>
+      <last-replace>curr_sym</last-replace>
+      <last-substitute>node_label</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
@@ -808,6 +803,9 @@ import cPickle</text>
         <entry>span_to</entry>
         <entry>node_index</entry>
         <entry>_index</entry>
+        <entry>category</entry>
+        <entry>node_label</entry>
+        <entry>new_alignment</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
@@ -848,6 +846,7 @@ import cPickle</text>
         <entry>833</entry>
         <entry>%s/node_index/node_idx/g</entry>
         <entry>%s/_index/_idx/g</entry>
+        <entry>%s/node_label/curr_sym/g</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
