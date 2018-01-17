@@ -399,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516167690821">
-        <mark key="'" line="563" column="38" />
-        <mark key="[" line="564" column="0" />
-        <mark key="]" line="564" column="0" />
-        <mark key="^" line="548" column="39" />
-        <mark key="." line="564" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516168819880">
+        <mark key="'" line="375" column="4" />
+        <mark key="[" line="679" column="4" />
+        <mark key="]" line="679" column="4" />
+        <mark key="^" line="679" column="4" />
+        <mark key="." line="679" column="4" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -445,8 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1095" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1120" column="55" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="21" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="582" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="869" column="47" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -545,6 +543,8 @@
       <jump line="554" column="35" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="563" column="38" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="153" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="676" column="18" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="375" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -554,7 +554,7 @@
         <text>root_num = 0</text>
       </register>
       <register name="/" type="4">
-        <text>new_alignment</text>
+        <text>phrase_to_concept</text>
       </register>
       <register name="0" type="4">
         <text>(category, subgraph_repr)</text>
@@ -596,9 +596,9 @@
       </register>
     </registers>
     <search>
-      <last-search>new_alignment</last-search>
+      <last-search>phrase_to_concept</last-search>
       <last-offset />
-      <last-pattern>new_alignment</last-pattern>
+      <last-pattern>phrase_to_concept</last-pattern>
       <last-replace>curr_sym</last-replace>
       <last-substitute>node_label</last-substitute>
       <last-dir>1</last-dir>
@@ -806,6 +806,7 @@
         <entry>category</entry>
         <entry>node_label</entry>
         <entry>new_alignment</entry>
+        <entry>phrase_to_concept</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
