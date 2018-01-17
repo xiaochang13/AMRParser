@@ -138,8 +138,8 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1516201831482">
-        <mark key="'" line="899" column="46" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1516207071293">
+        <mark key="'" line="899" column="41" />
         <mark key="[" line="894" column="8" />
         <mark key="]" line="894" column="9" />
         <mark key="^" line="894" column="9" />
@@ -399,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516170280233">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516207134717">
         <mark key="'" line="375" column="4" />
-        <mark key="[" line="48" column="0" />
-        <mark key="]" line="48" column="0" />
+        <mark key="[" line="745" column="0" />
+        <mark key="]" line="745" column="0" />
         <mark key="^" line="679" column="4" />
-        <mark key="." line="48" column="0" />
+        <mark key="." line="745" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -436,8 +436,8 @@
         <mark key="^" line="7" column="0" />
         <mark key="." line="813" column="127" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1516201789767">
-        <mark key="'" line="628" column="58" />
+      <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1516206773901">
+        <mark key="'" line="471" column="40" />
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="0" />
         <mark key="^" line="830" column="49" />
@@ -445,10 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="491" column="87" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="375" column="24" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="376" column="97" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="365" column="44" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="523" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="465" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="161" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -544,62 +540,64 @@
       <jump line="628" column="58" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="68" column="4" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="909" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="899" column="46" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="471" column="40" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
+      <jump line="633" column="21" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
+      <jump line="445" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
+      <jump line="918" column="64" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="899" column="41" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IyA=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
-        <text>new_amr</text>
+        <text>amr_statistics</text>
       </register>
       <register name="0" type="4">
         <text>(category, subgraph_repr)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgI2hhc19jeWNsZSA9IFRydWUK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjaGFzX2N5Y2xlID0gRmFsc2UK</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjIHByaW50IHN0cihhbXIpCg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgI2hhc19jeWNsZSA9IFRydWUK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAjaGFzX2N5Y2xlID0gRmFsc2UK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAjIHByaW50IHN0cihhbXIpCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="4">
         <text># if sent_index not in messed_sents:
         #     continue</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="8" type="4">
-        <text># rule_f = open(&quot;derivation.txt&quot;, &quot;w&quot;)
-    # messed_sents = set([1113])
-    # messed_sents = set([487])</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>new_amr</last-search>
+      <last-search>amr_statistics</last-search>
       <last-offset />
-      <last-pattern>new_amr</last-pattern>
+      <last-pattern>amr_statistics</last-pattern>
       <last-replace>curr_sym</last-replace>
       <last-substitute>node_label</last-substitute>
       <last-dir>1</last-dir>
@@ -809,6 +807,7 @@
         <entry>new_alignment</entry>
         <entry>phrase_to_concept</entry>
         <entry>new_amr</entry>
+        <entry>amr_statistics</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
