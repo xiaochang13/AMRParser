@@ -399,12 +399,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516158661765">
-        <mark key="'" line="524" column="48" />
-        <mark key="[" line="528" column="23" />
-        <mark key="]" line="528" column="25" />
-        <mark key="^" line="528" column="25" />
-        <mark key="." line="528" column="25" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516160062196">
+        <mark key="'" line="555" column="70" />
+        <mark key="[" line="555" column="114" />
+        <mark key="]" line="556" column="84" />
+        <mark key="^" line="556" column="84" />
+        <mark key="." line="556" column="84" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -445,8 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="841" column="15" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="460" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="520" column="51" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="550" column="67" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="364" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -545,19 +543,21 @@
       <jump line="883" column="16" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="528" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="524" column="48" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="555" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="20" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>curr_symbol</text>
+        <text>(curr_symbol, wiki_label)</text>
       </register>
       <register name="-" type="4">
-        <text>curr_symbol</text>
+        <text>(curr_symbol, wiki_label)</text>
       </register>
       <register name="/" type="4">
         <text>node_index</text>
       </register>
       <register name="0" type="4">
-        <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
+        <text>(category, subgraph_repr)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -595,7 +595,7 @@
             #    labelToRels[old_label] = defaultdict(int)</text>
       </register>
       <register name=":" type="4">
-        <text>%s/node_index/node_idx/g</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -843,8 +843,8 @@
         <entry>868</entry>
         <entry encoding="base64">JzwsJz5jYWxsIFZpc3VhbFNlYXJjaCgnYicp</entry>
         <entry>833</entry>
-        <entry>w</entry>
         <entry>%s/node_index/node_idx/g</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
