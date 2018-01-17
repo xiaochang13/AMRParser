@@ -138,12 +138,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1514918321008">
-        <mark key="'" line="527" column="23" />
-        <mark key="[" line="831" column="50" />
-        <mark key="]" line="831" column="56" />
-        <mark key="^" line="831" column="56" />
-        <mark key="." line="831" column="56" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1516201831482">
+        <mark key="'" line="899" column="46" />
+        <mark key="[" line="894" column="8" />
+        <mark key="]" line="894" column="9" />
+        <mark key="^" line="894" column="9" />
+        <mark key="." line="894" column="9" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -436,8 +436,8 @@
         <mark key="^" line="7" column="0" />
         <mark key="." line="813" column="127" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1513623255940">
-        <mark key="'" line="10" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1516201789767">
+        <mark key="'" line="628" column="58" />
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="0" />
         <mark key="^" line="830" column="49" />
@@ -445,10 +445,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="21" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="582" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="869" column="47" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="370" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="491" column="87" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="375" column="24" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="376" column="97" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -545,63 +541,65 @@
       <jump line="153" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="676" column="18" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="375" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="628" column="58" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
+      <jump line="68" column="4" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
+      <jump line="909" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="899" column="46" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IyA=</text>
       </register>
       <register name="-" type="4">
-        <text>root_num = 0</text>
+        <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
-        <text>phrase_to_concept</text>
+        <text>new_amr</text>
       </register>
       <register name="0" type="4">
         <text>(category, subgraph_repr)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgI2hhc19jeWNsZSA9IFRydWUK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text># elif 'VB' in curr_sym:
-                #     collapsed_seq.append(curr_sym)
-                #     collapsed_lem.append(curr_sym)
-                #     collapsed_pos.append('VB')</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAjaGFzX2N5Y2xlID0gRmFsc2UK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAjIHByaW50IHN0cihhbXIpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="6" type="4">
-        <text>#new_amr.set_sentence(collapsed_toks)
-        #new_amr.set_to(collapsed_toks)</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text># if entity_not_align:
+      <register name="6" type="4">
+        <text># if sent_index not in messed_sents:
         #     continue</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="8" type="4">
+        <text># rule_f = open(&quot;derivation.txt&quot;, &quot;w&quot;)
+    # messed_sents = set([1113])
+    # messed_sents = set([487])</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>phrase_to_concept</last-search>
+      <last-search>new_amr</last-search>
       <last-offset />
-      <last-pattern>phrase_to_concept</last-pattern>
+      <last-pattern>new_amr</last-pattern>
       <last-replace>curr_sym</last-replace>
       <last-substitute>node_label</last-substitute>
       <last-dir>1</last-dir>
@@ -810,6 +808,7 @@
         <entry>node_label</entry>
         <entry>new_alignment</entry>
         <entry>phrase_to_concept</entry>
+        <entry>new_amr</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
