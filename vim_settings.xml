@@ -31,8 +31,8 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516152191757">
-        <mark key="'" line="840" column="8" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516157439636">
+        <mark key="'" line="883" column="16" />
         <mark key="[" line="781" column="0" />
         <mark key="]" line="781" column="0" />
         <mark key="^" line="832" column="28" />
@@ -399,8 +399,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516152018813">
-        <mark key="'" line="526" column="26" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516157453439">
+        <mark key="'" line="528" column="12" />
         <mark key="[" line="524" column="55" />
         <mark key="]" line="524" column="56" />
         <mark key="^" line="474" column="32" />
@@ -506,7 +506,6 @@
       <jump line="374" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="885" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="886" column="31" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="883" column="31" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="879" column="41" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="341" column="28" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="872" column="37" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -521,7 +520,6 @@
       <jump line="911" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="525" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="771" column="3" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="528" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="744" column="3" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="526" column="39" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="866" column="34" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -545,6 +543,8 @@
       <jump line="792" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="797" column="19" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="840" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="883" column="16" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="528" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -554,7 +554,7 @@
         <text>=</text>
       </register>
       <register name="/" type="4">
-        <text>span_to</text>
+        <text>node_index</text>
       </register>
       <register name="0" type="4">
         <text>(start, end, &quot; &quot;.join(tok_seq[start:end]))</text>
@@ -595,15 +595,15 @@
             #    labelToRels[old_label] = defaultdict(int)</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>%s/node_index/node_idx/g</text>
       </register>
     </registers>
     <search>
-      <last-search>span_to</last-search>
+      <last-search>node_index</last-search>
       <last-offset />
-      <last-pattern>span_to</last-pattern>
-      <last-replace>sent_idx</last-replace>
-      <last-substitute>sent_index</last-substitute>
+      <last-pattern>node_index</last-pattern>
+      <last-replace>node_idx</last-replace>
+      <last-substitute>node_index</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
@@ -804,6 +804,7 @@
         <entry>NEG</entry>
         <entry>conceptToOutGo</entry>
         <entry>span_to</entry>
+        <entry>node_index</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
@@ -843,6 +844,7 @@
         <entry encoding="base64">JzwsJz5jYWxsIFZpc3VhbFNlYXJjaCgnYicp</entry>
         <entry>833</entry>
         <entry>w</entry>
+        <entry>%s/node_index/node_idx/g</entry>
       </history-cmd>
       <history-expr />
       <history-input />
