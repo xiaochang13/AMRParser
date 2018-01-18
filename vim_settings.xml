@@ -413,12 +413,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516207874188">
-        <mark key="'" line="254" column="4" />
-        <mark key="[" line="254" column="0" />
-        <mark key="]" line="254" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516300983232">
+        <mark key="'" line="689" column="14" />
+        <mark key="[" line="542" column="0" />
+        <mark key="]" line="542" column="0" />
         <mark key="^" line="679" column="4" />
-        <mark key="." line="254" column="0" />
+        <mark key="." line="542" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -450,8 +450,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="553" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="554" column="35" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="563" column="38" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="153" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="676" column="18" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -550,35 +548,34 @@
       <jump line="350" column="15" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="964" column="62" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="958" column="56" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="700" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="689" column="14" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>v</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludF9pbmZvID0gRmFsc2UK</text>
       </register>
       <register name="-" type="4">
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>_index</text>
+        <text>filterNoise</text>
       </register>
       <register name="0" type="4">
         <text>self.has_reent = False</text>
       </register>
-      <register name="1" type="4">
-        <text>#ret_var = SURF + ('%d' % self.var_index)
-                #self.var_index += 1</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludF9pbmZvID0gRmFsc2UK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBoYXNfd3JvbmdfYWxpZ24gPSBGYWxzZQo=</text>
       </register>
       <register name="3" type="4">
-        <text>#if node_idx in verb_map:
-                #    ex_rels = self.findMatch(curr_node, verb_map[node_idx])
-                #    ret_var = 'SURF_VERBAL'
-                #    return ex_rels, ret_var, True</text>
+        <text>#ret_var = SURF + ('%d' % self.var_index)
+                #self.var_index += 1</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
@@ -586,29 +583,32 @@
       <register name="5" type="4">
         <text>#if node_idx in verb_map:
                 #    ex_rels = self.findMatch(curr_node, verb_map[node_idx])
-                #    ret_var = curr_var + '_VERBAL'
+                #    ret_var = 'SURF_VERBAL'
                 #    return ex_rels, ret_var, True</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="7" type="4">
+        <text>#if node_idx in verb_map:
+                #    ex_rels = self.findMatch(curr_node, verb_map[node_idx])
+                #    ret_var = curr_var + '_VERBAL'
+                #    return ex_rels, ret_var, True</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">I2VsaWYgc2VsZi5pc19wcmVkaWNhdGUoY3Vycl9ub2RlKToKICAgICAgICAjICAgIGlmIHNlbGYuc3RhdHMubnVtX3ByZWRpY2F0ZXNbY3Vycl92YXJdID49IHByZWRfZnJlcV90aHJlOgogICAgICAgICMgICAgICAgICNpZiBub2RlX2lkeCBpbiB2ZXJiX21hcDoKICAgICAgICAjICAgICAgICAjICAgIGV4X3JlbHMgPSBzZWxmLmZpbmRNYXRjaChjdXJyX25vZGUsIHZlcmJfbWFwW25vZGVfaWR4XSkKICAgICAgICAjICAgICAgICAjICAgIHJldF92YXIgPSBjdXJyX3ZhciArICdfVkVSQkFMJwogICAgICAgICMgICAgICAgICMgICAgcmV0dXJuIGV4X3JlbHMsIHJldF92YXIsIFRydWUKICAgICAgICAjICAgICAgICByZXRfdmFyID0gY3Vycl92YXIKICAgICAgICAjICAgICAgICBjYXRlZ29yaXplZCA9IEZhbHNlCiAgICAgICAgIyAgICAgICAgY3Vycl9mcmFnID0gc2VsZi5idWlsZF9lbnRpdHlfZnJhZ21lbnQoY3Vycl9ub2RlKQogICAgICAgICMgICAgZWxzZToKICAgICAgICAjICAgICAgICAjaWYgbm9kZV9pZHggaW4gdmVyYl9tYXA6CiAgICAgICAgIyAgICAgICAgIyAgICBleF9yZWxzID0gc2VsZi5maW5kTWF0Y2goY3Vycl9ub2RlLCB2ZXJiX21hcFtub2RlX2lkeF0pCiAgICAgICAgIyAgICAgICAgIyAgICByZXRfdmFyID0gJ1ZFUkJBTCcKICAgICAgICAjICAgICAgICAjICAgIHJldHVybiBleF9yZWxzLCByZXRfdmFyLCBUcnVlCiAgICAgICAgIyAgICAgICAgcmV0X3ZhciA9IFZFUkIKICAgICAgICAjICAgICAgICBjdXJyX2ZyYWcgPSBzZWxmLmJ1aWxkX2VudGl0eV9mcmFnbWVudChjdXJyX25vZGUpCgogICAgICAgICMgICAgICAgIGNhdGVnb3JpemVkID0gVHJ1ZQogICAgICAgICMgICAgcmV0dXJuIGN1cnJfZnJhZywgW10sIHJldF92YXIsIGNhdGVnb3JpemVkCiAgICAgICAgI2VsaWYgc2VsZi5pc19jb25zdChjdXJyX25vZGUpOgogICAgICAgICMgICAgY3Vycl9mcmFnID0gc2VsZi5idWlsZF9lbnRpdHlfZnJhZ21lbnQoY3Vycl9ub2RlKQogICAgICAgICMgICAgI2lmIGN1cnJfdmFyIGluIFsnaW50ZXJyb2dhdGl2ZScsICdpbXBlcmF0aXZlJywgJ2V4cHJlc3NpdmUnLCAnLSddOgogICAgICAgICMgICAgaWYgVHJ1ZToKICAgICAgICAjICAgICAgICByZXR1cm4gY3Vycl9mcmFnLCBbXSwgY3Vycl92YXIsIEZhbHNlCiAgICAgICAgIyAgICBlbHNlOgogICAgICAgICMgICAgICAgIHJldF92YXIgPSBDT05TVAoKICAgICAgICAjICAgICAgICByZXR1cm4gY3Vycl9mcmFnLCBbXSwgcmV0X3ZhciwgVHJ1ZQ==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>_index</last-search>
+      <last-search>filterNoise</last-search>
       <last-offset />
-      <last-pattern>_index</last-pattern>
+      <last-pattern>filterNoise</last-pattern>
       <last-replace>_idx</last-replace>
       <last-substitute>_index</last-substitute>
       <last-dir>1</last-dir>
@@ -692,7 +692,6 @@
         <entry>collapseTokens</entry>
         <entry>rebuild_fragment_map</entry>
         <entry>build_bimap</entry>
-        <entry>filterNoise</entry>
         <entry>dumpMap</entry>
         <entry>rebuildMap</entry>
         <entry>Unaligned entit</entry>
@@ -841,6 +840,7 @@
         <entry>set_core</entry>
         <entry>colla</entry>
         <entry>_index</entry>
+        <entry>filterNoise</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
