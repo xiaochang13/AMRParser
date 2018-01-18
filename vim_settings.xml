@@ -413,8 +413,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516300983232">
-        <mark key="'" line="689" column="14" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516302490484">
+        <mark key="'" line="645" column="22" />
         <mark key="[" line="542" column="0" />
         <mark key="]" line="542" column="0" />
         <mark key="^" line="679" column="4" />
@@ -450,9 +450,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="563" column="38" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="153" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="676" column="18" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="375" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="628" column="58" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="68" column="4" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
@@ -550,6 +547,9 @@
       <jump line="958" column="56" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="700" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="689" column="14" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="593" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="646" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="645" column="22" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -559,7 +559,7 @@
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>filterNoise</text>
+        <text>incoming</text>
       </register>
       <register name="0" type="4">
         <text>self.has_reent = False</text>
@@ -606,9 +606,9 @@
       </register>
     </registers>
     <search>
-      <last-search>filterNoise</last-search>
+      <last-search>incoming</last-search>
       <last-offset />
-      <last-pattern>filterNoise</last-pattern>
+      <last-pattern>incoming</last-pattern>
       <last-replace>_idx</last-replace>
       <last-substitute>_index</last-substitute>
       <last-dir>1</last-dir>
@@ -841,6 +841,7 @@
         <entry>colla</entry>
         <entry>_index</entry>
         <entry>filterNoise</entry>
+        <entry>incoming</entry>
       </history-search>
       <history-cmd>
         <entry>%s/transtion_type/action_type/g</entry>
