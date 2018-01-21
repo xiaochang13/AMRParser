@@ -419,12 +419,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516302490484">
-        <mark key="'" line="645" column="22" />
-        <mark key="[" line="542" column="0" />
-        <mark key="]" line="542" column="0" />
-        <mark key="^" line="679" column="4" />
-        <mark key="." line="542" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516567745768">
+        <mark key="'" line="533" column="71" />
+        <mark key="[" line="64" column="44" />
+        <mark key="]" line="65" column="11" />
+        <mark key="^" line="65" column="11" />
+        <mark key="." line="65" column="11" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -456,19 +456,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="633" column="21" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
-      <jump line="445" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
-      <jump line="918" column="64" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="899" column="41" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="261" column="27" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="254" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="474" column="20" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
-      <jump line="533" column="23" filename="$USER_HOME$/SHRG-induction/prepareTokens.py" />
-      <jump line="146" column="26" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
-      <jump line="484" column="20" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
-      <jump line="339" column="60" filename="$USER_HOME$/SHRG-induction/alignment_utils.py" />
-      <jump line="497" column="30" filename="$USER_HOME$/SHRG-induction/alignment_utils.py" />
-      <jump line="537" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="196" column="11" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="205" column="30" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="323" column="35" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -556,69 +543,79 @@
       <jump line="185" column="18" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="37" column="19" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="333" column="26" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
+      <jump line="445" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="529" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="30" column="69" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="32" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="546" column="38" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="154" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="527" column="76" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="566" column="36" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="18" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="545" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="163" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="530" column="71" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="65" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludF9pbmZvID0gRmFsc2UK</text>
+      <register name="&quot;" type="4">
+        <text>, _</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>, _</text>
       </register>
       <register name="/" type="4">
-        <text>incoming</text>
+        <text>new_alignment</text>
       </register>
       <register name="0" type="4">
         <text>self.has_reent = False</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludF9pbmZvID0gRmFsc2UK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludF9pbmZvID0gRmFsc2UK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">CiAgICB2ZXJ0ZXhfc2V0ID0gc2V0KCkK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludF9pbmZvID0gRmFsc2UK</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICBoYXNfd3JvbmdfYWxpZ24gPSBGYWxzZQo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="6" type="4">
         <text>#ret_var = SURF + ('%d' % self.var_index)
                 #self.var_index += 1</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="5" type="4">
+      <register name="8" type="4">
         <text>#if node_idx in verb_map:
                 #    ex_rels = self.findMatch(curr_node, verb_map[node_idx])
                 #    ret_var = 'SURF_VERBAL'
                 #    return ex_rels, ret_var, True</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="7" type="4">
-        <text>#if node_idx in verb_map:
-                #    ex_rels = self.findMatch(curr_node, verb_map[node_idx])
-                #    ret_var = curr_var + '_VERBAL'
-                #    return ex_rels, ret_var, True</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>incoming</last-search>
+      <last-search>new_alignment</last-search>
       <last-offset />
-      <last-pattern>incoming</last-pattern>
+      <last-pattern>new_alignment</last-pattern>
       <last-replace>_idx</last-replace>
       <last-substitute>_index</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
@@ -642,6 +639,8 @@
         <entry>_index</entry>
         <entry>filterNoise</entry>
         <entry>incoming</entry>
+        <entry>conll</entry>
+        <entry>new_alignment</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
@@ -663,6 +662,7 @@
         <entry>317</entry>
         <entry>%s/_index/_idx/g</entry>
         <entry>1</entry>
+        <entry>567</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
