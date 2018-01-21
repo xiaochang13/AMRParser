@@ -237,6 +237,9 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516562040066">
+        <mark key="'" line="8" column="0" />
+      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
         <mark key="[" line="81" column="17" />
@@ -450,8 +453,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="375" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="628" column="58" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="68" column="4" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="909" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="471" column="40" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
@@ -550,6 +551,8 @@
       <jump line="593" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="646" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="645" column="22" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="19" column="0" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="8" column="0" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -602,7 +605,7 @@
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>1</text>
       </register>
     </registers>
     <search>
@@ -612,216 +615,10 @@
       <last-replace>_idx</last-replace>
       <last-substitute>_index</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>loadAMRFi</entry>
-        <entry>writeConll</entry>
-        <entry>train</entry>
-        <entry>void tra</entry>
-        <entry>config.</entry>
-        <entry>void genDici</entry>
-        <entry>genDict</entry>
-        <entry>generate</entry>
-        <entry>generateC</entry>
-        <entry>lemmaSeq</entry>
-        <entry>void train</entry>
-        <entry>oracleSeq</entry>
-        <entry>training_set</entry>
-        <entry>train_num</entry>
-        <entry>self.cache_size</entry>
-        <entry>root_num</entry>
-        <entry>value()</entry>
-        <entry>getValue</entry>
-        <entry>value(</entry>
-        <entry>loadConll</entry>
-        <entry>toJ</entry>
-        <entry>cate</entry>
-        <entry>collapsed</entry>
-        <entry>align_table</entry>
-        <entry>dep_tok_seq</entry>
-        <entry>tokenized_seq</entry>
-        <entry>reali</entry>
-        <entry>Some wrong here</entry>
-        <entry>Somet</entry>
-        <entry>realign</entry>
-        <entry>conll_file</entry>
-        <entry>special_mor</entry>
-        <entry>neg_pola</entry>
-        <entry>word_align</entry>
-        <entry>span_align</entry>
-        <entry>dep_sent_index</entry>
-        <entry>aligned_fragments</entry>
-        <entry>reentrancies</entry>
-        <entry>has_multi</entry>
-        <entry>no_alignment</entry>
-        <entry>par_node_index</entry>
-        <entry>node_dict</entry>
-        <entry>build_</entry>
-        <entry>build_date_fragments</entry>
-        <entry>removeRedundan</entry>
-        <entry>removeDate</entry>
-        <entry>extract_date</entry>
-        <entry>extract_all</entry>
-        <entry>return None</entry>
-        <entry>unaligned_out</entry>
-        <entry>build_entit</entry>
-        <entry>ill-form</entry>
-        <entry>exclude_rels</entry>
-        <entry>total_num</entry>
-        <entry>nodeid_to_frag</entry>
-        <entry>alignmentUtils</entry>
-        <entry>alignment_utils</entry>
-        <entry>getSpanSi</entry>
-        <entry>alignment_seq</entry>
-        <entry>getDate</entry>
-        <entry>entity_not_align</entry>
-        <entry>ordered_alignment</entry>
-        <entry>loadByFreq</entry>
-        <entry>frequent_outgo</entry>
-        <entry>frequent_set</entry>
-        <entry>categorizePara</entry>
-        <entry>getMapSeq</entry>
-        <entry>categorizedSpans</entry>
-        <entry>extract_fragments</entry>
-        <entry>unique_edge</entry>
-        <entry>unalignedOutTails</entry>
-        <entry>def mergeSpans</entry>
-        <entry>removeLeaves</entry>
-        <entry>collapseTokens</entry>
-        <entry>rebuild_fragment_map</entry>
-        <entry>build_bimap</entry>
-        <entry>dumpMap</entry>
-        <entry>rebuildMap</entry>
-        <entry>Unaligned entit</entry>
-        <entry>entity_not</entry>
-        <entry>VERB</entry>
-        <entry>tok_seq</entry>
-        <entry>aligned_set</entry>
-        <entry>date_relations</entry>
-        <entry>Unaligned entity</entry>
-        <entry>new_edge</entry>
-        <entry>date_entity</entry>
-        <entry>op</entry>
-        <entry>:op</entry>
-        <entry>buildFragment</entry>
-        <entry>has_cycle</entry>
-        <entry>removeDateRe</entry>
-        <entry>entity_mention_toks</entry>
-        <entry>extract_node</entry>
-        <entry>preprocess</entry>
-        <entry>get_concept_tag</entry>
-        <entry>unaligned concepts</entry>
-        <entry>unaligned</entry>
-        <entry>edge_to_span</entry>
-        <entry>unaligned_toks</entry>
-        <entry>alignment</entry>
-        <entry>opt_toks</entry>
-        <entry>verbalization_map</entry>
-        <entry>matched_tup</entry>
-        <entry>tok2tuples</entry>
-        <entry>extractNodeMapping</entry>
-        <entry>matchSubgraph</entry>
-        <entry>matched_tuples</entry>
-        <entry>entity_toks</entry>
-        <entry>visitUnaligned</entry>
-        <entry>unaligned_set</entry>
-        <entry>output_ali</entry>
-        <entry>all_align</entry>
-        <entry>negation</entry>
-        <entry>cpt_type</entry>
-        <entry>NEGATION</entry>
-        <entry>ne</entry>
-        <entry>nega</entry>
-        <entry>plural_suffix</entry>
-        <entry>lmtzr</entry>
-        <entry>neg_pre</entry>
-        <entry>unit</entry>
-        <entry>NE_pattern</entry>
-        <entry>extract_unaligned</entry>
-        <entry>matched_verb_num</entry>
-        <entry>verb_</entry>
-        <entry>edge_align</entry>
-        <entry>recall_unaligned</entry>
-        <entry>recall_un</entry>
-        <entry>NegPolarity</entry>
-        <entry>neg_polarity</entry>
-        <entry>special_morph</entry>
-        <entry>is_spec_form</entry>
-        <entry>align_seq</entry>
-        <entry>amr_graph</entry>
-        <entry>temp_unaligned</entry>
-        <entry>sent_index</entry>
-        <entry>node_idx</entry>
-        <entry>edge_alignment</entry>
-        <entry>node_set()</entry>
-        <entry>node_set</entry>
-        <entry>QuantityEntity</entry>
-        <entry encoding="base64">XDxub2RlX3RvX3Rva3NcPg==</entry>
-        <entry>tok</entry>
-        <entry>is_neg_form</entry>
-        <entry>is_nega</entry>
-        <entry>neg_prefix</entry>
-        <entry>fuzzy_equal</entry>
-        <entry>fuzzy_match</entry>
-        <entry>fuzzy_max_len</entry>
-        <entry>is_neg</entry>
-        <entry>person</entry>
-        <entry>state</entry>
-        <entry>CAUSE</entry>
-        <entry>cause</entry>
-        <entry>thing</entry>
-        <entry>aligned_nodes</entry>
-        <entry>wiki_l</entry>
-        <entry>node_str</entry>
-        <entry>valid</entry>
-        <entry>aligned_toks</entry>
-        <entry>tok2rels</entry>
-        <entry>sort(</entry>
-        <entry>removeAligned</entry>
-        <entry>span_to_nodes</entry>
-        <entry>phrase</entry>
-        <entry>all_alignment</entry>
-        <entry>isNum</entry>
-        <entry>stop_word</entry>
-        <entry>stop</entry>
-        <entry>align_file</entry>
-        <entry>VERBAL</entry>
-        <entry>subgraph_repr</entry>
-        <entry>curr_category</entry>
-        <entry>edge_to_toks</entry>
-        <entry>MULT</entry>
-        <entry>NUMBER</entry>
-        <entry>verb_map</entry>
-        <entry encoding="base64">XDxhc3NlcnRcPg==</entry>
-        <entry>node2</entry>
-        <entry>node_to_fr</entry>
-        <entry>new_node_index</entry>
-        <entry>cur_symbol</entry>
-        <entry>phrases</entry>
-        <entry>parent</entry>
-        <entry>all_alignments</entry>
-        <entry>node_oldtonew</entry>
-        <entry>visited</entry>
-        <entry>NEG</entry>
-        <entry>conceptToOutGo</entry>
-        <entry>span_to</entry>
-        <entry>node_index</entry>
-        <entry>category</entry>
-        <entry>node_label</entry>
-        <entry>new_alignment</entry>
-        <entry>phrase_to_concept</entry>
-        <entry>new_amr</entry>
-        <entry>amr_statistics</entry>
-        <entry>similarTok</entry>
-        <entry>set_le</entry>
-        <entry>all_sym</entry>
-        <entry>allSymbols</entry>
-        <entry>decades</entry>
-        <entry>multi_map</entry>
-        <entry>buildPiSeq</entry>
-        <entry>get_symbol</entry>
         <entry>set_root</entry>
         <entry>set</entry>
         <entry>.root</entry>
@@ -844,33 +641,6 @@
         <entry>incoming</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/transtion_type/action_type/g</entry>
-        <entry>374</entry>
-        <entry>w;</entry>
-        <entry>65</entry>
-        <entry>71</entry>
-        <entry>100</entry>
-        <entry>757</entry>
-        <entry>123</entry>
-        <entry>133</entry>
-        <entry>145</entry>
-        <entry>%s/training_set/data_set/g</entry>
-        <entry>%s/train_num/data_num/g</entry>
-        <entry>257</entry>
-        <entry>182</entry>
-        <entry>81</entry>
-        <entry>94</entry>
-        <entry>107</entry>
-        <entry>1413</entry>
-        <entry>1161</entry>
-        <entry>327</entry>
-        <entry>q</entry>
-        <entry>556</entry>
-        <entry>499</entry>
-        <entry>501</entry>
-        <entry>%s/sent_index/sent_idx/g</entry>
-        <entry>set noic</entry>
-        <entry>393</entry>
         <entry>504</entry>
         <entry>514</entry>
         <entry>523</entry>
@@ -887,10 +657,10 @@
         <entry>955</entry>
         <entry>243</entry>
         <entry>68</entry>
-        <entry>1</entry>
         <entry>317</entry>
         <entry>%s/_index/_idx/g</entry>
         <entry>w</entry>
+        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
