@@ -419,8 +419,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516586624651">
-        <mark key="'" line="550" column="70" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516587247704">
+        <mark key="'" line="569" column="17" />
         <mark key="[" line="452" column="8" />
         <mark key="]" line="452" column="8" />
         <mark key="^" line="452" column="9" />
@@ -456,8 +456,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="240" column="52" filename="$USER_HOME$/SHRG-induction/alignment_utils.py" />
-      <jump line="734" column="20" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="936" column="28" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="957" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="820" column="30" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -556,6 +554,8 @@
       <jump line="596" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="599" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="550" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="534" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="569" column="17" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -565,7 +565,7 @@
         <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
-        <text>aligned_tok</text>
+        <text>conll_wf</text>
       </register>
       <register name="0" type="4">
         <text>set(range(start, end))</text>
@@ -608,9 +608,9 @@
       </register>
     </registers>
     <search>
-      <last-search>aligned_tok</last-search>
+      <last-search>conll_wf</last-search>
       <last-offset />
-      <last-pattern>aligned_tok</last-pattern>
+      <last-pattern>conll_wf</last-pattern>
       <last-replace>_idx</last-replace>
       <last-substitute>_index</last-substitute>
       <last-dir>1</last-dir>
@@ -655,6 +655,7 @@
         <entry>Categorized</entry>
         <entry>all_alignments</entry>
         <entry>aligned_tok</entry>
+        <entry>conll_wf</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
