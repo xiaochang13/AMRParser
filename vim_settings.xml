@@ -419,12 +419,10 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516590329314">
-        <mark key="'" line="116" column="21" />
-        <mark key="[" line="109" column="8" />
-        <mark key="]" line="109" column="8" />
-        <mark key="^" line="109" column="8" />
-        <mark key="." line="109" column="8" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516592333860">
+        <mark key="[" line="107" column="0" />
+        <mark key="]" line="107" column="0" />
+        <mark key="." line="107" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -558,11 +556,11 @@
       <jump line="116" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="8">
-        <text encoding="base64">IyAKIyAKIyAKIyAKIyAKIyA=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
-        <text>{}</text>
+        <text>r</text>
       </register>
       <register name="/" type="4">
         <text>exclude_rels</text>
@@ -570,38 +568,54 @@
       <register name="0" type="4">
         <text>set(range(start, end))</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">IyAKIyAKIyAKIyAKIyAKIyA=</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="2" type="4">
+        <text># exclude_rels = []
+        # unaligned = False
+        # if curr_node_idx in all_alignments:
+        #     exclude_rels, _, _ = amr.get_symbol(curr_node_idx, {}, 0, 0)
+        # else:
+        #     exclude_rels = []
+        #     unaligned = True
+        #     _ = tail_set[curr_node_idx]
+
+        # assert len(exclude_rels) == 0, str(am)</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="4">
+        <text># exclude_rels = []
+        # unaligned = False
+        # if curr_node_idx in all_alignments:
+        #     exclude_rels, _, _ = amr.get_symbol(curr_node_idx, {}, 0, 0)
+        # else:
+        #     exclude_rels = []
+        #     unaligned = True
+        #     _ = tail_set[curr_node_idx]
+
+        # assert len(exclude_rels) == 0, str(amr)</text>
+      </register>
+      <register name="5" type="8">
+        <text encoding="base64">IyAKIyAKIyAKIyAKIyAKIyA=</text>
+      </register>
+      <register name="6" type="8">
+        <text encoding="base64">IyAKIyA=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIAo=</text>
+      </register>
+      <register name="8" type="4">
         <text># if start == 14:
                     #     print &quot;Node representation: %s&quot; % node_repr</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBhc3NlcnQgc3RhcnQgIT0gMTQK</text>
-      </register>
-      <register name="6" type="4">
-        <text>if start == 14:
-                print &quot;%d-%d:%s&quot; % (start, end, str(indices))</text>
-      </register>
-      <register name="7" type="8">
-        <text encoding="base64">IyAKIyA=</text>
-      </register>
-      <register name="8" type="4">
-        <text>for tok in noncollapsed:
-            print tok, tok_seq[tok]</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbGxhcHNlZCB8PSBzZXQoeHJhbmdlKGksIGopKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBhc3NlcnQgc3RhcnQgIT0gMTQK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
