@@ -231,12 +231,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516646081600">
-        <mark key="'" line="107" column="20" />
-        <mark key="[" line="108" column="59" />
-        <mark key="]" line="108" column="60" />
-        <mark key="." line="108" column="60" />
-        <mark key="^" line="108" column="60" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516650275041">
+        <mark key="'" line="38" column="19" />
+        <mark key="[" line="109" column="27" />
+        <mark key="]" line="110" column="55" />
+        <mark key="^" line="110" column="55" />
+        <mark key="." line="110" column="55" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -339,10 +339,10 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516636618416">
-        <mark key="'" line="310" column="16" />
-        <mark key="[" line="301" column="18" />
-        <mark key="]" line="301" column="19" />
+      <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516649902394">
+        <mark key="'" line="18" column="0" />
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="13" column="29" />
         <mark key="." line="301" column="19" />
         <mark key="^" line="301" column="19" />
       </file>
@@ -359,6 +359,12 @@
         <mark key="]" line="568" column="26" />
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
+      </file>
+      <file name="$USER_HOME$/data_processing/oracle/oracle_data.py" timestamp="1516650628312">
+        <mark key="[" line="1" column="75" />
+        <mark key="]" line="2" column="16" />
+        <mark key="^" line="2" column="16" />
+        <mark key="." line="2" column="16" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1510360116258">
         <mark key="'" line="206" column="23" />
@@ -474,10 +480,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="555" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="403" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="545" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="442" column="31" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="59" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1117" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="409" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -562,7 +564,6 @@
       <jump line="1160" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="430" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="54" column="0" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="37" column="19" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="371" column="17" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="297" column="17" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="317" column="16" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
@@ -574,80 +575,72 @@
       <jump line="59" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
       <jump line="185" column="18" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="107" column="20" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="105" column="8" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="103" column="43" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="116" column="8" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="37" column="19" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="18" column="0" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>\n</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text>\n</text>
+        <text>data</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwcmludFw+</text>
+        <text>succeed</text>
       </register>
       <register name="0" type="4">
-        <text>tok_seqs = loadTokens(token_file)
-    dep_tok_seqs = loadDepTokens(dep_file)
-
-    assert len(tok_seqs) == len(dep_tok_seqs)
-    align_maps = []
-    for (i, tok_seq) in enumerate(tok_seqs):
-        dep_seq = dep_tok_seqs[i]
-        align_map = {}
-        tok_idx = 0
-        curr_repr = &quot;&quot;
-        for (k, dep_tok) in enumerate(dep_seq):
-            curr_repr += dep_tok
-            align_map[k] = tok_idx
-            if seq_equal(curr_repr, tok_seq[tok_idx]):
-                tok_idx += 1
-                curr_repr = &quot;&quot;
-        assert tok_idx == len(tok_seq)
-        print align_map
-        align_maps.append(align_map)
-    return align_maps</text>
+        <text>class Dataset(object):
+    def __init__(self, tok_thre=1, top_arc=40):
+        self.tok_seqs = None
+        self.lem_seqs = None
+        self.pos_seqs = None
+        self.dep_trees = None
+        self.amr_graphs = None</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">IyAKIyAKIyAKIyAKICA=</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">IyAKIyAKIyAKIyA=</text>
+      <register name="2" type="4">
+        <text encoding="base64">aWYgc2VudF9pZHggPiAxMDA6CiAgICAgICAgICAgICAgICAgICAgYnJlYWs=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCBhbGlnbl9tYXAK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmZlYXRfc2Vxcywgc2VsZi5vcmFjbGVfc2Vxcywgc2VsZi5hbGlnbm1lbnRfc2VxcyA9IFtdLCBbXSwgW10K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB0b2tfc2VxcyA9IGxvYWRUb2tlbnModG9rZW5fZmlsZSkK</text>
+        <text encoding="base64">ICAgICAgICAgPSBOb25lCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBmaXJzdF9yZXByID0gZmlyc3QucmVwbGFjZSgiYCIsICJcJyIpCg==</text>
+        <text encoding="base64">ICAgICAgICAgPSBOb25lCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzdGFydF9pZHggPSAwCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmNvbmNlcHRfc2VxcyA9IE5vbmUK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBlbmRfaWR4ID0gMAo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnBvc19zZXFzID0gTm9uZQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHRva19pZHggPSAwCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmxlbV9zZXFzID0gTm9uZQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGFsaWduX21hcCA9IHt9Cg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnBvc3MgPSBbXQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxwcmludFw+</last-search>
+      <last-search>succeed</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwcmludFw+</last-pattern>
+      <last-pattern>succeed</last-pattern>
       <last-replace>_idx</last-replace>
       <last-substitute>_index</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
@@ -706,6 +699,8 @@
         <entry>buildRelMap</entry>
         <entry>head.add</entry>
         <entry encoding="base64">XDxwcmludFw+</entry>
+        <entry>succed</entry>
+        <entry>succeed</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
@@ -727,8 +722,8 @@
         <entry>317</entry>
         <entry>%s/_index/_idx/g</entry>
         <entry>567</entry>
-        <entry>1</entry>
         <entry>311</entry>
+        <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
