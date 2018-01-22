@@ -218,12 +218,6 @@
         <mark key="^" line="521" column="19" />
         <mark key="." line="509" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
-        <mark key="'" line="94" column="16" />
-        <mark key="[" line="130" column="0" />
-        <mark key="]" line="130" column="0" />
-        <mark key="." line="130" column="0" />
-      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/io/IOUtils.java" timestamp="1491962694595">
         <mark key="'" line="667" column="17" />
         <mark key="[" line="652" column="5" />
@@ -237,7 +231,7 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516565151926">
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516595276242">
         <mark key="'" line="37" column="19" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
@@ -320,12 +314,12 @@
         <mark key="." line="26" column="18" />
         <mark key="^" line="26" column="18" />
       </file>
-      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1515208027543">
-        <mark key="'" line="68" column="0" />
-        <mark key="[" line="5" column="32" />
-        <mark key="]" line="5" column="32" />
-        <mark key="^" line="5" column="32" />
-        <mark key="." line="5" column="32" />
+      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1516596912546">
+        <mark key="'" line="6" column="75" />
+        <mark key="[" line="77" column="16" />
+        <mark key="]" line="77" column="16" />
+        <mark key="^" line="77" column="16" />
+        <mark key="." line="77" column="16" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -341,8 +335,11 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516565218180">
-        <mark key="'" line="333" column="26" />
+      <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516595874547">
+        <mark key="'" line="332" column="16" />
+        <mark key="[" line="221" column="4" />
+        <mark key="]" line="243" column="20" />
+        <mark key="." line="219" column="0" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/notes" timestamp="1481283244408">
         <mark key="'" line="11" column="0" />
@@ -424,11 +421,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516593672704">
-        <mark key="'" line="1111" column="8" />
-        <mark key="[" line="107" column="0" />
-        <mark key="]" line="107" column="0" />
-        <mark key="." line="107" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516596780949">
+        <mark key="'" line="311" column="20" />
+        <mark key="[" line="1138" column="36" />
+        <mark key="]" line="1138" column="50" />
+        <mark key="." line="1138" column="50" />
+        <mark key="^" line="1138" column="50" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -451,6 +449,10 @@
         <mark key="^" line="7" column="0" />
         <mark key="." line="813" column="127" />
       </file>
+      <file name="$USER_HOME$/data_processing/depTokens.py" timestamp="1516596838523">
+        <mark key="[" line="26" column="4" />
+        <mark key="]" line="29" column="65" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/categorize_amr.py" timestamp="1516221521301">
         <mark key="'" line="539" column="45" />
         <mark key="[" line="525" column="0" />
@@ -460,18 +462,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="350" column="15" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
-      <jump line="964" column="62" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="958" column="56" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="700" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="689" column="14" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="593" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="646" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="645" column="22" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="19" column="0" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="8" column="0" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="185" column="18" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="37" column="19" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="333" column="26" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="445" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="529" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -560,76 +550,78 @@
       <jump line="116" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="123" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1111" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="185" column="17" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="37" column="19" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="332" column="16" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
+      <jump line="1109" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="273" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="287" column="43" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="309" column="62" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1077" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="64" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1138" column="9" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="6" column="75" filename="$USER_HOME$/data_processing/utils.py" />
+      <jump line="311" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>+'-dfs-linear_targ.txt'</text>
+        <text>curr_tok</text>
       </register>
       <register name="-" type="4">
-        <text>+'-dfs-linear_targ.txt'</text>
+        <text>curr_tok</text>
       </register>
       <register name="/" type="4">
-        <text>exclude_rels</text>
+        <text>RRB</text>
       </register>
       <register name="0" type="4">
-        <text>set(range(start, end))</text>
+        <text>for sp in special_token_map:
+        if sp in curr_tok:
+    #if curr_tok in special_token_map:
+            curr_tok = curr_tok.replace(sp, special_token_map[sp])</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">I3NlbnQgPSBbeC5zdHJpcCgpIGZvciB4IGluIG9wZW4oc3lzLmFyZ3ZbMV0rJy1kZnMtbGluZWFyX3RhcmcudHh0JywnclUnKV0K</text>
+        <text encoding="base64">ICAgICNpZiBjdXJyX3RvayBpbiBzcGVjaWFsX3Rva2VuX21hcDoK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">YW1yID0gc3lzLmFyZ3ZbMV0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHdvcmQgPSBzcGxpdHNbMV0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">I2FtciA9IFt4LnN0cmlwKCkgZm9yIHggaW4gb3BlbihzeXMuYXJndlsxXSsnLWRmcy1saW5lYXJfc3JjLnR4dCcsJ3JVJyldCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">YW1yID0gc3lzLmFyZ3ZbMV0K</text>
+      <register name="4" type="4">
+        <text>dep_label = splits[7]
+                tok_idx = int(splits[0]) - 1
+                head_idx = int(splits[6]) - 1 # root becomes -1.</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">I2FtciA9IFt4LnN0cmlwKCkgZm9yIHggaW4gb3BlbihzeXMuYXJndlsxXSsnLWRmcy1saW5lYXJfc3JjLnR4dCcsJ3JVJyldCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="6" type="4">
+        <text>word = splits[1]
+                dep_label = splits[7]
+                tok_idx = int(splits[0]) - 1
+                head_idx = int(splits[6]) - 1 # root becomes -1.</text>
       </register>
       <register name="7" type="4">
-        <text># exclude_rels = []
-        # unaligned = False
-        # if curr_node_idx in all_alignments:
-        #     exclude_rels, _, _ = amr.get_symbol(curr_node_idx, {}, 0, 0)
-        # else:
-        #     exclude_rels = []
-        #     unaligned = True
-        #     _ = tail_set[curr_node_idx]
-
-        # assert len(exclude_rels) == 0, str(am)</text>
+        <text encoding="base64">aWYgdG9rc1t0b2tfaWR4XSAhPSB3b3JkOgogICAgICAgICAgICAgICAgICAgIHByaW50ID4+IHN5cy5zdGRlcnIsIHdvcmQrICIgOiAiKyB0b2tzW3Rva19pZHhdCiAgICAgICAgICAgICAgICAgICAgc3lzLmV4aXQoMSkKICAgICAgICAgICAgICAgIHRyZWUuYWRkKGhlYWRfaWR4LCBkZXBfbGFiZWwp</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="9" type="4">
-        <text># exclude_rels = []
-        # unaligned = False
-        # if curr_node_idx in all_alignments:
-        #     exclude_rels, _, _ = amr.get_symbol(curr_node_idx, {}, 0, 0)
-        # else:
-        #     exclude_rels = []
-        #     unaligned = True
-        #     _ = tail_set[curr_node_idx]
-
-        # assert len(exclude_rels) == 0, str(amr)</text>
+        <text encoding="base64">aWYgc2VudF9pZHggPCBsZW4odG9rX3NlcXMpOgogICAgICAgICAgICAgICAgICAgIHRva3MgPSB0b2tfc2Vxc1tzZW50X2lkeF0=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>exclude_rels</last-search>
+      <last-search>RRB</last-search>
       <last-offset />
-      <last-pattern>exclude_rels</last-pattern>
+      <last-pattern>RRB</last-pattern>
       <last-replace>_idx</last-replace>
       <last-substitute>_index</last-substitute>
       <last-dir>1</last-dir>
@@ -679,6 +671,7 @@
         <entry>get_sym</entry>
         <entry>colla</entry>
         <entry>exclude_rels</entry>
+        <entry>RRB</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
@@ -699,8 +692,8 @@
         <entry>68</entry>
         <entry>317</entry>
         <entry>%s/_index/_idx/g</entry>
-        <entry>1</entry>
         <entry>567</entry>
+        <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
