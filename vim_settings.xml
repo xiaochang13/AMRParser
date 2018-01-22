@@ -419,12 +419,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516588022041">
-        <mark key="'" line="108" column="37" />
-        <mark key="[" line="34" column="45" />
-        <mark key="]" line="34" column="15" />
-        <mark key="^" line="34" column="15" />
-        <mark key="." line="34" column="15" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516590329314">
+        <mark key="'" line="116" column="21" />
+        <mark key="[" line="109" column="8" />
+        <mark key="]" line="109" column="8" />
+        <mark key="^" line="109" column="8" />
+        <mark key="." line="109" column="8" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -456,11 +456,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="348" column="13" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
-      <jump line="25" column="26" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
-      <jump line="283" column="33" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
-      <jump line="256" column="31" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
-      <jump line="761" column="27" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="349" column="15" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="14" column="8" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="350" column="15" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
@@ -552,65 +547,70 @@
       <jump line="172" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="435" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="469" column="17" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="153" column="47" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="99" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="108" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="487" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="105" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="153" column="47" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="109" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="110" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="112" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="116" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>{}</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">IyAKIyAKIyAKIyAKIyAKIyA=</text>
       </register>
       <register name="-" type="4">
         <text>{}</text>
       </register>
       <register name="/" type="4">
-        <text>colla</text>
+        <text>exclude_rels</text>
       </register>
       <register name="0" type="4">
         <text>set(range(start, end))</text>
       </register>
       <register name="1" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+        <text encoding="base64">IyAKIyAKIyAKIyAKIyAKIyA=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
+      <register name="2" type="8">
+        <text encoding="base64">IyAKIyA=</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIAo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text># if start == 14:
                     #     print &quot;Node representation: %s&quot; % node_repr</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgIyBhc3NlcnQgc3RhcnQgIT0gMTQK</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>if start == 14:
                 print &quot;%d-%d:%s&quot; % (start, end, str(indices))</text>
       </register>
-      <register name="6" type="8">
+      <register name="7" type="8">
         <text encoding="base64">IyAKIyA=</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>for tok in noncollapsed:
             print tok, tok_seq[tok]</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbGxhcHNlZCB8PSBzZXQoeHJhbmdlKGksIGopKQo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgaiBpbiB4cmFuZ2UoaSsxLCBuX3Rva3MrMSk6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbGxhcHNlZCB8PSBzZXQoeHJhbmdlKGksIGopKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>colla</last-search>
+      <last-search>exclude_rels</last-search>
       <last-offset />
-      <last-pattern>colla</last-pattern>
+      <last-pattern>exclude_rels</last-pattern>
       <last-replace>_idx</last-replace>
       <last-substitute>_index</last-substitute>
       <last-dir>1</last-dir>
@@ -659,6 +659,7 @@
         <entry>all_align</entry>
         <entry>get_sym</entry>
         <entry>colla</entry>
+        <entry>exclude_rels</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
