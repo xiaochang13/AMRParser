@@ -335,12 +335,12 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516603087575">
-        <mark key="'" line="337" column="16" />
-        <mark key="[" line="223" column="40" />
-        <mark key="]" line="224" column="3" />
-        <mark key="." line="224" column="3" />
-        <mark key="^" line="224" column="3" />
+      <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516603435671">
+        <mark key="'" line="370" column="16" />
+        <mark key="[" line="276" column="41" />
+        <mark key="]" line="276" column="48" />
+        <mark key="." line="276" column="48" />
+        <mark key="^" line="276" column="48" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/notes" timestamp="1481283244408">
         <mark key="'" line="11" column="0" />
@@ -422,9 +422,9 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516602642627">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516603204006">
         <mark key="'" line="287" column="41" />
-        <mark key="[" line="332" column="36" />
+        <mark key="[" line="314" column="4" />
         <mark key="]" line="333" column="20" />
         <mark key="." line="333" column="20" />
         <mark key="^" line="333" column="20" />
@@ -566,49 +566,65 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>first</text>
+        <text>tok_idx</text>
       </register>
       <register name="-" type="4">
-        <text>first</text>
+        <text>tok_idx</text>
       </register>
       <register name="/" type="4">
         <text>`</text>
       </register>
       <register name="0" type="4">
-        <text>for sp in special_token_map:
-        if sp in curr_tok:
-    #if curr_tok in special_token_map:
-            curr_tok = curr_tok.replace(sp, special_token_map[sp])</text>
+        <text>tok_seqs = loadTokens(token_file)
+    dep_tok_seqs = loadDepTokens(dep_file)
+
+    assert len(tok_seqs) == len(dep_tok_seqs)
+    align_maps = []
+    for (i, tok_seq) in enumerate(tok_seqs):
+        dep_seq = dep_tok_seqs[i]
+        align_map = {}
+        tok_idx = 0
+        curr_repr = &quot;&quot;
+        for (k, dep_tok) in enumerate(dep_seq):
+            curr_repr += dep_tok
+            align_map[k] = tok_idx
+            if seq_equal(curr_repr, tok_seq[tok_idx]):
+                tok_idx += 1
+                curr_repr = &quot;&quot;
+        assert tok_idx == len(tok_seq)
+        print align_map
+        align_maps.append(align_map)
+    return align_maps</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBmaXJzdF9yZXByID0gZmlyc3QucmVwbGFjZSgiYCIsICJcJyIpCg==</text>
+        <text encoding="base64">ICAgICAgICB0b2tfc2VxcyA9IGxvYWRUb2tlbnModG9rZW5fZmlsZSkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzdGFydF9pZHggPSAwCg==</text>
+        <text encoding="base64">ICAgICAgICBmaXJzdF9yZXByID0gZmlyc3QucmVwbGFjZSgiYCIsICJcJyIpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBlbmRfaWR4ID0gMAo=</text>
+        <text encoding="base64">ICAgICAgICBzdGFydF9pZHggPSAwCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHRva19pZHggPSAwCg==</text>
+        <text encoding="base64">ICAgICAgICBlbmRfaWR4ID0gMAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGFsaWduX21hcCA9IHt9Cg==</text>
+        <text encoding="base64">ICAgIHRva19pZHggPSAwCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGZvciAoaSwgZGVwX3RvaykgaW4gZW51bWVyYXRlKGRlcF90b2tfc2Vxcyk6Cg==</text>
+        <text encoding="base64">ICAgIGFsaWduX21hcCA9IHt9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGFzc2VydCBsZW4odG9rX3NlcXMpID09IGxlbihkZXBfdG9rX3NlcXMpCg==</text>
+        <text encoding="base64">ICAgIGZvciAoaSwgZGVwX3RvaykgaW4gZW51bWVyYXRlKGRlcF90b2tfc2Vxcyk6Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGFzc2VydCBsZW4odG9rX3NlcXMpID09IGxlbihkZXBfdG9rX3NlcXMpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzZWNvbgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
