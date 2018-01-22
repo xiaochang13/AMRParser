@@ -31,8 +31,8 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516576812298">
-        <mark key="'" line="397" column="17" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516588043046">
+        <mark key="'" line="487" column="12" />
         <mark key="[" line="894" column="29" />
         <mark key="]" line="894" column="31" />
         <mark key="." line="894" column="31" />
@@ -419,12 +419,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516587247704">
-        <mark key="'" line="569" column="17" />
-        <mark key="[" line="452" column="8" />
-        <mark key="]" line="452" column="8" />
-        <mark key="^" line="452" column="9" />
-        <mark key="." line="452" column="8" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516588022041">
+        <mark key="'" line="108" column="37" />
+        <mark key="[" line="34" column="45" />
+        <mark key="]" line="34" column="15" />
+        <mark key="^" line="34" column="15" />
+        <mark key="." line="34" column="15" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -456,16 +456,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="936" column="28" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
-      <jump line="957" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="820" column="30" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="571" column="33" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="900" column="34" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="539" column="45" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
-      <jump line="756" column="25" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
-      <jump line="345" column="20" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
-      <jump line="24" column="8" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
-      <jump line="292" column="39" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="348" column="13" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="25" column="26" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="283" column="33" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
@@ -493,8 +483,6 @@
       <jump line="546" column="38" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="154" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="527" column="76" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="566" column="36" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="18" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="545" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="163" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="530" column="71" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -553,19 +541,31 @@
       <jump line="587" column="34" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="596" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="599" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="550" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="534" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="569" column="17" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="550" column="82" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="22" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="83" column="56" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="35" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="18" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="566" column="38" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="172" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="435" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="469" column="17" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="153" column="47" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="99" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="108" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="487" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IyA=</text>
+        <text>{}</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IyA=</text>
+        <text>{}</text>
       </register>
       <register name="/" type="4">
-        <text>conll_wf</text>
+        <text>colla</text>
       </register>
       <register name="0" type="4">
         <text>set(range(start, end))</text>
@@ -608,9 +608,9 @@
       </register>
     </registers>
     <search>
-      <last-search>conll_wf</last-search>
+      <last-search>colla</last-search>
       <last-offset />
-      <last-pattern>conll_wf</last-pattern>
+      <last-pattern>colla</last-pattern>
       <last-replace>_idx</last-replace>
       <last-substitute>_index</last-substitute>
       <last-dir>1</last-dir>
@@ -634,7 +634,6 @@
         <entry>inside_rule_st</entry>
         <entry>addEdge</entry>
         <entry>set_core</entry>
-        <entry>colla</entry>
         <entry>_index</entry>
         <entry>filterNoise</entry>
         <entry>incoming</entry>
@@ -656,6 +655,10 @@
         <entry>all_alignments</entry>
         <entry>aligned_tok</entry>
         <entry>conll_wf</entry>
+        <entry>new_alignm</entry>
+        <entry>all_align</entry>
+        <entry>get_sym</entry>
+        <entry>colla</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
