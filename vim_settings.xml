@@ -419,12 +419,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516580219156">
-        <mark key="'" line="450" column="30" />
-        <mark key="[" line="406" column="28" />
-        <mark key="]" line="406" column="8" />
-        <mark key="^" line="406" column="8" />
-        <mark key="." line="406" column="8" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516585259895">
+        <mark key="'" line="550" column="70" />
+        <mark key="[" line="60" column="12" />
+        <mark key="]" line="60" column="13" />
+        <mark key="^" line="60" column="13" />
+        <mark key="." line="60" column="13" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -456,7 +456,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="516" column="25" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="240" column="52" filename="$USER_HOME$/SHRG-induction/alignment_utils.py" />
       <jump line="734" column="20" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="936" column="28" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
@@ -556,13 +555,14 @@
       <jump line="587" column="34" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="596" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="599" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="550" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IyA=</text>
+        <text encoding="base64">IGFuZCBpIGluIHVuYWxpZ25lZA==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IyA=</text>
+        <text encoding="base64">IGFuZCBpIGluIHVuYWxpZ25lZA==</text>
       </register>
       <register name="/" type="4">
         <text>aligned_tok</text>
