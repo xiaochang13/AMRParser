@@ -372,6 +372,11 @@
         <mark key="^" line="132" column="10" />
         <mark key="." line="132" column="10" />
       </file>
+      <file name="$USER_HOME$/data_processing/1_make_json.py" timestamp="1516594440533">
+        <mark key="[" line="12" column="43" />
+        <mark key="]" line="12" column="43" />
+        <mark key="." line="12" column="43" />
+      </file>
       <file name="$USER_HOME$/data_processing/fragment_forest.py" timestamp="1515533258564">
         <mark key="'" line="631" column="15" />
         <mark key="[" line="627" column="8" />
@@ -557,11 +562,11 @@
       <jump line="1111" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="&quot;" type="4">
+        <text>+'-dfs-linear_targ.txt'</text>
       </register>
       <register name="-" type="4">
-        <text>r</text>
+        <text>+'-dfs-linear_targ.txt'</text>
       </register>
       <register name="/" type="4">
         <text>exclude_rels</text>
@@ -570,12 +575,27 @@
         <text>set(range(start, end))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">I3NlbnQgPSBbeC5zdHJpcCgpIGZvciB4IGluIG9wZW4oc3lzLmFyZ3ZbMV0rJy1kZnMtbGluZWFyX3RhcmcudHh0JywnclUnKV0K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">YW1yID0gc3lzLmFyZ3ZbMV0K</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">I2FtciA9IFt4LnN0cmlwKCkgZm9yIHggaW4gb3BlbihzeXMuYXJndlsxXSsnLWRmcy1saW5lYXJfc3JjLnR4dCcsJ3JVJyldCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">YW1yID0gc3lzLmFyZ3ZbMV0K</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">I2FtciA9IFt4LnN0cmlwKCkgZm9yIHggaW4gb3BlbihzeXMuYXJndlsxXSsnLWRmcy1saW5lYXJfc3JjLnR4dCcsJ3JVJyldCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="7" type="4">
         <text># exclude_rels = []
         # unaligned = False
         # if curr_node_idx in all_alignments:
@@ -587,10 +607,10 @@
 
         # assert len(exclude_rels) == 0, str(am)</text>
       </register>
-      <register name="3" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="4" type="4">
+      <register name="9" type="4">
         <text># exclude_rels = []
         # unaligned = False
         # if curr_node_idx in all_alignments:
@@ -601,22 +621,6 @@
         #     _ = tail_set[curr_node_idx]
 
         # assert len(exclude_rels) == 0, str(amr)</text>
-      </register>
-      <register name="5" type="8">
-        <text encoding="base64">IyAKIyAKIyAKIyAKIyAKIyA=</text>
-      </register>
-      <register name="6" type="8">
-        <text encoding="base64">IyAKIyA=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIAo=</text>
-      </register>
-      <register name="8" type="4">
-        <text># if start == 14:
-                    #     print &quot;Node representation: %s&quot; % node_repr</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBhc3NlcnQgc3RhcnQgIT0gMTQK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
