@@ -10,6 +10,13 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
+      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516652839095">
+        <mark key="'" line="103" column="4" />
+        <mark key="[" line="171" column="31" />
+        <mark key="]" line="171" column="31" />
+        <mark key="^" line="180" column="40" />
+        <mark key="." line="171" column="31" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1513563075786">
         <mark key="'" line="578" column="13" />
         <mark key="[" line="501" column="0" />
@@ -231,12 +238,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516650275041">
-        <mark key="'" line="38" column="19" />
-        <mark key="[" line="109" column="27" />
-        <mark key="]" line="110" column="55" />
-        <mark key="^" line="110" column="55" />
-        <mark key="." line="110" column="55" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516653015588">
+        <mark key="'" line="73" column="18" />
+        <mark key="[" line="87" column="20" />
+        <mark key="]" line="87" column="20" />
+        <mark key="^" line="87" column="20" />
+        <mark key="." line="87" column="20" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -338,6 +345,10 @@
         <mark key="]" line="102" column="2" />
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
+      </file>
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516652748999">
+        <mark key="[" line="39" column="8" />
+        <mark key="]" line="39" column="21" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516649902394">
         <mark key="'" line="18" column="0" />
@@ -480,16 +491,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="59" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1117" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="409" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="472" column="12" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="593" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="265" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="591" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="487" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="493" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="399" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="405" column="26" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="470" column="19" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="552" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -580,64 +581,68 @@
       <jump line="116" column="8" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
       <jump line="37" column="19" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="18" column="0" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
+      <jump line="94" column="16" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="187" column="8" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="193" column="4" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="1" column="15" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="103" column="4" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="83" column="53" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="171" column="8" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="87" column="20" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="88" column="24" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="73" column="18" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text>, word_idx</text>
       </register>
       <register name="-" type="4">
-        <text>data</text>
+        <text>, word_idx</text>
       </register>
       <register name="/" type="4">
-        <text>succeed</text>
+        <text>word_idx</text>
       </register>
       <register name="0" type="4">
-        <text>class Dataset(object):
-    def __init__(self, tok_thre=1, top_arc=40):
-        self.tok_seqs = None
-        self.lem_seqs = None
-        self.pos_seqs = None
-        self.dep_trees = None
-        self.amr_graphs = None</text>
+        <text>nextBufferElem</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50ICJDdXJyZW50IGFjdGlvbjoiLCBvcmFjbGVfYWN0aW9uCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="3" type="4">
         <text encoding="base64">aWYgc2VudF9pZHggPiAxMDA6CiAgICAgICAgICAgICAgICAgICAgYnJlYWs=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmZlYXRfc2Vxcywgc2VsZi5vcmFjbGVfc2Vxcywgc2VsZi5hbGlnbm1lbnRfc2VxcyA9IFtdLCBbXSwgW10K</text>
-      </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgPSBOb25lCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmZlYXRfc2Vxcywgc2VsZi5vcmFjbGVfc2Vxcywgc2VsZi5hbGlnbm1lbnRfc2VxcyA9IFtdLCBbXSwgW10K</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgPSBOb25lCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmNvbmNlcHRfc2VxcyA9IE5vbmUK</text>
+        <text encoding="base64">ICAgICAgICAgPSBOb25lCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnBvc19zZXFzID0gTm9uZQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmNvbmNlcHRfc2VxcyA9IE5vbmUK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmxlbV9zZXFzID0gTm9uZQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnBvc19zZXFzID0gTm9uZQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnBvc3MgPSBbXQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmxlbV9zZXFzID0gTm9uZQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>succeed</last-search>
+      <last-search>word_idx</last-search>
       <last-offset />
-      <last-pattern>succeed</last-pattern>
+      <last-pattern>word_idx</last-pattern>
       <last-replace>_idx</last-replace>
       <last-substitute>_index</last-substitute>
       <last-dir>1</last-dir>
@@ -701,6 +706,7 @@
         <entry encoding="base64">XDxwcmludFw+</entry>
         <entry>succed</entry>
         <entry>succeed</entry>
+        <entry>word_idx</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
