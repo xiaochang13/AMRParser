@@ -10,12 +10,12 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516654714945">
+      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516658753463">
         <mark key="'" line="116" column="25" />
-        <mark key="[" line="171" column="31" />
-        <mark key="]" line="171" column="31" />
-        <mark key="^" line="180" column="40" />
-        <mark key="." line="171" column="31" />
+        <mark key="[" line="196" column="35" />
+        <mark key="]" line="196" column="34" />
+        <mark key="^" line="196" column="34" />
+        <mark key="." line="196" column="34" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1513563075786">
         <mark key="'" line="578" column="13" />
@@ -238,12 +238,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516653015588">
-        <mark key="'" line="73" column="18" />
-        <mark key="[" line="87" column="20" />
-        <mark key="]" line="87" column="20" />
-        <mark key="^" line="87" column="20" />
-        <mark key="." line="87" column="20" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516659796943">
+        <mark key="'" line="195" column="20" />
+        <mark key="[" line="69" column="73" />
+        <mark key="]" line="70" column="46" />
+        <mark key="^" line="70" column="46" />
+        <mark key="." line="70" column="46" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -471,12 +471,12 @@
         <mark key="^" line="7" column="0" />
         <mark key="." line="813" column="127" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/AMRGraph.py" timestamp="1516646053820">
-        <mark key="'" line="107" column="20" />
-        <mark key="[" line="113" column="18" />
-        <mark key="]" line="113" column="25" />
-        <mark key="^" line="113" column="25" />
-        <mark key="." line="113" column="25" />
+      <file name="$USER_HOME$/data_processing/oracle/AMRGraph.py" timestamp="1516659636975">
+        <mark key="'" line="110" column="20" />
+        <mark key="[" line="94" column="28" />
+        <mark key="]" line="95" column="62" />
+        <mark key="^" line="95" column="62" />
+        <mark key="." line="95" column="62" />
       </file>
       <file name="$USER_HOME$/data_processing/depTokens.py" timestamp="1516596838523">
         <mark key="[" line="26" column="4" />
@@ -491,10 +491,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="470" column="19" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="552" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="215" column="86" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="597" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="548" column="31" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="602" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="471" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -591,13 +587,17 @@
       <jump line="73" column="18" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="116" column="25" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
       <jump line="71" column="8" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
+      <jump line="193" column="26" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="42" column="26" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="68" column="8" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="194" column="20" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>, word_idx</text>
+        <text>8</text>
       </register>
       <register name="-" type="4">
-        <text>, word_idx</text>
+        <text>8</text>
       </register>
       <register name="/" type="4">
         <text>word_idx</text>
