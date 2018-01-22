@@ -231,8 +231,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516631915517">
-        <mark key="'" line="37" column="19" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516646081600">
+        <mark key="'" line="107" column="20" />
+        <mark key="[" line="108" column="59" />
+        <mark key="]" line="108" column="60" />
+        <mark key="." line="108" column="60" />
+        <mark key="^" line="108" column="60" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -450,8 +454,12 @@
         <mark key="^" line="7" column="0" />
         <mark key="." line="813" column="127" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/AMRGraph.py" timestamp="1516636749507">
+      <file name="$USER_HOME$/data_processing/oracle/AMRGraph.py" timestamp="1516646053820">
         <mark key="'" line="107" column="20" />
+        <mark key="[" line="113" column="18" />
+        <mark key="]" line="113" column="25" />
+        <mark key="^" line="113" column="25" />
+        <mark key="." line="113" column="25" />
       </file>
       <file name="$USER_HOME$/data_processing/depTokens.py" timestamp="1516596838523">
         <mark key="[" line="26" column="4" />
@@ -466,7 +474,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="556" column="15" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="555" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="403" column="8" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="545" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -555,7 +562,6 @@
       <jump line="1160" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="430" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="54" column="0" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="185" column="11" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="37" column="19" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="371" column="17" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="297" column="17" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
@@ -566,16 +572,18 @@
       <jump line="107" column="20" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="21" column="8" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="59" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
+      <jump line="185" column="18" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="107" column="20" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IyA=</text>
+        <text>\n</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IyA=</text>
+        <text>\n</text>
       </register>
       <register name="/" type="4">
-        <text>head.add</text>
+        <text encoding="base64">XDxwcmludFw+</text>
       </register>
       <register name="0" type="4">
         <text>tok_seqs = loadTokens(token_file)
@@ -634,12 +642,12 @@
       </register>
     </registers>
     <search>
-      <last-search>head.add</last-search>
+      <last-search encoding="base64">XDxwcmludFw+</last-search>
       <last-offset />
-      <last-pattern>head.add</last-pattern>
+      <last-pattern encoding="base64">XDxwcmludFw+</last-pattern>
       <last-replace>_idx</last-replace>
       <last-substitute>_index</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
@@ -697,6 +705,7 @@
         <entry>curr_idx</entry>
         <entry>buildRelMap</entry>
         <entry>head.add</entry>
+        <entry encoding="base64">XDxwcmludFw+</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
