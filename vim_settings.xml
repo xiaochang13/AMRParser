@@ -127,11 +127,6 @@
       <file name="$USER_HOME$/ConvParser/common/AMRGraph.py" timestamp="1515466512530">
         <mark key="'" line="441" column="22" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/prepareTokens.py" timestamp="1516215189964">
-        <mark key="'" line="52" column="48" />
-        <mark key="[" line="14" column="0" />
-        <mark key="]" line="65" column="68" />
-      </file>
       <file name="$USER_HOME$/data_processing/date_extraction.py" timestamp="1515442489746">
         <mark key="'" line="9" column="0" />
         <mark key="[" line="7" column="42" />
@@ -238,12 +233,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516682333800">
-        <mark key="'" line="230" column="11" />
-        <mark key="[" line="95" column="0" />
-        <mark key="]" line="95" column="0" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516683257877">
+        <mark key="'" line="43" column="17" />
+        <mark key="[" line="103" column="0" />
+        <mark key="]" line="103" column="0" />
         <mark key="^" line="67" column="16" />
-        <mark key="." line="95" column="0" />
+        <mark key="." line="103" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -317,6 +312,9 @@
         <mark key="]" line="781" column="4" />
         <mark key="." line="781" column="4" />
         <mark key="^" line="651" column="48" />
+      </file>
+      <file name="$USER_HOME$/data_processing/oracle/dependency.py" timestamp="1516683285300">
+        <mark key="'" line="63" column="28" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/amr_graph.py" timestamp="1500748165318">
         <mark key="'" line="759" column="4" />
@@ -398,11 +396,6 @@
         <mark key="[" line="12" column="43" />
         <mark key="]" line="12" column="43" />
         <mark key="." line="12" column="43" />
-      </file>
-      <file name="$USER_HOME$/data_processing/fragment_forest.py" timestamp="1515533258564">
-        <mark key="'" line="631" column="15" />
-        <mark key="[" line="627" column="8" />
-        <mark key="]" line="631" column="41" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1500614393650">
         <mark key="'" line="553" column="57" />
@@ -494,8 +487,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="865" column="48" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="828" column="48" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="879" column="28" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="397" column="17" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="539" column="27" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -594,6 +585,8 @@
       <jump line="0" column="10" filename="$USER_HOME$/data_processing/oracle/oracle_data.py" />
       <jump line="161" column="51" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="234" column="11" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="43" column="17" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="63" column="28" filename="$USER_HOME$/data_processing/oracle/dependency.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -617,32 +610,33 @@
         <text />
       </register>
       <register name="2" type="4">
+        <text># word_align.append(word_idx)
+                    # oracle_seq.append(oracle_action)</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      </register>
+      <register name="4" type="4">
         <text># print &quot;Current action:&quot;, oracle_action
 
                     # If the next action processes a buffer word.
                     # if &quot;conID&quot; in oracle_action or &quot;conEMP&quot; in oracle_action:
                     #     word_idx += 1</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICBqc29uLmR1bXAoZGF0YXNldCwgb3BlbikK</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBhY3Rpb25fc3RyID0gCg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICB3b3JkX2FsaWduX3N0ciA9ICIgIi5qb2luKFtzdHIoaWR4KSBmb3IgaWR4IGluIHNlbGYud29yZF9hbGlnbl0pCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBmZWF0X3N0ciAK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBsZW1fc3RyID0gIiAiLmpvaW4oc2VsZi4pCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBmZWF0X3N0ciAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
