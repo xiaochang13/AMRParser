@@ -233,11 +233,12 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516722210419">
-        <mark key="[" line="71" column="16" />
-        <mark key="]" line="71" column="16" />
-        <mark key="^" line="71" column="16" />
-        <mark key="." line="71" column="16" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516726267229">
+        <mark key="'" line="115" column="0" />
+        <mark key="[" line="195" column="41" />
+        <mark key="]" line="195" column="42" />
+        <mark key="^" line="195" column="42" />
+        <mark key="." line="195" column="42" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -487,7 +488,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="105" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="153" column="47" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="109" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="110" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -587,16 +587,17 @@
       <jump line="143" column="61" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="701" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="576" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="112" column="0" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>pop_actions</text>
+        <text>,</text>
       </register>
       <register name="-" type="4">
-        <text>pop_actions</text>
+        <text>,</text>
       </register>
       <register name="/" type="4">
-        <text>feat_seq</text>
+        <text>Failed sent</text>
       </register>
       <register name="0" type="4">
         <text>feat_seq.append([&quot;PHASE=ARCBINARY&quot;]+ cache_feats)
@@ -642,9 +643,9 @@
       </register>
     </registers>
     <search>
-      <last-search>feat_seq</last-search>
+      <last-search>Failed sent</last-search>
       <last-offset />
-      <last-pattern>feat_seq</last-pattern>
+      <last-pattern>Failed sent</last-pattern>
       <last-replace>_idx</last-replace>
       <last-substitute>_index</last-substitute>
       <last-dir>1</last-dir>
@@ -710,6 +711,7 @@
         <entry>succeed</entry>
         <entry>word_idx</entry>
         <entry>feat_seq</entry>
+        <entry>Failed sent</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
