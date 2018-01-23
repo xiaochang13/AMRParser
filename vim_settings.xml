@@ -10,10 +10,10 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516666587358">
+      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516687883780">
         <mark key="'" line="116" column="26" />
-        <mark key="[" line="149" column="26" />
-        <mark key="]" line="150" column="28" />
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="3" column="16" />
         <mark key="^" line="150" column="28" />
         <mark key="." line="150" column="28" />
       </file>
@@ -58,6 +58,12 @@
         <mark key="]" line="24" column="24" />
         <mark key="^" line="24" column="24" />
         <mark key="." line="24" column="24" />
+      </file>
+      <file name="$USER_HOME$/data_processing/oracle/utils.py" timestamp="1516687886815">
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="14" column="17" />
+        <mark key="." line="13" column="0" />
+        <mark key="^" line="13" column="3" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1514953987173">
         <mark key="'" line="60" column="17" />
@@ -220,6 +226,12 @@
         <mark key="^" line="521" column="19" />
         <mark key="." line="509" column="20" />
       </file>
+      <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
+        <mark key="'" line="94" column="16" />
+        <mark key="[" line="130" column="0" />
+        <mark key="]" line="130" column="0" />
+        <mark key="." line="130" column="0" />
+      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/io/IOUtils.java" timestamp="1491962694595">
         <mark key="'" line="667" column="17" />
         <mark key="[" line="652" column="5" />
@@ -227,18 +239,11 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1516215405954">
-        <mark key="[" line="476" column="8" />
-        <mark key="]" line="476" column="9" />
-        <mark key="^" line="476" column="9" />
-        <mark key="." line="476" column="9" />
-      </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516684221167">
-        <mark key="'" line="43" column="17" />
-        <mark key="[" line="103" column="0" />
-        <mark key="]" line="103" column="0" />
-        <mark key="^" line="67" column="16" />
-        <mark key="." line="103" column="0" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516687018234">
+        <mark key="'" line="113" column="46" />
+        <mark key="[" line="30" column="0" />
+        <mark key="]" line="30" column="0" />
+        <mark key="." line="30" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -344,11 +349,12 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516669892572">
-        <mark key="[" line="45" column="29" />
-        <mark key="]" line="45" column="30" />
-        <mark key="^" line="47" column="38" />
-        <mark key="." line="45" column="30" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516687940924">
+        <mark key="'" line="49" column="52" />
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="1" />
+        <mark key="^" line="4" column="1" />
+        <mark key="." line="4" column="1" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516649902394">
         <mark key="'" line="18" column="0" />
@@ -487,11 +493,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="754" column="39" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1119" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="450" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="464" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="508" column="20" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="586" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="587" column="34" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="596" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -587,56 +588,60 @@
       <jump line="36" column="8" filename="$USER_HOME$/data_processing/oracle/dependency.py" />
       <jump line="43" column="17" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="73" column="0" filename="$USER_HOME$/data_processing/oracle/dependency.py" />
+      <jump line="47" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="113" column="46" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="37" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="40" column="52" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="97" column="22" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      <register name="&quot;" type="4">
+        <text>NULL</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;oracle_examples100.json&quot;</text>
+        <text>NULL</text>
       </register>
       <register name="/" type="4">
         <text>word_idx</text>
       </register>
       <register name="0" type="4">
-        <text>oracle_seq.append(&quot;SHIFT&quot;)
-                                word_align.append(word_idx)
-                                concept_align.append(concept_idx)</text>
+        <text>NULL = &quot;-NULL-&quot;
+UNKNOWN = &quot;-UNK-&quot;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">aW1wb3J0IGVudW0K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIGRlZiBDb25uZWN0QXJjRmVhdHVyZXMoc2VsZiwgd29yZF9pZHgsIGNvbmNlcHRfaWR4LCBjLCB0cmVlKToK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      </register>
+      <register name="5" type="4">
         <text># word_align.append(word_idx)
                     # oracle_seq.append(oracle_action)</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text># print &quot;Current action:&quot;, oracle_action
 
                     # If the next action processes a buffer word.
                     # if &quot;conID&quot; in oracle_action or &quot;conEMP&quot; in oracle_action:
                     #     word_idx += 1</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBqc29uLmR1bXAoZGF0YXNldCwgb3BlbikK</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBhY3Rpb25fc3RyID0gCg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB3b3JkX2FsaWduX3N0ciA9ICIgIi5qb2luKFtzdHIoaWR4KSBmb3IgaWR4IGluIHNlbGYud29yZF9hbGlnbl0pCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBmZWF0X3N0ciAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
