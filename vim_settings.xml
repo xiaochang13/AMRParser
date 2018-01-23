@@ -89,8 +89,8 @@
       <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515482880350">
         <mark key="'" line="426" column="54" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1515007696552">
-        <mark key="'" line="2048" column="29" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1516720793241">
+        <mark key="'" line="701" column="21" />
         <mark key="[" line="2531" column="106" />
         <mark key="]" line="2531" column="109" />
         <mark key="^" line="2531" column="109" />
@@ -487,8 +487,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="108" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="487" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="105" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="153" column="47" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="109" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -587,6 +585,8 @@
       <jump line="39" column="23" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="371" column="23" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="143" column="61" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="701" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="576" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
