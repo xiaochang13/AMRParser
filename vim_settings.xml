@@ -238,12 +238,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516668549593">
-        <mark key="'" line="103" column="41" />
-        <mark key="[" line="134" column="0" />
-        <mark key="]" line="134" column="0" />
-        <mark key="." line="134" column="0" />
-        <mark key="^" line="133" column="51" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516670003828">
+        <mark key="'" line="116" column="46" />
+        <mark key="[" line="97" column="50" />
+        <mark key="]" line="97" column="51" />
+        <mark key="." line="97" column="51" />
+        <mark key="^" line="139" column="57" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -346,11 +346,11 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516668896924">
-        <mark key="[" line="37" column="25" />
-        <mark key="]" line="37" column="29" />
-        <mark key="^" line="37" column="29" />
-        <mark key="." line="37" column="29" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516669892572">
+        <mark key="[" line="45" column="29" />
+        <mark key="]" line="45" column="30" />
+        <mark key="^" line="47" column="38" />
+        <mark key="." line="45" column="30" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516649902394">
         <mark key="'" line="18" column="0" />
@@ -493,9 +493,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="86" column="27" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="871" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="548" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="521" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="860" column="0" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="902" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -593,13 +590,16 @@
       <jump line="70" column="8" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="103" column="41" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="42" column="20" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="128" column="46" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="39" column="20" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="116" column="46" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>oracle_seq</text>
       </register>
       <register name="-" type="4">
-        <text>word_align</text>
+        <text>oracle_seq</text>
       </register>
       <register name="/" type="4">
         <text>word_idx</text>
@@ -610,34 +610,34 @@
                                 concept_align.append(concept_idx)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludD4+IG9yYWNsZV93ZiwgIk9yYWNsZSBzZXF1ZW5jZTogJXNcbiIgJSAiICIuam9pbihvcmFjbGVfc2VxKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludD4+IG9yYWNsZV93ZiwgIk9yYWNsZSB3b3JkIGFsaWdubWVudHM6ICVzXG4iICUgc3RyKHdvcmRfYWxpZ24pCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludD4+IG9yYWNsZV93ZiwgIk9yYWNsZSA6ICVzXG4iICUgc3RyKGNvbmNlcHRfYWxpZ24pCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50ICJDdXJyZW50IGFjdGlvbjoiLCBvcmFjbGVfYWN0aW9uCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludD4+IG9yYWNsZV93ZiwgIk9yYWNsZSBjb25jZXB0IGFsaWdubWVudHM6ICVzXG4iICUgc3RyKGNvbmNlcHRfYWxpZ24pCg==</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">aWYgc2VudF9pZHggPiAxMDA6CiAgICAgICAgICAgICAgICAgICAgYnJlYWs=</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjYWNoZV9pZHggPSAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmZlYXRfc2Vxcywgc2VsZi5vcmFjbGVfc2Vxcywgc2VsZi5hbGlnbm1lbnRfc2VxcyA9IFtdLCBbXSwgW10K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgPSBOb25lCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludD4+IG9yYWNsZV93ZiwgIk9yYWNsZSB3b3JkIGFsaWdubWVudHM6ICVzXG4iICUgc3RyKHdvcmRfYWxpZ24pCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgPSBOb25lCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50ICJDdXJyZW50IGFjdGlvbjoiLCBvcmFjbGVfYWN0aW9uCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmNvbmNlcHRfc2VxcyA9IE5vbmUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
