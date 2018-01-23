@@ -324,12 +324,12 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516732813957">
-        <mark key="'" line="77" column="29" />
-        <mark key="[" line="108" column="30" />
-        <mark key="]" line="108" column="34" />
-        <mark key="." line="108" column="34" />
-        <mark key="^" line="108" column="34" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516734538211">
+        <mark key="'" line="50" column="44" />
+        <mark key="[" line="53" column="0" />
+        <mark key="]" line="53" column="0" />
+        <mark key="." line="53" column="0" />
+        <mark key="^" line="55" column="23" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516722070414">
         <mark key="'" line="371" column="23" />
@@ -468,8 +468,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="116" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="123" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1111" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1109" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="273" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -568,10 +566,12 @@
       <jump line="722" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="616" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="272" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="78" column="33" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="50" column="44" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmVmaXggPSB0eXBlLm5hbWUgKyAiOiIK</text>
       </register>
       <register name="-" type="4">
         <text>,</text>
@@ -586,7 +586,7 @@
                                 concept_align.append(concept_idx)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmVmaXggPSB0eXBlLm5hbWUgKyAiOiIK</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -598,25 +598,23 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBhcmNfYWN0aW9ucyA9IGRlZmF1bHRkaWN0KGludCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBhcmNfYWN0aW9ucyA9IGRlZmF1bHRkaWN0KGludCkK</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text># print oracle_action
                             # print feat_seq[-1]</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>print curr_arc_action
-                            print word_idx, concept_idx, cache_idx
-                            print feat_seq[-1]</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
