@@ -238,12 +238,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516671554018">
-        <mark key="'" line="235" column="11" />
-        <mark key="[" line="67" column="16" />
-        <mark key="]" line="67" column="16" />
-        <mark key="." line="67" column="16" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516675835775">
+        <mark key="'" line="230" column="11" />
+        <mark key="[" line="95" column="0" />
+        <mark key="]" line="95" column="0" />
         <mark key="^" line="67" column="16" />
+        <mark key="." line="95" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -596,8 +596,8 @@
       <jump line="234" column="11" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>&quot;oracle_examples100.json&quot;</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
         <text>&quot;oracle_examples100.json&quot;</text>
@@ -611,34 +611,38 @@
                                 concept_align.append(concept_idx)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBqc29uLmR1bXAoZGF0YXNldCwgb3BlbikK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text># print &quot;Current action:&quot;, oracle_action
+
+                    # If the next action processes a buffer word.
+                    # if &quot;conID&quot; in oracle_action or &quot;conEMP&quot; in oracle_action:
+                    #     word_idx += 1</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBhY3Rpb25fc3RyID0gCg==</text>
+        <text encoding="base64">ICAgICAgICBqc29uLmR1bXAoZGF0YXNldCwgb3BlbikK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB3b3JkX2FsaWduX3N0ciA9ICIgIi5qb2luKFtzdHIoaWR4KSBmb3IgaWR4IGluIHNlbGYud29yZF9hbGlnbl0pCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBmZWF0X3N0ciAK</text>
+        <text encoding="base64">ICAgICAgICBhY3Rpb25fc3RyID0gCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBsZW1fc3RyID0gIiAiLmpvaW4oc2VsZi4pCg==</text>
+        <text encoding="base64">ICAgICAgICB3b3JkX2FsaWduX3N0ciA9ICIgIi5qb2luKFtzdHIoaWR4KSBmb3IgaWR4IGluIHNlbGYud29yZF9hbGlnbl0pCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBmZWF0X3N0ciAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4K</text>
+        <text encoding="base64">ICAgICAgICBsZW1fc3RyID0gIiAiLmpvaW4oc2VsZi4pCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludD4+IG9yYWNsZV93ZiwgIk9yYWNsZSBzZXF1ZW5jZTogJXNcbiIgJSAiICIuam9pbihvcmFjbGVfc2VxKQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
