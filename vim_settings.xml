@@ -238,12 +238,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516670003828">
-        <mark key="'" line="116" column="46" />
-        <mark key="[" line="97" column="50" />
-        <mark key="]" line="97" column="51" />
-        <mark key="." line="97" column="51" />
-        <mark key="^" line="139" column="57" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516671554018">
+        <mark key="'" line="235" column="11" />
+        <mark key="[" line="67" column="16" />
+        <mark key="]" line="67" column="16" />
+        <mark key="." line="67" column="16" />
+        <mark key="^" line="67" column="16" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -373,11 +373,12 @@
         <mark key="^" line="568" column="26" />
         <mark key="." line="568" column="26" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle_data.py" timestamp="1516663298953">
-        <mark key="[" line="4" column="98" />
-        <mark key="]" line="4" column="107" />
-        <mark key="^" line="4" column="107" />
-        <mark key="." line="4" column="107" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle_data.py" timestamp="1516671198315">
+        <mark key="'" line="0" column="10" />
+        <mark key="[" line="40" column="39" />
+        <mark key="]" line="41" column="26" />
+        <mark key="." line="41" column="26" />
+        <mark key="^" line="41" column="26" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1510360116258">
         <mark key="'" line="206" column="23" />
@@ -493,9 +494,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="521" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="860" column="0" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="902" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="865" column="48" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="828" column="48" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="879" column="28" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -593,13 +591,16 @@
       <jump line="128" column="46" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="39" column="20" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="116" column="46" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="0" column="10" filename="$USER_HOME$/data_processing/oracle/oracle_data.py" />
+      <jump line="161" column="51" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="234" column="11" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>oracle_seq</text>
+        <text>&quot;oracle_examples100.json&quot;</text>
       </register>
       <register name="-" type="4">
-        <text>oracle_seq</text>
+        <text>&quot;oracle_examples100.json&quot;</text>
       </register>
       <register name="/" type="4">
         <text>word_idx</text>
@@ -610,34 +611,34 @@
                                 concept_align.append(concept_idx)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludD4+IG9yYWNsZV93ZiwgIk9yYWNsZSBzZXF1ZW5jZTogJXNcbiIgJSAiICIuam9pbihvcmFjbGVfc2VxKQo=</text>
+        <text encoding="base64">ICAgICAgICBqc29uLmR1bXAoZGF0YXNldCwgb3BlbikK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludD4+IG9yYWNsZV93ZiwgIk9yYWNsZSA6ICVzXG4iICUgc3RyKGNvbmNlcHRfYWxpZ24pCg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludAo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludD4+IG9yYWNsZV93ZiwgIk9yYWNsZSBjb25jZXB0IGFsaWdubWVudHM6ICVzXG4iICUgc3RyKGNvbmNlcHRfYWxpZ24pCg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjYWNoZV9pZHggPSAK</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBhY3Rpb25fc3RyID0gCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICB3b3JkX2FsaWduX3N0ciA9ICIgIi5qb2luKFtzdHIoaWR4KSBmb3IgaWR4IGluIHNlbGYud29yZF9hbGlnbl0pCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBmZWF0X3N0ciAK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBsZW1fc3RyID0gIiAiLmpvaW4oc2VsZi4pCg==</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludD4+IG9yYWNsZV93ZiwgIk9yYWNsZSB3b3JkIGFsaWdubWVudHM6ICVzXG4iICUgc3RyKHdvcmRfYWxpZ24pCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50ICJDdXJyZW50IGFjdGlvbjoiLCBvcmFjbGVfYWN0aW9uCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludD4+IG9yYWNsZV93ZiwgIk9yYWNsZSBzZXF1ZW5jZTogJXNcbiIgJSAiICIuam9pbihvcmFjbGVfc2VxKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
