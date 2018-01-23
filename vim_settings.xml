@@ -10,12 +10,12 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516658753463">
+      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516664517217">
         <mark key="'" line="116" column="25" />
-        <mark key="[" line="196" column="35" />
-        <mark key="]" line="196" column="34" />
-        <mark key="^" line="196" column="34" />
-        <mark key="." line="196" column="34" />
+        <mark key="[" line="149" column="26" />
+        <mark key="]" line="150" column="28" />
+        <mark key="^" line="150" column="28" />
+        <mark key="." line="150" column="28" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1513563075786">
         <mark key="'" line="578" column="13" />
@@ -238,12 +238,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516663446561">
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516665133262">
         <mark key="'" line="89" column="53" />
-        <mark key="[" line="74" column="29" />
-        <mark key="]" line="75" column="15" />
-        <mark key="^" line="75" column="15" />
-        <mark key="." line="75" column="15" />
+        <mark key="[" line="102" column="49" />
+        <mark key="]" line="103" column="45" />
+        <mark key="^" line="103" column="45" />
+        <mark key="." line="103" column="45" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -346,9 +346,11 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516652748999">
-        <mark key="[" line="39" column="8" />
-        <mark key="]" line="39" column="21" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516664468575">
+        <mark key="[" line="31" column="31" />
+        <mark key="]" line="32" column="27" />
+        <mark key="^" line="32" column="27" />
+        <mark key="." line="32" column="27" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516649902394">
         <mark key="'" line="18" column="0" />
@@ -594,10 +596,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>8</text>
+        <text>c</text>
       </register>
       <register name="-" type="4">
-        <text>8</text>
+        <text>c</text>
       </register>
       <register name="/" type="4">
         <text>word_idx</text>
