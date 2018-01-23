@@ -10,8 +10,8 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516664517217">
-        <mark key="'" line="116" column="25" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516666587358">
+        <mark key="'" line="116" column="26" />
         <mark key="[" line="149" column="26" />
         <mark key="]" line="150" column="28" />
         <mark key="^" line="150" column="28" />
@@ -238,12 +238,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516665133262">
-        <mark key="'" line="89" column="53" />
-        <mark key="[" line="102" column="49" />
-        <mark key="]" line="103" column="45" />
-        <mark key="^" line="103" column="45" />
-        <mark key="." line="103" column="45" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516668549593">
+        <mark key="'" line="103" column="41" />
+        <mark key="[" line="134" column="0" />
+        <mark key="]" line="134" column="0" />
+        <mark key="." line="134" column="0" />
+        <mark key="^" line="133" column="51" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -346,11 +346,11 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516664468575">
-        <mark key="[" line="31" column="31" />
-        <mark key="]" line="32" column="27" />
-        <mark key="^" line="32" column="27" />
-        <mark key="." line="32" column="27" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516668896924">
+        <mark key="[" line="37" column="25" />
+        <mark key="]" line="37" column="29" />
+        <mark key="^" line="37" column="29" />
+        <mark key="." line="37" column="29" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516649902394">
         <mark key="'" line="18" column="0" />
@@ -493,8 +493,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="602" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="471" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="86" column="27" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="871" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="548" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -573,7 +571,6 @@
       <jump line="185" column="18" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="107" column="20" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="105" column="8" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="103" column="43" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="37" column="19" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="18" column="0" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="94" column="16" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
@@ -586,56 +583,61 @@
       <jump line="87" column="20" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="88" column="24" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="73" column="18" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="116" column="25" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
       <jump line="71" column="8" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="193" column="26" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="42" column="26" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="68" column="8" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="194" column="20" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="89" column="53" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="116" column="26" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="70" column="8" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
+      <jump line="103" column="41" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="42" column="20" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>c</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>c</text>
+        <text>word_align</text>
       </register>
       <register name="/" type="4">
         <text>word_idx</text>
       </register>
       <register name="0" type="4">
-        <text>nextBufferElem</text>
+        <text>oracle_seq.append(&quot;SHIFT&quot;)
+                                word_align.append(word_idx)
+                                concept_align.append(concept_idx)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50ICJDdXJyZW50IGFjdGlvbjoiLCBvcmFjbGVfYWN0aW9uCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludD4+IG9yYWNsZV93ZiwgIk9yYWNsZSB3b3JkIGFsaWdubWVudHM6ICVzXG4iICUgc3RyKHdvcmRfYWxpZ24pCg==</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">aWYgc2VudF9pZHggPiAxMDA6CiAgICAgICAgICAgICAgICAgICAgYnJlYWs=</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50ICJDdXJyZW50IGFjdGlvbjoiLCBvcmFjbGVfYWN0aW9uCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmZlYXRfc2Vxcywgc2VsZi5vcmFjbGVfc2Vxcywgc2VsZi5hbGlnbm1lbnRfc2VxcyA9IFtdLCBbXSwgW10K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgPSBOb25lCg==</text>
+      <register name="5" type="4">
+        <text encoding="base64">aWYgc2VudF9pZHggPiAxMDA6CiAgICAgICAgICAgICAgICAgICAgYnJlYWs=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgPSBOb25lCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmZlYXRfc2Vxcywgc2VsZi5vcmFjbGVfc2Vxcywgc2VsZi5hbGlnbm1lbnRfc2VxcyA9IFtdLCBbXSwgW10K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmNvbmNlcHRfc2VxcyA9IE5vbmUK</text>
+        <text encoding="base64">ICAgICAgICAgPSBOb25lCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnBvc19zZXFzID0gTm9uZQo=</text>
+        <text encoding="base64">ICAgICAgICAgPSBOb25lCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmxlbV9zZXFzID0gTm9uZQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmNvbmNlcHRfc2VxcyA9IE5vbmUK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
