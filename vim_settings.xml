@@ -233,11 +233,11 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516719933455">
-        <mark key="[" line="165" column="59" />
-        <mark key="]" line="165" column="59" />
-        <mark key="^" line="152" column="62" />
-        <mark key="." line="165" column="59" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516722210419">
+        <mark key="[" line="71" column="16" />
+        <mark key="]" line="71" column="16" />
+        <mark key="^" line="71" column="16" />
+        <mark key="." line="71" column="16" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -350,12 +350,12 @@
         <mark key="." line="48" column="42" />
         <mark key="^" line="48" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516716943570">
+      <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516722070414">
         <mark key="'" line="371" column="23" />
-        <mark key="[" line="300" column="27" />
-        <mark key="]" line="300" column="35" />
-        <mark key="." line="300" column="35" />
-        <mark key="^" line="300" column="35" />
+        <mark key="[" line="386" column="48" />
+        <mark key="]" line="387" column="17" />
+        <mark key="." line="387" column="17" />
+        <mark key="^" line="387" column="17" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/notes" timestamp="1481283244408">
         <mark key="'" line="11" column="0" />
@@ -590,10 +590,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>\n</text>
+        <text>pop_actions</text>
       </register>
       <register name="-" type="4">
-        <text>\n</text>
+        <text>pop_actions</text>
       </register>
       <register name="/" type="4">
         <text>feat_seq</text>
@@ -605,39 +605,37 @@
                                 concept_align.append(concept_idx)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBhcmNfYWN0aW9ucyA9IGRlZmF1bHRkaWN0KGludCkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="3" type="4">
         <text># print oracle_action
                             # print feat_seq[-1]</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="4">
         <text>print curr_arc_action
                             print word_idx, concept_idx, cache_idx
                             print feat_seq[-1]</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZlYXRfc2VxLmFwcGVuZChbIlBIQVNFIl0pCg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="9" type="4">
-        <text>#oracle_seq.append(curr_arc_action)
-                            #word_align.append(word_idx)
-                            #concept_align.append(concept_idx)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -734,9 +732,9 @@
         <entry>%s/_index/_idx/g</entry>
         <entry>567</entry>
         <entry>311</entry>
-        <entry>1</entry>
         <entry>146</entry>
         <entry>157</entry>
+        <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
