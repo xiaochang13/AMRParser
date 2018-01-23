@@ -233,12 +233,11 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516716914703">
-        <mark key="'" line="39" column="23" />
-        <mark key="[" line="129" column="28" />
-        <mark key="]" line="129" column="28" />
-        <mark key="." line="129" column="28" />
-        <mark key="^" line="129" column="28" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516718368834">
+        <mark key="[" line="154" column="77" />
+        <mark key="]" line="154" column="77" />
+        <mark key="^" line="154" column="62" />
+        <mark key="." line="154" column="77" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -488,7 +487,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="99" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="108" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="487" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="105" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -588,52 +586,59 @@
       <jump line="65" column="33" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="39" column="23" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="371" column="23" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
+      <jump line="143" column="61" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="8">
-        <text encoding="base64">IyAKIyAKIyA=</text>
+      <register name="&quot;" type="4">
+        <text>]</text>
       </register>
       <register name="-" type="4">
-        <text>, &quot;NONE&quot;</text>
+        <text>]</text>
       </register>
       <register name="/" type="4">
         <text>feat_seq</text>
       </register>
       <register name="0" type="4">
-        <text>word_repr = self.getTokenFeats(word_idx, utils.Tokentype.WORD)
-        lem_repr = self.getTokenFeats(word_idx, utils.Tokentype.LEM)
-        pos_repr = self.getTokenFeats(word_idx, utils.Tokentype.POS)
-        concept_repr = self.getTokenFeats(cache_idx, utils.Tokentype.CONCEPT)</text>
+        <text>feat_seq.append([&quot;PHASE=ARCBINARY&quot;]+ cache_feats)
+                                oracle_seq.append(&quot;ARC&quot;)
+                                word_align.append(word_idx)
+                                concept_align.append(concept_idx)</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">IyAKIyAKIyA=</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGFtcl9ncmFwaC5pbml0UG9zcwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="3" type="4">
+        <text>print curr_arc_action
+                            print word_idx, concept_idx, cache_idx
+                            print feat_seq[-1]</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Y2xhc3MgQ29uZmlnKEVudW0pOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZlYXRfc2VxLmFwcGVuZChbIlBIQVNFIl0pCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBmZWF0cy5hcHBlbmQoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwcmVmaXggPSAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>#oracle_seq.append(curr_arc_action)
+                            #word_align.append(word_idx)
+                            #concept_align.append(concept_idx)</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIGRlZiBnZXREZGVwRmVhdHMoc2VsZik6Cg==</text>
+      <register name="8" type="4">
+        <text>print curr_arc_action
+                            print word_idx, concept_idx, cache_idx
+                            print feat_seq[-1]</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="8">
+        <text encoding="base64">IyAKIyAKIyA=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -732,6 +737,7 @@
         <entry>311</entry>
         <entry>1</entry>
         <entry>146</entry>
+        <entry>157</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
