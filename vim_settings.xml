@@ -324,12 +324,12 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516734538211">
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516737069822">
         <mark key="'" line="50" column="44" />
         <mark key="[" line="53" column="0" />
         <mark key="]" line="53" column="0" />
         <mark key="." line="53" column="0" />
-        <mark key="^" line="55" column="23" />
+        <mark key="^" line="52" column="57" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516722070414">
         <mark key="'" line="371" column="23" />
@@ -448,12 +448,12 @@
         <mark key="^" line="7" column="0" />
         <mark key="." line="813" column="127" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/AMRGraph.py" timestamp="1516659636975">
-        <mark key="'" line="110" column="20" />
-        <mark key="[" line="94" column="28" />
-        <mark key="]" line="95" column="62" />
-        <mark key="^" line="95" column="62" />
-        <mark key="." line="95" column="62" />
+      <file name="$USER_HOME$/data_processing/oracle/AMRGraph.py" timestamp="1516737159810">
+        <mark key="'" line="51" column="8" />
+        <mark key="[" line="49" column="20" />
+        <mark key="]" line="49" column="32" />
+        <mark key="^" line="49" column="32" />
+        <mark key="." line="49" column="32" />
       </file>
       <file name="$USER_HOME$/data_processing/depTokens.py" timestamp="1516596838523">
         <mark key="[" line="26" column="4" />
@@ -468,8 +468,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1111" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1109" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="273" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="309" column="62" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1077" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -568,22 +566,21 @@
       <jump line="272" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="78" column="33" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="50" column="44" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="99" column="27" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
+      <jump line="46" column="8" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwcmVmaXggPSB0eXBlLm5hbWUgKyAiOiIK</text>
+      <register name="&quot;" type="4">
+        <text>rels[k]</text>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>rels[k]</text>
       </register>
       <register name="/" type="4">
-        <text>Failed sent</text>
+        <text>getConceptA</text>
       </register>
       <register name="0" type="4">
-        <text>feat_seq.append([&quot;PHASE=ARCBINARY&quot;]+ cache_feats)
-                                oracle_seq.append(&quot;ARC&quot;)
-                                word_align.append(word_idx)
-                                concept_align.append(concept_idx)</text>
+        <text encoding="base64">aWYgayA+PSBsZW4oc2VsZi5yZWxzKSBvciBrIDwgMDoKICAgICAgICAgICAgcmV0dXJuIHV0aWxzLk5VTEwKICAgICAgICByZXR1cm4gc2VsZi5yZWxzW2td</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBwcmVmaXggPSB0eXBlLm5hbWUgKyAiOiIK</text>
@@ -592,7 +589,7 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmVmaXggPSB0eXBlLm5hbWUgKyAiOiIK</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
@@ -601,17 +598,17 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBhcmNfYWN0aW9ucyA9IGRlZmF1bHRkaWN0KGludCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBhcmNfYWN0aW9ucyA9IGRlZmF1bHRkaWN0KGludCkK</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text># print oracle_action
                             # print feat_seq[-1]</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -621,9 +618,9 @@
       </register>
     </registers>
     <search>
-      <last-search>Failed sent</last-search>
+      <last-search>getConceptA</last-search>
       <last-offset />
-      <last-pattern>Failed sent</last-pattern>
+      <last-pattern>getConceptA</last-pattern>
       <last-replace>_idx</last-replace>
       <last-substitute>_index</last-substitute>
       <last-dir>1</last-dir>
@@ -690,6 +687,7 @@
         <entry>word_idx</entry>
         <entry>feat_seq</entry>
         <entry>Failed sent</entry>
+        <entry>getConceptA</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
