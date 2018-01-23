@@ -349,12 +349,12 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516687940924">
-        <mark key="'" line="49" column="52" />
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="1" />
-        <mark key="^" line="4" column="1" />
-        <mark key="." line="4" column="1" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516689606930">
+        <mark key="'" line="54" column="36" />
+        <mark key="[" line="58" column="32" />
+        <mark key="]" line="59" column="37" />
+        <mark key="." line="59" column="37" />
+        <mark key="^" line="59" column="37" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516649902394">
         <mark key="'" line="18" column="0" />
@@ -493,8 +493,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="586" column="16" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="587" column="34" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="596" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="599" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="534" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -593,23 +591,27 @@
       <jump line="37" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="40" column="52" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="97" column="22" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="48" column="54" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="54" column="36" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>NULL</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBwcmVmaXggPSAK</text>
       </register>
       <register name="-" type="4">
-        <text>NULL</text>
+        <text>type</text>
       </register>
       <register name="/" type="4">
         <text>word_idx</text>
       </register>
       <register name="0" type="4">
-        <text>NULL = &quot;-NULL-&quot;
-UNKNOWN = &quot;-UNK-&quot;</text>
+        <text>word_repr = self.getTokenFeats(word_idx, utils.Tokentype.WORD)
+        lem_repr = self.getTokenFeats(word_idx, utils.Tokentype.LEM)
+        pos_repr = self.getTokenFeats(word_idx, utils.Tokentype.POS)
+        concept_repr = self.getTokenFeats(cache_idx, utils.Tokentype.CONCEPT)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGVudW0K</text>
+        <text encoding="base64">ICAgICAgICBwcmVmaXggPSAK</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -618,30 +620,30 @@ UNKNOWN = &quot;-UNK-&quot;</text>
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGRlZiBDb25uZWN0QXJjRmVhdHVyZXMoc2VsZiwgd29yZF9pZHgsIGNvbmNlcHRfaWR4LCBjLCB0cmVlKToK</text>
+        <text encoding="base64">ICAgIGRlZiBnZXREZGVwRmVhdHMoc2VsZik6Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text># word_align.append(word_idx)
-                    # oracle_seq.append(oracle_action)</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      <register name="6" type="4">
+        <text>cache_word_repr = &quot;NULL&quot;
+        cache_concept_repr = &quot;NULL&quot;
+        if cache_word_idx != -1:
+            cache_word_repr = self.wordSeq[cache_word_idx]
+        if cache_concept_idx != -1:
+            cache_concept_repr = self.hypothesis.conceptLabel(cache_concept_idx)</text>
       </register>
-      <register name="7" type="4">
-        <text># print &quot;Current action:&quot;, oracle_action
-
-                    # If the next action processes a buffer word.
-                    # if &quot;conID&quot; in oracle_action or &quot;conEMP&quot; in oracle_action:
-                    #     word_idx += 1</text>
+      <register name="7" type="2">
+        <text encoding="base64">aW1wb3J0IGVudW0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBqc29uLmR1bXAoZGF0YXNldCwgb3BlbikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGRlZiBDb25uZWN0QXJjRmVhdHVyZXMoc2VsZiwgd29yZF9pZHgsIGNvbmNlcHRfaWR4LCBjLCB0cmVlKToK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
