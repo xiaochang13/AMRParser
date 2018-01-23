@@ -233,11 +233,11 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516718368834">
-        <mark key="[" line="154" column="77" />
-        <mark key="]" line="154" column="77" />
-        <mark key="^" line="154" column="62" />
-        <mark key="." line="154" column="77" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516719933455">
+        <mark key="[" line="165" column="59" />
+        <mark key="]" line="165" column="59" />
+        <mark key="^" line="152" column="62" />
+        <mark key="." line="165" column="59" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -590,10 +590,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>]</text>
+        <text>\n</text>
       </register>
       <register name="-" type="4">
-        <text>]</text>
+        <text>\n</text>
       </register>
       <register name="/" type="4">
         <text>feat_seq</text>
@@ -605,40 +605,39 @@
                                 concept_align.append(concept_idx)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
+      <register name="2" type="4">
+        <text># print oracle_action
+                            # print feat_seq[-1]</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="4">
         <text>print curr_arc_action
                             print word_idx, concept_idx, cache_idx
                             print feat_seq[-1]</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZlYXRfc2VxLmFwcGVuZChbIlBIQVNFIl0pCg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="9" type="4">
         <text>#oracle_seq.append(curr_arc_action)
                             #word_align.append(word_idx)
                             #concept_align.append(concept_idx)</text>
-      </register>
-      <register name="8" type="4">
-        <text>print curr_arc_action
-                            print word_idx, concept_idx, cache_idx
-                            print feat_seq[-1]</text>
-      </register>
-      <register name="9" type="8">
-        <text encoding="base64">IyAKIyAKIyA=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
