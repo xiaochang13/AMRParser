@@ -59,11 +59,11 @@
         <mark key="^" line="24" column="24" />
         <mark key="." line="24" column="24" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/utils.py" timestamp="1516744007100">
-        <mark key="[" line="13" column="18" />
-        <mark key="]" line="13" column="19" />
-        <mark key="." line="13" column="19" />
-        <mark key="^" line="13" column="18" />
+      <file name="$USER_HOME$/data_processing/oracle/utils.py" timestamp="1516757504888">
+        <mark key="[" line="14" column="19" />
+        <mark key="]" line="14" column="20" />
+        <mark key="." line="14" column="20" />
+        <mark key="^" line="14" column="20" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1514953987173">
         <mark key="'" line="60" column="17" />
@@ -324,12 +324,12 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516755917131">
-        <mark key="'" line="142" column="28" />
-        <mark key="[" line="143" column="48" />
-        <mark key="]" line="144" column="67" />
-        <mark key="." line="144" column="67" />
-        <mark key="^" line="144" column="67" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516757608123">
+        <mark key="'" line="160" column="35" />
+        <mark key="[" line="167" column="44" />
+        <mark key="]" line="168" column="11" />
+        <mark key="^" line="168" column="11" />
+        <mark key="." line="168" column="11" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516722070414">
         <mark key="'" line="371" column="23" />
@@ -468,7 +468,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="332" column="16" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="326" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="373" column="4" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="366" column="0" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
@@ -514,7 +513,6 @@
       <jump line="103" column="41" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="42" column="20" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="128" column="46" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="39" column="20" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="116" column="46" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="0" column="10" filename="$USER_HOME$/data_processing/oracle/oracle_data.py" />
       <jump line="161" column="51" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
@@ -555,7 +553,6 @@
       <jump line="616" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="272" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="78" column="33" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="50" column="44" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="99" column="27" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="46" column="8" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="101" column="57" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
@@ -568,52 +565,58 @@
       <jump line="122" column="32" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="53" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="142" column="28" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="50" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="163" column="35" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="39" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>, idx=-1</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>, idx=-1</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>getConceptA</text>
       </register>
       <register name="0" type="4">
-        <text>cache_concept_idx</text>
+        <text>%s_&quot; % cache_idx</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAjIEdldCBwYXJlbnQgYXJjIGluZm9yCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">ICAgIAogICAg</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpZiB0eXBlID09IHV0aWxzLlRva2VudHlwZS5DT05DRVBUOgo=</text>
-      </register>
-      <register name="4" type="2">
+      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBlbGlmIHR5cGUgPT0gdXRpbHMuVG9rZW50eXBlLkRFUDoK</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text>else:
-                arc_label = self.hypothesis.getC
-                return prefix + arc_label
-            arc_label = self.hypothesis</text>
+      <register name="4" type="4">
+        <text>feats.append(cache_word_repr)
+        feats.append(cache_lem_repr)
+        feats.append(cache_pos_repr)
+        feats.append(cache_concept_repr)</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgb3V0Z29pbmc6Cg==</text>
+      <register name="5" type="4">
+        <text>cache_word_repr = self.getTokenFeats(cache_word_idx, utils.Tokentype.WORD)
+        cache_lem_repr = self.getTokenFeats(cache_word_idx, utils.Tokentype.LEM)
+        cache_pos_repr = self.getTokenFeats(cache_word_idx, utils.Tokentype.POS)
+        cache_concept_repr = self.getTokenFeats(cache_concept_idx, utils.Tokentype.CONCEPT)</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAKICAgICAgICAjIEdldCBwYXJlbnQgYXJjIGluZm9yCg==</text>
+      </register>
+      <register name="7" type="8">
+        <text encoding="base64">ICAgIAogICAg</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBpZiB0eXBlID09IHV0aWxzLlRva2VudHlwZS5DT05DRVBUOgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGRlZiBnZXQK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
