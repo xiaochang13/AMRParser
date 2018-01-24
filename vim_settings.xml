@@ -10,12 +10,12 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516687883780">
+      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516761909367">
         <mark key="'" line="116" column="26" />
-        <mark key="[" line="2" column="0" />
-        <mark key="]" line="3" column="16" />
-        <mark key="^" line="150" column="28" />
-        <mark key="." line="150" column="28" />
+        <mark key="[" line="119" column="0" />
+        <mark key="]" line="119" column="0" />
+        <mark key="^" line="147" column="28" />
+        <mark key="." line="119" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1513563075786">
         <mark key="'" line="578" column="13" />
@@ -212,12 +212,12 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516759503899">
-        <mark key="'" line="101" column="57" />
-        <mark key="[" line="162" column="26" />
-        <mark key="]" line="162" column="55" />
-        <mark key="^" line="162" column="55" />
-        <mark key="." line="162" column="55" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516762110623">
+        <mark key="'" line="168" column="41" />
+        <mark key="[" line="169" column="0" />
+        <mark key="]" line="169" column="0" />
+        <mark key="^" line="160" column="55" />
+        <mark key="." line="169" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -324,8 +324,8 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516758334590">
-        <mark key="'" line="160" column="35" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516761356385">
+        <mark key="'" line="121" column="39" />
         <mark key="[" line="172" column="31" />
         <mark key="]" line="173" column="13" />
         <mark key="^" line="173" column="13" />
@@ -468,9 +468,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="366" column="0" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
-      <jump line="220" column="4" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
-      <jump line="227" column="23" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="370" column="23" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="240" column="23" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="243" column="14" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
@@ -568,61 +565,61 @@
       <jump line="39" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="280" column="21" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="26" column="8" filename="$USER_HOME$/data_processing/oracle/dependency.py" />
+      <jump line="121" column="39" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="151" column="24" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="169" column="41" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHdvcmQgPSBzcGxpdHNbMV0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
-        <text>getConceptA</text>
+        <text>apply</text>
       </register>
       <register name="0" type="4">
         <text>%s_&quot; % cache_idx</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHdvcmQgPSBzcGxpdHNbMV0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIHRva19pZHggPT0gbGFzdF9pZHg6Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICNjb25jZXB0X2lkeCArPSAxCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAjaWYgY29uY2VwdF9pZHggPT0gbGVuKGNvbmNlcHRfc2VxKToKICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgICAgY29uY2VwdF9pZHggPSAtMQ==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgYXNzZXJ0IGxlbih0b2tzKSA9PSBsZW4odHJlZS5oZWFkX2xpc3QpLCAiJXMgJXMiICUgKHN0cih0b2tzKSwgc3RyKHRyZWUuaGVhZF9saXN0KSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="5" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICA=</text>
+      <register name="5" type="4">
+        <text encoding="base64">IyBJZ25vcmUgYWxsIHRoZSBhcmMgYWN0aW9ucyBmb3IgdW5hbGlnbmVkIGNvbmNlcHRzLgogICAgICAgICAgICAjIGlmICJjb25HZW4iIGluIGFjdGlvbiBhbmQgbGVuKGMuaHlwb3RoZXNpcy5jb25jZXB0cykgPCBsZW4oYy5nb2xkLmNvbmNlcHRzKToKICAgICAgICAgICAgIyAgICAgYy5zdGFydF93b3JkID0gVHJ1ZQ==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY2FjaGVfdHJhbnNpdGlvbi5hcHBseShjLCBvcmFjbGVfYWN0aW9uKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNhY2hlX3RyYW5zaXRpb24uYXBwbHkoYywgY3Vycl9hcmNfYWN0aW9uKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHdvcmQgPSBzcGxpdHNbMV0K</text>
       </register>
-      <register name="9" type="4">
-        <text>feats.append(cache_word_repr)
-        feats.append(cache_lem_repr)
-        feats.append(cache_pos_repr)
-        feats.append(cache_concept_repr)</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIHRva19pZHggPT0gbGFzdF9pZHg6Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>getConceptA</last-search>
+      <last-search>apply</last-search>
       <last-offset />
-      <last-pattern>getConceptA</last-pattern>
+      <last-pattern>apply</last-pattern>
       <last-replace>_idx</last-replace>
       <last-substitute>_index</last-substitute>
       <last-dir>1</last-dir>
@@ -690,6 +687,7 @@
         <entry>feat_seq</entry>
         <entry>Failed sent</entry>
         <entry>getConceptA</entry>
+        <entry>apply</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
