@@ -212,12 +212,12 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516758443529">
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516759503899">
         <mark key="'" line="101" column="57" />
-        <mark key="[" line="170" column="28" />
-        <mark key="]" line="170" column="28" />
-        <mark key="^" line="170" column="28" />
-        <mark key="." line="170" column="28" />
+        <mark key="[" line="162" column="26" />
+        <mark key="]" line="162" column="55" />
+        <mark key="^" line="162" column="55" />
+        <mark key="." line="162" column="55" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -570,11 +570,11 @@
       <jump line="39" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICA=</text>
+      <register name="&quot;" type="4">
+        <text>se</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>se</text>
       </register>
       <register name="/" type="4">
         <text>getConceptA</text>
@@ -583,13 +583,13 @@
         <text>%s_&quot; % cache_idx</text>
       </register>
       <register name="1" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICA=</text>
+        <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICA=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
@@ -597,26 +597,26 @@
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="4">
         <text>feats.append(cache_word_repr)
         feats.append(cache_lem_repr)
         feats.append(cache_pos_repr)
         feats.append(cache_concept_repr)</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>cache_word_repr = self.getTokenFeats(cache_word_idx, utils.Tokentype.WORD)
         cache_lem_repr = self.getTokenFeats(cache_word_idx, utils.Tokentype.LEM)
         cache_pos_repr = self.getTokenFeats(cache_word_idx, utils.Tokentype.POS)
         cache_concept_repr = self.getTokenFeats(cache_concept_idx, utils.Tokentype.CONCEPT)</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAKICAgICAgICAjIEdldCBwYXJlbnQgYXJjIGluZm9yCg==</text>
       </register>
-      <register name="8" type="8">
+      <register name="9" type="8">
         <text encoding="base64">ICAgIAogICAg</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpZiB0eXBlID09IHV0aWxzLlRva2VudHlwZS5DT05DRVBUOgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
