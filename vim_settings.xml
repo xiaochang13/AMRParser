@@ -10,12 +10,12 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516830821958">
-        <mark key="'" line="176" column="8" />
-        <mark key="[" line="175" column="8" />
-        <mark key="]" line="175" column="8" />
-        <mark key="^" line="176" column="9" />
-        <mark key="." line="175" column="8" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516831623366">
+        <mark key="'" line="228" column="29" />
+        <mark key="[" line="176" column="0" />
+        <mark key="]" line="176" column="0" />
+        <mark key="^" line="166" column="24" />
+        <mark key="." line="176" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1513563075786">
         <mark key="'" line="578" column="13" />
@@ -457,12 +457,12 @@
         <mark key="^" line="7" column="0" />
         <mark key="." line="813" column="127" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/AMRGraph.py" timestamp="1516830786242">
-        <mark key="'" line="57" column="13" />
-        <mark key="[" line="152" column="50" />
-        <mark key="]" line="152" column="49" />
-        <mark key="^" line="152" column="49" />
-        <mark key="." line="152" column="49" />
+      <file name="$USER_HOME$/data_processing/oracle/AMRGraph.py" timestamp="1516831648821">
+        <mark key="'" line="61" column="0" />
+        <mark key="[" line="148" column="0" />
+        <mark key="]" line="148" column="0" />
+        <mark key="^" line="152" column="8" />
+        <mark key="." line="148" column="0" />
       </file>
       <file name="$USER_HOME$/data_processing/depTokens.py" timestamp="1516596838523">
         <mark key="[" line="26" column="4" />
@@ -475,12 +475,14 @@
         <mark key="^" line="517" column="33" />
         <mark key="." line="525" column="0" />
       </file>
+      <file name="$USER_HOME$/data_processing/oracle/oracle.log" timestamp="1516831162576">
+        <mark key="[" line="10" column="8" />
+        <mark key="]" line="13" column="57" />
+        <mark key="^" line="2" column="0" />
+        <mark key="." line="3" column="0" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="130" column="32" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="125" column="28" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="78" column="16" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="113" column="28" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="98" column="42" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="156" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="154" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
@@ -577,59 +579,72 @@
       <jump line="128" column="21" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="57" column="13" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="176" column="8" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="171" column="12" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="229" column="29" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="157" column="34" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
+      <jump line="61" column="0" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYudGFpbFRvSGVhZFt0YWlsX3ZdLmFkZChpKQo=</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>headToTail, tailToHead, widToConceptID</text>
       </register>
       <register name="/" type="4">
-        <text>headToTai</text>
+        <text>tailTo</text>
       </register>
       <register name="0" type="4">
-        <text>PHASE=SHTPOP&quot;</text>
+        <text encoding="base64">Zm9yIGxlZnRfaWR4IGluIHJpZ2h0X2VkZ2VzX2xpc3Q6CiAgICAgICAgICAgIHNvcnRlZF9yaWdodF9saXN0ID0gc29ydGVkKHJpZ2h0X2VkZ2VzX2xpc3RbbGVmdF9pZHhdKQogICAgICAgICAgICBhc3NlcnQgc29ydGVkX3JpZ2h0X2xpc3RbMF0gPiBsZWZ0X2lkeAogICAgICAgICAgICBzZWxmLnJpZ2h0X2VkZ2VzW2xlZnRfaWR4XSA9IHNvcnRlZF9yaWdodF9saXN0</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYudGFpbFRvSGVhZFt0YWlsX3ZdLmFkZChpKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnRhaWxUb0hlYWQgPSBkZWZhdWx0ZGljdChzZXQpCg==</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">cmlnaHRfdmVydGljZXMgPSBzZXQocmFuZ2UobmV4dF9idWZmZXJfY29uY2VwdF9pZHgsIG51bV9jb25jZXB0cykpCiAgICAgICAgcmV0dXJuIGxlbihyaWdodF9lZGdlc1tsYXN0X2NhY2hlX2NvbmNlcHRdICYgcmlnaHRfdmVydGljZXMpID09IDA=</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICB0YWlsVG9IZWFkID0gZ29sZF9ncmFwaC50YWlsVG9IZWFkCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB0YWlsVG9IZWFkID0gZ29sZF9ncmFwaC50YWlsVG9IZWFkCg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="4">
+        <text>curr_dist = right_edges[cache_concept_idx]
+            tail_set = headToTail[cache_concept_idx]
+            head_set = None
+            if cache_concept_idx in tailToHead:
+                head_set = tailToHead[cache_concept_idx]
+            for (buffer_idx, word_idx) in enumerate(c.buffer):
+                if word_idx in widToConceptID:
+                    concept_idx = widToConceptID[word_idx]
+                    if (concept_idx in tail_set or (head_set is not None and concept_idx in head_set)):
+                        curr_dist = buffer_idx
+                        break</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="6" type="4">
+        <text encoding="base64">aWYgdGFpbF92ID4gaToKICAgICAgICAgICAgICAgICAgICBzZWxmLnJpZ2h0X2VkZ2VzW2ldLmFkZCh0YWlsX3YpCiAgICAgICAgICAgICAgICBlbGlmIHRhaWxfdiA8IGk6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5yaWdodF9lZGdlc1t0YWlsX3ZdLmFkZChpKQ==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">IyBJbiBvcmFjbGUgZXh0cmFjdGlvbiwgd2hpY2ggY2FjaGUgaW5kZXggdG8gcHVzaCBvbnRvIHN0YWNrLgogICAgZGVmIGNob29zZUNhY2hlSW5kZXgoc2VsZik6CiAgICAgICAgIiIiCiAgICAgICAgT3JhY2xlIGV4dHJhY3Rpb24gZm9yIFB1c2hJRFg6IGNob29zZSBhIGNhY2hlIHZlcnRleCB0aGF0IHdpbGwKICAgICAgICBiZSBsZWFzdCByZWNlbnRseSB1c2VkLgogICAgICAgIDpyZXR1cm46IHRoZSBjYWNoZSBpbmRleCBvZiB0aGUgY2hvc2VuIHZlcnRleC4KICAgICAgICAiIiIKICAgICAgICByaWdodF9lZGdlcyA9IHNlbGYuZ29sZC5yaWdodF9lZGdlcwogICAgICAgICMgaGVhZFRvVGFpbCA9IHNlbGYuZ29sZC5oZWFkVG9UYWlsCiAgICAgICAgIyB0YWlsVG9IZWFkID0gc2VsZi5nb2xkLnRhaWxUb0hlYWQKICAgICAgICB3aWRUb0NvbmNlcHRJRCA9IHNlbGYuZ29sZC53aWRUb0NvbmNlcHRJRAogICAgICAgIG1heF9kaXN0ID0gLTEKICAgICAgICBtYXhfaWR4ID0gLTEKICAgICAgICBzdGFydF9idWZmZXJfdmVydGV4ID0gc2VsZi5oeXBvdGhlc2lza2sKICAgICAgICBmb3IgY2FjaGVfaWR4IGluIHJhbmdlKHNlbGYuY2FjaGVfc2l6ZSk6CiAgICAgICAgICAgIGNhY2hlX2NvbmNlcHRfaWR4ID0gc2VsZi5jYWNoZVtjYWNoZV9pZHhdWzFdCiAgICAgICAgICAgIGN1cnJfZGlzdCA9IDEwMDAKICAgICAgICAgICAgdGFpbF9zZXQgPSBoZWFkVG9UYWlsW2NhY2hlX2NvbmNlcHRfaWR4XQogICAgICAgICAgICBoZWFkX3NldCA9IE5vbmUKICAgICAgICAgICAgaWYgY2FjaGVfY29uY2VwdF9pZHggaW4gdGFpbFRvSGVhZDoKICAgICAgICAgICAgICAgIGhlYWRfc2V0ID0gdGFpbFRvSGVhZFtjYWNoZV9jb25jZXB0X2lkeF0KICAgICAgICAgICAgZm9yIChidWZmZXJfaWR4LCB3b3JkX2lkeCkgaW4gZW51bWVyYXRlKHNlbGYuYnVmZmVyKToKICAgICAgICAgICAgICAgIGlmIHdvcmRfaWR4IGluIHdpZFRvQ29uY2VwdElEOgogICAgICAgICAgICAgICAgICAgIGJ1ZmZlcl9jb25jZXB0X2lkID0gd2lkVG9Db25jZXB0SURbd29yZF9pZHhdCiAgICAgICAgICAgICAgICAgICAgaWYgYnVmZmVyX2NvbmNlcHRfaWQgaW4gdGFpbF9zZXQ6CiAgICAgICAgICAgICAgICAgICAgICAgIGN1cnJfZGlzdCA9IGJ1ZmZlcl9pZHgKICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgICAgICBpZiBoZWFkX3NldCBpcyBub3QgTm9uZSBhbmQgYnVmZmVyX2NvbmNlcHRfaWQgaW4gaGVhZF9zZXQ6CiAgICAgICAgICAgICAgICAgICAgICAgIGN1cnJfZGlzdCA9IGJ1ZmZlcl9pZHgKICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgaWYgY3Vycl9kaXN0ID4gbWF4X2Rpc3Q6CiAgICAgICAgICAgICAgICBtYXhfaWR4ID0gY2FjaGVfaWR4CiAgICAgICAgICAgICAgICBtYXhfZGlzdCA9IGN1cnJfZGlzdAogICAgICAgIHJldHVybiBtYXhfaWR4</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICByaWdodF9lZGdlc19saXN0ID0gZGVmYXVsdGRpY3QobGlzdCkK</text>
       </register>
-      <register name="8" type="2">
+      <register name="8" type="8">
+        <text encoding="base64">IyAKIyA=</text>
+      </register>
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="9" type="4">
-        <text>self.headToTail = defaultdict(set)
-        self.tailToHead = defaultdict(set)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>headToTai</last-search>
+      <last-search>tailTo</last-search>
       <last-offset />
-      <last-pattern>headToTai</last-pattern>
+      <last-pattern>tailTo</last-pattern>
       <last-replace>right_edges_list</last-replace>
       <last-substitute>right_edges_set</last-substitute>
       <last-dir>1</last-dir>
@@ -712,6 +727,8 @@
         <entry>needsPop</entry>
         <entry>widTo</entry>
         <entry>headToTai</entry>
+        <entry>chooseVertex</entry>
+        <entry>tailTo</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
