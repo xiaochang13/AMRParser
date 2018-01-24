@@ -59,10 +59,10 @@
         <mark key="^" line="24" column="24" />
         <mark key="." line="24" column="24" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/utils.py" timestamp="1516767670788">
-        <mark key="[" line="12" column="0" />
-        <mark key="]" line="13" column="21" />
-        <mark key="." line="13" column="21" />
+      <file name="$USER_HOME$/data_processing/oracle/utils.py" timestamp="1516768678368">
+        <mark key="[" line="13" column="21" />
+        <mark key="]" line="13" column="22" />
+        <mark key="." line="13" column="22" />
         <mark key="^" line="13" column="21" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1514953987173">
@@ -324,12 +324,12 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516767645683">
-        <mark key="'" line="125" column="13" />
-        <mark key="[" line="147" column="29" />
-        <mark key="]" line="147" column="42" />
-        <mark key="^" line="147" column="42" />
-        <mark key="." line="147" column="42" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516768654665">
+        <mark key="'" line="153" column="13" />
+        <mark key="[" line="164" column="42" />
+        <mark key="]" line="165" column="32" />
+        <mark key="^" line="165" column="32" />
+        <mark key="." line="165" column="32" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516761170213">
         <mark key="'" line="288" column="21" />
@@ -468,12 +468,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="317" column="16" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
-      <jump line="324" column="12" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
-      <jump line="310" column="16" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
-      <jump line="27" column="12" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
-      <jump line="107" column="20" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
-      <jump line="21" column="8" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="59" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" />
       <jump line="185" column="18" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="107" column="20" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
@@ -568,13 +562,19 @@
       <jump line="87" column="33" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="53" column="33" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="125" column="13" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="101" column="51" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="200" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="159" column="21" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="318" column="4" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="153" column="13" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="81" column="13" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="&quot;" type="4">
+        <text>len(dep_list)</text>
       </register>
       <register name="-" type="4">
-        <text>(</text>
+        <text>len(dep_list)</text>
       </register>
       <register name="/" type="4">
         <text>apply</text>
@@ -583,12 +583,18 @@
         <text>(&quot;cache%d_&quot; % cache_idx)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBkZXBfbnVtID0gIiNkZXA9JWQiICUgbGVuKGRlcF9saXN0KQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBidWZmZXJfCg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="4" type="4">
         <text>cache_word_repr = (&quot;cache%d_&quot; % cache_idx) + self.getTokenFeats(cache_word_idx, utils.Tokentype.WORD)
             cache_lem_repr = (&quot;cache%d_&quot; % cache_idx) + self.getTokenFeats(cache_word_idx, utils.Tokentype.LEM)
             cache_pos_repr = (&quot;cache%d_&quot; % cache_idx) + self.getTokenFeats(cache_word_idx, utils.Tokentype.POS)
@@ -598,29 +604,20 @@
             feats.append(cache_pos_repr)
             feats.append(cache_concept_repr)</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text>feats.append(word_repr)
         feats.append(lem_repr)
         feats.append(pos_repr)
         feats.append(concept_repr)</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAjIENhbmRpZGF0ZSB2ZXJ0ZXggZmVhdHVyZXMuCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="8" type="4">
-        <text>word_repr = self.getTokenFeats(word_idx, utils.Tokentype.WORD)
-        lem_repr = self.getTokenFeats(word_idx, utils.Tokentype.LEM)
-        pos_repr = self.getTokenFeats(word_idx, utils.Tokentype.POS)
-        concept_repr = self.getTokenFeats(concept_idx, utils.Tokentype.CONCEPT)</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
