@@ -59,11 +59,11 @@
         <mark key="^" line="24" column="24" />
         <mark key="." line="24" column="24" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/utils.py" timestamp="1516757504888">
-        <mark key="[" line="14" column="19" />
-        <mark key="]" line="14" column="20" />
-        <mark key="." line="14" column="20" />
-        <mark key="^" line="14" column="20" />
+      <file name="$USER_HOME$/data_processing/oracle/utils.py" timestamp="1516767670788">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="13" column="21" />
+        <mark key="." line="13" column="21" />
+        <mark key="^" line="13" column="21" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/CacheTransition.java" timestamp="1514953987173">
         <mark key="'" line="60" column="17" />
@@ -324,12 +324,12 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516766296081">
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516767645683">
         <mark key="'" line="125" column="13" />
-        <mark key="[" line="126" column="0" />
-        <mark key="]" line="126" column="0" />
-        <mark key="^" line="125" column="63" />
-        <mark key="." line="126" column="0" />
+        <mark key="[" line="147" column="29" />
+        <mark key="]" line="147" column="42" />
+        <mark key="^" line="147" column="42" />
+        <mark key="." line="147" column="42" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516761170213">
         <mark key="'" line="288" column="21" />
@@ -571,76 +571,59 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>(</text>
       </register>
       <register name="/" type="4">
         <text>apply</text>
       </register>
       <register name="0" type="4">
-        <text>first_concept_arc = self.getArcFeats(concept_idx, 0, &quot;ARC=&quot;)
-        second_concept_arc = self.getArcFeats(concept_idx, 1, &quot;ARC=&quot;)
-        parent_concept_arc = self.getArcFeats(concept_idx, 0, &quot;PARC=&quot;, False)
-        concept_parrel_num = self.getNumArcFeats(concept_idx, &quot;#PARC=&quot;, False)</text>
+        <text>(&quot;cache%d_&quot; % cache_idx)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>cache_word_repr = (&quot;cache%d_&quot; % cache_idx) + self.getTokenFeats(cache_word_idx, utils.Tokentype.WORD)
+            cache_lem_repr = (&quot;cache%d_&quot; % cache_idx) + self.getTokenFeats(cache_word_idx, utils.Tokentype.LEM)
+            cache_pos_repr = (&quot;cache%d_&quot; % cache_idx) + self.getTokenFeats(cache_word_idx, utils.Tokentype.POS)
+            cache_concept_repr = (&quot;cache%d_&quot; % cache_idx) + self.getTokenFeats(cache_concept_idx, utils.Tokentype.CONCEPT)
+            feats.append(cache_word_repr)
+            feats.append(cache_lem_repr)
+            feats.append(cache_pos_repr)
+            feats.append(cache_concept_repr)</text>
       </register>
-      <register name="3" type="4">
-        <text>first_cache_arc = self.getArcFeats(cache_concept_idx, 0, &quot;ARC=&quot;)
-        second_cache_arc = self.getArcFeats(cache_concept_idx, 1, &quot;ARC=&quot;)
-        parent_cache_arc = self.getArcFeats(cache_concept_idx, 0, &quot;PARC=&quot;, False)
-        cache_parrel_num = self.getNumArcFeats(cache_concept_idx, &quot;#PARC=&quot;, False)
-
-
-
-        feats.append(first_cache_arc)
-        feats.append(second_cache_arc)
-        feats.append(parent_cache_arc)
-        feats.append(cache_parrel_num)</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="5" type="4">
-        <text>first_concept_arc = self.getArcFeats(concept_idx, 0, &quot;ARC=&quot;)
-        second_concept_arc = self.getArcFeats(concept_idx, 1, &quot;ARC=&quot;)
-        parent_concept_arc = self.getArcFeats(concept_idx, 0, &quot;PARC=&quot;, False)
-        concept_parrel_num = self.getNumArcFeats(concept_idx, &quot;#PARC=&quot;, False)</text>
-      </register>
-      <register name="6" type="4">
-        <text>feats.append(first_concept_arc)
-        feats.append(second_concept_arc)
-        feats.append(parent_concept_arc)
-        feats.append(concept_parrel_num)</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
+      <register name="5" type="4">
+        <text>feats.append(word_repr)
+        feats.append(lem_repr)
+        feats.append(pos_repr)
+        feats.append(concept_repr)</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAjIENhbmRpZGF0ZSB2ZXJ0ZXggZmVhdHVyZXMuCg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="9" type="4">
-        <text>cache_word_repr = self.getTokenFeats(cache_word_idx, utils.Tokentype.WORD)
-        cache_lem_repr = self.getTokenFeats(cache_word_idx, utils.Tokentype.LEM)
-        cache_pos_repr = self.getTokenFeats(cache_word_idx, utils.Tokentype.POS)
-        cache_concept_repr = self.getTokenFeats(cache_concept_idx, utils.Tokentype.CONCEPT)
-
-
-
-        # Cache vertex features.
-        feats.append(cache_word_repr)
-        feats.append(cache_lem_repr)
-        feats.append(cache_pos_repr)
-        feats.append(cache_concept_repr)</text>
+      <register name="8" type="4">
+        <text>word_repr = self.getTokenFeats(word_idx, utils.Tokentype.WORD)
+        lem_repr = self.getTokenFeats(word_idx, utils.Tokentype.LEM)
+        pos_repr = self.getTokenFeats(word_idx, utils.Tokentype.POS)
+        concept_repr = self.getTokenFeats(concept_idx, utils.Tokentype.CONCEPT)</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
