@@ -86,8 +86,8 @@
         <mark key="." line="122" column="20" />
         <mark key="^" line="122" column="20" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1516732279770">
-        <mark key="'" line="722" column="26" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1516765489457">
+        <mark key="'" line="572" column="27" />
         <mark key="[" line="2531" column="106" />
         <mark key="]" line="2531" column="109" />
         <mark key="^" line="2531" column="109" />
@@ -324,12 +324,12 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516761356385">
-        <mark key="'" line="121" column="39" />
-        <mark key="[" line="172" column="31" />
-        <mark key="]" line="173" column="13" />
-        <mark key="^" line="173" column="13" />
-        <mark key="." line="173" column="13" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516766296081">
+        <mark key="'" line="125" column="13" />
+        <mark key="[" line="126" column="0" />
+        <mark key="]" line="126" column="0" />
+        <mark key="^" line="125" column="63" />
+        <mark key="." line="126" column="0" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516761170213">
         <mark key="'" line="288" column="21" />
@@ -468,13 +468,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="370" column="23" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
-      <jump line="240" column="23" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
-      <jump line="243" column="14" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
-      <jump line="1160" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="430" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="54" column="0" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="297" column="17" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="317" column="16" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="324" column="12" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="310" column="16" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
@@ -558,7 +551,6 @@
       <jump line="49" column="8" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="117" column="34" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="122" column="32" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="53" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="142" column="28" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="50" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="163" column="35" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
@@ -568,49 +560,87 @@
       <jump line="121" column="39" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="151" column="24" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="169" column="41" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="577" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="394" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="572" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="391" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
+      <jump line="123" column="13" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="87" column="33" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="53" column="33" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="125" column="13" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IyA=</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>apply</text>
       </register>
       <register name="0" type="4">
-        <text>%s_&quot; % cache_idx</text>
+        <text>first_concept_arc = self.getArcFeats(concept_idx, 0, &quot;ARC=&quot;)
+        second_concept_arc = self.getArcFeats(concept_idx, 1, &quot;ARC=&quot;)
+        parent_concept_arc = self.getArcFeats(concept_idx, 0, &quot;PARC=&quot;, False)
+        concept_parrel_num = self.getNumArcFeats(concept_idx, &quot;#PARC=&quot;, False)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">ICAgICNjb25jZXB0X2lkeCArPSAxCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAjaWYgY29uY2VwdF9pZHggPT0gbGVuKGNvbmNlcHRfc2VxKToKICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgICAgY29uY2VwdF9pZHggPSAtMQ==</text>
-      </register>
-      <register name="3" type="2">
+      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="4">
+        <text>first_cache_arc = self.getArcFeats(cache_concept_idx, 0, &quot;ARC=&quot;)
+        second_cache_arc = self.getArcFeats(cache_concept_idx, 1, &quot;ARC=&quot;)
+        parent_cache_arc = self.getArcFeats(cache_concept_idx, 0, &quot;PARC=&quot;, False)
+        cache_parrel_num = self.getNumArcFeats(cache_concept_idx, &quot;#PARC=&quot;, False)
+
+
+
+        feats.append(first_cache_arc)
+        feats.append(second_cache_arc)
+        feats.append(parent_cache_arc)
+        feats.append(cache_parrel_num)</text>
+      </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">IyBJZ25vcmUgYWxsIHRoZSBhcmMgYWN0aW9ucyBmb3IgdW5hbGlnbmVkIGNvbmNlcHRzLgogICAgICAgICAgICAjIGlmICJjb25HZW4iIGluIGFjdGlvbiBhbmQgbGVuKGMuaHlwb3RoZXNpcy5jb25jZXB0cykgPCBsZW4oYy5nb2xkLmNvbmNlcHRzKToKICAgICAgICAgICAgIyAgICAgYy5zdGFydF93b3JkID0gVHJ1ZQ==</text>
+        <text>first_concept_arc = self.getArcFeats(concept_idx, 0, &quot;ARC=&quot;)
+        second_concept_arc = self.getArcFeats(concept_idx, 1, &quot;ARC=&quot;)
+        parent_concept_arc = self.getArcFeats(concept_idx, 0, &quot;PARC=&quot;, False)
+        concept_parrel_num = self.getNumArcFeats(concept_idx, &quot;#PARC=&quot;, False)</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY2FjaGVfdHJhbnNpdGlvbi5hcHBseShjLCBvcmFjbGVfYWN0aW9uKQo=</text>
+      <register name="6" type="4">
+        <text>feats.append(first_concept_arc)
+        feats.append(second_concept_arc)
+        feats.append(parent_concept_arc)
+        feats.append(concept_parrel_num)</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNhY2hlX3RyYW5zaXRpb24uYXBwbHkoYywgY3Vycl9hcmNfYWN0aW9uKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHdvcmQgPSBzcGxpdHNbMV0K</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIHRva19pZHggPT0gbGFzdF9pZHg6Cg==</text>
+      <register name="9" type="4">
+        <text>cache_word_repr = self.getTokenFeats(cache_word_idx, utils.Tokentype.WORD)
+        cache_lem_repr = self.getTokenFeats(cache_word_idx, utils.Tokentype.LEM)
+        cache_pos_repr = self.getTokenFeats(cache_word_idx, utils.Tokentype.POS)
+        cache_concept_repr = self.getTokenFeats(cache_concept_idx, utils.Tokentype.CONCEPT)
+
+
+
+        # Cache vertex features.
+        feats.append(cache_word_repr)
+        feats.append(cache_lem_repr)
+        feats.append(cache_pos_repr)
+        feats.append(cache_concept_repr)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
