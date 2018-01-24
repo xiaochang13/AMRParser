@@ -10,12 +10,12 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516828137423">
-        <mark key="'" line="183" column="46" />
-        <mark key="[" line="119" column="0" />
-        <mark key="]" line="119" column="0" />
-        <mark key="^" line="147" column="28" />
-        <mark key="." line="119" column="0" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516830821958">
+        <mark key="'" line="176" column="8" />
+        <mark key="[" line="175" column="8" />
+        <mark key="]" line="175" column="8" />
+        <mark key="^" line="176" column="9" />
+        <mark key="." line="175" column="8" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1513563075786">
         <mark key="'" line="578" column="13" />
@@ -333,6 +333,13 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516830733986">
+        <mark key="'" line="229" column="8" />
+        <mark key="[" line="233" column="0" />
+        <mark key="]" line="233" column="0" />
+        <mark key="^" line="232" column="75" />
+        <mark key="." line="233" column="0" />
+      </file>
       <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516827662098">
         <mark key="'" line="42" column="15" />
         <mark key="[" line="42" column="8" />
@@ -450,12 +457,12 @@
         <mark key="^" line="7" column="0" />
         <mark key="." line="813" column="127" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/AMRGraph.py" timestamp="1516828946298">
-        <mark key="'" line="5" column="0" />
-        <mark key="[" line="60" column="0" />
-        <mark key="]" line="60" column="0" />
-        <mark key="^" line="148" column="49" />
-        <mark key="." line="60" column="0" />
+      <file name="$USER_HOME$/data_processing/oracle/AMRGraph.py" timestamp="1516830786242">
+        <mark key="'" line="57" column="13" />
+        <mark key="[" line="152" column="50" />
+        <mark key="]" line="152" column="49" />
+        <mark key="^" line="152" column="49" />
+        <mark key="." line="152" column="49" />
       </file>
       <file name="$USER_HOME$/data_processing/depTokens.py" timestamp="1516596838523">
         <mark key="[" line="26" column="4" />
@@ -470,19 +477,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="234" column="11" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="63" column="28" filename="$USER_HOME$/data_processing/oracle/dependency.py" />
-      <jump line="65" column="4" filename="$USER_HOME$/data_processing/oracle/dependency.py" />
-      <jump line="36" column="8" filename="$USER_HOME$/data_processing/oracle/dependency.py" />
-      <jump line="43" column="17" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="73" column="0" filename="$USER_HOME$/data_processing/oracle/dependency.py" />
-      <jump line="47" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="37" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="40" column="52" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="97" column="22" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="48" column="54" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="54" column="36" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="136" column="31" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="130" column="32" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="125" column="28" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="78" column="16" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
@@ -570,76 +564,74 @@
       <jump line="183" column="46" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
       <jump line="93" column="8" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="5" column="0" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
+      <jump line="260" column="0" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="184" column="49" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="149" column="12" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="227" column="29" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="152" column="30" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="58" column="28" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
+      <jump line="143" column="30" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
+      <jump line="188" column="4" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="229" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="153" column="8" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
+      <jump line="128" column="21" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
+      <jump line="57" column="13" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
+      <jump line="176" column="8" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>head</text>
+        <text>headToTai</text>
       </register>
       <register name="0" type="4">
         <text>PHASE=SHTPOP&quot;</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="1" type="8">
+        <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text>self.headToTail = defaultdict(set)
-        self.tailToHead = defaultdict(set)</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      <register name="3" type="4">
+        <text encoding="base64">cmlnaHRfdmVydGljZXMgPSBzZXQocmFuZ2UobmV4dF9idWZmZXJfY29uY2VwdF9pZHgsIG51bV9jb25jZXB0cykpCiAgICAgICAgcmV0dXJuIGxlbihyaWdodF9lZGdlc1tsYXN0X2NhY2hlX2NvbmNlcHRdICYgcmlnaHRfdmVydGljZXMpID09IDA=</text>
       </register>
-      <register name="4" type="4">
-        <text>self.headToTail[i].add(tail_v)
-                self.tailToHead[tail_v].add(i)</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="6" type="4">
-        <text># headToTail = self.gold.headToTail
-        # tailToHead = self.gold.tailToHead
-        # widToConceptID = self.gold.widToConceptID</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="8" type="4">
-        <text># tail_set = headToTail[last_cache_concept]
-        # head_set = None
-        # if last_cache_concept in tailToHead:
-        #     head_set = tailToHead[last_cache_concept]
-
-        # for (buffer_idx, word_idx) in enumerate(self.buffer):
-        #     if word_idx in widToConceptID:
-        #         buffer_concept_id = widToConceptID[word_idx]
-        #         # If there exists an arc to things in the buffer, no POP operation.
-        #         if (buffer_concept_id in tail_set or
-        #                 (head_set is not None and buffer_concept_id in head_set)):
-        #            return False
-        # return True</text>
-      </register>
-      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">IyBJbiBvcmFjbGUgZXh0cmFjdGlvbiwgd2hpY2ggY2FjaGUgaW5kZXggdG8gcHVzaCBvbnRvIHN0YWNrLgogICAgZGVmIGNob29zZUNhY2hlSW5kZXgoc2VsZik6CiAgICAgICAgIiIiCiAgICAgICAgT3JhY2xlIGV4dHJhY3Rpb24gZm9yIFB1c2hJRFg6IGNob29zZSBhIGNhY2hlIHZlcnRleCB0aGF0IHdpbGwKICAgICAgICBiZSBsZWFzdCByZWNlbnRseSB1c2VkLgogICAgICAgIDpyZXR1cm46IHRoZSBjYWNoZSBpbmRleCBvZiB0aGUgY2hvc2VuIHZlcnRleC4KICAgICAgICAiIiIKICAgICAgICByaWdodF9lZGdlcyA9IHNlbGYuZ29sZC5yaWdodF9lZGdlcwogICAgICAgICMgaGVhZFRvVGFpbCA9IHNlbGYuZ29sZC5oZWFkVG9UYWlsCiAgICAgICAgIyB0YWlsVG9IZWFkID0gc2VsZi5nb2xkLnRhaWxUb0hlYWQKICAgICAgICB3aWRUb0NvbmNlcHRJRCA9IHNlbGYuZ29sZC53aWRUb0NvbmNlcHRJRAogICAgICAgIG1heF9kaXN0ID0gLTEKICAgICAgICBtYXhfaWR4ID0gLTEKICAgICAgICBzdGFydF9idWZmZXJfdmVydGV4ID0gc2VsZi5oeXBvdGhlc2lza2sKICAgICAgICBmb3IgY2FjaGVfaWR4IGluIHJhbmdlKHNlbGYuY2FjaGVfc2l6ZSk6CiAgICAgICAgICAgIGNhY2hlX2NvbmNlcHRfaWR4ID0gc2VsZi5jYWNoZVtjYWNoZV9pZHhdWzFdCiAgICAgICAgICAgIGN1cnJfZGlzdCA9IDEwMDAKICAgICAgICAgICAgdGFpbF9zZXQgPSBoZWFkVG9UYWlsW2NhY2hlX2NvbmNlcHRfaWR4XQogICAgICAgICAgICBoZWFkX3NldCA9IE5vbmUKICAgICAgICAgICAgaWYgY2FjaGVfY29uY2VwdF9pZHggaW4gdGFpbFRvSGVhZDoKICAgICAgICAgICAgICAgIGhlYWRfc2V0ID0gdGFpbFRvSGVhZFtjYWNoZV9jb25jZXB0X2lkeF0KICAgICAgICAgICAgZm9yIChidWZmZXJfaWR4LCB3b3JkX2lkeCkgaW4gZW51bWVyYXRlKHNlbGYuYnVmZmVyKToKICAgICAgICAgICAgICAgIGlmIHdvcmRfaWR4IGluIHdpZFRvQ29uY2VwdElEOgogICAgICAgICAgICAgICAgICAgIGJ1ZmZlcl9jb25jZXB0X2lkID0gd2lkVG9Db25jZXB0SURbd29yZF9pZHhdCiAgICAgICAgICAgICAgICAgICAgaWYgYnVmZmVyX2NvbmNlcHRfaWQgaW4gdGFpbF9zZXQ6CiAgICAgICAgICAgICAgICAgICAgICAgIGN1cnJfZGlzdCA9IGJ1ZmZlcl9pZHgKICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgICAgICBpZiBoZWFkX3NldCBpcyBub3QgTm9uZSBhbmQgYnVmZmVyX2NvbmNlcHRfaWQgaW4gaGVhZF9zZXQ6CiAgICAgICAgICAgICAgICAgICAgICAgIGN1cnJfZGlzdCA9IGJ1ZmZlcl9pZHgKICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgaWYgY3Vycl9kaXN0ID4gbWF4X2Rpc3Q6CiAgICAgICAgICAgICAgICBtYXhfaWR4ID0gY2FjaGVfaWR4CiAgICAgICAgICAgICAgICBtYXhfZGlzdCA9IGN1cnJfZGlzdAogICAgICAgIHJldHVybiBtYXhfaWR4</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="9" type="4">
+        <text>self.headToTail = defaultdict(set)
+        self.tailToHead = defaultdict(set)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>head</last-search>
+      <last-search>headToTai</last-search>
       <last-offset />
-      <last-pattern>head</last-pattern>
-      <last-replace>_idx</last-replace>
-      <last-substitute>_index</last-substitute>
+      <last-pattern>headToTai</last-pattern>
+      <last-replace>right_edges_list</last-replace>
+      <last-substitute>right_edges_set</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
@@ -711,10 +703,15 @@
         <entry>#dep</entry>
         <entry>chooseCa</entry>
         <entry>rel_map</entry>
-        <entry>needsPop</entry>
-        <entry>widTo</entry>
         <entry>needsPop()</entry>
         <entry>head</entry>
+        <entry>headTo</entry>
+        <entry>chooseCache</entry>
+        <entry>choose</entry>
+        <entry>right_edges_set</entry>
+        <entry>needsPop</entry>
+        <entry>widTo</entry>
+        <entry>headToTai</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
@@ -741,6 +738,7 @@
         <entry>157</entry>
         <entry>W</entry>
         <entry>1</entry>
+        <entry>%s/right_edges_set/right_edges_list/g</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
