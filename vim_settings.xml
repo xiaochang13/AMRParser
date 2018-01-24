@@ -330,8 +330,8 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516772270406">
-        <mark key="'" line="21" column="27" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516775583552">
+        <mark key="'" line="171" column="13" />
         <mark key="[" line="165" column="28" />
         <mark key="]" line="165" column="29" />
         <mark key="^" line="165" column="29" />
@@ -474,7 +474,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="103" column="4" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
       <jump line="83" column="53" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="171" column="8" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
       <jump line="87" column="20" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
@@ -574,6 +573,7 @@
       <jump line="21" column="27" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="282" column="17" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="288" column="16" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="171" column="13" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -583,7 +583,7 @@
         <text>o</text>
       </register>
       <register name="/" type="4">
-        <text>#dep</text>
+        <text>chooseCa</text>
       </register>
       <register name="0" type="4">
         <text>PHASE=SHTPOP&quot;</text>
@@ -626,9 +626,9 @@
       </register>
     </registers>
     <search>
-      <last-search>#dep</last-search>
+      <last-search>chooseCa</last-search>
       <last-offset />
-      <last-pattern>#dep</last-pattern>
+      <last-pattern>chooseCa</last-pattern>
       <last-replace>_idx</last-replace>
       <last-substitute>_index</last-substitute>
       <last-dir>1</last-dir>
@@ -700,6 +700,7 @@
         <entry>getToken</entry>
         <entry>#</entry>
         <entry>#dep</entry>
+        <entry>chooseCa</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
