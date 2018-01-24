@@ -331,12 +331,12 @@
         <mark key="^" line="173" column="13" />
         <mark key="." line="173" column="13" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516722070414">
-        <mark key="'" line="371" column="23" />
-        <mark key="[" line="386" column="48" />
-        <mark key="]" line="387" column="17" />
-        <mark key="." line="387" column="17" />
-        <mark key="^" line="387" column="17" />
+      <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516761170213">
+        <mark key="'" line="288" column="21" />
+        <mark key="[" line="274" column="0" />
+        <mark key="]" line="274" column="0" />
+        <mark key="." line="274" column="0" />
+        <mark key="^" line="272" column="32" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/notes" timestamp="1481283244408">
         <mark key="'" line="11" column="0" />
@@ -468,8 +468,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="326" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="373" column="4" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="366" column="0" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="220" column="4" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="227" column="23" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
@@ -568,13 +566,15 @@
       <jump line="50" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="163" column="35" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="39" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="280" column="21" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
+      <jump line="26" column="8" filename="$USER_HOME$/data_processing/oracle/dependency.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>se</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHdvcmQgPSBzcGxpdHNbMV0K</text>
       </register>
       <register name="-" type="4">
-        <text>se</text>
+        <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
         <text>getConceptA</text>
@@ -582,41 +582,38 @@
       <register name="0" type="4">
         <text>%s_&quot; % cache_idx</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHdvcmQgPSBzcGxpdHNbMV0K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICA=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIHRva19pZHggPT0gbGFzdF9pZHg6Cg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgYXNzZXJ0IGxlbih0b2tzKSA9PSBsZW4odHJlZS5oZWFkX2xpc3QpLCAiJXMgJXMiICUgKHN0cih0b2tzKSwgc3RyKHRyZWUuaGVhZF9saXN0KSkK</text>
+      </register>
+      <register name="4" type="8">
+        <text encoding="base64">IyAKIyA=</text>
+      </register>
+      <register name="5" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICA=</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="9" type="4">
         <text>feats.append(cache_word_repr)
         feats.append(cache_lem_repr)
         feats.append(cache_pos_repr)
         feats.append(cache_concept_repr)</text>
-      </register>
-      <register name="7" type="4">
-        <text>cache_word_repr = self.getTokenFeats(cache_word_idx, utils.Tokentype.WORD)
-        cache_lem_repr = self.getTokenFeats(cache_word_idx, utils.Tokentype.LEM)
-        cache_pos_repr = self.getTokenFeats(cache_word_idx, utils.Tokentype.POS)
-        cache_concept_repr = self.getTokenFeats(cache_concept_idx, utils.Tokentype.CONCEPT)</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAjIEdldCBwYXJlbnQgYXJjIGluZm9yCg==</text>
-      </register>
-      <register name="9" type="8">
-        <text encoding="base64">ICAgIAogICAg</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
