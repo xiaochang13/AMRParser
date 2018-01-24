@@ -324,12 +324,12 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516743897975">
-        <mark key="'" line="122" column="32" />
-        <mark key="[" line="135" column="28" />
-        <mark key="]" line="135" column="34" />
-        <mark key="." line="135" column="28" />
-        <mark key="^" line="125" column="19" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516755917131">
+        <mark key="'" line="142" column="28" />
+        <mark key="[" line="143" column="48" />
+        <mark key="]" line="144" column="67" />
+        <mark key="." line="144" column="67" />
+        <mark key="^" line="144" column="67" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516722070414">
         <mark key="'" line="371" column="23" />
@@ -468,7 +468,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="5" column="32" filename="$USER_HOME$/data_processing/utils.py" />
       <jump line="332" column="16" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="326" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="373" column="4" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
@@ -568,13 +567,14 @@
       <jump line="117" column="34" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="122" column="32" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="53" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="142" column="28" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>concept_</text>
+        <text>, idx=-1</text>
       </register>
       <register name="-" type="4">
-        <text>concept_</text>
+        <text>, idx=-1</text>
       </register>
       <register name="/" type="4">
         <text>getConceptA</text>
