@@ -10,12 +10,12 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516831623366">
-        <mark key="'" line="228" column="29" />
-        <mark key="[" line="176" column="0" />
-        <mark key="]" line="176" column="0" />
-        <mark key="^" line="166" column="24" />
-        <mark key="." line="176" column="0" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516838102214">
+        <mark key="'" line="108" column="8" />
+        <mark key="[" line="166" column="25" />
+        <mark key="]" line="168" column="35" />
+        <mark key="^" line="168" column="35" />
+        <mark key="." line="168" column="35" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1513563075786">
         <mark key="'" line="578" column="13" />
@@ -218,12 +218,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516772948231">
-        <mark key="'" line="288" column="16" />
-        <mark key="[" line="76" column="16" />
-        <mark key="]" line="76" column="16" />
-        <mark key="." line="76" column="16" />
-        <mark key="^" line="76" column="16" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516838931758">
+        <mark key="'" line="186" column="41" />
+        <mark key="[" line="188" column="20" />
+        <mark key="]" line="188" column="21" />
+        <mark key="." line="188" column="21" />
+        <mark key="^" line="188" column="21" />
       </file>
       <file name="/Python Console" timestamp="1516827563386">
         <mark key="[" line="0" column="0" />
@@ -333,12 +333,12 @@
         <mark key="^" line="100" column="55" />
         <mark key="." line="102" column="2" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516830733986">
-        <mark key="'" line="229" column="8" />
-        <mark key="[" line="233" column="0" />
-        <mark key="]" line="233" column="0" />
-        <mark key="^" line="232" column="75" />
-        <mark key="." line="233" column="0" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" timestamp="1516838915760">
+        <mark key="'" line="247" column="12" />
+        <mark key="[" line="224" column="35" />
+        <mark key="]" line="224" column="35" />
+        <mark key="^" line="233" column="23" />
+        <mark key="." line="224" column="35" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516827662098">
         <mark key="'" line="42" column="15" />
@@ -483,12 +483,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="98" column="42" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="156" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="154" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="71" column="51" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="155" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="73" column="25" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="44" column="12" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="75" column="29" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="65" column="33" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
@@ -545,7 +539,6 @@
       <jump line="69" column="33" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="21" column="27" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="282" column="17" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="288" column="16" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="171" column="13" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="134" column="23" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="132" column="39" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
@@ -583,68 +576,67 @@
       <jump line="229" column="29" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
       <jump line="157" column="34" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="61" column="0" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
+      <jump line="228" column="29" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="237" column="13" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="176" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="288" column="15" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="186" column="41" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="108" column="8" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="240" column="12" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYudGFpbFRvSGVhZFt0YWlsX3ZdLmFkZChpKQo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IG9yIGxhc3RfY2FjaGVfY29uY2VwdCBub3QgaW4gcmlnaHRfZWRnZXM=</text>
       </register>
       <register name="-" type="4">
-        <text>headToTail, tailToHead, widToConceptID</text>
+        <text encoding="base64">IG9yIGxhc3RfY2FjaGVfY29uY2VwdCBub3QgaW4gcmlnaHRfZWRnZXM=</text>
       </register>
       <register name="/" type="4">
-        <text>tailTo</text>
+        <text>needsPop</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">Zm9yIGxlZnRfaWR4IGluIHJpZ2h0X2VkZ2VzX2xpc3Q6CiAgICAgICAgICAgIHNvcnRlZF9yaWdodF9saXN0ID0gc29ydGVkKHJpZ2h0X2VkZ2VzX2xpc3RbbGVmdF9pZHhdKQogICAgICAgICAgICBhc3NlcnQgc29ydGVkX3JpZ2h0X2xpc3RbMF0gPiBsZWZ0X2lkeAogICAgICAgICAgICBzZWxmLnJpZ2h0X2VkZ2VzW2xlZnRfaWR4XSA9IHNvcnRlZF9yaWdodF9saXN0</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYudGFpbFRvSGVhZFt0YWlsX3ZdLmFkZChpKQo=</text>
+        <text encoding="base64">ICAgICAgICByaWdodF9lZGdlcyA9IHNlbGYuZ29sZC5yaWdodF9lZGdlcwo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnRhaWxUb0hlYWQgPSBkZWZhdWx0ZGljdChzZXQpCg==</text>
+      <register name="2" type="4">
+        <text># ($, $) at last cache position.
+        if last_cache_concept == -1 or last_cache_concept not in right_edges:
+            return False</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB0YWlsVG9IZWFkID0gZ29sZF9ncmFwaC50YWlsVG9IZWFkCg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB0YWlsVG9IZWFkID0gZ29sZF9ncmFwaC50YWlsVG9IZWFkCg==</text>
-      </register>
-      <register name="5" type="4">
-        <text>curr_dist = right_edges[cache_concept_idx]
-            tail_set = headToTail[cache_concept_idx]
-            head_set = None
-            if cache_concept_idx in tailToHead:
-                head_set = tailToHead[cache_concept_idx]
-            for (buffer_idx, word_idx) in enumerate(c.buffer):
-                if word_idx in widToConceptID:
-                    concept_idx = widToConceptID[word_idx]
-                    if (concept_idx in tail_set or (head_set is not None and concept_idx in head_set)):
-                        curr_dist = buffer_idx
-                        break</text>
-      </register>
-      <register name="6" type="4">
-        <text encoding="base64">aWYgdGFpbF92ID4gaToKICAgICAgICAgICAgICAgICAgICBzZWxmLnJpZ2h0X2VkZ2VzW2ldLmFkZCh0YWlsX3YpCiAgICAgICAgICAgICAgICBlbGlmIHRhaWxfdiA8IGk6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5yaWdodF9lZGdlc1t0YWlsX3ZdLmFkZChpKQ==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICByaWdodF9lZGdlc19saXN0ID0gZGVmYXVsdGRpY3QobGlzdCkK</text>
-      </register>
-      <register name="8" type="8">
+      <register name="3" type="8">
         <text encoding="base64">IyAKIyA=</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">aWYgbmV4dF9idWZmZXJfY29uY2VwdF9pZHggPj0gbnVtX2NvbmNlcHRzOgogICAgICAgICAgICByZXR1cm4gVHJ1ZQ==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYudGFpbFRvSGVhZFt0YWlsX3ZdLmFkZChpKQo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBzZWxmLnRhaWxUb0hlYWQgPSBkZWZhdWx0ZGljdChzZXQpCg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICB0YWlsVG9IZWFkID0gZ29sZF9ncmFwaC50YWlsVG9IZWFkCg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICB0YWlsVG9IZWFkID0gZ29sZF9ncmFwaC50YWlsVG9IZWFkCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>tailTo</last-search>
+      <last-search>needsPop</last-search>
       <last-offset />
-      <last-pattern>tailTo</last-pattern>
+      <last-pattern>needsPop</last-pattern>
       <last-replace>right_edges_list</last-replace>
       <last-substitute>right_edges_set</last-substitute>
       <last-dir>1</last-dir>
@@ -724,11 +716,12 @@
         <entry>chooseCache</entry>
         <entry>choose</entry>
         <entry>right_edges_set</entry>
-        <entry>needsPop</entry>
         <entry>widTo</entry>
         <entry>headToTai</entry>
         <entry>chooseVertex</entry>
         <entry>tailTo</entry>
+        <entry>popBuffer</entry>
+        <entry>needsPop</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
@@ -756,6 +749,7 @@
         <entry>W</entry>
         <entry>1</entry>
         <entry>%s/right_edges_set/right_edges_list/g</entry>
+        <entry>178</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
