@@ -205,6 +205,12 @@
         <mark key="^" line="521" column="19" />
         <mark key="." line="509" column="20" />
       </file>
+      <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
+        <mark key="'" line="94" column="16" />
+        <mark key="[" line="130" column="0" />
+        <mark key="]" line="130" column="0" />
+        <mark key="." line="130" column="0" />
+      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/io/IOUtils.java" timestamp="1491962694595">
         <mark key="'" line="667" column="17" />
         <mark key="[" line="652" column="5" />
@@ -218,12 +224,11 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516838931758">
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516841101675">
         <mark key="'" line="186" column="41" />
-        <mark key="[" line="188" column="20" />
-        <mark key="]" line="188" column="21" />
-        <mark key="." line="188" column="21" />
-        <mark key="^" line="188" column="21" />
+        <mark key="[" line="187" column="0" />
+        <mark key="]" line="187" column="0" />
+        <mark key="." line="187" column="0" />
       </file>
       <file name="/Python Console" timestamp="1516827563386">
         <mark key="[" line="0" column="0" />
@@ -457,12 +462,12 @@
         <mark key="^" line="7" column="0" />
         <mark key="." line="813" column="127" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/AMRGraph.py" timestamp="1516831648821">
-        <mark key="'" line="61" column="0" />
-        <mark key="[" line="148" column="0" />
-        <mark key="]" line="148" column="0" />
-        <mark key="^" line="152" column="8" />
-        <mark key="." line="148" column="0" />
+      <file name="$USER_HOME$/data_processing/oracle/AMRGraph.py" timestamp="1516841899161">
+        <mark key="'" line="64" column="0" />
+        <mark key="[" line="62" column="30" />
+        <mark key="]" line="62" column="27" />
+        <mark key="." line="62" column="27" />
+        <mark key="^" line="62" column="27" />
       </file>
       <file name="$USER_HOME$/data_processing/depTokens.py" timestamp="1516596838523">
         <mark key="[" line="26" column="4" />
@@ -585,8 +590,8 @@
       <jump line="240" column="12" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IG9yIGxhc3RfY2FjaGVfY29uY2VwdCBub3QgaW4gcmlnaHRfZWRnZXM=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IG9yIGxhc3RfY2FjaGVfY29uY2VwdCBub3QgaW4gcmlnaHRfZWRnZXM=</text>
@@ -598,36 +603,37 @@
         <text encoding="base64">Zm9yIGxlZnRfaWR4IGluIHJpZ2h0X2VkZ2VzX2xpc3Q6CiAgICAgICAgICAgIHNvcnRlZF9yaWdodF9saXN0ID0gc29ydGVkKHJpZ2h0X2VkZ2VzX2xpc3RbbGVmdF9pZHhdKQogICAgICAgICAgICBhc3NlcnQgc29ydGVkX3JpZ2h0X2xpc3RbMF0gPiBsZWZ0X2lkeAogICAgICAgICAgICBzZWxmLnJpZ2h0X2VkZ2VzW2xlZnRfaWR4XSA9IHNvcnRlZF9yaWdodF9saXN0</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICByaWdodF9lZGdlcyA9IHNlbGYuZ29sZC5yaWdodF9lZGdlcwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      </register>
+      <register name="4" type="4">
+        <text># print oracle_action
+                    # print str(c)</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICByaWdodF9lZGdlcyA9IHNlbGYuZ29sZC5yaWdodF9lZGdlcwo=</text>
+      </register>
+      <register name="6" type="4">
         <text># ($, $) at last cache position.
         if last_cache_concept == -1 or last_cache_concept not in right_edges:
             return False</text>
       </register>
-      <register name="3" type="8">
+      <register name="7" type="8">
         <text encoding="base64">IyAKIyA=</text>
       </register>
-      <register name="4" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="9" type="4">
         <text encoding="base64">aWYgbmV4dF9idWZmZXJfY29uY2VwdF9pZHggPj0gbnVtX2NvbmNlcHRzOgogICAgICAgICAgICByZXR1cm4gVHJ1ZQ==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYudGFpbFRvSGVhZFt0YWlsX3ZdLmFkZChpKQo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnRhaWxUb0hlYWQgPSBkZWZhdWx0ZGljdChzZXQpCg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB0YWlsVG9IZWFkID0gZ29sZF9ncmFwaC50YWlsVG9IZWFkCg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0YWlsVG9IZWFkID0gZ29sZF9ncmFwaC50YWlsVG9IZWFkCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -747,9 +753,9 @@
         <entry>146</entry>
         <entry>157</entry>
         <entry>W</entry>
-        <entry>1</entry>
         <entry>%s/right_edges_set/right_edges_list/g</entry>
         <entry>178</entry>
+        <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
