@@ -218,12 +218,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516914863407">
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516915801957">
         <mark key="'" line="101" column="53" />
-        <mark key="[" line="144" column="32" />
-        <mark key="]" line="144" column="32" />
-        <mark key="^" line="31" column="85" />
-        <mark key="." line="144" column="32" />
+        <mark key="[" line="31" column="86" />
+        <mark key="]" line="31" column="105" />
+        <mark key="^" line="31" column="105" />
+        <mark key="." line="31" column="105" />
       </file>
       <file name="/Python Console" timestamp="1516827563386">
         <mark key="[" line="0" column="0" />
@@ -585,10 +585,8 @@
       <jump line="182" column="8" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text># print curr_arc_action
-                                # print word_idx, concept_idx, cache_idx
-                                # print feat_seq[-1]</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICNpZiAiUFVTSCIgaW4gb3JhY2xlX2FjdGlvbjoK</text>
       </register>
       <register name="-" type="4">
         <text>1</text>
@@ -599,16 +597,16 @@
       <register name="0" type="4">
         <text encoding="base64">Zm9yIGxlZnRfaWR4IGluIHJpZ2h0X2VkZ2VzX2xpc3Q6CiAgICAgICAgICAgIHNvcnRlZF9yaWdodF9saXN0ID0gc29ydGVkKHJpZ2h0X2VkZ2VzX2xpc3RbbGVmdF9pZHhdKQogICAgICAgICAgICBhc3NlcnQgc29ydGVkX3JpZ2h0X2xpc3RbMF0gPiBsZWZ0X2lkeAogICAgICAgICAgICBzZWxmLnJpZ2h0X2VkZ2VzW2xlZnRfaWR4XSA9IHNvcnRlZF9yaWdodF9saXN0</text>
       </register>
-      <register name="1" type="4">
-        <text># print curr_arc_action
-                                # print word_idx, concept_idx, cache_idx
-                                # print feat_seq[-1]</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICNpZiAiUFVTSCIgaW4gb3JhY2xlX2FjdGlvbjoK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text># print curr_arc_action
+                                # print word_idx, concept_idx, cache_idx
+                                # print feat_seq[-1]</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
@@ -617,25 +615,25 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="4">
         <text># if sent_idx != 2639:
                 #     continue</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>if not c.gold.compare(c.hypothesis):
                     print &quot;Oracle sequence not constructing the gold graph for sentence %d!&quot; % sent_idx
                     print &quot; &quot;.join(tok_seq)
                     print str(amr_graph)
                 else:
                     print &quot;check okay here&quot;</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZm9yCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
