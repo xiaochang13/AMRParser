@@ -218,12 +218,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516909558785">
-        <mark key="'" line="293" column="11" />
-        <mark key="[" line="212" column="0" />
-        <mark key="]" line="212" column="0" />
-        <mark key="^" line="206" column="68" />
-        <mark key="." line="212" column="0" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516911891952">
+        <mark key="'" line="292" column="11" />
+        <mark key="[" line="148" column="0" />
+        <mark key="]" line="148" column="0" />
+        <mark key="^" line="205" column="68" />
+        <mark key="." line="148" column="0" />
       </file>
       <file name="/Python Console" timestamp="1516827563386">
         <mark key="[" line="0" column="0" />
@@ -607,16 +607,19 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="4">
         <text># if sent_idx != 2639:
                 #     continue</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>if not c.gold.compare(c.hypothesis):
                     print &quot;Oracle sequence not constructing the gold graph for sentence %d!&quot; % sent_idx
                     print &quot; &quot;.join(tok_seq)
@@ -624,14 +627,11 @@
                 else:
                     print &quot;check okay here&quot;</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgZm9yCg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZXQgPSBzZWxmLnZhbHVlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
