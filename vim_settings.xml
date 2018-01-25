@@ -205,12 +205,6 @@
         <mark key="^" line="521" column="19" />
         <mark key="." line="509" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/re_utils.py" timestamp="1515471174448">
-        <mark key="'" line="94" column="16" />
-        <mark key="[" line="130" column="0" />
-        <mark key="]" line="130" column="0" />
-        <mark key="." line="130" column="0" />
-      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/io/IOUtils.java" timestamp="1491962694595">
         <mark key="'" line="667" column="17" />
         <mark key="[" line="652" column="5" />
@@ -224,11 +218,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516841101675">
-        <mark key="'" line="186" column="41" />
-        <mark key="[" line="187" column="0" />
-        <mark key="]" line="187" column="0" />
-        <mark key="." line="187" column="0" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516843529997">
+        <mark key="'" line="298" column="11" />
+        <mark key="[" line="209" column="42" />
+        <mark key="]" line="209" column="68" />
+        <mark key="." line="209" column="68" />
+        <mark key="^" line="209" column="68" />
       </file>
       <file name="/Python Console" timestamp="1516827563386">
         <mark key="[" line="0" column="0" />
@@ -462,12 +457,12 @@
         <mark key="^" line="7" column="0" />
         <mark key="." line="813" column="127" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/AMRGraph.py" timestamp="1516841899161">
-        <mark key="'" line="64" column="0" />
-        <mark key="[" line="62" column="30" />
-        <mark key="]" line="62" column="27" />
-        <mark key="." line="62" column="27" />
-        <mark key="^" line="62" column="27" />
+      <file name="$USER_HOME$/data_processing/oracle/AMRGraph.py" timestamp="1516843951219">
+        <mark key="'" line="78" column="40" />
+        <mark key="[" line="38" column="63" />
+        <mark key="]" line="38" column="63" />
+        <mark key="." line="38" column="63" />
+        <mark key="^" line="38" column="63" />
       </file>
       <file name="$USER_HOME$/data_processing/depTokens.py" timestamp="1516596838523">
         <mark key="[" line="26" column="4" />
@@ -488,14 +483,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="44" column="12" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="75" column="29" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="65" column="33" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="39" column="23" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="371" column="23" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
-      <jump line="143" column="61" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="701" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="576" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="112" column="0" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="610" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="722" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -588,13 +575,21 @@
       <jump line="186" column="41" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="108" column="8" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
       <jump line="240" column="12" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="86" column="21" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="37" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="209" column="33" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="77" column="46" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
+      <jump line="33" column="8" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
+      <jump line="131" column="8" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="296" column="11" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="78" column="40" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text>here</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IG9yIGxhc3RfY2FjaGVfY29uY2VwdCBub3QgaW4gcmlnaHRfZWRnZXM=</text>
+        <text>here</text>
       </register>
       <register name="/" type="4">
         <text>needsPop</text>
@@ -602,38 +597,40 @@
       <register name="0" type="4">
         <text encoding="base64">Zm9yIGxlZnRfaWR4IGluIHJpZ2h0X2VkZ2VzX2xpc3Q6CiAgICAgICAgICAgIHNvcnRlZF9yaWdodF9saXN0ID0gc29ydGVkKHJpZ2h0X2VkZ2VzX2xpc3RbbGVmdF9pZHhdKQogICAgICAgICAgICBhc3NlcnQgc29ydGVkX3JpZ2h0X2xpc3RbMF0gPiBsZWZ0X2lkeAogICAgICAgICAgICBzZWxmLnJpZ2h0X2VkZ2VzW2xlZnRfaWR4XSA9IHNvcnRlZF9yaWdodF9saXN0</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="1" type="4">
+        <text>if not c.gold.compare(c.hypothesis):
+                    print &quot;Oracle sequence not constructing the gold graph for sentence %d!&quot; % sent_idx
+                    print &quot; &quot;.join(tok_seq)
+                    print str(amr_graph)
+                else:
+                    print &quot;check okay here&quot;</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZm9yCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
-        <text># print oracle_action
-                    # print str(c)</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICByZXQgPSBzZWxmLnZhbHVlCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICByaWdodF9lZGdlcyA9IHNlbGYuZ29sZC5yaWdodF9lZGdlcwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0ICs9ICIgJXM6JXMiCg==</text>
       </register>
-      <register name="6" type="4">
-        <text># ($, $) at last cache position.
-        if last_cache_concept == -1 or last_cache_concept not in right_edges:
-            return False</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="7" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgY3Vycl9jb25jZXB0Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">aWYgbmV4dF9idWZmZXJfY29uY2VwdF9pZHggPj0gbnVtX2NvbmNlcHRzOgogICAgICAgICAgICByZXR1cm4gVHJ1ZQ==</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -756,6 +753,7 @@
         <entry>%s/right_edges_set/right_edges_list/g</entry>
         <entry>178</entry>
         <entry>1</entry>
+        <entry>q</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
