@@ -10,12 +10,12 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516838102214">
-        <mark key="'" line="108" column="8" />
-        <mark key="[" line="166" column="25" />
-        <mark key="]" line="168" column="35" />
-        <mark key="^" line="168" column="35" />
-        <mark key="." line="168" column="35" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516933550215">
+        <mark key="'" line="109" column="8" />
+        <mark key="[" line="5" column="72" />
+        <mark key="]" line="5" column="73" />
+        <mark key="^" line="5" column="73" />
+        <mark key="." line="5" column="73" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1513563075786">
         <mark key="'" line="578" column="13" />
@@ -218,12 +218,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516933359598">
-        <mark key="'" line="52" column="34" />
-        <mark key="[" line="127" column="0" />
-        <mark key="]" line="127" column="0" />
-        <mark key="." line="127" column="0" />
-        <mark key="^" line="128" column="79" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516934567133">
+        <mark key="'" line="103" column="53" />
+        <mark key="[" line="54" column="36" />
+        <mark key="]" line="54" column="48" />
+        <mark key="." line="54" column="48" />
+        <mark key="^" line="54" column="48" />
       </file>
       <file name="/Python Console" timestamp="1516827563386">
         <mark key="[" line="0" column="0" />
@@ -483,10 +483,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="722" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="616" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="272" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
-      <jump line="78" column="33" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="99" column="27" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="46" column="8" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="55" column="44" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
@@ -582,20 +578,24 @@
       <jump line="78" column="40" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="101" column="53" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="182" column="8" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
-      <jump line="52" column="34" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="5" column="4" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="52" column="40" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="16" column="0" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="133" column="20" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="103" column="53" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBmb3IgKGNhY2hlX2lkeCwgYXJjX2xhYmVsKSBpbiBlbnVtZXJhdGUoYXJjX2RlY2lzaW9ucyk6Cg==</text>
+      <register name="&quot;" type="4">
+        <text>oracle_type_</text>
       </register>
       <register name="-" type="4">
         <text>arc_decisions[decision_idx]</text>
       </register>
       <register name="/" type="4">
-        <text>needsPop</text>
+        <text>push_idx</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Zm9yIGxlZnRfaWR4IGluIHJpZ2h0X2VkZ2VzX2xpc3Q6CiAgICAgICAgICAgIHNvcnRlZF9yaWdodF9saXN0ID0gc29ydGVkKHJpZ2h0X2VkZ2VzX2xpc3RbbGVmdF9pZHhdKQogICAgICAgICAgICBhc3NlcnQgc29ydGVkX3JpZ2h0X2xpc3RbMF0gPiBsZWZ0X2lkeAogICAgICAgICAgICBzZWxmLnJpZ2h0X2VkZ2VzW2xlZnRfaWR4XSA9IHNvcnRlZF9yaWdodF9saXN0</text>
+        <text>oracle_type_</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBmb3IgKGNhY2hlX2lkeCwgYXJjX2xhYmVsKSBpbiBlbnVtZXJhdGUoYXJjX2RlY2lzaW9ucyk6Cg==</text>
@@ -634,9 +634,9 @@
       </register>
     </registers>
     <search>
-      <last-search>needsPop</last-search>
+      <last-search>push_idx</last-search>
       <last-offset />
-      <last-pattern>needsPop</last-pattern>
+      <last-pattern>push_idx</last-pattern>
       <last-replace>right_edges_list</last-replace>
       <last-substitute>right_edges_set</last-substitute>
       <last-dir>1</last-dir>
@@ -722,6 +722,7 @@
         <entry>tailTo</entry>
         <entry>popBuffer</entry>
         <entry>needsPop</entry>
+        <entry>push_idx</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
