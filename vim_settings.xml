@@ -10,8 +10,8 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516948644594">
-        <mark key="'" line="148" column="14" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516991076349">
+        <mark key="'" line="214" column="23" />
         <mark key="[" line="144" column="21" />
         <mark key="]" line="145" column="34" />
         <mark key="^" line="145" column="34" />
@@ -483,7 +483,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="151" column="24" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="169" column="41" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="577" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="394" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
@@ -583,6 +582,7 @@
       <jump line="120" column="24" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="123" column="54" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="188" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="214" column="23" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -592,7 +592,7 @@
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>decision_idx</text>
+        <text>oracle</text>
       </register>
       <register name="0" type="4">
         <text>if oracle_type == utils.OracleType.AAAI:
@@ -635,9 +635,9 @@
       </register>
     </registers>
     <search>
-      <last-search>decision_idx</last-search>
+      <last-search>oracle</last-search>
       <last-offset />
-      <last-pattern>decision_idx</last-pattern>
+      <last-pattern>oracle</last-pattern>
       <last-replace>right_edges_list</last-replace>
       <last-substitute>right_edges_set</last-substitute>
       <last-dir>1</last-dir>
@@ -725,6 +725,7 @@
         <entry>needsPop</entry>
         <entry>push_idx</entry>
         <entry>decision_idx</entry>
+        <entry>oracle</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
