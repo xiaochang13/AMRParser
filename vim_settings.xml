@@ -218,12 +218,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516949167776">
-        <mark key="'" line="311" column="22" />
-        <mark key="[" line="195" column="50" />
-        <mark key="]" line="195" column="90" />
-        <mark key="." line="195" column="90" />
-        <mark key="^" line="195" column="90" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516949748296">
+        <mark key="'" line="123" column="54" />
+        <mark key="[" line="123" column="80" />
+        <mark key="]" line="124" column="65" />
+        <mark key="." line="124" column="65" />
+        <mark key="^" line="124" column="65" />
       </file>
       <file name="/Python Console" timestamp="1516827563386">
         <mark key="[" line="0" column="0" />
@@ -483,9 +483,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="280" column="21" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
-      <jump line="26" column="8" filename="$USER_HOME$/data_processing/oracle/dependency.py" />
-      <jump line="121" column="39" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="151" column="24" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="169" column="41" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="577" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -539,7 +536,6 @@
       <jump line="152" column="30" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
       <jump line="58" column="28" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="143" column="30" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
-      <jump line="188" column="4" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="229" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="153" column="8" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="128" column="21" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
@@ -583,59 +579,71 @@
       <jump line="31" column="65" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="310" column="11" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="311" column="22" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="128" column="0" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="120" column="24" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="123" column="54" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="188" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>args.</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
       </register>
       <register name="-" type="4">
-        <text>args.</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>push_idx</text>
+        <text>decision_idx</text>
       </register>
       <register name="0" type="4">
-        <text>argparser.add_argument(&quot;--output_dir&quot;, type=str, help=&quot;The directory for the output files.&quot;)</text>
+        <text>if oracle_type == utils.OracleType.AAAI:
+                                    concept_idx += 1
+                                    if concept_idx == len(concept_seq):
+                                        concept_idx = -1</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIG9yYWNsZV90eXBlIAo=</text>
+      <register name="1" type="8">
+        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIG9yYWNsZV90eXBlID09IHV0aWxzLk9yYWNsZVR5cGUuQUFBSToK</text>
       </register>
-      <register name="3" type="4">
-        <text>else:
-                c.start_word = True</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwdXNoX2lkeCA9IGludChvcmFjbGVfYWN0aW9uLnNwbGl0KCI6IilbMV0pCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY2FuZF9jb25jZXB0X2lkeCA9IGMuY2FuZF92ZXJ0ZXhbMV0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZGVjaXNpb25faWR4ID0gMAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uY2VwdF9pZHggPSAtMQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlY2lzaW9uX2lkeCArPSAxCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBmb3IgKGNhY2hlX2lkeCwgYXJjX2xhYmVsKSBpbiBlbnVtZXJhdGUoYXJjX2RlY2lzaW9ucyk6Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>if oracle_type == utils.OracleType.CL:
+                                assert push_idx != -1
+                                if cache_idx == push_idx:
+                                    continue</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIGRlZgo=</text>
+      <register name="9" type="4">
+        <text>if oracle_type == utils.OracleType.CL:
+                                assert push_idx != -1
+                                if cache_idx == push_idx:
+                                    continue</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>push_idx</last-search>
+      <last-search>decision_idx</last-search>
       <last-offset />
-      <last-pattern>push_idx</last-pattern>
+      <last-pattern>decision_idx</last-pattern>
       <last-replace>right_edges_list</last-replace>
       <last-substitute>right_edges_set</last-substitute>
       <last-dir>1</last-dir>
@@ -722,6 +730,7 @@
         <entry>popBuffer</entry>
         <entry>needsPop</entry>
         <entry>push_idx</entry>
+        <entry>decision_idx</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
@@ -751,6 +760,7 @@
         <entry>178</entry>
         <entry>1</entry>
         <entry>q</entry>
+        <entry>119</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
