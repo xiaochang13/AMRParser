@@ -10,12 +10,12 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516933550215">
+      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516935443360">
         <mark key="'" line="109" column="8" />
-        <mark key="[" line="5" column="72" />
-        <mark key="]" line="5" column="73" />
-        <mark key="^" line="5" column="73" />
-        <mark key="." line="5" column="73" />
+        <mark key="[" line="201" column="88" />
+        <mark key="]" line="201" column="88" />
+        <mark key="^" line="201" column="88" />
+        <mark key="." line="201" column="88" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1513563075786">
         <mark key="'" line="578" column="13" />
@@ -586,10 +586,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>oracle_type_</text>
+        <text encoding="base64">ICgpOg==</text>
       </register>
       <register name="-" type="4">
-        <text>arc_decisions[decision_idx]</text>
+        <text encoding="base64">ICgpOg==</text>
       </register>
       <register name="/" type="4">
         <text>push_idx</text>
@@ -598,30 +598,30 @@
         <text>oracle_type_</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBmb3IgKGNhY2hlX2lkeCwgYXJjX2xhYmVsKSBpbiBlbnVtZXJhdGUoYXJjX2RlY2lzaW9ucyk6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uY2VwdF9pZHggPSAtMQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBmb3IgKGNhY2hlX2lkeCwgYXJjX2xhYmVsKSBpbiBlbnVtZXJhdGUoYXJjX2RlY2lzaW9ucyk6Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGRlZgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICAgIGRlZgo=</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICNpZiAiUFVTSCIgaW4gb3JhY2xlX2FjdGlvbjoK</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text># print curr_arc_action
                                 # print word_idx, concept_idx, cache_idx
                                 # print feat_seq[-1]</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
