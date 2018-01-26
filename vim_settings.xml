@@ -429,8 +429,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516998120650">
-        <mark key="'" line="730" column="6" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517005034443">
+        <mark key="'" line="1119" column="73" />
         <mark key="[" line="766" column="0" />
         <mark key="]" line="766" column="0" />
         <mark key="^" line="729" column="22" />
@@ -483,8 +483,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="572" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="391" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="123" column="13" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="87" column="33" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="53" column="33" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
@@ -583,6 +581,8 @@
       <jump line="278" column="4" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="729" column="22" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="730" column="6" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="681" column="47" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1119" column="73" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -592,7 +592,7 @@
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>linearizeData</text>
+        <text>realign</text>
       </register>
       <register name="0" type="4">
         <text>if oracle_type == utils.OracleType.AAAI:
@@ -635,9 +635,9 @@
       </register>
     </registers>
     <search>
-      <last-search>linearizeData</last-search>
+      <last-search>realign</last-search>
       <last-offset />
-      <last-pattern>linearizeData</last-pattern>
+      <last-pattern>realign</last-pattern>
       <last-replace>right_edges_list</last-replace>
       <last-substitute>right_edges_set</last-substitute>
       <last-dir>1</last-dir>
@@ -727,6 +727,7 @@
         <entry>oracle</entry>
         <entry>loadDep</entry>
         <entry>linearizeData</entry>
+        <entry>realign</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
