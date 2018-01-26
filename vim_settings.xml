@@ -340,12 +340,12 @@
         <mark key="^" line="233" column="23" />
         <mark key="." line="224" column="35" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516827662098">
-        <mark key="'" line="42" column="15" />
-        <mark key="[" line="42" column="8" />
-        <mark key="]" line="42" column="9" />
-        <mark key="." line="42" column="9" />
-        <mark key="^" line="42" column="9" />
+      <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516992980633">
+        <mark key="'" line="278" column="4" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+        <mark key="^" line="41" column="9" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/notes" timestamp="1481283244408">
         <mark key="'" line="11" column="0" />
@@ -429,12 +429,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516631314509">
-        <mark key="'" line="430" column="4" />
-        <mark key="[" line="633" column="35" />
-        <mark key="]" line="634" column="59" />
-        <mark key="." line="634" column="59" />
-        <mark key="^" line="634" column="59" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516992321645">
+        <mark key="'" line="424" column="4" />
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="^" line="628" column="59" />
+        <mark key="." line="6" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -483,7 +483,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="169" column="41" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="577" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="394" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="572" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -583,16 +582,17 @@
       <jump line="123" column="54" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="188" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="214" column="23" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="278" column="4" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QK</text>
       </register>
       <register name="-" type="4">
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>oracle</text>
+        <text>loadDep</text>
       </register>
       <register name="0" type="4">
         <text>if oracle_type == utils.OracleType.AAAI:
@@ -601,43 +601,43 @@
                                         concept_idx = -1</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgd29yZF9pZHggPSAwICMgU3RhcnQgcHJvY2Vzc2luZyBmcm9tIGxlZnRtb3N0IHdvcmQuCg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">IyBpZiB0b2tzW3Rva19pZHhdICE9IHdvcmQ6CiAgICAgICAgICAgICAgICAjICAgICBwcmludCA+PiBzeXMuc3RkZXJyLCB3b3JkKyAiIDogIisgdG9rc1t0b2tfaWR4XQogICAgICAgICAgICAgICAgIyAgICAgc3lzLmV4aXQoMSk=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">IyBpZiB0b2tzW3Rva19pZHhdICE9IHdvcmQ6CiAgICAgICAgICAgICAgICAjICAgICBwcmludCA+PiBzeXMuc3RkZXJyLCB3b3JkKyAiIDogIisgdG9rc1t0b2tfaWR4XQogICAgICAgICAgICAgICAgIyAgICAgc3lzLmV4aXQoMSk=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHB1c2hfaWR4ID0gLTEK</text>
+        <text encoding="base64">ZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QK</text>
       </register>
-      <register name="5" type="8">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
+      <register name="5" type="2">
+        <text encoding="base64">ZnJvbSByZV91dGlscyBpbXBvcnQgKgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIG9yYWNsZV90eXBlID09IHV0aWxzLk9yYWNsZVR5cGUuQUFBSToK</text>
+        <text encoding="base64">ZnJvbSBhbXJfZ3JhcGggaW1wb3J0ICoK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwdXNoX2lkeCA9IGludChvcmFjbGVfYWN0aW9uLnNwbGl0KCI6IilbMV0pCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZGVjaXNpb25faWR4ID0gMAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlY2lzaW9uX2lkeCArPSAxCg==</text>
+        <text encoding="base64">ICAgICMgcHJpbnQgIkFmdGVyIGNhdGVnb3JpemF0aW9uOiIsICIgIi5qb2luKGNvbGxhcHNlZF9zZXEpCg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>1</text>
       </register>
     </registers>
     <search>
-      <last-search>oracle</last-search>
+      <last-search>loadDep</last-search>
       <last-offset />
-      <last-pattern>oracle</last-pattern>
+      <last-pattern>loadDep</last-pattern>
       <last-replace>right_edges_list</last-replace>
       <last-substitute>right_edges_set</last-substitute>
       <last-dir>1</last-dir>
@@ -689,7 +689,6 @@
         <entry>RRB</entry>
         <entry>`</entry>
         <entry>align</entry>
-        <entry>loadDep</entry>
         <entry>print</entry>
         <entry>conll_wf</entry>
         <entry>root_num</entry>
@@ -726,6 +725,7 @@
         <entry>push_idx</entry>
         <entry>decision_idx</entry>
         <entry>oracle</entry>
+        <entry>loadDep</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
@@ -753,10 +753,10 @@
         <entry>W</entry>
         <entry>%s/right_edges_set/right_edges_list/g</entry>
         <entry>178</entry>
-        <entry>1</entry>
         <entry>q</entry>
         <entry>119</entry>
         <entry>w</entry>
+        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
