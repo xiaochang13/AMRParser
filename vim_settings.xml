@@ -218,8 +218,8 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516983456549">
-        <mark key="'" line="119" column="54" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1517009546587">
+        <mark key="'" line="39" column="19" />
         <mark key="[" line="90" column="0" />
         <mark key="]" line="90" column="0" />
         <mark key="." line="90" column="0" />
@@ -429,8 +429,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517005034443">
-        <mark key="'" line="1119" column="73" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517009496518">
+        <mark key="'" line="1131" column="8" />
         <mark key="[" line="766" column="0" />
         <mark key="]" line="766" column="0" />
         <mark key="^" line="729" column="22" />
@@ -483,9 +483,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="123" column="13" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="87" column="33" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="53" column="33" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="125" column="13" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="101" column="51" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="200" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
@@ -583,6 +580,9 @@
       <jump line="730" column="6" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="681" column="47" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1119" column="73" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1131" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="88" column="4" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="39" column="19" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -592,7 +592,7 @@
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>realign</text>
+        <text>load</text>
       </register>
       <register name="0" type="4">
         <text>if oracle_type == utils.OracleType.AAAI:
@@ -635,9 +635,9 @@
       </register>
     </registers>
     <search>
-      <last-search>realign</last-search>
+      <last-search>load</last-search>
       <last-offset />
-      <last-pattern>realign</last-pattern>
+      <last-pattern>load</last-pattern>
       <last-replace>right_edges_list</last-replace>
       <last-substitute>right_edges_set</last-substitute>
       <last-dir>1</last-dir>
@@ -728,6 +728,7 @@
         <entry>loadDep</entry>
         <entry>linearizeData</entry>
         <entry>realign</entry>
+        <entry>load</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
