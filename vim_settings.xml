@@ -218,12 +218,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516949748296">
-        <mark key="'" line="123" column="54" />
-        <mark key="[" line="123" column="80" />
-        <mark key="]" line="124" column="65" />
-        <mark key="." line="124" column="65" />
-        <mark key="^" line="124" column="65" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516983456549">
+        <mark key="'" line="119" column="54" />
+        <mark key="[" line="90" column="0" />
+        <mark key="]" line="90" column="0" />
+        <mark key="." line="90" column="0" />
+        <mark key="^" line="120" column="65" />
       </file>
       <file name="/Python Console" timestamp="1516827563386">
         <mark key="[" line="0" column="0" />
@@ -585,8 +585,8 @@
       <jump line="188" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="8">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>v</text>
@@ -600,41 +600,35 @@
                                     if concept_idx == len(concept_seq):
                                         concept_idx = -1</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIG9yYWNsZV90eXBlID09IHV0aWxzLk9yYWNsZVR5cGUuQUFBSToK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgd29yZF9pZHggPSAwICMgU3RhcnQgcHJvY2Vzc2luZyBmcm9tIGxlZnRtb3N0IHdvcmQuCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwdXNoX2lkeCA9IGludChvcmFjbGVfYWN0aW9uLnNwbGl0KCI6IilbMV0pCg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZGVjaXNpb25faWR4ID0gMAo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlY2lzaW9uX2lkeCArPSAxCg==</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHB1c2hfaWR4ID0gLTEK</text>
+      </register>
+      <register name="5" type="8">
+        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIG9yYWNsZV90eXBlID09IHV0aWxzLk9yYWNsZVR5cGUuQUFBSToK</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwdXNoX2lkeCA9IGludChvcmFjbGVfYWN0aW9uLnNwbGl0KCI6IilbMV0pCg==</text>
       </register>
-      <register name="8" type="4">
-        <text>if oracle_type == utils.OracleType.CL:
-                                assert push_idx != -1
-                                if cache_idx == push_idx:
-                                    continue</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZGVjaXNpb25faWR4ID0gMAo=</text>
       </register>
-      <register name="9" type="4">
-        <text>if oracle_type == utils.OracleType.CL:
-                                assert push_idx != -1
-                                if cache_idx == push_idx:
-                                    continue</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlY2lzaW9uX2lkeCArPSAxCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
