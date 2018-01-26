@@ -10,12 +10,12 @@
         <mark key="^" line="196" column="80" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516945432048">
-        <mark key="'" line="118" column="27" />
-        <mark key="[" line="148" column="59" />
-        <mark key="]" line="148" column="62" />
-        <mark key="^" line="148" column="62" />
-        <mark key="." line="148" column="62" />
+      <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516948644594">
+        <mark key="'" line="148" column="14" />
+        <mark key="[" line="144" column="21" />
+        <mark key="]" line="145" column="34" />
+        <mark key="^" line="145" column="34" />
+        <mark key="." line="145" column="34" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/HRGSample.py" timestamp="1513563075786">
         <mark key="'" line="578" column="13" />
@@ -218,12 +218,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516934567133">
-        <mark key="'" line="103" column="53" />
-        <mark key="[" line="54" column="36" />
-        <mark key="]" line="54" column="48" />
-        <mark key="." line="54" column="48" />
-        <mark key="^" line="54" column="48" />
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1516949167776">
+        <mark key="'" line="311" column="22" />
+        <mark key="[" line="195" column="50" />
+        <mark key="]" line="195" column="90" />
+        <mark key="." line="195" column="90" />
+        <mark key="^" line="195" column="90" />
       </file>
       <file name="/Python Console" timestamp="1516827563386">
         <mark key="[" line="0" column="0" />
@@ -483,14 +483,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="48" column="27" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
-      <jump line="106" column="34" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
-      <jump line="49" column="8" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
-      <jump line="117" column="34" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="122" column="32" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="142" column="28" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="163" column="35" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="39" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="280" column="21" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
       <jump line="26" column="8" filename="$USER_HOME$/data_processing/oracle/dependency.py" />
       <jump line="121" column="39" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
@@ -583,51 +575,58 @@
       <jump line="240" column="29" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
       <jump line="117" column="27" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
       <jump line="100" column="8" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
+      <jump line="147" column="14" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="303" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="148" column="14" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
+      <jump line="193" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
+      <jump line="306" column="11" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="31" column="65" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="310" column="11" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="311" column="22" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>v</text>
+        <text>args.</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>args.</text>
       </register>
       <register name="/" type="4">
         <text>push_idx</text>
       </register>
       <register name="0" type="4">
-        <text>oracle_type_</text>
+        <text>argparser.add_argument(&quot;--output_dir&quot;, type=str, help=&quot;The directory for the output files.&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY2FuZF9jb25jZXB0X2lkeCA9IGMuY2FuZF92ZXJ0ZXhbMV0K</text>
+        <text encoding="base64">ICAgIG9yYWNsZV90eXBlIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uY2VwdF9pZHggPSAtMQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBmb3IgKGNhY2hlX2lkeCwgYXJjX2xhYmVsKSBpbiBlbnVtZXJhdGUoYXJjX2RlY2lzaW9ucyk6Cg==</text>
+      <register name="3" type="4">
+        <text>else:
+                c.start_word = True</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgY2FuZF9jb25jZXB0X2lkeCA9IGMuY2FuZF92ZXJ0ZXhbMV0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uY2VwdF9pZHggPSAtMQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGRlZgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBmb3IgKGNhY2hlX2lkeCwgYXJjX2xhYmVsKSBpbiBlbnVtZXJhdGUoYXJjX2RlY2lzaW9ucyk6Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICNpZiAiUFVTSCIgaW4gb3JhY2xlX2FjdGlvbjoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="8" type="4">
-        <text># print curr_arc_action
-                                # print word_idx, concept_idx, cache_idx
-                                # print feat_seq[-1]</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGRlZgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
