@@ -429,12 +429,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516992321645">
-        <mark key="'" line="424" column="4" />
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="0" />
-        <mark key="^" line="628" column="59" />
-        <mark key="." line="6" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1516995455048">
+        <mark key="'" line="730" column="6" />
+        <mark key="[" line="774" column="0" />
+        <mark key="]" line="774" column="0" />
+        <mark key="^" line="729" column="22" />
+        <mark key="." line="774" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -483,8 +483,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="577" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="394" column="21" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="572" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="391" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRConfiguration.java" />
       <jump line="123" column="13" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
@@ -583,16 +581,18 @@
       <jump line="188" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="214" column="23" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
       <jump line="278" column="4" filename="$USER_HOME$/data_processing/oracle/ioutil.py" />
+      <jump line="729" column="22" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="730" column="6" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICNwcmludCAnbm90IG51bWJlcjonLCB0b2sK</text>
       </register>
       <register name="-" type="4">
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>loadDep</text>
+        <text>linearizeData</text>
       </register>
       <register name="0" type="4">
         <text>if oracle_type == utils.OracleType.AAAI:
@@ -601,43 +601,43 @@
                                         concept_idx = -1</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICNwcmludCAnbm90IG51bWJlcjonLCB0b2sK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">IyBpZiB0b2tzW3Rva19pZHhdICE9IHdvcmQ6CiAgICAgICAgICAgICAgICAjICAgICBwcmludCA+PiBzeXMuc3RkZXJyLCB3b3JkKyAiIDogIisgdG9rc1t0b2tfaWR4XQogICAgICAgICAgICAgICAgIyAgICAgc3lzLmV4aXQoMSk=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">IyBpZiB0b2tzW3Rva19pZHhdICE9IHdvcmQ6CiAgICAgICAgICAgICAgICAjICAgICBwcmludCA+PiBzeXMuc3RkZXJyLCB3b3JkKyAiIDogIisgdG9rc1t0b2tfaWR4XQogICAgICAgICAgICAgICAgIyAgICAgc3lzLmV4aXQoMSk=</text>
+        <text encoding="base64">ICAgICMgYXNzZXJ0IHNlcV9lcXVhbCgiIi5qb2luKGRlcF9zZXEpLCAiIi5qb2luKHRva19zZXEpKSwgIlxuJXNcbiVzIiAlIChzdHIodG9rX3NlcSksIHN0cihkZXBfc2VxKSkKICAgICMgYXNzZXJ0IGxlbih0b2tfc2VxcykgPT0gbGVuKGRlcF90b2tfc2VxcykKICAgICMgd2l0aCBvcGVuKGRlcF9maWxlLCAiciIpIGFzIGRlcF9mOgogICAgIyAgICAgc2VudF9pZHggPSAwCiAgICAjICAgICB0b2tzID0gdG9rX3NlcXNbc2VudF9pZHhdCiAgICAjICAgICBmb3IgbGluZSBpbiBkZXBfZjoKICAgICMgICAgICAgICBzcGxpdHMgPSBsaW5lLnN0cmlwKCkuc3BsaXQoIlx0IikKICAgICMgICAgICAgICBpZiBsZW4oc3BsaXRzKSA8IDEwOgogICAgIyAgICAgICAgICAgICAjIGRlcF90cmVlcy5hcHBlbmQodHJlZSkKICAgICMgICAgICAgICAgICAgdHJlZSA9IERlcGVuZGVuY3lUcmVlKCkKICAgICMgICAgICAgICAgICAgc2VudF9pZHggKz0gMQogICAgIyAgICAgICAgICAgICBpZiBzZW50X2lkeCA8IGxlbih0b2tfc2Vxcyk6CiAgICAjICAgICAgICAgICAgICAgICB0b2tzID0gdG9rX3NlcXNbc2VudF9pZHhdCiAgICAjICAgICAgICAgZWxzZToKICAgICMgICAgICAgICAgICAgd29yZCA9IHNwbGl0c1sxXQogICAgIyAgICAgICAgICAgICBkZXBfbGFiZWwgPSBzcGxpdHNbN10KICAgICMgICAgICAgICAgICAgdG9rX2lkeCA9IGludChzcGxpdHNbMF0pIC0gMQogICAgIyAgICAgICAgICAgICBoZWFkX2lkeCA9IGludChzcGxpdHNbNl0pIC0gMSAjIHJvb3QgYmVjb21lcyAtMS4KICAgICMgICAgICAgICAgICAgaWYgdG9rc1t0b2tfaWR4XSAhPSB3b3JkOgogICAgIyAgICAgICAgICAgICAgICAgcHJpbnQgPj4gc3lzLnN0ZGVyciwgd29yZCsgIiA6ICIrIHRva3NbdG9rX2lkeF0KICAgICMgICAgICAgICAgICAgICAgIHN5cy5leGl0KDEpCiAgICAjICAgICAgICAgICAgIHRyZWUuYWRkKGhlYWRfaWR4LCBkZXBfbGFiZWwpCiAgICAjICAgICBkZXBfZi5jbG9zZSgp</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ZnJvbSByZV91dGlscyBpbXBvcnQgKgo=</text>
+      <register name="5" type="4">
+        <text encoding="base64">IyBpZiB0b2tzW3Rva19pZHhdICE9IHdvcmQ6CiAgICAgICAgICAgICAgICAjICAgICBwcmludCA+PiBzeXMuc3RkZXJyLCB3b3JkKyAiIDogIisgdG9rc1t0b2tfaWR4XQogICAgICAgICAgICAgICAgIyAgICAgc3lzLmV4aXQoMSk=</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ZnJvbSBhbXJfZ3JhcGggaW1wb3J0ICoK</text>
+      <register name="6" type="4">
+        <text encoding="base64">IyBpZiB0b2tzW3Rva19pZHhdICE9IHdvcmQ6CiAgICAgICAgICAgICAgICAjICAgICBwcmludCA+PiBzeXMuc3RkZXJyLCB3b3JkKyAiIDogIisgdG9rc1t0b2tfaWR4XQogICAgICAgICAgICAgICAgIyAgICAgc3lzLmV4aXQoMSk=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSByZV91dGlscyBpbXBvcnQgKgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICMgcHJpbnQgIkFmdGVyIGNhdGVnb3JpemF0aW9uOiIsICIgIi5qb2luKGNvbGxhcHNlZF9zZXEpCg==</text>
+        <text encoding="base64">ZnJvbSBhbXJfZ3JhcGggaW1wb3J0ICoK</text>
       </register>
       <register name=":" type="4">
-        <text>1</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>loadDep</last-search>
+      <last-search>linearizeData</last-search>
       <last-offset />
-      <last-pattern>loadDep</last-pattern>
+      <last-pattern>linearizeData</last-pattern>
       <last-replace>right_edges_list</last-replace>
       <last-substitute>right_edges_set</last-substitute>
       <last-dir>1</last-dir>
@@ -726,6 +726,7 @@
         <entry>decision_idx</entry>
         <entry>oracle</entry>
         <entry>loadDep</entry>
+        <entry>linearizeData</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
@@ -755,8 +756,8 @@
         <entry>178</entry>
         <entry>q</entry>
         <entry>119</entry>
-        <entry>w</entry>
         <entry>1</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
