@@ -312,12 +312,12 @@
         <mark key="." line="26" column="18" />
         <mark key="^" line="26" column="18" />
       </file>
-      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1517025498338">
+      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1517027454275">
         <mark key="'" line="5" column="32" />
-        <mark key="[" line="126" column="49" />
-        <mark key="]" line="127" column="45" />
-        <mark key="^" line="127" column="45" />
-        <mark key="." line="127" column="45" />
+        <mark key="[" line="130" column="70" />
+        <mark key="]" line="131" column="27" />
+        <mark key="^" line="131" column="27" />
+        <mark key="." line="131" column="27" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -429,12 +429,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517025823331">
-        <mark key="'" line="664" column="23" />
-        <mark key="[" line="660" column="62" />
-        <mark key="]" line="660" column="91" />
-        <mark key="^" line="660" column="91" />
-        <mark key="." line="660" column="91" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517027276409">
+        <mark key="'" line="680" column="4" />
+        <mark key="[" line="680" column="4" />
+        <mark key="]" line="680" column="4" />
+        <mark key="." line="680" column="4" />
+        <mark key="^" line="679" column="5" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -483,16 +483,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="171" column="13" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="134" column="23" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
-      <jump line="132" column="39" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
-      <jump line="7" column="13" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
-      <jump line="19" column="27" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
-      <jump line="20" column="20" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
-      <jump line="26" column="17" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
-      <jump line="30" column="17" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
-      <jump line="137" column="36" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
-      <jump line="31" column="21" filename="$USER_HOME$/data_processing/oracle/AMRGraph.py" />
       <jump line="259" column="23" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="247" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="266" column="4" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
@@ -579,62 +569,72 @@
       <jump line="472" column="18" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="587" column="34" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="129" column="4" filename="$USER_HOME$/data_processing/utils.py" />
-      <jump line="408" column="32" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="136" column="27" filename="$USER_HOME$/data_processing/utils.py" />
       <jump line="677" column="9" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="664" column="23" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="726" column="7" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="422" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="513" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="516" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="659" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="660" column="11" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="658" column="18" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="408" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="515" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="680" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="130" column="12" filename="$USER_HOME$/data_processing/utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>{}</text>
+        <text>list</text>
       </register>
       <register name="-" type="4">
-        <text>{}</text>
+        <text>list</text>
       </register>
       <register name="/" type="4">
-        <text>ngram_c</text>
+        <text>phrase_counts</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">d2l0aCBvcGVuKHBhdGgsICJ3IikgYXMgd2Y6CiAgICAgICAgZm9yIChpdGVtICxjb3VudCkgaW4gc29ydGVkX2l0ZW1zOgogICAgICAgICAgICBwcmludCA+PndmLCAiJXNcdCVkIiAlIChpdGVtLCBjb3VudCkKICAgICAgICB3Zi5jbG9zZSgp</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBpZiBwaHJhc2VfY291bnRzW2N1cnJfXQo=</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">I3BocmFzZV93ZiA9IG9wZW4oJ3BocmFzZV90YWJsZS50eHQnLCAndycpCiAgICAjZm9yIHBocmFzZSBpbiBwaHJhc2VfdG9fY29uY2VwdDoKICAgICMgICAgc29ydGVkX2l0ZW1zID0gc29ydGVkKHBocmFzZV90b19jb25jZXB0W3BocmFzZV0uaXRlbXMoKSwga2V5PWxhbWJkYSB4OiAteFsxXSkKICAgICMgICAgaWYgc29ydGVkX2l0ZW1zWzBdWzFdID4gMzoKICAgICMgICAgICAgIHByaW50Pj4gcGhyYXNlX3dmLCBwaHJhc2UsICAnIyMjJywgc29ydGVkX2l0ZW1zWzBdWzBdLCAnIyMjJywgc29ydGVkX2l0ZW1zWzBdWzFdCiAgICAjcGhyYXNlX3dmLmNsb3NlKCk=</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHNhdmVNTEUocGhyYXNlX2ZyZXEsIHBocmFzZV9tYXAsICJwaHJhc2VfZGlzdC50eHQiLCBwaHJhc2Vfc2V0KQo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYWxpZ25lZF90b2tzIHw9IHNldChyYW5nZShzdGFydCwgZW5kKSkK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYWxpZ25lZF90b2tzIHw9IHNldChyYW5nZShzdGFydCwgZW5kKSkK</text>
+      <register name="6" type="4">
+        <text encoding="base64">I3BocmFzZV93ZiA9IG9wZW4oJ3BocmFzZV90YWJsZS50eHQnLCAndycpCiAgICAjZm9yIHBocmFzZSBpbiBwaHJhc2VfdG9fY29uY2VwdDoKICAgICMgICAgc29ydGVkX2l0ZW1zID0gc29ydGVkKHBocmFzZV90b19jb25jZXB0W3BocmFzZV0uaXRlbXMoKSwga2V5PWxhbWJkYSB4OiAteFsxXSkKICAgICMgICAgaWYgc29ydGVkX2l0ZW1zWzBdWzFdID4gMzoKICAgICMgICAgICAgIHByaW50Pj4gcGhyYXNlX3dmLCBwaHJhc2UsICAnIyMjJywgc29ydGVkX2l0ZW1zWzBdWzBdLCAnIyMjJywgc29ydGVkX2l0ZW1zWzBdWzFdCiAgICAjcGhyYXNlX3dmLmNsb3NlKCk=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHBocmFzZV9tYXAgPSB7fQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgYWxpZ25lZF90b2tzIHw9IHNldChyYW5nZShzdGFydCwgZW5kKSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwaHJhc2VfZnJlcSA9IGRlZmF1bHRkaWN0KGludCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgYWxpZ25lZF90b2tzIHw9IHNldChyYW5nZShzdGFydCwgZW5kKSkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>ngram_c</last-search>
+      <last-search>phrase_counts</last-search>
       <last-offset />
-      <last-pattern>ngram_c</last-pattern>
+      <last-pattern>phrase_counts</last-pattern>
       <last-replace>right_edges_list</last-replace>
       <last-substitute>right_edges_set</last-substitute>
       <last-dir>1</last-dir>
@@ -729,6 +729,8 @@
         <entry>phrase_map</entry>
         <entry>aligned_toks</entry>
         <entry>ngram_c</entry>
+        <entry>ngram_coun</entry>
+        <entry>phrase_counts</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
