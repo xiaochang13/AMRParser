@@ -79,6 +79,9 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517080917914">
+        <mark key="'" line="148" column="94" />
+      </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
         <mark key="[" line="122" column="42" />
@@ -511,9 +514,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="5" column="4" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
-      <jump line="52" column="40" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="16" column="0" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
       <jump line="133" column="20" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="103" column="53" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="222" column="57" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
@@ -611,6 +611,9 @@
       <jump line="408" column="6" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="583" column="74" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="13" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="268" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="148" column="94" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="252" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -620,7 +623,7 @@
         <text>s</text>
       </register>
       <register name="/" type="4">
-        <text>phrase_counts</text>
+        <text>class</text>
       </register>
       <register name="0" type="4">
         <text>int(sp.split(&quot;-&quot;)[0])</text>
@@ -671,9 +674,9 @@
       </register>
     </registers>
     <search>
-      <last-search>phrase_counts</last-search>
+      <last-search>class</last-search>
       <last-offset />
-      <last-pattern>phrase_counts</last-pattern>
+      <last-pattern>class</last-pattern>
       <last-replace>right_edges_list</last-replace>
       <last-substitute>right_edges_set</last-substitute>
       <last-dir>1</last-dir>
@@ -779,6 +782,7 @@
         <entry>categorize</entry>
         <entry>phrase_freq</entry>
         <entry>phrase_counts</entry>
+        <entry>class</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
