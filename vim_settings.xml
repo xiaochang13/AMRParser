@@ -218,12 +218,12 @@
         <mark key="^" line="476" column="9" />
         <mark key="." line="476" column="9" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1517010431591">
+      <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1517020969551">
         <mark key="'" line="39" column="19" />
-        <mark key="[" line="74" column="16" />
-        <mark key="]" line="74" column="16" />
-        <mark key="." line="74" column="16" />
-        <mark key="^" line="74" column="16" />
+        <mark key="[" line="4" column="5" />
+        <mark key="]" line="4" column="5" />
+        <mark key="." line="4" column="5" />
+        <mark key="^" line="4" column="37" />
       </file>
       <file name="/Python Console" timestamp="1516827563386">
         <mark key="[" line="0" column="0" />
@@ -312,12 +312,12 @@
         <mark key="." line="26" column="18" />
         <mark key="^" line="26" column="18" />
       </file>
-      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1516601044526">
+      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1517021998709">
         <mark key="'" line="5" column="32" />
-        <mark key="[" line="77" column="16" />
-        <mark key="]" line="77" column="16" />
-        <mark key="^" line="77" column="16" />
-        <mark key="." line="77" column="16" />
+        <mark key="[" line="126" column="51" />
+        <mark key="]" line="126" column="61" />
+        <mark key="^" line="126" column="61" />
+        <mark key="." line="126" column="61" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -340,10 +340,10 @@
         <mark key="^" line="233" column="23" />
         <mark key="." line="224" column="35" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1516992980633">
+      <file name="$USER_HOME$/data_processing/oracle/ioutil.py" timestamp="1517021371381">
         <mark key="'" line="278" column="4" />
-        <mark key="[" line="1" column="0" />
-        <mark key="]" line="1" column="0" />
+        <mark key="[" line="387" column="0" />
+        <mark key="]" line="392" column="17" />
         <mark key="." line="1" column="0" />
         <mark key="^" line="41" column="9" />
       </file>
@@ -429,12 +429,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517009496518">
-        <mark key="'" line="1131" column="8" />
-        <mark key="[" line="766" column="0" />
-        <mark key="]" line="766" column="0" />
-        <mark key="^" line="729" column="22" />
-        <mark key="." line="766" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517022269260">
+        <mark key="'" line="522" column="20" />
+        <mark key="[" line="663" column="12" />
+        <mark key="]" line="663" column="24" />
+        <mark key="." line="663" column="24" />
+        <mark key="^" line="663" column="24" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -483,12 +483,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="125" column="13" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="101" column="51" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="200" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="159" column="21" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="318" column="4" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
-      <jump line="153" column="13" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="81" column="13" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
       <jump line="156" column="51" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="147" column="8" filename="$USER_HOME$/data_processing/oracle/cacheConfiguration.py" />
@@ -583,6 +577,12 @@
       <jump line="1131" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="88" column="4" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="39" column="19" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
+      <jump line="652" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="10" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1137" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="661" column="22" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="662" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="522" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -592,13 +592,10 @@
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>load</text>
+        <text>phrase_freq</text>
       </register>
       <register name="0" type="4">
-        <text>if oracle_type == utils.OracleType.AAAI:
-                                    concept_idx += 1
-                                    if concept_idx == len(concept_seq):
-                                        concept_idx = -1</text>
+        <text encoding="base64">d2l0aCBvcGVuKHBhdGgsICJ3IikgYXMgd2Y6CiAgICAgICAgZm9yIChpdGVtICxjb3VudCkgaW4gc29ydGVkX2l0ZW1zOgogICAgICAgICAgICBwcmludCA+PndmLCAiJXNcdCVkIiAlIChpdGVtLCBjb3VudCkKICAgICAgICB3Zi5jbG9zZSgp</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -607,37 +604,37 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICNwcmludCAnbm90IG51bWJlcjonLCB0b2sK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdG9rX3JlcHIgPSAiICIuam9pbih0b2tfc2VxW3N0YXJ0OmVuZF0pCg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgICMgYXNzZXJ0IHNlcV9lcXVhbCgiIi5qb2luKGRlcF9zZXEpLCAiIi5qb2luKHRva19zZXEpKSwgIlxuJXNcbiVzIiAlIChzdHIodG9rX3NlcSksIHN0cihkZXBfc2VxKSkKICAgICMgYXNzZXJ0IGxlbih0b2tfc2VxcykgPT0gbGVuKGRlcF90b2tfc2VxcykKICAgICMgd2l0aCBvcGVuKGRlcF9maWxlLCAiciIpIGFzIGRlcF9mOgogICAgIyAgICAgc2VudF9pZHggPSAwCiAgICAjICAgICB0b2tzID0gdG9rX3NlcXNbc2VudF9pZHhdCiAgICAjICAgICBmb3IgbGluZSBpbiBkZXBfZjoKICAgICMgICAgICAgICBzcGxpdHMgPSBsaW5lLnN0cmlwKCkuc3BsaXQoIlx0IikKICAgICMgICAgICAgICBpZiBsZW4oc3BsaXRzKSA8IDEwOgogICAgIyAgICAgICAgICAgICAjIGRlcF90cmVlcy5hcHBlbmQodHJlZSkKICAgICMgICAgICAgICAgICAgdHJlZSA9IERlcGVuZGVuY3lUcmVlKCkKICAgICMgICAgICAgICAgICAgc2VudF9pZHggKz0gMQogICAgIyAgICAgICAgICAgICBpZiBzZW50X2lkeCA8IGxlbih0b2tfc2Vxcyk6CiAgICAjICAgICAgICAgICAgICAgICB0b2tzID0gdG9rX3NlcXNbc2VudF9pZHhdCiAgICAjICAgICAgICAgZWxzZToKICAgICMgICAgICAgICAgICAgd29yZCA9IHNwbGl0c1sxXQogICAgIyAgICAgICAgICAgICBkZXBfbGFiZWwgPSBzcGxpdHNbN10KICAgICMgICAgICAgICAgICAgdG9rX2lkeCA9IGludChzcGxpdHNbMF0pIC0gMQogICAgIyAgICAgICAgICAgICBoZWFkX2lkeCA9IGludChzcGxpdHNbNl0pIC0gMSAjIHJvb3QgYmVjb21lcyAtMS4KICAgICMgICAgICAgICAgICAgaWYgdG9rc1t0b2tfaWR4XSAhPSB3b3JkOgogICAgIyAgICAgICAgICAgICAgICAgcHJpbnQgPj4gc3lzLnN0ZGVyciwgd29yZCsgIiA6ICIrIHRva3NbdG9rX2lkeF0KICAgICMgICAgICAgICAgICAgICAgIHN5cy5leGl0KDEpCiAgICAjICAgICAgICAgICAgIHRyZWUuYWRkKGhlYWRfaWR4LCBkZXBfbGFiZWwpCiAgICAjICAgICBkZXBfZi5jbG9zZSgp</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdG9rX3JlcHIgCg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">IyBpZiB0b2tzW3Rva19pZHhdICE9IHdvcmQ6CiAgICAgICAgICAgICAgICAjICAgICBwcmludCA+PiBzeXMuc3RkZXJyLCB3b3JkKyAiIDogIisgdG9rc1t0b2tfaWR4XQogICAgICAgICAgICAgICAgIyAgICAgc3lzLmV4aXQoMSk=</text>
+      <register name="6" type="2">
+        <text encoding="base64">IyBmcm9tIG9yYWNsZS5pb3V0aWwgaW1wb3J0IHNhdmVDb3VudGVyCg==</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">IyBpZiB0b2tzW3Rva19pZHhdICE9IHdvcmQ6CiAgICAgICAgICAgICAgICAjICAgICBwcmludCA+PiBzeXMuc3RkZXJyLCB3b3JkKyAiIDogIisgdG9rc1t0b2tfaWR4XQogICAgICAgICAgICAgICAgIyAgICAgc3lzLmV4aXQoMSk=</text>
+      <register name="7" type="2">
+        <text encoding="base64">aW1wb3J0IG9yYWNsZQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZnJvbSByZV91dGlscyBpbXBvcnQgKgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICNwcmludCAnbm90IG51bWJlcjonLCB0b2sK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>load</last-search>
+      <last-search>phrase_freq</last-search>
       <last-offset />
-      <last-pattern>load</last-pattern>
+      <last-pattern>phrase_freq</last-pattern>
       <last-replace>right_edges_list</last-replace>
       <last-substitute>right_edges_set</last-substitute>
       <last-dir>1</last-dir>
@@ -729,10 +726,10 @@
         <entry>linearizeData</entry>
         <entry>realign</entry>
         <entry>load</entry>
+        <entry>phrase_freq</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
-        <entry>514</entry>
         <entry>523</entry>
         <entry>234</entry>
         <entry>513</entry>
@@ -759,6 +756,7 @@
         <entry>q</entry>
         <entry>119</entry>
         <entry>1</entry>
+        <entry>514</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
