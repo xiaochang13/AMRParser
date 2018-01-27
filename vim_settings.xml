@@ -79,7 +79,7 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517080917914">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517082332225">
         <mark key="'" line="148" column="94" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
@@ -118,6 +118,9 @@
         <mark key="]" line="392" column="8" />
         <mark key="." line="392" column="8" />
         <mark key="^" line="392" column="9" />
+      </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_trainer.py" timestamp="1517082358179">
+        <mark key="'" line="102" column="46" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_utils.py" timestamp="1478441703990">
         <mark key="'" line="26" column="24" />
@@ -412,11 +415,6 @@
         <mark key="^" line="132" column="10" />
         <mark key="." line="132" column="10" />
       </file>
-      <file name="$USER_HOME$/data_processing/1_make_json.py" timestamp="1516594440533">
-        <mark key="[" line="12" column="43" />
-        <mark key="]" line="12" column="43" />
-        <mark key="." line="12" column="43" />
-      </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1500614393650">
         <mark key="'" line="553" column="57" />
         <mark key="[" line="395" column="8" />
@@ -514,7 +512,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="133" column="20" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="103" column="53" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
       <jump line="222" column="57" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
       <jump line="240" column="29" filename="$USER_HOME$/data_processing/oracle/cacheTransition.py" />
@@ -614,6 +611,7 @@
       <jump line="268" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="148" column="94" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="252" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" />
+      <jump line="102" column="46" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_trainer.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
