@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517170399087">
-        <mark key="'" line="352" column="45" />
-        <mark key="[" line="163" column="0" />
-        <mark key="]" line="157" column="47" />
-        <mark key="." line="157" column="47" />
-        <mark key="^" line="157" column="56" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517175422389">
+        <mark key="'" line="172" column="24" />
+        <mark key="[" line="170" column="52" />
+        <mark key="]" line="170" column="62" />
+        <mark key="." line="170" column="62" />
+        <mark key="^" line="170" column="62" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -103,7 +103,7 @@
         <mark key="." line="216" column="83" />
         <mark key="^" line="215" column="80" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517120068531">
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517173322057">
         <mark key="'" line="1930" column="39" />
         <mark key="[" line="2531" column="106" />
         <mark key="]" line="2531" column="109" />
@@ -122,6 +122,12 @@
         <mark key="]" line="329" column="46" />
         <mark key="^" line="329" column="46" />
         <mark key="." line="329" column="46" />
+      </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" timestamp="1517172130628">
+        <mark key="[" line="13" column="45" />
+        <mark key="]" line="14" column="21" />
+        <mark key="^" line="14" column="21" />
+        <mark key="." line="14" column="21" />
       </file>
       <file name="/Library/Python/2.7/site-packages/keras/engine/topology.py" timestamp="1507572628652">
         <mark key="'" line="17" column="49" />
@@ -405,8 +411,12 @@
         <mark key="^" line="61" column="0" />
         <mark key="." line="61" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1517113524536">
-        <mark key="'" line="16" column="0" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1517175104558">
+        <mark key="'" line="25" column="12" />
+        <mark key="[" line="39" column="97" />
+        <mark key="]" line="40" column="34" />
+        <mark key="^" line="40" column="34" />
+        <mark key="." line="40" column="34" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/seq2seq_sa.py" timestamp="1478020932535">
         <mark key="'" line="524" column="23" />
@@ -529,11 +539,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="741" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="742" column="11" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="745" column="25" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="750" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="398" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="738" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="739" column="19" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="803" column="15" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -629,47 +634,52 @@
       <jump line="352" column="45" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="72" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="91" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
+      <jump line="163" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="269" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="25" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="172" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="118" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">c2VudGVuY2UsIA==</text>
+        <text>sentAnno.length</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">c2VudGVuY2UsIA==</text>
+        <text>sentAnno.length</text>
       </register>
       <register name="/" type="4">
-        <text>batch</text>
+        <text encoding="base64">XDxzZWxmXD4=</text>
       </register>
       <register name="0" type="4">
         <text>&quot; &quot;.join([&quot;_#_&quot;.join(feats) for feats
                                                                                    in feat_seq])</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmb3IgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5wb3NTZXEgPSBbXQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjdXJyX2ZlYXRfc3RyID0gIiAiLmpvaW4oWyJfIyNfIi5qb2luKGZlYXRzKSBmb3IgZmVhdHMgaW4gZmVhdF9zZXFdKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5sZW1TZXEgPSBbXQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi53b3JkU2VxID0gW10K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5jYWNoZV9zaXplID0gc2l6ZQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGRlZiBhZGRBY3Rpb24oc2VsZiwgYWN0aW9uKToK</text>
+        <text encoding="base64">ICAgIHNlbnRBbm5vID0gYmF0Y2guaW5zdGFuY2VzWzBdWzBdCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIG51bV90b2tzID0gbGVuKGlucHV0X2hpZGRlbnMpICAjIG51bWJlciBvZiB3b3Jkcwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmb3IgCg==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">ZGVmIGNoZWNrX3Rva2VuaXplcihpbnB1dF9maWxlLCB0b2tlbml6ZWRfZmlsZSk6CiAgICB3aXRoIG9wZW4oaW5wdXRfZmlsZSwgJ3InKSBhcyBpbnB1dF9mOgogICAgICAgIHdpdGggb3Blbih0b2tlbml6ZWRfZmlsZSwgJ3InKSBhcyB0b2tlbml6ZWRfZjoKICAgICAgICAgICAgZm9yIGlucHV0X2xpbmUgaW4gaW5wdXRfZjoKICAgICAgICAgICAgICAgIHRva2VuaXplZF9saW5lID0gdG9rZW5pemVkX2YucmVhZGxpbmUoKQogICAgICAgICAgICAgICAgaWYgaW5wdXRfbGluZS5zdHJpcCgpOgogICAgICAgICAgICAgICAgICAgIGlucHV0X3JlcHIgPSAiIi5qb2luKGlucHV0X2xpbmUuc3RyaXAoKS5zcGxpdCgpKS5yZXBsYWNlKCJcIiIsICIiKS5yZXBsYWNlKCJcJyIsICIiKQogICAgICAgICAgICAgICAgICAgIHRva2VuaXplZF9yZXByID0gIiIuam9pbih0b2tlbml6ZWRfbGluZS5zdHJpcCgpLnNwbGl0KCkpLnJlcGxhY2UoIlwnIiwgIiIpCiAgICAgICAgICAgICAgICAgICAgaWYgaW5wdXRfcmVwciAhPSB0b2tlbml6ZWRfcmVwcjoKICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgIm9yaWdpbmFsIHRva2VuczoiLCBpbnB1dF9saW5lLnN0cmlwKCkKICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgInRva2VuaXplZDoiLCB0b2tlbml6ZWRfbGluZS5zdHJpcCgpCg==</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjdXJyX2ZlYXRfc3RyID0gIiAiLmpvaW4oWyJfIyNfIi5qb2luKGZlYXRzKSBmb3IgZmVhdHMgaW4gZmVhdF9zZXFdKQo=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -679,12 +689,12 @@
       </register>
     </registers>
     <search>
-      <last-search>batch</last-search>
+      <last-search encoding="base64">XDxzZWxmXD4=</last-search>
       <last-offset />
-      <last-pattern>batch</last-pattern>
+      <last-pattern encoding="base64">XDxzZWxmXD4=</last-pattern>
       <last-replace>action</last-replace>
       <last-substitute>token</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
@@ -803,6 +813,9 @@
         <entry>trainSet</entry>
         <entry>all_questions</entry>
         <entry>batch</entry>
+        <entry>batch.instances</entry>
+        <entry>calssmethod</entry>
+        <entry encoding="base64">XDxzZWxmXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
