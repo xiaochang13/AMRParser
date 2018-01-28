@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517109526638">
-        <mark key="'" line="160" column="73" />
-        <mark key="[" line="167" column="21" />
-        <mark key="]" line="167" column="20" />
-        <mark key="." line="167" column="20" />
-        <mark key="^" line="167" column="20" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517110995904">
+        <mark key="'" line="351" column="19" />
+        <mark key="[" line="157" column="47" />
+        <mark key="]" line="157" column="58" />
+        <mark key="." line="157" column="58" />
+        <mark key="^" line="157" column="58" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -95,6 +95,9 @@
       </file>
       <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515482880350">
         <mark key="'" line="426" column="54" />
+      </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517111022523">
+        <mark key="'" line="79" column="27" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1516765489457">
         <mark key="'" line="572" column="27" />
@@ -515,23 +518,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1131" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="88" column="4" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="39" column="19" filename="$USER_HOME$/data_processing/oracle/oracle.py" />
-      <jump line="652" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="10" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1137" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="661" column="22" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="663" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="662" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="522" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="360" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="523" column="39" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="469" column="31" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="472" column="18" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="587" column="34" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="129" column="4" filename="$USER_HOME$/data_processing/utils.py" />
-      <jump line="136" column="27" filename="$USER_HOME$/data_processing/utils.py" />
       <jump line="677" column="9" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="664" column="23" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="726" column="7" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -615,19 +601,36 @@
       <jump line="73" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="120" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="160" column="73" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="21" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="27" column="126" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="362" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="326" column="82" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="316" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="307" column="80" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="305" column="86" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="304" column="7" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="294" column="7" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="283" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="11" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/namespace_utils.py" />
+      <jump line="270" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="350" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="157" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="351" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="79" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>actions.append()</text>
+        <text>str</text>
       </register>
       <register name="-" type="4">
-        <text>actions.append()</text>
+        <text>str</text>
       </register>
       <register name="/" type="4">
-        <text>extend</text>
+        <text>args</text>
       </register>
       <register name="0" type="4">
-        <text>int(sp.split(&quot;-&quot;)[0])</text>
+        <text>parser.add_argument('--out_path', type=str, help='The path to the output file.')</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIAo=</text>
@@ -675,9 +678,9 @@
       </register>
     </registers>
     <search>
-      <last-search>extend</last-search>
+      <last-search>args</last-search>
       <last-offset />
-      <last-pattern>extend</last-pattern>
+      <last-pattern>args</last-pattern>
       <last-replace>action</last-replace>
       <last-substitute>token</last-substitute>
       <last-dir>1</last-dir>
@@ -791,6 +794,9 @@
         <entry>beam search</entry>
         <entry>tok_size</entry>
         <entry>extend</entry>
+        <entry>options</entry>
+        <entry>FLAGS</entry>
+        <entry>args</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
