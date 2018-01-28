@@ -96,12 +96,12 @@
       <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515482880350">
         <mark key="'" line="426" column="54" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517168149011">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517169575527">
         <mark key="'" line="83" column="27" />
-        <mark key="[" line="214" column="62" />
-        <mark key="]" line="214" column="69" />
-        <mark key="^" line="214" column="69" />
-        <mark key="." line="214" column="69" />
+        <mark key="[" line="216" column="83" />
+        <mark key="]" line="216" column="83" />
+        <mark key="." line="216" column="83" />
+        <mark key="^" line="215" column="80" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517120068531">
         <mark key="'" line="1930" column="39" />
@@ -632,10 +632,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>53</text>
+        <text>#</text>
       </register>
       <register name="-" type="4">
-        <text>53</text>
+        <text>#</text>
       </register>
       <register name="/" type="4">
         <text>all_questions</text>
@@ -645,45 +645,34 @@
                                                                                    in feat_seq])</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmb3IgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjdXJyX2ZlYXRfc3RyID0gIiAiLmpvaW4oWyJfIyNfIi5qb2luKGZlYXRzKSBmb3IgZmVhdHMgaW4gZmVhdF9zZXFdKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGRlZiBhZGRBY3Rpb24oc2VsZiwgYWN0aW9uKToK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ZGVmIGNoZWNrX3Rva2VuaXplcihpbnB1dF9maWxlLCB0b2tlbml6ZWRfZmlsZSk6CiAgICB3aXRoIG9wZW4oaW5wdXRfZmlsZSwgJ3InKSBhcyBpbnB1dF9mOgogICAgICAgIHdpdGggb3Blbih0b2tlbml6ZWRfZmlsZSwgJ3InKSBhcyB0b2tlbml6ZWRfZjoKICAgICAgICAgICAgZm9yIGlucHV0X2xpbmUgaW4gaW5wdXRfZjoKICAgICAgICAgICAgICAgIHRva2VuaXplZF9saW5lID0gdG9rZW5pemVkX2YucmVhZGxpbmUoKQogICAgICAgICAgICAgICAgaWYgaW5wdXRfbGluZS5zdHJpcCgpOgogICAgICAgICAgICAgICAgICAgIGlucHV0X3JlcHIgPSAiIi5qb2luKGlucHV0X2xpbmUuc3RyaXAoKS5zcGxpdCgpKS5yZXBsYWNlKCJcIiIsICIiKS5yZXBsYWNlKCJcJyIsICIiKQogICAgICAgICAgICAgICAgICAgIHRva2VuaXplZF9yZXByID0gIiIuam9pbih0b2tlbml6ZWRfbGluZS5zdHJpcCgpLnNwbGl0KCkpLnJlcGxhY2UoIlwnIiwgIiIpCiAgICAgICAgICAgICAgICAgICAgaWYgaW5wdXRfcmVwciAhPSB0b2tlbml6ZWRfcmVwcjoKICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgIm9yaWdpbmFsIHRva2VuczoiLCBpbnB1dF9saW5lLnN0cmlwKCkKICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgInRva2VuaXplZDoiLCB0b2tlbml6ZWRfbGluZS5zdHJpcCgpCg==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIGRlZiBhZGRBY3Rpb24oc2VsZiwgYWN0aW9uKToK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">CgoK</text>
+        <text encoding="base64">ZGVmIGNoZWNrX3Rva2VuaXplcihpbnB1dF9maWxlLCB0b2tlbml6ZWRfZmlsZSk6CiAgICB3aXRoIG9wZW4oaW5wdXRfZmlsZSwgJ3InKSBhcyBpbnB1dF9mOgogICAgICAgIHdpdGggb3Blbih0b2tlbml6ZWRfZmlsZSwgJ3InKSBhcyB0b2tlbml6ZWRfZjoKICAgICAgICAgICAgZm9yIGlucHV0X2xpbmUgaW4gaW5wdXRfZjoKICAgICAgICAgICAgICAgIHRva2VuaXplZF9saW5lID0gdG9rZW5pemVkX2YucmVhZGxpbmUoKQogICAgICAgICAgICAgICAgaWYgaW5wdXRfbGluZS5zdHJpcCgpOgogICAgICAgICAgICAgICAgICAgIGlucHV0X3JlcHIgPSAiIi5qb2luKGlucHV0X2xpbmUuc3RyaXAoKS5zcGxpdCgpKS5yZXBsYWNlKCJcIiIsICIiKS5yZXBsYWNlKCJcJyIsICIiKQogICAgICAgICAgICAgICAgICAgIHRva2VuaXplZF9yZXByID0gIiIuam9pbih0b2tlbml6ZWRfbGluZS5zdHJpcCgpLnNwbGl0KCkpLnJlcGxhY2UoIlwnIiwgIiIpCiAgICAgICAgICAgICAgICAgICAgaWYgaW5wdXRfcmVwciAhPSB0b2tlbml6ZWRfcmVwcjoKICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgIm9yaWdpbmFsIHRva2VuczoiLCBpbnB1dF9saW5lLnN0cmlwKCkKICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgInRva2VuaXplZDoiLCB0b2tlbml6ZWRfbGluZS5zdHJpcCgpCg==</text>
       </register>
-      <register name="9" type="4">
-        <text>def dateMap(dateFile):
-    dates_in_lines = []
-    for line in open(dateFile):
-        date_spans = []
-        if line.strip():
-            spans = line.strip().split()
-            for sp in spans:
-                start = int(sp.split('-')[0])
-                end = int(sp.split('-')[1])
-                date_spans.append((start, end))
-        dates_in_lines.append(date_spans)
-    return dates_in_lines</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
