@@ -126,8 +126,8 @@
         <mark key="." line="392" column="8" />
         <mark key="^" line="392" column="9" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_trainer.py" timestamp="1517082358179">
-        <mark key="'" line="103" column="46" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_trainer.py" timestamp="1517118545444">
+        <mark key="'" line="103" column="47" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_utils.py" timestamp="1478441703990">
         <mark key="'" line="26" column="24" />
@@ -295,6 +295,13 @@
         <mark key="]" line="1003" column="12" />
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
+      </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1517118774063">
+        <mark key="'" line="24" column="21" />
+        <mark key="[" line="44" column="30" />
+        <mark key="]" line="44" column="57" />
+        <mark key="^" line="44" column="57" />
+        <mark key="." line="44" column="57" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_graph.py" timestamp="1516222275265">
         <mark key="'" line="350" column="15" />
@@ -521,10 +528,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="664" column="23" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="726" column="7" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="422" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="513" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="516" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="659" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="660" column="11" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -621,6 +624,10 @@
       <jump line="351" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="79" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="16" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="103" column="47" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_trainer.py" />
+      <jump line="48" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
+      <jump line="24" column="21" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
+      <jump line="14" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
