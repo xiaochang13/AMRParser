@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517166872215">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517170399087">
         <mark key="'" line="352" column="45" />
-        <mark key="[" line="166" column="63" />
-        <mark key="]" line="170" column="19" />
-        <mark key="." line="170" column="19" />
-        <mark key="^" line="170" column="19" />
+        <mark key="[" line="163" column="0" />
+        <mark key="]" line="157" column="47" />
+        <mark key="." line="157" column="47" />
+        <mark key="^" line="157" column="56" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -297,8 +297,8 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1517166905852">
-        <mark key="'" line="72" column="8" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1517170358412">
+        <mark key="'" line="91" column="23" />
         <mark key="[" line="44" column="30" />
         <mark key="]" line="44" column="57" />
         <mark key="^" line="44" column="57" />
@@ -619,7 +619,6 @@
       <jump line="110" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_trainer.py" />
       <jump line="120" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="162" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_trainer.py" />
-      <jump line="91" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="34" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" />
       <jump line="94" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="317" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/vocab_utils.py" />
@@ -629,16 +628,17 @@
       <jump line="139" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="352" column="45" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="72" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
+      <jump line="91" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>#</text>
+        <text encoding="base64">c2VudGVuY2UsIA==</text>
       </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text encoding="base64">c2VudGVuY2UsIA==</text>
       </register>
       <register name="/" type="4">
-        <text>all_questions</text>
+        <text>batch</text>
       </register>
       <register name="0" type="4">
         <text>&quot; &quot;.join([&quot;_#_&quot;.join(feats) for feats
@@ -679,9 +679,9 @@
       </register>
     </registers>
     <search>
-      <last-search>all_questions</last-search>
+      <last-search>batch</last-search>
       <last-offset />
-      <last-pattern>all_questions</last-pattern>
+      <last-pattern>batch</last-pattern>
       <last-replace>action</last-replace>
       <last-substitute>token</last-substitute>
       <last-dir>1</last-dir>
@@ -802,6 +802,7 @@
         <entry>predict</entry>
         <entry>trainSet</entry>
         <entry>all_questions</entry>
+        <entry>batch</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
