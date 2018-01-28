@@ -96,12 +96,12 @@
       <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515482880350">
         <mark key="'" line="426" column="54" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517158322461">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517168149011">
         <mark key="'" line="83" column="27" />
-        <mark key="[" line="237" column="68" />
-        <mark key="]" line="238" column="78" />
-        <mark key="^" line="238" column="78" />
-        <mark key="." line="238" column="78" />
+        <mark key="[" line="214" column="62" />
+        <mark key="]" line="214" column="69" />
+        <mark key="^" line="214" column="69" />
+        <mark key="." line="214" column="69" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517120068531">
         <mark key="'" line="1930" column="39" />
@@ -632,42 +632,46 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>str</text>
+        <text>53</text>
       </register>
       <register name="-" type="4">
-        <text>str</text>
+        <text>53</text>
       </register>
       <register name="/" type="4">
         <text>all_questions</text>
       </register>
       <register name="0" type="4">
-        <text>parser.add_argument('--out_path', type=str, help='The path to the output file.')</text>
+        <text>&quot; &quot;.join([&quot;_#_&quot;.join(feats) for feats
+                                                                                   in feat_seq])</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGRlZiBhZGRBY3Rpb24oc2VsZiwgYWN0aW9uKToK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIGRlZiBhZGRBY3Rpb24oc2VsZiwgYWN0aW9uKToK</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">ZGVmIGNoZWNrX3Rva2VuaXplcihpbnB1dF9maWxlLCB0b2tlbml6ZWRfZmlsZSk6CiAgICB3aXRoIG9wZW4oaW5wdXRfZmlsZSwgJ3InKSBhcyBpbnB1dF9mOgogICAgICAgIHdpdGggb3Blbih0b2tlbml6ZWRfZmlsZSwgJ3InKSBhcyB0b2tlbml6ZWRfZjoKICAgICAgICAgICAgZm9yIGlucHV0X2xpbmUgaW4gaW5wdXRfZjoKICAgICAgICAgICAgICAgIHRva2VuaXplZF9saW5lID0gdG9rZW5pemVkX2YucmVhZGxpbmUoKQogICAgICAgICAgICAgICAgaWYgaW5wdXRfbGluZS5zdHJpcCgpOgogICAgICAgICAgICAgICAgICAgIGlucHV0X3JlcHIgPSAiIi5qb2luKGlucHV0X2xpbmUuc3RyaXAoKS5zcGxpdCgpKS5yZXBsYWNlKCJcIiIsICIiKS5yZXBsYWNlKCJcJyIsICIiKQogICAgICAgICAgICAgICAgICAgIHRva2VuaXplZF9yZXByID0gIiIuam9pbih0b2tlbml6ZWRfbGluZS5zdHJpcCgpLnNwbGl0KCkpLnJlcGxhY2UoIlwnIiwgIiIpCiAgICAgICAgICAgICAgICAgICAgaWYgaW5wdXRfcmVwciAhPSB0b2tlbml6ZWRfcmVwcjoKICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgIm9yaWdpbmFsIHRva2VuczoiLCBpbnB1dF9saW5lLnN0cmlwKCkKICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgInRva2VuaXplZDoiLCB0b2tlbml6ZWRfbGluZS5zdHJpcCgpCg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">CgoK</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>def dateMap(dateFile):
     dates_in_lines = []
     for line in open(dateFile):
@@ -680,9 +684,6 @@
                 date_spans.append((start, end))
         dates_in_lines.append(date_spans)
     return dates_in_lines</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">I0J1aWxkIHRoZSBlbnRpdHkgbWFwIGZvciBjb25jZXB0IGlkZW50aWZpY2F0aW9uCiNDaG9vc2UgZWl0aGVyIHRoZSBtb3N0IHByb2JhYmxlIGNhdGVnb3J5IG9yIHRoZSBtb3N0IHByb2JhYmxlIG5vZGUgcmVwcgojSW4gdGhlIGN1cnJlbnQgc2V0dGluZyB3ZSBvbmx5IGNhcmUgYWJvdXQgTkUgYW5kIERBVEUKZGVmIGxvYWRNYXAobWFwX2ZpbGUpOgogICAgc3Bhbl90b19jYXRlID0ge30KCiAgICAjRmlyc3QgbG9hZCBhbGwgcG9zc2libGUgbWFwcGluZ3MgZWFjaCBzcGFuIGhhcwogICAgd2l0aCBvcGVuKG1hcF9maWxlLCAncicpIGFzIG1hcF9mOgogICAgICAgIGZvciBsaW5lIGluIG1hcF9mOgogICAgICAgICAgICBpZiBsaW5lLnN0cmlwKCk6CiAgICAgICAgICAgICAgICBzcGFucyA9IGxpbmUuc3RyaXAoKS5zcGxpdCgnIyMnKQogICAgICAgICAgICAgICAgZm9yIHMgaW4gc3BhbnM6CiAgICAgICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgICAgICBmaWVsZHMgPSBzLnNwbGl0KCcrKycpCiAgICAgICAgICAgICAgICAgICAgICAgIHRva3MgPSBmaWVsZHNbMV0KICAgICAgICAgICAgICAgICAgICAgICAgd2lraV9sYWJlbCA9IGZpZWxkc1syXQogICAgICAgICAgICAgICAgICAgICAgICBub2RlX3JlcHIgPSBmaWVsZHNbM10KICAgICAgICAgICAgICAgICAgICAgICAgY2F0ZWdvcnkgPSBmaWVsZHNbLTFdCiAgICAgICAgICAgICAgICAgICAgZXhjZXB0OgogICAgICAgICAgICAgICAgICAgICAgICBwcmludCBzcGFucywgbGluZQogICAgICAgICAgICAgICAgICAgICAgICBwcmludCBmaWVsZHMKICAgICAgICAgICAgICAgICAgICAgICAgc3lzLmV4aXQoMSkKICAgICAgICAgICAgICAgICAgICBpZiB0b2tzIG5vdCBpbiBzcGFuX3RvX2NhdGU6CiAgICAgICAgICAgICAgICAgICAgICAgIHNwYW5fdG9fY2F0ZVt0b2tzXSA9IGRlZmF1bHRkaWN0KGludCkKICAgICAgICAgICAgICAgICAgICBzcGFuX3RvX2NhdGVbdG9rc11bKGNhdGVnb3J5LCBub2RlX3JlcHIsIHdpa2lfbGFiZWwpXSArPSAxCgogICAgbWxlX21hcCA9IHt9CiAgICBmb3IgdG9rcyBpbiBzcGFuX3RvX2NhdGU6CiAgICAgICAgc29ydGVkX3R5cGVzID0gc29ydGVkKHNwYW5fdG9fY2F0ZVt0b2tzXS5pdGVtcygpLCBrZXk9bGFtYmRhIHg6LXhbMV0pCiAgICAgICAgY3Vycl90eXBlID0gc29ydGVkX3R5cGVzWzBdWzBdWzBdCiAgICAgICAgaWYgY3Vycl90eXBlWzoyXSA9PSAnTkUnIG9yIGN1cnJfdHlwZVs6NF0gPT0gJ0RBVEUnOgogICAgICAgICAgICBtbGVfbWFwW3Rva3NdID0gc29ydGVkX3R5cGVzWzBdWzBdCiAgICByZXR1cm4gbWxlX21hcAoKZGVmIGR1bXBNYXAobWxlX21hcCwgcmVzdWx0X2ZpbGUpOgogICAgd2l0aCBvcGVuKHJlc3VsdF9maWxlLCAndycpIGFzIHdmOgogICAgICAgIGZvciB0b2tzIGluIG1sZV9tYXA6CiAgICAgICAgICAgIHByaW50ID4+d2YsICgnJXMjIyMjJXMjIyVzJyAlICh0b2tzLCBtbGVfbWFwW3Rva3NdWzBdLCBtbGVfbWFwW3Rva3NdWzFdKSk=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
