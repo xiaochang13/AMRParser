@@ -79,8 +79,8 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517157300363">
-        <mark key="'" line="162" column="25" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517166872215">
+        <mark key="'" line="352" column="45" />
         <mark key="[" line="166" column="63" />
         <mark key="]" line="170" column="19" />
         <mark key="." line="170" column="19" />
@@ -297,8 +297,8 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1517120316786">
-        <mark key="'" line="94" column="39" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1517166905852">
+        <mark key="'" line="72" column="8" />
         <mark key="[" line="44" column="30" />
         <mark key="]" line="44" column="57" />
         <mark key="^" line="44" column="57" />
@@ -529,9 +529,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="5" column="4" filename="$USER_HOME$/data_processing/entities.py" />
-      <jump line="111" column="30" filename="$USER_HOME$/data_processing/entities.py" />
-      <jump line="30" column="0" filename="$USER_HOME$/data_processing/entities.py" />
       <jump line="741" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="742" column="11" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="745" column="25" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -609,8 +606,6 @@
       <jump line="11" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/namespace_utils.py" />
       <jump line="270" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="350" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="157" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="351" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="79" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="16" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="103" column="47" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_trainer.py" />
@@ -629,6 +624,11 @@
       <jump line="94" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="317" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/vocab_utils.py" />
       <jump line="162" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="157" column="47" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="351" column="48" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="139" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
+      <jump line="352" column="45" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="72" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -638,7 +638,7 @@
         <text>str</text>
       </register>
       <register name="/" type="4">
-        <text>trainSet</text>
+        <text>all_questions</text>
       </register>
       <register name="0" type="4">
         <text>parser.add_argument('--out_path', type=str, help='The path to the output file.')</text>
@@ -689,9 +689,9 @@
       </register>
     </registers>
     <search>
-      <last-search>trainSet</last-search>
+      <last-search>all_questions</last-search>
       <last-offset />
-      <last-pattern>trainSet</last-pattern>
+      <last-pattern>all_questions</last-pattern>
       <last-replace>action</last-replace>
       <last-substitute>token</last-substitute>
       <last-dir>1</last-dir>
@@ -811,6 +811,7 @@
         <entry>self.buffer</entry>
         <entry>predict</entry>
         <entry>trainSet</entry>
+        <entry>all_questions</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
