@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517190209611">
-        <mark key="'" line="194" column="21" />
-        <mark key="[" line="147" column="44" />
-        <mark key="]" line="148" column="31" />
-        <mark key="." line="148" column="31" />
-        <mark key="^" line="148" column="31" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517192363148">
+        <mark key="'" line="199" column="20" />
+        <mark key="[" line="221" column="35" />
+        <mark key="]" line="221" column="71" />
+        <mark key="." line="221" column="71" />
+        <mark key="^" line="221" column="71" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -126,11 +126,10 @@
         <mark key="^" line="329" column="46" />
         <mark key="." line="329" column="46" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" timestamp="1517172130628">
-        <mark key="[" line="13" column="45" />
-        <mark key="]" line="14" column="21" />
-        <mark key="^" line="14" column="21" />
-        <mark key="." line="14" column="21" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" timestamp="1517191564350">
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="15" column="0" />
+        <mark key="." line="15" column="0" />
       </file>
       <file name="/Library/Python/2.7/site-packages/keras/engine/topology.py" timestamp="1507572628652">
         <mark key="'" line="17" column="49" />
@@ -421,12 +420,12 @@
         <mark key="^" line="61" column="0" />
         <mark key="." line="61" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1517190175560">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1517191799638">
         <mark key="'" line="25" column="12" />
-        <mark key="[" line="182" column="40" />
-        <mark key="]" line="183" column="22" />
-        <mark key="^" line="183" column="22" />
-        <mark key="." line="183" column="22" />
+        <mark key="[" line="40" column="79" />
+        <mark key="]" line="40" column="99" />
+        <mark key="^" line="40" column="99" />
+        <mark key="." line="40" column="99" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/seq2seq_sa.py" timestamp="1478020932535">
         <mark key="'" line="524" column="23" />
@@ -455,6 +454,11 @@
         <mark key="]" line="132" column="10" />
         <mark key="^" line="132" column="10" />
         <mark key="." line="132" column="10" />
+      </file>
+      <file name="$USER_HOME$/data_processing/1_make_json.py" timestamp="1516594440533">
+        <mark key="[" line="12" column="43" />
+        <mark key="]" line="12" column="43" />
+        <mark key="." line="12" column="43" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1500614393650">
         <mark key="'" line="553" column="57" />
@@ -541,15 +545,8 @@
         <mark key="^" line="517" column="33" />
         <mark key="." line="525" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/oracle/oracle.log" timestamp="1516831162576">
-        <mark key="[" line="10" column="8" />
-        <mark key="]" line="13" column="57" />
-        <mark key="^" line="2" column="0" />
-        <mark key="." line="3" column="0" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="229" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="226" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="221" column="71" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="175" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
@@ -649,54 +646,54 @@
       <jump line="123" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="29" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
       <jump line="110" column="14" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
+      <jump line="194" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>concept</text>
+        <text>, concept_align</text>
       </register>
       <register name="-" type="4">
-        <text>concept</text>
+        <text>, concept_align</text>
       </register>
       <register name="/" type="4">
         <text>def apply</text>
       </register>
       <register name="0" type="4">
-        <text>&quot; &quot;.join([&quot;_#_&quot;.join(feats) for feats
-                                                                                   in feat_seq])</text>
+        <text>readOffUnalignWords</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAjIHNlbGYuY29udGV4dF92ZWN0b3IgPSBjb250ZXh0X3ZlY3Rvcgo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAjIHNlbGYuY29udGV4dF92ZWN0b3IgPSBjb250ZXh0X3ZlY3Rvcgo=</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>self.word_focus = 0
         self.concept_focus = 0</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>@classmethod
     def copyConfig(cls, config):
         new_config = CacheConfiguration(config.cache_size, config.)</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>initial_config.lemSeq = sent_anno.lemma
     initial_config.posSeq = sent_anno</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5wb3NTZXEgPSBbXQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
