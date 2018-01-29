@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517255971624">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517256798354">
         <mark key="'" line="154" column="43" />
-        <mark key="[" line="162" column="76" />
-        <mark key="]" line="162" column="76" />
-        <mark key="." line="162" column="76" />
-        <mark key="^" line="162" column="76" />
+        <mark key="[" line="164" column="83" />
+        <mark key="]" line="165" column="85" />
+        <mark key="." line="165" column="85" />
+        <mark key="^" line="165" column="85" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -99,8 +99,8 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" timestamp="1517180508788">
         <mark key="'" line="185" column="46" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517254253898">
-        <mark key="'" line="105" column="47" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517256837816">
+        <mark key="'" line="191" column="54" />
         <mark key="[" line="204" column="31" />
         <mark key="]" line="204" column="54" />
         <mark key="^" line="204" column="54" />
@@ -420,10 +420,10 @@
         <mark key="^" line="61" column="0" />
         <mark key="." line="61" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1517251435288">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1517256552149">
         <mark key="'" line="87" column="34" />
-        <mark key="[" line="51" column="12" />
-        <mark key="]" line="51" column="47" />
+        <mark key="[" line="278" column="8" />
+        <mark key="]" line="278" column="21" />
         <mark key="^" line="51" column="30" />
         <mark key="." line="51" column="12" />
       </file>
@@ -553,7 +553,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="263" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" />
       <jump line="246" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" />
       <jump line="24" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/encoder_utils.py" />
       <jump line="179" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" />
@@ -611,7 +610,6 @@
       <jump line="148" column="18" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="89" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="220" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="185" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="146" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="156" column="70" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="158" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
@@ -653,19 +651,21 @@
       <jump line="51" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="105" column="47" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="44" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
+      <jump line="191" column="54" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="185" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>trans_state.start_word</text>
+        <text>False</text>
       </register>
       <register name="-" type="4">
-        <text>trans_state.start_word</text>
+        <text>False</text>
       </register>
       <register name="/" type="4">
         <text>concept_idx</text>
       </register>
       <register name="0" type="4">
-        <text>return type.name + &quot;:&quot; + utils.NULL</text>
+        <text>rightmostCache</text>
       </register>
       <register name="1" type="8">
         <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIA==</text>
