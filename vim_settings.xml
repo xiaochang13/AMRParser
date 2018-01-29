@@ -99,12 +99,12 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" timestamp="1517180508788">
         <mark key="'" line="185" column="46" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517259841720">
-        <mark key="'" line="198" column="43" />
-        <mark key="[" line="128" column="64" />
-        <mark key="]" line="128" column="67" />
-        <mark key="^" line="128" column="67" />
-        <mark key="." line="128" column="67" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517262352178">
+        <mark key="'" line="141" column="57" />
+        <mark key="[" line="238" column="20" />
+        <mark key="]" line="238" column="20" />
+        <mark key="^" line="238" column="20" />
+        <mark key="." line="238" column="20" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517173322057">
         <mark key="'" line="1930" column="39" />
@@ -420,12 +420,12 @@
         <mark key="^" line="61" column="0" />
         <mark key="." line="61" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1517259569069">
-        <mark key="'" line="203" column="39" />
-        <mark key="[" line="278" column="8" />
-        <mark key="]" line="278" column="21" />
-        <mark key="^" line="51" column="30" />
-        <mark key="." line="51" column="12" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1517262150090">
+        <mark key="'" line="198" column="24" />
+        <mark key="[" line="100" column="63" />
+        <mark key="]" line="100" column="63" />
+        <mark key="^" line="100" column="63" />
+        <mark key="." line="100" column="63" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/seq2seq_sa.py" timestamp="1478020932535">
         <mark key="'" line="524" column="23" />
@@ -643,8 +643,6 @@
       <jump line="191" column="54" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="185" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="124" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="141" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="198" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="106" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="194" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="188" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
@@ -653,62 +651,62 @@
       <jump line="51" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="203" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="146" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="141" column="57" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="198" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>ARCBINARY</text>
+        <text>&quot;_#_&quot;.join(feats)</text>
       </register>
       <register name="-" type="4">
-        <text>ARCBINARY</text>
+        <text>e</text>
       </register>
       <register name="/" type="4">
-        <text>ARCBINARY</text>
+        <text>#PA</text>
       </register>
       <register name="0" type="4">
-        <text>return self.trans_state.extractFeatures(oracle.utils.FeatureType.ARCBINARY,
-                                                    word_idx, concept_idx, cache_idx)</text>
+        <text>&quot;_#_&quot;.join(feats)</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="8">
+        <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="8">
         <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIA==</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIHdvcmRfYWxpZ24uYXBwZW5kKHdvcmRfaWR4KQo=</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text># if concept_idx == len(concept_seq):
                             #     concept_idx = -1</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text># if concept_idx == len(concept_seq):
                                     #     concept_idx = -1</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="9" type="4">
-        <text>if word
-                            word_align.append(word_idx)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>ARCBINARY</last-search>
+      <last-search>#PA</last-search>
       <last-offset />
-      <last-pattern>ARCBINARY</last-pattern>
+      <last-pattern>#PA</last-pattern>
       <last-replace>phase_feat</last-replace>
       <last-substitute>phrase_feat</last-substitute>
       <last-dir>1</last-dir>
@@ -855,6 +853,9 @@
         <entry>extractFeatures</entry>
         <entry>concept_idx</entry>
         <entry>ARCBINARY</entry>
+        <entry>phase</entry>
+        <entry>PHASE</entry>
+        <entry>#PA</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
