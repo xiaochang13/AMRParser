@@ -99,12 +99,12 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" timestamp="1517180508788">
         <mark key="'" line="185" column="46" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517203615031">
-        <mark key="'" line="136" column="45" />
-        <mark key="[" line="228" column="28" />
-        <mark key="]" line="228" column="29" />
-        <mark key="." line="228" column="29" />
-        <mark key="^" line="228" column="29" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517205578908">
+        <mark key="'" line="165" column="70" />
+        <mark key="[" line="174" column="60" />
+        <mark key="]" line="175" column="62" />
+        <mark key="^" line="175" column="62" />
+        <mark key="." line="175" column="62" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517173322057">
         <mark key="'" line="1930" column="39" />
@@ -553,10 +553,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="270" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="350" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="79" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="16" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="48" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="24" column="21" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="14" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" />
@@ -653,13 +649,17 @@
       <jump line="220" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="185" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="136" column="45" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="146" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="156" column="70" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="158" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="163" column="70" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>utils</text>
+        <text>word_idx</text>
       </register>
       <register name="-" type="4">
-        <text>utils</text>
+        <text>word_idx</text>
       </register>
       <register name="/" type="4">
         <text>word_idx</text>
@@ -669,37 +669,38 @@
                                                                       word_idx, concept_idx, cache_idx))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3b3JkX2FsaWduLmFwcGVuZCh3b3JkX2lkeCkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3b3JkX2FsaWduLmFwcGVuZCh3b3JkX2lkeCkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjIHNlbGYuY29udGV4dF92ZWN0b3IgPSBjb250ZXh0X3ZlY3Rvcgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIGZlYXRfc2VxLmFwcGVuZChbIlBIQVNFPUFSQ0xBQkVMIl0rIGFsbF9mZWF0cykK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIGZlYXRfc2VxLmFwcGVuZChbIlBIQVNFPUFSQ0JJTkFSWSJdKyBhbGxfZmVhdHMpCg==</text>
       </register>
-      <register name="5" type="4">
-        <text>self.word_focus = 0
-        self.concept_focus = 0</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIGZlYXRfc2VxLmFwcGVuZChbIlBIQVNFPUFSQ0JJTkFSWSJdKyBhbGxfZmVhdHMpCg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="8" type="4">
+        <text># shiftpop_feats = c.shiftPopFeatures()
+                            # cache_feats = c.getCacheFeat(word_idx, concept_idx, cache_idx)
+                            # pushidx_feats = c.pushIDXFeatures()
+
+                            # all_feats = shiftpop_feats + cache_feats + pushidx_feats</text>
       </register>
-      <register name="9" type="4">
-        <text>@classmethod
-    def copyConfig(cls, config):
-        new_config = CacheConfiguration(config.cache_size, config.)</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
