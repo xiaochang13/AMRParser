@@ -99,12 +99,12 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" timestamp="1517180508788">
         <mark key="'" line="185" column="46" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517200083521">
-        <mark key="'" line="200" column="44" />
-        <mark key="[" line="37" column="53" />
-        <mark key="]" line="38" column="32" />
-        <mark key="." line="38" column="32" />
-        <mark key="^" line="38" column="32" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517202171571">
+        <mark key="'" line="52" column="26" />
+        <mark key="[" line="52" column="27" />
+        <mark key="]" line="52" column="73" />
+        <mark key="." line="52" column="73" />
+        <mark key="^" line="52" column="73" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517173322057">
         <mark key="'" line="1930" column="39" />
@@ -553,10 +553,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="21" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="27" column="126" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="326" column="82" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="316" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="307" column="80" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="305" column="86" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
@@ -653,64 +649,67 @@
       <jump line="151" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="179" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="200" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="144" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="145" column="46" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="147" column="71" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="52" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>shift</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
-        <text>shift</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
-        <text>getCacheFeat</text>
+        <text>phrase_feat</text>
       </register>
       <register name="0" type="4">
-        <text>shiftPopFeatures(</text>
+        <text>.pushIDXFeatures(word_idx, concept_idx)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjIHNlbGYuY29udGV4dF92ZWN0b3IgPSBjb250ZXh0X3ZlY3Rvcgo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmCg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAjIHNlbGYuY29udGV4dF92ZWN0b3IgPSBjb250ZXh0X3ZlY3Rvcgo=</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>self.word_focus = 0
         self.concept_focus = 0</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>@classmethod
     def copyConfig(cls, config):
         new_config = CacheConfiguration(config.cache_size, config.)</text>
-      </register>
-      <register name="9" type="4">
-        <text>initial_config.lemSeq = sent_anno.lemma
-    initial_config.posSeq = sent_anno</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>getCacheFeat</last-search>
+      <last-search>phrase_feat</last-search>
       <last-offset />
-      <last-pattern>getCacheFeat</last-pattern>
-      <last-replace>action</last-replace>
-      <last-substitute>token</last-substitute>
+      <last-pattern>phrase_feat</last-pattern>
+      <last-replace>phase_feat</last-replace>
+      <last-substitute>phrase_feat</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
@@ -847,6 +846,8 @@
         <entry>concept_idx</entry>
         <entry>pushIDXFeat</entry>
         <entry>getCacheFeat</entry>
+        <entry>pushIDX</entry>
+        <entry>phrase_feat</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
@@ -879,6 +880,7 @@
         <entry>250</entry>
         <entry>%s/token/action/g</entry>
         <entry>1</entry>
+        <entry>%s/phrase_feat/phase_feat/g</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
