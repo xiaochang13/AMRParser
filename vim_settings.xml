@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517248069615">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517255971624">
         <mark key="'" line="154" column="43" />
-        <mark key="[" line="154" column="43" />
-        <mark key="]" line="154" column="44" />
-        <mark key="." line="154" column="44" />
-        <mark key="^" line="119" column="29" />
+        <mark key="[" line="162" column="76" />
+        <mark key="]" line="162" column="76" />
+        <mark key="." line="162" column="76" />
+        <mark key="^" line="162" column="76" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -655,11 +655,11 @@
       <jump line="44" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIA==</text>
+      <register name="&quot;" type="4">
+        <text>trans_state.start_word</text>
       </register>
       <register name="-" type="4">
-        <text>len(</text>
+        <text>trans_state.start_word</text>
       </register>
       <register name="/" type="4">
         <text>concept_idx</text>
