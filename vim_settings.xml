@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517186502510">
-        <mark key="'" line="259" column="73" />
-        <mark key="[" line="259" column="48" />
-        <mark key="]" line="259" column="88" />
-        <mark key="." line="259" column="88" />
-        <mark key="^" line="259" column="88" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517188125934">
+        <mark key="'" line="186" column="21" />
+        <mark key="[" line="138" column="23" />
+        <mark key="]" line="120" column="65" />
+        <mark key="." line="120" column="65" />
+        <mark key="^" line="120" column="65" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -549,7 +549,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="111" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="102" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="229" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="226" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
@@ -558,7 +557,6 @@
       <jump line="129" column="53" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="126" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="125" column="15" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="123" column="52" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="121" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="8" column="6" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="2" column="6" filename="$USER_HOME$/SHRG-induction/HRGRule.py" />
@@ -649,13 +647,15 @@
       <jump line="258" column="62" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="259" column="73" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="29" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
+      <jump line="182" column="21" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="123" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>oracle_type, self.cache_size</text>
+        <text>concept</text>
       </register>
       <register name="-" type="4">
-        <text>oracle_type, self.cache_size</text>
+        <text>concept</text>
       </register>
       <register name="/" type="4">
         <text>results</text>
@@ -665,37 +665,38 @@
                                                                                    in feat_seq])</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIHNlbGYuY29udGV4dF92ZWN0b3IgPSBjb250ZXh0X3ZlY3Rvcgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="3" type="4">
+        <text>self.word_focus = 0
+        self.concept_focus = 0</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text>@classmethod
     def copyConfig(cls, config):
         new_config = CacheConfiguration(config.cache_size, config.)</text>
       </register>
-      <register name="5" type="4">
+      <register name="8" type="4">
         <text>initial_config.lemSeq = sent_anno.lemma
     initial_config.posSeq = sent_anno</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5wb3NTZXEgPSBbXQo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5sZW1TZXEgPSBbXQo=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi53b3JkU2VxID0gW10K</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5jYWNoZV9zaXplID0gc2l6ZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5wb3NTZXEgPSBbXQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
