@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517274496721">
-        <mark key="'" line="304" column="28" />
-        <mark key="[" line="304" column="98" />
-        <mark key="]" line="304" column="116" />
-        <mark key="." line="304" column="116" />
-        <mark key="^" line="304" column="116" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517276408253">
+        <mark key="'" line="301" column="28" />
+        <mark key="[" line="140" column="0" />
+        <mark key="]" line="140" column="0" />
+        <mark key="^" line="301" column="116" />
+        <mark key="." line="140" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -565,8 +565,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="146" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="156" column="70" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="158" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="163" column="70" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="31" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
@@ -662,64 +660,67 @@
       <jump line="257" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="286" column="70" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="174" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" />
-      <jump line="301" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="302" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="303" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="419" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="240" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="301" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>coverage_vector=cur_coverage</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
         <text>coverage_vector=cur_coverage</text>
       </register>
       <register name="/" type="4">
-        <text>cur_tok</text>
+        <text>trans_system</text>
       </register>
       <register name="0" type="4">
         <text>get_feature_idxs</text>
       </register>
-      <register name="1" type="4">
-        <text>#new_hypo = copy.deepcopy(self)
-        # new_hypo.addAction(action)
-        # new_hypo = Hypothesis(self.actions + [action], self.log_probs + [log_prob], state,
-        #                   context_vector)</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjIFRPRE86IGV4dHJhY3QgY29uZmlndXJhdGlvbiBmZWF0dXJlcyBhbmQgbWFwIHRoZW0gdG8gZmVhdHVyZSBpbmRpY2VzLgo=</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text># TODO xiaochang, update trans_state using 'action'
+        # return new_hypo</text>
+      </register>
+      <register name="4" type="4">
+        <text>#new_hypo = copy.deepcopy(self)
+        # new_hypo.addAction(action)
+        # new_hypo = Hypothesis(self.actions + [action], self.log_probs + [log_prob], state,
+        #                   context_vector)</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAjIFRPRE86IGV4dHJhY3QgY29uZmlndXJhdGlvbiBmZWF0dXJlcyBhbmQgbWFwIHRoZW0gdG8gZmVhdHVyZSBpbmRpY2VzLgo=</text>
       </register>
-      <register name="6" type="8">
-        <text encoding="base64">IyAKIyA=</text>
-      </register>
-      <register name="7" type="8">
-        <text encoding="base64">IyAKIyA=</text>
-      </register>
-      <register name="8" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
       <register name="9" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIA==</text>
+        <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>cur_tok</last-search>
+      <last-search>trans_system</last-search>
       <last-offset />
-      <last-pattern>cur_tok</last-pattern>
+      <last-pattern>trans_system</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -877,6 +878,7 @@
         <entry>feat_vocab</entry>
         <entry>topk_ids</entry>
         <entry>cur_tok</entry>
+        <entry>trans_system</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
