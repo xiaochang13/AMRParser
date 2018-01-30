@@ -99,12 +99,12 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" timestamp="1517273137058">
         <mark key="'" line="174" column="25" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517288957667">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517336114782">
         <mark key="'" line="161" column="47" />
-        <mark key="[" line="80" column="16" />
-        <mark key="]" line="80" column="16" />
-        <mark key="^" line="80" column="16" />
-        <mark key="." line="80" column="16" />
+        <mark key="[" line="208" column="94" />
+        <mark key="]" line="210" column="31" />
+        <mark key="." line="210" column="31" />
+        <mark key="^" line="210" column="31" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517173322057">
         <mark key="'" line="1930" column="39" />
@@ -671,7 +671,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name="-" type="4">
         <text>curr_arc_action</text>
@@ -683,34 +683,34 @@
         <text>get_feature_idxs</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3JhY2xlX2FjdGlvbiA9Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHN5c3RlbS5hcHBseShuZXdfY29uZmlnLCBvcmFjbGVfYWN0aW9uKQo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHN5c3RlCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG9yYWNsZV9hY3Rpb24gPSBhY3Rpb24K</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG5ld19jb25maWcuc3RhcnRfbmV3ID0gRmFsc2UK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgb3JhY2xlX2FjdGlvbiA9Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN5c3RlbS5hcHBseShuZXdfY29uZmlnLCBvcmFjbGVfYWN0aW9uKQo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN5c3RlCg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG9yYWNsZV9hY3Rpb24gPSBhY3Rpb24K</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG5ld19jb25maWcuc3RhcnRfbmV3ID0gRmFsc2UK</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGVsc2UK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
