@@ -99,8 +99,8 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" timestamp="1517273137058">
         <mark key="'" line="174" column="25" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517278109508">
-        <mark key="'" line="198" column="43" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517280572598">
+        <mark key="'" line="41" column="24" />
         <mark key="[" line="80" column="16" />
         <mark key="]" line="80" column="16" />
         <mark key="^" line="80" column="16" />
@@ -257,6 +257,9 @@
         <mark key="^" line="520" column="24" />
         <mark key="." line="520" column="24" />
       </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" timestamp="1517280545652">
+        <mark key="'" line="108" column="63" />
+      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/io/IOUtils.java" timestamp="1491962694595">
         <mark key="'" line="667" column="17" />
         <mark key="[" line="652" column="5" />
@@ -287,12 +290,12 @@
         <mark key="." line="81" column="43" />
         <mark key="^" line="81" column="43" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1517264996841">
-        <mark key="'" line="192" column="17" />
-        <mark key="[" line="194" column="12" />
-        <mark key="]" line="194" column="13" />
-        <mark key="." line="194" column="13" />
-        <mark key="^" line="194" column="13" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1517280891613">
+        <mark key="'" line="15" column="8" />
+        <mark key="[" line="24" column="39" />
+        <mark key="]" line="25" column="38" />
+        <mark key="." line="25" column="38" />
+        <mark key="^" line="25" column="38" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/treewidth.py" timestamp="1480247731932">
         <mark key="'" line="0" column="0" />
@@ -565,16 +568,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="158" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="163" column="70" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="31" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="187" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="194" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="196" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="199" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="39" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="135" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="143" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="150" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="183" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="201" column="46" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
@@ -665,62 +658,84 @@
       <jump line="419" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="240" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="301" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="95" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
+      <jump line="94" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
+      <jump line="257" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="387" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
+      <jump line="52" column="21" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="108" column="63" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
+      <jump line="15" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
+      <jump line="41" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="365" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
+      <jump line="15" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="&quot;" type="4">
+        <text>&quot;&quot;&quot;
+        Whether it is possible to apply the next action at
+        configuration c.
+        :param c:
+        :param action:
+        :return:
+        &quot;&quot;&quot;</text>
       </register>
       <register name="-" type="4">
         <text>coverage_vector=cur_coverage</text>
       </register>
       <register name="/" type="4">
-        <text>trans_system</text>
+        <text>push_action</text>
       </register>
       <register name="0" type="4">
         <text>get_feature_idxs</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="1" type="4">
+        <text>&quot;&quot;&quot;
+        Whether it is possible to apply the next action at
+        configuration c.
+        :param c:
+        :param action:
+        :return:
+        &quot;&quot;&quot;</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text># TODO xiaochang, update trans_state using 'action'
         # return new_hypo</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>#new_hypo = copy.deepcopy(self)
         # new_hypo.addAction(action)
         # new_hypo = Hypothesis(self.actions + [action], self.log_probs + [log_prob], state,
         #                   context_vector)</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjIFRPRE86IGV4dHJhY3QgY29uZmlndXJhdGlvbiBmZWF0dXJlcyBhbmQgbWFwIHRoZW0gdG8gZmVhdHVyZSBpbmRpY2VzLgo=</text>
-      </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIFRPRE86IGV4dHJhY3QgY29uZmlndXJhdGlvbiBmZWF0dXJlcyBhbmQgbWFwIHRoZW0gdG8gZmVhdHVyZSBpbmRpY2VzLgo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>trans_system</last-search>
+      <last-search>push_action</last-search>
       <last-offset />
-      <last-pattern>trans_system</last-pattern>
+      <last-pattern>push_action</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -879,6 +894,8 @@
         <entry>topk_ids</entry>
         <entry>cur_tok</entry>
         <entry>trans_system</entry>
+        <entry>canApply</entry>
+        <entry>push_action</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
