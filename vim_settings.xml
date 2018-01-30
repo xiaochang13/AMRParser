@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517283922006">
-        <mark key="'" line="304" column="28" />
-        <mark key="[" line="137" column="28" />
-        <mark key="]" line="137" column="28" />
-        <mark key="^" line="137" column="28" />
-        <mark key="." line="137" column="28" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517285904429">
+        <mark key="'" line="308" column="28" />
+        <mark key="[" line="136" column="75" />
+        <mark key="]" line="137" column="22" />
+        <mark key="." line="137" column="22" />
+        <mark key="^" line="137" column="22" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -670,11 +670,11 @@
       <jump line="15" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>self.start_new</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBzZWxmLmFjdGlvbnMgYW5kICJQVVNIIiBpbiBzZWxmLmFjdGlvbnNbLTFdCg==</text>
       </register>
       <register name="-" type="4">
-        <text>self.start_new</text>
+        <text>arc_binary =</text>
       </register>
       <register name="/" type="4">
         <text>push_action</text>
@@ -683,15 +683,24 @@
         <text>get_feature_idxs</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBzZWxmLmFjdGlvbnMgYW5kICJQVVNIIiBpbiBzZWxmLmFjdGlvbnNbLTFdCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5sYXN0Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBuZXdfY29uZmlnID0gQ2FjaGVDb25maWd1cmF0aW9uKHNlbGYudHJhbnNfc3RhdGUuY2FjaGVfc2l6ZSwgLTEsIHNlbGYudHJhbnNfc3RhdGUpICMgSW5pdGlhbGl6ZSBmcm9tIGFub3RoZXIgY29uZmlnCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICByZXR1cm4gVHJ1ZQo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="6" type="4">
         <text>&quot;&quot;&quot;
         Whether it is possible to apply the next action at
         configuration c.
@@ -700,27 +709,15 @@
         :return:
         &quot;&quot;&quot;</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="9" type="4">
         <text># TODO xiaochang, update trans_state using 'action'
         # return new_hypo</text>
-      </register>
-      <register name="7" type="4">
-        <text>#new_hypo = copy.deepcopy(self)
-        # new_hypo.addAction(action)
-        # new_hypo = Hypothesis(self.actions + [action], self.log_probs + [log_prob], state,
-        #                   context_vector)</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAjIFRPRE86IGV4dHJhY3QgY29uZmlndXJhdGlvbiBmZWF0dXJlcyBhbmQgbWFwIHRoZW0gdG8gZmVhdHVyZSBpbmRpY2VzLgo=</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
