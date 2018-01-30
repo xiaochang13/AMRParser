@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517277659448">
-        <mark key="'" line="301" column="28" />
-        <mark key="[" line="303" column="16" />
-        <mark key="]" line="303" column="19" />
-        <mark key="^" line="303" column="19" />
-        <mark key="." line="303" column="19" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517282386626">
+        <mark key="'" line="303" column="28" />
+        <mark key="[" line="137" column="28" />
+        <mark key="]" line="138" column="32" />
+        <mark key="^" line="138" column="32" />
+        <mark key="." line="138" column="32" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -290,12 +290,12 @@
         <mark key="." line="81" column="43" />
         <mark key="^" line="81" column="43" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1517280891613">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1517282208668">
         <mark key="'" line="15" column="8" />
-        <mark key="[" line="24" column="39" />
-        <mark key="]" line="25" column="38" />
-        <mark key="." line="25" column="38" />
-        <mark key="^" line="25" column="38" />
+        <mark key="[" line="100" column="34" />
+        <mark key="]" line="100" column="34" />
+        <mark key="." line="100" column="34" />
+        <mark key="^" line="114" column="48" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/treewidth.py" timestamp="1480247731932">
         <mark key="'" line="0" column="0" />
@@ -671,16 +671,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>&quot;&quot;&quot;
-        Whether it is possible to apply the next action at
-        configuration c.
-        :param c:
-        :param action:
-        :return:
-        &quot;&quot;&quot;</text>
+        <text encoding="base64">d29yZF9pZHg9LTEsIA==</text>
       </register>
       <register name="-" type="4">
-        <text>coverage_vector=cur_coverage</text>
+        <text encoding="base64">d29yZF9pZHg9LTEsIA==</text>
       </register>
       <register name="/" type="4">
         <text>push_action</text>
@@ -688,7 +682,16 @@
       <register name="0" type="4">
         <text>get_feature_idxs</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="q" type="4">
+        <text />
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICByZXR1cm4gVHJ1ZQo=</text>
+      </register>
+      <register name="3" type="4">
         <text>&quot;&quot;&quot;
         Whether it is possible to apply the next action at
         configuration c.
@@ -697,36 +700,27 @@
         :return:
         &quot;&quot;&quot;</text>
       </register>
-      <register name="q" type="4">
-        <text />
-      </register>
-      <register name="2" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text># TODO xiaochang, update trans_state using 'action'
         # return new_hypo</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text>#new_hypo = copy.deepcopy(self)
         # new_hypo.addAction(action)
         # new_hypo = Hypothesis(self.actions + [action], self.log_probs + [log_prob], state,
         #                   context_vector)</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAjIFRPRE86IGV4dHJhY3QgY29uZmlndXJhdGlvbiBmZWF0dXJlcyBhbmQgbWFwIHRoZW0gdG8gZmVhdHVyZSBpbmRpY2VzLgo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
