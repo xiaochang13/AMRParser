@@ -38,8 +38,8 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1516588043046">
-        <mark key="'" line="487" column="12" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1517342253431">
+        <mark key="'" line="745" column="8" />
         <mark key="[" line="894" column="29" />
         <mark key="]" line="894" column="31" />
         <mark key="." line="894" column="31" />
@@ -106,8 +106,8 @@
         <mark key="." line="210" column="31" />
         <mark key="^" line="210" column="31" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517339518976">
-        <mark key="'" line="2129" column="26" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517340510938">
+        <mark key="'" line="2201" column="65" />
         <mark key="[" line="2531" column="106" />
         <mark key="]" line="2531" column="109" />
         <mark key="^" line="2531" column="109" />
@@ -387,12 +387,12 @@
         <mark key="." line="26" column="18" />
         <mark key="^" line="26" column="18" />
       </file>
-      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1517074627095">
-        <mark key="'" line="237" column="21" />
-        <mark key="[" line="258" column="0" />
-        <mark key="]" line="258" column="1" />
-        <mark key="^" line="258" column="1" />
-        <mark key="." line="258" column="1" />
+      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1517342020819">
+        <mark key="'" line="243" column="21" />
+        <mark key="[" line="163" column="24" />
+        <mark key="]" line="163" column="24" />
+        <mark key="^" line="162" column="27" />
+        <mark key="." line="163" column="24" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -511,13 +511,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517338531417">
-        <mark key="'" line="556" column="20" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517342627029">
+        <mark key="'" line="555" column="26" />
         <mark key="k" line="1041" column="34" />
-        <mark key="[" line="657" column="4" />
-        <mark key="]" line="657" column="4" />
-        <mark key="^" line="657" column="4" />
-        <mark key="." line="657" column="4" />
+        <mark key="[" line="407" column="39" />
+        <mark key="]" line="408" column="38" />
+        <mark key="^" line="408" column="38" />
+        <mark key="." line="408" column="38" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -568,23 +568,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="83" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="105" column="47" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="44" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="191" column="54" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="185" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="124" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="106" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="194" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="188" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="166" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="87" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="51" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="203" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="146" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="141" column="57" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="198" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="268" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="106" column="58" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="198" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="118" column="18" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
@@ -668,58 +651,76 @@
       <jump line="339" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="345" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2129" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2198" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2201" column="65" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="413" column="18" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="330" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="343" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="756" column="25" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1084" column="3" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="332" column="26" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="412" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="331" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1093" column="14" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="650" column="5" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="675" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="405" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="555" column="26" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="745" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="778" column="4" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBlbHNlOgo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
-        <text>curr_arc_action</text>
+        <text encoding="base64">IiVzIiAlIA==</text>
       </register>
       <register name="/" type="4">
-        <text>arcLabelDefault</text>
+        <text>curr_node</text>
       </register>
       <register name="0" type="4">
-        <text>get_feature_idxs</text>
+        <text encoding="base64">d2l0aCBvcGVuKHBhdGgsICJ3IikgYXMgd2Y6CiAgICAgICAgZm9yIChpdGVtICxjb3VudCkgaW4gc29ydGVkX2l0ZW1zOgogICAgICAgICAgICBwcmludCA+PndmLCAiJXNcdCVkIiAlIChpdGVtLCBjb3VudCkKICAgICAgICB3Zi5jbG9zZSgp</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBlbHNlOgo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text># if sent_idx != 31: # Put this off for later debugging.
+        #     continue</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3JhY2xlX2FjdGlvbiA9Cg==</text>
+      <register name="4" type="4">
+        <text encoding="base64">CiAgICB2ZXJiYWxpemF0aW9uX21hcCA9IHt9</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHN5c3RlbS5hcHBseShuZXdfY29uZmlnLCBvcmFjbGVfYWN0aW9uKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHN5c3RlCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG9yYWNsZV9hY3Rpb24gPSBhY3Rpb24K</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG5ld19jb25maWcuc3RhcnRfbmV3ID0gRmFsc2UK</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3JhY2xlX2FjdGlvbiA9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN5c3RlbS5hcHBseShuZXdfY29uZmlnLCBvcmFjbGVfYWN0aW9uKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>arcLabelDefault</last-search>
+      <last-search>curr_node</last-search>
       <last-offset />
-      <last-pattern>arcLabelDefault</last-pattern>
+      <last-pattern>curr_node</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -881,8 +882,16 @@
         <entry>canApply</entry>
         <entry>push_action</entry>
         <entry>getConcept</entry>
-        <entry>conceptToOutGo</entry>
         <entry>arcLabelDefault</entry>
+        <entry>op</entry>
+        <entry>ops_</entry>
+        <entry>ops</entry>
+        <entry>opcon</entry>
+        <entry>args.stats_dir</entry>
+        <entry>frequent_</entry>
+        <entry>saveCounter</entry>
+        <entry>conceptToOutGo</entry>
+        <entry>curr_node</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
@@ -914,10 +923,10 @@
         <entry>514</entry>
         <entry>250</entry>
         <entry>%s/token/action/g</entry>
-        <entry>1</entry>
         <entry>%s/phrase_feat/phase_feat/g</entry>
         <entry>151</entry>
         <entry>%s/cur_tok/cur_action/g</entry>
+        <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
