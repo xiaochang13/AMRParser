@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517287689582">
-        <mark key="'" line="326" column="28" />
-        <mark key="[" line="160" column="47" />
-        <mark key="]" line="161" column="7" />
-        <mark key="." line="161" column="7" />
-        <mark key="^" line="161" column="7" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517288748266">
+        <mark key="'" line="136" column="26" />
+        <mark key="[" line="165" column="38" />
+        <mark key="]" line="166" column="12" />
+        <mark key="." line="166" column="12" />
+        <mark key="^" line="166" column="12" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -568,8 +568,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="190" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="115" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="154" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="181" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="129" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
@@ -668,13 +666,15 @@
       <jump line="102" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="139" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="141" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="136" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="110" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>return</text>
+        <text>= self.cache_idx</text>
       </register>
       <register name="-" type="4">
-        <text>return</text>
+        <text>= self.cache_idx</text>
       </register>
       <register name="/" type="4">
         <text>getConcept</text>
