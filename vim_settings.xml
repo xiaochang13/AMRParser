@@ -511,13 +511,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517350930538">
-        <mark key="'" line="533" column="12" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517351735407">
+        <mark key="'" line="606" column="20" />
         <mark key="k" line="1041" column="34" />
-        <mark key="[" line="612" column="71" />
-        <mark key="]" line="612" column="76" />
+        <mark key="[" line="653" column="31" />
+        <mark key="]" line="653" column="32" />
         <mark key="^" line="612" column="76" />
-        <mark key="." line="612" column="76" />
+        <mark key="." line="653" column="32" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -573,7 +573,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="368" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="411" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="115" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="93" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
@@ -673,6 +672,7 @@
       <jump line="287" column="17" filename="$USER_HOME$/data_processing/utils.py" />
       <jump line="628" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="533" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="606" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -683,7 +683,7 @@
         <text encoding="base64">Y3Vycl9zeW0gPT0g</text>
       </register>
       <register name="/" type="4">
-        <text>getCategories</text>
+        <text>frequent_set +</text>
       </register>
       <register name="0" type="4">
         <text>.*-[0-9]+</text>
@@ -730,9 +730,9 @@
       </register>
     </registers>
     <search>
-      <last-search>getCategories</last-search>
+      <last-search>frequent_set +</last-search>
       <last-offset />
-      <last-pattern>getCategories</last-pattern>
+      <last-pattern>frequent_set +</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -916,6 +916,7 @@
         <entry>is_predicate</entry>
         <entry>category_info</entry>
         <entry>getCategories</entry>
+        <entry>frequent_set +</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
