@@ -106,8 +106,8 @@
         <mark key="." line="210" column="31" />
         <mark key="^" line="210" column="31" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517173322057">
-        <mark key="'" line="1930" column="39" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517338814970">
+        <mark key="'" line="345" column="4" />
         <mark key="[" line="2531" column="106" />
         <mark key="]" line="2531" column="109" />
         <mark key="^" line="2531" column="109" />
@@ -511,8 +511,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517074973058">
-        <mark key="'" line="583" column="74" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517338531417">
+        <mark key="'" line="556" column="20" />
         <mark key="k" line="1041" column="34" />
         <mark key="[" line="657" column="4" />
         <mark key="]" line="657" column="4" />
@@ -568,14 +568,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="247" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="188" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="208" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="197" column="55" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="115" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" />
-      <jump line="191" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="176" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="184" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="162" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="83" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="105" column="47" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
@@ -668,6 +660,14 @@
       <jump line="161" column="47" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="116" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
       <jump line="353" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="2296" column="55" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="645" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="566" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="556" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="734" column="19" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="338" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="339" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="345" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -677,7 +677,7 @@
         <text>curr_arc_action</text>
       </register>
       <register name="/" type="4">
-        <text>getConcept</text>
+        <text>arcLabelDefault</text>
       </register>
       <register name="0" type="4">
         <text>get_feature_idxs</text>
@@ -717,9 +717,9 @@
       </register>
     </registers>
     <search>
-      <last-search>getConcept</last-search>
+      <last-search>arcLabelDefault</last-search>
       <last-offset />
-      <last-pattern>getConcept</last-pattern>
+      <last-pattern>arcLabelDefault</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -881,6 +881,8 @@
         <entry>canApply</entry>
         <entry>push_action</entry>
         <entry>getConcept</entry>
+        <entry>conceptToOutGo</entry>
+        <entry>arcLabelDefault</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
