@@ -515,13 +515,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517379043675">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517383681354">
         <mark key="'" line="830" column="20" />
-        <mark key="k" line="1119" column="34" />
-        <mark key="[" line="830" column="50" />
-        <mark key="]" line="830" column="51" />
-        <mark key="." line="830" column="51" />
-        <mark key="^" line="830" column="51" />
+        <mark key="k" line="1097" column="34" />
+        <mark key="[" line="970" column="46" />
+        <mark key="]" line="972" column="13" />
+        <mark key="^" line="972" column="13" />
+        <mark key="." line="972" column="13" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -680,7 +680,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc29ydGVkX3NwYW5zLmFwcGVuZChuZXdfc3Bhbl9zZXFbMl0pCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
         <text>ile</text>
@@ -692,52 +692,34 @@
         <text>int(s.split(delimiter)[0].split(&quot;-&quot;))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc29ydGVkX3NwYW5zLmFwcGVuZChuZXdfc3Bhbl9zZXFbMl0pCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzb3J0ZWRfc3BhbnMgPSBbXQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBuZXdfaWR4ID0gc2luZ2xlX2RhdGVzW2lkeF0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhbGlnbmVkX3NldCB8PSBzZXQocmFuZ2Uoc3RhcnQsIGVuZCkpCg==</text>
+      <register name="4" type="4">
+        <text encoding="base64">IyAgICAgICAgIFBIUkFTRSA9ICcgJy5KT0lOKFRPS19TRVFbU1RBUlQ6RU5EXSkKICAgICAgICAgICAgIyAgICAgICAgIElGIFBIUkFTRSBJTiBFTlRJVFlfTUFQOgogICAgICAgICAgICAjICAgICAgICAgICAgIFBSSU5UICJESVNDT1ZFUkVEIEVOVElUWSBOQU1FOiIsIFBIUkFTRSwgRU5USVRZX01BUFtQSFJBU0VdCiAgICAgICAgICAgICMgICAgICAgICAgICAgRU5USVRZX1RZUCA9IEVOVElUWV9NQVBbUEhSQVNFXQogICAgICAgICAgICAjICAgICAgICAgICAgIElGIEVOVElUWV9UWVAgPT0gIlBFUiI6CiAgICAgICAgICAgICMgICAgICAgICAgICAgICAgIEVOVElUWV9UWVAgPSAoJ05FX1BFUlNPTicsICctJykKICAgICAgICAgICAgIyAgICAgICAgICAgICBFTFNFOgogICAgICAgICAgICAjICAgICAgICAgICAgICAgICBFTlRJVFlfVFlQID0gKCdORScsICctJykKCiAgICAgICAgICAgICMgICAgICAgICAgICAgRU5USVRZX1JFUFIgPSAiICIuSk9JTihUT0tfU0VRW1NUQVJUOiBFTkRdKQogICAgICAgICAgICAjICAgICAgICAgICAgIChORVdfU1RBUlQsIE5FV19FTkQpID0gU0VBUkNIU0VRKEVOVElUWV9SRVBSLlJFUExBQ0UoIiAiLCAiIiksIFRPS0VOSVpFRCwgTkVXX0lEWCwgQUxJR05FRF9ORVcpCiAgICAgICAgICAgICMgICAgICAgICAgICAgSUYgTkVXX1NUQVJUID09IC0xOgogICAgICAgICAgICAjICAgICAgICAgICAgICAgICBQUklOVCAiU09NRVRISU5HIFdST05HIFdJVEggU0VOVEVOQ0UgJUQiICUgU0VOVF9JRFgKICAgICAgICAgICAgIyAgICAgICAgICAgICAgICAgUFJJTlQgRU5USVRZX1JFUFIKICAgICAgICAgICAgIyAgICAgICAgICAgICAgICAgUFJJTlQgVE9LRU5JWkVECiAgICAgICAgICAgICMgICAgICAgICAgICAgICAgIFNZUy5FWElUKDEpCiAgICAgICAgICAgICMgICAgICAgICAgICAgTkVXX0VOVElUWV9TUEFOUy5BUFBFTkQoIiVELSVEIyMjIyVTIyMlUyIgJSAoTkVXX1NUQVJULCBORVdfRU5ELCBFTlRJVFlfVFlQWzBdLCBFTlRJVFlfVFlQWzFdKSkKICAgICAgICAgICAgIyAgICAgICAgICAgICBQUklOVCAiTkVSOiIsICIgIi5KT0lOKFRPS0VOSVpFRFtORVdfU1RBUlQ6TkVXX0VORF0pCiAgICAgICAgICAgICMgICAgICAgICAgICAgQ1VSUl9BTElHTkVEID0gU0VUKFJBTkdFKE5FV19TVEFSVCwgTkVXX0VORCkpCiAgICAgICAgICAgICMgICAgICAgICAgICAgQVNTRVJUIExFTihBTElHTkVEX05FVyAmIENVUlJfQUxJR05FRCkgPT0gMAogICAgICAgICAgICAjICAgICAgICAgICAgIEFMSUdORURfTkVXIHw9IENVUlJfQUxJR05FRAogICAgICAgICAgICAjICAgICAgICAgICAgTkVXX0lEWCA9IE5FV19FTkQ=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwZXJfbmFtZSA9IGZpcnN0X3Rva1sxOl0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgc29ydGVkX3NwYW5zLmFwcGVuZChuZXdfc3Bhbl9zZXFbMl0pCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCAiRGF0ZToiLCAiICIuam9pbih0b2tlbml6ZWRbbmV3X3N0YXJ0Om5ld19lbmRdKQo=</text>
+        <text encoding="base64">ICAgICAgICBzb3J0ZWRfc3BhbnMgPSBbXQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBuZXdfZGF0ZV9zcGFucy5hcHBlbmQoIiVkLSVkIyMlcyIgJSAobmV3X3N0YXJ0LCBuZXdfZW5kLCAiXyIuam9pbigpKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBuZXdfaWR4ID0gc2luZ2xlX2RhdGVzW2lkeF0K</text>
       </register>
-      <register name="8" type="4">
-        <text>#Align dates
-            new_idx = 0
-            for (start, end) in date_spans:
-                date_repr = &quot; &quot;.join(tok_seq[start:end])
-                if date_repr in mle_map and mle_map[date_repr][0] != &quot;DATE&quot;:
-                    # print &quot;Filtered dates:&quot;, date_repr, mle_map[date_repr]
-                    continue
-                (new_start, new_end) = searchSeq(date_repr.replace(&quot; &quot;, &quot;&quot;), tokenized, new_idx)
-                if new_start == -1:
-                    print &quot;Something wrong with sentence %d&quot; % sent_idx
-                    print date_repr
-                    print tokenized
-                    sys.exit(1)
-                new_date_spans.append(&quot;%d-%d&quot; % (new_start, new_end))
-                print &quot;Date:&quot;, &quot; &quot;.join(tokenized[new_start:new_end])
-                new_idx = new_end
-
-                aligned_set |= set(range(start, end))
-                aligned_new |= set(range(new_start, new_end))</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhbGlnbmVkX3NldCB8PSBzZXQocmFuZ2Uoc3RhcnQsIGVuZCkpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYWxpZ25lZF9uZXcgPSBzZXQoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwZXJfbmFtZSA9IGZpcnN0X3Rva1sxOl0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
