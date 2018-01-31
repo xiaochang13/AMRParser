@@ -515,13 +515,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517368139848">
-        <mark key="'" line="836" column="19" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517369405552">
+        <mark key="'" line="810" column="12" />
         <mark key="k" line="1041" column="34" />
-        <mark key="[" line="793" column="27" />
-        <mark key="]" line="794" column="25" />
-        <mark key="^" line="794" column="25" />
-        <mark key="." line="794" column="25" />
+        <mark key="[" line="886" column="24" />
+        <mark key="]" line="886" column="34" />
+        <mark key="^" line="886" column="34" />
+        <mark key="." line="886" column="34" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -577,10 +577,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="353" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="2296" column="55" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="645" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="566" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="734" column="19" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="338" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="339" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -676,33 +672,59 @@
       <jump line="772" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="783" column="43" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="836" column="19" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="840" column="38" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="754" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="860" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="884" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="810" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICNpZiBlbmQgLSBzdGFydCA+IDE6Cg==</text>
+      <register name="&quot;" type="4">
+        <text>span_to_type</text>
       </register>
       <register name="-" type="4">
-        <text>_seq</text>
+        <text>span_to_type</text>
       </register>
       <register name="/" type="4">
-        <text>date_set</text>
+        <text>span_to_typ</text>
       </register>
       <register name="0" type="4">
-        <text>print &quot;Something wrong with sentence %d&quot; % sent_idx
-                    print orig_seq
-                    print tokenized_seq
-                    print orig_idx, orig_tok
-                    print new_idx, tokenized_seq[new_idx]
-                    sys.exit(1)</text>
+        <text>(new_start, new_end) = searchSeq(date_repr.replace(&quot; &quot;, &quot;&quot;), tokenized, new_idx)
+                if new_start == -1:
+                    print &quot;Something wrong with sentence %d&quot; % sent_idx
+                    print date_repr
+                    print tokenized
+                    sys.exit(1)
+                new_date_spans.append(&quot;%d-%d&quot; % (new_start, new_end))
+                print &quot;Date:&quot;, &quot; &quot;.join(tokenized[new_start:new_end])
+                new_idx = new_end
+
+                aligned_set |= set(range(start, end))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICNpZiBlbmQgLSBzdGFydCA+IDE6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
+      <register name="2" type="4">
+        <text># all_spans.append((start, end, entity_typ))
+                # span_to_type[(start, end)] = (&quot;NONE&quot;, entity_typ[0], &quot;NONE&quot;)</text>
+      </register>
+      <register name="3" type="8">
+        <text>#
+#
+#
+#
+#
+#
+#
+#</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICNpZiBlbmQgLSBzdGFydCA+IDE6Cg==</text>
+      </register>
+      <register name="5" type="8">
         <text>#
 #
 #
@@ -735,35 +757,26 @@
 #
 #</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCBuZXdfaWR4LCB0b2tlbml6ZWRfc2VxW25ld19pZHhdCg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCBvcmlnX2lkeCwgb3JpZ190b2sK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCBvcmlnX2lkeCwgb3JpZ190b2sK</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">aWYgZW5kIC0gc3RhcnQgPiAxOgogICAgICAgICAgICAgICAgICAgIG5ld19hbGlnbmVkID0gc2V0KHhyYW5nZShzdGFydCwgZW5kKSkKICAgICAgICAgICAgICAgICAgICBhbGlnbmVkX3NldCB8PSBuZXdfYWxpZ25lZAogICAgICAgICAgICAgICAgICAgIGVudGl0eV9uYW1lID0gJyAnLmpvaW4odG9rX3NlcVtzdGFydDplbmRdKQogICAgICAgICAgICAgICAgICAgIGlmIGVudGl0eV9uYW1lIGluIG1sZV9tYXA6CiAgICAgICAgICAgICAgICAgICAgICAgIGVudGl0eV90eXAgPSBtbGVfbWFwW2VudGl0eV9uYW1lXQogICAgICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgICAgIGVudGl0eV90eXAgPSAoJ0RBVEUnLCAiTk9ORSIpCiAgICAgICAgICAgICAgICAgICAgYWxsX3NwYW5zLmFwcGVuZCgoc3RhcnQsIGVuZCwgZW50aXR5X3R5cCkpCiAgICAgICAgICAgICAgICAgICAgc3Bhbl90b190eXBlWyhzdGFydCwgZW5kKV0gPSAoIk5PTkUiLCAiREFURSIsICJOT05FIikKICAgICAgICAgICAgICAgICAgICBwcmludCAnRGF0ZTonLCBzdGFydCwgZW5kCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIGRhdGVfc2V0LmFkZChzdGFydCk=</text>
-      </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCBvcmlnX2lkeCwgb3JpZ190b2sK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCBvcmlnX2lkeCwgb3JpZ190b2sK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>date_set</last-search>
+      <last-search>span_to_typ</last-search>
       <last-offset />
-      <last-pattern>date_set</last-pattern>
+      <last-pattern>span_to_typ</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -960,6 +973,8 @@
         <entry>realign</entry>
         <entry>searchSeq</entry>
         <entry>date_set</entry>
+        <entry>entity_typ</entry>
+        <entry>span_to_typ</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
