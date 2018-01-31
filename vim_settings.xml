@@ -99,12 +99,12 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" timestamp="1517273137058">
         <mark key="'" line="174" column="25" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517426452114">
-        <mark key="'" line="39" column="25" />
-        <mark key="[" line="31" column="0" />
-        <mark key="]" line="31" column="0" />
-        <mark key="." line="31" column="0" />
-        <mark key="^" line="31" column="91" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517428133417">
+        <mark key="'" line="200" column="43" />
+        <mark key="[" line="363" column="71" />
+        <mark key="]" line="363" column="83" />
+        <mark key="." line="363" column="83" />
+        <mark key="^" line="363" column="83" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517340510938">
         <mark key="'" line="2201" column="65" />
@@ -583,12 +583,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="708" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="224" column="4" filename="$USER_HOME$/data_processing/utils.py" />
-      <jump line="703" column="14" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="415" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="666" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="416" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="339" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="705" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1050" column="11" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -683,59 +677,67 @@
       <jump line="375" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
       <jump line="262" column="21" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
       <jump line="37" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/dependency.py" />
+      <jump line="362" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="31" column="99" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="40" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="79" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="229" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="200" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>v</text>
       </register>
       <register name="-" type="4">
-        <text>train</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>use_multipl</text>
+        <text>concept_to_word</text>
       </register>
       <register name="0" type="4">
-        <text>&quot; &quot;.join([str(idx) for idx in self.concept_align])</text>
+        <text>os.path.join(output_dir, &quot;oracle_examples.json&quot;)</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>if not oracle_seq:
+                        continue</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhc3NlcnQgbGVuKGNvbmNlcHRfdG9fd29yZCkgPT0gbGVuKGNvbmNlcHRfc2VxKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAganNvbl9vdXRwdXQgPSBvcy5wYXRoLmpvaW4ob3V0cHV0X2RpciwgIm9yYWNsZV9leGFtcGxlcy5qc29uIikK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAganNvbl9vdXRwdXQgPSBvcy5wYXRoLmpvaW4ob3V0cHV0X2RpciwgIm9yYWNsZV9kZWNvZGUuanNvbiIpCg==</text>
       </register>
-      <register name="5" type="4">
-        <text># for tree in data_set.dep_trees:
-        #     tree.buildDepDist(tree.dist_threshold)</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgb3JhY2xlX3NlcSA9IAo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="7" type="4">
+        <text>oracle_example = OracleExample(tok_seq, lem_seq, pos_seq, concept_seq, feat_seq, oracle_seq,
+                                                       word_align, concept_align, concept_to_word)</text>
       </register>
-      <register name="8" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiB0cmFpbjoK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+      <register name="9" type="4">
+        <text>for feats in feat_seq:
+                        assert len(feats) == feat_dim, &quot;Feature dimensions not consistent: %s&quot; % str(feats)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>use_multipl</last-search>
+      <last-search>concept_to_word</last-search>
       <last-offset />
-      <last-pattern>use_multipl</last-pattern>
+      <last-pattern>concept_to_word</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -774,6 +776,8 @@
         <entry>NE&quot;</entry>
         <entry encoding="base64">XDxjb250aW51ZVw+</entry>
         <entry>use_multipl</entry>
+        <entry>train</entry>
+        <entry>concept_to_word</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
