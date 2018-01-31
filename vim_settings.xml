@@ -515,13 +515,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517374790291">
-        <mark key="'" line="868" column="44" />
-        <mark key="k" line="1104" column="34" />
-        <mark key="[" line="907" column="39" />
-        <mark key="]" line="907" column="40" />
-        <mark key="^" line="914" column="58" />
-        <mark key="." line="907" column="40" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517376464019">
+        <mark key="'" line="927" column="48" />
+        <mark key="k" line="1103" column="34" />
+        <mark key="[" line="912" column="80" />
+        <mark key="]" line="912" column="88" />
+        <mark key="^" line="912" column="88" />
+        <mark key="." line="912" column="88" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -577,10 +577,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2198" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2201" column="65" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="330" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="343" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="756" column="25" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1084" column="3" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="332" column="26" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -677,22 +673,26 @@
       <jump line="899" column="13" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="889" column="405" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="868" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="931" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="924" column="82" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="922" column="32" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="927" column="48" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>new_aligned</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>new_aligned</text>
+        <text>typ</text>
       </register>
       <register name="/" type="4">
-        <text>entity_map</text>
+        <text>Somethi</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">bmV3X2lkeCA9IDAKICAgICAgICAgICAgZm9yIChzdGFydCwgZW5kLCBlbnRpdHlfdHlwKSBpbiBlbnRpdGllc19pbl9zZW50OgogICAgICAgICAgICAgICAgIyBwcmludCAnZW50aXR5OicsICcgJy5qb2luKHRva19zZXFbc3RhcnQ6ZW5kXSksIGVudGl0eV90eXAKICAgICAgICAgICAgICAgIG5ld19hbGlnbmVkID0gc2V0KHhyYW5nZShzdGFydCwgZW5kKSkKICAgICAgICAgICAgICAgIGlmIGxlbihhbGlnbmVkX3NldCAmIG5ld19hbGlnbmVkKSAhPSAwOgogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICBhbGlnbmVkX3NldCB8PSBuZXdfYWxpZ25lZAogICAgICAgICAgICAgICAgZW50aXR5X25hbWUgPSAnICcuam9pbih0b2tfc2VxW3N0YXJ0OmVuZF0pCiAgICAgICAgICAgICAgICBpZiByZXBsYWNlU3ltYm9sKGVudGl0eV9uYW1lKSBpbiBtbGVfbWFwOgogICAgICAgICAgICAgICAgICAgIG5ld19uYW1lID0gcmVwbGFjZVN5bWJvbChlbnRpdHlfbmFtZSkKICAgICAgICAgICAgICAgICAgICBpZiBuZXdfbmFtZSAhPSBlbnRpdHlfbmFtZToKICAgICAgICAgICAgICAgICAgICAgICAgZW50aXR5X25hbWUgPSBuZXdfbmFtZQogICAgICAgICAgICAgICAgICAgICAgICBwcmludCAiUmVwbGFjZWQ6IiwgZW50aXR5X25hbWUKCiAgICAgICAgICAgICAgICBpZiBlbnRpdHlfbmFtZSBpbiBtbGVfbWFwOgogICAgICAgICAgICAgICAgICAgIGVudGl0eV90eXAgPSBtbGVfbWFwW2VudGl0eV9uYW1lXQogICAgICAgICAgICAgICAgICAgIGlmIG5vdCAiTkVfIiBpbiBlbnRpdHlfdHlwWzBdIGFuZCBlbnRpdHlfbmFtZS5sb3dlcigpIGluIG1sZV9tYXA6CiAgICAgICAgICAgICAgICAgICAgICAgIGVudGl0eV90eXAgPSBtbGVfbWFwW2VudGl0eV9uYW1lLmxvd2VyKCldCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIG5vdCAiTkVfIiBpbiBlbnRpdHlfdHlwWzBdOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgIlJlbW92ZWQgZGlzY292ZXJlZCBlbnRpdHk6IiwgZW50aXR5X25hbWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICAgICAgZWxpZiBzdGFydCA9PSAwIGFuZCBlbnRpdHlfbmFtZS5sb3dlcigpIGluIG1sZV9tYXA6CiAgICAgICAgICAgICAgICAgICAgZW50aXR5X3R5cCA9IG1sZV9tYXBbZW50aXR5X25hbWUubG93ZXIoKV0KICAgICAgICAgICAgICAgICAgICBpZiBub3QgIk5FXyIgaW4gZW50aXR5X3R5cFswXToKICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgIlJlbW92ZWQgZGlzY292ZXJlZCBlbnRpdHk6IiwgZW50aXR5X25hbWUKICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgICAgICBlbGlmIGVudGl0eV90eXAgPT0gIlBFUiI6CiAgICAgICAgICAgICAgICAgICAgZW50aXR5X3R5cCA9ICgnTkVfcGVyc29uJywgJy0nKQogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBlbnRpdHlfdHlwID0gKCdORScsICctJykKCiAgICAgICAgICAgICAgICBlbnRpdHlfcmVwciA9ICIgIi5qb2luKHRva19zZXFbc3RhcnQ6IGVuZF0pCiAgICAgICAgICAgICAgICAobmV3X3N0YXJ0LCBuZXdfZW5kKSA9IHNlYXJjaFNlcShlbnRpdHlfcmVwci5yZXBsYWNlKCIgIiwgIiIpLCB0b2tlbml6ZWQsIG5ld19pZHgsIGFsaWduZWRfbmV3KQogICAgICAgICAgICAgICAgaWYgbmV3X3N0YXJ0ID09IC0xOgogICAgICAgICAgICAgICAgICAgIHByaW50ICJIZXJlIiwgbmV3X2lkeAogICAgICAgICAgICAgICAgICAgIHByaW50ICJTb21ldGhpbmcgd3Jvbmcgd2l0aCBzZW50ZW5jZSAlZCIgJSBzZW50X2lkeAogICAgICAgICAgICAgICAgICAgIHByaW50IGVudGl0eV9yZXByCiAgICAgICAgICAgICAgICAgICAgcHJpbnQgdG9rZW5pemVkCiAgICAgICAgICAgICAgICAgICAgc3lzLmV4aXQoMSkKICAgICAgICAgICAgICAgIG5ld19lbnRpdHlfc3BhbnMuYXBwZW5kKCIlZC0lZCMjIyMlcyMjJXMiICUgKG5ld19zdGFydCwgbmV3X2VuZCwgZW50aXR5X3R5cFswXSwgZW50aXR5X3R5cFsxXSkpCiAgICAgICAgICAgICAgICBwcmludCAiTkVSOiIsICIgIi5qb2luKHRva2VuaXplZFtuZXdfc3RhcnQ6bmV3X2VuZF0pCiAgICAgICAgICAgICAgICBjdXJyX2FsaWduZWQgPSBzZXQocmFuZ2UobmV3X3N0YXJ0LCBuZXdfZW5kKSkKICAgICAgICAgICAgICAgIGFzc2VydCBsZW4oYWxpZ25lZF9uZXcgJiBjdXJyX2FsaWduZWQpID09IDAKICAgICAgICAgICAgICAgIGFsaWduZWRfbmV3IHw9IGN1cnJfYWxpZ25lZAogICAgICAgICAgICAgICAgbmV3X2lkeCA9IG5ld19lbmQKCiAgICAgICAgICAgICAgICBhbGlnbmVkX3NldCB8PSBzZXQocmFuZ2Uoc3RhcnQsIGVuZCkp</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">bmV3X2FsaWduZWQgPSBzZXQoeHJhbmdlKHN0YXJ0LCBlbmQpKQogICAgICAgICAgICAgICAgICAgIGlmIGxlbihhbGlnbmVkX3NldCAmIG5ld19hbGlnbmVkKSAhPSAwOgogICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZQ==</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -704,37 +704,40 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">bmV3X2FsaWduZWQgPSBzZXQoeHJhbmdlKHN0YXJ0LCBlbmQpKQogICAgICAgICAgICAgICAgICAgICAgICBpZiBsZW4oYWxpZ25lZF9zZXQgJiBuZXdfYWxpZ25lZCkgIT0gMDoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVl</text>
+        <text># print &quot;Discovered entity name:&quot;, entity_repr, entity_map[entity_repr]
+                        # aligned_set |= set(range(start, end))</text>
       </register>
-      <register name="5" type="4">
-        <text>for (start, end, entity_typ) in entities_in_sent:
-                # print 'entity:', ' '.join(tok_seq[start:end]), entity_typ</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZW50aXR5X3JlcHIgPSAiICIuam9pbih0b2tfc2VxW3N0YXJ0OiBlbmRdKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text># all_spans.append((start, end, entity_typ))
-                # span_to_type[(start, end)] = (&quot;NONE&quot;, entity_typ[0], &quot;NONE&quot;)</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBuZXdfaWR4ID0gbmV3X2VuZAo=</text>
+      <register name="8" type="4">
+        <text>if replaceSymbol(entity_repr) in mle_map:
+                            new_name = replaceSymbol(entity_repr)
+                            if new_name != entity_repr:
+                                entity_repr = new_name
+                                print &quot;Replaced:&quot;, entity_repr</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">KE5FV19TVEFSVCwgTkVXX0VORCkgPSBTRUFSQ0hTRVEoRklSU1RfVE9LLCBUT0tFTklaRUQsIDAsIEFMSUdORURfTkVXKSBORVdfRU5USVRZX1NQQU5TLkFQUEVORChORVdfU1RBUlQsIE5FV19FTkQsIEVOVElUWV9UWVBbMF0sIEVOVElUWV9UWVBbMV0pIEFTU0VSVCBMRU4oQUxJR05FRF9ORVcgJiBTRVQoUkFOR0UoTkVXX1NUQVJULCBORVdfRU5EKSkpID09IDAgQUxJR05FRF9ORVcgfD0gU0VUKFJBTkdFKE5FV19TVEFSVCwgTkVXX0VORCkpICMjQUxJR04gVEhJTkdTIFRIQVQgQVJFIElOIFRIRSBORVIgQUxJR04gTUFQIE5FV19JRFggPSAwIEZPUiBTVEFSVCBJTiBYUkFOR0UoTl9UT0tTKToKICAgICAgICAgICAgICAgIEZPUiBFTkQgSU4gWFJBTkdFKE5fVE9LUywgU1RBUlQsIC0xKToKICAgICAgICAgICAgICAgICAgICBORVdfQUxJR05FRCA9IFNFVChYUkFOR0UoU1RBUlQsIEVORCkpCiAgICAgICAgICAgICAgICAgICAgSUYgTEVOKEFMSUdORURfU0VUICYgTkVXX0FMSUdORUQpICE9IDA6CiAgICAgICAgICAgICAgICAgICAgICAgIENPTlRJTlVF</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZW50aXR5X25hbWUgPSAnICcuam9pbih0b2tfc2VxW3N0YXJ0OmVuZF0pCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>entity_map</last-search>
+      <last-search>Somethi</last-search>
       <last-offset />
-      <last-pattern>entity_map</last-pattern>
+      <last-pattern>Somethi</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
@@ -758,6 +761,8 @@
         <entry>entity_typ</entry>
         <entry>span_to_typ</entry>
         <entry>entity_map</entry>
+        <entry>entity_name</entry>
+        <entry>Somethi</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
