@@ -99,12 +99,12 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" timestamp="1517273137058">
         <mark key="'" line="174" column="25" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517336114782">
-        <mark key="'" line="161" column="47" />
-        <mark key="[" line="208" column="94" />
-        <mark key="]" line="210" column="31" />
-        <mark key="." line="210" column="31" />
-        <mark key="^" line="210" column="31" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517421873775">
+        <mark key="'" line="33" column="88" />
+        <mark key="[" line="33" column="88" />
+        <mark key="]" line="33" column="92" />
+        <mark key="." line="33" column="92" />
+        <mark key="^" line="33" column="92" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517340510938">
         <mark key="'" line="2201" column="65" />
@@ -391,12 +391,12 @@
         <mark key="." line="26" column="18" />
         <mark key="^" line="26" column="18" />
       </file>
-      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1517414788280">
+      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1517421623716">
         <mark key="'" line="291" column="17" />
-        <mark key="[" line="313" column="0" />
-        <mark key="]" line="313" column="1" />
-        <mark key="^" line="313" column="1" />
-        <mark key="." line="313" column="1" />
+        <mark key="[" line="313" column="22" />
+        <mark key="]" line="313" column="21" />
+        <mark key="^" line="313" column="21" />
+        <mark key="." line="313" column="21" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -515,13 +515,9 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517417806956">
-        <mark key="'" line="866" column="24" />
-        <mark key="k" line="1110" column="34" />
-        <mark key="[" line="782" column="4" />
-        <mark key="]" line="782" column="87" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517421433542">
+        <mark key="k" line="1108" column="34" />
         <mark key="^" line="782" column="4" />
-        <mark key="." line="782" column="4" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -577,7 +573,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="651" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="654" column="35" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="465" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="357" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -677,16 +672,17 @@
       <jump line="848" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="754" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="865" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="33" column="88" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>v</text>
+        <text>use_multiple</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>use_multiple</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjb250aW51ZVw+</text>
+        <text>use_multipl</text>
       </register>
       <register name="0" type="4">
         <text>int(s.split(delimiter)[0].split(&quot;-&quot;))</text>
@@ -698,42 +694,43 @@
         <text />
       </register>
       <register name="2" type="4">
+        <text># print &quot;Entity should mapped to NONE: %s&quot; % entity_name
+                        # continue</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="4" type="4">
         <text>elif entity_typ[0] == &quot;NONE&quot;:
                             entity_typ = (&quot;NE&quot;, &quot;-&quot;)</text>
       </register>
-      <register name="3" type="8">
+      <register name="5" type="8">
         <text encoding="base64">IyAKIyAKIyA=</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text>if entity_repr in mle_map and mle_map[entity_repr][0] == &quot;NONE&quot;:
                             continue</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxjb250aW51ZVw+</last-search>
+      <last-search>use_multipl</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjb250aW51ZVw+</last-pattern>
+      <last-pattern>use_multipl</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
@@ -768,6 +765,7 @@
         <entry>subgraph</entry>
         <entry>NE&quot;</entry>
         <entry encoding="base64">XDxjb250aW51ZVw+</entry>
+        <entry>use_multipl</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
