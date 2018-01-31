@@ -391,12 +391,12 @@
         <mark key="." line="26" column="18" />
         <mark key="^" line="26" column="18" />
       </file>
-      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1517359020217">
-        <mark key="'" line="290" column="17" />
-        <mark key="[" line="304" column="0" />
-        <mark key="]" line="304" column="1" />
-        <mark key="." line="304" column="1" />
-        <mark key="^" line="304" column="1" />
+      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1517373903491">
+        <mark key="'" line="291" column="17" />
+        <mark key="[" line="41" column="67" />
+        <mark key="]" line="41" column="68" />
+        <mark key="^" line="42" column="23" />
+        <mark key="." line="41" column="68" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -515,13 +515,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517369405552">
-        <mark key="'" line="810" column="12" />
-        <mark key="k" line="1041" column="34" />
-        <mark key="[" line="886" column="24" />
-        <mark key="]" line="886" column="34" />
-        <mark key="^" line="886" column="34" />
-        <mark key="." line="886" column="34" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517373978316">
+        <mark key="'" line="868" column="44" />
+        <mark key="k" line="1051" column="34" />
+        <mark key="[" line="893" column="53" />
+        <mark key="]" line="893" column="61" />
+        <mark key="^" line="893" column="61" />
+        <mark key="." line="893" column="61" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -577,11 +577,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="734" column="19" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="338" column="22" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="339" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="345" column="4" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2129" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2198" column="18" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="2201" column="65" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="330" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -670,23 +665,28 @@
       <jump line="811" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="823" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="772" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="783" column="43" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="836" column="19" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="840" column="38" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="754" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="860" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="884" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="810" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="905" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="906" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="783" column="22" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="899" column="13" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="889" column="405" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="868" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>span_to_type</text>
+        <text>.replace(&quot; &quot;, &quot;&quot;)</text>
       </register>
       <register name="-" type="4">
-        <text>span_to_type</text>
+        <text>.replace(&quot; &quot;, &quot;&quot;)</text>
       </register>
       <register name="/" type="4">
-        <text>span_to_typ</text>
+        <text>entity_map</text>
       </register>
       <register name="0" type="4">
         <text>(new_start, new_end) = searchSeq(date_repr.replace(&quot; &quot;, &quot;&quot;), tokenized, new_idx)
@@ -699,30 +699,23 @@
                 print &quot;Date:&quot;, &quot; &quot;.join(tokenized[new_start:new_end])
                 new_idx = new_end
 
-                aligned_set |= set(range(start, end))</text>
+                aligned_set |= set(range(start, end))
+                aligned_new |= set(range(new_start, new_end))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBuZXdfaWR4ID0gbmV3X2VuZAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="4">
-        <text># all_spans.append((start, end, entity_typ))
-                # span_to_type[(start, end)] = (&quot;NONE&quot;, entity_typ[0], &quot;NONE&quot;)</text>
+        <text encoding="base64">KE5FV19TVEFSVCwgTkVXX0VORCkgPSBTRUFSQ0hTRVEoRklSU1RfVE9LLCBUT0tFTklaRUQsIDAsIEFMSUdORURfTkVXKSBORVdfRU5USVRZX1NQQU5TLkFQUEVORChORVdfU1RBUlQsIE5FV19FTkQsIEVOVElUWV9UWVBbMF0sIEVOVElUWV9UWVBbMV0pIEFTU0VSVCBMRU4oQUxJR05FRF9ORVcgJiBTRVQoUkFOR0UoTkVXX1NUQVJULCBORVdfRU5EKSkpID09IDAgQUxJR05FRF9ORVcgfD0gU0VUKFJBTkdFKE5FV19TVEFSVCwgTkVXX0VORCkpICMjQUxJR04gVEhJTkdTIFRIQVQgQVJFIElOIFRIRSBORVIgQUxJR04gTUFQIE5FV19JRFggPSAwIEZPUiBTVEFSVCBJTiBYUkFOR0UoTl9UT0tTKToKICAgICAgICAgICAgICAgIEZPUiBFTkQgSU4gWFJBTkdFKE5fVE9LUywgU1RBUlQsIC0xKToKICAgICAgICAgICAgICAgICAgICBORVdfQUxJR05FRCA9IFNFVChYUkFOR0UoU1RBUlQsIEVORCkpCiAgICAgICAgICAgICAgICAgICAgSUYgTEVOKEFMSUdORURfU0VUICYgTkVXX0FMSUdORUQpICE9IDA6CiAgICAgICAgICAgICAgICAgICAgICAgIENPTlRJTlVF</text>
       </register>
-      <register name="3" type="8">
-        <text>#
-#
-#
-#
-#
-#
-#
-#</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgc3Bhbl90b190eXBlWyhzdGFydCwgZW5kKV0gPSAoIk5PTkUiLCBlbnRpdHlfdHlwWzBdLCAiTk9ORSIpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICNpZiBlbmQgLSBzdGFydCA+IDE6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBhbGxfc3BhbnMuYXBwZW5kKChzdGFydCwgZW5kLCBlbnRpdHlfdHlwKSkK</text>
       </register>
       <register name="5" type="8">
         <text>#
@@ -739,223 +732,36 @@
 #
 #
 #
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
 #</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICNwcmludCAiICIuam9pbihzZXFbaW5kZXg6XSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCBuZXdfaWR4LCB0b2tlbml6ZWRfc2VxW25ld19pZHhdCg==</text>
+        <text encoding="base64">ICAgICNwcmludCBzLCByZS5zdWIocmVfc3ltYm9scywgIiIsIHMpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCBvcmlnX2lkeCwgb3JpZ190b2sK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwcmludCBvcmlnX2lkeCwgb3JpZ190b2sK</text>
+      <register name="9" type="4">
+        <text>#else:
+            #    print &quot;test:&quot;, s, curr_seq, re.sub(re_symbols, &quot;&quot;, curr_seq), &quot;False&quot;</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>span_to_typ</last-search>
+      <last-search>entity_map</last-search>
       <last-offset />
-      <last-pattern>span_to_typ</last-pattern>
+      <last-pattern>entity_map</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>set_root</entry>
-        <entry>set</entry>
-        <entry>.root</entry>
-        <entry>roots</entry>
-        <entry>self.root</entry>
-        <entry>frag.root</entry>
-        <entry>\.root</entry>
-        <entry>build_outs</entry>
-        <entry>build_outside</entry>
-        <entry>build_entity_frag</entry>
-        <entry>set_node</entry>
-        <entry>inside_tree_dec</entry>
-        <entry>extract</entry>
-        <entry>inside_rule_st</entry>
-        <entry>addEdge</entry>
-        <entry>set_core</entry>
-        <entry>_index</entry>
-        <entry>filterNoise</entry>
-        <entry>incoming</entry>
-        <entry>conll</entry>
-        <entry>new_alignment</entry>
-        <entry>isTrain</entry>
-        <entry>Everything shoul</entry>
-        <entry>collapsed</entry>
-        <entry>mergeNodes</entry>
-        <entry>span_to_nodes</entry>
-        <entry>start == 14</entry>
-        <entry>14</entry>
-        <entry>all_alignment</entry>
-        <entry>span_to</entry>
-        <entry>ex</entry>
-        <entry>categorized</entry>
-        <entry>Categorized</entry>
-        <entry>all_alignments</entry>
-        <entry>aligned_tok</entry>
-        <entry>new_alignm</entry>
-        <entry>all_align</entry>
-        <entry>get_sym</entry>
-        <entry>colla</entry>
-        <entry>exclude_rels</entry>
-        <entry>RRB</entry>
-        <entry>`</entry>
-        <entry>align</entry>
-        <entry>print</entry>
-        <entry>conll_wf</entry>
-        <entry>root_num</entry>
-        <entry>outgoing_rels</entry>
-        <entry>root</entry>
-        <entry>curr_idx</entry>
-        <entry>buildRelMap</entry>
-        <entry>head.add</entry>
-        <entry encoding="base64">XDxwcmludFw+</entry>
-        <entry>succed</entry>
-        <entry>succeed</entry>
-        <entry>feat_seq</entry>
-        <entry>Failed sent</entry>
-        <entry>getConceptA</entry>
-        <entry>apply</entry>
-        <entry>getToken</entry>
-        <entry>#</entry>
-        <entry>#dep</entry>
-        <entry>chooseCa</entry>
-        <entry>rel_map</entry>
-        <entry>needsPop()</entry>
-        <entry>head</entry>
-        <entry>headTo</entry>
-        <entry>chooseCache</entry>
-        <entry>choose</entry>
-        <entry>right_edges_set</entry>
-        <entry>widTo</entry>
-        <entry>headToTai</entry>
-        <entry>chooseVertex</entry>
-        <entry>tailTo</entry>
-        <entry>popBuffer</entry>
-        <entry>needsPop</entry>
-        <entry>push_idx</entry>
-        <entry>decision_idx</entry>
-        <entry>oracle</entry>
-        <entry>loadDep</entry>
-        <entry>linearizeData</entry>
-        <entry>phrase_map</entry>
-        <entry>aligned_toks</entry>
-        <entry>ngram_c</entry>
-        <entry>ngram_coun</entry>
-        <entry>ner_file</entry>
-        <entry>mleLemmaMap</entry>
-        <entry>lemma2counts</entry>
-        <entry>loadMa</entry>
-        <entry>load</entry>
-        <entry>def load</entry>
-        <entry>loadMap</entry>
-        <entry>dateMap</entry>
-        <entry>check_to</entry>
-        <entry>categorize</entry>
-        <entry>phrase_freq</entry>
-        <entry>phrase_counts</entry>
-        <entry>class</entry>
-        <entry>Todo</entry>
-        <entry>token</entry>
-        <entry>util.hgraph</entry>
-        <entry>Hypothesis</entry>
-        <entry>beam search</entry>
-        <entry>tok_size</entry>
-        <entry>extend</entry>
-        <entry>options</entry>
-        <entry>FLAGS</entry>
-        <entry>args</entry>
-        <entry>self.buffer</entry>
-        <entry>predict</entry>
-        <entry>trainSet</entry>
-        <entry>all_questions</entry>
-        <entry>batch</entry>
-        <entry>batch.instances</entry>
-        <entry>calssmethod</entry>
-        <entry encoding="base64">XDxzZWxmXD4=</entry>
-        <entry>feed</entry>
-        <entry>train_set</entry>
-        <entry>trainset</entry>
-        <entry>trainDataStream</entry>
-        <entry>max_answer</entry>
-        <entry>graph</entry>
-        <entry>train_graph</entry>
-        <entry>arc_actionIDs</entry>
-        <entry>results</entry>
-        <entry>def apply</entry>
-        <entry>feature_type</entry>
-        <entry>pushIDXFeat</entry>
-        <entry>getCacheFeat</entry>
-        <entry>pushIDX</entry>
-        <entry>phrase_feat</entry>
-        <entry>151</entry>
-        <entry>word_idx</entry>
-        <entry>self</entry>
-        <entry>config</entry>
-        <entry>extract_fea</entry>
-        <entry>extractFeatures</entry>
-        <entry>concept_idx</entry>
-        <entry>ARCBINARY</entry>
-        <entry>phase</entry>
-        <entry>PHASE</entry>
-        <entry>#PA</entry>
-        <entry>hypothesis.count</entry>
-        <entry>needs</entry>
-        <entry>generator</entry>
-        <entry>self.generator</entry>
-        <entry>POS_vocab</entry>
-        <entry>feat_vocab</entry>
-        <entry>topk_ids</entry>
-        <entry>cur_tok</entry>
-        <entry>trans_system</entry>
-        <entry>canApply</entry>
-        <entry>push_action</entry>
-        <entry>getConcept</entry>
-        <entry>arcLabelDefault</entry>
-        <entry>op</entry>
-        <entry>ops_</entry>
-        <entry>ops</entry>
-        <entry>opcon</entry>
-        <entry>args.stats_dir</entry>
-        <entry>frequent_</entry>
-        <entry>saveCounter</entry>
-        <entry>conceptToOutGo</entry>
-        <entry>curr_node</entry>
-        <entry>concept_counts</entry>
-        <entry>saveMLE</entry>
-        <entry>multi_map</entry>
-        <entry>root_entity_num</entry>
-        <entry>op_concepts</entry>
-        <entry>concept_I</entry>
-        <entry>is_pse</entry>
-        <entry>isspecial</entry>
-        <entry>isNumber</entry>
         <entry>is_predicate</entry>
         <entry>category_info</entry>
         <entry>getCategories</entry>
@@ -975,23 +781,9 @@
         <entry>date_set</entry>
         <entry>entity_typ</entry>
         <entry>span_to_typ</entry>
+        <entry>entity_map</entry>
       </history-search>
       <history-cmd>
-        <entry>504</entry>
-        <entry>523</entry>
-        <entry>234</entry>
-        <entry>513</entry>
-        <entry>868</entry>
-        <entry encoding="base64">JzwsJz5jYWxsIFZpc3VhbFNlYXJjaCgnYicp</entry>
-        <entry>833</entry>
-        <entry>%s/node_index/node_idx/g</entry>
-        <entry>%s/node_label/curr_sym/g</entry>
-        <entry>462</entry>
-        <entry>506</entry>
-        <entry>1124</entry>
-        <entry>955</entry>
-        <entry>243</entry>
-        <entry>68</entry>
         <entry>317</entry>
         <entry>%s/_index/_idx/g</entry>
         <entry>567</entry>
