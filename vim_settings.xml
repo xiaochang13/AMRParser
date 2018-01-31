@@ -515,13 +515,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517367128618">
-        <mark key="'" line="783" column="43" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517368139848">
+        <mark key="'" line="836" column="19" />
         <mark key="k" line="1041" column="34" />
-        <mark key="[" line="814" column="20" />
-        <mark key="]" line="814" column="21" />
-        <mark key="^" line="814" column="21" />
-        <mark key="." line="814" column="21" />
+        <mark key="[" line="793" column="27" />
+        <mark key="]" line="794" column="25" />
+        <mark key="^" line="794" column="25" />
+        <mark key="." line="794" column="25" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -577,8 +577,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="161" column="47" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="116" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
       <jump line="353" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="2296" column="55" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="645" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -677,6 +675,8 @@
       <jump line="823" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="772" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="783" column="43" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="836" column="19" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="754" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
