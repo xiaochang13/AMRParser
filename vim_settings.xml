@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517433803544">
-        <mark key="'" line="401" column="11" />
-        <mark key="[" line="247" column="19" />
-        <mark key="]" line="247" column="25" />
-        <mark key="." line="247" column="25" />
-        <mark key="^" line="247" column="25" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517436182719">
+        <mark key="'" line="89" column="17" />
+        <mark key="[" line="243" column="17" />
+        <mark key="]" line="244" column="75" />
+        <mark key="." line="244" column="75" />
+        <mark key="^" line="244" column="75" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -583,9 +583,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="606" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="653" column="23" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="612" column="31" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="527" column="25" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="19" column="21" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="429" column="55" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -683,6 +680,9 @@
       <jump line="242" column="66" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="247" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="401" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="261" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" />
+      <jump line="245" column="69" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="89" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -692,7 +692,7 @@
         <text>extract decoding examples</text>
       </register>
       <register name="/" type="4">
-        <text>vocab</text>
+        <text>run</text>
       </register>
       <register name="0" type="4">
         <text>argparser.add_argument(&quot;--decode&quot;, action=&quot;store_true&quot;, help=&quot;if to extract decoding examples.&quot;)</text>
@@ -739,9 +739,9 @@
       </register>
     </registers>
     <search>
-      <last-search>vocab</last-search>
+      <last-search>run</last-search>
       <last-offset />
-      <last-pattern>vocab</last-pattern>
+      <last-pattern>run</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -784,6 +784,7 @@
         <entry>concept_to_word</entry>
         <entry>loadD</entry>
         <entry>vocab</entry>
+        <entry>run</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
