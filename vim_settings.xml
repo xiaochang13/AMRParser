@@ -515,13 +515,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517416160131">
-        <mark key="'" line="848" column="24" />
-        <mark key="k" line="1107" column="34" />
-        <mark key="[" line="797" column="12" />
-        <mark key="]" line="797" column="12" />
-        <mark key="^" line="797" column="12" />
-        <mark key="." line="797" column="12" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517417806956">
+        <mark key="'" line="866" column="24" />
+        <mark key="k" line="1110" column="34" />
+        <mark key="[" line="782" column="4" />
+        <mark key="]" line="782" column="87" />
+        <mark key="^" line="782" column="4" />
+        <mark key="." line="782" column="4" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -577,7 +577,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="172" column="24" filename="$USER_HOME$/data_processing/utils.py" />
       <jump line="651" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="654" column="35" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="465" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -677,16 +676,17 @@
       <jump line="983" column="58" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="848" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="754" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="865" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+      <register name="&quot;" type="4">
+        <text>v</text>
       </register>
       <register name="-" type="4">
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>NE&quot;</text>
+        <text encoding="base64">XDxjb250aW51ZVw+</text>
       </register>
       <register name="0" type="4">
         <text>int(s.split(delimiter)[0].split(&quot;-&quot;))</text>
@@ -697,42 +697,43 @@
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>elif entity_typ[0] == &quot;NONE&quot;:
+                            entity_typ = (&quot;NE&quot;, &quot;-&quot;)</text>
       </register>
-      <register name="3" type="4">
-        <text>if entity_repr in mle_map and mle_map[entity_repr][0] == &quot;NONE&quot;:
-                            continue</text>
+      <register name="3" type="8">
+        <text encoding="base64">IyAKIyAKIyA=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>if entity_repr in mle_map and mle_map[entity_repr][0] == &quot;NONE&quot;:
+                            continue</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">IyAgICAgICAgIFBIUkFTRSA9ICcgJy5KT0lOKFRPS19TRVFbU1RBUlQ6RU5EXSkKICAgICAgICAgICAgIyAgICAgICAgIElGIFBIUkFTRSBJTiBFTlRJVFlfTUFQOgogICAgICAgICAgICAjICAgICAgICAgICAgIFBSSU5UICJESVNDT1ZFUkVEIEVOVElUWSBOQU1FOiIsIFBIUkFTRSwgRU5USVRZX01BUFtQSFJBU0VdCiAgICAgICAgICAgICMgICAgICAgICAgICAgRU5USVRZX1RZUCA9IEVOVElUWV9NQVBbUEhSQVNFXQogICAgICAgICAgICAjICAgICAgICAgICAgIElGIEVOVElUWV9UWVAgPT0gIlBFUiI6CiAgICAgICAgICAgICMgICAgICAgICAgICAgICAgIEVOVElUWV9UWVAgPSAoJ05FX1BFUlNPTicsICctJykKICAgICAgICAgICAgIyAgICAgICAgICAgICBFTFNFOgogICAgICAgICAgICAjICAgICAgICAgICAgICAgICBFTlRJVFlfVFlQID0gKCdORScsICctJykKCiAgICAgICAgICAgICMgICAgICAgICAgICAgRU5USVRZX1JFUFIgPSAiICIuSk9JTihUT0tfU0VRW1NUQVJUOiBFTkRdKQogICAgICAgICAgICAjICAgICAgICAgICAgIChORVdfU1RBUlQsIE5FV19FTkQpID0gU0VBUkNIU0VRKEVOVElUWV9SRVBSLlJFUExBQ0UoIiAiLCAiIiksIFRPS0VOSVpFRCwgTkVXX0lEWCwgQUxJR05FRF9ORVcpCiAgICAgICAgICAgICMgICAgICAgICAgICAgSUYgTkVXX1NUQVJUID09IC0xOgogICAgICAgICAgICAjICAgICAgICAgICAgICAgICBQUklOVCAiU09NRVRISU5HIFdST05HIFdJVEggU0VOVEVOQ0UgJUQiICUgU0VOVF9JRFgKICAgICAgICAgICAgIyAgICAgICAgICAgICAgICAgUFJJTlQgRU5USVRZX1JFUFIKICAgICAgICAgICAgIyAgICAgICAgICAgICAgICAgUFJJTlQgVE9LRU5JWkVECiAgICAgICAgICAgICMgICAgICAgICAgICAgICAgIFNZUy5FWElUKDEpCiAgICAgICAgICAgICMgICAgICAgICAgICAgTkVXX0VOVElUWV9TUEFOUy5BUFBFTkQoIiVELSVEIyMjIyVTIyMlUyIgJSAoTkVXX1NUQVJULCBORVdfRU5ELCBFTlRJVFlfVFlQWzBdLCBFTlRJVFlfVFlQWzFdKSkKICAgICAgICAgICAgIyAgICAgICAgICAgICBQUklOVCAiTkVSOiIsICIgIi5KT0lOKFRPS0VOSVpFRFtORVdfU1RBUlQ6TkVXX0VORF0pCiAgICAgICAgICAgICMgICAgICAgICAgICAgQ1VSUl9BTElHTkVEID0gU0VUKFJBTkdFKE5FV19TVEFSVCwgTkVXX0VORCkpCiAgICAgICAgICAgICMgICAgICAgICAgICAgQVNTRVJUIExFTihBTElHTkVEX05FVyAmIENVUlJfQUxJR05FRCkgPT0gMAogICAgICAgICAgICAjICAgICAgICAgICAgIEFMSUdORURfTkVXIHw9IENVUlJfQUxJR05FRAogICAgICAgICAgICAjICAgICAgICAgICAgTkVXX0lEWCA9IE5FV19FTkQ=</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc29ydGVkX3NwYW5zLmFwcGVuZChuZXdfc3Bhbl9zZXFbMl0pCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzb3J0ZWRfc3BhbnMgPSBbXQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>NE&quot;</last-search>
+      <last-search encoding="base64">XDxjb250aW51ZVw+</last-search>
       <last-offset />
-      <last-pattern>NE&quot;</last-pattern>
+      <last-pattern encoding="base64">XDxjb250aW51ZVw+</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
@@ -766,6 +767,7 @@
         <entry>isTrain</entry>
         <entry>subgraph</entry>
         <entry>NE&quot;</entry>
+        <entry encoding="base64">XDxjb250aW51ZVw+</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
