@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517431702191">
-        <mark key="'" line="24" column="0" />
-        <mark key="[" line="9" column="19" />
-        <mark key="]" line="10" column="19" />
-        <mark key="." line="10" column="19" />
-        <mark key="^" line="10" column="19" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517432831072">
+        <mark key="'" line="422" column="36" />
+        <mark key="[" line="421" column="17" />
+        <mark key="]" line="422" column="54" />
+        <mark key="." line="422" column="54" />
+        <mark key="^" line="422" column="54" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -99,10 +99,10 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" timestamp="1517273137058">
         <mark key="'" line="174" column="25" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517432051633">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517432650100">
         <mark key="'" line="42" column="19" />
-        <mark key="[" line="5" column="11" />
-        <mark key="]" line="5" column="19" />
+        <mark key="[" line="355" column="4" />
+        <mark key="]" line="355" column="99" />
         <mark key="." line="5" column="19" />
         <mark key="^" line="5" column="19" />
       </file>
@@ -583,8 +583,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="990" column="11" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="731" column="21" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="745" column="24" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="648" column="29" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="1036" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -683,19 +681,21 @@
       <jump line="15" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" />
       <jump line="48" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="262" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
+      <jump line="421" column="54" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="422" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>return</text>
+        <text>extract decoding examples</text>
       </register>
       <register name="-" type="4">
-        <text>return</text>
+        <text>extract decoding examples</text>
       </register>
       <register name="/" type="4">
         <text>loadD</text>
       </register>
       <register name="0" type="4">
-        <text>os.path.join(output_dir, &quot;oracle_examples.json&quot;)</text>
+        <text>argparser.add_argument(&quot;--decode&quot;, action=&quot;store_true&quot;, help=&quot;if to extract decoding examples.&quot;)</text>
       </register>
       <register name="1" type="4">
         <text>&quot;&quot;&quot;
