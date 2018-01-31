@@ -99,12 +99,12 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" timestamp="1517273137058">
         <mark key="'" line="174" column="25" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517421873775">
-        <mark key="'" line="33" column="88" />
-        <mark key="[" line="33" column="88" />
-        <mark key="]" line="33" column="92" />
-        <mark key="." line="33" column="92" />
-        <mark key="^" line="33" column="92" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517422880102">
+        <mark key="'" line="230" column="46" />
+        <mark key="[" line="80" column="16" />
+        <mark key="]" line="80" column="16" />
+        <mark key="." line="80" column="16" />
+        <mark key="^" line="231" column="92" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517340510938">
         <mark key="'" line="2201" column="65" />
@@ -131,6 +131,12 @@
         <mark key="]" line="329" column="46" />
         <mark key="^" line="329" column="46" />
         <mark key="." line="329" column="46" />
+      </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle_data.py" timestamp="1517422684566">
+        <mark key="[" line="22" column="99" />
+        <mark key="]" line="23" column="32" />
+        <mark key="^" line="23" column="32" />
+        <mark key="." line="23" column="32" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" timestamp="1517191564350">
         <mark key="[" line="15" column="0" />
@@ -573,8 +579,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="654" column="35" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="465" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="357" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="386" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="390" column="23" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -673,52 +677,54 @@
       <jump line="754" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="865" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="33" column="88" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="230" column="46" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="2" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle_data.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>use_multiple</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name="-" type="4">
-        <text>use_multiple</text>
+        <text>concept_align</text>
       </register>
       <register name="/" type="4">
         <text>use_multipl</text>
       </register>
       <register name="0" type="4">
-        <text>int(s.split(delimiter)[0].split(&quot;-&quot;))</text>
+        <text>&quot; &quot;.join([str(idx) for idx in self.concept_align])</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+      <register name="1" type="8">
+        <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="3" type="4">
         <text># print &quot;Entity should mapped to NONE: %s&quot; % entity_name
                         # continue</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>elif entity_typ[0] == &quot;NONE&quot;:
                             entity_typ = (&quot;NE&quot;, &quot;-&quot;)</text>
       </register>
-      <register name="5" type="8">
+      <register name="6" type="8">
         <text encoding="base64">IyAKIyAKIyA=</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>if entity_repr in mle_map and mle_map[entity_repr][0] == &quot;NONE&quot;:
                             continue</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
