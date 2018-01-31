@@ -515,8 +515,8 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517383681354">
-        <mark key="'" line="830" column="20" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517384483028">
+        <mark key="'" line="1064" column="4" />
         <mark key="k" line="1097" column="34" />
         <mark key="[" line="970" column="46" />
         <mark key="]" line="972" column="13" />
@@ -577,8 +577,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="332" column="26" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="331" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1093" column="14" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="650" column="5" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="675" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -677,6 +675,8 @@
       <jump line="927" column="48" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="68" column="33" filename="$USER_HOME$/data_processing/entities.py" />
       <jump line="830" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1075" column="35" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1064" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -686,7 +686,7 @@
         <text>ile</text>
       </register>
       <register name="/" type="4">
-        <text>new_date_spans</text>
+        <text>buildLinearEnt</text>
       </register>
       <register name="0" type="4">
         <text>int(s.split(delimiter)[0].split(&quot;-&quot;))</text>
@@ -726,9 +726,9 @@
       </register>
     </registers>
     <search>
-      <last-search>new_date_spans</last-search>
+      <last-search>buildLinearEnt</last-search>
       <last-offset />
-      <last-pattern>new_date_spans</last-pattern>
+      <last-pattern>buildLinearEnt</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -760,6 +760,7 @@
         <entry>Somethi</entry>
         <entry>entities with</entry>
         <entry>new_date_spans</entry>
+        <entry>buildLinearEnt</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
