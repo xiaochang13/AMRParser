@@ -267,8 +267,8 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/data_processing/entities.py" timestamp="1517366928770">
-        <mark key="'" line="45" column="24" />
+      <file name="$USER_HOME$/data_processing/entities.py" timestamp="1517377419693">
+        <mark key="'" line="68" column="33" />
         <mark key="[" line="68" column="32" />
         <mark key="]" line="68" column="33" />
         <mark key="^" line="68" column="33" />
@@ -515,13 +515,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517376464019">
-        <mark key="'" line="927" column="48" />
-        <mark key="k" line="1103" column="34" />
-        <mark key="[" line="912" column="80" />
-        <mark key="]" line="912" column="88" />
-        <mark key="^" line="912" column="88" />
-        <mark key="." line="912" column="88" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517377171624">
+        <mark key="'" line="931" column="48" />
+        <mark key="k" line="1115" column="34" />
+        <mark key="[" line="964" column="73" />
+        <mark key="]" line="965" column="63" />
+        <mark key="^" line="965" column="63" />
+        <mark key="." line="965" column="63" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -577,7 +577,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="756" column="25" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1084" column="3" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="332" column="26" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="331" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -677,63 +676,97 @@
       <jump line="924" column="82" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="922" column="32" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="927" column="48" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="68" column="33" filename="$USER_HOME$/data_processing/entities.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>)</text>
       </register>
       <register name="-" type="4">
-        <text>typ</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>Somethi</text>
+        <text>entities with</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">bmV3X2lkeCA9IDAKICAgICAgICAgICAgZm9yIChzdGFydCwgZW5kLCBlbnRpdHlfdHlwKSBpbiBlbnRpdGllc19pbl9zZW50OgogICAgICAgICAgICAgICAgIyBwcmludCAnZW50aXR5OicsICcgJy5qb2luKHRva19zZXFbc3RhcnQ6ZW5kXSksIGVudGl0eV90eXAKICAgICAgICAgICAgICAgIG5ld19hbGlnbmVkID0gc2V0KHhyYW5nZShzdGFydCwgZW5kKSkKICAgICAgICAgICAgICAgIGlmIGxlbihhbGlnbmVkX3NldCAmIG5ld19hbGlnbmVkKSAhPSAwOgogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICBhbGlnbmVkX3NldCB8PSBuZXdfYWxpZ25lZAogICAgICAgICAgICAgICAgZW50aXR5X25hbWUgPSAnICcuam9pbih0b2tfc2VxW3N0YXJ0OmVuZF0pCiAgICAgICAgICAgICAgICBpZiByZXBsYWNlU3ltYm9sKGVudGl0eV9uYW1lKSBpbiBtbGVfbWFwOgogICAgICAgICAgICAgICAgICAgIG5ld19uYW1lID0gcmVwbGFjZVN5bWJvbChlbnRpdHlfbmFtZSkKICAgICAgICAgICAgICAgICAgICBpZiBuZXdfbmFtZSAhPSBlbnRpdHlfbmFtZToKICAgICAgICAgICAgICAgICAgICAgICAgZW50aXR5X25hbWUgPSBuZXdfbmFtZQogICAgICAgICAgICAgICAgICAgICAgICBwcmludCAiUmVwbGFjZWQ6IiwgZW50aXR5X25hbWUKCiAgICAgICAgICAgICAgICBpZiBlbnRpdHlfbmFtZSBpbiBtbGVfbWFwOgogICAgICAgICAgICAgICAgICAgIGVudGl0eV90eXAgPSBtbGVfbWFwW2VudGl0eV9uYW1lXQogICAgICAgICAgICAgICAgICAgIGlmIG5vdCAiTkVfIiBpbiBlbnRpdHlfdHlwWzBdIGFuZCBlbnRpdHlfbmFtZS5sb3dlcigpIGluIG1sZV9tYXA6CiAgICAgICAgICAgICAgICAgICAgICAgIGVudGl0eV90eXAgPSBtbGVfbWFwW2VudGl0eV9uYW1lLmxvd2VyKCldCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIG5vdCAiTkVfIiBpbiBlbnRpdHlfdHlwWzBdOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgIlJlbW92ZWQgZGlzY292ZXJlZCBlbnRpdHk6IiwgZW50aXR5X25hbWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICAgICAgZWxpZiBzdGFydCA9PSAwIGFuZCBlbnRpdHlfbmFtZS5sb3dlcigpIGluIG1sZV9tYXA6CiAgICAgICAgICAgICAgICAgICAgZW50aXR5X3R5cCA9IG1sZV9tYXBbZW50aXR5X25hbWUubG93ZXIoKV0KICAgICAgICAgICAgICAgICAgICBpZiBub3QgIk5FXyIgaW4gZW50aXR5X3R5cFswXToKICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgIlJlbW92ZWQgZGlzY292ZXJlZCBlbnRpdHk6IiwgZW50aXR5X25hbWUKICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgICAgICBlbGlmIGVudGl0eV90eXAgPT0gIlBFUiI6CiAgICAgICAgICAgICAgICAgICAgZW50aXR5X3R5cCA9ICgnTkVfcGVyc29uJywgJy0nKQogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBlbnRpdHlfdHlwID0gKCdORScsICctJykKCiAgICAgICAgICAgICAgICBlbnRpdHlfcmVwciA9ICIgIi5qb2luKHRva19zZXFbc3RhcnQ6IGVuZF0pCiAgICAgICAgICAgICAgICAobmV3X3N0YXJ0LCBuZXdfZW5kKSA9IHNlYXJjaFNlcShlbnRpdHlfcmVwci5yZXBsYWNlKCIgIiwgIiIpLCB0b2tlbml6ZWQsIG5ld19pZHgsIGFsaWduZWRfbmV3KQogICAgICAgICAgICAgICAgaWYgbmV3X3N0YXJ0ID09IC0xOgogICAgICAgICAgICAgICAgICAgIHByaW50ICJIZXJlIiwgbmV3X2lkeAogICAgICAgICAgICAgICAgICAgIHByaW50ICJTb21ldGhpbmcgd3Jvbmcgd2l0aCBzZW50ZW5jZSAlZCIgJSBzZW50X2lkeAogICAgICAgICAgICAgICAgICAgIHByaW50IGVudGl0eV9yZXByCiAgICAgICAgICAgICAgICAgICAgcHJpbnQgdG9rZW5pemVkCiAgICAgICAgICAgICAgICAgICAgc3lzLmV4aXQoMSkKICAgICAgICAgICAgICAgIG5ld19lbnRpdHlfc3BhbnMuYXBwZW5kKCIlZC0lZCMjIyMlcyMjJXMiICUgKG5ld19zdGFydCwgbmV3X2VuZCwgZW50aXR5X3R5cFswXSwgZW50aXR5X3R5cFsxXSkpCiAgICAgICAgICAgICAgICBwcmludCAiTkVSOiIsICIgIi5qb2luKHRva2VuaXplZFtuZXdfc3RhcnQ6bmV3X2VuZF0pCiAgICAgICAgICAgICAgICBjdXJyX2FsaWduZWQgPSBzZXQocmFuZ2UobmV3X3N0YXJ0LCBuZXdfZW5kKSkKICAgICAgICAgICAgICAgIGFzc2VydCBsZW4oYWxpZ25lZF9uZXcgJiBjdXJyX2FsaWduZWQpID09IDAKICAgICAgICAgICAgICAgIGFsaWduZWRfbmV3IHw9IGN1cnJfYWxpZ25lZAogICAgICAgICAgICAgICAgbmV3X2lkeCA9IG5ld19lbmQKCiAgICAgICAgICAgICAgICBhbGlnbmVkX3NldCB8PSBzZXQocmFuZ2Uoc3RhcnQsIGVuZCkp</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>#Align dates
+            new_idx = 0
+            for (start, end) in date_spans:
+                date_repr = &quot; &quot;.join(tok_seq[start:end])
+                if date_repr in mle_map and mle_map[date_repr][0] != &quot;DATE&quot;:
+                    # print &quot;Filtered dates:&quot;, date_repr, mle_map[date_repr]
+                    continue
+                (new_start, new_end) = searchSeq(date_repr.replace(&quot; &quot;, &quot;&quot;), tokenized, new_idx)
+                if new_start == -1:
+                    print &quot;Something wrong with sentence %d&quot; % sent_idx
+                    print date_repr
+                    print tokenized
+                    sys.exit(1)
+                new_date_spans.append(&quot;%d-%d&quot; % (new_start, new_end))
+                print &quot;Date:&quot;, &quot; &quot;.join(tokenized[new_start:new_end])
+                new_idx = new_end
+
+                aligned_set |= set(range(start, end))
+                aligned_new |= set(range(new_start, new_end))</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgYWxpZ25lZF9uZXcgPSBzZXQoKQo=</text>
       </register>
-      <register name="3" type="2">
+      <register name="3" type="4">
+        <text>#Align dates
+            new_idx = 0
+            aligned_new = set()
+            for (start, end) in date_spans:
+                date_repr = &quot; &quot;.join(tok_seq[start:end])
+                if date_repr in mle_map and mle_map[date_repr][0] != &quot;DATE&quot;:
+                    # print &quot;Filtered dates:&quot;, date_repr, mle_map[date_repr]
+                    continue
+                (new_start, new_end) = searchSeq(date_repr.replace(&quot; &quot;, &quot;&quot;), tokenized, new_idx)
+                if new_start == -1:
+                    print &quot;Something wrong with sentence %d&quot; % sent_idx
+                    print date_repr
+                    print tokenized
+                    sys.exit(1)
+                new_date_spans.append(&quot;%d-%d&quot; % (new_start, new_end))
+                print &quot;Date:&quot;, &quot; &quot;.join(tokenized[new_start:new_end])
+                new_idx = new_end
+
+                aligned_set |= set(range(start, end))
+                aligned_new |= set(range(new_start, new_end))</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text># print &quot;Discovered entity name:&quot;, entity_repr, entity_map[entity_repr]
-                        # aligned_set |= set(range(start, end))</text>
-      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZW50aXR5X3JlcHIgPSAiICIuam9pbih0b2tfc2VxW3N0YXJ0OiBlbmRdKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+      <register name="7" type="4">
+        <text># print &quot;Discovered entity name:&quot;, entity_repr, entity_map[entity_repr]
+                        # aligned_set |= set(range(start, end))</text>
       </register>
-      <register name="8" type="4">
-        <text>if replaceSymbol(entity_repr) in mle_map:
-                            new_name = replaceSymbol(entity_repr)
-                            if new_name != entity_repr:
-                                entity_repr = new_name
-                                print &quot;Replaced:&quot;, entity_repr</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZW50aXR5X3JlcHIgPSAiICIuam9pbih0b2tfc2VxW3N0YXJ0OiBlbmRdKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZW50aXR5X25hbWUgPSAnICcuam9pbih0b2tfc2VxW3N0YXJ0OmVuZF0pCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>Somethi</last-search>
+      <last-search>entities with</last-search>
       <last-offset />
-      <last-pattern>Somethi</last-pattern>
+      <last-pattern>entities with</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -763,6 +796,7 @@
         <entry>entity_map</entry>
         <entry>entity_name</entry>
         <entry>Somethi</entry>
+        <entry>entities with</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
