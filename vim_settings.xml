@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517436182719">
-        <mark key="'" line="89" column="17" />
-        <mark key="[" line="243" column="17" />
-        <mark key="]" line="244" column="75" />
-        <mark key="." line="244" column="75" />
-        <mark key="^" line="244" column="75" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517439048713">
+        <mark key="'" line="269" column="19" />
+        <mark key="[" line="269" column="30" />
+        <mark key="]" line="269" column="46" />
+        <mark key="." line="269" column="46" />
+        <mark key="^" line="269" column="46" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -138,10 +138,11 @@
         <mark key="^" line="23" column="32" />
         <mark key="." line="23" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" timestamp="1517191564350">
-        <mark key="[" line="15" column="0" />
-        <mark key="]" line="15" column="0" />
-        <mark key="." line="15" column="0" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" timestamp="1517438266919">
+        <mark key="[" line="14" column="13" />
+        <mark key="]" line="14" column="16" />
+        <mark key="." line="14" column="16" />
+        <mark key="^" line="14" column="16" />
       </file>
       <file name="/Library/Python/2.7/site-packages/keras/engine/topology.py" timestamp="1507572628652">
         <mark key="'" line="17" column="49" />
@@ -335,12 +336,12 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1517433583867">
-        <mark key="'" line="126" column="24" />
-        <mark key="[" line="58" column="4" />
-        <mark key="]" line="58" column="66" />
-        <mark key="^" line="58" column="66" />
-        <mark key="." line="58" column="66" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1517438858185">
+        <mark key="'" line="174" column="19" />
+        <mark key="[" line="47" column="30" />
+        <mark key="]" line="47" column="48" />
+        <mark key="^" line="47" column="48" />
+        <mark key="." line="47" column="48" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_graph.py" timestamp="1516222275265">
         <mark key="'" line="350" column="15" />
@@ -583,10 +584,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="527" column="25" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="19" column="21" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="429" column="55" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="430" column="55" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="20" column="9" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="4" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="420" column="10" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -683,21 +680,38 @@
       <jump line="261" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" />
       <jump line="245" column="69" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="89" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="258" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="174" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
+      <jump line="269" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="263" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>extract decoding examples</text>
+        <text>[batch.action_inp[0][0]]</text>
       </register>
       <register name="-" type="4">
-        <text>extract decoding examples</text>
+        <text>[batch.action_inp[0][0]]</text>
       </register>
       <register name="/" type="4">
-        <text>run</text>
+        <text>action_inp</text>
       </register>
       <register name="0" type="4">
-        <text>argparser.add_argument(&quot;--decode&quot;, action=&quot;store_true&quot;, help=&quot;if to extract decoding examples.&quot;)</text>
+        <text>[int(x) for x in instance['alignment']['word-align'].strip().split()]</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIGh5cHMuYXBwZW5kKCkK</text>
+      </register>
+      <register name="q" type="4">
+        <text />
+      </register>
+      <register name="2" type="4">
+        <text>Hypothesis([batch.action_inp[0][0]], [0.0], initial_state, context_input_init,
+                           context_concept_init, initial_config)</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBhbGxfaW5zdGFuY2VzLmFwcGVuZCgoaW5wdXRfc2VudCwgY29uY2VwdHMsIGZlYXRzLCBhY3Rpb25zLCBhY3Rpb24yY2lkLCBhY3Rpb24yd2lkKSkK</text>
+      </register>
+      <register name="4" type="4">
         <text>&quot;&quot;&quot;
     TODO: fill in the test set, tok, lemma, POS, concepts.
     :param inpath: test file in json format.
@@ -705,43 +719,30 @@
     :return:
     &quot;&quot;&quot;</text>
       </register>
-      <register name="q" type="4">
-        <text />
-      </register>
-      <register name="2" type="4">
+      <register name="5" type="4">
         <text>if not oracle_seq:
                         continue</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhc3NlcnQgbGVuKGNvbmNlcHRfdG9fd29yZCkgPT0gbGVuKGNvbmNlcHRfc2VxKQo=</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAganNvbl9vdXRwdXQgPSBvcy5wYXRoLmpvaW4ob3V0cHV0X2RpciwgIm9yYWNsZV9leGFtcGxlcy5qc29uIikK</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAganNvbl9vdXRwdXQgPSBvcy5wYXRoLmpvaW4ob3V0cHV0X2RpciwgIm9yYWNsZV9kZWNvZGUuanNvbiIpCg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgb3JhY2xlX3NlcSA9IAo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="4">
-        <text>oracle_example = OracleExample(tok_seq, lem_seq, pos_seq, concept_seq, feat_seq, oracle_seq,
-                                                       word_align, concept_align, concept_to_word)</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiB0cmFpbjoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgb3JhY2xlX3NlcSA9IAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>run</last-search>
+      <last-search>action_inp</last-search>
       <last-offset />
-      <last-pattern>run</last-pattern>
+      <last-pattern>action_inp</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -785,6 +786,8 @@
         <entry>loadD</entry>
         <entry>vocab</entry>
         <entry>run</entry>
+        <entry>curr_batch</entry>
+        <entry>action_inp</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
