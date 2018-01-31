@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517289326784">
-        <mark key="'" line="353" column="40" />
-        <mark key="[" line="343" column="93" />
-        <mark key="]" line="344" column="34" />
-        <mark key="." line="344" column="34" />
-        <mark key="^" line="344" column="34" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517431501786">
+        <mark key="'" line="418" column="62" />
+        <mark key="[" line="9" column="19" />
+        <mark key="]" line="10" column="19" />
+        <mark key="." line="10" column="19" />
+        <mark key="^" line="10" column="19" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -99,8 +99,8 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" timestamp="1517273137058">
         <mark key="'" line="174" column="25" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517428133417">
-        <mark key="'" line="200" column="43" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517431388936">
+        <mark key="'" line="42" column="19" />
         <mark key="[" line="363" column="71" />
         <mark key="]" line="363" column="83" />
         <mark key="." line="363" column="83" />
@@ -263,8 +263,8 @@
         <mark key="^" line="422" column="9" />
         <mark key="." line="422" column="9" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" timestamp="1517425069722">
-        <mark key="'" line="262" column="21" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" timestamp="1517431485509">
+        <mark key="'" line="376" column="22" />
         <mark key="[" line="261" column="32" />
         <mark key="]" line="262" column="52" />
         <mark key="^" line="262" column="52" />
@@ -335,12 +335,11 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1517272614119">
-        <mark key="'" line="93" column="36" />
-        <mark key="[" line="216" column="8" />
-        <mark key="]" line="216" column="23" />
-        <mark key="^" line="217" column="62" />
-        <mark key="." line="217" column="62" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1517431475211">
+        <mark key="[" line="48" column="41" />
+        <mark key="]" line="48" column="41" />
+        <mark key="^" line="48" column="41" />
+        <mark key="." line="48" column="41" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_graph.py" timestamp="1516222275265">
         <mark key="'" line="350" column="15" />
@@ -583,12 +582,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="339" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="705" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1050" column="11" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="685" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="408" column="14" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1397" column="22" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="646" column="19" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="743" column="52" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -683,61 +676,71 @@
       <jump line="79" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="229" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="200" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="407" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="22" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/vocab_utils.py" />
+      <jump line="417" column="62" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="71" column="60" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="42" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="376" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>v</text>
+        <text>dep</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>dep</text>
       </register>
       <register name="/" type="4">
-        <text>concept_to_word</text>
+        <text>loadD</text>
       </register>
       <register name="0" type="4">
         <text>os.path.join(output_dir, &quot;oracle_examples.json&quot;)</text>
       </register>
       <register name="1" type="4">
-        <text>if not oracle_seq:
-                        continue</text>
+        <text>&quot;&quot;&quot;
+    TODO: fill in the test set, tok, lemma, POS, concepts.
+    :param inpath: test file in json format.
+    :param isLower:
+    :return:
+    &quot;&quot;&quot;</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhc3NlcnQgbGVuKGNvbmNlcHRfdG9fd29yZCkgPT0gbGVuKGNvbmNlcHRfc2VxKQo=</text>
+      <register name="2" type="4">
+        <text>if not oracle_seq:
+                        continue</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAganNvbl9vdXRwdXQgPSBvcy5wYXRoLmpvaW4ob3V0cHV0X2RpciwgIm9yYWNsZV9leGFtcGxlcy5qc29uIikK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhc3NlcnQgbGVuKGNvbmNlcHRfdG9fd29yZCkgPT0gbGVuKGNvbmNlcHRfc2VxKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAganNvbl9vdXRwdXQgPSBvcy5wYXRoLmpvaW4ob3V0cHV0X2RpciwgIm9yYWNsZV9kZWNvZGUuanNvbiIpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAganNvbl9vdXRwdXQgPSBvcy5wYXRoLmpvaW4ob3V0cHV0X2RpciwgIm9yYWNsZV9leGFtcGxlcy5qc29uIikK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgb3JhY2xlX3NlcSA9IAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAganNvbl9vdXRwdXQgPSBvcy5wYXRoLmpvaW4ob3V0cHV0X2RpciwgIm9yYWNsZV9kZWNvZGUuanNvbiIpCg==</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgb3JhY2xlX3NlcSA9IAo=</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>oracle_example = OracleExample(tok_seq, lem_seq, pos_seq, concept_seq, feat_seq, oracle_seq,
                                                        word_align, concept_align, concept_to_word)</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiB0cmFpbjoK</text>
-      </register>
-      <register name="9" type="4">
-        <text>for feats in feat_seq:
-                        assert len(feats) == feat_dim, &quot;Feature dimensions not consistent: %s&quot; % str(feats)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>concept_to_word</last-search>
+      <last-search>loadD</last-search>
       <last-offset />
-      <last-pattern>concept_to_word</last-pattern>
+      <last-pattern>loadD</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -778,6 +781,7 @@
         <entry>use_multipl</entry>
         <entry>train</entry>
         <entry>concept_to_word</entry>
+        <entry>loadD</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
