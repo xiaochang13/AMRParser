@@ -515,13 +515,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517361803111">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517362952686">
         <mark key="'" line="1051" column="13" />
         <mark key="k" line="1041" column="34" />
-        <mark key="[" line="764" column="19" />
-        <mark key="]" line="766" column="39" />
+        <mark key="[" line="830" column="0" />
+        <mark key="]" line="830" column="0" />
         <mark key="^" line="766" column="39" />
-        <mark key="." line="766" column="39" />
+        <mark key="." line="830" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -679,8 +679,8 @@
       <jump line="1051" column="13" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">ZnJlcV9wYXRoLCA=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">ZnJlcV9wYXRoLCA=</text>
@@ -692,18 +692,21 @@
         <text>.*-[0-9]+</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGZvciAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IGFyZ3BhcnNlCg==</text>
+        <text encoding="base64">ICAgIGZvciAK</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">aW1wb3J0IGFyZ3BhcnNlCg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>import sys
 import time
 import pickle
@@ -713,23 +716,20 @@ import cPickle
 import random
 from amr_graph import *</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>if token == &quot;NONE&quot;:
         return &quot;NONE&quot;</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>if &quot;NEG&quot; in token:
         assert &quot;NEG_&quot; in token
         return token[]</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIGFzc2VydCB0b2tlbiAhPSAiTk9ORSIK</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgIGFzc2VydCB0b2tlbiAhPSAiTk9ORSIK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
