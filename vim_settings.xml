@@ -250,12 +250,12 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
-      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1517343706283">
-        <mark key="'" line="390" column="23" />
-        <mark key="[" line="520" column="24" />
-        <mark key="]" line="520" column="24" />
-        <mark key="^" line="520" column="24" />
-        <mark key="." line="520" column="24" />
+      <file name="$USER_HOME$/data_processing/alignment_utils.py" timestamp="1517358956665">
+        <mark key="'" line="424" column="37" />
+        <mark key="[" line="422" column="8" />
+        <mark key="]" line="422" column="9" />
+        <mark key="^" line="422" column="9" />
+        <mark key="." line="422" column="9" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" timestamp="1517280545652">
         <mark key="'" line="108" column="63" />
@@ -387,12 +387,12 @@
         <mark key="." line="26" column="18" />
         <mark key="^" line="26" column="18" />
       </file>
-      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1517350919049">
+      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1517359020217">
         <mark key="'" line="290" column="17" />
-        <mark key="[" line="275" column="20" />
-        <mark key="]" line="277" column="19" />
-        <mark key="." line="277" column="19" />
-        <mark key="^" line="277" column="19" />
+        <mark key="[" line="304" column="0" />
+        <mark key="]" line="304" column="1" />
+        <mark key="." line="304" column="1" />
+        <mark key="^" line="304" column="1" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -511,13 +511,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517351735407">
-        <mark key="'" line="606" column="20" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517358614369">
+        <mark key="'" line="527" column="25" />
         <mark key="k" line="1041" column="34" />
-        <mark key="[" line="653" column="31" />
-        <mark key="]" line="653" column="32" />
-        <mark key="^" line="612" column="76" />
-        <mark key="." line="653" column="32" />
+        <mark key="[" line="736" column="19" />
+        <mark key="]" line="736" column="18" />
+        <mark key="^" line="736" column="18" />
+        <mark key="." line="736" column="18" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -573,17 +573,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="411" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="115" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
-      <jump line="93" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
-      <jump line="413" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="257" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="286" column="70" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="174" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" />
-      <jump line="302" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="303" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="419" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="240" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="301" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="95" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
       <jump line="94" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
@@ -642,7 +631,6 @@
       <jump line="386" column="28" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="390" column="23" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="662" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="527" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="708" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="224" column="4" filename="$USER_HOME$/data_processing/utils.py" />
       <jump line="703" column="14" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -673,66 +661,81 @@
       <jump line="628" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="533" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="606" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="653" column="23" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="612" column="31" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="527" column="25" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="19" column="21" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="429" column="55" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="430" column="55" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="20" column="9" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="4" column="0" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="420" column="10" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="468" column="37" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="479" column="85" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="424" column="37" filename="$USER_HOME$/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>if token == &quot;NONE&quot;:
-        return &quot;NONE&quot;</text>
+        <text>s</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Y3Vycl9zeW0gPT0g</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
-        <text>frequent_set +</text>
+        <text>negation</text>
       </register>
       <register name="0" type="4">
         <text>.*-[0-9]+</text>
       </register>
-      <register name="1" type="4">
-        <text>if token == &quot;NONE&quot;:
-        return &quot;NONE&quot;</text>
+      <register name="1" type="2">
+        <text encoding="base64">aW1wb3J0IGFyZ3BhcnNlCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="4">
+        <text>import sys
+import time
+import pickle
+import os
+import re
+import cPickle
+import random
+from amr_graph import *</text>
+      </register>
+      <register name="4" type="4">
+        <text>if token == &quot;NONE&quot;:
+        return &quot;NONE&quot;</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="6" type="4">
         <text>if &quot;NEG&quot; in token:
         assert &quot;NEG_&quot; in token
         return token[]</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgIGFzc2VydCB0b2tlbiAhPSAiTk9ORSIK</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="6" type="4">
+      <register name="9" type="4">
         <text>#ret_var = SURF + ('%d' % self.var_index)
                 #self.var_index += 1</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="8" type="4">
-        <text>#if node_idx in verb_map:
-                #    ex_rels = self.findMatch(curr_node, verb_map[node_idx])
-                #    ret_var = 'SURF_VERBAL'
-                #    return ex_rels, ret_var, True</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>frequent_set +</last-search>
+      <last-search>negation</last-search>
       <last-offset />
-      <last-pattern>frequent_set +</last-pattern>
+      <last-pattern>negation</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -917,6 +920,11 @@
         <entry>category_info</entry>
         <entry>getCategories</entry>
         <entry>frequent_set +</entry>
+        <entry>getCate</entry>
+        <entry>neg_prefix</entry>
+        <entry>isNegation</entry>
+        <entry>isNeg</entry>
+        <entry>negation</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
