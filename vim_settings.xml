@@ -267,8 +267,12 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/data_processing/entities.py" timestamp="1517029501725">
-        <mark key="'" line="111" column="30" />
+      <file name="$USER_HOME$/data_processing/entities.py" timestamp="1517360468425">
+        <mark key="'" line="45" column="24" />
+        <mark key="[" line="68" column="38" />
+        <mark key="]" line="68" column="37" />
+        <mark key="^" line="68" column="37" />
+        <mark key="." line="68" column="37" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1516215405954">
         <mark key="[" line="476" column="8" />
@@ -511,13 +515,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517358614369">
-        <mark key="'" line="527" column="25" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517361803111">
+        <mark key="'" line="1051" column="13" />
         <mark key="k" line="1041" column="34" />
-        <mark key="[" line="736" column="19" />
-        <mark key="]" line="736" column="18" />
-        <mark key="^" line="736" column="18" />
-        <mark key="." line="736" column="18" />
+        <mark key="[" line="764" column="19" />
+        <mark key="]" line="766" column="39" />
+        <mark key="^" line="766" column="39" />
+        <mark key="." line="766" column="39" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -573,16 +577,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="301" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="95" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="94" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="257" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="387" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
-      <jump line="52" column="21" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="108" column="63" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
-      <jump line="15" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
-      <jump line="41" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="365" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
       <jump line="15" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
       <jump line="49" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="48" column="10" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
@@ -673,30 +667,43 @@
       <jump line="468" column="37" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="479" column="85" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="424" column="37" filename="$USER_HOME$/data_processing/alignment_utils.py" />
+      <jump line="112" column="8" filename="$USER_HOME$/data_processing/entities.py" />
+      <jump line="23" column="4" filename="$USER_HOME$/data_processing/entities.py" />
+      <jump line="24" column="4" filename="$USER_HOME$/data_processing/entities.py" />
+      <jump line="45" column="24" filename="$USER_HOME$/data_processing/entities.py" />
+      <jump line="777" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="759" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="772" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="907" column="67" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="739" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1051" column="13" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>s</text>
+        <text encoding="base64">ZnJlcV9wYXRoLCA=</text>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text encoding="base64">ZnJlcV9wYXRoLCA=</text>
       </register>
       <register name="/" type="4">
-        <text>negation</text>
+        <text>phrases</text>
       </register>
       <register name="0" type="4">
         <text>.*-[0-9]+</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGFyZ3BhcnNlCg==</text>
+        <text encoding="base64">ICAgIGZvciAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">aW1wb3J0IGFyZ3BhcnNlCg==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>import sys
 import time
 import pickle
@@ -706,36 +713,32 @@ import cPickle
 import random
 from amr_graph import *</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>if token == &quot;NONE&quot;:
         return &quot;NONE&quot;</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>if &quot;NEG&quot; in token:
         assert &quot;NEG_&quot; in token
         return token[]</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIGFzc2VydCB0b2tlbiAhPSAiTk9ORSIK</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="9" type="4">
-        <text>#ret_var = SURF + ('%d' % self.var_index)
-                #self.var_index += 1</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>negation</last-search>
+      <last-search>phrases</last-search>
       <last-offset />
-      <last-pattern>negation</last-pattern>
+      <last-pattern>phrases</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -925,6 +928,8 @@ from amr_graph import *</text>
         <entry>isNegation</entry>
         <entry>isNeg</entry>
         <entry>negation</entry>
+        <entry>role</entry>
+        <entry>phrases</entry>
       </history-search>
       <history-cmd>
         <entry>504</entry>
