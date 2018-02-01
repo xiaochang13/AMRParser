@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517514910206">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517515648607">
         <mark key="'" line="120" column="13" />
-        <mark key="[" line="140" column="11" />
-        <mark key="]" line="140" column="63" />
-        <mark key="." line="140" column="63" />
-        <mark key="^" line="140" column="63" />
+        <mark key="[" line="155" column="13" />
+        <mark key="]" line="155" column="66" />
+        <mark key="." line="155" column="66" />
+        <mark key="^" line="155" column="66" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -680,10 +680,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>self.start_new</text>
+        <text>self.arc_binary</text>
       </register>
       <register name="-" type="4">
-        <text>self.start_new</text>
+        <text>self.arc_binary</text>
       </register>
       <register name="/" type="4">
         <text>canApply</text>
