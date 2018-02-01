@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517451914661">
-        <mark key="'" line="430" column="39" />
-        <mark key="[" line="427" column="4" />
-        <mark key="]" line="427" column="5" />
-        <mark key="." line="427" column="5" />
-        <mark key="^" line="427" column="5" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517453044517">
+        <mark key="'" line="482" column="25" />
+        <mark key="[" line="264" column="40" />
+        <mark key="]" line="266" column="36" />
+        <mark key="." line="266" column="36" />
+        <mark key="^" line="266" column="36" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -95,9 +95,6 @@
       </file>
       <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515482880350">
         <mark key="'" line="426" column="54" />
-      </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" timestamp="1517273137058">
-        <mark key="'" line="174" column="25" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517448101789">
         <mark key="'" line="149" column="32" />
@@ -332,12 +329,12 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1517450457193">
-        <mark key="'" line="30" column="31" />
-        <mark key="[" line="62" column="11" />
-        <mark key="]" line="62" column="80" />
-        <mark key="." line="62" column="80" />
-        <mark key="^" line="62" column="80" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1517453123030">
+        <mark key="'" line="67" column="23" />
+        <mark key="[" line="53" column="37" />
+        <mark key="]" line="53" column="37" />
+        <mark key="." line="53" column="37" />
+        <mark key="^" line="53" column="37" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_graph.py" timestamp="1516222275265">
         <mark key="'" line="350" column="15" />
@@ -580,8 +577,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="884" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="810" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="905" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="906" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="783" column="22" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -680,16 +675,18 @@
       <jump line="261" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" />
       <jump line="417" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="430" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="480" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="67" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>el</text>
+        <text>dep</text>
       </register>
       <register name="-" type="4">
-        <text>el</text>
+        <text>dep</text>
       </register>
       <register name="/" type="4">
-        <text>use_dep</text>
+        <text>context_t</text>
       </register>
       <register name="0" type="4">
         <text>shiftpop_actions, pushidx_actions, arcbinary_actions, arclabel_actions</text>
@@ -736,9 +733,9 @@
       </register>
     </registers>
     <search>
-      <last-search>use_dep</last-search>
+      <last-search>context_t</last-search>
       <last-offset />
-      <last-pattern>use_dep</last-pattern>
+      <last-pattern>context_t</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -794,6 +791,7 @@
         <entry>system</entry>
         <entry>TODO</entry>
         <entry>use_dep</entry>
+        <entry>context_t</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
