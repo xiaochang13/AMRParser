@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517520213983">
-        <mark key="'" line="203" column="4" />
-        <mark key="[" line="290" column="38" />
-        <mark key="]" line="290" column="38" />
-        <mark key="." line="290" column="38" />
-        <mark key="^" line="202" column="23" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517521247562">
+        <mark key="'" line="202" column="4" />
+        <mark key="[" line="138" column="0" />
+        <mark key="]" line="138" column="0" />
+        <mark key="." line="138" column="0" />
+        <mark key="^" line="201" column="23" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -679,8 +679,8 @@
       <jump line="203" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>action_vocab</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAjIGFyY19iaW5hcnkgPSBGYWxzZQo=</text>
       </register>
       <register name="-" type="4">
         <text>action_vocab</text>
@@ -692,38 +692,38 @@
         <text>assert self.actions, &quot;Empty action sequence start without shift or pop&quot;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIGFyY19iaW5hcnkgPSBGYWxzZQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgIAo=</text>
-      </register>
-      <register name="3" type="4">
-        <text encoding="base64">ICMgQWZ0ZXIgcHVzaCBpbmRleCwgd2UgcHJvY2VlZCB0byBtYWtlIGFyYyBiaW5hcnkgZGVjaXNpb25zIGFuZCBhcmMgY29ubmVjdCBkZWNpc2lvbnMuCiAgICAgICAgIyBhc3NlcnQgIlBVU0giIGluIHNlbGYuYWN0aW9uc1stMV0sICJQcm9jZWVkIGZyb20gd3JvbmcgYWN0aW9ucyBoZXJlOiAlcyIgJSBzdHIoc2VsZi5hY3Rpb25zKQogICAgICAgIGFzc2VydCBzZWxmLmNhY2hlX2lkeCAhPSAtMSwgIkNhY2hlIHJlbGF0ZWQgb3BlcmF0aW9uIHdpdGhvdXQgY2FjaGUgaW5kZXguIgogICAgICAgIHdvcmRfaWR4LCBjb25jZXB0X2lkeCA9IHNlbGYudHJhbnNfc3RhdGUucmlnaHRtb3N0Q2FjaGUoKQogICAgICAgIGlmIHNlbGYudHJhbnNfc3RhdGUucGhhc2UgPT0gb3JhY2xlLnV0aWxzLkZlYXR1cmVUeXBlLkFSQ0JJTkFSWTogIyBEZWNpZGUgd2hldGhlciB0byBtYWtlIGFuIGFyYyB0byB0aGUgY3VycmVudCBjYWNoZSB2ZXJ0ZXguCiAgICAgICAgICAgIHJldHVybiBzZWxmLnRyYW5zX3N0YXRlLmV4dHJhY3RGZWF0dXJlcyhvcmFjbGUudXRpbHMuRmVhdHVyZVR5cGUuQVJDQklOQVJZLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd29yZF9pZHgsIGNvbmNlcHRfaWR4LCBzZWxmLmNhY2hlX2lkeCkKICAgICAgICByZXR1cm4gc2VsZi50cmFuc19zdGF0ZS5leHRyYWN0RmVhdHVyZXMob3JhY2xlLnV0aWxzLkZlYXR1cmVUeXBlLkFSQ0NPTk5FQ1QsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdvcmRfaWR4LCBjb25jZXB0X2lkeCwgc2VsZi5jYWNoZV9pZHgp</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgIAo=</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">ICMgQWZ0ZXIgcHVzaCBpbmRleCwgd2UgcHJvY2VlZCB0byBtYWtlIGFyYyBiaW5hcnkgZGVjaXNpb25zIGFuZCBhcmMgY29ubmVjdCBkZWNpc2lvbnMuCiAgICAgICAgIyBhc3NlcnQgIlBVU0giIGluIHNlbGYuYWN0aW9uc1stMV0sICJQcm9jZWVkIGZyb20gd3JvbmcgYWN0aW9ucyBoZXJlOiAlcyIgJSBzdHIoc2VsZi5hY3Rpb25zKQogICAgICAgIGFzc2VydCBzZWxmLmNhY2hlX2lkeCAhPSAtMSwgIkNhY2hlIHJlbGF0ZWQgb3BlcmF0aW9uIHdpdGhvdXQgY2FjaGUgaW5kZXguIgogICAgICAgIHdvcmRfaWR4LCBjb25jZXB0X2lkeCA9IHNlbGYudHJhbnNfc3RhdGUucmlnaHRtb3N0Q2FjaGUoKQogICAgICAgIGlmIHNlbGYudHJhbnNfc3RhdGUucGhhc2UgPT0gb3JhY2xlLnV0aWxzLkZlYXR1cmVUeXBlLkFSQ0JJTkFSWTogIyBEZWNpZGUgd2hldGhlciB0byBtYWtlIGFuIGFyYyB0byB0aGUgY3VycmVudCBjYWNoZSB2ZXJ0ZXguCiAgICAgICAgICAgIHJldHVybiBzZWxmLnRyYW5zX3N0YXRlLmV4dHJhY3RGZWF0dXJlcyhvcmFjbGUudXRpbHMuRmVhdHVyZVR5cGUuQVJDQklOQVJZLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd29yZF9pZHgsIGNvbmNlcHRfaWR4LCBzZWxmLmNhY2hlX2lkeCkKICAgICAgICByZXR1cm4gc2VsZi50cmFuc19zdGF0ZS5leHRyYWN0RmVhdHVyZXMob3JhY2xlLnV0aWxzLkZlYXR1cmVUeXBlLkFSQ0NPTk5FQ1QsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdvcmRfaWR4LCBjb25jZXB0X2lkeCwgc2VsZi5jYWNoZV9pZHgp</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="4">
         <text>if self.trans_state.phase == oracle
             return self.trans_state.extractFeatures(oracle.utils.FeatureType.PUSHIDX, self.word_focus,
                                                     self.concept_focus)</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>assert self.actions, &quot;Empty action sequence start without shift or pop&quot;
         # If shift, we continue to choose cache vertex for push operation.
         # if action_vocab.getWord(self.actions[-1]) == &quot;SHIFT&quot;:</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
