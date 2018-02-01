@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517448639853">
-        <mark key="'" line="210" column="11" />
-        <mark key="[" line="254" column="18" />
-        <mark key="]" line="254" column="35" />
-        <mark key="^" line="254" column="35" />
-        <mark key="." line="254" column="35" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517451914661">
+        <mark key="'" line="430" column="39" />
+        <mark key="[" line="427" column="4" />
+        <mark key="]" line="427" column="5" />
+        <mark key="." line="427" column="5" />
+        <mark key="^" line="427" column="5" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -101,10 +101,6 @@
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517448101789">
         <mark key="'" line="149" column="32" />
-        <mark key="[" line="282" column="34" />
-        <mark key="]" line="282" column="45" />
-        <mark key="." line="282" column="45" />
-        <mark key="^" line="282" column="45" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517340510938">
         <mark key="'" line="2201" column="65" />
@@ -264,12 +260,12 @@
         <mark key="^" line="422" column="9" />
         <mark key="." line="422" column="9" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" timestamp="1517431485509">
-        <mark key="'" line="376" column="22" />
-        <mark key="[" line="261" column="32" />
-        <mark key="]" line="262" column="52" />
-        <mark key="^" line="262" column="52" />
-        <mark key="." line="262" column="52" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" timestamp="1517449814251">
+        <mark key="'" line="384" column="22" />
+        <mark key="[" line="226" column="0" />
+        <mark key="]" line="226" column="0" />
+        <mark key="^" line="225" column="17" />
+        <mark key="." line="226" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/io/IOUtils.java" timestamp="1491962694595">
         <mark key="'" line="667" column="17" />
@@ -336,12 +332,12 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1517448840244">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1517450457193">
         <mark key="'" line="30" column="31" />
-        <mark key="[" line="28" column="55" />
-        <mark key="]" line="29" column="7" />
-        <mark key="." line="29" column="7" />
-        <mark key="^" line="29" column="7" />
+        <mark key="[" line="62" column="11" />
+        <mark key="]" line="62" column="80" />
+        <mark key="." line="62" column="80" />
+        <mark key="^" line="62" column="80" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_graph.py" timestamp="1516222275265">
         <mark key="'" line="350" column="15" />
@@ -584,11 +580,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="823" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="772" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="836" column="19" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="840" column="38" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="860" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="884" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="810" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="905" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -630,7 +621,6 @@
       <jump line="200" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="407" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="22" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/vocab_utils.py" />
-      <jump line="417" column="62" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="71" column="60" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="42" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="376" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
@@ -648,12 +638,9 @@
       <jump line="459" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="5" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
       <jump line="126" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
-      <jump line="468" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="242" column="66" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="247" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="401" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="261" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" />
-      <jump line="245" column="69" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="89" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="258" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="174" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
@@ -684,19 +671,28 @@
       <jump line="28" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="30" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="3" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" />
+      <jump line="472" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="468" column="80" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="392" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="117" column="10" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="233" column="10" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="245" column="76" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="261" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" />
+      <jump line="417" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="430" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>el</text>
       </register>
       <register name="-" type="4">
-        <text>batch.instances[0][1]</text>
+        <text>el</text>
       </register>
       <register name="/" type="4">
-        <text>arc_label</text>
+        <text>use_dep</text>
       </register>
       <register name="0" type="4">
-        <text>&quot;arc_label_actions.txt&quot;</text>
+        <text>shiftpop_actions, pushidx_actions, arcbinary_actions, arclabel_actions</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -705,15 +701,18 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbnB1dF9zZW50ID0gQW5vblNlbnRlbmNlKHRleHQsIGxlbW1hLCBwb3MsIGNvbmNlcHRzKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGMucGhhc2UgPSB1dGlscy5GZWF0dXJlVHlwZS5BUkNCSU5BUlkK</text>
+        <text encoding="base64">ICAgICAgICBpbnB1dF9zZW50ID0gQW5vblNlbnRlbmNlKHRleHQsIGxlbW1hLCBwb3MsIGNvbmNlcHRzKQo=</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGMucGhhc2UgPSB1dGlscy5GZWF0dXJlVHlwZS5BUkNCSU5BUlkK</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>&quot;&quot;&quot;
         :param action:
         :param log_prob:
@@ -722,27 +721,24 @@
         :return:
         &quot;&quot;&quot;</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBzZWxmLmJ1ZmZlci5jbGVhcigpCg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIGh5cHMuYXBwZW5kKCkK</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>Hypothesis([batch.action_inp[0][0]], [0.0], initial_state, context_input_init,
                            context_concept_init, initial_config)</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBhbGxfaW5zdGFuY2VzLmFwcGVuZCgoaW5wdXRfc2VudCwgY29uY2VwdHMsIGZlYXRzLCBhY3Rpb25zLCBhY3Rpb24yY2lkLCBhY3Rpb24yd2lkKSkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>arc_label</last-search>
+      <last-search>use_dep</last-search>
       <last-offset />
-      <last-pattern>arc_label</last-pattern>
+      <last-pattern>use_dep</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -795,6 +791,9 @@
         <entry>self.arc_binary</entry>
         <entry>arc_binary_actions</entry>
         <entry>arc_label</entry>
+        <entry>system</entry>
+        <entry>TODO</entry>
+        <entry>use_dep</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
