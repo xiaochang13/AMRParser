@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517445119804">
-        <mark key="'" line="310" column="41" />
-        <mark key="[" line="301" column="76" />
-        <mark key="]" line="302" column="15" />
-        <mark key="." line="302" column="15" />
-        <mark key="^" line="302" column="15" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517445527754">
+        <mark key="'" line="130" column="22" />
+        <mark key="[" line="130" column="0" />
+        <mark key="]" line="130" column="0" />
+        <mark key="^" line="348" column="62" />
+        <mark key="." line="130" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -305,12 +305,12 @@
         <mark key="." line="81" column="43" />
         <mark key="^" line="81" column="43" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1517282208668">
-        <mark key="'" line="15" column="8" />
-        <mark key="[" line="100" column="34" />
-        <mark key="]" line="100" column="34" />
-        <mark key="." line="100" column="34" />
-        <mark key="^" line="114" column="48" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1517446227515">
+        <mark key="'" line="194" column="8" />
+        <mark key="[" line="101" column="13" />
+        <mark key="]" line="101" column="47" />
+        <mark key="." line="101" column="47" />
+        <mark key="^" line="101" column="47" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/treewidth.py" timestamp="1480247731932">
         <mark key="'" line="0" column="0" />
@@ -444,12 +444,12 @@
         <mark key="^" line="61" column="0" />
         <mark key="." line="61" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1517444388361">
-        <mark key="'" line="141" column="13" />
-        <mark key="[" line="217" column="19" />
-        <mark key="]" line="217" column="26" />
-        <mark key="." line="217" column="26" />
-        <mark key="^" line="217" column="26" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1517445869372">
+        <mark key="'" line="35" column="50" />
+        <mark key="[" line="41" column="111" />
+        <mark key="]" line="42" column="36" />
+        <mark key="." line="42" column="36" />
+        <mark key="^" line="42" column="36" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/seq2seq_sa.py" timestamp="1478020932535">
         <mark key="'" line="524" column="23" />
@@ -584,10 +584,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="777" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="759" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="907" column="67" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="739" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1051" column="13" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="986" column="15" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="345" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -684,37 +680,53 @@
       <jump line="303" column="57" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="310" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="225" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="130" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="35" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="18" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/utils.py" />
+      <jump line="194" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>batch.get_feature_idxs(feats)</text>
+        <text>start_word</text>
       </register>
       <register name="-" type="4">
-        <text>batch.get_feature_idxs(feats)</text>
+        <text>start_word</text>
       </register>
       <register name="/" type="4">
-        <text>readO</text>
+        <text>canAppl</text>
       </register>
       <register name="0" type="4">
         <text>[int(x) for x in instance['alignment']['word-align'].strip().split()]</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmJ1ZmZlci5jbGVhcigpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
+      <register name="2" type="4">
+        <text>&quot;&quot;&quot;
+        :param action:
+        :param log_prob:
+        :param state:
+        :param context_vector:
+        :return:
+        &quot;&quot;&quot;</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBzZWxmLmJ1ZmZlci5jbGVhcigpCg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgIGh5cHMuYXBwZW5kKCkK</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text>Hypothesis([batch.action_inp[0][0]], [0.0], initial_state, context_input_init,
                            context_concept_init, initial_config)</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBhbGxfaW5zdGFuY2VzLmFwcGVuZCgoaW5wdXRfc2VudCwgY29uY2VwdHMsIGZlYXRzLCBhY3Rpb25zLCBhY3Rpb24yY2lkLCBhY3Rpb24yd2lkKSkK</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text>&quot;&quot;&quot;
     TODO: fill in the test set, tok, lemma, POS, concepts.
     :param inpath: test file in json format.
@@ -722,27 +734,21 @@
     :return:
     &quot;&quot;&quot;</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text>if not oracle_seq:
                         continue</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhc3NlcnQgbGVuKGNvbmNlcHRfdG9fd29yZCkgPT0gbGVuKGNvbmNlcHRfc2VxKQo=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAganNvbl9vdXRwdXQgPSBvcy5wYXRoLmpvaW4ob3V0cHV0X2RpciwgIm9yYWNsZV9leGFtcGxlcy5qc29uIikK</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAganNvbl9vdXRwdXQgPSBvcy5wYXRoLmpvaW4ob3V0cHV0X2RpciwgIm9yYWNsZV9kZWNvZGUuanNvbiIpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhc3NlcnQgbGVuKGNvbmNlcHRfdG9fd29yZCkgPT0gbGVuKGNvbmNlcHRfc2VxKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>readO</last-search>
+      <last-search>canAppl</last-search>
       <last-offset />
-      <last-pattern>readO</last-pattern>
+      <last-pattern>canAppl</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -789,6 +795,9 @@
         <entry>curr_batch</entry>
         <entry>action_inp</entry>
         <entry>readO</entry>
+        <entry>canApply</entry>
+        <entry>canAplly</entry>
+        <entry>canAppl</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
