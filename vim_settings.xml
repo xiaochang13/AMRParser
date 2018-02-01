@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517444215562">
-        <mark key="'" line="195" column="38" />
-        <mark key="[" line="191" column="18" />
-        <mark key="]" line="192" column="7" />
-        <mark key="." line="192" column="7" />
-        <mark key="^" line="192" column="7" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517445119804">
+        <mark key="'" line="310" column="41" />
+        <mark key="[" line="301" column="76" />
+        <mark key="]" line="302" column="15" />
+        <mark key="." line="302" column="15" />
+        <mark key="^" line="302" column="15" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -444,12 +444,12 @@
         <mark key="^" line="61" column="0" />
         <mark key="." line="61" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1517444326690">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1517444388361">
         <mark key="'" line="141" column="13" />
-        <mark key="[" line="216" column="26" />
-        <mark key="]" line="217" column="24" />
-        <mark key="." line="217" column="24" />
-        <mark key="^" line="217" column="24" />
+        <mark key="[" line="217" column="19" />
+        <mark key="]" line="217" column="26" />
+        <mark key="." line="217" column="26" />
+        <mark key="^" line="217" column="26" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/seq2seq_sa.py" timestamp="1478020932535">
         <mark key="'" line="524" column="23" />
@@ -584,10 +584,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="112" column="8" filename="$USER_HOME$/data_processing/entities.py" />
-      <jump line="23" column="4" filename="$USER_HOME$/data_processing/entities.py" />
-      <jump line="24" column="4" filename="$USER_HOME$/data_processing/entities.py" />
-      <jump line="45" column="24" filename="$USER_HOME$/data_processing/entities.py" />
       <jump line="777" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="759" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="907" column="67" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -683,17 +679,21 @@
       <jump line="296" column="18" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="363" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="108" column="55" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="198" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="195" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="303" column="57" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="310" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="225" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmJ1ZmZlci5jbGVhcigpCg==</text>
+      <register name="&quot;" type="4">
+        <text>batch.get_feature_idxs(feats)</text>
       </register>
       <register name="-" type="4">
-        <text>[batch.action_inp[0][0]]</text>
+        <text>batch.get_feature_idxs(feats)</text>
       </register>
       <register name="/" type="4">
-        <text>action_inp</text>
+        <text>readO</text>
       </register>
       <register name="0" type="4">
         <text>[int(x) for x in instance['alignment']['word-align'].strip().split()]</text>
@@ -740,9 +740,9 @@
       </register>
     </registers>
     <search>
-      <last-search>action_inp</last-search>
+      <last-search>readO</last-search>
       <last-offset />
-      <last-pattern>action_inp</last-pattern>
+      <last-pattern>readO</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -788,6 +788,7 @@
         <entry>run</entry>
         <entry>curr_batch</entry>
         <entry>action_inp</entry>
+        <entry>readO</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
