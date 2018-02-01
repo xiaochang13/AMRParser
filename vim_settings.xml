@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517456745123">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517514910206">
         <mark key="'" line="120" column="13" />
-        <mark key="[" line="131" column="75" />
-        <mark key="]" line="131" column="75" />
-        <mark key="." line="131" column="75" />
-        <mark key="^" line="123" column="9" />
+        <mark key="[" line="140" column="11" />
+        <mark key="]" line="140" column="63" />
+        <mark key="." line="140" column="63" />
+        <mark key="^" line="140" column="63" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -298,8 +298,8 @@
         <mark key="." line="81" column="43" />
         <mark key="^" line="81" column="43" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1517456702166">
-        <mark key="'" line="17" column="22" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1517514806325">
+        <mark key="'" line="175" column="4" />
         <mark key="[" line="100" column="48" />
         <mark key="]" line="100" column="48" />
         <mark key="." line="100" column="48" />
@@ -577,7 +577,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="15" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" />
       <jump line="48" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="262" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
       <jump line="421" column="54" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
@@ -677,16 +676,17 @@
       <jump line="200" column="57" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="206" column="57" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="120" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="175" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>, self.arc_binary</text>
+        <text>self.start_new</text>
       </register>
       <register name="-" type="4">
-        <text>, self.arc_binary</text>
+        <text>self.start_new</text>
       </register>
       <register name="/" type="4">
-        <text>concept_focus</text>
+        <text>canApply</text>
       </register>
       <register name="0" type="4">
         <text>shiftpop_actions, pushidx_actions, arcbinary_actions, arclabel_actions</text>
@@ -733,9 +733,9 @@
       </register>
     </registers>
     <search>
-      <last-search>concept_focus</last-search>
+      <last-search>canApply</last-search>
       <last-offset />
-      <last-pattern>concept_focus</last-pattern>
+      <last-pattern>canApply</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -782,7 +782,6 @@
         <entry>curr_batch</entry>
         <entry>action_inp</entry>
         <entry>readO</entry>
-        <entry>canApply</entry>
         <entry>canAplly</entry>
         <entry>canAppl</entry>
         <entry>arc_binary_actions</entry>
@@ -803,6 +802,7 @@
         <entry>self.arc_binary</entry>
         <entry>arc_binary</entry>
         <entry>concept_focus</entry>
+        <entry>canApply</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
