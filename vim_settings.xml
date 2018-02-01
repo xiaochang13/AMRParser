@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517445527754">
-        <mark key="'" line="130" column="22" />
-        <mark key="[" line="130" column="0" />
-        <mark key="]" line="130" column="0" />
-        <mark key="^" line="348" column="62" />
-        <mark key="." line="130" column="0" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517447823820">
+        <mark key="'" line="210" column="11" />
+        <mark key="[" line="160" column="38" />
+        <mark key="]" line="161" column="75" />
+        <mark key="^" line="161" column="75" />
+        <mark key="." line="161" column="75" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -99,12 +99,12 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_model_graph.py" timestamp="1517273137058">
         <mark key="'" line="174" column="25" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517444041391">
-        <mark key="'" line="108" column="55" />
-        <mark key="[" line="355" column="4" />
-        <mark key="]" line="355" column="99" />
-        <mark key="." line="5" column="19" />
-        <mark key="^" line="5" column="19" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517448101789">
+        <mark key="'" line="149" column="32" />
+        <mark key="[" line="282" column="34" />
+        <mark key="]" line="282" column="45" />
+        <mark key="." line="282" column="45" />
+        <mark key="^" line="282" column="45" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517340510938">
         <mark key="'" line="2201" column="65" />
@@ -305,12 +305,12 @@
         <mark key="." line="81" column="43" />
         <mark key="^" line="81" column="43" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1517446227515">
-        <mark key="'" line="194" column="8" />
-        <mark key="[" line="101" column="13" />
-        <mark key="]" line="101" column="47" />
-        <mark key="." line="101" column="47" />
-        <mark key="^" line="101" column="47" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1517447144595">
+        <mark key="'" line="209" column="8" />
+        <mark key="[" line="178" column="17" />
+        <mark key="]" line="179" column="51" />
+        <mark key="." line="179" column="51" />
+        <mark key="^" line="179" column="51" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/treewidth.py" timestamp="1480247731932">
         <mark key="'" line="0" column="0" />
@@ -584,11 +584,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1051" column="13" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="986" column="15" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="345" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="412" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="797" column="98" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="758" column="22" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1031" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="278" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -673,7 +668,6 @@
       <jump line="295" column="14" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="185" column="15" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="296" column="18" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="363" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="108" column="55" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="198" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="195" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
@@ -684,27 +678,36 @@
       <jump line="35" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="18" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/utils.py" />
       <jump line="194" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
+      <jump line="160" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="153" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="209" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="363" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="277" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="149" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>start_word</text>
+        <text>&quot;pushidx_actions.txt&quot;</text>
       </register>
       <register name="-" type="4">
-        <text>start_word</text>
+        <text>&quot;pushidx_actions.txt&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>canAppl</text>
+        <text>arc_label</text>
       </register>
       <register name="0" type="4">
-        <text>[int(x) for x in instance['alignment']['word-align'].strip().split()]</text>
+        <text>&quot;arc_label_actions.txt&quot;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGMucGhhc2UgPSB1dGlscy5GZWF0dXJlVHlwZS5BUkNCSU5BUlkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="3" type="4">
         <text>&quot;&quot;&quot;
         :param action:
         :param log_prob:
@@ -713,20 +716,20 @@
         :return:
         &quot;&quot;&quot;</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICBzZWxmLmJ1ZmZlci5jbGVhcigpCg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgIGh5cHMuYXBwZW5kKCkK</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>Hypothesis([batch.action_inp[0][0]], [0.0], initial_state, context_input_init,
                            context_concept_init, initial_config)</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBhbGxfaW5zdGFuY2VzLmFwcGVuZCgoaW5wdXRfc2VudCwgY29uY2VwdHMsIGZlYXRzLCBhY3Rpb25zLCBhY3Rpb24yY2lkLCBhY3Rpb24yd2lkKSkK</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>&quot;&quot;&quot;
     TODO: fill in the test set, tok, lemma, POS, concepts.
     :param inpath: test file in json format.
@@ -734,21 +737,18 @@
     :return:
     &quot;&quot;&quot;</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>if not oracle_seq:
                         continue</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhc3NlcnQgbGVuKGNvbmNlcHRfdG9fd29yZCkgPT0gbGVuKGNvbmNlcHRfc2VxKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>canAppl</last-search>
+      <last-search>arc_label</last-search>
       <last-offset />
-      <last-pattern>canAppl</last-pattern>
+      <last-pattern>arc_label</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -798,6 +798,9 @@
         <entry>canApply</entry>
         <entry>canAplly</entry>
         <entry>canAppl</entry>
+        <entry>self.arc_binary</entry>
+        <entry>arc_binary_actions</entry>
+        <entry>arc_label</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
