@@ -79,11 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517523406818">
-        <mark key="'" line="278" column="12" />
-        <mark key="[" line="156" column="0" />
-        <mark key="]" line="156" column="0" />
-        <mark key="." line="156" column="0" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1517601571175">
+        <mark key="'" line="141" column="30" />
+        <mark key="[" line="138" column="62" />
+        <mark key="]" line="138" column="78" />
+        <mark key="." line="138" column="62" />
+        <mark key="^" line="138" column="65" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -95,8 +96,12 @@
       <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515482880350">
         <mark key="'" line="426" column="54" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517448101789">
-        <mark key="'" line="149" column="32" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1517602836260">
+        <mark key="'" line="158" column="50" />
+        <mark key="[" line="133" column="28" />
+        <mark key="]" line="133" column="23" />
+        <mark key="." line="133" column="23" />
+        <mark key="^" line="133" column="23" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1517340510938">
         <mark key="'" line="2201" column="65" />
@@ -297,10 +302,10 @@
         <mark key="." line="81" column="43" />
         <mark key="^" line="81" column="43" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1517523587843">
-        <mark key="'" line="107" column="14" />
-        <mark key="[" line="100" column="48" />
-        <mark key="]" line="100" column="48" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1517601599236">
+        <mark key="'" line="132" column="29" />
+        <mark key="[" line="129" column="43" />
+        <mark key="]" line="129" column="58" />
         <mark key="." line="100" column="48" />
         <mark key="^" line="179" column="51" />
       </file>
@@ -436,8 +441,8 @@
         <mark key="^" line="61" column="0" />
         <mark key="." line="61" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1517518315368">
-        <mark key="'" line="41" column="12" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1517601490142">
+        <mark key="'" line="278" column="50" />
         <mark key="[" line="41" column="111" />
         <mark key="]" line="42" column="36" />
         <mark key="." line="42" column="36" />
@@ -576,23 +581,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="108" column="55" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="303" column="57" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="310" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="225" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="130" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="35" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="18" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/utils.py" />
-      <jump line="194" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="160" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="153" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="209" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="363" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="277" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="149" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="129" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
-      <jump line="166" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
-      <jump line="61" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="28" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="30" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="3" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" />
@@ -676,58 +664,78 @@
       <jump line="119" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="278" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="107" column="14" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
+      <jump line="140" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="53" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="77" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="278" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="115" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" />
+      <jump line="132" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
+      <jump line="129" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
+      <jump line="174" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="99" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="192" column="85" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="200" column="100" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="104" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="165" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="187" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="130" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="125" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="158" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgc2VsZi50cmFuc19zdGF0ZS5waGFzZSA9IG9yYWNsZS51dGlscy5GZWF0dXJlVHlwZS5BUkNDT05ORUNUCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBhc3NlcnQgbGVuKGFyY19kZWNpc2lvbnMpID09IHNlbGYuY2FjaGVfc2l6ZQo=</text>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text>next</text>
       </register>
       <register name="/" type="4">
-        <text>def apply</text>
+        <text>temp_word_idx</text>
       </register>
       <register name="0" type="4">
-        <text>assert self.actions, &quot;Empty action sequence start without shift or pop&quot;</text>
+        <text>nextConceptIDX()</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgc2VsZi50cmFuc19zdGF0ZS5waGFzZSA9IG9yYWNsZS51dGlscy5GZWF0dXJlVHlwZS5BUkNDT05ORUNUCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBhc3NlcnQgbGVuKGFyY19kZWNpc2lvbnMpID09IHNlbGYuY2FjaGVfc2l6ZQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzdGFydF9jb25jZXB0ID0gVHJ1ZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgb3JhY2xlX2V4YW1wbGUgPSBPcmFjbGVFeGFtcGxlKCkK</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHN0YXJ0X2NvbmNlcHQgPSBUcnVlICMgQ2FuIHByb2Nlc3MgbmV3IGNvbmNlcHQuCg==</text>
+      <register name="3" type="4">
+        <text># if word_idx == -1:
+                            #     word_align.append(len(tok_seq))
+                            # else:
+                            #     word_align.append(word_idx)</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzdGFydF9jb25jZXB0ID0gRmFsc2UK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgc2VsZi50cmFuc19zdGF0ZS5waGFzZSA9IG9yYWNsZS51dGlscy5GZWF0dXJlVHlwZS5BUkNDT05ORUNUCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHN0YXJ0X2NvbmNlcHQgPSBUcnVlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzdGFydF9jb25jZXB0ID0gVHJ1ZQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBuZXdfaHlwLmFyY19iaW5hcnkgPSBhcmNfYmluYXJ5Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN0YXJ0X2NvbmNlcHQgPSBUcnVlICMgQ2FuIHByb2Nlc3MgbmV3IGNvbmNlcHQuCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBzZWxmLmFyY19iaW5hcnkgPSBUcnVlCg==</text>
+        <text encoding="base64">ICAgICAgICBzdGFydF9jb25jZXB0ID0gRmFsc2UK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAjIHNlbGYuYXJjX2JpbmFyeSA9IEZhbHNlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN0YXJ0X2NvbmNlcHQgPSBUcnVlCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAjIGFzc2VydCBzZWxmLnN0YXJ0X25ldywgIlNob3VsZCBvbmx5IGNoZWNrIHVuYWxpZ25lZCB3b3JkIGJlZm9yZSBwcm9jZXNzaW5nIG5ldyBjb25jZXB0cyIK</text>
+        <text encoding="base64">ICAgICAgICBuZXdfaHlwLmFyY19iaW5hcnkgPSBhcmNfYmluYXJ5Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>def apply</last-search>
+      <last-search>temp_word_idx</last-search>
       <last-offset />
-      <last-pattern>def apply</last-pattern>
+      <last-pattern>temp_word_idx</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -735,53 +743,6 @@
     </search>
     <history>
       <history-search>
-        <entry>is_predicate</entry>
-        <entry>category_info</entry>
-        <entry>getCategories</entry>
-        <entry>frequent_set +</entry>
-        <entry>getCate</entry>
-        <entry>neg_prefix</entry>
-        <entry>isNegation</entry>
-        <entry>isNeg</entry>
-        <entry>negation</entry>
-        <entry>role</entry>
-        <entry>phrases</entry>
-        <entry>filtered</entry>
-        <entry>lems</entry>
-        <entry>lem_seq</entry>
-        <entry>realign</entry>
-        <entry>searchSeq</entry>
-        <entry>date_set</entry>
-        <entry>entity_typ</entry>
-        <entry>span_to_typ</entry>
-        <entry>entity_map</entry>
-        <entry>entity_name</entry>
-        <entry>Somethi</entry>
-        <entry>entities with</entry>
-        <entry>new_date_spans</entry>
-        <entry>buildLinearEnt</entry>
-        <entry>unaligned</entry>
-        <entry>isTrain</entry>
-        <entry>subgraph</entry>
-        <entry>NE&quot;</entry>
-        <entry encoding="base64">XDxjb250aW51ZVw+</entry>
-        <entry>use_multipl</entry>
-        <entry>train</entry>
-        <entry>concept_to_word</entry>
-        <entry>loadD</entry>
-        <entry>vocab</entry>
-        <entry>run</entry>
-        <entry>curr_batch</entry>
-        <entry>action_inp</entry>
-        <entry>readO</entry>
-        <entry>canAplly</entry>
-        <entry>canAppl</entry>
-        <entry>arc_binary_actions</entry>
-        <entry>arc_label</entry>
-        <entry>system</entry>
-        <entry>TODO</entry>
-        <entry>use_dep</entry>
-        <entry>context_t</entry>
         <entry>addAction</entry>
         <entry>getWord</entry>
         <entry>self.actions</entry>
@@ -802,6 +763,11 @@
         <entry>start_conc</entry>
         <entry>def extend</entry>
         <entry>def apply</entry>
+        <entry>nextCon</entry>
+        <entry>count()</entry>
+        <entry>concept_idx</entry>
+        <entry>concept_idx += 1</entry>
+        <entry>temp_word_idx</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
