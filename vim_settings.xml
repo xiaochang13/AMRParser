@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518027953495">
-        <mark key="'" line="184" column="8" />
-        <mark key="[" line="135" column="8" />
-        <mark key="]" line="135" column="53" />
-        <mark key="." line="135" column="8" />
-        <mark key="^" line="135" column="8" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518029062391">
+        <mark key="'" line="190" column="8" />
+        <mark key="[" line="183" column="30" />
+        <mark key="]" line="184" column="103" />
+        <mark key="." line="184" column="103" />
+        <mark key="^" line="184" column="103" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -683,8 +683,8 @@
       <jump line="184" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>v</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>v</text>
@@ -695,40 +695,37 @@
       <register name="0" type="4">
         <text>concept_align = self.trans_state.conceptAlign</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIA==</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBuZXdfaHlwLndvcmRfZm9jdXMgPSBuZXdfY29uZmlnLgo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBuZXdfd29yZF9mb2N1cyA9IHNlbGYudHJhbnNfc3RhdGUK</text>
+      </register>
+      <register name="4" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIA==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgIk5VTEwiIG5vdCBpbiBvcmFjbGVfYWN0aW9uOgo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="6" type="4">
         <text encoding="base64">IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA==</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text>curr_repr = &quot;Step #%d:\nfeature seq: %s\n, action seq: %s&quot; % (steps, feat_reprs[i],
                                                                                   h.actionSeqStr(action_vocab))
                     print (curr_repr)</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBhc3NlcnQgbGVuKGFyY19kZWNpc2lvbnMpID09IHNlbGYuY2FjaGVfc2l6ZQo=</text>
-      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgb3JhY2xlX2V4YW1wbGUgPSBPcmFjbGVFeGFtcGxlKCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text># if word_idx == -1:
-                            #     word_align.append(len(tok_seq))
-                            # else:
-                            #     word_align.append(word_idx)</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
