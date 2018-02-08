@@ -404,12 +404,12 @@
         <mark key="." line="26" column="18" />
         <mark key="^" line="26" column="18" />
       </file>
-      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1517421623716">
+      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1518063745700">
         <mark key="'" line="291" column="17" />
-        <mark key="[" line="313" column="22" />
-        <mark key="]" line="313" column="21" />
-        <mark key="^" line="313" column="21" />
-        <mark key="." line="313" column="21" />
+        <mark key="[" line="313" column="0" />
+        <mark key="]" line="313" column="1" />
+        <mark key="^" line="313" column="1" />
+        <mark key="." line="313" column="1" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -695,7 +695,7 @@
         <text>#print 'A total of lines:', n_lines</text>
       </register>
       <register name="/" type="4">
-        <text>foo</text>
+        <text>loadSpan</text>
       </register>
       <register name="0" type="4">
         <text>&quot;#&quot;.join([&quot;%s:%d&quot; % (r_l, curr_concept.tail_ids[r_idx]) for (r_idx, r_l)
@@ -740,9 +740,9 @@
       </register>
     </registers>
     <search>
-      <last-search>foo</last-search>
+      <last-search>loadSpan</last-search>
       <last-offset />
-      <last-pattern>foo</last-pattern>
+      <last-pattern>loadSpan</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -795,6 +795,7 @@
         <entry>loadCategoryMap</entry>
         <entry>curr_line</entry>
         <entry>foo</entry>
+        <entry>loadSpan</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
