@@ -205,11 +205,10 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518106794501">
-        <mark key="'" line="494" column="44" />
-        <mark key="[" line="107" column="12" />
-        <mark key="]" line="107" column="12" />
-        <mark key="." line="107" column="12" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518125846895">
+        <mark key="[" line="83" column="0" />
+        <mark key="]" line="83" column="0" />
+        <mark key="." line="83" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515615653217">
         <mark key="'" line="79" column="61" />
@@ -586,12 +585,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="55" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="358" column="73" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="402" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="346" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="331" column="10" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="132" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="23" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
       <jump line="113" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
       <jump line="472" column="75" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
@@ -686,60 +679,93 @@
       <jump line="108" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="0" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="49" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
+      <jump line="85" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="134" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="117" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="90" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="101" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="84" column="9" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>c.gold</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>c.gold</text>
       </register>
       <register name="/" type="4">
-        <text>conceptSeq</text>
+        <text>get_pred</text>
       </register>
       <register name="0" type="4">
         <text>c.gold.compare(c.hypothesis):</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmaXJzdF9hY3Rpb24gPSBGYWxzZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGZpcnN0X2FjdGlvbiA9IFRydWUK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="2">
+      <register name="3" type="4">
+        <text encoding="base64">ZGVmIF9nZXRfcHJlZF9zeW1ib2woc2VsZiwgdmFyLCBpbnN0YW5jZSwgbW9kZSk6CiAgICAgICAgYW1yLCBhbGlnbm1lbnQsIHRvaywgcG9zID0gaW5zdGFuY2UKICAgICAgICBpZiBtb2RlID09ICdiYXNpYyc6CiAgICAgICAgICAgIHByZWRfbmFtZSA9IGFtci5ub2RlX3RvX2NvbmNlcHRzW3Zhcl0KICAgICAgICAgICAgcmV0dXJuIHByZWRfbmFtZQogICAgICAgIGVsaWYgbW9kZSA9PSAnZnJlcSc6CiAgICAgICAgICAgIHByZWRfbmFtZSA9IGFtci5ub2RlX3RvX2NvbmNlcHRzW3Zhcl0KICAgICAgICAgICAgaWYgc2VsZi5zdGF0cy5udW1fcHJlZGljYXRlc1twcmVkX25hbWVdID49IHNlbGYubWluX3ByZF9mcmVxOgogICAgICAgICAgICAgICAgcmV0dXJuIHByZWRfbmFtZQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgc2Vuc2UgPSBwcmVkX25hbWUuc3BsaXQoJy0nKVstMV0KICAgICAgICAgICAgICAgIHJldHVybiBWRVJCK3NlbnNlCgogICAgICAgICAgICAgICAgIyBUT0RPIGZ1cnRoZXIgY2F0ZWdvcml6ZSB0aGUgdmVyYiB0eXBlIHVzaW5nIHZlcmJhbGl6YXRpb24gbGlzdAogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJhaXNlIEV4Y2VwdGlvbignVW5leHBlY3RlZCBtb2RlICVzJyAlIChtb2RlKSkKCiAgICBkZWYgX2dldF92YXJpYWJsZV9zeW1iYWwoc2VsZiwgdmFyLCBpbnN0YW5jZSwgbW9kZSk6CiAgICAgICAgYW1yLCBhbGlnbm1lbnQsIHRvaywgcG9zID0gaW5zdGFuY2UKICAgICAgICBpZiBtb2RlID09ICdiYXNpYyc6CiAgICAgICAgICAgIHZhcmlhYmxlX25hbWUgPSBhbXIubm9kZV90b19jb25jZXB0c1t2YXJdCiAgICAgICAgICAgIHJldHVybiB2YXJpYWJsZV9uYW1lCiAgICAgICAgZWxpZiBtb2RlID09ICdmcmVxJzoKICAgICAgICAgICAgdmFyaWFibGVfbmFtZSA9IGFtci5ub2RlX3RvX2NvbmNlcHRzW3Zhcl0KICAgICAgICAgICAgaWYgc2VsZi5zdGF0cy5udW1fbm9ucHJlZGljYXRlX3ZhbHNbdmFyaWFibGVfbmFtZV0gPj0gc2VsZi5taW5fdmFyX2ZyZXE6CiAgICAgICAgICAgICAgICByZXR1cm4gdmFyaWFibGVfbmFtZQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgcmV0dXJuIFNVUkYKCiAgICAgICAgICAgICAgICAjIFRPRE8gZnVydGhlciBjYXRlZ29yaXplIHRoZSB2YXJpYWJsZSB0eXBlCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcmFpc2UgRXhjZXB0aW9uKCdVbmV4cGVjdGVkIG1vZGUgJXMnICUgKG1vZGUpKQ==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="5" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="6" type="4">
+        <text>def get_symbol(self, var, instance, mode='basic'):
+        '''
+        get symbol for each amr concept and variable
+        mode:
+            &quot;basic&quot;: no frequence filtering
+            &quot;freq&quot;: frequence filtering
+        '''
+        amr = instance[0]
+
+        if amr.is_named_entity(var):
+            exclude_rels = ['wiki','name']
+            entity_name = amr.node_to_concepts[var]
+            return exclude_rels, 'NE_'+entity_name
+        elif amr.is_entity(var):
+            entity_name = amr.node_to_concepts[var]
+            return [], 'ENT_'+entity_name
+        elif amr.is_predicate(var):
+            return [], self._get_pred_symbol(var, instance, mode=mode)
+        elif amr.is_const(var):
+            if var in ['interrogative', 'imperative', 'expressive', '-']:
+                return [], var
+            else:
+                return [], CONST
+
+        else:
+            #variable_name = amr.node_to_concepts[var]
+            #return [], variable_name
+            return [], self._get_variable_symbal(var, instance, mode=mode)
+
+        return [],var</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB0cmVlcyA9IG9yYWNsZS5pb3V0aWwubG9hZERlcGVuZGVuY3koZGVwX3BhdGgsIHRva19zZXFzLCBUcnVlKQo=</text>
-      </register>
-      <register name="7" type="4">
-        <text>#print seq
-            #print stack
-            #print aux_stack</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAjcGFzcwo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>conceptSeq</last-search>
+      <last-search>get_pred</last-search>
       <last-offset />
-      <last-pattern>conceptSeq</last-pattern>
+      <last-pattern>get_pred</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -800,6 +826,11 @@
         <entry>loadDep</entry>
         <entry>oracle_seq</entry>
         <entry>conceptSeq</entry>
+        <entry>linearize_amr</entry>
+        <entry>get_pred_symb</entry>
+        <entry>get_symbol</entry>
+        <entry>get_variable_sym</entry>
+        <entry>get_pred</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
