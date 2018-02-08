@@ -95,12 +95,12 @@
       <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515482880350">
         <mark key="'" line="426" column="54" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1518027129519">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1518106839922">
         <mark key="'" line="235" column="44" />
-        <mark key="[" line="173" column="42" />
-        <mark key="]" line="174" column="55" />
-        <mark key="." line="174" column="55" />
-        <mark key="^" line="174" column="55" />
+        <mark key="[" line="215" column="20" />
+        <mark key="]" line="215" column="20" />
+        <mark key="." line="215" column="20" />
+        <mark key="^" line="215" column="20" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1518055758190">
         <mark key="'" line="1937" column="10" />
@@ -205,11 +205,11 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518063018438">
-        <mark key="'" line="496" column="44" />
-        <mark key="[" line="522" column="0" />
-        <mark key="]" line="522" column="0" />
-        <mark key="." line="522" column="0" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518106794501">
+        <mark key="'" line="494" column="44" />
+        <mark key="[" line="107" column="12" />
+        <mark key="]" line="107" column="12" />
+        <mark key="." line="107" column="12" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515615653217">
         <mark key="'" line="79" column="61" />
@@ -688,8 +688,10 @@
       <jump line="496" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>#print seq
+            #print stack
+            #print aux_stack</text>
       </register>
       <register name="-" type="4">
         <text>#print 'A total of lines:', n_lines</text>
@@ -701,8 +703,10 @@
         <text>&quot;#&quot;.join([&quot;%s:%d&quot; % (r_l, curr_concept.tail_ids[r_idx]) for (r_idx, r_l)
                                 in enumerate(curr_concept.rels)])</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>#print seq
+            #print stack
+            #print aux_stack</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -714,26 +718,26 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICNwcmludCBmc1swXSwgZnNbMV0sIGZzWzJdLCBmc1szXQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICNwcmludCBzZW50X2luZGV4Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICNwcmludCBmc1swXSwgZnNbMV0sIGZzWzJdLCBmc1szXQo=</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICNwcmludCBzZW50X2luZGV4Cg==</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>#if l in visited_rels:
                         #    continue
                         #visited_rels.add(l)
 
                         #print 'triple:', nodelabel, l, taillabel</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgI3ByaW50IHJzCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
