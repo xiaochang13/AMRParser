@@ -205,8 +205,8 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518127961656">
-        <mark key="'" line="249" column="26" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518130750189">
+        <mark key="'" line="211" column="31" />
         <mark key="[" line="83" column="0" />
         <mark key="]" line="83" column="0" />
         <mark key="." line="83" column="0" />
@@ -586,8 +586,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="186" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="164" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="147" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="187" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="191" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
@@ -686,6 +684,8 @@
       <jump line="65" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
       <jump line="249" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="778" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="211" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="132" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
