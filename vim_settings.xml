@@ -95,12 +95,12 @@
       <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515482880350">
         <mark key="'" line="426" column="54" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1518113430967">
-        <mark key="'" line="235" column="44" />
-        <mark key="[" line="215" column="20" />
-        <mark key="]" line="215" column="20" />
-        <mark key="." line="215" column="20" />
-        <mark key="^" line="215" column="20" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1518114964324">
+        <mark key="'" line="242" column="44" />
+        <mark key="[" line="77" column="16" />
+        <mark key="]" line="77" column="16" />
+        <mark key="." line="77" column="16" />
+        <mark key="^" line="77" column="16" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1518055758190">
         <mark key="'" line="1937" column="10" />
@@ -689,12 +689,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>#print seq
-            #print stack
-            #print aux_stack</text>
+        <text>.</text>
       </register>
       <register name="-" type="4">
-        <text>#print 'A total of lines:', n_lines</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
         <text>loadSpan</text>
@@ -821,6 +819,7 @@
         <entry>%s/cur_tok/cur_action/g</entry>
         <entry>404</entry>
         <entry>1</entry>
+        <entry>175</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
