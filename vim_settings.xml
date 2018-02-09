@@ -79,7 +79,8 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518059784275">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518211076000">
+        <mark key="'" line="501" column="28" />
         <mark key="[" line="390" column="9" />
         <mark key="]" line="391" column="45" />
         <mark key="^" line="391" column="45" />
@@ -449,8 +450,8 @@
         <mark key="^" line="61" column="0" />
         <mark key="." line="61" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1518194559240">
-        <mark key="'" line="196" column="30" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1518210668165">
+        <mark key="'" line="74" column="44" />
         <mark key="[" line="73" column="43" />
         <mark key="]" line="73" column="80" />
         <mark key="^" line="73" column="80" />
@@ -598,8 +599,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="182" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="178" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="128" column="56" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="112" column="71" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="1" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
@@ -698,6 +697,8 @@
       <jump line="238" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="33" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="13" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" />
+      <jump line="74" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="501" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -707,7 +708,7 @@
         <text>annotation</text>
       </register>
       <register name="/" type="4">
-        <text>getTokenType</text>
+        <text>extractF</text>
       </register>
       <register name="0" type="4">
         <text>annotation</text>
@@ -756,9 +757,9 @@
       </register>
     </registers>
     <search>
-      <last-search>getTokenType</last-search>
+      <last-search>extractF</last-search>
       <last-offset />
-      <last-pattern>getTokenType</last-pattern>
+      <last-pattern>extractF</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -837,6 +838,7 @@
         <entry>cache_fea</entry>
         <entry>pushidx_fe</entry>
         <entry>getTokenType</entry>
+        <entry>extractF</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
