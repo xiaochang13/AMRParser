@@ -38,12 +38,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1517350968275">
-        <mark key="'" line="795" column="16" />
-        <mark key="[" line="796" column="37" />
-        <mark key="]" line="796" column="38" />
-        <mark key="^" line="796" column="38" />
-        <mark key="." line="796" column="38" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1518143583577">
+        <mark key="'" line="807" column="12" />
+        <mark key="[" line="811" column="8" />
+        <mark key="]" line="811" column="9" />
+        <mark key="^" line="811" column="9" />
+        <mark key="." line="811" column="9" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -449,7 +449,7 @@
         <mark key="^" line="61" column="0" />
         <mark key="." line="61" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1518119693106">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1518141137812">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="376" column="26" />
         <mark key="]" line="376" column="62" />
@@ -531,13 +531,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518140576193">
-        <mark key="'" line="498" column="51" />
-        <mark key="k" line="1103" column="34" />
-        <mark key="[" line="377" column="46" />
-        <mark key="]" line="378" column="48" />
-        <mark key="^" line="378" column="48" />
-        <mark key="." line="378" column="48" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518143763615">
+        <mark key="'" line="534" column="46" />
+        <mark key="k" line="1123" column="34" />
+        <mark key="[" line="545" column="12" />
+        <mark key="]" line="545" column="12" />
+        <mark key="^" line="545" column="12" />
+        <mark key="." line="545" column="12" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -593,36 +593,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="194" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="198" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="458" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="119" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="122" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="169" column="47" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="124" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="219" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="116" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="230" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="139" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="160" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="130" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="235" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="3" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle_data.py" />
-      <jump line="494" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="237" column="18" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="244" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="135" column="52" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="184" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="502" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="181" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="263" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="2530" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1930" column="42" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="2252" column="44" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1937" column="10" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="291" column="9" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="302" column="14" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="364" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="989" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="1037" column="67" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="973" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
@@ -693,83 +663,90 @@
       <jump line="72" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/date_extraction.py" />
       <jump line="25" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/date_extraction.py" />
       <jump line="500" column="51" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="535" column="53" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="841" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="850" column="72" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="573" column="75" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="32" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="614" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="624" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1124" column="14" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1131" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1141" column="42" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="406" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="521" column="47" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="620" column="28" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="681" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="331" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="680" column="3" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1126" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="633" column="34" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="708" column="22" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="404" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="405" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="516" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1011" column="64" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="786" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="787" column="19" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1145" column="13" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="329" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="534" column="46" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="807" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="830" column="45" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text># end_idx = min(tok_idx+3, len(tok_seq))
-            # for end_tok_idx in range(tok_idx + 1, end_idx+1):
-            #     curr_ngram = &quot; &quot;.join(lemma_seq[tok_idx:end_tok_idx])
-            #     if curr_ngram in phrase_counts:
-            #         ngram_counts[curr_ngram] += 1</text>
+        <text>nodeid_to_repr[node_idx][1]</text>
       </register>
       <register name="-" type="4">
-        <text>c.gold</text>
+        <text>categorize</text>
       </register>
       <register name="/" type="4">
-        <text>get_pred</text>
+        <text>span_to_type</text>
       </register>
       <register name="0" type="4">
-        <text>c.gold.compare(c.hypothesis):</text>
+        <text>nodeid_to_repr[node_idx][1]</text>
       </register>
-      <register name="1" type="4">
-        <text># end_idx = min(tok_idx+3, len(tok_seq))
-            # for end_tok_idx in range(tok_idx + 1, end_idx+1):
-            #     curr_ngram = &quot; &quot;.join(lemma_seq[tok_idx:end_tok_idx])
-            #     if curr_ngram in phrase_counts:
-            #         ngram_counts[curr_ngram] += 1</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBsaW5lYXJpemVfYW1yKGFyZ3MpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text># if cate_l == &quot;PHRASE&quot;:
-                #     tok_repr = &quot; &quot;.join(lemma_seq[start:end])
-                #     # phrase_freq[tok_repr] += 1
-                #     # if tok_repr not in phrase_map:
-                #     #     phrase_map[tok_repr] = defaultdict(int)
-                #     # phrase_map[tok_repr][wiki_l] += 1</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBsaW5lYXJpemVEYXRhKGFyZ3MuZGF0YV9kaXIsIGFyZ3MuZnJlcV9kaXIsIGFyZ3Mub3V0cHV0KQo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text># Then dump all the training statistics.
+    # First edges statistics.</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgIG9zLnN5c3RlbSgibWtkaXIgLXAgJXMiICUgYXJncy50YWJsZV9kaXIpCg==</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">IyBleGNlcHQ6CiAgICAgICAgICAgICAgICAgICAgIyAgICAgcHJpbnQ+PiBzeXMuc3RkZXJyLCAiU2VudGVuY2UgJWQiICUgc2VudF9pZHgKICAgICAgICAgICAgICAgICAgICAjICAgICBwcmludD4+IHN5cy5zdGRlcnIsIG9yYWNsZV9zZXEKICAgICAgICAgICAgICAgICAgICAjICAgICBwcmludD4+IHN5cy5zdGRlcnIsICIlcyAlcyIgJSAoc3RyKHRva19zZXEpLCBzdHIoY29uY2VwdF9zZXEpKQogICAgICAgICAgICAgICAgICAgICMgICAgIHByaW50Pj4gc3lzLnN0ZGVyciwgIiVzICVzIiAlIChzdHIod29yZF9hbGlnbiksIHN0cihjb25jZXB0X2FsaWduKSkKICAgICAgICAgICAgICAgICAgICAjICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgICAgICMgICAgICMgc3lzLmV4aXQoMSk=</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHRyeToK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">CiAK</text>
       </register>
       <register name="8" type="4">
-        <text># try:
-                            #     assert oracle_action == &quot;POP&quot;
-                            # except:
-                            #     print &quot;Wrong here:&quot;
-                            #     print tok_seq
-                            #     print oracle_action
-                            #     print concept_seq
-                            #     sys.exit(1)</text>
+        <text encoding="base64">ICAgI2xvYWRNTEVDb3VudCgnLi9jb25jZXB0SURDb3VudHMuZGljdCcpCiAgICAjbG9hZE1MRUNvdW50KCcuL2xlbUNvbmNlcHRJRENvdW50cy5kaWN0Jyk=</text>
       </register>
       <register name="9" type="4">
-        <text># if not c.gold.compare(c.hypothesis):
-                    #     print &quot;Oracle sequence not constructing the gold graph for sentence %d!&quot; % sent_idx
-                    #     print &quot; &quot;.join(tok_seq)
-                    #     print str(amr_graph)
-                    # else:
-                    #     print &quot;check okay for sentence %d&quot; % sent_idx</text>
+        <text>mle_map = filterNoise(mle_map, './conceptIDCounts.dict.weird.txt')
+    mleLemmaMap = filterNoise(mleLemmaMap, './lemConceptIDCounts.dict.weird.txt')</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>get_pred</last-search>
+      <last-search>span_to_type</last-search>
       <last-offset />
-      <last-pattern>get_pred</last-pattern>
+      <last-pattern>span_to_type</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -835,6 +812,13 @@
         <entry>get_symbol</entry>
         <entry>get_variable_sym</entry>
         <entry>get_pred</entry>
+        <entry>category</entry>
+        <entry>freq_dir</entry>
+        <entry>table_dir</entry>
+        <entry>frequent_set</entry>
+        <entry>phrase_map</entry>
+        <entry>loadPhrases</entry>
+        <entry>span_to_type</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
@@ -859,6 +843,8 @@
         <entry>237</entry>
         <entry>210</entry>
         <entry>1</entry>
+        <entry>176</entry>
+        <entry>547</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
