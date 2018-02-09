@@ -531,13 +531,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518143763615">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518149078082">
         <mark key="'" line="534" column="46" />
-        <mark key="k" line="1123" column="34" />
-        <mark key="[" line="545" column="12" />
-        <mark key="]" line="545" column="12" />
-        <mark key="^" line="545" column="12" />
-        <mark key="." line="545" column="12" />
+        <mark key="k" line="1118" column="34" />
+        <mark key="[" line="545" column="0" />
+        <mark key="]" line="545" column="0" />
+        <mark key="." line="545" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -695,8 +694,8 @@
       <jump line="830" column="45" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>nodeid_to_repr[node_idx][1]</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
         <text>categorize</text>
@@ -708,36 +707,43 @@
         <text>nodeid_to_repr[node_idx][1]</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBsaW5lYXJpemVfYW1yKGFyZ3MpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
+      <register name="2" type="4">
+        <text># else:
+            #     if subgraph_repr != nodeid_to_repr[node_idx][1]:
+            #         print new_amr.nodes[node_idx].node_str(), subgraph_repr, nodeid_to_repr[node_idx][1]
+            #     assert subgraph_repr == nodeid_to_repr[node_idx][1]
+            #     assert category == nodeid_to_repr[node_idx][2]</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="4" type="4">
+        <text># else:
+            #     if subgraph_repr != nodeid_to_repr[node_idx][1]:
+            #         print new_amr.nodes[node_idx].node_str(), subgraph_repr, nodeid_to_repr[node_idx][1]
+            #     assert subgraph_repr == nodeid_to_repr[node_idx][1]
+            #     assert category == nodeid_to_repr[node_idx][2]</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBsaW5lYXJpemVfYW1yKGFyZ3MpCg==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBsaW5lYXJpemVEYXRhKGFyZ3MuZGF0YV9kaXIsIGFyZ3MuZnJlcV9kaXIsIGFyZ3Mub3V0cHV0KQo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="7" type="4">
         <text># Then dump all the training statistics.
     # First edges statistics.</text>
       </register>
-      <register name="4" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIG9zLnN5c3RlbSgibWtkaXIgLXAgJXMiICUgYXJncy50YWJsZV9kaXIpCg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">CiAK</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgI2xvYWRNTEVDb3VudCgnLi9jb25jZXB0SURDb3VudHMuZGljdCcpCiAgICAjbG9hZE1MRUNvdW50KCcuL2xlbUNvbmNlcHRJRENvdW50cy5kaWN0Jyk=</text>
-      </register>
-      <register name="9" type="4">
-        <text>mle_map = filterNoise(mle_map, './conceptIDCounts.dict.weird.txt')
-    mleLemmaMap = filterNoise(mleLemmaMap, './lemConceptIDCounts.dict.weird.txt')</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
