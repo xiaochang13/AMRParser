@@ -95,8 +95,8 @@
       <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515482880350">
         <mark key="'" line="426" column="54" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1518139734374">
-        <mark key="'" line="108" column="44" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1518150833282">
+        <mark key="'" line="42" column="20" />
         <mark key="[" line="222" column="0" />
         <mark key="]" line="222" column="0" />
         <mark key="^" line="175" column="83" />
@@ -266,12 +266,12 @@
         <mark key="^" line="422" column="9" />
         <mark key="." line="422" column="9" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" timestamp="1518118764703">
-        <mark key="'" line="389" column="16" />
-        <mark key="[" line="253" column="25" />
-        <mark key="]" line="253" column="28" />
-        <mark key="^" line="253" column="28" />
-        <mark key="." line="253" column="28" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" timestamp="1518151077018">
+        <mark key="'" line="339" column="20" />
+        <mark key="[" line="320" column="20" />
+        <mark key="]" line="320" column="20" />
+        <mark key="^" line="342" column="42" />
+        <mark key="." line="320" column="20" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/date_extraction.py" timestamp="1518131852607">
         <mark key="'" line="72" column="17" />
@@ -584,6 +584,12 @@
         <mark key="^" line="517" column="33" />
         <mark key="." line="525" column="0" />
       </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" timestamp="1518151006128">
+        <mark key="[" line="15" column="28" />
+        <mark key="]" line="16" column="27" />
+        <mark key="^" line="16" column="27" />
+        <mark key="." line="16" column="27" />
+      </file>
       <file name="$USER_HOME$/data_processing/oracle/oracle.log" timestamp="1516831162576">
         <mark key="[" line="10" column="8" />
         <mark key="]" line="13" column="57" />
@@ -592,9 +598,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="989" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="1037" column="67" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="973" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="717" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="994" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="1044" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
@@ -622,7 +625,6 @@
       <jump line="268" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
       <jump line="387" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
       <jump line="379" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
-      <jump line="42" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="393" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
       <jump line="242" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="223" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
@@ -692,13 +694,18 @@
       <jump line="534" column="46" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="807" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="830" column="45" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="42" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="390" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
+      <jump line="340" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
+      <jump line="16" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="&quot;" type="4">
+        <text># print str(graph)
+                    # sys.exit(1)</text>
       </register>
       <register name="-" type="4">
-        <text>categorize</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>span_to_type</text>
@@ -706,44 +713,45 @@
       <register name="0" type="4">
         <text>nodeid_to_repr[node_idx][1]</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="1" type="4">
+        <text># print str(graph)
+                    # sys.exit(1)</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text># else:
-            #     if subgraph_repr != nodeid_to_repr[node_idx][1]:
-            #         print new_amr.nodes[node_idx].node_str(), subgraph_repr, nodeid_to_repr[node_idx][1]
-            #     assert subgraph_repr == nodeid_to_repr[node_idx][1]
-            #     assert category == nodeid_to_repr[node_idx][2]</text>
-      </register>
-      <register name="3" type="2">
+      <register name="2" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="3" type="4">
         <text># else:
             #     if subgraph_repr != nodeid_to_repr[node_idx][1]:
             #         print new_amr.nodes[node_idx].node_str(), subgraph_repr, nodeid_to_repr[node_idx][1]
             #     assert subgraph_repr == nodeid_to_repr[node_idx][1]
             #     assert category == nodeid_to_repr[node_idx][2]</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBsaW5lYXJpemVfYW1yKGFyZ3MpCg==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="5" type="4">
+        <text># else:
+            #     if subgraph_repr != nodeid_to_repr[node_idx][1]:
+            #         print new_amr.nodes[node_idx].node_str(), subgraph_repr, nodeid_to_repr[node_idx][1]
+            #     assert subgraph_repr == nodeid_to_repr[node_idx][1]
+            #     assert category == nodeid_to_repr[node_idx][2]</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBsaW5lYXJpemVfYW1yKGFyZ3MpCg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBsaW5lYXJpemVEYXRhKGFyZ3MuZGF0YV9kaXIsIGFyZ3MuZnJlcV9kaXIsIGFyZ3Mub3V0cHV0KQo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text># Then dump all the training statistics.
     # First edges statistics.</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIG9zLnN5c3RlbSgibWtkaXIgLXAgJXMiICUgYXJncy50YWJsZV9kaXIpCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIG9zLnN5c3RlbSgibWtkaXIgLXAgJXMiICUgYXJncy50YWJsZV9kaXIpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
