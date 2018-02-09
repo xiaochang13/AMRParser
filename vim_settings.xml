@@ -95,7 +95,7 @@
       <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515482880350">
         <mark key="'" line="426" column="54" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1518200840843">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1518208701215">
         <mark key="'" line="238" column="42" />
         <mark key="[" line="94" column="44" />
         <mark key="]" line="95" column="58" />
@@ -134,11 +134,11 @@
         <mark key="." line="19" column="34" />
         <mark key="^" line="19" column="34" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" timestamp="1517448624030">
-        <mark key="[" line="13" column="45" />
-        <mark key="]" line="14" column="31" />
-        <mark key="." line="14" column="31" />
-        <mark key="^" line="14" column="31" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" timestamp="1518208798571">
+        <mark key="[" line="16" column="36" />
+        <mark key="]" line="17" column="31" />
+        <mark key="." line="17" column="31" />
+        <mark key="^" line="17" column="31" />
       </file>
       <file name="/Library/Python/2.7/site-packages/keras/engine/topology.py" timestamp="1507572628652">
         <mark key="'" line="17" column="49" />
@@ -341,12 +341,12 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1518208525192">
-        <mark key="'" line="76" column="36" />
-        <mark key="[" line="28" column="55" />
-        <mark key="]" line="76" column="78" />
-        <mark key="." line="76" column="78" />
-        <mark key="^" line="76" column="78" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1518208901545">
+        <mark key="'" line="33" column="25" />
+        <mark key="[" line="51" column="101" />
+        <mark key="]" line="52" column="7" />
+        <mark key="." line="52" column="7" />
+        <mark key="^" line="52" column="7" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_graph.py" timestamp="1516222275265">
         <mark key="'" line="350" column="15" />
@@ -598,8 +598,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="242" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="223" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="182" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="178" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="128" column="56" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
@@ -696,21 +694,23 @@
       <jump line="27" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="152" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="196" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="238" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="390" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
+      <jump line="238" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="33" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
+      <jump line="13" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>getTokenTypeFeatures</text>
+        <text>annotation</text>
       </register>
       <register name="-" type="4">
-        <text>getTokenTypeFeatures</text>
+        <text>annotation</text>
       </register>
       <register name="/" type="4">
         <text>getTokenType</text>
       </register>
       <register name="0" type="4">
-        <text>getTokenFeats</text>
+        <text>annotation</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAjIHNlbGYud2lkVG9Db25jZXB0SUQgPSB7fQo=</text>
