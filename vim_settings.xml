@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518211076000">
-        <mark key="'" line="501" column="28" />
-        <mark key="[" line="390" column="9" />
-        <mark key="]" line="391" column="45" />
-        <mark key="^" line="391" column="45" />
-        <mark key="." line="391" column="45" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518213331171">
+        <mark key="'" line="498" column="28" />
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="0" />
+        <mark key="^" line="388" column="45" />
+        <mark key="." line="9" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -701,8 +701,8 @@
       <jump line="501" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>annotation</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">aW1wb3J0IGNvcHkK</text>
       </register>
       <register name="-" type="4">
         <text>annotation</text>
@@ -714,7 +714,7 @@
         <text>annotation</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAjIHNlbGYud2lkVG9Db25jZXB0SUQgPSB7fQo=</text>
+        <text encoding="base64">aW1wb3J0IGNvcHkK</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -722,35 +722,28 @@
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBjYXRlZ29yeV9zdHIgPSAiICIuam9pbihzZWxmLmNhdGVnb3JpZXMpCg==</text>
+      <register name="3" type="4">
+        <text>import sys
+import time</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAjIHNlbGYud2lkVG9Db25jZXB0SUQgPSB7fQo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBjYXRlZ29yeV9zdHIgPSAiICIuam9pbihzZWxmLmNhdGVnb3JpZXMpCg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="5" type="4">
+      <register name="8" type="4">
         <text># print str(graph)
                     # sys.exit(1)</text>
       </register>
-      <register name="6" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="7" type="4">
-        <text># else:
-            #     if subgraph_repr != nodeid_to_repr[node_idx][1]:
-            #         print new_amr.nodes[node_idx].node_str(), subgraph_repr, nodeid_to_repr[node_idx][1]
-            #     assert subgraph_repr == nodeid_to_repr[node_idx][1]
-            #     assert category == nodeid_to_repr[node_idx][2]</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="9" type="4">
-        <text># else:
-            #     if subgraph_repr != nodeid_to_repr[node_idx][1]:
-            #         print new_amr.nodes[node_idx].node_str(), subgraph_repr, nodeid_to_repr[node_idx][1]
-            #     assert subgraph_repr == nodeid_to_repr[node_idx][1]
-            #     assert category == nodeid_to_repr[node_idx][2]</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
