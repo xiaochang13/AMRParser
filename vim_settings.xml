@@ -95,12 +95,12 @@
       <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515482880350">
         <mark key="'" line="426" column="54" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1518150833282">
-        <mark key="'" line="42" column="20" />
-        <mark key="[" line="222" column="0" />
-        <mark key="]" line="222" column="0" />
-        <mark key="^" line="175" column="83" />
-        <mark key="." line="222" column="0" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1518151388492">
+        <mark key="'" line="230" column="44" />
+        <mark key="[" line="91" column="54" />
+        <mark key="]" line="91" column="55" />
+        <mark key="^" line="91" column="55" />
+        <mark key="." line="91" column="55" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1518055758190">
         <mark key="'" line="1937" column="10" />
@@ -128,11 +128,11 @@
         <mark key="^" line="329" column="46" />
         <mark key="." line="329" column="46" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle_data.py" timestamp="1517422684566">
-        <mark key="[" line="22" column="99" />
-        <mark key="]" line="23" column="32" />
-        <mark key="^" line="23" column="32" />
-        <mark key="." line="23" column="32" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle_data.py" timestamp="1518153022036">
+        <mark key="[" line="18" column="99" />
+        <mark key="]" line="19" column="34" />
+        <mark key="." line="19" column="34" />
+        <mark key="^" line="19" column="34" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" timestamp="1517448624030">
         <mark key="[" line="13" column="45" />
@@ -584,11 +584,11 @@
         <mark key="^" line="517" column="33" />
         <mark key="." line="525" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" timestamp="1518151006128">
-        <mark key="[" line="15" column="28" />
-        <mark key="]" line="16" column="27" />
-        <mark key="^" line="16" column="27" />
-        <mark key="." line="16" column="27" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" timestamp="1518151321718">
+        <mark key="[" line="150" column="8" />
+        <mark key="]" line="150" column="20" />
+        <mark key="^" line="151" column="60" />
+        <mark key="." line="151" column="60" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/oracle.log" timestamp="1516831162576">
         <mark key="[" line="10" column="8" />
@@ -598,9 +598,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="717" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="994" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="1044" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="203" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="566" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="572" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
@@ -694,41 +691,39 @@
       <jump line="534" column="46" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="807" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="830" column="45" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="42" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="390" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
       <jump line="340" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
       <jump line="16" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" />
+      <jump line="42" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="89" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="151" column="15" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" />
+      <jump line="230" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text># print str(graph)
-                    # sys.exit(1)</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBjYXRlZ29yeV9zdHIgPSAiICIuam9pbihzZWxmLmNhdGVnb3JpZXMpCg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">LCA=</text>
       </register>
       <register name="/" type="4">
-        <text>span_to_type</text>
+        <text>amr_graph</text>
       </register>
       <register name="0" type="4">
-        <text>nodeid_to_repr[node_idx][1]</text>
+        <text>self.concepts</text>
       </register>
-      <register name="1" type="4">
-        <text># print str(graph)
-                    # sys.exit(1)</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBjYXRlZ29yeV9zdHIgPSAiICIuam9pbihzZWxmLmNhdGVnb3JpZXMpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="4">
-        <text># else:
-            #     if subgraph_repr != nodeid_to_repr[node_idx][1]:
-            #         print new_amr.nodes[node_idx].node_str(), subgraph_repr, nodeid_to_repr[node_idx][1]
-            #     assert subgraph_repr == nodeid_to_repr[node_idx][1]
-            #     assert category == nodeid_to_repr[node_idx][2]</text>
+        <text># print str(graph)
+                    # sys.exit(1)</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
@@ -741,26 +736,29 @@
             #     assert category == nodeid_to_repr[node_idx][2]</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="7" type="4">
+        <text># else:
+            #     if subgraph_repr != nodeid_to_repr[node_idx][1]:
+            #         print new_amr.nodes[node_idx].node_str(), subgraph_repr, nodeid_to_repr[node_idx][1]
+            #     assert subgraph_repr == nodeid_to_repr[node_idx][1]
+            #     assert category == nodeid_to_repr[node_idx][2]</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBsaW5lYXJpemVfYW1yKGFyZ3MpCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBsaW5lYXJpemVEYXRhKGFyZ3MuZGF0YV9kaXIsIGFyZ3MuZnJlcV9kaXIsIGFyZ3Mub3V0cHV0KQo=</text>
-      </register>
-      <register name="8" type="4">
-        <text># Then dump all the training statistics.
-    # First edges statistics.</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIG9zLnN5c3RlbSgibWtkaXIgLXAgJXMiICUgYXJncy50YWJsZV9kaXIpCg==</text>
+        <text encoding="base64">ICAgICAgICBsaW5lYXJpemVEYXRhKGFyZ3MuZGF0YV9kaXIsIGFyZ3MuZnJlcV9kaXIsIGFyZ3Mub3V0cHV0KQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>span_to_type</last-search>
+      <last-search>amr_graph</last-search>
       <last-offset />
-      <last-pattern>span_to_type</last-pattern>
+      <last-pattern>amr_graph</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -833,6 +831,7 @@
         <entry>phrase_map</entry>
         <entry>loadPhrases</entry>
         <entry>span_to_type</entry>
+        <entry>amr_graph</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
