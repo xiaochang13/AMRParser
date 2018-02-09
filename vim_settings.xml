@@ -95,12 +95,12 @@
       <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515482880350">
         <mark key="'" line="426" column="54" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1518119886139">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1518139734374">
         <mark key="'" line="108" column="44" />
-        <mark key="[" line="299" column="79" />
-        <mark key="]" line="300" column="61" />
-        <mark key="^" line="300" column="61" />
-        <mark key="." line="300" column="61" />
+        <mark key="[" line="222" column="0" />
+        <mark key="]" line="222" column="0" />
+        <mark key="^" line="175" column="83" />
+        <mark key="." line="222" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1518055758190">
         <mark key="'" line="1937" column="10" />
@@ -531,9 +531,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1517421433542">
-        <mark key="k" line="1108" column="34" />
-        <mark key="^" line="782" column="4" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518140576193">
+        <mark key="'" line="498" column="51" />
+        <mark key="k" line="1103" column="34" />
+        <mark key="[" line="377" column="46" />
+        <mark key="]" line="378" column="48" />
+        <mark key="^" line="378" column="48" />
+        <mark key="." line="378" column="48" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -589,7 +593,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="193" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="194" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="198" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="458" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
@@ -689,10 +692,15 @@
       <jump line="383" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="72" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/date_extraction.py" />
       <jump line="25" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/date_extraction.py" />
+      <jump line="500" column="51" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text># end_idx = min(tok_idx+3, len(tok_seq))
+            # for end_tok_idx in range(tok_idx + 1, end_idx+1):
+            #     curr_ngram = &quot; &quot;.join(lemma_seq[tok_idx:end_tok_idx])
+            #     if curr_ngram in phrase_counts:
+            #         ngram_counts[curr_ngram] += 1</text>
       </register>
       <register name="-" type="4">
         <text>c.gold</text>
@@ -703,64 +711,56 @@
       <register name="0" type="4">
         <text>c.gold.compare(c.hypothesis):</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text># end_idx = min(tok_idx+3, len(tok_seq))
+            # for end_tok_idx in range(tok_idx + 1, end_idx+1):
+            #     curr_ngram = &quot; &quot;.join(lemma_seq[tok_idx:end_tok_idx])
+            #     if curr_ngram in phrase_counts:
+            #         ngram_counts[curr_ngram] += 1</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="2" type="4">
+        <text># if cate_l == &quot;PHRASE&quot;:
+                #     tok_repr = &quot; &quot;.join(lemma_seq[start:end])
+                #     # phrase_freq[tok_repr] += 1
+                #     # if tok_repr not in phrase_map:
+                #     #     phrase_map[tok_repr] = defaultdict(int)
+                #     # phrase_map[tok_repr][wiki_l] += 1</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">ZGVmIF9nZXRfcHJlZF9zeW1ib2woc2VsZiwgdmFyLCBpbnN0YW5jZSwgbW9kZSk6CiAgICAgICAgYW1yLCBhbGlnbm1lbnQsIHRvaywgcG9zID0gaW5zdGFuY2UKICAgICAgICBpZiBtb2RlID09ICdiYXNpYyc6CiAgICAgICAgICAgIHByZWRfbmFtZSA9IGFtci5ub2RlX3RvX2NvbmNlcHRzW3Zhcl0KICAgICAgICAgICAgcmV0dXJuIHByZWRfbmFtZQogICAgICAgIGVsaWYgbW9kZSA9PSAnZnJlcSc6CiAgICAgICAgICAgIHByZWRfbmFtZSA9IGFtci5ub2RlX3RvX2NvbmNlcHRzW3Zhcl0KICAgICAgICAgICAgaWYgc2VsZi5zdGF0cy5udW1fcHJlZGljYXRlc1twcmVkX25hbWVdID49IHNlbGYubWluX3ByZF9mcmVxOgogICAgICAgICAgICAgICAgcmV0dXJuIHByZWRfbmFtZQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgc2Vuc2UgPSBwcmVkX25hbWUuc3BsaXQoJy0nKVstMV0KICAgICAgICAgICAgICAgIHJldHVybiBWRVJCK3NlbnNlCgogICAgICAgICAgICAgICAgIyBUT0RPIGZ1cnRoZXIgY2F0ZWdvcml6ZSB0aGUgdmVyYiB0eXBlIHVzaW5nIHZlcmJhbGl6YXRpb24gbGlzdAogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJhaXNlIEV4Y2VwdGlvbignVW5leHBlY3RlZCBtb2RlICVzJyAlIChtb2RlKSkKCiAgICBkZWYgX2dldF92YXJpYWJsZV9zeW1iYWwoc2VsZiwgdmFyLCBpbnN0YW5jZSwgbW9kZSk6CiAgICAgICAgYW1yLCBhbGlnbm1lbnQsIHRvaywgcG9zID0gaW5zdGFuY2UKICAgICAgICBpZiBtb2RlID09ICdiYXNpYyc6CiAgICAgICAgICAgIHZhcmlhYmxlX25hbWUgPSBhbXIubm9kZV90b19jb25jZXB0c1t2YXJdCiAgICAgICAgICAgIHJldHVybiB2YXJpYWJsZV9uYW1lCiAgICAgICAgZWxpZiBtb2RlID09ICdmcmVxJzoKICAgICAgICAgICAgdmFyaWFibGVfbmFtZSA9IGFtci5ub2RlX3RvX2NvbmNlcHRzW3Zhcl0KICAgICAgICAgICAgaWYgc2VsZi5zdGF0cy5udW1fbm9ucHJlZGljYXRlX3ZhbHNbdmFyaWFibGVfbmFtZV0gPj0gc2VsZi5taW5fdmFyX2ZyZXE6CiAgICAgICAgICAgICAgICByZXR1cm4gdmFyaWFibGVfbmFtZQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgcmV0dXJuIFNVUkYKCiAgICAgICAgICAgICAgICAjIFRPRE8gZnVydGhlciBjYXRlZ29yaXplIHRoZSB2YXJpYWJsZSB0eXBlCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcmFpc2UgRXhjZXB0aW9uKCdVbmV4cGVjdGVkIG1vZGUgJXMnICUgKG1vZGUpKQ==</text>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="5" type="4">
+        <text encoding="base64">IyBleGNlcHQ6CiAgICAgICAgICAgICAgICAgICAgIyAgICAgcHJpbnQ+PiBzeXMuc3RkZXJyLCAiU2VudGVuY2UgJWQiICUgc2VudF9pZHgKICAgICAgICAgICAgICAgICAgICAjICAgICBwcmludD4+IHN5cy5zdGRlcnIsIG9yYWNsZV9zZXEKICAgICAgICAgICAgICAgICAgICAjICAgICBwcmludD4+IHN5cy5zdGRlcnIsICIlcyAlcyIgJSAoc3RyKHRva19zZXEpLCBzdHIoY29uY2VwdF9zZXEpKQogICAgICAgICAgICAgICAgICAgICMgICAgIHByaW50Pj4gc3lzLnN0ZGVyciwgIiVzICVzIiAlIChzdHIod29yZF9hbGlnbiksIHN0cihjb25jZXB0X2FsaWduKSkKICAgICAgICAgICAgICAgICAgICAjICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgICAgICMgICAgICMgc3lzLmV4aXQoMSk=</text>
       </register>
-      <register name="6" type="4">
-        <text>def get_symbol(self, var, instance, mode='basic'):
-        '''
-        get symbol for each amr concept and variable
-        mode:
-            &quot;basic&quot;: no frequence filtering
-            &quot;freq&quot;: frequence filtering
-        '''
-        amr = instance[0]
-
-        if amr.is_named_entity(var):
-            exclude_rels = ['wiki','name']
-            entity_name = amr.node_to_concepts[var]
-            return exclude_rels, 'NE_'+entity_name
-        elif amr.is_entity(var):
-            entity_name = amr.node_to_concepts[var]
-            return [], 'ENT_'+entity_name
-        elif amr.is_predicate(var):
-            return [], self._get_pred_symbol(var, instance, mode=mode)
-        elif amr.is_const(var):
-            if var in ['interrogative', 'imperative', 'expressive', '-']:
-                return [], var
-            else:
-                return [], CONST
-
-        else:
-            #variable_name = amr.node_to_concepts[var]
-            #return [], variable_name
-            return [], self._get_variable_symbal(var, instance, mode=mode)
-
-        return [],var</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHRyeToK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAjcGFzcwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text># try:
+                            #     assert oracle_action == &quot;POP&quot;
+                            # except:
+                            #     print &quot;Wrong here:&quot;
+                            #     print tok_seq
+                            #     print oracle_action
+                            #     print concept_seq
+                            #     sys.exit(1)</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="9" type="4">
+        <text># if not c.gold.compare(c.hypothesis):
+                    #     print &quot;Oracle sequence not constructing the gold graph for sentence %d!&quot; % sent_idx
+                    #     print &quot; &quot;.join(tok_seq)
+                    #     print str(amr_graph)
+                    # else:
+                    #     print &quot;check okay for sentence %d&quot; % sent_idx</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
