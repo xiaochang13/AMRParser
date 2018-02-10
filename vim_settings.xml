@@ -206,12 +206,12 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518281558717">
-        <mark key="'" line="294" column="16" />
-        <mark key="[" line="294" column="57" />
-        <mark key="]" line="294" column="107" />
-        <mark key="^" line="294" column="107" />
-        <mark key="." line="294" column="107" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518283149612">
+        <mark key="'" line="302" column="31" />
+        <mark key="[" line="297" column="51" />
+        <mark key="]" line="297" column="50" />
+        <mark key="^" line="297" column="50" />
+        <mark key="." line="297" column="50" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515615653217">
         <mark key="'" line="79" column="61" />
@@ -304,6 +304,9 @@
         <mark key="]" line="4" column="5" />
         <mark key="." line="4" column="5" />
         <mark key="^" line="4" column="37" />
+      </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/constants.py" timestamp="1518282703629">
+        <mark key="'" line="89" column="12" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -486,11 +489,6 @@
         <mark key="^" line="132" column="10" />
         <mark key="." line="132" column="10" />
       </file>
-      <file name="$USER_HOME$/data_processing/1_make_json.py" timestamp="1516594440533">
-        <mark key="[" line="12" column="43" />
-        <mark key="]" line="12" column="43" />
-        <mark key="." line="12" column="43" />
-      </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/categorize_dated.py" timestamp="1500614393650">
         <mark key="'" line="553" column="57" />
         <mark key="[" line="395" column="8" />
@@ -554,11 +552,6 @@
         <mark key="." line="208" column="17" />
         <mark key="^" line="208" column="17" />
       </file>
-      <file name="$USER_HOME$/data_processing/constants.py" timestamp="1517347686605">
-        <mark key="[" line="21" column="21" />
-        <mark key="]" line="21" column="21" />
-        <mark key="." line="21" column="21" />
-      </file>
       <file name="$USER_HOME$/data_processing/Aligner.py" timestamp="1515655655306">
         <mark key="'" line="23" column="0" />
         <mark key="[" line="687" column="30" />
@@ -600,10 +593,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="49" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="85" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="134" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="117" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="90" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="101" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
@@ -700,13 +689,17 @@
       <jump line="287" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="81" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="294" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="296" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="303" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="89" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/constants.py" />
+      <jump line="82" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/constants.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG5vZGVsYWJlbCA9IHZhbHVlX3JlcHIK</text>
+      <register name="&quot;" type="4">
+        <text>subgraph = {}</text>
       </register>
       <register name="-" type="4">
-        <text>par_rels</text>
+        <text>subgraph = {}</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxub2RlaWRfdG9fbGFiZWxcPg==</text>
@@ -729,24 +722,34 @@
                         amr._add_triple(name_v, l, child)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG5vZGVsYWJlbCA9IHZhbHVlX3JlcHIK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbmNlcHQgPSAibnVtYmVyIgo=</text>
+      <register name="2" type="4">
+        <text>tok_repr = tok_repr.lower()
+            assert tok_repr in VERB_LIST, &quot;%s %s&quot; % (tok_repr, word)</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="8">
+        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
       </register>
-      <register name="4" type="8">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG5vZGVsYWJlbCA9IHZhbHVlX3JlcHIK</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbmNlcHQgPSAibnVtYmVyIgo=</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="8">
+        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="4">
         <text>if &quot;NE&quot; in word or &quot;DATE&quot; in word or word == &quot;NUMBER&quot; or &quot;VB_&quot; in word: #Named entities
                 curr_ner, tok_repr, wiki_label = cate_repr[ent_index]
                 #curr_ner, tok_repr, root_repr, wiki_label = cate_repr[ent_index]
@@ -777,16 +780,6 @@
                         l = &quot;op%d&quot; % (op_index+1)
                         child = tuple([(&quot;\&quot;%s\&quot;&quot; % s)])
                         amr._add_triple(name_v, l, child)</text>
-      </register>
-      <register name="7" type="8">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="9" type="4">
-        <text>rels = fields[4]
-            par_rels = fields[5]</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
