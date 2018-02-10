@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518213331171">
-        <mark key="'" line="498" column="28" />
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="9" column="0" />
-        <mark key="^" line="388" column="45" />
-        <mark key="." line="9" column="0" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518251397682">
+        <mark key="'" line="391" column="33" />
+        <mark key="[" line="495" column="12" />
+        <mark key="]" line="495" column="12" />
+        <mark key="^" line="387" column="45" />
+        <mark key="." line="495" column="12" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -342,8 +342,8 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1518208901545">
-        <mark key="'" line="33" column="25" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1518251322186">
+        <mark key="'" line="33" column="21" />
         <mark key="[" line="51" column="101" />
         <mark key="]" line="52" column="7" />
         <mark key="." line="52" column="7" />
@@ -599,8 +599,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="128" column="56" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="112" column="71" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="1" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="254" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="236" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
@@ -695,26 +693,28 @@
       <jump line="196" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="390" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
       <jump line="238" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="33" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
-      <jump line="13" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" />
       <jump line="74" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="501" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="25" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="33" column="21" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
+      <jump line="13" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" />
+      <jump line="391" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IGNvcHkK</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IyBpZiBpID4gMToKICAgICAgICAgICAgIyAgICBicmVhaw==</text>
       </register>
       <register name="-" type="4">
         <text>annotation</text>
       </register>
       <register name="/" type="4">
-        <text>extractF</text>
+        <text>run_bea</text>
       </register>
       <register name="0" type="4">
         <text>annotation</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGNvcHkK</text>
+      <register name="1" type="4">
+        <text encoding="base64">IyBpZiBpID4gMToKICAgICAgICAgICAgIyAgICBicmVhaw==</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -722,37 +722,36 @@
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="3" type="2">
+        <text encoding="base64">aW1wb3J0IGNvcHkK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="4">
         <text>import sys
 import time</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAjIHNlbGYud2lkVG9Db25jZXB0SUQgPSB7fQo=</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBjYXRlZ29yeV9zdHIgPSAiICIuam9pbihzZWxmLmNhdGVnb3JpZXMpCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="8" type="4">
-        <text># print str(graph)
-                    # sys.exit(1)</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>extractF</last-search>
+      <last-search>run_bea</last-search>
       <last-offset />
-      <last-pattern>extractF</last-pattern>
+      <last-pattern>run_bea</last-pattern>
       <last-replace>cur_action</last-replace>
       <last-substitute>cur_tok</last-substitute>
       <last-dir>1</last-dir>
@@ -832,6 +831,7 @@ import time</text>
         <entry>pushidx_fe</entry>
         <entry>getTokenType</entry>
         <entry>extractF</entry>
+        <entry>run_bea</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
@@ -855,12 +855,12 @@ import time</text>
         <entry>175</entry>
         <entry>237</entry>
         <entry>210</entry>
-        <entry>1</entry>
         <entry>176</entry>
         <entry>547</entry>
         <entry>191</entry>
         <entry>117</entry>
         <entry>86</entry>
+        <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
