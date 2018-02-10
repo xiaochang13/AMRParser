@@ -206,12 +206,12 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518283149612">
-        <mark key="'" line="302" column="31" />
-        <mark key="[" line="297" column="51" />
-        <mark key="]" line="297" column="50" />
-        <mark key="^" line="297" column="50" />
-        <mark key="." line="297" column="50" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518286074028">
+        <mark key="'" line="346" column="28" />
+        <mark key="[" line="356" column="29" />
+        <mark key="]" line="356" column="37" />
+        <mark key="." line="356" column="37" />
+        <mark key="^" line="356" column="37" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515615653217">
         <mark key="'" line="79" column="61" />
@@ -593,16 +593,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="117" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="90" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="101" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="84" column="9" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="220" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="252" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="65" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="249" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="778" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="211" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="132" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="383" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="72" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/date_extraction.py" />
@@ -687,111 +677,77 @@
       <jump line="283" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="144" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="287" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="81" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="294" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="296" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="303" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="89" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/constants.py" />
       <jump line="82" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/constants.py" />
+      <jump line="299" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="78" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="82" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="85" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="157" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="307" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="127" column="49" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="12" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/date_extraction.py" />
+      <jump line="310" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="346" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="81" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>subgraph = {}</text>
+        <text>oncept</text>
       </register>
       <register name="-" type="4">
-        <text>subgraph = {}</text>
+        <text>oncept</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxub2RlaWRfdG9fbGFiZWxcPg==</text>
+        <text>foo</text>
       </register>
       <register name="0" type="4">
-        <text>l = 'wiki'
-                    child = tuple([(&quot;\&quot;%s\&quot;&quot; % wiki_label)])
-                    amr._add_triple(nodelabel, l, child)
-
-                    l = 'name'
-                    name_v = register_var(&quot;name&quot;)
-                    amr.node_to_concepts[name_v] = &quot;name&quot;
-
-                    child = tuple([name_v])
-                    amr._add_triple(nodelabel, l, child)
-
-                    for (op_index, s) in enumerate(tok_repr.split()):
-                        l = &quot;op%d&quot; % (op_index+1)
-                        child = tuple([(&quot;\&quot;%s\&quot;&quot; % s)])
-                        amr._add_triple(name_v, l, child)</text>
+        <text>concept_l</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBsaW5lX25vICs9IDEK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text>tok_repr = tok_repr.lower()
-            assert tok_repr in VERB_LIST, &quot;%s %s&quot; % (tok_repr, word)</text>
+      <register name="2" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
       </register>
-      <register name="3" type="8">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJvb3RfcmVwciA9IGNvbmNlcHRfbAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG5vZGVsYWJlbCA9IHZhbHVlX3JlcHIK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcm9vdF9yZXByID0gCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbmNlcHQgPSAibnVtYmVyIgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICNhbXIubm9kZV90b19jb25jZXB0c1sK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICNhbXIubm9kZV90b19jb25jZXB0c1sK</text>
       </register>
       <register name="7" type="8">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICA=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgI2NvbmNlcHQgPSByb290X3JlcHIK</text>
       </register>
-      <register name="9" type="4">
-        <text>if &quot;NE&quot; in word or &quot;DATE&quot; in word or word == &quot;NUMBER&quot; or &quot;VB_&quot; in word: #Named entities
-                curr_ner, tok_repr, wiki_label = cate_repr[ent_index]
-                #curr_ner, tok_repr, root_repr, wiki_label = cate_repr[ent_index]
-                ent_index += 1
-                assert curr_ner == word, &quot;%s %s %s&quot; % (curr_ner, word, tok_repr)
-                if &quot;NE&quot; in word:   #Need to build a named entity
-                    if word == &quot;NE&quot;:
-                        root_repr = &quot;person&quot; #Here the concept id net sucks, why this happened???
-                    else:
-                        assert word[:3] == &quot;NE_&quot;
-                        root_repr = word[3:]
-                    nodelabel = register_var(root_repr)
-                    nodeid_to_label[concept_idx] = nodelabel
-                    concept = root_repr
-
-                    l = 'wiki'
-                    child = tuple([(&quot;\&quot;%s\&quot;&quot; % wiki_label)])
-                    amr._add_triple(nodelabel, l, child)
-
-                    l = 'name'
-                    name_v = register_var(&quot;name&quot;)
-                    amr.node_to_concepts[name_v] = &quot;name&quot;
-
-                    child = tuple([name_v])
-                    amr._add_triple(nodelabel, l, child)
-
-                    for (op_index, s) in enumerate(tok_repr.split()):
-                        l = &quot;op%d&quot; % (op_index+1)
-                        child = tuple([(&quot;\&quot;%s\&quot;&quot; % s)])
-                        amr._add_triple(name_v, l, child)</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDxub2RlaWRfdG9fbGFiZWxcPg==</last-search>
+      <last-search>foo</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxub2RlaWRfdG9fbGFiZWxcPg==</last-pattern>
+      <last-pattern>foo</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
     <history>
@@ -840,7 +796,6 @@
         <entry>isSpecial</entry>
         <entry>loadCategoryMap</entry>
         <entry>curr_line</entry>
-        <entry>foo</entry>
         <entry>loadSpan</entry>
         <entry>get_ali</entry>
         <entry>loadD</entry>
@@ -872,6 +827,8 @@
         <entry>concept_index</entry>
         <entry>split</entry>
         <entry encoding="base64">XDxub2RlaWRfdG9fbGFiZWxcPg==</entry>
+        <entry>var_set</entry>
+        <entry>foo</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
