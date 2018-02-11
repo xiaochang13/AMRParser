@@ -79,12 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518383258550">
-        <mark key="'" line="405" column="16" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518386663544">
+        <mark key="'" line="510" column="19" />
         <mark key="[" line="310" column="50" />
-        <mark key="]" line="258" column="50" />
-        <mark key="." line="258" column="50" />
-        <mark key="^" line="258" column="50" />
+        <mark key="]" line="510" column="33" />
+        <mark key="." line="510" column="33" />
+        <mark key="^" line="510" column="33" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -206,12 +206,11 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518384640364">
-        <mark key="'" line="152" column="16" />
-        <mark key="[" line="107" column="35" />
-        <mark key="]" line="108" column="45" />
-        <mark key="." line="108" column="45" />
-        <mark key="^" line="108" column="45" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518386373886">
+        <mark key="'" line="149" column="16" />
+        <mark key="[" line="142" column="0" />
+        <mark key="]" line="142" column="0" />
+        <mark key="." line="142" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515615653217">
         <mark key="'" line="79" column="61" />
@@ -609,7 +608,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="156" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="112" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="320" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="107" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
@@ -709,48 +707,48 @@
       <jump line="93" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="108" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="151" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="510" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdG9rX3JlcHIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>_</text>
       </register>
       <register name="/" type="4">
-        <text>tok_repr</text>
+        <text>encode</text>
       </register>
       <register name="0" type="4">
         <text>getConnectedArcs</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdG9rX3JlcHIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjIGFsaWduX3dpZHggPSBjb25jZXB0X2FsaWduW3NlbGYuY29uY2VwdF9mb2N1c10K</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBjb25jZXB0X2FsaWduID0gc2VsZi50cmFuc19zdGF0ZS5jb25jZXB0QWxpZ24K</text>
+      <register name="3" type="4">
+        <text># if s is not None:
+                    #     break</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdG9rX3JlcHIK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIGFsaWduX3dpZHggPSBjb25jZXB0X2FsaWduW3NlbGYuY29uY2VwdF9mb2N1c10K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25jZXB0X2FsaWduID0gc2VsZi50cmFuc19zdGF0ZS5jb25jZXB0QWxpZ24K</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text>def defaultArcChoices():
-    frequent_rels = [&quot;ARG0&quot;, &quot;ARG1&quot;, &quot;ARG2&quot;, &quot;mod&quot;]
-    return set([&quot;L-%s&quot; % item for item in frequent_rels]) | set([&quot;R-%s&quot; % item for item in frequent_rels])</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -760,9 +758,9 @@
       </register>
     </registers>
     <search>
-      <last-search>tok_repr</last-search>
+      <last-search>encode</last-search>
       <last-offset />
-      <last-pattern>tok_repr</last-pattern>
+      <last-pattern>encode</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -870,6 +868,7 @@
         <entry>nodelabel</entry>
         <entry>node_label</entry>
         <entry>tok_repr</entry>
+        <entry>encode</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
@@ -905,6 +904,7 @@
         <entry>312</entry>
         <entry>94</entry>
         <entry>109</entry>
+        <entry>144</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
