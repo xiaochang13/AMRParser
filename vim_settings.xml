@@ -38,12 +38,12 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1518143583577">
-        <mark key="'" line="807" column="12" />
-        <mark key="[" line="811" column="8" />
-        <mark key="]" line="811" column="9" />
-        <mark key="^" line="811" column="9" />
-        <mark key="." line="811" column="9" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1518329931565">
+        <mark key="'" line="718" column="20" />
+        <mark key="[" line="719" column="32" />
+        <mark key="]" line="720" column="88" />
+        <mark key="^" line="720" column="88" />
+        <mark key="." line="720" column="88" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/Util.java" timestamp="1481283840269">
         <mark key="'" line="168" column="28" />
@@ -103,8 +103,8 @@
         <mark key="^" line="95" column="58" />
         <mark key="." line="95" column="58" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1518324107920">
-        <mark key="'" line="1898" column="9" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1518328946507">
+        <mark key="'" line="2296" column="48" />
         <mark key="[" line="2531" column="106" />
         <mark key="]" line="2531" column="109" />
         <mark key="^" line="2531" column="109" />
@@ -418,8 +418,8 @@
         <mark key="." line="26" column="18" />
         <mark key="^" line="26" column="18" />
       </file>
-      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1518063745700">
-        <mark key="'" line="291" column="17" />
+      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1518329647896">
+        <mark key="'" line="261" column="28" />
         <mark key="[" line="313" column="0" />
         <mark key="]" line="313" column="1" />
         <mark key="^" line="313" column="1" />
@@ -537,12 +537,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518149078082">
-        <mark key="'" line="534" column="46" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518330038192">
+        <mark key="'" line="536" column="16" />
         <mark key="k" line="1118" column="34" />
-        <mark key="[" line="545" column="0" />
-        <mark key="]" line="545" column="0" />
-        <mark key="." line="545" column="0" />
+        <mark key="[" line="537" column="73" />
+        <mark key="]" line="537" column="86" />
+        <mark key="." line="537" column="86" />
+        <mark key="^" line="537" column="86" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -599,21 +600,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="110" column="47" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="50" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="235" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="2" column="107" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle_data.py" />
-      <jump line="49" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="89" column="52" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="145" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" />
-      <jump line="69" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="73" column="48" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="58" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
-      <jump line="42" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="393" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
-      <jump line="379" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
-      <jump line="339" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
-      <jump line="14" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" />
       <jump line="125" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="145" column="57" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="209" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
@@ -699,16 +685,31 @@
       <jump line="23" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
       <jump line="349" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1898" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="343" column="52" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1154" column="28" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1835" column="118" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1930" column="39" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="2296" column="48" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="530" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="619" column="43" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="692" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="404" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="261" column="28" filename="$USER_HOME$/data_processing/utils.py" />
+      <jump line="303" column="4" filename="$USER_HOME$/data_processing/utils.py" />
+      <jump line="719" column="20" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="735" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="536" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="689" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>set([&quot;L-%s&quot; % item for item in frequent_rels])</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>ARC</text>
       </register>
       <register name="/" type="4">
-        <text>canApply</text>
+        <text>curr_label</text>
       </register>
       <register name="0" type="4">
         <text>set([&quot;L-%s&quot; % item for item in frequent_rels])</text>
@@ -720,93 +721,25 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IGFtcgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSBhbXIgaW1wb3J0ICoK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">aW1wb3J0IGFtcl9wYXJzZXIK</text>
       </register>
-      <register name="5" type="4">
-        <text>def bfs(self):
-        &quot;&quot;&quot;
-        breadth first search for the graph
-        return the bfs-ordered triples
-        &quot;&quot;&quot;
-        from collections import deque
-        visited_nodes = set()
-        amr_triples = []
-        sequence = []
-        nid = 0
-
-        for i,r in enumerate(self.roots):
-            seqID = str(i)
-            queue = deque([((r,),None, 0, seqID)]) # node, incoming edge and depth
-            amr_triples.append(('root','ROOT',r))
-            while queue:
-                next,rel,depth,seqID = queue.popleft()
-                for n in next:
-                    firsthit = (parent,rel,n) not in self.reentrance_triples
-                    leaf = False if self[n] else True
-
-                    node = Node(rel,n,firsthit,leaf,depth,seqID)
-                    #nid += 1
-                    sequence.append(node)
-                    if n in visited_nodes or (parent,rel,n) in self.reentrance_triples:
-                        continue
-                    visited_nodes.add(n)
-                    p = len([child for rel,child in self[n].items() if (n,rel,child[0]) not in self.reentrance_triples]) - 1
-                    for rel,child in reversed(self[n].items()):
-                        if not (rel,n,child[0]) in amr_triples:
-                            if (n,rel,child[0]) not in self.reentrance_triples:
-                                queue.append((child,rel,depth+1,seqID+'.'+str(p)))
-                                p -= 1
-                            else:
-                                queue.append((child,rel,depth+1,None))
-                            amr_triples.append((rel,n,child[0]))
-
-
-        return (sequence,amr_triples)</text>
+      <register name="5" type="2">
+        <text encoding="base64">aW1wb3J0IGFtcl9mcmFnbWVudAo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIGNoaWxkX2NhdGVnb3J5ID0gZ2V0Q2F0ZWdvcnkoY2hpbGRfbGFiZWwsIGNoaWxkX25vZGUpCg==</text>
       </register>
-      <register name="8" type="4">
-        <text>def get_ref_graph(self,alignment):
-        &quot;&quot;&quot;return the gold dependency graph based on amr graph&quot;&quot;&quot;
-        dpg = DepGraph()
-        for h in self:
-            hstr = self.node_to_concepts[h] if h in self.node_to_concepts else h
-            hidx = alignment[h][0]
-            if not hidx in dpg.nodes.keys():
-                h_node = DNode(hidx,hstr)
-                dpg.addNode(h_node)
-
-            for ds in self[h].values():
-                d = ds[0]
-                dstr = self.node_to_concepts[d] if d in self.node_to_concepts else d
-                didx = alignment[d][0]
-                if not didx in dpg.nodes.keys():
-                    d_node = DNode(didx,dstr)
-                    dpg.addNode(d_node)
-                dpg.addEdge(hidx,didx)
-        #root
-        root = DNode(0,'ROOT')
-        dpg.addNode(root)
-        dpg.addEdge(0,alignment[self.roots[0]][0])
-        return dpg
-    '''
-    def get_unlabel_arcs(self):
-        arc_set = set()
-        for h in self:
-            for d in self[h].values():
-                arc_set.add((h,d[0]))
-        return arc_set
-    '''</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIGN1cnJfY2F0ZWdvcnkgPSBnZXRDYXRlZ29yeShjdXJyX2xhYmVsLCBjdXJyX25vZGUpCg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -816,9 +749,9 @@
       </register>
     </registers>
     <search>
-      <last-search>canApply</last-search>
+      <last-search>curr_label</last-search>
       <last-offset />
-      <last-pattern>canApply</last-pattern>
+      <last-pattern>curr_label</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -885,7 +818,6 @@
         <entry>category</entry>
         <entry>freq_dir</entry>
         <entry>table_dir</entry>
-        <entry>frequent_set</entry>
         <entry>phrase_map</entry>
         <entry>loadPhrases</entry>
         <entry>span_to_type</entry>
@@ -913,6 +845,10 @@
         <entry>parse_string</entry>
         <entry>predict</entry>
         <entry>canApply</entry>
+        <entry>evaluate</entry>
+        <entry>evaluate(</entry>
+        <entry>frequent_set</entry>
+        <entry>curr_label</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
@@ -943,6 +879,7 @@
         <entry>86</entry>
         <entry>%s/concept_index/concept_idx/g</entry>
         <entry>1</entry>
+        <entry>710</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
