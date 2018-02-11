@@ -103,8 +103,8 @@
         <mark key="^" line="95" column="58" />
         <mark key="." line="95" column="58" />
       </file>
-      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1518322585287">
-        <mark key="'" line="1898" column="6" />
+      <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1518324107920">
+        <mark key="'" line="1898" column="9" />
         <mark key="[" line="2531" column="106" />
         <mark key="]" line="2531" column="109" />
         <mark key="^" line="2531" column="109" />
@@ -565,11 +565,11 @@
         <mark key="^" line="7" column="0" />
         <mark key="." line="813" column="127" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/utils.py" timestamp="1518194008411">
-        <mark key="[" line="24" column="21" />
-        <mark key="]" line="24" column="22" />
-        <mark key="^" line="12" column="15" />
-        <mark key="." line="24" column="22" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/utils.py" timestamp="1518324355656">
+        <mark key="[" line="103" column="34" />
+        <mark key="]" line="104" column="25" />
+        <mark key="^" line="104" column="25" />
+        <mark key="." line="104" column="25" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/AMRGraph.py" timestamp="1516843951219">
         <mark key="'" line="78" column="40" />
@@ -599,7 +599,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="230" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="110" column="47" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="50" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
       <jump line="235" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
@@ -695,17 +694,18 @@
       <jump line="775" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1030" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1544" column="74" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="1898" column="6" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="489" column="74" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="67" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="23" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
+      <jump line="349" column="14" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
+      <jump line="1898" column="9" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>\n</text>
+        <text>a</text>
       </register>
       <register name="/" type="4">
         <text>canApply</text>
