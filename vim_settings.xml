@@ -79,11 +79,11 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518313563150">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518314537699">
         <mark key="'" line="401" column="46" />
-        <mark key="[" line="445" column="0" />
-        <mark key="]" line="445" column="0" />
-        <mark key="." line="445" column="0" />
+        <mark key="[" line="513" column="0" />
+        <mark key="]" line="513" column="0" />
+        <mark key="." line="513" column="0" />
         <mark key="^" line="508" column="61" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
@@ -729,9 +729,12 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>def bfs(self):
         &quot;&quot;&quot;
         breadth first search for the graph
@@ -772,13 +775,13 @@
 
         return (sequence,amr_triples)</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>def get_ref_graph(self,alignment):
         &quot;&quot;&quot;return the gold dependency graph based on amr graph&quot;&quot;&quot;
         dpg = DepGraph()
@@ -811,11 +814,8 @@
         return arc_set
     '''</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
