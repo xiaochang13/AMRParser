@@ -79,12 +79,11 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518253733526">
-        <mark key="'" line="400" column="46" />
-        <mark key="[" line="400" column="51" />
-        <mark key="]" line="401" column="36" />
-        <mark key="^" line="401" column="36" />
-        <mark key="." line="401" column="36" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518312268421">
+        <mark key="'" line="401" column="46" />
+        <mark key="[" line="497" column="0" />
+        <mark key="]" line="497" column="0" />
+        <mark key="." line="497" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -206,12 +205,11 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518310818865">
-        <mark key="'" line="156" column="4" />
-        <mark key="[" line="294" column="12" />
-        <mark key="]" line="286" column="12" />
-        <mark key="^" line="286" column="12" />
-        <mark key="." line="286" column="12" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518312131475">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="^" line="6" column="0" />
+        <mark key="." line="6" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515615653217">
         <mark key="'" line="79" column="61" />
@@ -593,13 +591,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="72" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/date_extraction.py" />
-      <jump line="25" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/date_extraction.py" />
-      <jump line="500" column="51" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="535" column="53" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="841" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="850" column="72" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="573" column="75" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="32" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="614" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="624" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -693,45 +684,35 @@
       <jump line="290" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="299" column="54" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="156" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="112" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="320" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="107" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="109" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="374" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="77" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="323" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="8">
-        <text encoding="base64">ICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICA=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBhbXJfb3V0cHV0ID0gb3BlbigpCg==</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>restoreAMRs</text>
       </register>
       <register name="/" type="4">
-        <text>connected_nodes</text>
+        <text>toks</text>
       </register>
       <register name="0" type="4">
-        <text>visited_rels = set()
-                    rels = label_to_rels[nodelabel]
-                    try:
-                        triples = rels.split(&quot;#&quot;)
-                    except:
-                        print nodelabel
-                        print rels
-                        sys.exit(1)
-                    for rs in reversed(triples):
-                        l = rs.split(&quot;:&quot;)[0]
-                        if &quot;UNKNOWN&quot; in l:
-                            continue
-                        concept_idx = int(rs.split(&quot;:&quot;)[1])
-                        taillabel = nodeid_to_label[concept_idx]
-                        if not is_const(taillabel):
-                            if l in visited_rels and taillabel in connected_nodes:
-                                continue
-                        visited_rels.add(l)
-                        connected_nodes.add(taillabel)
-
-                        label_to_children[nodelabel].add(taillabel)
-                        label_to_parents[taillabel].add(nodelabel)
-
-                        amr._add_triple(nodelabel, l, tuple([taillabel]))</text>
+        <text>try:
+                    assert len(visited) == len(vertices)
+                except:
+                    print (vertices - visited)
+                    print (visited - vertices)
+                    print sent_index
+                    sys.exit(1)</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">ICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICA=</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBhbXJfb3V0cHV0ID0gb3BlbigpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -740,34 +721,98 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIG5vZGVpZF90b19sYWJlbCA9IHt9Cg==</text>
+        <text encoding="base64">aW1wb3J0IHN5cywgb3MsIHJlLCBjb2RlY3MK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxhYmVsX3RvX3JlbHMgPSB7fQo=</text>
+        <text encoding="base64">ZnJvbSBjb25zdGFudHMgaW1wb3J0ICoK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGxhYmVsX3RvX3BhcmVudHMgPSBkZWZhdWx0ZGljdChzZXQpCg==</text>
+        <text encoding="base64">aW1wb3J0IGdmbGFncwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGxhYmVsX3RvX2NoaWxkcmVuID0gZGVmYXVsdGRpY3Qoc2V0KQo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="4">
+        <text>def loadCategoryMap(map_file):
+    cate_to_repr = []   #Maintain a list of information for each sentence
+    for line in open(map_file):
+        curr_attributes = []
+        if line.strip():
+            fields = line.strip().split('##')
+            for map_tok in fields:
+                fs = map_tok.strip().split('++')
+                try:
+                    assert len(fs) == 3, line
+                except:
+                    print line
+                    print fields
+                    print fs
+                    sys.exit(1)
+                if '@@@-@@@' in fs[1]:
+                    fs[1] = fs[1].replace('@@@-@@@', ' @-@ ').replace('@@@@@:@@@', ' @:@ ')
+                fs[1] = fs[1].replace('@@', ' ')
+                curr_attributes.append((fs[0], fs[1], fs[2]))
+
+        cate_to_repr.append(curr_attributes)
+    return cate_to_repr
+
+def loadMLEConceptID(map_file):
+    mle_map = {}
+
+    #First load all possible mappings each span has
+    with open(map_file, 'r') as map_f:
+        for line in map_f:
+            if line.strip():
+                spans = line.strip().split(' #### ')
+                mle_map[spans[0].strip()] = spans[1].strip()
+
+    return mle_map
+
+if __name__ == &quot;__main__&quot;:
+
+    gflags.DEFINE_string(&quot;data_dir&quot;,'../train',&quot;data directory&quot;)
+    gflags.DEFINE_string(&quot;amrseq_file&quot;,'../dev.decode.amrseq',&quot;amr sequence file&quot;)
+
+    argv = FLAGS(sys.argv)
+
+    amr_file = os.path.join(FLAGS.data_dir, 'amr.col')
+
+    #sent_file = os.path.join(FLAGS.data_dir, 'sentence')
+    tok_file = os.path.join(FLAGS.data_dir, 'tok')
+    lemma_file = os.path.join(FLAGS.data_dir, 'lem')
+    pos_file = os.path.join(FLAGS.data_dir, 'pos')
+
+    map_file = os.path.join(FLAGS.data_dir, 'cate_map')
+    #conceptID_file = os.path.join(FLAGS.data_dir, 'conceptID.dict')
+    conceptID_file = './conceptID.dict'
+    #lemConceptID_file = os.path.join(FLAGS.data_dir, 'lemConceptID.dict')
+    lemConceptID_file = './lemConceptID.dict'
+    mle_map = loadMLEConceptID(conceptID_file)
+    lem_mle_map = loadMLEConceptID(lemConceptID_file)
+
+    cate_to_repr = loadCategoryMap(map_file)
+
+    toks = [line.strip().split() for line in open(tok_file, 'r')]
+    lemmas = [line.strip().split() for line in open(lemma_file, 'r')]
+    poss = [line.strip().split() for line in open(pos_file, 'r')]
+
+    amr_seq = AMR_seq()
+    amr_seq.restoreAMRs(amr_file, toks, lemmas, poss, cate_to_repr, mle_map, lem_mle_map)</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHZlcnRpY2VzID0gc2V0KCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHZpc2l0ZWQgPSBzZXQoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>connected_nodes</last-search>
+      <last-search>toks</last-search>
       <last-offset />
-      <last-pattern>connected_nodes</last-pattern>
+      <last-pattern>toks</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -853,6 +898,9 @@
         <entry>var_set</entry>
         <entry>foo</entry>
         <entry>connected_nodes</entry>
+        <entry>valid_root</entry>
+        <entry>replace_unk</entry>
+        <entry>toks</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
@@ -881,8 +929,8 @@
         <entry>191</entry>
         <entry>117</entry>
         <entry>86</entry>
-        <entry>1</entry>
         <entry>%s/concept_index/concept_idx/g</entry>
+        <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
