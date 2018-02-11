@@ -206,8 +206,8 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518386373886">
-        <mark key="'" line="149" column="16" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518389739662">
+        <mark key="'" line="57" column="28" />
         <mark key="[" line="142" column="0" />
         <mark key="]" line="142" column="0" />
         <mark key="." line="142" column="0" />
@@ -608,8 +608,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="112" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="320" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="107" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="109" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="374" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
@@ -708,6 +706,8 @@
       <jump line="108" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="151" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="510" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="118" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="57" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -717,7 +717,7 @@
         <text>_</text>
       </register>
       <register name="/" type="4">
-        <text>encode</text>
+        <text>quantit</text>
       </register>
       <register name="0" type="4">
         <text>getConnectedArcs</text>
@@ -758,9 +758,9 @@
       </register>
     </registers>
     <search>
-      <last-search>encode</last-search>
+      <last-search>quantit</last-search>
       <last-offset />
-      <last-pattern>encode</last-pattern>
+      <last-pattern>quantit</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -869,6 +869,7 @@
         <entry>node_label</entry>
         <entry>tok_repr</entry>
         <entry>encode</entry>
+        <entry>quantit</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
