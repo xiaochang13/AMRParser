@@ -79,8 +79,8 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518380301910">
-        <mark key="'" line="501" column="27" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518381686323">
+        <mark key="'" line="405" column="16" />
         <mark key="[" line="257" column="87" />
         <mark key="]" line="258" column="50" />
         <mark key="." line="258" column="50" />
@@ -346,8 +346,8 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1518375695340">
-        <mark key="'" line="78" column="55" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1518381854179">
+        <mark key="'" line="47" column="4" />
         <mark key="[" line="79" column="93" />
         <mark key="]" line="80" column="67" />
         <mark key="." line="80" column="67" />
@@ -609,11 +609,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="307" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="127" column="49" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="12" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/date_extraction.py" />
-      <jump line="310" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="346" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="81" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="290" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="299" column="54" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
@@ -709,6 +704,11 @@
       <jump line="117" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="501" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="267" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="394" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="405" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="514" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="405" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="47" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -718,7 +718,7 @@
         <text>set([])</text>
       </register>
       <register name="/" type="4">
-        <text>extract</text>
+        <text>NOARC</text>
       </register>
       <register name="0" type="4">
         <text>getConnectedArcs</text>
@@ -760,9 +760,9 @@
       </register>
     </registers>
     <search>
-      <last-search>extract</last-search>
+      <last-search>NOARC</last-search>
       <last-offset />
-      <last-pattern>extract</last-pattern>
+      <last-pattern>NOARC</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -866,6 +866,7 @@
         <entry>concept_idx</entry>
         <entry>canApp</entry>
         <entry>extract</entry>
+        <entry>NOARC</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
