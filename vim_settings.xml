@@ -79,11 +79,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518312268421">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518313563150">
         <mark key="'" line="401" column="46" />
-        <mark key="[" line="497" column="0" />
-        <mark key="]" line="497" column="0" />
-        <mark key="." line="497" column="0" />
+        <mark key="[" line="445" column="0" />
+        <mark key="]" line="445" column="0" />
+        <mark key="." line="445" column="0" />
+        <mark key="^" line="508" column="61" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/networks/AMR_NN_Forward.py" timestamp="1507597474611">
         <mark key="'" line="105" column="12" />
@@ -205,7 +206,8 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518312131475">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518312857656">
+        <mark key="'" line="67" column="10" />
         <mark key="[" line="6" column="0" />
         <mark key="]" line="6" column="0" />
         <mark key="^" line="6" column="0" />
@@ -357,6 +359,12 @@
         <mark key="]" line="26" column="18" />
         <mark key="^" line="26" column="18" />
         <mark key="." line="26" column="18" />
+      </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" timestamp="1518313516611">
+        <mark key="'" line="464" column="27" />
+        <mark key="[" line="162" column="122" />
+        <mark key="]" line="162" column="122" />
+        <mark key="." line="162" column="122" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1510089736605">
         <mark key="'" line="245" column="13" />
@@ -591,28 +599,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="32" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="614" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="624" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1124" column="14" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1131" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1141" column="42" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="406" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="521" column="47" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="620" column="28" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="681" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="331" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="680" column="3" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1126" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="633" column="34" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="708" column="22" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="404" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="405" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="516" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1011" column="64" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="786" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="787" column="19" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1145" column="13" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="329" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="534" column="46" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="807" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -691,16 +677,38 @@
       <jump line="374" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="77" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="323" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="243" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="67" column="10" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="135" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="90" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="89" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="88" column="53" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="109" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="87" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="168" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="268" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="269" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="279" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="280" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="330" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="331" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="340" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="341" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="70" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="74" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="842" column="18" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="843" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
+      <jump line="464" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBhbXJfb3V0cHV0ID0gb3BlbigpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>restoreAMRs</text>
+        <text>\n</text>
       </register>
       <register name="/" type="4">
-        <text>toks</text>
+        <text>parse_string</text>
       </register>
       <register name="0" type="4">
         <text>try:
@@ -712,7 +720,7 @@
                     sys.exit(1)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBhbXJfb3V0cHV0ID0gb3BlbigpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -721,98 +729,102 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IHN5cywgb3MsIHJlLCBjb2RlY3MK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ZnJvbSBjb25zdGFudHMgaW1wb3J0ICoK</text>
+      <register name="4" type="4">
+        <text>def bfs(self):
+        &quot;&quot;&quot;
+        breadth first search for the graph
+        return the bfs-ordered triples
+        &quot;&quot;&quot;
+        from collections import deque
+        visited_nodes = set()
+        amr_triples = []
+        sequence = []
+        nid = 0
+
+        for i,r in enumerate(self.roots):
+            seqID = str(i)
+            queue = deque([((r,),None, 0, seqID)]) # node, incoming edge and depth
+            amr_triples.append(('root','ROOT',r))
+            while queue:
+                next,rel,depth,seqID = queue.popleft()
+                for n in next:
+                    firsthit = (parent,rel,n) not in self.reentrance_triples
+                    leaf = False if self[n] else True
+
+                    node = Node(rel,n,firsthit,leaf,depth,seqID)
+                    #nid += 1
+                    sequence.append(node)
+                    if n in visited_nodes or (parent,rel,n) in self.reentrance_triples:
+                        continue
+                    visited_nodes.add(n)
+                    p = len([child for rel,child in self[n].items() if (n,rel,child[0]) not in self.reentrance_triples]) - 1
+                    for rel,child in reversed(self[n].items()):
+                        if not (rel,n,child[0]) in amr_triples:
+                            if (n,rel,child[0]) not in self.reentrance_triples:
+                                queue.append((child,rel,depth+1,seqID+'.'+str(p)))
+                                p -= 1
+                            else:
+                                queue.append((child,rel,depth+1,None))
+                            amr_triples.append((rel,n,child[0]))
+
+
+        return (sequence,amr_triples)</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IGdmbGFncwo=</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
       <register name="7" type="4">
-        <text>def loadCategoryMap(map_file):
-    cate_to_repr = []   #Maintain a list of information for each sentence
-    for line in open(map_file):
-        curr_attributes = []
-        if line.strip():
-            fields = line.strip().split('##')
-            for map_tok in fields:
-                fs = map_tok.strip().split('++')
-                try:
-                    assert len(fs) == 3, line
-                except:
-                    print line
-                    print fields
-                    print fs
-                    sys.exit(1)
-                if '@@@-@@@' in fs[1]:
-                    fs[1] = fs[1].replace('@@@-@@@', ' @-@ ').replace('@@@@@:@@@', ' @:@ ')
-                fs[1] = fs[1].replace('@@', ' ')
-                curr_attributes.append((fs[0], fs[1], fs[2]))
+        <text>def get_ref_graph(self,alignment):
+        &quot;&quot;&quot;return the gold dependency graph based on amr graph&quot;&quot;&quot;
+        dpg = DepGraph()
+        for h in self:
+            hstr = self.node_to_concepts[h] if h in self.node_to_concepts else h
+            hidx = alignment[h][0]
+            if not hidx in dpg.nodes.keys():
+                h_node = DNode(hidx,hstr)
+                dpg.addNode(h_node)
 
-        cate_to_repr.append(curr_attributes)
-    return cate_to_repr
-
-def loadMLEConceptID(map_file):
-    mle_map = {}
-
-    #First load all possible mappings each span has
-    with open(map_file, 'r') as map_f:
-        for line in map_f:
-            if line.strip():
-                spans = line.strip().split(' #### ')
-                mle_map[spans[0].strip()] = spans[1].strip()
-
-    return mle_map
-
-if __name__ == &quot;__main__&quot;:
-
-    gflags.DEFINE_string(&quot;data_dir&quot;,'../train',&quot;data directory&quot;)
-    gflags.DEFINE_string(&quot;amrseq_file&quot;,'../dev.decode.amrseq',&quot;amr sequence file&quot;)
-
-    argv = FLAGS(sys.argv)
-
-    amr_file = os.path.join(FLAGS.data_dir, 'amr.col')
-
-    #sent_file = os.path.join(FLAGS.data_dir, 'sentence')
-    tok_file = os.path.join(FLAGS.data_dir, 'tok')
-    lemma_file = os.path.join(FLAGS.data_dir, 'lem')
-    pos_file = os.path.join(FLAGS.data_dir, 'pos')
-
-    map_file = os.path.join(FLAGS.data_dir, 'cate_map')
-    #conceptID_file = os.path.join(FLAGS.data_dir, 'conceptID.dict')
-    conceptID_file = './conceptID.dict'
-    #lemConceptID_file = os.path.join(FLAGS.data_dir, 'lemConceptID.dict')
-    lemConceptID_file = './lemConceptID.dict'
-    mle_map = loadMLEConceptID(conceptID_file)
-    lem_mle_map = loadMLEConceptID(lemConceptID_file)
-
-    cate_to_repr = loadCategoryMap(map_file)
-
-    toks = [line.strip().split() for line in open(tok_file, 'r')]
-    lemmas = [line.strip().split() for line in open(lemma_file, 'r')]
-    poss = [line.strip().split() for line in open(pos_file, 'r')]
-
-    amr_seq = AMR_seq()
-    amr_seq.restoreAMRs(amr_file, toks, lemmas, poss, cate_to_repr, mle_map, lem_mle_map)</text>
+            for ds in self[h].values():
+                d = ds[0]
+                dstr = self.node_to_concepts[d] if d in self.node_to_concepts else d
+                didx = alignment[d][0]
+                if not didx in dpg.nodes.keys():
+                    d_node = DNode(didx,dstr)
+                    dpg.addNode(d_node)
+                dpg.addEdge(hidx,didx)
+        #root
+        root = DNode(0,'ROOT')
+        dpg.addNode(root)
+        dpg.addEdge(0,alignment[self.roots[0]][0])
+        return dpg
+    '''
+    def get_unlabel_arcs(self):
+        arc_set = set()
+        for h in self:
+            for d in self[h].values():
+                arc_set.add((h,d[0]))
+        return arc_set
+    '''</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>toks</last-search>
+      <last-search>parse_string</last-search>
       <last-offset />
-      <last-pattern>toks</last-pattern>
+      <last-pattern>parse_string</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -901,6 +913,11 @@ if __name__ == &quot;__main__&quot;:
         <entry>valid_root</entry>
         <entry>replace_unk</entry>
         <entry>toks</entry>
+        <entry>rename</entry>
+        <entry>node_index</entry>
+        <entry>node_idx</entry>
+        <entry>rename_node</entry>
+        <entry>parse_string</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
