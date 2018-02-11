@@ -565,11 +565,11 @@
         <mark key="^" line="7" column="0" />
         <mark key="." line="813" column="127" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/utils.py" timestamp="1518325502075">
-        <mark key="[" line="108" column="59" />
-        <mark key="]" line="108" column="59" />
-        <mark key="^" line="108" column="59" />
-        <mark key="." line="108" column="59" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/utils.py" timestamp="1518328418724">
+        <mark key="[" line="124" column="66" />
+        <mark key="]" line="124" column="67" />
+        <mark key="^" line="124" column="59" />
+        <mark key="." line="124" column="67" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/AMRGraph.py" timestamp="1516843951219">
         <mark key="'" line="78" column="40" />
@@ -702,22 +702,16 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>a</text>
+        <text>set([&quot;L-%s&quot; % item for item in frequent_rels])</text>
       </register>
       <register name="-" type="4">
-        <text>a</text>
+        <text>ARC</text>
       </register>
       <register name="/" type="4">
         <text>canApply</text>
       </register>
       <register name="0" type="4">
-        <text>try:
-                    assert len(visited) == len(vertices)
-                except:
-                    print (vertices - visited)
-                    print (visited - vertices)
-                    print sent_index
-                    sys.exit(1)</text>
+        <text>set([&quot;L-%s&quot; % item for item in frequent_rels])</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
