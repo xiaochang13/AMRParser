@@ -206,12 +206,12 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518289273678">
-        <mark key="'" line="257" column="28" />
-        <mark key="[" line="280" column="52" />
-        <mark key="]" line="280" column="59" />
-        <mark key="^" line="280" column="59" />
-        <mark key="." line="280" column="59" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518310818865">
+        <mark key="'" line="156" column="4" />
+        <mark key="[" line="294" column="12" />
+        <mark key="]" line="286" column="12" />
+        <mark key="^" line="286" column="12" />
+        <mark key="." line="286" column="12" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515615653217">
         <mark key="'" line="79" column="61" />
@@ -593,8 +593,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="132" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="383" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="72" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/date_extraction.py" />
       <jump line="25" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/date_extraction.py" />
       <jump line="500" column="51" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -682,7 +680,6 @@
       <jump line="303" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="89" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/constants.py" />
       <jump line="82" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/constants.py" />
-      <jump line="299" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="78" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="82" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="85" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
@@ -693,58 +690,84 @@
       <jump line="310" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="346" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="81" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="290" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="299" column="54" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="156" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>vertices</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">ICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICA=</text>
       </register>
       <register name="-" type="4">
-        <text>vertices</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>foo</text>
+        <text>connected_nodes</text>
       </register>
       <register name="0" type="4">
-        <text>concept_l</text>
+        <text>visited_rels = set()
+                    rels = label_to_rels[nodelabel]
+                    try:
+                        triples = rels.split(&quot;#&quot;)
+                    except:
+                        print nodelabel
+                        print rels
+                        sys.exit(1)
+                    for rs in reversed(triples):
+                        l = rs.split(&quot;:&quot;)[0]
+                        if &quot;UNKNOWN&quot; in l:
+                            continue
+                        concept_idx = int(rs.split(&quot;:&quot;)[1])
+                        taillabel = nodeid_to_label[concept_idx]
+                        if not is_const(taillabel):
+                            if l in visited_rels and taillabel in connected_nodes:
+                                continue
+                        visited_rels.add(l)
+                        connected_nodes.add(taillabel)
+
+                        label_to_children[nodelabel].add(taillabel)
+                        label_to_parents[taillabel].add(nodelabel)
+
+                        amr._add_triple(nodelabel, l, tuple([taillabel]))</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="8">
+        <text encoding="base64">ICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICA=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIG5vZGVpZF90b19sYWJlbCA9IHt9Cg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIGxhYmVsX3RvX3JlbHMgPSB7fQo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIGxhYmVsX3RvX3BhcmVudHMgPSBkZWZhdWx0ZGljdChzZXQpCg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIGxhYmVsX3RvX2NoaWxkcmVuID0gZGVmYXVsdGRpY3Qoc2V0KQo=</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIG5vZGVpZF90b19sYWJlbCA9IHt9Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGxhYmVsX3RvX3JlbHMgPSB7fQo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIGxhYmVsX3RvX3BhcmVudHMgPSBkZWZhdWx0ZGljdChzZXQpCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGxhYmVsX3RvX2NoaWxkcmVuID0gZGVmYXVsdGRpY3Qoc2V0KQo=</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHZlcnRpY2VzID0gc2V0KCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHZpc2l0ZWQgPSBzZXQoKQo=</text>
+        <text encoding="base64">ICAgIHZlcnRpY2VzID0gc2V0KCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHZhcl9zZXQgPSBzZXQoKQo=</text>
+        <text encoding="base64">ICAgIHZpc2l0ZWQgPSBzZXQoKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>foo</last-search>
+      <last-search>connected_nodes</last-search>
       <last-offset />
-      <last-pattern>foo</last-pattern>
+      <last-pattern>connected_nodes</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -829,6 +852,7 @@
         <entry encoding="base64">XDxub2RlaWRfdG9fbGFiZWxcPg==</entry>
         <entry>var_set</entry>
         <entry>foo</entry>
+        <entry>connected_nodes</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
