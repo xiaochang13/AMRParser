@@ -421,12 +421,12 @@
         <mark key="." line="26" column="18" />
         <mark key="^" line="26" column="18" />
       </file>
-      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1518329647896">
-        <mark key="'" line="261" column="28" />
-        <mark key="[" line="313" column="0" />
-        <mark key="]" line="313" column="1" />
-        <mark key="^" line="313" column="1" />
-        <mark key="." line="313" column="1" />
+      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1518408356361">
+        <mark key="'" line="126" column="4" />
+        <mark key="[" line="115" column="60" />
+        <mark key="]" line="115" column="59" />
+        <mark key="^" line="115" column="59" />
+        <mark key="." line="115" column="59" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -545,13 +545,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518406517004">
-        <mark key="'" line="692" column="11" />
-        <mark key="k" line="1120" column="34" />
-        <mark key="[" line="557" column="69" />
-        <mark key="]" line="558" column="39" />
-        <mark key="." line="558" column="39" />
-        <mark key="^" line="558" column="39" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518408326762">
+        <mark key="'" line="692" column="13" />
+        <mark key="k" line="1126" column="34" />
+        <mark key="[" line="698" column="42" />
+        <mark key="]" line="698" column="46" />
+        <mark key="." line="698" column="46" />
+        <mark key="^" line="698" column="46" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -612,12 +612,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="269" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="279" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="280" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="330" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="331" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="340" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
       <jump line="341" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
       <jump line="70" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
       <jump line="74" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
@@ -711,20 +705,27 @@
       <jump line="556" column="28" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="557" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="560" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="692" column="11" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="572" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="670" column="45" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="709" column="18" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="718" column="18" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="687" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="692" column="13" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="126" column="4" filename="$USER_HOME$/data_processing/utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGFsaWdubWVudF9jb3VudHNbdG9rX3NdID0gZGVmYXVsdGRpY3QoaW50KQo=</text>
+      <register name="&quot;" type="4">
+        <text>concept</text>
       </register>
       <register name="-" type="4">
-        <text>_</text>
+        <text>concept</text>
       </register>
       <register name="/" type="4">
-        <text>tok2counts</text>
+        <text>counts</text>
       </register>
       <register name="0" type="4">
-        <text>getConnectedArcs</text>
+        <text>conceptIDcountStats = os.path.join(args.table_dir, &quot;conceptIDcounts.txt&quot;)
+        saveMLE(tok_counts, tok2counts, conceptIDcountStats)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGFsaWdubWVudF9jb3VudHNbdG9rX3NdID0gZGVmYXVsdGRpY3QoaW50KQo=</text>
@@ -763,9 +764,9 @@
       </register>
     </registers>
     <search>
-      <last-search>tok2counts</last-search>
+      <last-search>counts</last-search>
       <last-offset />
-      <last-pattern>tok2counts</last-pattern>
+      <last-pattern>counts</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -873,12 +874,14 @@
         <entry>tok_repr</entry>
         <entry>encode</entry>
         <entry>quantit</entry>
-        <entry>mle_map</entry>
         <entry>category</entry>
         <entry>span_to_type</entry>
         <entry>curr_sy</entry>
         <entry>category_name</entry>
         <entry>tok2counts</entry>
+        <entry>tok2cou</entry>
+        <entry>mle_map</entry>
+        <entry>counts</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
