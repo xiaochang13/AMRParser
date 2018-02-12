@@ -545,13 +545,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518330038192">
-        <mark key="'" line="536" column="16" />
-        <mark key="k" line="1118" column="34" />
-        <mark key="[" line="537" column="73" />
-        <mark key="]" line="537" column="86" />
-        <mark key="." line="537" column="86" />
-        <mark key="^" line="537" column="86" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518404297319">
+        <mark key="'" line="413" column="8" />
+        <mark key="k" line="1111" column="34" />
+        <mark key="[" line="401" column="0" />
+        <mark key="]" line="401" column="0" />
+        <mark key="^" line="532" column="86" />
+        <mark key="." line="401" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -612,7 +612,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="107" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="109" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="374" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="77" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
@@ -712,22 +711,23 @@
       <jump line="510" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="118" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="57" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="413" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QK</text>
+        <text encoding="base64">ICAgICMgcHJpbnQgJ2ZyZXF1ZW50IHNldDonLCBmcmVxdWVudF9zZXQK</text>
       </register>
       <register name="-" type="4">
         <text>_</text>
       </register>
       <register name="/" type="4">
-        <text>quantit</text>
+        <text>mle_map</text>
       </register>
       <register name="0" type="4">
         <text>getConnectedArcs</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QK</text>
+        <text encoding="base64">ICAgICMgcHJpbnQgJ2ZyZXF1ZW50IHNldDonLCBmcmVxdWVudF9zZXQK</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -738,33 +738,36 @@
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text># if s is not None:
-                    #     break</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdG9rX3JlcHIK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIGFsaWduX3dpZHggPSBjb25jZXB0X2FsaWduW3NlbGYuY29uY2VwdF9mb2N1c10K</text>
+      <register name="6" type="4">
+        <text># quantity_times = defaultdict(int)
+    # phrase_to_concept = {}
+    # phrase_to_count = defaultdict(int)</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBjb25jZXB0X2FsaWduID0gc2VsZi50cmFuc19zdGF0ZS5jb25jZXB0QWxpZ24K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text># quantity_times = defaultdict(int)
+    # phrase_to_concept = {}
+    # phrase_to_count = defaultdict(int)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>quantit</last-search>
+      <last-search>mle_map</last-search>
       <last-offset />
-      <last-pattern>quantit</last-pattern>
+      <last-pattern>mle_map</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -874,6 +877,7 @@
         <entry>tok_repr</entry>
         <entry>encode</entry>
         <entry>quantit</entry>
+        <entry>mle_map</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
