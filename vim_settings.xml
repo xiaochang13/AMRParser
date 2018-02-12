@@ -38,8 +38,8 @@
         <mark key="^" line="722" column="20" />
         <mark key="." line="722" column="20" />
       </file>
-      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1518329931565">
-        <mark key="'" line="718" column="20" />
+      <file name="$USER_HOME$/data_processing/amr_graph.py" timestamp="1518405273128">
+        <mark key="'" line="751" column="12" />
         <mark key="[" line="719" column="32" />
         <mark key="]" line="720" column="88" />
         <mark key="^" line="720" column="88" />
@@ -545,13 +545,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518404297319">
-        <mark key="'" line="413" column="8" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518405386083">
+        <mark key="'" line="560" column="12" />
         <mark key="k" line="1111" column="34" />
-        <mark key="[" line="401" column="0" />
-        <mark key="]" line="401" column="0" />
-        <mark key="^" line="532" column="86" />
-        <mark key="." line="401" column="0" />
+        <mark key="[" line="546" column="0" />
+        <mark key="]" line="546" column="0" />
+        <mark key="." line="546" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -612,19 +611,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="109" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="374" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="77" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="323" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="243" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="67" column="10" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="135" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="90" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="89" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="88" column="53" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="109" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="87" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="168" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
       <jump line="268" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
       <jump line="269" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
       <jump line="279" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
@@ -712,28 +698,41 @@
       <jump line="118" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="57" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="413" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="385" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="531" column="31" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="529" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="809" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="814" column="20" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="810" column="52" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="751" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="776" column="16" filename="$USER_HOME$/data_processing/amr_graph.py" />
+      <jump line="546" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="550" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="556" column="28" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="557" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="560" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICMgcHJpbnQgJ2ZyZXF1ZW50IHNldDonLCBmcmVxdWVudF9zZXQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
         <text>_</text>
       </register>
       <register name="/" type="4">
-        <text>mle_map</text>
+        <text>tok2counts</text>
       </register>
       <register name="0" type="4">
         <text>getConnectedArcs</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICMgcHJpbnQgJ2ZyZXF1ZW50IHNldDonLCBmcmVxdWVudF9zZXQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICMgcHJpbnQgJ2ZyZXF1ZW50IHNldDonLCBmcmVxdWVudF9zZXQK</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
@@ -742,32 +741,30 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="6" type="4">
-        <text># quantity_times = defaultdict(int)
-    # phrase_to_concept = {}
-    # phrase_to_count = defaultdict(int)</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="9" type="4">
+      <register name="7" type="4">
         <text># quantity_times = defaultdict(int)
     # phrase_to_concept = {}
     # phrase_to_count = defaultdict(int)</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>mle_map</last-search>
+      <last-search>tok2counts</last-search>
       <last-offset />
-      <last-pattern>mle_map</last-pattern>
+      <last-pattern>tok2counts</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -829,12 +826,10 @@
         <entry>get_symbol</entry>
         <entry>get_variable_sym</entry>
         <entry>get_pred</entry>
-        <entry>category</entry>
         <entry>freq_dir</entry>
         <entry>table_dir</entry>
         <entry>phrase_map</entry>
         <entry>loadPhrases</entry>
-        <entry>span_to_type</entry>
         <entry>concept_seq</entry>
         <entry>amr_graph</entry>
         <entry>feature</entry>
@@ -878,6 +873,11 @@
         <entry>encode</entry>
         <entry>quantit</entry>
         <entry>mle_map</entry>
+        <entry>category</entry>
+        <entry>span_to_type</entry>
+        <entry>curr_sy</entry>
+        <entry>category_name</entry>
+        <entry>tok2counts</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
