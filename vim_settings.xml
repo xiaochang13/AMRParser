@@ -545,13 +545,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518462837510">
-        <mark key="'" line="552" column="70" />
-        <mark key="k" line="1136" column="34" />
-        <mark key="[" line="385" column="30" />
-        <mark key="]" line="385" column="43" />
-        <mark key="." line="385" column="43" />
-        <mark key="^" line="385" column="43" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518468516262">
+        <mark key="'" line="614" column="43" />
+        <mark key="k" line="1175" column="34" />
+        <mark key="[" line="355" column="39" />
+        <mark key="]" line="355" column="45" />
+        <mark key="." line="355" column="45" />
+        <mark key="^" line="355" column="45" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -612,8 +612,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="303" column="4" filename="$USER_HOME$/data_processing/utils.py" />
-      <jump line="719" column="20" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="735" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="689" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="227" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
@@ -712,50 +710,51 @@
       <jump line="478" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="510" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="549" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="602" column="43" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="332" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>concept_alignment</text>
+        <text>seq[idx]</text>
       </register>
       <register name="-" type="4">
-        <text>concept_alignment</text>
+        <text>seq[idx]</text>
       </register>
       <register name="/" type="4">
         <text>collapse</text>
       </register>
       <register name="0" type="4">
-        <text>conceptIDcountStats = os.path.join(args.table_dir, &quot;conceptIDcounts.txt&quot;)
-        saveMLE(tok_counts, tok2counts, conceptIDcountStats)</text>
+        <text>tok_features(feats, collapsed_pos, tok_idx, 3, &quot;pos&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29uY2VwdElEX3NlcS5hcHBlbmQoY29sbGFwc2VkX3Rva3MpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJlZml4ID0gCg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">IyBTYXZlIHRoZSBuZXcgYWxpZ25tZW50cy4KICAgICAgICBwcmludCA+PiBhbGlnbm1lbnRfd2YsICJTZW50ZW5jZSAjJWQiICUgc2VudF9pZHgKICAgICAgICBmb3IgKHRva19pZHgsIGN1cnJfdG9rKSBpbiBlbnVtZXJhdGUodG9rX3NlcSk6CgogICAgICAgICAgICBpZiB0b2tfaWR4IGluIHZpc2l0ZWRfaWR4czoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIHN0YXJ0ID0gdG9rX2lkeAogICAgICAgICAgICByZWxfYWxpZ25fc3RyID0gIk5PTkUiCiAgICAgICAgICAgIGlmIHRva19pZHggaW4gdG9rMnJlbHM6CiAgICAgICAgICAgICAgICByZWxfYWxpZ25fc3RyID0gIiMiLmpvaW4oW2Ftci5lZGdlc1tlZGdlX2lkeF0ubGFiZWwgZm9yIGVkZ2VfaWR4IGluIHRvazJyZWxzW3Rva19pZHhdXSkKCiAgICAgICAgICAgIGlmIHN0YXJ0IGluIHN0YXJ0MmVuZDoKICAgICAgICAgICAgICAgIGVuZCwgd2lraV9sLCBjYXRlX2wsIG5vZGVfbCA9IHN0YXJ0MmVuZFtzdGFydF0sIHdpa2lfbWFwW3N0YXJ0XSwgY2F0ZWdvcnlfbWFwW3N0YXJ0XSwgbm9kZV9tYXBbc3RhcnRdCiAgICAgICAgICAgICAgICBpZiBjYXRlX2wgPT0gIk1VTFQiOgogICAgICAgICAgICAgICAgICAgIHJvb3RfZW50aXR5X251bVtub2RlX2xdICs9IDEKCiAgICAgICAgICAgICAgICB2aXNpdGVkX2lkeHMgfD0gc2V0KHJhbmdlKHN0YXJ0LCBlbmQpKQogICAgICAgICAgICAgICAgYXNzZXJ0IG5vZGVfbCAhPSAiTk9ORSIsICIlZC0lZCwgJXMsICVzXG4iICUgKHN0YXJ0LCBlbmQsIG5vZGVfbCwgY2F0ZV9sKQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgZW5kLCB3aWtpX2wsIGNhdGVfbCwgbm9kZV9sID0gc3RhcnQgKyAxLCAiTk9ORSIsICJOT05FIiwgIk5PTkUiCiAgICAgICAgICAgICAgICB2aXNpdGVkX2lkeHMuYWRkKHN0YXJ0KQoKICAgICAgICAgICAgYXR0cnMgPSBbIiVkLSVkIiAlIChzdGFydCwgZW5kKV0KICAgICAgICAgICAgYXR0cnMuYXBwZW5kKCIgIi5qb2luKHRva19zZXFbc3RhcnQ6ZW5kXSkpCiAgICAgICAgICAgIGF0dHJzLmFwcGVuZChjYXRlX2wpCiAgICAgICAgICAgIGF0dHJzLmFwcGVuZChub2RlX2wpCiAgICAgICAgICAgIGF0dHJzLmFwcGVuZChnZXRDYXRlZ29yaWVzKG5vZGVfbCwgZnJlcXVlbnRfc2V0KSkKICAgICAgICAgICAgYXR0cnMuYXBwZW5kKHJlbF9hbGlnbl9zdHIpCiAgICAgICAgICAgIGF0dHJzLmFwcGVuZCh3aWtpX2wpCiAgICAgICAgICAgIHByaW50ID4+IGFsaWdubWVudF93ZiwgIiB8fHwgIi5qb2luKGF0dHJzKQogICAgICAgIHByaW50ID4+IGFsaWdubWVudF93ZiwgIiIKCiAgICAgICAgIyBTYXZlIHRoZSBjb25jZXB0IGFsaWdubWVudAoKICAgICAgICBhc3NlcnQgbGVuKHRva19zZXEpID09IGxlbihwb3Nfc2VxKQ==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgdG9rX2ZlYXR1cmVzKGZlYXRzLCBjb2xsYXBzZWRfcG9zLCB0b2tfaWR4LCAzLCAicG9zIikK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmVhdAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbWxlX2NhdGVnb3J5X3NlcSA9IFtjYXRlZ29yeSBmb3IgKF8sIF8sIF8sIGNhdGVnb3J5KSBpbiBjb25jZXB0SURfc2VxXQo=</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">I29yX2YgPSBvcGVuKCdvcHNfY29uY2VwdHMudHh0JywgJ3cnKQogICAgI3NvcnRlZF9vcGNvdW50cyA9IHNvcnRlZChvcF9jb25jZXB0cy5pdGVtcygpLCBrZXk9bGFtYmRhIHg6IC14WzFdKQogICAgI2ZvciBjb25jZXB0LCBjb3VudCBpbiBzb3J0ZWRfb3Bjb3VudHM6CiAgICAjICAgIGlmIGNvdW50ID49IDMwOgogICAgIyAgICAgICAgcHJpbnQgPj4gb3JfZiwgKCclcyAlcycgJSAoY29uY2VwdCwgY291bnQpKQogICAgI29yX2YuY2xvc2UoKQogICAgI2NvbmNlcHRGcmVxID0gZGVmYXVsdGRpY3QoaW50KQogICAgI2ZvciBjb25jZXB0IGluIGxhYmVsVG9SZWxzOgogICAgIyAgICBmb3IgKHJlbCwgY291bnQpIGluIGxhYmVsVG9SZWxzW2NvbmNlcHRdLml0ZW1zKCk6CiAgICAjICAgICAgICBjb25jZXB0RnJlcVtjb25jZXB0XSArPSBjb3VudAoKICAgICNxdWFudF93ZiA9IG9wZW4oJ3F1YW50aXRpZXMnLCAndycpCiAgICAjc29ydGVkX3F1YW50aXRpZXMgPSBzb3J0ZWQocXVhbnRpdHlfdGltZXMuaXRlbXMoKSwga2V5PWxhbWJkYSB4OiAteFsxXSkKICAgICNmb3IgKHF1YW50aXR5X3Rlcm0sIGNvdW50KSBpbiBzb3J0ZWRfcXVhbnRpdGllczoKICAgICMgICAgcHJpbnQ+PiBxdWFudF93ZiwgcXVhbnRpdHlfdGVybSwgY291bnQKICAgICNxdWFudF93Zi5jbG9zZSgp</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGFsaWdubWVudF9jb3VudHNbdG9rX3NdID0gZGVmYXVsdGRpY3QoaW50KQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmVhdHMuYXBwZW5kCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
