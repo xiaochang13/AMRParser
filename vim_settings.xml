@@ -545,12 +545,12 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518469405957">
-        <mark key="'" line="577" column="93" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518471171910">
+        <mark key="'" line="577" column="97" />
         <mark key="k" line="1177" column="34" />
-        <mark key="[" line="637" column="58" />
-        <mark key="]" line="638" column="50" />
-        <mark key="." line="638" column="50" />
+        <mark key="[" line="55" column="55" />
+        <mark key="]" line="55" column="55" />
+        <mark key="." line="55" column="55" />
         <mark key="^" line="638" column="50" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
@@ -710,15 +710,15 @@
       <jump line="549" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="602" column="43" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="332" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="577" column="93" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="37" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="577" column="97" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>seq[idx]</text>
+        <text>.lower()</text>
       </register>
       <register name="-" type="4">
-        <text>seq[idx]</text>
+        <text>.lower()</text>
       </register>
       <register name="/" type="4">
         <text>collapse</text>
