@@ -545,12 +545,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518405386083">
-        <mark key="'" line="560" column="12" />
-        <mark key="k" line="1111" column="34" />
-        <mark key="[" line="546" column="0" />
-        <mark key="]" line="546" column="0" />
-        <mark key="." line="546" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518406517004">
+        <mark key="'" line="692" column="11" />
+        <mark key="k" line="1120" column="34" />
+        <mark key="[" line="557" column="69" />
+        <mark key="]" line="558" column="39" />
+        <mark key="." line="558" column="39" />
+        <mark key="^" line="558" column="39" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -611,7 +612,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="268" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
       <jump line="269" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
       <jump line="279" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
       <jump line="280" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
@@ -711,10 +711,11 @@
       <jump line="556" column="28" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="557" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="560" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="692" column="11" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGFsaWdubWVudF9jb3VudHNbdG9rX3NdID0gZGVmYXVsdGRpY3QoaW50KQo=</text>
       </register>
       <register name="-" type="4">
         <text>_</text>
@@ -726,16 +727,16 @@
         <text>getConnectedArcs</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGFsaWdubWVudF9jb3VudHNbdG9rX3NdID0gZGVmYXVsdGRpY3QoaW50KQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMgcHJpbnQgJ2ZyZXF1ZW50IHNldDonLCBmcmVxdWVudF9zZXQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICMgcHJpbnQgJ2ZyZXF1ZW50IHNldDonLCBmcmVxdWVudF9zZXQK</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
@@ -744,18 +745,18 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text># quantity_times = defaultdict(int)
     # phrase_to_concept = {}
     # phrase_to_count = defaultdict(int)</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
