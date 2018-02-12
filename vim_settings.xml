@@ -545,13 +545,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518471171910">
-        <mark key="'" line="577" column="97" />
-        <mark key="k" line="1177" column="34" />
-        <mark key="[" line="55" column="55" />
-        <mark key="]" line="55" column="55" />
-        <mark key="." line="55" column="55" />
-        <mark key="^" line="638" column="50" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518472966671">
+        <mark key="'" line="632" column="8" />
+        <mark key="k" line="1194" column="34" />
+        <mark key="[" line="654" column="12" />
+        <mark key="]" line="654" column="12" />
+        <mark key="." line="654" column="12" />
+        <mark key="^" line="654" column="12" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -612,12 +612,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="689" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="227" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="356" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="330" column="2" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="340" column="27" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="506" column="30" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="641" column="16" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="699" column="26" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="717" column="19" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
@@ -698,7 +692,6 @@
       <jump line="575" column="54" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="49" column="43" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="584" column="19" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="415" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="508" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="547" column="71" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="476" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -712,58 +705,70 @@
       <jump line="332" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="37" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="577" column="97" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="415" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="418" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="453" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="610" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="627" column="27" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="631" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="632" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>.lower()</text>
+        <text>tok</text>
       </register>
       <register name="-" type="4">
-        <text>.lower()</text>
+        <text>tok</text>
       </register>
       <register name="/" type="4">
-        <text>collapse</text>
+        <text>print</text>
       </register>
       <register name="0" type="4">
-        <text>tok_features(feats, collapsed_pos, tok_idx, 3, &quot;pos&quot;)</text>
+        <text>for line in open(&quot;./train_tables/tokToConcepts.txt&quot;):
+        if line.strip():
+            splits = line.strip().split(&quot;####&quot;)
+            tok_str = splits[0].strip()
+            mapped_category = getCategories(splits[1].split(&quot;##&quot;)[0], frequent_set)
+            tok_to_categories[tok_str] = mapped_category</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgYQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJlZml4ID0gCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdG9rX2ZlYXR1cmVzKGZlYXRzLCBjb2xsYXBzZWRfcG9zLCB0b2tfaWR4LCAzLCAicG9zIikK</text>
+        <text encoding="base64">ICAgICAgICBwcmludAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmVhdAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJlZml4ID0gCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWxlX2NhdGVnb3J5X3NlcSA9IFtjYXRlZ29yeSBmb3IgKF8sIF8sIF8sIGNhdGVnb3J5KSBpbiBjb25jZXB0SURfc2VxXQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdG9rX2ZlYXR1cmVzKGZlYXRzLCBjb2xsYXBzZWRfcG9zLCB0b2tfaWR4LCAzLCAicG9zIikK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmVhdAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbWxlX2NhdGVnb3J5X3NlcSA9IFtjYXRlZ29yeSBmb3IgKF8sIF8sIF8sIGNhdGVnb3J5KSBpbiBjb25jZXB0SURfc2VxXQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmVhdHMuYXBwZW5kCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>collapse</last-search>
+      <last-search>print</last-search>
       <last-offset />
-      <last-pattern>collapse</last-pattern>
+      <last-pattern>print</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -875,7 +880,6 @@
         <entry>span_to_type</entry>
         <entry>curr_sy</entry>
         <entry>category_name</entry>
-        <entry>tok2counts</entry>
         <entry>tok2cou</entry>
         <entry>mle_map</entry>
         <entry>counts</entry>
@@ -888,6 +892,10 @@
         <entry>start2end</entry>
         <entry>wiki_map</entry>
         <entry>collapse</entry>
+        <entry>tok2</entry>
+        <entry>tok2counts</entry>
+        <entry>tok_to_ca</entry>
+        <entry>print</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
@@ -925,6 +933,7 @@
         <entry>109</entry>
         <entry>144</entry>
         <entry>wq</entry>
+        <entry>628</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
