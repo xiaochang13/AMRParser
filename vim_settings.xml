@@ -545,13 +545,13 @@
         <mark key="." line="18" column="23" />
         <mark key="^" line="18" column="23" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518453679619">
-        <mark key="'" line="539" column="70" />
-        <mark key="k" line="1112" column="34" />
-        <mark key="[" line="570" column="32" />
-        <mark key="]" line="571" column="39" />
-        <mark key="^" line="571" column="39" />
-        <mark key="." line="571" column="39" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518458529941">
+        <mark key="'" line="472" column="16" />
+        <mark key="k" line="1116" column="34" />
+        <mark key="[" line="570" column="25" />
+        <mark key="]" line="570" column="40" />
+        <mark key="^" line="570" column="40" />
+        <mark key="." line="570" column="40" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -612,11 +612,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="74" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="842" column="18" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="843" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="464" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" />
-      <jump line="775" column="23" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1030" column="25" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="1544" column="74" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="67" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
@@ -712,16 +707,21 @@
       <jump line="350" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="536" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="575" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="629" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="568" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="510" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="555" column="64" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="472" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>getCategories(node_l, frequent_set)</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>getCategories(node_l, frequent_set)</text>
       </register>
       <register name="/" type="4">
-        <text>collapsed</text>
+        <text>wiki_map</text>
       </register>
       <register name="0" type="4">
         <text>conceptIDcountStats = os.path.join(args.table_dir, &quot;conceptIDcounts.txt&quot;)
@@ -762,9 +762,9 @@
       </register>
     </registers>
     <search>
-      <last-search>collapsed</last-search>
+      <last-search>wiki_map</last-search>
       <last-offset />
-      <last-pattern>collapsed</last-pattern>
+      <last-pattern>wiki_map</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -882,6 +882,8 @@
         <entry>counts</entry>
         <entry>collapsedT</entry>
         <entry>collapsed</entry>
+        <entry>catego</entry>
+        <entry>wiki_map</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
