@@ -300,13 +300,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518499470472">
-        <mark key="'" line="643" column="12" />
-        <mark key="k" line="1200" column="34" />
-        <mark key="[" line="654" column="59" />
-        <mark key="]" line="654" column="60" />
-        <mark key="." line="654" column="60" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518500087363">
+        <mark key="'" line="899" column="4" />
+        <mark key="k" line="1196" column="34" />
+        <mark key="[" line="891" column="0" />
+        <mark key="]" line="891" column="0" />
         <mark key="^" line="653" column="42" />
+        <mark key="." line="891" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -445,12 +445,12 @@
       <file name="$USER_HOME$/ConvParser/Aligner.py" timestamp="1515516300723">
         <mark key="'" line="87" column="4" />
       </file>
-      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518499456344">
-        <mark key="'" line="69" column="49" />
-        <mark key="[" line="26" column="97" />
-        <mark key="]" line="26" column="98" />
-        <mark key="^" line="24" column="16" />
-        <mark key="." line="26" column="98" />
+      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518500629210">
+        <mark key="'" line="110" column="49" />
+        <mark key="[" line="38" column="39" />
+        <mark key="]" line="39" column="23" />
+        <mark key="^" line="39" column="23" />
+        <mark key="." line="39" column="23" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1489555638168">
         <mark key="'" line="34" column="24" />
@@ -627,7 +627,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="810" column="52" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="751" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="776" column="16" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="546" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -727,67 +726,57 @@
       <jump line="116" column="26" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="41" column="38" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="643" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="899" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>category</text>
+        <text>total_count</text>
       </register>
       <register name="-" type="4">
-        <text>category</text>
+        <text>total_count</text>
       </register>
       <register name="/" type="4">
         <text>category</text>
       </register>
       <register name="0" type="4">
-        <text>tok_features(feats, mle_category_seq, tok_idx, 3, &quot;cate&quot;)</text>
+        <text>def has_alphabet(s):
+        match = re.search(&quot;[a-zA-Z0-9]&quot;, s)
+        if match:
+            return True
+        return False</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">IyBpZiAiY2F0ZTA9TkUiIGluIGZlYXRzIGFuZCBmZWF0c1swXSA9PSAiTk9ORSI6CiAgICAgICAgICAgICMgICAgIHByaW50Pj4gc3lzLnN0ZGVyciwgIlx0Ii5qb2luKGZlYXRzKQ==</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
+      <register name="2" type="4">
+        <text># if sent_idx != 972:
+            #     continue</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="4" type="4">
+        <text>all_spans = []
+            date_set = set()</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">IyBpZiAiY2F0ZTA9TkUiIGluIGZlYXRzIGFuZCBmZWF0c1swXSA9PSAiTk9ORSI6CiAgICAgICAgICAgICMgICAgIHByaW50Pj4gc3lzLnN0ZGVyciwgIlx0Ii5qb2luKGZlYXRzKQ==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="7" type="4">
         <text>else:
                     curr_lem_str = curr</text>
       </register>
-      <register name="4" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="6" type="4">
-        <text>for line in open(&quot;./train_tables/tokToConcepts.txt&quot;):
-        if line.strip():
-            splits = line.strip().split(&quot;####&quot;)
-            tok_str = splits[0].strip()
-            concept_str = splits[1].split(&quot;##&quot;)[0]
-            mapped_category = getCategories(concept_str, frequent_set)
-            tok_to_concept[tok_str] = concept_str
-            tok_to_categories[tok_str] = mapped_category
-
-    for line in open(&quot;./train_tables/lemToConcepts.txt&quot;):
-        if line.strip():
-            splits = line.strip().split(&quot;####&quot;)
-            tok_str = splits[0].strip()
-            concept_str
-            mapped_category = getCategories(splits[1].split(&quot;##&quot;)[0], frequent_set)
-            if tok_str not in tok_to_categories:
-                tok_to_categories[tok_str] = mapped_category</text>
-      </register>
-      <register name="7" type="8">
-        <text encoding="base64">IyAKIyA=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
-      </register>
-      <register name="9" type="4">
-        <text>if curr_tok_str[:3] == &quot;NE_&quot;:
-                        curr_lem_str = curr_tok_str = &quot;NE&quot;</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
