@@ -300,8 +300,8 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518561908253">
-        <mark key="'" line="878" column="17" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518565250174">
+        <mark key="'" line="1137" column="64" />
         <mark key="k" line="1284" column="34" />
         <mark key="[" line="1156" column="73" />
         <mark key="]" line="1157" column="65" />
@@ -627,22 +627,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="576" column="31" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="409" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="575" column="54" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="49" column="43" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="584" column="19" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="508" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="547" column="71" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="476" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="479" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="480" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="563" column="64" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="478" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="510" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="549" column="70" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="602" column="43" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="332" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="37" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="577" column="97" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="415" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -727,6 +711,22 @@
       <jump line="875" column="17" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="41" column="43" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="26" column="56" filename="$USER_HOME$/data_processing/ml_utils.py" />
+      <jump line="1093" column="29" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1034" column="42" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1028" column="57" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1027" column="68" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1025" column="38" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="936" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="933" column="43" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="955" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="961" column="34" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="962" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="963" column="77" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="964" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="971" column="59" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="972" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1050" column="28" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1137" column="64" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -736,7 +736,7 @@
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>billion</text>
+        <text>mle_map</text>
       </register>
       <register name="0" type="4">
         <text>visited |= set(range(tok_idx, end_idx))</text>
@@ -790,9 +790,9 @@
       </register>
     </registers>
     <search>
-      <last-search>billion</last-search>
+      <last-search>mle_map</last-search>
       <last-offset />
-      <last-pattern>billion</last-pattern>
+      <last-pattern>mle_map</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -902,7 +902,6 @@
         <entry>curr_sy</entry>
         <entry>category_name</entry>
         <entry>tok2cou</entry>
-        <entry>mle_map</entry>
         <entry>counts</entry>
         <entry>collapsedT</entry>
         <entry>collapsed</entry>
@@ -941,6 +940,7 @@
         <entry>node_idx</entry>
         <entry>end_idx</entry>
         <entry>billion</entry>
+        <entry>mle_map</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
