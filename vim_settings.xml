@@ -223,12 +223,12 @@
         <mark key="." line="26" column="18" />
         <mark key="^" line="26" column="18" />
       </file>
-      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1518546874622">
+      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1518548271497">
         <mark key="'" line="126" column="4" />
-        <mark key="[" line="320" column="54" />
-        <mark key="]" line="320" column="61" />
-        <mark key="^" line="320" column="61" />
-        <mark key="." line="320" column="61" />
+        <mark key="[" line="331" column="14" />
+        <mark key="]" line="331" column="22" />
+        <mark key="^" line="331" column="22" />
+        <mark key="." line="331" column="22" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -745,19 +745,25 @@
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="4">
         <text encoding="base64">ZGVmIGdlbmVyYXRlX2NhbmRfc2V0KG5vbl9tYXBfd29yZHMsIHN0b3Bfd29yZHMsIGVudGl0eV9sYWJlbF9zZXQsIFVOS05PV04sIGlzX2VudCwgaXNfcHJlZCwgd29yZCwgbGVtLCBhcmdfbGFiZWxfc2V0LCB3b3JkX2xhYmVsX3NldCwgbGVtX2xhYmVsX3NldCwgbm9uZV9zZXQsIHVua25vd25fc2V0KToKICAgIGlmIGlzX2VudDoKICAgICAgICByZXR1cm4gZW50aXR5X2xhYmVsX3NldAoKICAgIGlmIHdvcmQgaW4gbm9uX21hcF93b3JkczoKICAgICAgICByZXR1cm4gbm9uZV9zZXQKCiAgICBjYW5kX3NldCA9IHNldCgpCiAgICBpZiBpc19wcmVkOgogICAgICAgIGNhbmRfc2V0IHw9IGFyZ19sYWJlbF9zZXQKICAgIGlmIHdvcmQgaW4gd29yZF9sYWJlbF9zZXQ6CiAgICAgICAgY2FuZF9zZXQgfD0gd29yZF9sYWJlbF9zZXRbd29yZF0KICAgICAgICBpZiB3b3JkIGluIHVua25vd25fc2V0OgogICAgICAgICAgICBjYW5kX3NldCB8PSBub25lX3NldAoKICAgIGVsaWYgbGVtIGluIGxlbV9sYWJlbF9zZXQ6CiAgICAgICAgY2FuZF9zZXQgfD0gbGVtX2xhYmVsX3NldFtsZW1dCiAgICAgICAgaWYgbGVtIGluIHVua25vd25fc2V0OgogICAgICAgICAgICBjYW5kX3NldCB8PSBub25lX3NldAoKICAgIGlmIHdvcmQgaW4gc3RvcF93b3JkczoKICAgICAgICBjYW5kX3NldCB8PSBub25lX3NldAoKICAgIGlmIGxlbihjYW5kX3NldCkgPT0gMDoKICAgICAgICBjYW5kX3NldCA9IG5vbmVfc2V0CgogICAgcmV0dXJuIGNhbmRfc2V0Cgo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text encoding="base64">ZGVmIGxvYWRfY2FuZGlkYXRlcyhjYW5kX2ZpbGUsIGxhYmVsSW5kZXhlcik6CiAgICBjYW5kX2YgPSBvcGVuKGNhbmRfZmlsZSwgJ3JiJykKICAgIGNhbmRfbWFwID0gY1BpY2tsZS5sb2FkKGNhbmRfZikKICAgIGNhbmRfZi5jbG9zZSgpCg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text>#Before initialize, should verify a word might be a predicate or not
 def load_mappings(stats_dir, labelIndexer):
     stats_files = os.popen('ls %s/stat_*' % stats_dir).read().split()
@@ -810,15 +816,8 @@ def load_mappings(stats_dir, labelIndexer):
 
     return (pred_set, pred_lemma_set, pred_labels, non_pred_mapping, non_pred_lemma_mapping, entity_labels, unknown_set)</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="8" type="4">
-        <text>l = labelIndexer[target]
-                word2choices[word].add(l)</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
