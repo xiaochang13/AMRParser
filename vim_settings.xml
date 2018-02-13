@@ -300,13 +300,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518556752481">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518558169530">
         <mark key="'" line="874" column="21" />
-        <mark key="k" line="1263" column="34" />
-        <mark key="[" line="1089" column="46" />
-        <mark key="]" line="1087" column="57" />
-        <mark key="^" line="1087" column="57" />
-        <mark key="." line="1087" column="57" />
+        <mark key="k" line="1268" column="34" />
+        <mark key="[" line="1141" column="48" />
+        <mark key="]" line="1141" column="63" />
+        <mark key="^" line="1141" column="63" />
+        <mark key="." line="1141" column="63" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -728,10 +728,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>aligned_set |= new_aligned</text>
+        <text>s</text>
       </register>
       <register name="-" type="4">
-        <text>aligned_set |= new_aligned</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
         <text>end_idx</text>
