@@ -300,13 +300,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518559227678">
-        <mark key="'" line="844" column="8" />
-        <mark key="k" line="1280" column="34" />
-        <mark key="[" line="1153" column="40" />
-        <mark key="]" line="1153" column="41" />
-        <mark key="^" line="1153" column="41" />
-        <mark key="." line="1153" column="41" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518561908253">
+        <mark key="'" line="878" column="17" />
+        <mark key="k" line="1284" column="34" />
+        <mark key="[" line="1156" column="73" />
+        <mark key="]" line="1157" column="65" />
+        <mark key="." line="1157" column="65" />
+        <mark key="^" line="1157" column="65" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -445,10 +445,12 @@
       <file name="$USER_HOME$/ConvParser/Aligner.py" timestamp="1515516300723">
         <mark key="'" line="87" column="4" />
       </file>
-      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518503863354">
-        <mark key="[" line="184" column="0" />
-        <mark key="]" line="184" column="0" />
-        <mark key="." line="184" column="0" />
+      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518561533726">
+        <mark key="'" line="26" column="56" />
+        <mark key="[" line="26" column="42" />
+        <mark key="]" line="26" column="43" />
+        <mark key="." line="26" column="43" />
+        <mark key="^" line="41" column="23" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1489555638168">
         <mark key="'" line="34" column="24" />
@@ -616,8 +618,8 @@
         <mark key="^" line="517" column="33" />
         <mark key="." line="525" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/conceptid.py" timestamp="1518497439944">
-        <mark key="'" line="41" column="38" />
+      <file name="$USER_HOME$/data_processing/conceptid.py" timestamp="1518559789665">
+        <mark key="'" line="41" column="43" />
         <mark key="[" line="54" column="12" />
         <mark key="]" line="54" column="12" />
         <mark key="^" line="54" column="12" />
@@ -625,8 +627,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="472" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="879" column="36" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="576" column="31" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="409" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="575" column="54" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -703,7 +703,6 @@
       <jump line="647" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="58" column="49" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="116" column="26" filename="$USER_HOME$/data_processing/conceptid.py" />
-      <jump line="41" column="38" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="643" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="899" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="217" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
@@ -725,10 +724,13 @@
       <jump line="1135" column="35" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="844" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="851" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="875" column="17" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="41" column="43" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="26" column="56" filename="$USER_HOME$/data_processing/ml_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHN0YXJ0X2lkeCA9IHRva19pZHgK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnRpbnVlCg==</text>
       </register>
       <register name="-" type="4">
         <text>v</text>
@@ -740,25 +742,28 @@
         <text>visited |= set(range(tok_idx, end_idx))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHN0YXJ0X2lkeCA9IHRva19pZHgK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnRpbnVlCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN0YXJ0X2lkeCA9IHRva19pZHgK</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>entity_typ = (&quot;NUMBER&quot;, &quot;NONE&quot;)
                         all_spans.append((start, end, entity_typ))</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGVuZF9pZHggPSB0b2tfaWR4ICsgMQo=</text>
       </register>
-      <register name="6" type="8">
+      <register name="7" type="8">
         <text>#
 #
 #
@@ -768,20 +773,12 @@
 #
 #</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>start_to_end = {}
         for (start, end) in date_maps:
-            start_to_end[start] = end
-
-        for (start, end) in ner_maps:
-            assert start not in start_to_end
-            start_to_end[start] = end</text>
-      </register>
-      <register name="9" type="4">
-        <text>for (start, end) in date_maps:
             start_to_end[start] = end
 
         for (start, end) in ner_maps:
