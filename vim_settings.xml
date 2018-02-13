@@ -300,13 +300,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518500087363">
-        <mark key="'" line="899" column="4" />
-        <mark key="k" line="1196" column="34" />
-        <mark key="[" line="891" column="0" />
-        <mark key="]" line="891" column="0" />
-        <mark key="^" line="653" column="42" />
-        <mark key="." line="891" column="0" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518502522889">
+        <mark key="'" line="909" column="4" />
+        <mark key="k" line="1206" column="34" />
+        <mark key="[" line="658" column="58" />
+        <mark key="]" line="658" column="59" />
+        <mark key="^" line="654" column="27" />
+        <mark key="." line="658" column="59" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -445,12 +445,12 @@
       <file name="$USER_HOME$/ConvParser/Aligner.py" timestamp="1515516300723">
         <mark key="'" line="87" column="4" />
       </file>
-      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518500629210">
+      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518501277118">
         <mark key="'" line="110" column="49" />
-        <mark key="[" line="38" column="39" />
-        <mark key="]" line="39" column="23" />
-        <mark key="^" line="39" column="23" />
-        <mark key="." line="39" column="23" />
+        <mark key="[" line="64" column="39" />
+        <mark key="]" line="65" column="23" />
+        <mark key="^" line="65" column="23" />
+        <mark key="." line="65" column="23" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1489555638168">
         <mark key="'" line="34" column="24" />
@@ -730,53 +730,50 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>total_count</text>
+        <text>tok</text>
       </register>
       <register name="-" type="4">
-        <text>total_count</text>
+        <text>tok</text>
       </register>
       <register name="/" type="4">
         <text>category</text>
       </register>
       <register name="0" type="4">
-        <text>def has_alphabet(s):
-        match = re.search(&quot;[a-zA-Z0-9]&quot;, s)
-        if match:
-            return True
-        return False</text>
+        <text>ambiguousToksStats = os.path.join(args.table_dir, &quot;ambiguous_toks.txt&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="4">
-        <text># if sent_idx != 972:
-            #     continue</text>
+        <text>l = labelIndexer[target]
+                word2choices[word].add(l)</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text>all_spans = []
-            date_set = set()</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">IyBpZiAiY2F0ZTA9TkUiIGluIGZlYXRzIGFuZCBmZWF0c1swXSA9PSAiTk9ORSI6CiAgICAgICAgICAgICMgICAgIHByaW50Pj4gc3lzLnN0ZGVyciwgIlx0Ii5qb2luKGZlYXRzKQ==</text>
+        <text>if target not in labelIndexer:
+                    print &quot;not in label indexer:&quot;, word, target
+                    continue</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="7" type="4">
-        <text>else:
-                    curr_lem_str = curr</text>
-      </register>
-      <register name="8" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="8" type="4">
+        <text>if ignore and target == &quot;NONE&quot;:
+                    print &quot;Disallow mapping %s to NONE&quot; % word</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
