@@ -300,13 +300,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518539356948">
-        <mark key="'" line="1234" column="11" />
-        <mark key="k" line="1210" column="34" />
-        <mark key="[" line="1083" column="9" />
-        <mark key="]" line="1084" column="88" />
-        <mark key="^" line="1084" column="88" />
-        <mark key="." line="1084" column="88" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518550414788">
+        <mark key="'" line="1238" column="11" />
+        <mark key="k" line="1214" column="34" />
+        <mark key="[" line="1088" column="12" />
+        <mark key="]" line="1088" column="44" />
+        <mark key="^" line="1088" column="44" />
+        <mark key="." line="1088" column="44" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -727,11 +727,11 @@
       <jump line="1234" column="11" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>spans</text>
       </register>
       <register name="-" type="4">
-        <text>tok</text>
+        <text>spans</text>
       </register>
       <register name="/" type="4">
         <text>loadMapp</text>
