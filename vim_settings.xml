@@ -444,11 +444,12 @@
       <file name="$USER_HOME$/ConvParser/Aligner.py" timestamp="1515516300723">
         <mark key="'" line="87" column="4" />
       </file>
-      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518484513085">
-        <mark key="[" line="73" column="47" />
-        <mark key="]" line="74" column="62" />
-        <mark key="." line="74" column="62" />
-        <mark key="^" line="74" column="62" />
+      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518486411599">
+        <mark key="'" line="88" column="4" />
+        <mark key="[" line="58" column="40" />
+        <mark key="]" line="58" column="48" />
+        <mark key="^" line="58" column="48" />
+        <mark key="." line="58" column="48" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1489555638168">
         <mark key="'" line="34" column="24" />
@@ -616,26 +617,15 @@
         <mark key="^" line="517" column="33" />
         <mark key="." line="525" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/conceptid.py" timestamp="1518484830801">
-        <mark key="'" line="41" column="51" />
-        <mark key="[" line="47" column="22" />
-        <mark key="]" line="47" column="31" />
-        <mark key="^" line="47" column="31" />
-        <mark key="." line="47" column="31" />
+      <file name="$USER_HOME$/data_processing/conceptid.py" timestamp="1518486572561">
+        <mark key="'" line="87" column="55" />
+        <mark key="[" line="119" column="4" />
+        <mark key="]" line="119" column="5" />
+        <mark key="." line="119" column="5" />
+        <mark key="^" line="119" column="5" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="78" column="55" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
-      <jump line="241" column="14" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
-      <jump line="140" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="261" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="141" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="30" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="216" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="194" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="117" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="501" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="267" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="394" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="405" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="514" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
@@ -702,7 +692,6 @@
       <jump line="632" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="656" column="22" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="523" column="4" filename="$USER_HOME$/data_processing/conceptid.py" />
-      <jump line="54" column="8" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="53" column="0" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="37" column="8" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="80" column="0" filename="$USER_HOME$/data_processing/ml_utils.py" />
@@ -725,20 +714,31 @@
       <jump line="81" column="16" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="41" column="51" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="78" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
+      <jump line="103" column="16" filename="$USER_HOME$/data_processing/ml_utils.py" />
+      <jump line="131" column="31" filename="$USER_HOME$/data_processing/ml_utils.py" />
+      <jump line="129" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
+      <jump line="127" column="51" filename="$USER_HOME$/data_processing/ml_utils.py" />
+      <jump line="54" column="16" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="114" column="18" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="113" column="20" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="38" column="20" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="332" column="1" filename="$USER_HOME$/data_processing/ml_utils.py" />
+      <jump line="89" column="54" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="88" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
+      <jump line="87" column="55" filename="$USER_HOME$/data_processing/conceptid.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>&quot; #### &quot;</text>
       </register>
       <register name="-" type="4">
-        <text>lemmaID_file, labelIndexer)</text>
+        <text>&quot; #### &quot;</text>
       </register>
       <register name="/" type="4">
-        <text>conceptcounts</text>
+        <text>load_data</text>
       </register>
       <register name="0" type="4">
-        <text>if ignore and target == &quot;NONE&quot;:
-                    print &quot;Disallow mapping %s to NONE&quot; % word</text>
+        <text>&quot;./train_tables&quot;</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -746,39 +746,42 @@
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      <register name="2" type="4">
+        <text>#wordIndexer = {}
+#posIndexer = {}
+#load_data('./data/dev', wordIndexer, posIndexer)
+#print len(wordIndexer), len(posIndexer)</text>
       </register>
-      <register name="3" type="4">
-        <text>if ignore and target == &quot;NONE&quot;:
-                    print &quot;Disallow mapping %s to NONE&quot; % word</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICNzeXMuZXhpdCgxKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWdub3JlID0gRmFsc2UK</text>
+        <text encoding="base64">ICAgICAgICAgICAgeV9jYW5kcyA9IHNldCgpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGlnbm9yZSA9IEZhbHNlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgdGFyZ2V0ID0gImNvbklEOiIgKyBjb25jZXB0Cg==</text>
+      <register name="9" type="4">
+        <text>if ignore and target == &quot;NONE&quot;:
+                    print &quot;Disallow mapping %s to NONE&quot; % word</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>conceptcounts</last-search>
+      <last-search>load_data</last-search>
       <last-offset />
-      <last-pattern>conceptcounts</last-pattern>
+      <last-pattern>load_data</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -913,6 +916,9 @@
         <entry>task</entry>
         <entry>output_choices</entry>
         <entry>conceptcounts</entry>
+        <entry>labelInx</entry>
+        <entry>labelIndexer</entry>
+        <entry>load_data</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
@@ -945,12 +951,13 @@
         <entry>710</entry>
         <entry>260</entry>
         <entry>312</entry>
-        <entry>94</entry>
         <entry>109</entry>
         <entry>144</entry>
         <entry>wq</entry>
         <entry>628</entry>
         <entry>1</entry>
+        <entry>94</entry>
+        <entry>62</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
