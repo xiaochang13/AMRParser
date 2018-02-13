@@ -300,13 +300,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518555534596">
-        <mark key="'" line="93" column="13" />
-        <mark key="k" line="1247" column="34" />
-        <mark key="[" line="1119" column="82" />
-        <mark key="]" line="1120" column="56" />
-        <mark key="^" line="1120" column="56" />
-        <mark key="." line="1120" column="56" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518556752481">
+        <mark key="'" line="874" column="21" />
+        <mark key="k" line="1263" column="34" />
+        <mark key="[" line="1089" column="46" />
+        <mark key="]" line="1087" column="57" />
+        <mark key="^" line="1087" column="57" />
+        <mark key="." line="1087" column="57" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -625,9 +625,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="126" column="4" filename="$USER_HOME$/data_processing/utils.py" />
-      <jump line="350" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="536" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="629" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="568" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="555" column="64" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -725,27 +722,50 @@
       <jump line="28" column="59" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="34" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="93" column="13" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1113" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1131" column="35" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="874" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>-1</text>
+        <text>aligned_set |= new_aligned</text>
       </register>
       <register name="-" type="4">
-        <text>-1</text>
+        <text>aligned_set |= new_aligned</text>
       </register>
       <register name="/" type="4">
-        <text>node_idx</text>
+        <text>end_idx</text>
       </register>
       <register name="0" type="4">
-        <text>ambiguousToksStats = os.path.join(args.table_dir, &quot;ambiguous_toks.txt&quot;)</text>
+        <text encoding="base64">Zm9yIGVuZCBpbiB4cmFuZ2Uobl90b2tzLCBzdGFydCwgLTEpOgogICAgICAgICAgICAjICAgICAgICBuZXdfYWxpZ25lZCA9IHNldCh4cmFuZ2Uoc3RhcnQsIGVuZCkpCiAgICAgICAgICAgICMgICAgICAgIGlmIGxlbihhbGlnbmVkX3NldCAmIG5ld19hbGlnbmVkKSAhPSAwOgogICAgICAgICAgICAjICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgICMgICAgICAgIGlmIGlkZW50aWZ5TnVtYmVyKHRva19zZXFbc3RhcnQ6ZW5kXSwgbWxlX21hcCk6CiAgICAgICAgICAgICMgICAgICAgICAgICBlbnRpdHlfdHlwID0gKCJOVU1CRVIiLCAiTk9ORSIpCiAgICAgICAgICAgICMgICAgICAgICAgICBhbGxfc3BhbnMuYXBwZW5kKChzdGFydCwgZW5kLCBlbnRpdHlfdHlwKSkKICAgICAgICAgICAgIyAgICAgICAgICAgIHNwYW5fdG9fdHlwZVsoc3RhcnQsIGVuZCldID0gKCJOT05FIiwgZW50aXR5X3R5cFswXSwgIk5PTkUiKQogICAgICAgICAgICAjICAgICAgICAgICAgYWxpZ25lZF9zZXQgfD0gbmV3X2FsaWduZWQ=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="4">
+        <text>entity_typ = (&quot;NUMBER&quot;, &quot;NONE&quot;)
+                        all_spans.append((start, end, entity_typ))</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGVuZF9pZHggPSB0b2tfaWR4ICsgMQo=</text>
+      </register>
+      <register name="4" type="8">
+        <text>#
+#
+#
+#
+#
+#
+#
+#</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="4">
         <text>start_to_end = {}
         for (start, end) in date_maps:
             start_to_end[start] = end
@@ -754,7 +774,7 @@
             assert start not in start_to_end
             start_to_end[start] = end</text>
       </register>
-      <register name="3" type="4">
+      <register name="7" type="4">
         <text>for (start, end) in date_maps:
             start_to_end[start] = end
 
@@ -762,32 +782,20 @@
             assert start not in start_to_end
             start_to_end[start] = end</text>
       </register>
-      <register name="4" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">ZGVmIGdlbmVyYXRlX2NhbmRfc2V0KG5vbl9tYXBfd29yZHMsIHN0b3Bfd29yZHMsIGVudGl0eV9sYWJlbF9zZXQsIFVOS05PV04sIGlzX2VudCwgaXNfcHJlZCwgd29yZCwgbGVtLCBhcmdfbGFiZWxfc2V0LCB3b3JkX2xhYmVsX3NldCwgbGVtX2xhYmVsX3NldCwgbm9uZV9zZXQsIHVua25vd25fc2V0KToKICAgIGlmIGlzX2VudDoKICAgICAgICByZXR1cm4gZW50aXR5X2xhYmVsX3NldAoKICAgIGlmIHdvcmQgaW4gbm9uX21hcF93b3JkczoKICAgICAgICByZXR1cm4gbm9uZV9zZXQKCiAgICBjYW5kX3NldCA9IHNldCgpCiAgICBpZiBpc19wcmVkOgogICAgICAgIGNhbmRfc2V0IHw9IGFyZ19sYWJlbF9zZXQKICAgIGlmIHdvcmQgaW4gd29yZF9sYWJlbF9zZXQ6CiAgICAgICAgY2FuZF9zZXQgfD0gd29yZF9sYWJlbF9zZXRbd29yZF0KICAgICAgICBpZiB3b3JkIGluIHVua25vd25fc2V0OgogICAgICAgICAgICBjYW5kX3NldCB8PSBub25lX3NldAoKICAgIGVsaWYgbGVtIGluIGxlbV9sYWJlbF9zZXQ6CiAgICAgICAgY2FuZF9zZXQgfD0gbGVtX2xhYmVsX3NldFtsZW1dCiAgICAgICAgaWYgbGVtIGluIHVua25vd25fc2V0OgogICAgICAgICAgICBjYW5kX3NldCB8PSBub25lX3NldAoKICAgIGlmIHdvcmQgaW4gc3RvcF93b3JkczoKICAgICAgICBjYW5kX3NldCB8PSBub25lX3NldAoKICAgIGlmIGxlbihjYW5kX3NldCkgPT0gMDoKICAgICAgICBjYW5kX3NldCA9IG5vbmVfc2V0CgogICAgcmV0dXJuIGNhbmRfc2V0Cgo=</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">ZGVmIGxvYWRfY2FuZGlkYXRlcyhjYW5kX2ZpbGUsIGxhYmVsSW5kZXhlcik6CiAgICBjYW5kX2YgPSBvcGVuKGNhbmRfZmlsZSwgJ3JiJykKICAgIGNhbmRfbWFwID0gY1BpY2tsZS5sb2FkKGNhbmRfZikKICAgIGNhbmRfZi5jbG9zZSgpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>node_idx</last-search>
+      <last-search>end_idx</last-search>
       <last-offset />
-      <last-pattern>node_idx</last-pattern>
+      <last-pattern>end_idx</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -934,6 +942,7 @@
         <entry>collapsed_tok</entry>
         <entry>span_to_type</entry>
         <entry>node_idx</entry>
+        <entry>end_idx</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
