@@ -300,13 +300,12 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518495687836">
-        <mark key="'" line="647" column="16" />
-        <mark key="k" line="1199" column="34" />
-        <mark key="[" line="504" column="8" />
-        <mark key="]" line="504" column="9" />
-        <mark key="." line="504" column="9" />
-        <mark key="^" line="504" column="9" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518496484895">
+        <mark key="'" line="649" column="16" />
+        <mark key="k" line="1201" column="34" />
+        <mark key="[" line="649" column="0" />
+        <mark key="]" line="649" column="0" />
+        <mark key="." line="649" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -618,7 +617,7 @@
         <mark key="^" line="517" column="33" />
         <mark key="." line="525" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/conceptid.py" timestamp="1518493937049">
+      <file name="$USER_HOME$/data_processing/conceptid.py" timestamp="1518496571318">
         <mark key="'" line="41" column="39" />
         <mark key="[" line="54" column="12" />
         <mark key="]" line="54" column="12" />
@@ -729,8 +728,8 @@
       <jump line="647" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>&quot;NUMBER&quot;</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name="-" type="4">
         <text>&quot;NUMBER&quot;</text>
@@ -741,42 +740,37 @@
       <register name="0" type="4">
         <text>[&quot;%s||%s&quot; % (category, &quot;-&quot;)]</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICMgc3lzLmV4aXQoMSkK</text>
+      <register name="1" type="8">
+        <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">IyBpZiAiY2F0ZTA9TkUiIGluIGZlYXRzIGFuZCBmZWF0c1swXSA9PSAiTk9ORSI6CiAgICAgICAgICAgICMgICAgIHByaW50Pj4gc3lzLnN0ZGVyciwgIlx0Ii5qb2luKGZlYXRzKQ==</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>if curr_tok_str[:3] == &quot;NE_&quot;:
+                        curr_lem_str = curr_tok_str = &quot;NE&quot;</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjdQo=</text>
       </register>
-      <register name="5" type="4">
-        <text>#if args.candidate:
-    #    word2choices, lemma2choices = loadCandidateMap(&quot;../data/conceptIDCounts.dict&quot;, &quot;../data/lemConceptIDCounts.dict&quot;, labelIndexer)</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICMgc3lzLmV4aXQoMSkK</text>
       </register>
       <register name="6" type="4">
-        <text>#path = [None for x in xrange(N)]
-    #for i in xrange(N): #Each position is just a maximization over emission scores
-    #x_s = x_seq[i]   #A list of feature indices
-    #cand_set = y_cands[i]</text>
+        <text encoding="base64">IyBpZiAiY2F0ZTA9TkUiIGluIGZlYXRzIGFuZCBmZWF0c1swXSA9PSAiTk9ORSI6CiAgICAgICAgICAgICMgICAgIHByaW50Pj4gc3lzLnN0ZGVyciwgIlx0Ii5qb2luKGZlYXRzKQ==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICNOID0gbGVuKHhfc2VxKQo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
       <register name="9" type="4">
-        <text>#wordIndexer = {}
-#posIndexer = {}
-#load_data('./data/dev', wordIndexer, posIndexer)
-#print len(wordIndexer), len(posIndexer)</text>
+        <text>#if args.candidate:
+    #    word2choices, lemma2choices = loadCandidateMap(&quot;../data/conceptIDCounts.dict&quot;, &quot;../data/lemConceptIDCounts.dict&quot;, labelIndexer)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
