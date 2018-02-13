@@ -445,12 +445,10 @@
       <file name="$USER_HOME$/ConvParser/Aligner.py" timestamp="1515516300723">
         <mark key="'" line="87" column="4" />
       </file>
-      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518501277118">
-        <mark key="'" line="110" column="49" />
-        <mark key="[" line="64" column="39" />
-        <mark key="]" line="65" column="23" />
-        <mark key="^" line="65" column="23" />
-        <mark key="." line="65" column="23" />
+      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518503863354">
+        <mark key="[" line="184" column="0" />
+        <mark key="]" line="184" column="0" />
+        <mark key="." line="184" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1489555638168">
         <mark key="'" line="34" column="24" />
@@ -627,8 +625,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="751" column="12" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="776" column="16" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="546" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="550" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="556" column="28" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -727,50 +723,99 @@
       <jump line="41" column="38" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="643" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="899" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="217" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
+      <jump line="193" column="0" filename="$USER_HOME$/data_processing/ml_utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>tok</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>tok</text>
       </register>
       <register name="/" type="4">
-        <text>category</text>
+        <text>loadMapp</text>
       </register>
       <register name="0" type="4">
         <text>ambiguousToksStats = os.path.join(args.table_dir, &quot;ambiguous_toks.txt&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="4">
-        <text>l = labelIndexer[target]
-                word2choices[word].add(l)</text>
+        <text encoding="base64">ZGVmIGdlbmVyYXRlX2NhbmRfc2V0KG5vbl9tYXBfd29yZHMsIHN0b3Bfd29yZHMsIGVudGl0eV9sYWJlbF9zZXQsIFVOS05PV04sIGlzX2VudCwgaXNfcHJlZCwgd29yZCwgbGVtLCBhcmdfbGFiZWxfc2V0LCB3b3JkX2xhYmVsX3NldCwgbGVtX2xhYmVsX3NldCwgbm9uZV9zZXQsIHVua25vd25fc2V0KToKICAgIGlmIGlzX2VudDoKICAgICAgICByZXR1cm4gZW50aXR5X2xhYmVsX3NldAoKICAgIGlmIHdvcmQgaW4gbm9uX21hcF93b3JkczoKICAgICAgICByZXR1cm4gbm9uZV9zZXQKCiAgICBjYW5kX3NldCA9IHNldCgpCiAgICBpZiBpc19wcmVkOgogICAgICAgIGNhbmRfc2V0IHw9IGFyZ19sYWJlbF9zZXQKICAgIGlmIHdvcmQgaW4gd29yZF9sYWJlbF9zZXQ6CiAgICAgICAgY2FuZF9zZXQgfD0gd29yZF9sYWJlbF9zZXRbd29yZF0KICAgICAgICBpZiB3b3JkIGluIHVua25vd25fc2V0OgogICAgICAgICAgICBjYW5kX3NldCB8PSBub25lX3NldAoKICAgIGVsaWYgbGVtIGluIGxlbV9sYWJlbF9zZXQ6CiAgICAgICAgY2FuZF9zZXQgfD0gbGVtX2xhYmVsX3NldFtsZW1dCiAgICAgICAgaWYgbGVtIGluIHVua25vd25fc2V0OgogICAgICAgICAgICBjYW5kX3NldCB8PSBub25lX3NldAoKICAgIGlmIHdvcmQgaW4gc3RvcF93b3JkczoKICAgICAgICBjYW5kX3NldCB8PSBub25lX3NldAoKICAgIGlmIGxlbihjYW5kX3NldCkgPT0gMDoKICAgICAgICBjYW5kX3NldCA9IG5vbmVfc2V0CgogICAgcmV0dXJuIGNhbmRfc2V0Cgo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">ZGVmIGxvYWRfY2FuZGlkYXRlcyhjYW5kX2ZpbGUsIGxhYmVsSW5kZXhlcik6CiAgICBjYW5kX2YgPSBvcGVuKGNhbmRfZmlsZSwgJ3JiJykKICAgIGNhbmRfbWFwID0gY1BpY2tsZS5sb2FkKGNhbmRfZikKICAgIGNhbmRfZi5jbG9zZSgpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="5" type="4">
-        <text>if target not in labelIndexer:
-                    print &quot;not in label indexer:&quot;, word, target
-                    continue</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="4">
+        <text>#Before initialize, should verify a word might be a predicate or not
+def load_mappings(stats_dir, labelIndexer):
+    stats_files = os.popen('ls %s/stat_*' % stats_dir).read().split()
+    assert len(stats_files) == 8
+
+    stop_words = set([line.strip() for line in open('../stop_words', 'r')])
+    non_map_words = set(['am', 'is', 'are', 'be', 'a', 'an', 'the'])
+
+    pred_set = set()
+    pred_lemma_set = set()
+
+    pred_labels = set()
+
+    non_pred_mapping = defaultdict(set)
+    non_pred_lemma_mapping = defaultdict(set)
+
+    entity_labels = set()
+    entity_map = defaultdict(set)
+
+    unknown_set = set()
+
+    for file in stats_files:
+        f = open(file, 'rb')
+        stats = cPickle.load(f)
+        pred_set |= stats[0]
+        pred_lemma_set |= stats[1]
+
+        for word in stats[6]: #non predicate word to rule set
+            if word in non_map_words:
+                continue
+            non_pred_mapping[word] |= stats[6][word]
+
+        for lemma in stats[7]:
+            if lemma in non_map_words:
+                continue
+            non_pred_lemma_mapping[lemma] |= stats[7][lemma]
+
+        for entity in stats[5]:
+            entity_labels |= stats[5][entity]
+
+        for unk_w in stats[8]:
+            unknown_set.add(unk_w)
+
+        pred_labels |= stats[2]
+
+    pred_set -= stop_words
+    pred_set -= non_map_words
+    pred_lemma_set -= stop_words
+    pred_lemma_set -= non_map_words
+
+    return (pred_set, pred_lemma_set, pred_labels, non_pred_mapping, non_pred_lemma_mapping, entity_labels, unknown_set)</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
       <register name="8" type="4">
-        <text>if ignore and target == &quot;NONE&quot;:
-                    print &quot;Disallow mapping %s to NONE&quot; % word</text>
+        <text>l = labelIndexer[target]
+                word2choices[word].add(l)</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -780,9 +825,9 @@
       </register>
     </registers>
     <search>
-      <last-search>category</last-search>
+      <last-search>loadMapp</last-search>
       <last-offset />
-      <last-pattern>category</last-pattern>
+      <last-pattern>loadMapp</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -926,6 +971,8 @@
         <entry>Not in index</entry>
         <entry encoding="base64">bm90IGluIGxhYmVsIA==</entry>
         <entry>category</entry>
+        <entry>load_mappings</entry>
+        <entry>loadMapp</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
