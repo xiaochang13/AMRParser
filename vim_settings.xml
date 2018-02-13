@@ -300,13 +300,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518558169530">
-        <mark key="'" line="874" column="21" />
-        <mark key="k" line="1268" column="34" />
-        <mark key="[" line="1141" column="48" />
-        <mark key="]" line="1141" column="63" />
-        <mark key="^" line="1141" column="63" />
-        <mark key="." line="1141" column="63" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518559227678">
+        <mark key="'" line="844" column="8" />
+        <mark key="k" line="1280" column="34" />
+        <mark key="[" line="1153" column="40" />
+        <mark key="]" line="1153" column="41" />
+        <mark key="^" line="1153" column="41" />
+        <mark key="." line="1153" column="41" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -625,9 +625,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="629" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="568" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="555" column="64" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="472" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="879" column="36" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="576" column="31" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -725,34 +722,43 @@
       <jump line="1113" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1131" column="35" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="874" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1135" column="35" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="844" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="851" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>s</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN0YXJ0X2lkeCA9IHRva19pZHgK</text>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>end_idx</text>
+        <text>billion</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">Zm9yIGVuZCBpbiB4cmFuZ2Uobl90b2tzLCBzdGFydCwgLTEpOgogICAgICAgICAgICAjICAgICAgICBuZXdfYWxpZ25lZCA9IHNldCh4cmFuZ2Uoc3RhcnQsIGVuZCkpCiAgICAgICAgICAgICMgICAgICAgIGlmIGxlbihhbGlnbmVkX3NldCAmIG5ld19hbGlnbmVkKSAhPSAwOgogICAgICAgICAgICAjICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgICMgICAgICAgIGlmIGlkZW50aWZ5TnVtYmVyKHRva19zZXFbc3RhcnQ6ZW5kXSwgbWxlX21hcCk6CiAgICAgICAgICAgICMgICAgICAgICAgICBlbnRpdHlfdHlwID0gKCJOVU1CRVIiLCAiTk9ORSIpCiAgICAgICAgICAgICMgICAgICAgICAgICBhbGxfc3BhbnMuYXBwZW5kKChzdGFydCwgZW5kLCBlbnRpdHlfdHlwKSkKICAgICAgICAgICAgIyAgICAgICAgICAgIHNwYW5fdG9fdHlwZVsoc3RhcnQsIGVuZCldID0gKCJOT05FIiwgZW50aXR5X3R5cFswXSwgIk5PTkUiKQogICAgICAgICAgICAjICAgICAgICAgICAgYWxpZ25lZF9zZXQgfD0gbmV3X2FsaWduZWQ=</text>
+        <text>visited |= set(range(tok_idx, end_idx))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN0YXJ0X2lkeCA9IHRva19pZHgK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="4" type="4">
         <text>entity_typ = (&quot;NUMBER&quot;, &quot;NONE&quot;)
                         all_spans.append((start, end, entity_typ))</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGVuZF9pZHggPSB0b2tfaWR4ICsgMQo=</text>
       </register>
-      <register name="4" type="8">
+      <register name="6" type="8">
         <text>#
 #
 #
@@ -762,10 +768,10 @@
 #
 #</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text>start_to_end = {}
         for (start, end) in date_maps:
             start_to_end[start] = end
@@ -774,7 +780,7 @@
             assert start not in start_to_end
             start_to_end[start] = end</text>
       </register>
-      <register name="7" type="4">
+      <register name="9" type="4">
         <text>for (start, end) in date_maps:
             start_to_end[start] = end
 
@@ -782,20 +788,14 @@
             assert start not in start_to_end
             start_to_end[start] = end</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>end_idx</last-search>
+      <last-search>billion</last-search>
       <last-offset />
-      <last-pattern>end_idx</last-pattern>
+      <last-pattern>billion</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -943,6 +943,7 @@
         <entry>span_to_type</entry>
         <entry>node_idx</entry>
         <entry>end_idx</entry>
+        <entry>billion</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
