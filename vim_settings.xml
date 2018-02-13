@@ -105,11 +105,12 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518389739662">
-        <mark key="'" line="57" column="28" />
-        <mark key="[" line="142" column="0" />
-        <mark key="]" line="142" column="0" />
-        <mark key="." line="142" column="0" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518488930440">
+        <mark key="'" line="6" column="34" />
+        <mark key="[" line="5" column="29" />
+        <mark key="]" line="6" column="34" />
+        <mark key="^" line="6" column="34" />
+        <mark key="." line="6" column="34" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515615653217">
         <mark key="'" line="79" column="61" />
@@ -444,12 +445,12 @@
       <file name="$USER_HOME$/ConvParser/Aligner.py" timestamp="1515516300723">
         <mark key="'" line="87" column="4" />
       </file>
-      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518486411599">
+      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518489572698">
         <mark key="'" line="88" column="4" />
-        <mark key="[" line="58" column="40" />
-        <mark key="]" line="58" column="48" />
+        <mark key="[" line="218" column="4" />
+        <mark key="]" line="218" column="4" />
         <mark key="^" line="58" column="48" />
-        <mark key="." line="58" column="48" />
+        <mark key="." line="218" column="4" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1489555638168">
         <mark key="'" line="34" column="24" />
@@ -617,19 +618,15 @@
         <mark key="^" line="517" column="33" />
         <mark key="." line="525" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/conceptid.py" timestamp="1518486572561">
-        <mark key="'" line="87" column="55" />
-        <mark key="[" line="119" column="4" />
-        <mark key="]" line="119" column="5" />
-        <mark key="." line="119" column="5" />
-        <mark key="^" line="119" column="5" />
+      <file name="$USER_HOME$/data_processing/conceptid.py" timestamp="1518489786516">
+        <mark key="'" line="115" column="20" />
+        <mark key="[" line="123" column="0" />
+        <mark key="]" line="123" column="0" />
+        <mark key="^" line="55" column="65" />
+        <mark key="." line="123" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="47" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
-      <jump line="93" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="108" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="151" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="510" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="118" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="57" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
@@ -713,29 +710,33 @@
       <jump line="103" column="16" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="131" column="31" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="129" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
-      <jump line="127" column="51" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="54" column="16" filename="$USER_HOME$/data_processing/conceptid.py" />
-      <jump line="114" column="18" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="113" column="20" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="38" column="20" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="332" column="1" filename="$USER_HOME$/data_processing/ml_utils.py" />
-      <jump line="89" column="54" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="88" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="87" column="55" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="437" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="130" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="146" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
       <jump line="56" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
+      <jump line="6" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="189" column="32" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="218" column="0" filename="$USER_HOME$/data_processing/ml_utils.py" />
+      <jump line="89" column="54" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="127" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
+      <jump line="114" column="20" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="57" column="16" filename="$USER_HOME$/data_processing/conceptid.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>&quot; #### &quot;</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>&quot; #### &quot;</text>
+        <text encoding="base64">Pj4gc3lzLnN0ZGVyciw=</text>
       </register>
       <register name="/" type="4">
-        <text>extend(</text>
+        <text>defaultdict</text>
       </register>
       <register name="0" type="4">
         <text>&quot;./train_tables&quot;</text>
@@ -746,42 +747,45 @@
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="3" type="4">
+        <text>#if args.candidate:
+    #    word2choices, lemma2choices = loadCandidateMap(&quot;../data/conceptIDCounts.dict&quot;, &quot;../data/lemConceptIDCounts.dict&quot;, labelIndexer)</text>
+      </register>
+      <register name="4" type="4">
+        <text>#path = [None for x in xrange(N)]
+    #for i in xrange(N): #Each position is just a maximization over emission scores
+    #x_s = x_seq[i]   #A list of feature indices
+    #cand_set = y_cands[i]</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICNOID0gbGVuKHhfc2VxKQo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="4">
         <text>#wordIndexer = {}
 #posIndexer = {}
 #load_data('./data/dev', wordIndexer, posIndexer)
 #print len(wordIndexer), len(posIndexer)</text>
       </register>
-      <register name="3" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICNzeXMuZXhpdCgxKQo=</text>
       </register>
-      <register name="4" type="2">
+      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgeV9jYW5kcyA9IHNldCgpCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="9" type="4">
-        <text>if ignore and target == &quot;NONE&quot;:
-                    print &quot;Disallow mapping %s to NONE&quot; % word</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>extend(</last-search>
+      <last-search>defaultdict</last-search>
       <last-offset />
-      <last-pattern>extend(</last-pattern>
+      <last-pattern>defaultdict</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -920,6 +924,7 @@
         <entry>labelIndexer</entry>
         <entry>load_data</entry>
         <entry>extend(</entry>
+        <entry>defaultdict</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
@@ -956,9 +961,9 @@
         <entry>144</entry>
         <entry>wq</entry>
         <entry>628</entry>
-        <entry>1</entry>
         <entry>94</entry>
         <entry>62</entry>
+        <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
