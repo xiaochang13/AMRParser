@@ -300,13 +300,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518492477391">
-        <mark key="'" line="656" column="22" />
-        <mark key="k" line="1194" column="34" />
-        <mark key="[" line="654" column="12" />
-        <mark key="]" line="654" column="12" />
-        <mark key="." line="654" column="12" />
-        <mark key="^" line="640" column="96" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518495687836">
+        <mark key="'" line="647" column="16" />
+        <mark key="k" line="1199" column="34" />
+        <mark key="[" line="504" column="8" />
+        <mark key="]" line="504" column="9" />
+        <mark key="." line="504" column="9" />
+        <mark key="^" line="504" column="9" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -627,7 +627,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="531" column="31" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="529" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="809" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
       <jump line="814" column="20" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -727,19 +726,20 @@
       <jump line="117" column="26" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="41" column="39" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="29" column="47" filename="$USER_HOME$/data_processing/ml_utils.py" />
+      <jump line="647" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICMgc3lzLmV4aXQoMSkK</text>
+      <register name="&quot;" type="4">
+        <text>&quot;NUMBER&quot;</text>
       </register>
       <register name="-" type="4">
-        <text>cate</text>
+        <text>&quot;NUMBER&quot;</text>
       </register>
       <register name="/" type="4">
-        <text>buildChoices</text>
+        <text>All alignm</text>
       </register>
       <register name="0" type="4">
-        <text>&quot;./train_tables&quot;</text>
+        <text>[&quot;%s||%s&quot; % (category, &quot;-&quot;)]</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICMgc3lzLmV4aXQoMSkK</text>
@@ -783,9 +783,9 @@
       </register>
     </registers>
     <search>
-      <last-search>buildChoices</last-search>
+      <last-search>All alignm</last-search>
       <last-offset />
-      <last-pattern>buildChoices</last-pattern>
+      <last-pattern>All alignm</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -926,6 +926,7 @@
         <entry>extend(</entry>
         <entry>defaultdict</entry>
         <entry>buildChoices</entry>
+        <entry>All alignm</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
