@@ -300,13 +300,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518475659217">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518492477391">
         <mark key="'" line="656" column="22" />
         <mark key="k" line="1194" column="34" />
-        <mark key="[" line="567" column="55" />
-        <mark key="]" line="567" column="56" />
-        <mark key="." line="567" column="56" />
-        <mark key="^" line="567" column="56" />
+        <mark key="[" line="654" column="12" />
+        <mark key="]" line="654" column="12" />
+        <mark key="." line="654" column="12" />
+        <mark key="^" line="640" column="96" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -445,12 +445,12 @@
       <file name="$USER_HOME$/ConvParser/Aligner.py" timestamp="1515516300723">
         <mark key="'" line="87" column="4" />
       </file>
-      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518489572698">
+      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518491311259">
         <mark key="'" line="88" column="4" />
-        <mark key="[" line="218" column="4" />
-        <mark key="]" line="218" column="4" />
-        <mark key="^" line="58" column="48" />
-        <mark key="." line="218" column="4" />
+        <mark key="[" line="114" column="48" />
+        <mark key="]" line="114" column="50" />
+        <mark key="^" line="114" column="50" />
+        <mark key="." line="114" column="50" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1489555638168">
         <mark key="'" line="34" column="24" />
@@ -618,20 +618,15 @@
         <mark key="^" line="517" column="33" />
         <mark key="." line="525" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/conceptid.py" timestamp="1518489786516">
-        <mark key="'" line="115" column="20" />
-        <mark key="[" line="123" column="0" />
-        <mark key="]" line="123" column="0" />
-        <mark key="^" line="55" column="65" />
-        <mark key="." line="123" column="0" />
+      <file name="$USER_HOME$/data_processing/conceptid.py" timestamp="1518493937049">
+        <mark key="'" line="41" column="39" />
+        <mark key="[" line="54" column="12" />
+        <mark key="]" line="54" column="12" />
+        <mark key="^" line="54" column="12" />
+        <mark key="." line="54" column="12" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="510" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="118" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="57" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="413" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="385" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="531" column="31" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="529" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="809" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
@@ -697,7 +692,6 @@
       <jump line="82" column="4" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="83" column="61" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="92" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
-      <jump line="114" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="85" column="47" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="87" column="0" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="104" column="4" filename="$USER_HOME$/data_processing/conceptid.py" />
@@ -705,14 +699,12 @@
       <jump line="107" column="30" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="39" column="38" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="81" column="16" filename="$USER_HOME$/data_processing/ml_utils.py" />
-      <jump line="41" column="51" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="78" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="103" column="16" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="131" column="31" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="129" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="54" column="16" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="113" column="20" filename="$USER_HOME$/data_processing/conceptid.py" />
-      <jump line="38" column="20" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="332" column="1" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="88" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="87" column="55" filename="$USER_HOME$/data_processing/conceptid.py" />
@@ -727,65 +719,73 @@
       <jump line="127" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="114" column="20" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="57" column="16" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="38" column="8" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="90" column="49" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="114" column="50" filename="$USER_HOME$/data_processing/ml_utils.py" />
+      <jump line="103" column="4" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="115" column="20" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="117" column="26" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="41" column="39" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="29" column="47" filename="$USER_HOME$/data_processing/ml_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICMgc3lzLmV4aXQoMSkK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Pj4gc3lzLnN0ZGVyciw=</text>
+        <text>cate</text>
       </register>
       <register name="/" type="4">
-        <text>defaultdict</text>
+        <text>buildChoices</text>
       </register>
       <register name="0" type="4">
         <text>&quot;./train_tables&quot;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICMgc3lzLmV4aXQoMSkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
+      <register name="2" type="4">
+        <text encoding="base64">IyBpZiAiY2F0ZTA9TkUiIGluIGZlYXRzIGFuZCBmZWF0c1swXSA9PSAiTk9ORSI6CiAgICAgICAgICAgICMgICAgIHByaW50Pj4gc3lzLnN0ZGVyciwgIlx0Ii5qb2luKGZlYXRzKQ==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text>#if args.candidate:
     #    word2choices, lemma2choices = loadCandidateMap(&quot;../data/conceptIDCounts.dict&quot;, &quot;../data/lemConceptIDCounts.dict&quot;, labelIndexer)</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text>#path = [None for x in xrange(N)]
     #for i in xrange(N): #Each position is just a maximization over emission scores
     #x_s = x_seq[i]   #A list of feature indices
     #cand_set = y_cands[i]</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICNOID0gbGVuKHhfc2VxKQo=</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="9" type="4">
         <text>#wordIndexer = {}
 #posIndexer = {}
 #load_data('./data/dev', wordIndexer, posIndexer)
 #print len(wordIndexer), len(posIndexer)</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICNzeXMuZXhpdCgxKQo=</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>defaultdict</last-search>
+      <last-search>buildChoices</last-search>
       <last-offset />
-      <last-pattern>defaultdict</last-pattern>
+      <last-pattern>buildChoices</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -925,6 +925,7 @@
         <entry>load_data</entry>
         <entry>extend(</entry>
         <entry>defaultdict</entry>
+        <entry>buildChoices</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
