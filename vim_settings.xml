@@ -444,11 +444,11 @@
       <file name="$USER_HOME$/ConvParser/Aligner.py" timestamp="1515516300723">
         <mark key="'" line="87" column="4" />
       </file>
-      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518483876770">
-        <mark key="[" line="19" column="23" />
-        <mark key="]" line="20" column="19" />
-        <mark key="^" line="20" column="19" />
-        <mark key="." line="20" column="19" />
+      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518484513085">
+        <mark key="[" line="73" column="47" />
+        <mark key="]" line="74" column="62" />
+        <mark key="." line="74" column="62" />
+        <mark key="^" line="74" column="62" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1489555638168">
         <mark key="'" line="34" column="24" />
@@ -616,18 +616,15 @@
         <mark key="^" line="517" column="33" />
         <mark key="." line="525" column="0" />
       </file>
-      <file name="$USER_HOME$/data_processing/conceptid.py" timestamp="1518481538434">
-        <mark key="'" line="39" column="38" />
-        <mark key="[" line="38" column="41" />
-        <mark key="]" line="38" column="41" />
-        <mark key="^" line="88" column="42" />
-        <mark key="." line="38" column="41" />
+      <file name="$USER_HOME$/data_processing/conceptid.py" timestamp="1518484830801">
+        <mark key="'" line="41" column="51" />
+        <mark key="[" line="47" column="22" />
+        <mark key="]" line="47" column="31" />
+        <mark key="^" line="47" column="31" />
+        <mark key="." line="47" column="31" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="130" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="130" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="489" column="104" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="78" column="55" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="241" column="14" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
       <jump line="140" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
@@ -725,20 +722,23 @@
       <jump line="61" column="4" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="107" column="30" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="39" column="38" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="81" column="16" filename="$USER_HOME$/data_processing/ml_utils.py" />
+      <jump line="41" column="51" filename="$USER_HOME$/data_processing/conceptid.py" />
+      <jump line="78" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>0</text>
+        <text>lemmaID_file, labelIndexer)</text>
       </register>
       <register name="/" type="4">
         <text>conceptcounts</text>
       </register>
       <register name="0" type="4">
-        <text>if x_feat.startswith('lem='):
-                    curr_lem = x_feat.replace('lem=', '')</text>
+        <text>if ignore and target == &quot;NONE&quot;:
+                    print &quot;Disallow mapping %s to NONE&quot; % word</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -747,30 +747,29 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">ICAgICMgY29uY2VwdGNvdW50W2xdID0gY291bnQKCiAgICAgICAgICAgICMgaWYgbGVuKGNvbmNlcHRjb3VudCkgPiAxMjoKICAgICAgICAgICAgIyAgICAgcHJpbnQgd29yZAogICAgICAgICAgICAjICAgICBzb3J0ZWRfaXRlbXMgPSBzb3J0ZWQoY29uY2VwdGNvdW50Lml0ZW1zKCksIGtleT1sYW1iZGEgeDogLXhbMV0pCiAgICAgICAgICAgICMgICAgIHdvcmQyY2hvaWNlc1t3b3JkXSA9IHNldCgpCiAgICAgICAgICAgICMgICAgIGZvciBsLCBjb3VudCBpbiBzb3J0ZWRfaXRlbXM6CiAgICAgICAgICAgICMgICAgICAgICB3b3JkMmNob2ljZXNbd29yZF0uYWRkKGwp</text>
+        <text>if ignore and target == &quot;NONE&quot;:
+                    print &quot;Disallow mapping %s to NONE&quot; % word</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGN1cnJfY291bnQgKz0gY291bnQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICNhc3NlcnQgdGFyZ2V0IGluIGxhYmVsSW5kZXhlcgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWdub3JlID0gRmFsc2UK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGVsc2U6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIGlnbm9yZSA9IEZhbHNlCg==</text>
       </register>
-      <register name="9" type="4">
-        <text>x = []
-    x_toks = []
-    y = []</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgdGFyZ2V0ID0gImNvbklEOiIgKyBjb25jZXB0Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
