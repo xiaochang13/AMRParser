@@ -444,11 +444,11 @@
       <file name="$USER_HOME$/ConvParser/Aligner.py" timestamp="1515516300723">
         <mark key="'" line="87" column="4" />
       </file>
-      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518482796596">
-        <mark key="[" line="33" column="47" />
-        <mark key="]" line="33" column="54" />
-        <mark key="." line="33" column="54" />
-        <mark key="^" line="33" column="54" />
+      <file name="$USER_HOME$/data_processing/ml_utils.py" timestamp="1518483876770">
+        <mark key="[" line="19" column="23" />
+        <mark key="]" line="20" column="19" />
+        <mark key="^" line="20" column="19" />
+        <mark key="." line="20" column="19" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/Dataset.java" timestamp="1489555638168">
         <mark key="'" line="34" column="24" />
@@ -728,67 +728,58 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>0</text>
       </register>
       <register name="/" type="4">
-        <text>output_choices</text>
+        <text>conceptcounts</text>
       </register>
       <register name="0" type="4">
         <text>if x_feat.startswith('lem='):
                     curr_lem = x_feat.replace('lem=', '')</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">ICAgICMgY29uY2VwdGNvdW50W2xdID0gY291bnQKCiAgICAgICAgICAgICMgaWYgbGVuKGNvbmNlcHRjb3VudCkgPiAxMjoKICAgICAgICAgICAgIyAgICAgcHJpbnQgd29yZAogICAgICAgICAgICAjICAgICBzb3J0ZWRfaXRlbXMgPSBzb3J0ZWQoY29uY2VwdGNvdW50Lml0ZW1zKCksIGtleT1sYW1iZGEgeDogLXhbMV0pCiAgICAgICAgICAgICMgICAgIHdvcmQyY2hvaWNlc1t3b3JkXSA9IHNldCgpCiAgICAgICAgICAgICMgICAgIGZvciBsLCBjb3VudCBpbiBzb3J0ZWRfaXRlbXM6CiAgICAgICAgICAgICMgICAgICAgICB3b3JkMmNob2ljZXNbd29yZF0uYWRkKGwp</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGN1cnJfY291bnQgKz0gY291bnQK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICNhc3NlcnQgdGFyZ2V0IGluIGxhYmVsSW5kZXhlcgo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGVsc2U6Cg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="9" type="4">
         <text>x = []
     x_toks = []
     y = []</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="6" type="4">
-        <text>curr_concept = None
-            curr_cacheconcept = None
-            curr_ddist = None
-            curr_wdist = None</text>
-      </register>
-      <register name="7" type="4">
-        <text>elif task.lower() == 'arclabel':
-                assert curr_concept and curr_cacheconcept, '%s %s' % (curr_concept, curr_cacheconcept)
-                X_t.append((curr_concept, curr_cacheconcept))
-            elif task.lower() == 'arcbinary':
-                X_t.append((curr_wdist, curr_ddist))
-            else:
-                X_t.append(None)</text>
-      </register>
-      <register name="8" type="8">
-        <text encoding="base64">ICAgIAogICAg</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgdGFzay5sb3dlcigpID09ICdjb25jZXB0aWQnOgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>output_choices</last-search>
+      <last-search>conceptcounts</last-search>
       <last-offset />
-      <last-pattern>output_choices</last-pattern>
+      <last-pattern>conceptcounts</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -922,6 +913,7 @@
         <entry>train_choices</entry>
         <entry>task</entry>
         <entry>output_choices</entry>
+        <entry>conceptcounts</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
