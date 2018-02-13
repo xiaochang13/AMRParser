@@ -300,13 +300,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518550414788">
-        <mark key="'" line="1238" column="11" />
-        <mark key="k" line="1214" column="34" />
-        <mark key="[" line="1088" column="12" />
-        <mark key="]" line="1088" column="44" />
-        <mark key="^" line="1088" column="44" />
-        <mark key="." line="1088" column="44" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518555534596">
+        <mark key="'" line="93" column="13" />
+        <mark key="k" line="1247" column="34" />
+        <mark key="[" line="1119" column="82" />
+        <mark key="]" line="1120" column="56" />
+        <mark key="^" line="1120" column="56" />
+        <mark key="." line="1120" column="56" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -625,13 +625,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="560" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="572" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="670" column="45" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="709" column="18" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="718" column="18" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="687" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="692" column="13" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="126" column="4" filename="$USER_HOME$/data_processing/utils.py" />
       <jump line="350" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="536" column="44" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -725,16 +718,23 @@
       <jump line="1230" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1081" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1234" column="11" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="767" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1204" column="10" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="591" column="94" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="12" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="28" column="59" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="34" column="30" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="93" column="13" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>spans</text>
+        <text>-1</text>
       </register>
       <register name="-" type="4">
-        <text>spans</text>
+        <text>-1</text>
       </register>
       <register name="/" type="4">
-        <text>loadMapp</text>
+        <text>node_idx</text>
       </register>
       <register name="0" type="4">
         <text>ambiguousToksStats = os.path.join(args.table_dir, &quot;ambiguous_toks.txt&quot;)</text>
@@ -745,17 +745,28 @@
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
+      <register name="2" type="4">
+        <text>start_to_end = {}
+        for (start, end) in date_maps:
+            start_to_end[start] = end
+
+        for (start, end) in ner_maps:
+            assert start not in start_to_end
+            start_to_end[start] = end</text>
+      </register>
+      <register name="3" type="4">
+        <text>for (start, end) in date_maps:
+            start_to_end[start] = end
+
+        for (start, end) in ner_maps:
+            assert start not in start_to_end
+            start_to_end[start] = end</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="4" type="4">
-        <text encoding="base64">ZGVmIGdlbmVyYXRlX2NhbmRfc2V0KG5vbl9tYXBfd29yZHMsIHN0b3Bfd29yZHMsIGVudGl0eV9sYWJlbF9zZXQsIFVOS05PV04sIGlzX2VudCwgaXNfcHJlZCwgd29yZCwgbGVtLCBhcmdfbGFiZWxfc2V0LCB3b3JkX2xhYmVsX3NldCwgbGVtX2xhYmVsX3NldCwgbm9uZV9zZXQsIHVua25vd25fc2V0KToKICAgIGlmIGlzX2VudDoKICAgICAgICByZXR1cm4gZW50aXR5X2xhYmVsX3NldAoKICAgIGlmIHdvcmQgaW4gbm9uX21hcF93b3JkczoKICAgICAgICByZXR1cm4gbm9uZV9zZXQKCiAgICBjYW5kX3NldCA9IHNldCgpCiAgICBpZiBpc19wcmVkOgogICAgICAgIGNhbmRfc2V0IHw9IGFyZ19sYWJlbF9zZXQKICAgIGlmIHdvcmQgaW4gd29yZF9sYWJlbF9zZXQ6CiAgICAgICAgY2FuZF9zZXQgfD0gd29yZF9sYWJlbF9zZXRbd29yZF0KICAgICAgICBpZiB3b3JkIGluIHVua25vd25fc2V0OgogICAgICAgICAgICBjYW5kX3NldCB8PSBub25lX3NldAoKICAgIGVsaWYgbGVtIGluIGxlbV9sYWJlbF9zZXQ6CiAgICAgICAgY2FuZF9zZXQgfD0gbGVtX2xhYmVsX3NldFtsZW1dCiAgICAgICAgaWYgbGVtIGluIHVua25vd25fc2V0OgogICAgICAgICAgICBjYW5kX3NldCB8PSBub25lX3NldAoKICAgIGlmIHdvcmQgaW4gc3RvcF93b3JkczoKICAgICAgICBjYW5kX3NldCB8PSBub25lX3NldAoKICAgIGlmIGxlbihjYW5kX3NldCkgPT0gMDoKICAgICAgICBjYW5kX3NldCA9IG5vbmVfc2V0CgogICAgcmV0dXJuIGNhbmRfc2V0Cgo=</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">ZGVmIGxvYWRfY2FuZGlkYXRlcyhjYW5kX2ZpbGUsIGxhYmVsSW5kZXhlcik6CiAgICBjYW5kX2YgPSBvcGVuKGNhbmRfZmlsZSwgJ3JiJykKICAgIGNhbmRfbWFwID0gY1BpY2tsZS5sb2FkKGNhbmRfZikKICAgIGNhbmRfZi5jbG9zZSgpCg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
@@ -764,69 +775,19 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="4">
-        <text>#Before initialize, should verify a word might be a predicate or not
-def load_mappings(stats_dir, labelIndexer):
-    stats_files = os.popen('ls %s/stat_*' % stats_dir).read().split()
-    assert len(stats_files) == 8
-
-    stop_words = set([line.strip() for line in open('../stop_words', 'r')])
-    non_map_words = set(['am', 'is', 'are', 'be', 'a', 'an', 'the'])
-
-    pred_set = set()
-    pred_lemma_set = set()
-
-    pred_labels = set()
-
-    non_pred_mapping = defaultdict(set)
-    non_pred_lemma_mapping = defaultdict(set)
-
-    entity_labels = set()
-    entity_map = defaultdict(set)
-
-    unknown_set = set()
-
-    for file in stats_files:
-        f = open(file, 'rb')
-        stats = cPickle.load(f)
-        pred_set |= stats[0]
-        pred_lemma_set |= stats[1]
-
-        for word in stats[6]: #non predicate word to rule set
-            if word in non_map_words:
-                continue
-            non_pred_mapping[word] |= stats[6][word]
-
-        for lemma in stats[7]:
-            if lemma in non_map_words:
-                continue
-            non_pred_lemma_mapping[lemma] |= stats[7][lemma]
-
-        for entity in stats[5]:
-            entity_labels |= stats[5][entity]
-
-        for unk_w in stats[8]:
-            unknown_set.add(unk_w)
-
-        pred_labels |= stats[2]
-
-    pred_set -= stop_words
-    pred_set -= non_map_words
-    pred_lemma_set -= stop_words
-    pred_lemma_set -= non_map_words
-
-    return (pred_set, pred_lemma_set, pred_labels, non_pred_mapping, non_pred_lemma_mapping, entity_labels, unknown_set)</text>
+        <text encoding="base64">ZGVmIGdlbmVyYXRlX2NhbmRfc2V0KG5vbl9tYXBfd29yZHMsIHN0b3Bfd29yZHMsIGVudGl0eV9sYWJlbF9zZXQsIFVOS05PV04sIGlzX2VudCwgaXNfcHJlZCwgd29yZCwgbGVtLCBhcmdfbGFiZWxfc2V0LCB3b3JkX2xhYmVsX3NldCwgbGVtX2xhYmVsX3NldCwgbm9uZV9zZXQsIHVua25vd25fc2V0KToKICAgIGlmIGlzX2VudDoKICAgICAgICByZXR1cm4gZW50aXR5X2xhYmVsX3NldAoKICAgIGlmIHdvcmQgaW4gbm9uX21hcF93b3JkczoKICAgICAgICByZXR1cm4gbm9uZV9zZXQKCiAgICBjYW5kX3NldCA9IHNldCgpCiAgICBpZiBpc19wcmVkOgogICAgICAgIGNhbmRfc2V0IHw9IGFyZ19sYWJlbF9zZXQKICAgIGlmIHdvcmQgaW4gd29yZF9sYWJlbF9zZXQ6CiAgICAgICAgY2FuZF9zZXQgfD0gd29yZF9sYWJlbF9zZXRbd29yZF0KICAgICAgICBpZiB3b3JkIGluIHVua25vd25fc2V0OgogICAgICAgICAgICBjYW5kX3NldCB8PSBub25lX3NldAoKICAgIGVsaWYgbGVtIGluIGxlbV9sYWJlbF9zZXQ6CiAgICAgICAgY2FuZF9zZXQgfD0gbGVtX2xhYmVsX3NldFtsZW1dCiAgICAgICAgaWYgbGVtIGluIHVua25vd25fc2V0OgogICAgICAgICAgICBjYW5kX3NldCB8PSBub25lX3NldAoKICAgIGlmIHdvcmQgaW4gc3RvcF93b3JkczoKICAgICAgICBjYW5kX3NldCB8PSBub25lX3NldAoKICAgIGlmIGxlbihjYW5kX3NldCkgPT0gMDoKICAgICAgICBjYW5kX3NldCA9IG5vbmVfc2V0CgogICAgcmV0dXJuIGNhbmRfc2V0Cgo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      <register name="9" type="4">
+        <text encoding="base64">ZGVmIGxvYWRfY2FuZGlkYXRlcyhjYW5kX2ZpbGUsIGxhYmVsSW5kZXhlcik6CiAgICBjYW5kX2YgPSBvcGVuKGNhbmRfZmlsZSwgJ3JiJykKICAgIGNhbmRfbWFwID0gY1BpY2tsZS5sb2FkKGNhbmRfZikKICAgIGNhbmRfZi5jbG9zZSgpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>loadMapp</last-search>
+      <last-search>node_idx</last-search>
       <last-offset />
-      <last-pattern>loadMapp</last-pattern>
+      <last-pattern>node_idx</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -911,7 +872,6 @@ def load_mappings(stats_dir, labelIndexer):
         <entry>toks</entry>
         <entry>rename</entry>
         <entry>node_index</entry>
-        <entry>node_idx</entry>
         <entry>rename_node</entry>
         <entry>parse_string</entry>
         <entry>predict</entry>
@@ -934,7 +894,6 @@ def load_mappings(stats_dir, labelIndexer):
         <entry>tok_repr</entry>
         <entry>encode</entry>
         <entry>quantit</entry>
-        <entry>span_to_type</entry>
         <entry>curr_sy</entry>
         <entry>category_name</entry>
         <entry>tok2cou</entry>
@@ -972,6 +931,9 @@ def load_mappings(stats_dir, labelIndexer):
         <entry>category</entry>
         <entry>load_mappings</entry>
         <entry>loadMapp</entry>
+        <entry>collapsed_tok</entry>
+        <entry>span_to_type</entry>
+        <entry>node_idx</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
