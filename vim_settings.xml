@@ -217,12 +217,12 @@
         <mark key="." line="26" column="18" />
         <mark key="^" line="26" column="18" />
       </file>
-      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1518576921994">
+      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1518617987018">
         <mark key="'" line="126" column="4" />
-        <mark key="[" line="318" column="32" />
-        <mark key="]" line="320" column="23" />
-        <mark key="^" line="320" column="23" />
-        <mark key="." line="320" column="23" />
+        <mark key="[" line="296" column="4" />
+        <mark key="]" line="296" column="9" />
+        <mark key="^" line="296" column="9" />
+        <mark key="." line="296" column="9" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -294,13 +294,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518595816850">
-        <mark key="'" line="1194" column="24" />
-        <mark key="k" line="1310" column="34" />
-        <mark key="[" line="1225" column="72" />
-        <mark key="]" line="1225" column="73" />
-        <mark key="^" line="1225" column="73" />
-        <mark key="." line="1225" column="73" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518618075166">
+        <mark key="'" line="547" column="48" />
+        <mark key="k" line="1313" column="34" />
+        <mark key="[" line="1215" column="29" />
+        <mark key="]" line="1216" column="58" />
+        <mark key="^" line="1216" column="58" />
+        <mark key="." line="1216" column="58" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -597,9 +597,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="87" column="55" filename="$USER_HOME$/data_processing/conceptid.py" />
-      <jump line="437" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
-      <jump line="130" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="146" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
       <jump line="56" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
       <jump line="6" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
@@ -697,13 +694,16 @@
       <jump line="1161" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1180" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1194" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="592" column="92" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="13" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="547" column="48" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBjb25sbF9hdHRycyA9IFtdCg==</text>
+      <register name="&quot;" type="4">
+        <text>concept_repr</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>concept_repr</text>
       </register>
       <register name="/" type="4">
         <text>concept_seq</text>
