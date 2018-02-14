@@ -73,12 +73,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518626156158">
-        <mark key="'" line="468" column="37" />
-        <mark key="[" line="466" column="27" />
-        <mark key="]" line="466" column="27" />
-        <mark key="." line="466" column="12" />
-        <mark key="^" line="466" column="11" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518629587980">
+        <mark key="'" line="465" column="4" />
+        <mark key="[" line="526" column="53" />
+        <mark key="]" line="526" column="69" />
+        <mark key="." line="526" column="53" />
+        <mark key="^" line="526" column="52" />
       </file>
       <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515482880350">
         <mark key="'" line="426" column="54" />
@@ -593,7 +593,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="90" column="49" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="114" column="50" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="103" column="4" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="115" column="20" filename="$USER_HOME$/data_processing/conceptid.py" />
@@ -693,10 +692,11 @@
       <jump line="496" column="58" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="126" column="83" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="466" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="465" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>max_passage_len</text>
+        <text>.encode('utf-8')</text>
       </register>
       <register name="-" type="4">
         <text>========</text>
@@ -705,7 +705,7 @@
         <text>options</text>
       </register>
       <register name="0" type="4">
-        <text>max_passage_len</text>
+        <text>.encode('utf-8')</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxzZToK</text>
