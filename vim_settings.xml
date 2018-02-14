@@ -223,12 +223,12 @@
         <mark key="." line="26" column="18" />
         <mark key="^" line="26" column="18" />
       </file>
-      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1518548271497">
+      <file name="$USER_HOME$/data_processing/utils.py" timestamp="1518576921994">
         <mark key="'" line="126" column="4" />
-        <mark key="[" line="331" column="14" />
-        <mark key="]" line="331" column="22" />
-        <mark key="^" line="331" column="22" />
-        <mark key="." line="331" column="22" />
+        <mark key="[" line="318" column="32" />
+        <mark key="]" line="320" column="23" />
+        <mark key="^" line="320" column="23" />
+        <mark key="." line="320" column="23" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -300,13 +300,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518574832168">
-        <mark key="'" line="1192" column="78" />
-        <mark key="k" line="1226" column="34" />
-        <mark key="[" line="1197" column="12" />
-        <mark key="]" line="1197" column="55" />
-        <mark key="^" line="1197" column="12" />
-        <mark key="." line="1197" column="12" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518577619592">
+        <mark key="'" line="1186" column="49" />
+        <mark key="k" line="1228" column="34" />
+        <mark key="[" line="1174" column="66" />
+        <mark key="]" line="1174" column="68" />
+        <mark key="^" line="1174" column="68" />
+        <mark key="." line="1174" column="68" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -627,11 +627,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="111" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
-      <jump line="84" column="63" filename="$USER_HOME$/data_processing/conceptid.py" />
-      <jump line="82" column="4" filename="$USER_HOME$/data_processing/conceptid.py" />
-      <jump line="83" column="61" filename="$USER_HOME$/data_processing/conceptid.py" />
-      <jump line="92" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="85" column="47" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="87" column="0" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="104" column="4" filename="$USER_HOME$/data_processing/conceptid.py" />
@@ -687,7 +682,6 @@
       <jump line="1131" column="35" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="874" column="21" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1135" column="35" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="844" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="851" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="875" column="17" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="41" column="43" filename="$USER_HOME$/data_processing/conceptid.py" />
@@ -708,7 +702,6 @@
       <jump line="972" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1050" column="28" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1137" column="64" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1168" column="43" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="64" column="0" filename="$USER_HOME$/data_processing/constants.py" />
       <jump line="338" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
       <jump line="1171" column="52" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -727,16 +720,23 @@
       <jump line="12" column="62" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1182" column="78" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="49" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="878" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1147" column="32" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1168" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1091" column="35" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="844" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1250" column="14" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1186" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>v</text>
+        <text>tok</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>tok</text>
       </register>
       <register name="/" type="4">
-        <text>isTrain</text>
+        <text>args.data</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">cHJpbnQgPj4gY29ubGxfd2YsICdzZW50ZW5jZSAlZCcgJSBzZW50X2lkeA==</text>
@@ -776,9 +776,9 @@
       </register>
     </registers>
     <search>
-      <last-search>isTrain</last-search>
+      <last-search>args.data</last-search>
       <last-offset />
-      <last-pattern>isTrain</last-pattern>
+      <last-pattern>args.data</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -931,6 +931,8 @@
         <entry>mapRepr</entry>
         <entry>collapseTok</entry>
         <entry>isTrain</entry>
+        <entry>mle</entry>
+        <entry>args.data</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
@@ -973,6 +975,10 @@
         <entry>445</entry>
         <entry>644</entry>
         <entry>360</entry>
+        <entry>321</entry>
+        <entry>1101</entry>
+        <entry>1193</entry>
+        <entry>1175</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
