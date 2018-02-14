@@ -140,8 +140,8 @@
         <mark key="^" line="345" column="0" />
         <mark key="." line="345" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" timestamp="1518368218680">
-        <mark key="'" line="416" column="22" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" timestamp="1518589213796">
+        <mark key="'" line="417" column="17" />
         <mark key="[" line="239" column="0" />
         <mark key="]" line="241" column="106" />
         <mark key="^" line="239" column="0" />
@@ -294,13 +294,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518588202175">
-        <mark key="'" line="1191" column="49" />
-        <mark key="k" line="1238" column="34" />
-        <mark key="[" line="1102" column="63" />
-        <mark key="]" line="1104" column="32" />
-        <mark key="^" line="1104" column="32" />
-        <mark key="." line="1104" column="32" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518589287007">
+        <mark key="'" line="1202" column="49" />
+        <mark key="k" line="1249" column="34" />
+        <mark key="[" line="1150" column="0" />
+        <mark key="]" line="1148" column="23" />
+        <mark key="^" line="1148" column="23" />
+        <mark key="." line="1148" column="23" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -378,8 +378,8 @@
         <mark key="." line="122" column="20" />
         <mark key="^" line="122" column="20" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1518588238727">
-        <mark key="'" line="42" column="25" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1518589208536">
+        <mark key="'" line="42" column="20" />
         <mark key="[" line="94" column="44" />
         <mark key="]" line="95" column="58" />
         <mark key="^" line="95" column="58" />
@@ -597,8 +597,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="4" filename="$USER_HOME$/data_processing/conceptid.py" />
-      <jump line="107" column="30" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="39" column="38" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="81" column="16" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="78" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
@@ -694,61 +692,67 @@
       <jump line="844" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1250" column="14" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1186" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="238" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="42" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="406" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
+      <jump line="219" column="52" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="238" column="105" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="42" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="417" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>output_file</text>
+        <text encoding="base64">IyA=</text>
       </register>
       <register name="-" type="4">
-        <text>output_file</text>
+        <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
-        <text>args.data</text>
+        <text>map_info_seq</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">cHJpbnQgPj4gY29ubGxfd2YsICdzZW50ZW5jZSAlZCcgJSBzZW50X2lkeA==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>concept_seq, category_seq, map_info_seq = [], [], []
+        feat_seq, oracle_seq = [], []
+        word_align, concept_align = [], []
+        concept_to_word = []</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBvcmFjbGVfc2VxID0gW10K</text>
       </register>
-      <register name="3" type="8">
-        <text encoding="base64">ICAgIAogICAg</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBlbHNlOgo=</text>
+      <register name="4" type="4">
+        <text>category_seq = []
+        map_info_seq = []</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIHByaW50ID4+IG1hcF93ZiwgJyMjJy5qb2luKG1hcF9yZXByX3NlcSkK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAjIG1hcF9yZXByX3NlcSA9IG1hcFJlcHIoYWxsX3NwYW5zLCB0b2tfc2VxLCBsZW1fc2VxKQo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="7" type="8">
+        <text encoding="base64">ICAgIAogICAg</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBlbHNlOgo=</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>args.data</last-search>
+      <last-search>map_info_seq</last-search>
       <last-offset />
-      <last-pattern>args.data</last-pattern>
+      <last-pattern>map_info_seq</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -903,6 +907,7 @@
         <entry>isTrain</entry>
         <entry>mle</entry>
         <entry>args.data</entry>
+        <entry>map_info_seq</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
