@@ -105,12 +105,12 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518591206119">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518619189714">
         <mark key="'" line="6" column="34" />
-        <mark key="[" line="5" column="29" />
-        <mark key="]" line="6" column="34" />
-        <mark key="^" line="6" column="34" />
-        <mark key="." line="6" column="34" />
+        <mark key="[" line="124" column="36" />
+        <mark key="]" line="124" column="60" />
+        <mark key="^" line="124" column="60" />
+        <mark key="." line="124" column="60" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515615653217">
         <mark key="'" line="79" column="61" />
@@ -294,13 +294,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518618075166">
-        <mark key="'" line="547" column="48" />
-        <mark key="k" line="1313" column="34" />
-        <mark key="[" line="1215" column="29" />
-        <mark key="]" line="1216" column="58" />
-        <mark key="^" line="1216" column="58" />
-        <mark key="." line="1216" column="58" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518620810647">
+        <mark key="'" line="1238" column="31" />
+        <mark key="k" line="1318" column="34" />
+        <mark key="[" line="1220" column="51" />
+        <mark key="]" line="1220" column="52" />
+        <mark key="." line="1220" column="52" />
+        <mark key="^" line="1221" column="64" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -597,10 +597,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="146" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="56" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="6" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="189" column="32" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="218" column="0" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="89" column="54" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="127" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
@@ -697,16 +693,20 @@
       <jump line="592" column="92" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="13" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="547" column="48" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1213" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="293" column="4" filename="$USER_HOME$/data_processing/utils.py" />
+      <jump line="1214" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1233" column="31" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>concept_repr</text>
+        <text>:</text>
       </register>
       <register name="-" type="4">
-        <text>concept_repr</text>
+        <text>:</text>
       </register>
       <register name="/" type="4">
-        <text>concept_seq</text>
+        <text>getCa</text>
       </register>
       <register name="0" type="4">
         <text>concept_seq.append(concept_repr)
@@ -717,32 +717,32 @@
                     concept_to_word.append(collapsed_idx)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBjb25sbF9hdHRycyA9IFtdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxzZToK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxzZQo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbWFwX2luZm8gPSAiJXN8fCVzIiAlIChjdXJyX3RvaywgY29uY2VwdF9yZXByKQo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgIyBjb25sbF9hdHRycyA9IFtdCg==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="7" type="4">
         <text>feat_seq, oracle_seq = [], []
             word_align, concept_align = [], []</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4K</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbnVtX2FjdGlvbnMgPSBsZW4oY29uY2VwdF9zZXEpICogMiAgIyAiU0hJRlQiLCAiUE9QIiBmb3IgZWFjaCBjb25jZXB0Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -752,9 +752,9 @@
       </register>
     </registers>
     <search>
-      <last-search>concept_seq</last-search>
+      <last-search>getCa</last-search>
       <last-offset />
-      <last-pattern>concept_seq</last-pattern>
+      <last-pattern>getCa</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -911,6 +911,8 @@
         <entry>getCatego</entry>
         <entry>frequent_set</entry>
         <entry>concept_seq</entry>
+        <entry>NEG</entry>
+        <entry>getCa</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
