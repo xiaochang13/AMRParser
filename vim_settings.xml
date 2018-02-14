@@ -130,12 +130,12 @@
         <mark key="." line="392" column="8" />
         <mark key="^" line="392" column="9" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_utils.py" timestamp="1518630621905">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_utils.py" timestamp="1518631539455">
         <mark key="'" line="65" column="29" />
-        <mark key="[" line="67" column="4" />
-        <mark key="]" line="67" column="24" />
-        <mark key="^" line="67" column="24" />
-        <mark key="." line="67" column="24" />
+        <mark key="[" line="87" column="4" />
+        <mark key="]" line="87" column="5" />
+        <mark key="^" line="87" column="5" />
+        <mark key="." line="87" column="5" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_trainer.py" timestamp="1517267456754">
         <mark key="'" line="240" column="47" />
@@ -699,11 +699,11 @@
       <jump line="53" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>amr_lines = [line.strip() for line in open(new_amr_file)]</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>amr_lines = [line.strip() for line in open(new_amr_file)]</text>
+        <text>f = open(new_amr_file)</text>
       </register>
       <register name="/" type="4">
         <text>options</text>
@@ -712,35 +712,34 @@
         <text>.encode('utf-8')</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxzZToK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxzZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbWFwX2luZm8gPSAiJXN8fCVzIiAlIChjdXJyX3RvaywgY29uY2VwdF9yZXByKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBjb25sbF9hdHRycyA9IFtdCg==</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxzZToK</text>
       </register>
-      <register name="7" type="4">
-        <text>feat_seq, oracle_seq = [], []
-            word_align, concept_align = [], []</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxzZQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbWFwX2luZm8gPSAiJXN8fCVzIiAlIChjdXJyX3RvaywgY29uY2VwdF9yZXByKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
