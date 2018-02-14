@@ -73,12 +73,12 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518629587980">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1518642305188">
         <mark key="'" line="465" column="4" />
-        <mark key="[" line="526" column="53" />
-        <mark key="]" line="526" column="69" />
-        <mark key="." line="526" column="53" />
-        <mark key="^" line="526" column="52" />
+        <mark key="[" line="516" column="40" />
+        <mark key="]" line="516" column="40" />
+        <mark key="." line="516" column="40" />
+        <mark key="^" line="516" column="80" />
       </file>
       <file name="$USER_HOME$/data_processing/categorize_amr.py" timestamp="1515482880350">
         <mark key="'" line="426" column="54" />
@@ -122,6 +122,12 @@
         <mark key="]" line="19" column="34" />
         <mark key="." line="19" column="34" />
         <mark key="^" line="19" column="34" />
+      </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/sent_utils.py" timestamp="1518641953566">
+        <mark key="[" line="19" column="35" />
+        <mark key="]" line="21" column="19" />
+        <mark key="^" line="21" column="19" />
+        <mark key="." line="21" column="19" />
       </file>
       <file name="/Library/Python/2.7/site-packages/keras/engine/topology.py" timestamp="1507572628652">
         <mark key="'" line="17" column="49" />
@@ -339,12 +345,12 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1518626143919">
-        <mark key="'" line="47" column="4" />
-        <mark key="[" line="128" column="53" />
-        <mark key="]" line="128" column="67" />
-        <mark key="." line="84" column="37" />
-        <mark key="^" line="80" column="67" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1518642120649">
+        <mark key="'" line="34" column="23" />
+        <mark key="[" line="35" column="33" />
+        <mark key="]" line="38" column="73" />
+        <mark key="." line="38" column="73" />
+        <mark key="^" line="38" column="73" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amr_graph.py" timestamp="1516222275265">
         <mark key="'" line="350" column="15" />
@@ -597,7 +603,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="29" column="47" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="647" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="58" column="49" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="116" column="26" filename="$USER_HOME$/data_processing/conceptid.py" />
@@ -697,14 +702,14 @@
       <jump line="27" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_utils.py" />
       <jump line="65" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_utils.py" />
       <jump line="53" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
+      <jump line="34" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>#print amr_line
-        #fflush(stdout)</text>
+        <text encoding="base64">Ojog</text>
       </register>
       <register name="-" type="4">
-        <text>f = open(new_amr_file)</text>
+        <text encoding="base64">Ojog</text>
       </register>
       <register name="/" type="4">
         <text>options</text>
@@ -712,18 +717,18 @@
       <register name="0" type="4">
         <text>.encode('utf-8')</text>
       </register>
-      <register name="1" type="4">
-        <text>#print amr_line
-        #fflush(stdout)</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG91dGZpbGUud3JpdGUoIiMgSHlwLXt9OjogIi5mb3JtYXQoaikgKyBjdXJfcmVzdWx0ICsgIlxuIikK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpbnB1dF9zZW50LmlkeCA9IHNlbnRfaWR4Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text>#print amr_line
+        #fflush(stdout)</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
@@ -732,16 +737,16 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxzZToK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxzZQo=</text>
+        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgbWFwX2luZm8gPSAiJXN8fCVzIiAlIChjdXJyX3RvaywgY29uY2VwdF9yZXByKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxzZToK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
