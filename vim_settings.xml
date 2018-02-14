@@ -294,13 +294,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518592884668">
-        <mark key="'" line="1253" column="72" />
-        <mark key="k" line="1306" column="34" />
-        <mark key="[" line="1122" column="12" />
-        <mark key="]" line="1122" column="12" />
-        <mark key="." line="1122" column="12" />
-        <mark key="^" line="1122" column="12" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518595332859">
+        <mark key="'" line="1249" column="72" />
+        <mark key="k" line="1310" column="34" />
+        <mark key="[" line="1225" column="72" />
+        <mark key="]" line="1225" column="73" />
+        <mark key="^" line="1225" column="73" />
+        <mark key="." line="1225" column="73" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -699,11 +699,11 @@
       <jump line="26" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>20</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgIyBjb25sbF9hdHRycyA9IFtdCg==</text>
       </register>
       <register name="-" type="4">
-        <text>20</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>frequent_set</text>
@@ -717,37 +717,35 @@
                     concept_to_word.append(collapsed_idx)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBjb25sbF9hdHRycyA9IFtdCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIA==</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdG9rX3JlcHIgPSAiXyIuam9pbih0b2tfc2VxW3Rva19pZHg6ZW5kX2lkeF0pCg==</text>
+      <register name="3" type="4">
+        <text>feat_seq, oracle_seq = [], []
+            word_align, concept_align = [], []</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWVfcmVwciA9IAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY29uY2VwdF9zZXEuYXBwZW5kKCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4K</text>
       </register>
-      <register name="7" type="4">
-        <text>concept_seq, category_seq, map_info_seq = [], [], []
-        feat_seq, oracle_seq = [], []
-        word_align, concept_align = [], []
-        concept_to_word = []</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBvcmFjbGVfc2VxID0gW10K</text>
+        <text encoding="base64">ICAgICAgICAgICAgbnVtX2FjdGlvbnMgPSBsZW4oY29uY2VwdF9zZXEpICogMiAgIyAiU0hJRlQiLCAiUE9QIiBmb3IgZWFjaCBjb25jZXB0Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
