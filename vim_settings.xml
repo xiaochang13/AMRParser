@@ -300,13 +300,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518565250174">
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518570523252">
         <mark key="'" line="1137" column="64" />
-        <mark key="k" line="1284" column="34" />
-        <mark key="[" line="1156" column="73" />
-        <mark key="]" line="1157" column="65" />
-        <mark key="." line="1157" column="65" />
-        <mark key="^" line="1157" column="65" />
+        <mark key="k" line="1289" column="34" />
+        <mark key="[" line="1161" column="25" />
+        <mark key="]" line="1162" column="68" />
+        <mark key="." line="1162" column="68" />
+        <mark key="^" line="1162" column="68" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -729,11 +729,11 @@
       <jump line="1137" column="64" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnRpbnVlCg==</text>
+      <register name="&quot;" type="4">
+        <text>pos</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>pos</text>
       </register>
       <register name="/" type="4">
         <text>mle_map</text>
