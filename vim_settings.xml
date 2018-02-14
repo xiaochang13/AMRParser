@@ -105,7 +105,7 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518488930440">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518591206119">
         <mark key="'" line="6" column="34" />
         <mark key="[" line="5" column="29" />
         <mark key="]" line="6" column="34" />
@@ -294,13 +294,13 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518590624198">
-        <mark key="'" line="1163" column="55" />
-        <mark key="k" line="1267" column="34" />
-        <mark key="[" line="1180" column="53" />
-        <mark key="]" line="1182" column="41" />
-        <mark key="." line="1182" column="41" />
-        <mark key="^" line="1182" column="41" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518592884668">
+        <mark key="'" line="1253" column="72" />
+        <mark key="k" line="1306" column="34" />
+        <mark key="[" line="1122" column="12" />
+        <mark key="]" line="1122" column="12" />
+        <mark key="." line="1122" column="12" />
+        <mark key="^" line="1122" column="12" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1510677537272">
         <mark key="'" line="847" column="21" />
@@ -597,8 +597,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="103" column="16" filename="$USER_HOME$/data_processing/ml_utils.py" />
-      <jump line="131" column="31" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="129" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="54" column="16" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="113" column="20" filename="$USER_HOME$/data_processing/conceptid.py" />
@@ -697,56 +695,59 @@
       <jump line="175" column="22" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="365" column="5" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1163" column="55" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1253" column="72" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="26" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>NONE</text>
+        <text>20</text>
       </register>
       <register name="-" type="4">
-        <text>NONE</text>
+        <text>20</text>
       </register>
       <register name="/" type="4">
         <text>frequent_set</text>
       </register>
       <register name="0" type="4">
-        <text>concept_seq.append(&quot;DATE&quot;)
-                        category_seq.append(&quot;DATE&quot;)
-                        map_info = &quot;%s||NONE&quot; % &quot;_&quot;.join(tok_seq[tok_idx:end_idx])
-                        map_info_seq.append(map_info)</text>
+        <text>concept_seq.append(concept_repr)
+                    category = getCategories(category, frequent_set)
+                    category_seq.append(category)
+                    map_info = &quot;%s||%s&quot; % (&quot;_&quot;.join(tok_seq[tok_idx:end_idx]), subgraph_repr)
+                    map_info_seq.append(map_info)
+                    concept_to_word.append(collapsed_idx)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY29uY2VwdF9zZXEuYXBwZW5kKCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
+      <register name="2" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIA==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdG9rX3JlcHIgPSAiXyIuam9pbih0b2tfc2VxW3Rva19pZHg6ZW5kX2lkeF0pCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWVfcmVwciA9IAo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY29uY2VwdF9zZXEuYXBwZW5kKCkK</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="7" type="4">
         <text>concept_seq, category_seq, map_info_seq = [], [], []
         feat_seq, oracle_seq = [], []
         word_align, concept_align = [], []
         concept_to_word = []</text>
       </register>
-      <register name="4" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBvcmFjbGVfc2VxID0gW10K</text>
       </register>
-      <register name="5" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="6" type="4">
-        <text>category_seq = []
-        map_info_seq = []</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="8">
-        <text encoding="base64">ICAgIAogICAg</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -959,6 +960,7 @@
         <entry>1193</entry>
         <entry>1175</entry>
         <entry>1103</entry>
+        <entry>1247</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
