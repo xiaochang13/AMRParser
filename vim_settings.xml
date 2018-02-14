@@ -294,8 +294,8 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518595332859">
-        <mark key="'" line="1249" column="72" />
+      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518595816850">
+        <mark key="'" line="1194" column="24" />
         <mark key="k" line="1310" column="34" />
         <mark key="[" line="1225" column="72" />
         <mark key="]" line="1225" column="73" />
@@ -597,11 +597,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="129" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
-      <jump line="54" column="16" filename="$USER_HOME$/data_processing/conceptid.py" />
-      <jump line="113" column="20" filename="$USER_HOME$/data_processing/conceptid.py" />
-      <jump line="332" column="1" filename="$USER_HOME$/data_processing/ml_utils.py" />
-      <jump line="88" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="87" column="55" filename="$USER_HOME$/data_processing/conceptid.py" />
       <jump line="437" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="130" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
@@ -656,7 +651,6 @@
       <jump line="955" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="961" column="34" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="962" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="963" column="77" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="964" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="971" column="59" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="972" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -697,6 +691,12 @@
       <jump line="1163" column="55" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1253" column="72" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="26" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="963" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1125" column="12" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1158" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1161" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1180" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
+      <jump line="1194" column="24" filename="$USER_HOME$/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -706,7 +706,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>frequent_set</text>
+        <text>concept_seq</text>
       </register>
       <register name="0" type="4">
         <text>concept_seq.append(concept_repr)
@@ -752,9 +752,9 @@
       </register>
     </registers>
     <search>
-      <last-search>frequent_set</last-search>
+      <last-search>concept_seq</last-search>
       <last-offset />
-      <last-pattern>frequent_set</last-pattern>
+      <last-pattern>concept_seq</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -820,7 +820,6 @@
         <entry>table_dir</entry>
         <entry>phrase_map</entry>
         <entry>loadPhrases</entry>
-        <entry>concept_seq</entry>
         <entry>amr_graph</entry>
         <entry>feature</entry>
         <entry>cache_fea</entry>
@@ -911,6 +910,7 @@
         <entry>map_info_seq</entry>
         <entry>getCatego</entry>
         <entry>frequent_set</entry>
+        <entry>concept_seq</entry>
       </history-search>
       <history-cmd>
         <entry>317</entry>
