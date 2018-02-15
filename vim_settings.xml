@@ -132,12 +132,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1518668695205">
-        <mark key="'" line="837" column="0" />
-        <mark key="[" line="1318" column="72" />
-        <mark key="]" line="1318" column="93" />
-        <mark key="." line="1318" column="93" />
-        <mark key="^" line="1318" column="93" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1518670664024">
+        <mark key="'" line="1019" column="37" />
+        <mark key="[" line="1006" column="23" />
+        <mark key="]" line="1007" column="31" />
+        <mark key="." line="1007" column="31" />
+        <mark key="^" line="1007" column="31" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -617,9 +617,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="971" column="59" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="972" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1050" column="28" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1137" column="64" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="64" column="0" filename="$USER_HOME$/data_processing/constants.py" />
       <jump line="338" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
@@ -717,6 +714,9 @@
       <jump line="479" column="49" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1331" column="15" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="837" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1332" column="15" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1019" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="848" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
