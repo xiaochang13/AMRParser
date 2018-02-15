@@ -120,12 +120,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1518662667284">
-        <mark key="'" line="883" column="39" />
-        <mark key="[" line="1202" column="42" />
-        <mark key="]" line="1203" column="30" />
-        <mark key="^" line="1203" column="30" />
-        <mark key="." line="1203" column="30" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1518664741692">
+        <mark key="'" line="883" column="44" />
+        <mark key="[" line="1203" column="0" />
+        <mark key="]" line="1203" column="0" />
+        <mark key="^" line="1202" column="79" />
+        <mark key="." line="1203" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -566,17 +566,14 @@
         <mark key="^" line="54" column="12" />
         <mark key="." line="54" column="12" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" timestamp="1518662288588">
-        <mark key="[" line="48" column="4" />
-        <mark key="]" line="48" column="4" />
-        <mark key="^" line="47" column="0" />
-        <mark key="." line="48" column="4" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" timestamp="1518664655972">
+        <mark key="[" line="313" column="19" />
+        <mark key="]" line="314" column="29" />
+        <mark key="^" line="314" column="29" />
+        <mark key="." line="314" column="29" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="899" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="217" column="4" filename="$USER_HOME$/data_processing/ml_utils.py" />
-      <jump line="193" column="0" filename="$USER_HOME$/data_processing/ml_utils.py" />
       <jump line="339" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1230" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1081" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -672,62 +669,65 @@
       <jump line="34" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="623" column="56" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="47" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
-      <jump line="883" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="63" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/entities.py" />
+      <jump line="1202" column="54" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1208" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="314" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
+      <jump line="883" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;_&quot;.join(tok_seq[tok_idx:end_idx])</text>
+        <text encoding="base64">Y2F0ZWdvcnkg</text>
       </register>
       <register name="/" type="4">
-        <text>options</text>
+        <text>special</text>
       </register>
       <register name="0" type="4">
-        <text>.join(tok_seq[tok_idx:end_idx])</text>
+        <text>if concept in set([&quot;NUMBER&quot;, &quot;DATE&quot;, &quot;NE&quot;]):
+        return True</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">ZGVmIGluX2JyYWNrZXQoc3RhcnQsIGVuZCwgdG9rX3NlcSk6CiAgICAgICAgbGVuZ3RoID0gbGVuKHRva19zZXEpCiAgICAgICAgaGFzX2xlZnQgPSBGYWxzZQogICAgICAgIGZvciBpZHggaW4gcmFuZ2Uoc3RhcnQtMywgc3RhcnQpOgogICAgICAgICAgICBpZiBpZHggPj0gMCBhbmQgdG9rX3NlcVtpZHhdID09ICIoIjoKICAgICAgICAgICAgICAgIGhhc19sZWZ0ID0gVHJ1ZQogICAgICAgIGlmIG5vdCBoYXNfbGVmdDoKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgZm9yIGlkeCBpbiByYW5nZShlbmQsIGVuZCszKToKICAgICAgICAgICAgaWYgaWR4IDwgbGVuZ3RoIGFuZCB0b2tfc2VxW2lkeF0gPT0gIikiOgogICAgICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICByZXR1cm4gRmFsc2U=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgY2F0ZWdvcnkgPT0gIk5FIiBvciBjYXRlZ29yeVs6M10gPT0gIk5FXyIgb3IgY2F0ZWdvcnkgPT0gIkRBVEUiOgo=</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgY2F0ZWdvcnkgPT0gIk5FIiBvciBjYXRlZ29yeVs6M10gPT0gIk5FXyIgb3IgY2F0ZWdvcnkgPT0gIkRBVEUiOgo=</text>
+      </register>
+      <register name="5" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      </register>
+      <register name="6" type="4">
+        <text encoding="base64">ZGVmIGluX2JyYWNrZXQoc3RhcnQsIGVuZCwgdG9rX3NlcSk6CiAgICAgICAgbGVuZ3RoID0gbGVuKHRva19zZXEpCiAgICAgICAgaGFzX2xlZnQgPSBGYWxzZQogICAgICAgIGZvciBpZHggaW4gcmFuZ2Uoc3RhcnQtMywgc3RhcnQpOgogICAgICAgICAgICBpZiBpZHggPj0gMCBhbmQgdG9rX3NlcVtpZHhdID09ICIoIjoKICAgICAgICAgICAgICAgIGhhc19sZWZ0ID0gVHJ1ZQogICAgICAgIGlmIG5vdCBoYXNfbGVmdDoKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgZm9yIGlkeCBpbiByYW5nZShlbmQsIGVuZCszKToKICAgICAgICAgICAgaWYgaWR4IDwgbGVuZ3RoIGFuZCB0b2tfc2VxW2lkeF0gPT0gIikiOgogICAgICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICByZXR1cm4gRmFsc2U=</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="8" type="4">
         <text># print (str(category_map))
     # print (str(concept_line_reprs))</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG91dGZpbGUud3JpdGUoIiMgSHlwLXt9OjogIi5mb3JtYXQoaikgKyBjdXJfcmVzdWx0ICsgIlxuIikK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpbnB1dF9zZW50LmlkeCA9IHNlbnRfaWR4Cg==</text>
-      </register>
-      <register name="7" type="4">
-        <text>#print amr_line
-        #fflush(stdout)</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG91dGZpbGUud3JpdGUoIiMgSHlwLXt9OjogIi5mb3JtYXQoaikgKyBjdXJfcmVzdWx0ICsgIlxuIikK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>options</last-search>
+      <last-search>special</last-search>
       <last-offset />
-      <last-pattern>options</last-pattern>
+      <last-pattern>special</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -759,6 +759,7 @@
         <entry>DataStrem</entry>
         <entry>Data_Stream</entry>
         <entry>options</entry>
+        <entry>special</entry>
       </history-search>
       <history-cmd>
         <entry>710</entry>
