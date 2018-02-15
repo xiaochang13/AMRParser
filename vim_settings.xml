@@ -120,12 +120,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1518664741692">
-        <mark key="'" line="883" column="44" />
-        <mark key="[" line="1203" column="0" />
-        <mark key="]" line="1203" column="0" />
-        <mark key="^" line="1202" column="79" />
-        <mark key="." line="1203" column="0" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1518665694841">
+        <mark key="'" line="436" column="17" />
+        <mark key="[" line="845" column="0" />
+        <mark key="]" line="845" column="0" />
+        <mark key="^" line="1198" column="79" />
+        <mark key="." line="845" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -141,8 +141,8 @@
         <mark key="^" line="345" column="0" />
         <mark key="." line="345" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" timestamp="1518589213796">
-        <mark key="'" line="417" column="17" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" timestamp="1518665846617">
+        <mark key="'" line="417" column="23" />
         <mark key="[" line="239" column="0" />
         <mark key="]" line="241" column="106" />
         <mark key="^" line="239" column="0" />
@@ -379,8 +379,8 @@
         <mark key="." line="122" column="20" />
         <mark key="^" line="122" column="20" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1518589208536">
-        <mark key="'" line="42" column="20" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1518665844403">
+        <mark key="'" line="42" column="23" />
         <mark key="[" line="94" column="44" />
         <mark key="]" line="95" column="58" />
         <mark key="^" line="95" column="58" />
@@ -574,10 +574,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="339" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1230" column="16" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1081" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1234" column="11" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="767" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1204" column="10" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="591" column="94" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -635,8 +631,6 @@
       <jump line="406" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
       <jump line="219" column="52" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="238" column="105" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="42" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="417" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
       <jump line="175" column="22" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="365" column="5" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1163" column="55" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -674,6 +668,12 @@
       <jump line="1208" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="314" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
       <jump line="883" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="857" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="845" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="846" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="436" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="42" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="417" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -683,7 +683,7 @@
         <text encoding="base64">Y2F0ZWdvcnkg</text>
       </register>
       <register name="/" type="4">
-        <text>special</text>
+        <text>replaceSymbol</text>
       </register>
       <register name="0" type="4">
         <text>if concept in set([&quot;NUMBER&quot;, &quot;DATE&quot;, &quot;NE&quot;]):
@@ -696,38 +696,39 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgY2F0ZWdvcnkgPT0gIk5FIiBvciBjYXRlZ29yeVs6M10gPT0gIk5FXyIgb3IgY2F0ZWdvcnkgPT0gIkRBVEUiOgo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgY2F0ZWdvcnkgPT0gIk5FIiBvciBjYXRlZ29yeVs6M10gPT0gIk5FXyIgb3IgY2F0ZWdvcnkgPT0gIkRBVEUiOgo=</text>
-      </register>
-      <register name="5" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
-      </register>
-      <register name="6" type="4">
-        <text encoding="base64">ZGVmIGluX2JyYWNrZXQoc3RhcnQsIGVuZCwgdG9rX3NlcSk6CiAgICAgICAgbGVuZ3RoID0gbGVuKHRva19zZXEpCiAgICAgICAgaGFzX2xlZnQgPSBGYWxzZQogICAgICAgIGZvciBpZHggaW4gcmFuZ2Uoc3RhcnQtMywgc3RhcnQpOgogICAgICAgICAgICBpZiBpZHggPj0gMCBhbmQgdG9rX3NlcVtpZHhdID09ICIoIjoKICAgICAgICAgICAgICAgIGhhc19sZWZ0ID0gVHJ1ZQogICAgICAgIGlmIG5vdCBoYXNfbGVmdDoKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgZm9yIGlkeCBpbiByYW5nZShlbmQsIGVuZCszKToKICAgICAgICAgICAgaWYgaWR4IDwgbGVuZ3RoIGFuZCB0b2tfc2VxW2lkeF0gPT0gIikiOgogICAgICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICByZXR1cm4gRmFsc2U=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="8" type="4">
-        <text># print (str(category_map))
-    # print (str(concept_line_reprs))</text>
+      <register name="3" type="4">
+        <text>def isCategory(cate):
+        categories = set([&quot;NUMBER&quot;, &quot;DATE&quot;])
+        return cate in categories or &quot;VB&quot; in cate or &quot;NE_&quot; in cate</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG91dGZpbGUud3JpdGUoIiMgSHlwLXt9OjogIi5mb3JtYXQoaikgKyBjdXJfcmVzdWx0ICsgIlxuIikK</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgY2F0ZWdvcnkgPT0gIk5FIiBvciBjYXRlZ29yeVs6M10gPT0gIk5FXyIgb3IgY2F0ZWdvcnkgPT0gIkRBVEUiOgo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgY2F0ZWdvcnkgPT0gIk5FIiBvciBjYXRlZ29yeVs6M10gPT0gIk5FXyIgb3IgY2F0ZWdvcnkgPT0gIkRBVEUiOgo=</text>
+      </register>
+      <register name="8" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      </register>
+      <register name="9" type="4">
+        <text encoding="base64">ZGVmIGluX2JyYWNrZXQoc3RhcnQsIGVuZCwgdG9rX3NlcSk6CiAgICAgICAgbGVuZ3RoID0gbGVuKHRva19zZXEpCiAgICAgICAgaGFzX2xlZnQgPSBGYWxzZQogICAgICAgIGZvciBpZHggaW4gcmFuZ2Uoc3RhcnQtMywgc3RhcnQpOgogICAgICAgICAgICBpZiBpZHggPj0gMCBhbmQgdG9rX3NlcVtpZHhdID09ICIoIjoKICAgICAgICAgICAgICAgIGhhc19sZWZ0ID0gVHJ1ZQogICAgICAgIGlmIG5vdCBoYXNfbGVmdDoKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgZm9yIGlkeCBpbiByYW5nZShlbmQsIGVuZCszKToKICAgICAgICAgICAgaWYgaWR4IDwgbGVuZ3RoIGFuZCB0b2tfc2VxW2lkeF0gPT0gIikiOgogICAgICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICByZXR1cm4gRmFsc2U=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>special</last-search>
+      <last-search>replaceSymbol</last-search>
       <last-offset />
-      <last-pattern>special</last-pattern>
+      <last-pattern>replaceSymbol</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -760,6 +761,8 @@
         <entry>Data_Stream</entry>
         <entry>options</entry>
         <entry>special</entry>
+        <entry>isCategory</entry>
+        <entry>replaceSymbol</entry>
       </history-search>
       <history-cmd>
         <entry>710</entry>
