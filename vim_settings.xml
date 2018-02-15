@@ -140,7 +140,7 @@
         <mark key="'" line="65" column="29" />
         <mark key="[" line="38" column="8" />
         <mark key="]" line="38" column="8" />
-        <mark key="^" line="87" column="5" />
+        <mark key="^" line="86" column="5" />
         <mark key="." line="38" column="8" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_trainer.py" timestamp="1517267456754">
@@ -201,8 +201,11 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518624277960">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518660407046">
         <mark key="'" line="6" column="34" />
+        <mark key="[" line="75" column="0" />
+        <mark key="]" line="75" column="0" />
+        <mark key="." line="75" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515615653217">
         <mark key="'" line="79" column="61" />
@@ -358,6 +361,12 @@
         <mark key="]" line="26" column="18" />
         <mark key="^" line="26" column="18" />
         <mark key="." line="26" column="18" />
+      </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_graph.py" timestamp="1518313516611">
+        <mark key="'" line="464" column="27" />
+        <mark key="[" line="162" column="122" />
+        <mark key="]" line="162" column="122" />
+        <mark key="." line="162" column="122" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1510089736605">
         <mark key="'" line="245" column="13" />
@@ -705,8 +714,8 @@
       <jump line="34" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">Ojog</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">Ojog</text>
@@ -718,23 +727,24 @@
         <text>.encode('utf-8')</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG91dGZpbGUud3JpdGUoIiMgSHlwLXt9OjogIi5mb3JtYXQoaikgKyBjdXJfcmVzdWx0ICsgIlxuIikK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpbnB1dF9zZW50LmlkeCA9IHNlbnRfaWR4Cg==</text>
+      <register name="2" type="4">
+        <text># print (str(category_map))
+    # print (str(concept_line_reprs))</text>
       </register>
-      <register name="3" type="4">
-        <text>#print amr_line
-        #fflush(stdout)</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG91dGZpbGUud3JpdGUoIiMgSHlwLXt9OjogIi5mb3JtYXQoaikgKyBjdXJfcmVzdWx0ICsgIlxuIikK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpbnB1dF9zZW50LmlkeCA9IHNlbnRfaWR4Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="4">
+        <text>#print amr_line
+        #fflush(stdout)</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
@@ -743,10 +753,10 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlOgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxzZToK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
