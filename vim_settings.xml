@@ -132,12 +132,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1518670664024">
-        <mark key="'" line="1019" column="37" />
-        <mark key="[" line="1006" column="23" />
-        <mark key="]" line="1007" column="31" />
-        <mark key="." line="1007" column="31" />
-        <mark key="^" line="1007" column="31" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1518672387599">
+        <mark key="'" line="938" column="12" />
+        <mark key="[" line="895" column="12" />
+        <mark key="]" line="895" column="12" />
+        <mark key="^" line="885" column="0" />
+        <mark key="." line="895" column="12" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -617,17 +617,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1137" column="64" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="64" column="0" filename="$USER_HOME$/data_processing/constants.py" />
-      <jump line="338" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="1171" column="52" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="494" column="33" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="346" column="4" filename="$USER_HOME$/data_processing/alignment_utils.py" />
-      <jump line="546" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="739" column="8" filename="$USER_HOME$/data_processing/amr_graph.py" />
-      <jump line="1174" column="32" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1267" column="60" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="32" column="25" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1273" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1263" column="25" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1099" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -717,60 +706,75 @@
       <jump line="1332" column="15" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1019" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="848" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1031" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="949" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="956" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="963" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="973" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="975" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="992" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1038" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1040" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1052" column="53" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="940" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>use a built-up statistics</text>
+        <text># if sent_idx != 68:
+            #     continue</text>
       </register>
       <register name="-" type="4">
-        <text>use a built-up statistics</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>tok_to_concept</text>
+        <text>aligned_repr</text>
       </register>
       <register name="0" type="4">
-        <text>argparser.add_argument(&quot;--use_stats&quot;, action=&quot;store_true&quot;, help=&quot;if use a built-up statistics&quot;)</text>
+        <text>print &quot;Removed duplicate entity&quot;, entity_name</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzeXMuZXhpdCgxKQo=</text>
+      <register name="1" type="4">
+        <text># if sent_idx != 68:
+            #     continue</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3Bhbl90b190eXBlID0ge30K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="4">
-        <text>def isCategory(cate):
-        categories = set([&quot;NUMBER&quot;, &quot;DATE&quot;])
-        return cate in categories or &quot;VB&quot; in cate or &quot;NE_&quot; in cate</text>
+        <text># if entity_typ in aligned_repr:
+                        #     continue
+                        # aligned_repr.add(entity_typ)</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgYWxpZ25lZF9yZXByID0gc2V0KCkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgY2F0ZWdvcnkgPT0gIk5FIiBvciBjYXRlZ29yeVs6M10gPT0gIk5FXyIgb3IgY2F0ZWdvcnkgPT0gIkRBVEUiOgo=</text>
+        <text encoding="base64">ICAgICAgICBzeXMuZXhpdCgxKQo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgY2F0ZWdvcnkgPT0gIk5FIiBvciBjYXRlZ29yeVs6M10gPT0gIk5FXyIgb3IgY2F0ZWdvcnkgPT0gIkRBVEUiOgo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="9" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
+      <register name="9" type="4">
+        <text>def isCategory(cate):
+        categories = set([&quot;NUMBER&quot;, &quot;DATE&quot;])
+        return cate in categories or &quot;VB&quot; in cate or &quot;NE_&quot; in cate</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>tok_to_concept</last-search>
+      <last-search>aligned_repr</last-search>
       <last-offset />
-      <last-pattern>tok_to_concept</last-pattern>
+      <last-pattern>aligned_repr</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -808,6 +812,8 @@
         <entry>table_dir</entry>
         <entry>all_alignments</entry>
         <entry>tok_to_concept</entry>
+        <entry>entity_typ</entry>
+        <entry>aligned_repr</entry>
       </history-search>
       <history-cmd>
         <entry>710</entry>
