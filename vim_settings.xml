@@ -132,12 +132,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1518723096416">
-        <mark key="'" line="942" column="12" />
-        <mark key="[" line="958" column="20" />
-        <mark key="]" line="958" column="20" />
-        <mark key="^" line="886" column="12" />
-        <mark key="." line="958" column="20" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1518730619759">
+        <mark key="'" line="996" column="0" />
+        <mark key="[" line="1058" column="32" />
+        <mark key="]" line="1058" column="59" />
+        <mark key="." line="1058" column="32" />
+        <mark key="^" line="992" column="54" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -617,10 +617,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1273" column="0" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1263" column="25" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1099" column="8" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1188" column="60" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1181" column="81" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="12" column="62" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1182" column="78" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -717,63 +713,67 @@
       <jump line="1040" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1052" column="53" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="940" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="970" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="976" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="982" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="996" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text># if entity_typ in aligned_repr:
-                    #     continue</text>
+        <text>continue</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>continue</text>
       </register>
       <register name="/" type="4">
-        <text>aligned_repr</text>
+        <text>continue</text>
       </register>
       <register name="0" type="4">
-        <text>print &quot;Removed duplicate entity&quot;, entity_name</text>
+        <text>entity_typ = (&quot;REENT&quot;, &quot;-&quot;)</text>
       </register>
-      <register name="1" type="4">
-        <text># if entity_typ in aligned_repr:
-                    #     continue</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIGNvbnRpbnVlCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text># if sent_idx != 68:
-            #     continue</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBjb250aW51ZQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3Bhbl90b190eXBlID0ge30K</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGFzdF9lbnRfdG9rID0gTm9uZQo=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+      <register name="4" type="4">
+        <text>abbrev = False
+                ret_ent = False</text>
       </register>
       <register name="5" type="4">
         <text># if entity_typ in aligned_repr:
-                        #     continue
-                        # aligned_repr.add(entity_typ)</text>
+                    #     continue</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYWxpZ25lZF9yZXByID0gc2V0KCkK</text>
+      <register name="6" type="4">
+        <text># if sent_idx != 68:
+            #     continue</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzeXMuZXhpdCgxKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3Bhbl90b190eXBlID0ge30K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="9" type="4">
+        <text># if entity_typ in aligned_repr:
+                        #     continue
+                        # aligned_repr.add(entity_typ)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>aligned_repr</last-search>
+      <last-search>continue</last-search>
       <last-offset />
-      <last-pattern>aligned_repr</last-pattern>
+      <last-pattern>continue</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -813,6 +813,7 @@
         <entry>tok_to_concept</entry>
         <entry>entity_typ</entry>
         <entry>aligned_repr</entry>
+        <entry>continue</entry>
       </history-search>
       <history-cmd>
         <entry>710</entry>
