@@ -251,8 +251,8 @@
         <mark key="^" line="233" column="23" />
         <mark key="." line="224" column="35" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1519039739522">
-        <mark key="'" line="93" column="41" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1519040731740">
+        <mark key="'" line="161" column="24" />
         <mark key="[" line="265" column="8" />
         <mark key="]" line="265" column="23" />
         <mark key="^" line="270" column="18" />
@@ -617,9 +617,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1168" column="20" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1091" column="35" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="844" column="4" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1250" column="14" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1186" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="406" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
@@ -717,6 +714,9 @@
       <jump line="128" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="93" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="134" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/oracle/AMRGraph.py" />
+      <jump line="226" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="161" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="127" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
