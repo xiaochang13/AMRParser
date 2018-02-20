@@ -398,12 +398,12 @@
         <mark key="." line="122" column="20" />
         <mark key="^" line="122" column="20" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1519039073498">
-        <mark key="'" line="148" column="57" />
-        <mark key="[" line="94" column="44" />
-        <mark key="]" line="95" column="58" />
-        <mark key="^" line="95" column="58" />
-        <mark key="." line="95" column="58" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1519151291554">
+        <mark key="'" line="145" column="57" />
+        <mark key="[" line="51" column="0" />
+        <mark key="]" line="51" column="0" />
+        <mark key="^" line="92" column="58" />
+        <mark key="." line="51" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1518330934033">
         <mark key="'" line="1930" column="39" />
@@ -720,7 +720,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50ICJGaWx0ZXJlZCBkYXRlczoiLCBkYXRlX3JlcHIsIG1sZV9tYXBbZGF0ZV9yZXByXQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>new_</text>
@@ -732,22 +732,32 @@
         <text>entity_typ = (&quot;REENT&quot;, &quot;-&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50ICJGaWx0ZXJlZCBkYXRlczoiLCBkYXRlX3JlcHIsIG1sZV9tYXBbZGF0ZV9yZXByXQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="3" type="4">
+        <text># data_set.saveConceptID(output_dir)
+        # data_set.saveMLEConceptID(output_dir)</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50ICJGaWx0ZXJlZCBkYXRlczoiLCBkYXRlX3JlcHIsIG1sZV9tYXBbZGF0ZV9yZXByXQo=</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text># if sent_idx != 1266:
             #     continue</text>
       </register>
-      <register name="5" type="4">
+      <register name="8" type="4">
         <text>if in_bracket(start, end, tok_seq) and (start - 2) in entity_tok_set:
                     try:
                         assert start - 2 in lasttok_to_repr
@@ -760,17 +770,8 @@
                     entity_typ = (&quot;ABBREV&quot;, &quot;-&quot;)
                     abbrev = True</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIGNvbnRpbnVlCg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBjb250aW51ZQo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGFzdF9lbnRfdG9rID0gTm9uZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
