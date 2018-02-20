@@ -181,12 +181,12 @@
         <mark key="." line="81" column="43" />
         <mark key="^" line="81" column="43" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1518487234892">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1519153100492">
         <mark key="'" line="146" column="32" />
-        <mark key="[" line="147" column="92" />
-        <mark key="]" line="147" column="98" />
-        <mark key="." line="147" column="98" />
-        <mark key="^" line="147" column="98" />
+        <mark key="[" line="197" column="32" />
+        <mark key="]" line="197" column="32" />
+        <mark key="." line="197" column="32" />
+        <mark key="^" line="197" column="32" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/treewidth.py" timestamp="1480247731932">
         <mark key="'" line="0" column="0" />
@@ -398,12 +398,12 @@
         <mark key="." line="122" column="20" />
         <mark key="^" line="122" column="20" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1519151291554">
-        <mark key="'" line="145" column="57" />
-        <mark key="[" line="51" column="0" />
-        <mark key="]" line="51" column="0" />
-        <mark key="^" line="92" column="58" />
-        <mark key="." line="51" column="0" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1519152606261">
+        <mark key="'" line="166" column="45" />
+        <mark key="[" line="140" column="58" />
+        <mark key="]" line="140" column="67" />
+        <mark key="^" line="140" column="67" />
+        <mark key="." line="140" column="67" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" timestamp="1518330934033">
         <mark key="'" line="1930" column="39" />
@@ -617,7 +617,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1250" column="14" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="1186" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="406" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
       <jump line="219" column="52" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
@@ -717,13 +716,14 @@
       <jump line="226" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="161" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="127" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="166" column="45" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>self.cache_size - 2</text>
       </register>
       <register name="-" type="4">
-        <text>new_</text>
+        <text>self.cache_size - 2</text>
       </register>
       <register name="/" type="4">
         <text>continue</text>
@@ -732,46 +732,36 @@
         <text>entity_typ = (&quot;REENT&quot;, &quot;-&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgaWYgY2FjaGVfaWR4ID09IHNlbGYuY2FjaGVfc2l6ZSAtIDI6Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZm9yIGNhY2hlX2lkeCBpbiByYW5nZShudW1fY29ubmVjdCk6Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text># data_set.saveConceptID(output_dir)
         # data_set.saveMLEConceptID(output_dir)</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50ICJGaWx0ZXJlZCBkYXRlczoiLCBkYXRlX3JlcHIsIG1sZV9tYXBbZGF0ZV9yZXByXQo=</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="9" type="4">
         <text># if sent_idx != 1266:
             #     continue</text>
-      </register>
-      <register name="8" type="4">
-        <text>if in_bracket(start, end, tok_seq) and (start - 2) in entity_tok_set:
-                    try:
-                        assert start - 2 in lasttok_to_repr
-                    except:
-                        print &quot;sentence index&quot;, sent_idx
-                        print entities_in_sent
-                        print lasttok_to_repr
-                        sys.exit(1)
-                    print &quot;Pruned abbreviation: %s&quot; % (&quot; &quot;.join(tok_seq[start:end]))
-                    entity_typ = (&quot;ABBREV&quot;, &quot;-&quot;)
-                    abbrev = True</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
