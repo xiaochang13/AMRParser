@@ -251,12 +251,12 @@
         <mark key="^" line="233" column="23" />
         <mark key="." line="224" column="35" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1519166727700">
-        <mark key="'" line="165" column="32" />
-        <mark key="[" line="149" column="76" />
-        <mark key="]" line="149" column="79" />
-        <mark key="." line="149" column="79" />
-        <mark key="^" line="149" column="79" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1519167721545">
+        <mark key="'" line="255" column="39" />
+        <mark key="[" line="258" column="20" />
+        <mark key="]" line="258" column="25" />
+        <mark key="." line="258" column="25" />
+        <mark key="^" line="258" column="25" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/tfamr/src/seq2seq_sa.py" timestamp="1478020932535">
         <mark key="'" line="524" column="23" />
@@ -398,8 +398,8 @@
         <mark key="." line="122" column="20" />
         <mark key="^" line="122" column="20" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1519166451494">
-        <mark key="'" line="208" column="46" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1519167122905">
+        <mark key="'" line="208" column="53" />
         <mark key="[" line="140" column="58" />
         <mark key="]" line="140" column="67" />
         <mark key="^" line="140" column="67" />
@@ -623,9 +623,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="293" column="4" filename="$USER_HOME$/data_processing/utils.py" />
-      <jump line="1214" column="37" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="1233" column="31" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="284" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="458" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="459" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
@@ -722,21 +719,24 @@
       <jump line="111" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="165" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="100" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="208" column="46" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="208" column="53" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="257" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="255" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="149" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>1</text>
+        <text>cache</text>
       </register>
       <register name="-" type="4">
-        <text>1</text>
+        <text>cache</text>
       </register>
       <register name="/" type="4">
         <text>def extend</text>
       </register>
       <register name="0" type="4">
-        <text>new_config.phase = oracle.utils.FeatureType.SHIFTPOP
-                    new_focus += 1</text>
+        <text>cache_feats = self.getCacheFeat(word_idx, concept_idx, cache_idx,
+                                                    uniform_arc=True, arc_label=False)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IGxlbihmZWF0cykgPT0gdXRpbHMuY2FjaGVfZmVhdF9udW0K</text>
