@@ -384,8 +384,8 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1519155691535">
-        <mark key="'" line="465" column="4" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1519159307588">
+        <mark key="'" line="130" column="22" />
         <mark key="[" line="180" column="17" />
         <mark key="]" line="181" column="34" />
         <mark key="." line="181" column="34" />
@@ -617,9 +617,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1186" column="49" filename="$USER_HOME$/data_processing/prepareTokens.py" />
-      <jump line="406" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
-      <jump line="219" column="52" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="238" column="105" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="175" column="22" filename="$USER_HOME$/data_processing/prepareTokens.py" />
       <jump line="365" column="5" filename="$USER_HOME$/data_processing/prepareTokens.py" />
@@ -717,6 +714,9 @@
       <jump line="161" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="127" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="166" column="45" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="173" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="31" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="130" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -726,7 +726,7 @@
         <text>0</text>
       </register>
       <register name="/" type="4">
-        <text>continue</text>
+        <text>def extend</text>
       </register>
       <register name="0" type="4">
         <text>new_config.phase = oracle.utils.FeatureType.SHIFTPOP
@@ -768,9 +768,9 @@
       </register>
     </registers>
     <search>
-      <last-search>continue</last-search>
+      <last-search>def extend</last-search>
       <last-offset />
-      <last-pattern>continue</last-pattern>
+      <last-pattern>def extend</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -811,6 +811,7 @@
         <entry>entity_typ</entry>
         <entry>aligned_repr</entry>
         <entry>continue</entry>
+        <entry>def extend</entry>
       </history-search>
       <history-cmd>
         <entry>710</entry>
