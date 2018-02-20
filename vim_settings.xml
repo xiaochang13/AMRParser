@@ -300,12 +300,12 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1518668149363">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1519161288980">
         <mark key="'" line="241" column="57" />
-        <mark key="[" line="258" column="30" />
-        <mark key="]" line="258" column="31" />
+        <mark key="[" line="517" column="0" />
+        <mark key="]" line="517" column="0" />
         <mark key="^" line="258" column="31" />
-        <mark key="." line="258" column="31" />
+        <mark key="." line="517" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1515006441367">
         <mark key="'" line="106" column="59" />
@@ -719,8 +719,8 @@
       <jump line="130" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>0</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
         <text>0</text>
@@ -733,35 +733,35 @@
                     new_focus += 1</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgbmV4dF9jYWNoZV9pZHggPT0gY2FjaGVfc2l6ZSAtIDE6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgaWYgY2FjaGVfaWR4ID09IHNlbGYuY2FjaGVfc2l6ZSAtIDI6Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">IyBpZiBlbmQgLSBzdGFydCA+IDI6CiAgICAgICAgICAgICAgICAgICAgICAgICMgICAgIGFsaWduZWRfdG9rcyBePSBjdXJyX3NldAogICAgICAgICAgICAgICAgICAgICAgICAjICAgICBhbGlnbmVkX25vZGVzLnJlbW92ZShub2RlX2lkeCkKICAgICAgICAgICAgICAgICAgICAgICAgIyAgICAgY29udGludWU=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZm9yIGNhY2hlX2lkeCBpbiByYW5nZShudW1fY29ubmVjdCk6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgbmV4dF9jYWNoZV9pZHggPT0gY2FjaGVfc2l6ZSAtIDE6Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgaWYgY2FjaGVfaWR4ID09IHNlbGYuY2FjaGVfc2l6ZSAtIDI6Cg==</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZm9yIGNhY2hlX2lkeCBpbiByYW5nZShudW1fY29ubmVjdCk6Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text># data_set.saveConceptID(output_dir)
         # data_set.saveMLEConceptID(output_dir)</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50ICJGaWx0ZXJlZCBkYXRlczoiLCBkYXRlX3JlcHIsIG1sZV9tYXBbZGF0ZV9yZXByXQo=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50ICJGaWx0ZXJlZCBkYXRlczoiLCBkYXRlX3JlcHIsIG1sZV9tYXBbZGF0ZV9yZXByXQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
