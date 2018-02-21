@@ -112,8 +112,8 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1518660407046">
-        <mark key="'" line="6" column="34" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1519180259190">
+        <mark key="'" line="66" column="20" />
         <mark key="[" line="75" column="0" />
         <mark key="]" line="75" column="0" />
         <mark key="." line="75" column="0" />
@@ -132,12 +132,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1519178330259">
-        <mark key="'" line="483" column="33" />
-        <mark key="[" line="638" column="16" />
-        <mark key="]" line="638" column="16" />
-        <mark key="^" line="1101" column="8" />
-        <mark key="." line="638" column="16" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1519182320185">
+        <mark key="'" line="1388" column="11" />
+        <mark key="[" line="1150" column="51" />
+        <mark key="]" line="1152" column="28" />
+        <mark key="." line="1152" column="28" />
+        <mark key="^" line="1152" column="28" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -623,15 +623,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="883" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="857" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="845" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="846" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="42" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="417" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
-      <jump line="370" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="241" column="57" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="164" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="365" column="14" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="207" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="255" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -723,57 +714,62 @@
       <jump line="187" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="205" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="208" column="46" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="6" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="66" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="1145" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1120" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="352" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
+      <jump line="1161" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="829" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1162" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1386" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text># feats = [curr_tok]
-                # if curr_tok == &quot;DATE&quot; or curr_tok == &quot;NUMBER&quot;:
-                #     curr_lem_str = curr_tok_str = curr_tok
-                # else:
-                #     continue</text>
+        <text encoding="base64">IG9yIGNoZWNrX2FuZF9zZW50ZW5jZXMoIiAiLmpvaW4odG9rX3NlcSksICIgLCAiKQ==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICU=</text>
+        <text encoding="base64">IG9yIGNoZWNrX2FuZF9zZW50ZW5jZXMoIiAiLmpvaW4odG9rX3NlcSksICIgLCAiKQ==</text>
       </register>
       <register name="/" type="4">
-        <text>extractFea</text>
+        <text>feat_dim</text>
       </register>
       <register name="0" type="4">
         <text>argparser.add_argument(&quot;--decode&quot;, action=&quot;store_true&quot;, help=&quot;if to extract decoding examples.&quot;)</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgY2hlY2tfYW5kX3NlbnRlbmNlcygiICIuam9pbih0b2tfc2VxKSkgb3IgY2hlY2tfYW5kX3NlbnRlbmNlcygiICIuam9pbih0b2tfc2VxKSwgIiAsICIpOgo=</text>
+      </register>
+      <register name="q" type="4">
+        <text />
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBjaGVjayA9IFRydWUK</text>
+      </register>
+      <register name="3" type="4">
         <text># feats = [curr_tok]
                 # if curr_tok == &quot;DATE&quot; or curr_tok == &quot;NUMBER&quot;:
                 #     curr_lem_str = curr_tok_str = curr_tok
                 # else:
                 #     continue</text>
       </register>
-      <register name="q" type="4">
-        <text />
-      </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text># print subgraph_repr
                 # sys.exit(1)</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text># print subgraph_repr
                 # sys.exit(1)</text>
       </register>
-      <register name="4" type="8">
+      <register name="6" type="8">
         <text encoding="base64">IyAKIyA=</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IGxlbihmZWF0cykgPT0gdXRpbHMuY2FjaGVfZmVhdF9udW0K</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text>dep_arcs = self.tree.getAllChildren(word_idx)
             cache_dep_arcs = self.tree.getAllChildren(cache_word_idx)</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAjIElmIHRoZSBhcmMgbGFiZWwsIHRoZW4gZXh0cmFjdCBhbGwgdGhlIGRlcGVuZGVuY3kgbGFiZWwgZmVhdHVyZXMuCg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -783,9 +779,9 @@
       </register>
     </registers>
     <search>
-      <last-search>extractFea</last-search>
+      <last-search>feat_dim</last-search>
       <last-offset />
-      <last-pattern>extractFea</last-pattern>
+      <last-pattern>feat_dim</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -830,6 +826,8 @@
         <entry>Inconsistent</entry>
         <entry>compare</entry>
         <entry>extractFea</entry>
+        <entry>defaultdict</entry>
+        <entry>feat_dim</entry>
       </history-search>
       <history-cmd>
         <entry>710</entry>
@@ -840,7 +838,6 @@
         <entry>628</entry>
         <entry>94</entry>
         <entry>62</entry>
-        <entry>1</entry>
         <entry>445</entry>
         <entry>644</entry>
         <entry>360</entry>
@@ -854,6 +851,8 @@
         <entry>239</entry>
         <entry>109</entry>
         <entry>195</entry>
+        <entry>126</entry>
+        <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
