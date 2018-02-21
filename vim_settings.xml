@@ -133,12 +133,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1519253999714">
-        <mark key="'" line="1404" column="17" />
-        <mark key="[" line="1153" column="12" />
-        <mark key="]" line="1143" column="0" />
-        <mark key="." line="1143" column="0" />
-        <mark key="^" line="1143" column="0" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1519256443121">
+        <mark key="'" line="869" column="19" />
+        <mark key="[" line="1339" column="57" />
+        <mark key="]" line="1339" column="90" />
+        <mark key="^" line="1339" column="90" />
+        <mark key="." line="1339" column="90" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -610,15 +610,14 @@
         <mark key="^" line="54" column="12" />
         <mark key="." line="54" column="12" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" timestamp="1518664655972">
-        <mark key="[" line="313" column="19" />
-        <mark key="]" line="314" column="29" />
-        <mark key="^" line="314" column="29" />
-        <mark key="." line="314" column="29" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" timestamp="1519256254339">
+        <mark key="[" line="174" column="0" />
+        <mark key="]" line="174" column="1" />
+        <mark key="^" line="174" column="1" />
+        <mark key="." line="174" column="1" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="1040" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1052" column="53" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="940" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="970" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -718,22 +717,23 @@
       <jump line="219" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="313" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="1404" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="869" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>root</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>root</text>
       </register>
       <register name="/" type="4">
-        <text>extract</text>
+        <text>conceptID</text>
       </register>
       <register name="0" type="4">
         <text>map_info_seq.append(&quot;AND||AND&quot;)</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -742,34 +742,35 @@
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgYW5kX3N0cnVjdHVyZToK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGFzc2VydCBsZW4oIiIuam9pbigpKQo=</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="4">
+        <text># else:
+            #     continue</text>
+      </register>
+      <register name="5" type="8">
+        <text encoding="base64">IyAKIyA=</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBpZiBjaGVja19hbmRfc2VudGVuY2VzKCIgIi5qb2luKHRva19zZXEpLCAiICwgIik6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYW5kX3N0cnVjdHVyZSA9IGNoZWNrX2FuZF9zZW50ZW5jZXMoIiAiLmpvaW4odG9rX3NlcSkpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgYW5kX3N0cnVjdHVyZToK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGFuZF9zdHJ1Y3R1cmUgPSBUcnVlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGFzc2VydCBsZW4oIiIuam9pbigpKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBhbmRfc3RydWN0dXJlID0gRmFsc2UK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>extract</last-search>
+      <last-search>conceptID</last-search>
       <last-offset />
-      <last-pattern>extract</last-pattern>
+      <last-pattern>conceptID</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -825,6 +826,8 @@
         <entry>extractFea</entry>
         <entry>uniform_arc</entry>
         <entry>extract</entry>
+        <entry>soup</entry>
+        <entry>conceptID</entry>
       </history-search>
       <history-cmd>
         <entry>710</entry>
