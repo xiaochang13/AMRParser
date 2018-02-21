@@ -112,12 +112,12 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1519227401330">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1519229431486">
         <mark key="'" line="241" column="22" />
-        <mark key="[" line="238" column="12" />
-        <mark key="]" line="238" column="15" />
-        <mark key="." line="238" column="15" />
-        <mark key="^" line="238" column="15" />
+        <mark key="[" line="207" column="8" />
+        <mark key="]" line="207" column="11" />
+        <mark key="." line="207" column="11" />
+        <mark key="^" line="207" column="11" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/oracle.py" timestamp="1515615653217">
         <mark key="'" line="79" column="61" />
@@ -385,8 +385,8 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1519191715685">
-        <mark key="'" line="421" column="16" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1519229294618">
+        <mark key="'" line="478" column="42" />
         <mark key="[" line="180" column="17" />
         <mark key="]" line="181" column="34" />
         <mark key="." line="181" column="34" />
@@ -618,10 +618,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1331" column="15" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="837" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1332" column="15" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1019" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="848" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1031" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="949" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -718,6 +714,10 @@
       <jump line="73" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="241" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="19" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="470" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="17" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
+      <jump line="466" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="478" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -727,7 +727,7 @@
         <text>root</text>
       </register>
       <register name="/" type="4">
-        <text>label_to_children</text>
+        <text>beam_decode</text>
       </register>
       <register name="0" type="4">
         <text>map_info_seq.append(&quot;AND||AND&quot;)</text>
@@ -767,9 +767,9 @@
       </register>
     </registers>
     <search>
-      <last-search>label_to_children</last-search>
+      <last-search>beam_decode</last-search>
       <last-offset />
-      <last-pattern>label_to_children</last-pattern>
+      <last-pattern>beam_decode</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -821,6 +821,7 @@
         <entry>label_to_chi</entry>
         <entry>amr.roots</entry>
         <entry>label_to_children</entry>
+        <entry>beam_decode</entry>
       </history-search>
       <history-cmd>
         <entry>710</entry>
