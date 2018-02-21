@@ -132,12 +132,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1519182320185">
-        <mark key="'" line="1388" column="11" />
-        <mark key="[" line="1150" column="51" />
-        <mark key="]" line="1152" column="28" />
-        <mark key="." line="1152" column="28" />
-        <mark key="^" line="1152" column="28" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1519185611507">
+        <mark key="'" line="1161" column="45" />
+        <mark key="[" line="1205" column="42" />
+        <mark key="]" line="1205" column="75" />
+        <mark key="." line="1205" column="75" />
+        <mark key="^" line="1205" column="75" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -623,7 +623,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="365" column="14" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="207" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="255" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="252" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -721,58 +720,57 @@
       <jump line="352" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
       <jump line="1161" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="829" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1162" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1386" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1162" column="45" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="833" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IG9yIGNoZWNrX2FuZF9zZW50ZW5jZXMoIiAiLmpvaW4odG9rX3NlcSksICIgLCAiKQ==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IG9yIGNoZWNrX2FuZF9zZW50ZW5jZXMoIiAiLmpvaW4odG9rX3NlcSksICIgLCAiKQ==</text>
+        <text>visi</text>
       </register>
       <register name="/" type="4">
         <text>feat_dim</text>
       </register>
       <register name="0" type="4">
-        <text>argparser.add_argument(&quot;--decode&quot;, action=&quot;store_true&quot;, help=&quot;if to extract decoding examples.&quot;)</text>
+        <text>visited |= set(range(tok_idx, end_idx))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgY2hlY2tfYW5kX3NlbnRlbmNlcygiICIuam9pbih0b2tfc2VxKSkgb3IgY2hlY2tfYW5kX3NlbnRlbmNlcygiICIuam9pbih0b2tfc2VxKSwgIiAsICIpOgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgIyBpZiBjaGVja19hbmRfc2VudGVuY2VzKCIgIi5qb2luKHRva19zZXEpLCAiICwgIik6Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgYW5kX3N0cnVjdHVyZSA9IGNoZWNrX2FuZF9zZW50ZW5jZXMoIiAiLmpvaW4odG9rX3NlcSkpCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGFuZF9zdHJ1Y3R1cmUgPSBUcnVlCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBhbmRfc3RydWN0dXJlID0gRmFsc2UK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgY2hlY2tfYW5kX3NlbnRlbmNlcygiICIuam9pbih0b2tfc2VxKSkgb3IgY2hlY2tfYW5kX3NlbnRlbmNlcygiICIuam9pbih0b2tfc2VxKSwgIiAsICIpOgo=</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICBjaGVjayA9IFRydWUK</text>
       </register>
-      <register name="3" type="4">
+      <register name="8" type="4">
         <text># feats = [curr_tok]
                 # if curr_tok == &quot;DATE&quot; or curr_tok == &quot;NUMBER&quot;:
                 #     curr_lem_str = curr_tok_str = curr_tok
                 # else:
                 #     continue</text>
       </register>
-      <register name="4" type="4">
+      <register name="9" type="4">
         <text># print subgraph_repr
                 # sys.exit(1)</text>
-      </register>
-      <register name="5" type="4">
-        <text># print subgraph_repr
-                # sys.exit(1)</text>
-      </register>
-      <register name="6" type="8">
-        <text encoding="base64">IyAKIyA=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IGxlbihmZWF0cykgPT0gdXRpbHMuY2FjaGVfZmVhdF9udW0K</text>
-      </register>
-      <register name="8" type="4">
-        <text>dep_arcs = self.tree.getAllChildren(word_idx)
-            cache_dep_arcs = self.tree.getAllChildren(cache_word_idx)</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
