@@ -133,8 +133,8 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1519188255959">
-        <mark key="'" line="1286" column="47" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1519235910330">
+        <mark key="'" line="1140" column="8" />
         <mark key="[" line="1153" column="12" />
         <mark key="]" line="1143" column="0" />
         <mark key="." line="1143" column="0" />
@@ -252,8 +252,8 @@
         <mark key="^" line="233" column="23" />
         <mark key="." line="224" column="35" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1519171224753">
-        <mark key="'" line="280" column="42" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1519236309743">
+        <mark key="'" line="242" column="4" />
         <mark key="[" line="191" column="20" />
         <mark key="]" line="191" column="34" />
         <mark key="." line="191" column="34" />
@@ -385,8 +385,8 @@
         <mark key="^" line="83" column="71" />
         <mark key="." line="83" column="44" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1519229294618">
-        <mark key="'" line="478" column="42" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" timestamp="1519236351801">
+        <mark key="'" line="313" column="22" />
         <mark key="[" line="180" column="17" />
         <mark key="]" line="181" column="34" />
         <mark key="." line="181" column="34" />
@@ -618,14 +618,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="848" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1031" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="949" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="956" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="963" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="973" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="975" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="992" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1038" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1040" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1052" column="53" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -718,6 +710,14 @@
       <jump line="17" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" />
       <jump line="466" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="478" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="1340" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1140" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="58" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="138" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="242" column="105" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="140" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="219" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
+      <jump line="313" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -727,7 +727,7 @@
         <text>root</text>
       </register>
       <register name="/" type="4">
-        <text>beam_decode</text>
+        <text>extract</text>
       </register>
       <register name="0" type="4">
         <text>map_info_seq.append(&quot;AND||AND&quot;)</text>
@@ -767,9 +767,9 @@
       </register>
     </registers>
     <search>
-      <last-search>beam_decode</last-search>
+      <last-search>extract</last-search>
       <last-offset />
-      <last-pattern>beam_decode</last-pattern>
+      <last-pattern>extract</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -813,15 +813,18 @@
         <entry>def extend</entry>
         <entry>Inconsistent</entry>
         <entry>compare</entry>
-        <entry>extractFea</entry>
         <entry>defaultdict</entry>
-        <entry>feat_dim</entry>
         <entry>collapsed_idx</entry>
         <entry>nodelabel</entry>
         <entry>label_to_chi</entry>
         <entry>amr.roots</entry>
         <entry>label_to_children</entry>
         <entry>beam_decode</entry>
+        <entry>feat_dim</entry>
+        <entry>def ex</entry>
+        <entry>extractFea</entry>
+        <entry>uniform_arc</entry>
+        <entry>extract</entry>
       </history-search>
       <history-cmd>
         <entry>710</entry>
