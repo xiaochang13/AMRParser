@@ -132,12 +132,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1519162333042">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1519178330259">
         <mark key="'" line="483" column="33" />
-        <mark key="[" line="334" column="0" />
-        <mark key="]" line="334" column="0" />
-        <mark key="^" line="1106" column="8" />
-        <mark key="." line="334" column="0" />
+        <mark key="[" line="638" column="16" />
+        <mark key="]" line="638" column="16" />
+        <mark key="^" line="1101" column="8" />
+        <mark key="." line="638" column="16" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -300,7 +300,7 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1519161288980">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1519178073297">
         <mark key="'" line="241" column="57" />
         <mark key="[" line="517" column="0" />
         <mark key="]" line="517" column="0" />
@@ -726,7 +726,11 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICU=</text>
+        <text># feats = [curr_tok]
+                # if curr_tok == &quot;DATE&quot; or curr_tok == &quot;NUMBER&quot;:
+                #     curr_lem_str = curr_tok_str = curr_tok
+                # else:
+                #     continue</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">ICU=</text>
@@ -737,36 +741,42 @@
       <register name="0" type="4">
         <text>argparser.add_argument(&quot;--decode&quot;, action=&quot;store_true&quot;, help=&quot;if to extract decoding examples.&quot;)</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="1" type="4">
+        <text># feats = [curr_tok]
+                # if curr_tok == &quot;DATE&quot; or curr_tok == &quot;NUMBER&quot;:
+                #     curr_lem_str = curr_tok_str = curr_tok
+                # else:
+                #     continue</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IGxlbihmZWF0cykgPT0gdXRpbHMuY2FjaGVfZmVhdF9udW0K</text>
+      <register name="2" type="4">
+        <text># print subgraph_repr
+                # sys.exit(1)</text>
       </register>
       <register name="3" type="4">
+        <text># print subgraph_repr
+                # sys.exit(1)</text>
+      </register>
+      <register name="4" type="8">
+        <text encoding="base64">IyAKIyA=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IGxlbihmZWF0cykgPT0gdXRpbHMuY2FjaGVfZmVhdF9udW0K</text>
+      </register>
+      <register name="6" type="4">
         <text>dep_arcs = self.tree.getAllChildren(word_idx)
             cache_dep_arcs = self.tree.getAllChildren(cache_word_idx)</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAjIElmIHRoZSBhcmMgbGFiZWwsIHRoZW4gZXh0cmFjdCBhbGwgdGhlIGRlcGVuZGVuY3kgbGFiZWwgZmVhdHVyZXMuCg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">IyBpZiBlbmQgLSBzdGFydCA+IDI6CiAgICAgICAgICAgICAgICAgICAgICAgICMgICAgIGFsaWduZWRfdG9rcyBePSBjdXJyX3NldAogICAgICAgICAgICAgICAgICAgICAgICAjICAgICBhbGlnbmVkX25vZGVzLnJlbW92ZShub2RlX2lkeCkKICAgICAgICAgICAgICAgICAgICAgICAgIyAgICAgY29udGludWU=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgbmV4dF9jYWNoZV9pZHggPT0gY2FjaGVfc2l6ZSAtIDE6Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
