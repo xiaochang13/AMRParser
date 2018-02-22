@@ -133,8 +133,8 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1519262867695">
-        <mark key="'" line="829" column="51" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1519268754719">
+        <mark key="'" line="1140" column="0" />
         <mark key="[" line="1139" column="19" />
         <mark key="]" line="1139" column="20" />
         <mark key="." line="1139" column="20" />
@@ -705,7 +705,6 @@
       <jump line="466" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="478" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="1340" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1140" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="58" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="138" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="242" column="105" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
@@ -718,6 +717,7 @@
       <jump line="1229" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1191" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="829" column="51" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1140" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -727,7 +727,7 @@
         <text>97</text>
       </register>
       <register name="/" type="4">
-        <text>tok_num</text>
+        <text>feat_dim</text>
       </register>
       <register name="0" type="4">
         <text>map_info_seq.append(&quot;AND||AND&quot;)</text>
@@ -768,9 +768,9 @@
       </register>
     </registers>
     <search>
-      <last-search>tok_num</last-search>
+      <last-search>feat_dim</last-search>
       <last-offset />
-      <last-pattern>tok_num</last-pattern>
+      <last-pattern>feat_dim</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -821,7 +821,6 @@
         <entry>amr.roots</entry>
         <entry>label_to_children</entry>
         <entry>beam_decode</entry>
-        <entry>feat_dim</entry>
         <entry>def ex</entry>
         <entry>extractFea</entry>
         <entry>uniform_arc</entry>
@@ -830,6 +829,7 @@
         <entry>conceptID</entry>
         <entry>Retrieve</entry>
         <entry>tok_num</entry>
+        <entry>feat_dim</entry>
       </history-search>
       <history-cmd>
         <entry>710</entry>
