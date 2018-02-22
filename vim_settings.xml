@@ -133,12 +133,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1519257701677">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1519262867695">
         <mark key="'" line="829" column="51" />
-        <mark key="[" line="1161" column="75" />
-        <mark key="]" line="1161" column="76" />
-        <mark key="." line="1161" column="76" />
-        <mark key="^" line="1167" column="37" />
+        <mark key="[" line="1139" column="19" />
+        <mark key="]" line="1139" column="20" />
+        <mark key="." line="1139" column="20" />
+        <mark key="^" line="1139" column="20" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -720,11 +720,11 @@
       <jump line="829" column="51" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY29uY2VwdF9yZXByCg==</text>
+      <register name="&quot;" type="4">
+        <text>97</text>
       </register>
       <register name="-" type="4">
-        <text>root</text>
+        <text>97</text>
       </register>
       <register name="/" type="4">
         <text>tok_num</text>
