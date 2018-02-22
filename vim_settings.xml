@@ -727,7 +727,7 @@
         <text>97</text>
       </register>
       <register name="/" type="4">
-        <text>feat_dim</text>
+        <text>extract</text>
       </register>
       <register name="0" type="4">
         <text>map_info_seq.append(&quot;AND||AND&quot;)</text>
@@ -768,9 +768,9 @@
       </register>
     </registers>
     <search>
-      <last-search>feat_dim</last-search>
+      <last-search>extract</last-search>
       <last-offset />
-      <last-pattern>feat_dim</last-pattern>
+      <last-pattern>extract</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -822,14 +822,14 @@
         <entry>label_to_children</entry>
         <entry>beam_decode</entry>
         <entry>def ex</entry>
-        <entry>extractFea</entry>
         <entry>uniform_arc</entry>
-        <entry>extract</entry>
         <entry>soup</entry>
         <entry>conceptID</entry>
         <entry>Retrieve</entry>
         <entry>tok_num</entry>
         <entry>feat_dim</entry>
+        <entry>extractFea</entry>
+        <entry>extract</entry>
       </history-search>
       <history-cmd>
         <entry>710</entry>
