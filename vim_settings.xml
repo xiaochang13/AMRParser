@@ -190,12 +190,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1521606437357">
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1521645067428">
         <mark key="'" line="899" column="46" />
-        <mark key="[" line="901" column="0" />
-        <mark key="]" line="901" column="0" />
-        <mark key="^" line="964" column="62" />
-        <mark key="." line="901" column="0" />
+        <mark key="[" line="808" column="0" />
+        <mark key="]" line="808" column="0" />
+        <mark key="^" line="963" column="62" />
+        <mark key="." line="808" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -619,7 +619,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="130" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="226" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="2335" column="42" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
       <jump line="129" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
@@ -719,10 +718,11 @@
       <jump line="900" column="46" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="532" column="4" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="541" column="70" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
+      <jump line="899" column="46" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICMgdG9rcyA9IFtsaW5lLnN0cmlwKCkuc3BsaXQoKSBmb3IgbGluZSBpbiBvcGVuKGxlbW1hX2ZpbGUsICdyJyldCg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -734,42 +734,42 @@
         <text>map_info_seq.append(&quot;AND||AND&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICMgdG9rcyA9IFtsaW5lLnN0cmlwKCkuc3BsaXQoKSBmb3IgbGluZSBpbiBvcGVuKGxlbW1hX2ZpbGUsICdyJyldCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text>#except:
-        #    print &quot;A problematic case here:&quot;
-        #    print str(amr)
-        #    print alignment_seq
-        #    continue</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICMgdG9rcyA9IFtsaW5lLnN0cmlwKCkuc3BsaXQoKSBmb3IgbGluZSBpbiBvcGVuKGxlbW1hX2ZpbGUsICdyJyldCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjdHJ5Ogo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAjdHJ5Ogo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
-      </register>
-      <register name="6" type="4">
+      <register name="4" type="4">
         <text>#except:
         #    print &quot;A problematic case here:&quot;
         #    print str(amr)
         #    print alignment_seq
         #    continue</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY29uY2VwdF9yZXByCg==</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAjdHJ5Ogo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAjdHJ5Ogo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
+      </register>
+      <register name="8" type="4">
+        <text>#except:
+        #    print &quot;A problematic case here:&quot;
+        #    print str(amr)
+        #    print alignment_seq
+        #    continue</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY29uY2VwdF9yZXByCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
