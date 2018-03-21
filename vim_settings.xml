@@ -152,12 +152,12 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_trainer.py" timestamp="1517267456754">
         <mark key="'" line="240" column="47" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amr_utils.py" timestamp="1478441703990">
+      <file name="$USER_HOME$/SHRG-induction/amr_utils.py" timestamp="1521646790198">
         <mark key="'" line="26" column="24" />
-        <mark key="[" line="55" column="4" />
-        <mark key="]" line="55" column="70" />
-        <mark key="^" line="55" column="70" />
-        <mark key="." line="55" column="70" />
+        <mark key="[" line="30" column="1" />
+        <mark key="]" line="30" column="1" />
+        <mark key="^" line="30" column="1" />
+        <mark key="." line="30" column="1" />
       </file>
       <file name="$USER_HOME$/models/syntaxnet/dragnn/tools/trainer.py" timestamp="1507648617574">
         <mark key="'" line="195" column="19" />
@@ -190,12 +190,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1521646557578">
-        <mark key="'" line="900" column="46" />
-        <mark key="[" line="878" column="8" />
-        <mark key="]" line="878" column="9" />
-        <mark key="^" line="878" column="9" />
-        <mark key="." line="878" column="9" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1521647827487">
+        <mark key="'" line="1071" column="4" />
+        <mark key="[" line="872" column="4" />
+        <mark key="]" line="872" column="5" />
+        <mark key="^" line="872" column="5" />
+        <mark key="." line="872" column="5" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -619,27 +619,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="226" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="2335" column="42" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="129" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="161" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="701" column="29" filename="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/AMRParser.java" />
-      <jump line="83" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/dependency.py" />
-      <jump line="153" column="53" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="82" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/dependency.py" />
-      <jump line="142" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="113" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="71" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="162" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="99" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/dependency.py" />
-      <jump line="178" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="111" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="165" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="100" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="257" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="255" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="265" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="269" column="45" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="278" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="280" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="149" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
@@ -719,67 +698,115 @@
       <jump line="532" column="4" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="541" column="70" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
       <jump line="899" column="46" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="895" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="795" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="799" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="801" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="897" column="16" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="878" column="26" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="873" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="872" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="871" column="31" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="808" column="52" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="1052" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="1051" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="1066" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="805" column="30" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="38" column="0" filename="$USER_HOME$/SHRG-induction/amr_utils.py" />
+      <jump line="807" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="1060" column="30" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="876" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="797" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="477" column="66" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="1067" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>, amr_graph[sent_idx]</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>, amr_graph[sent_idx]</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>new_alignm</text>
+        <text>logger</text>
       </register>
       <register name="0" type="4">
-        <text>for (sent_idx, (tok_seq, lemma_seq, pos_seq, alignment_seq, amr)) in enumerate(zip(
-            toks, lemmas, poss, alignments, amr_graphs)):</text>
+        <text>argparser.add_argument(&quot;--save_dir&quot;, type=str, help=&quot;the output directory for saving the constructed forest&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAjIGFtci5zZXRfc2VudGVuY2UobGVtbWFfc2VxKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjdHJ5Ogo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="3" type="4">
+        <text>n_success = 0.0
+    total_width = 0.0
+    max_width = 0.0
+    width_dist = defaultdict(int)
+    inside_rule_dist = defaultdict(int)
+
+    total_outside_width = 0.0
+    max_outside_width = 0.0
+    outside_dist = defaultdict(int)
+
+    total_inorder_width = 0.0
+    max_inorder_width = 0.0
+    inorder_dist = defaultdict(int)
+    inorder_rule_dist = defaultdict(int)
+
+    total_cache_width = 0.0
+    max_cache_width = 0.0
+    cache_dist = defaultdict(int)</text>
       </register>
-      <register name="4" type="4">
-        <text>#except:
-        #    print &quot;A problematic case here:&quot;
-        #    print str(amr)
-        #    print alignment_seq
-        #    continue</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICMgdG9rcyA9IFtsaW5lLnN0cmlwKCkuc3BsaXQoKSBmb3IgbGluZSBpbiBvcGVuKGxlbW1hX2ZpbGUsICdyJyldCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICMgdG9rcyA9IFtsaW5lLnN0cmlwKCkuc3BsaXQoKSBmb3IgbGluZSBpbiBvcGVuKGxlbW1hX2ZpbGUsICdyJyldCg==</text>
+      <register name="6" type="4">
+        <text>global inside_rule_f
+    global inorder_rule_f
+
+    if args.nolabel:
+        if args.nodir:
+            inside_rule_f = open(&quot;inside_derivation_nolabel_nodir.txt&quot;, &quot;w&quot;)
+            inorder_rule_f = open(&quot;inorder_derivation_nolabel_nodir.txt&quot;, &quot;w&quot;)
+            inside_stat_f = open(&quot;inside_rule_stats_nolabel_nodir.txt&quot;, 'w')
+            inorder_stat_f = open(&quot;inorder_rule_stats_nolabel_nodir.txt&quot;, 'w')
+        else:
+            inside_rule_f = open(&quot;inside_derivation_dironly.txt&quot;, &quot;w&quot;)
+            inorder_rule_f = open(&quot;inorder_derivation_dironly.txt&quot;, &quot;w&quot;)
+            inside_stat_f = open(&quot;inside_rule_stats_dironly.txt&quot;, 'w')
+            inorder_stat_f = open(&quot;inorder_rule_stats_dironly.txt&quot;, 'w')
+    else:
+        inside_rule_f = open(&quot;inside_derivation_labeled.txt&quot;, &quot;w&quot;)
+        inorder_rule_f = open(&quot;inorder_derivation_labeled.txt&quot;, &quot;w&quot;)
+        inside_stat_f = open(&quot;inside_rule_stats_labeled.txt&quot;, 'w')
+        inorder_stat_f = open(&quot;inorder_rule_stats_labeled.txt&quot;, 'w')</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="4">
-        <text>#except:
-        #    print &quot;A problematic case here:&quot;
-        #    print str(amr)
-        #    print alignment_seq
-        #    continue</text>
+        <text>alignment_file = os.path.join(args.data_dir, 'alignment')
+    lemma_file = os.path.join(args.data_dir, 'lemmatized_token')</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAjdHJ5Ogo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>new_alignm</last-search>
+      <last-search>logger</last-search>
       <last-offset />
-      <last-pattern>new_alignm</last-pattern>
+      <last-pattern>logger</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -811,6 +838,15 @@
         <entry>vertex_labs</entry>
         <entry>pi_map</entry>
         <entry>new_alignm</entry>
+        <entry>amr_statistics</entry>
+        <entry>amr_file</entry>
+        <entry>stop</entry>
+        <entry>lemma</entry>
+        <entry>preprocess</entry>
+        <entry>--parallel</entry>
+        <entry>du</entry>
+        <entry>save_dir</entry>
+        <entry>logger</entry>
       </history-search>
       <history-cmd>
         <entry>628</entry>
