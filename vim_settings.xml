@@ -190,8 +190,8 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1521597525704">
-        <mark key="'" line="1078" column="9" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1521600108031">
+        <mark key="'" line="501" column="37" />
         <mark key="[" line="899" column="0" />
         <mark key="]" line="899" column="0" />
         <mark key="^" line="964" column="62" />
@@ -619,13 +619,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="996" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="484" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="148" column="57" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="219" column="47" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="191" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="128" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="93" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="134" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/oracle/AMRGraph.py" />
       <jump line="127" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="166" column="45" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
@@ -719,6 +712,13 @@
       <jump line="1140" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="12" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
       <jump line="1078" column="9" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="958" column="61" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="498" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="502" column="46" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="576" column="38" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="503" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="509" column="24" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="501" column="37" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -728,7 +728,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>re_symbols</text>
+        <text>pi_map</text>
       </register>
       <register name="0" type="4">
         <text>map_info_seq.append(&quot;AND||AND&quot;)</text>
@@ -773,9 +773,9 @@
       </register>
     </registers>
     <search>
-      <last-search>re_symbols</last-search>
+      <last-search>pi_map</last-search>
       <last-offset />
-      <last-pattern>re_symbols</last-pattern>
+      <last-pattern>pi_map</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -804,6 +804,8 @@
         <entry>extractFea</entry>
         <entry>extract</entry>
         <entry>re_symbols</entry>
+        <entry>vertex_labs</entry>
+        <entry>pi_map</entry>
       </history-search>
       <history-cmd>
         <entry>628</entry>
