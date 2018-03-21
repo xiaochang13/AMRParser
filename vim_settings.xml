@@ -190,12 +190,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1521645067428">
-        <mark key="'" line="899" column="46" />
-        <mark key="[" line="808" column="0" />
-        <mark key="]" line="808" column="0" />
-        <mark key="^" line="963" column="62" />
-        <mark key="." line="808" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1521646557578">
+        <mark key="'" line="900" column="46" />
+        <mark key="[" line="878" column="8" />
+        <mark key="]" line="878" column="9" />
+        <mark key="^" line="878" column="9" />
+        <mark key="." line="878" column="9" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -721,26 +721,27 @@
       <jump line="899" column="46" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICMgdG9rcyA9IFtsaW5lLnN0cmlwKCkuc3BsaXQoKSBmb3IgbGluZSBpbiBvcGVuKGxlbW1hX2ZpbGUsICdyJyldCg==</text>
+      <register name="&quot;" type="4">
+        <text>, amr_graph[sent_idx]</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>, amr_graph[sent_idx]</text>
       </register>
       <register name="/" type="4">
         <text>new_alignm</text>
       </register>
       <register name="0" type="4">
-        <text>map_info_seq.append(&quot;AND||AND&quot;)</text>
+        <text>for (sent_idx, (tok_seq, lemma_seq, pos_seq, alignment_seq, amr)) in enumerate(zip(
+            toks, lemmas, poss, alignments, amr_graphs)):</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICMgdG9rcyA9IFtsaW5lLnN0cmlwKCkuc3BsaXQoKSBmb3IgbGluZSBpbiBvcGVuKGxlbW1hX2ZpbGUsICdyJyldCg==</text>
+        <text encoding="base64">ICAgICAgICAjIGFtci5zZXRfc2VudGVuY2UobGVtbWFfc2VxKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMgdG9rcyA9IFtsaW5lLnN0cmlwKCkuc3BsaXQoKSBmb3IgbGluZSBpbiBvcGVuKGxlbW1hX2ZpbGUsICdyJyldCg==</text>
+        <text encoding="base64">ICAgICAgICAjdHJ5Ogo=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
@@ -753,13 +754,13 @@
         #    continue</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjdHJ5Ogo=</text>
+        <text encoding="base64">ICAgICMgdG9rcyA9IFtsaW5lLnN0cmlwKCkuc3BsaXQoKSBmb3IgbGluZSBpbiBvcGVuKGxlbW1hX2ZpbGUsICdyJyldCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjdHJ5Ogo=</text>
+        <text encoding="base64">ICAgICMgdG9rcyA9IFtsaW5lLnN0cmlwKCkuc3BsaXQoKSBmb3IgbGluZSBpbiBvcGVuKGxlbW1hX2ZpbGUsICdyJyldCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="4">
         <text>#except:
@@ -769,7 +770,7 @@
         #    continue</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY29uY2VwdF9yZXByCg==</text>
+        <text encoding="base64">ICAgICAgICAjdHJ5Ogo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
