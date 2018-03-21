@@ -190,12 +190,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1517105593538">
-        <mark key="'" line="8" column="6" />
-        <mark key="[" line="963" column="49" />
-        <mark key="]" line="964" column="62" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1521597525704">
+        <mark key="'" line="1078" column="9" />
+        <mark key="[" line="899" column="0" />
+        <mark key="]" line="899" column="0" />
         <mark key="^" line="964" column="62" />
-        <mark key="." line="964" column="62" />
+        <mark key="." line="899" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -619,7 +619,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="982" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="996" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="484" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="148" column="57" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
@@ -719,13 +718,14 @@
       <jump line="829" column="51" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1140" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="12" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
+      <jump line="1078" column="9" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>97</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAjdHJ5Ogo=</text>
       </register>
       <register name="-" type="4">
-        <text>97</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>re_symbols</text>
@@ -734,35 +734,39 @@
         <text>map_info_seq.append(&quot;AND||AND&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY29uY2VwdF9yZXByCg==</text>
+        <text encoding="base64">ICAgICAgICAjdHJ5Ogo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="3" type="4">
+        <text>#except:
+        #    print &quot;A problematic case here:&quot;
+        #    print str(amr)
+        #    print alignment_seq
+        #    continue</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY29uY2VwdF9yZXByCg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="4">
         <text># else:
             #     continue</text>
       </register>
-      <register name="6" type="8">
+      <register name="9" type="8">
         <text encoding="base64">IyAKIyA=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgYW5kX3N0cnVjdHVyZToK</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGFzc2VydCBsZW4oIiIuam9pbigpKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
