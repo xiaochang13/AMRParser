@@ -190,12 +190,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1521649514037">
-        <mark key="'" line="536" column="8" />
-        <mark key="[" line="583" column="13" />
-        <mark key="]" line="584" column="24" />
-        <mark key="." line="584" column="24" />
-        <mark key="^" line="584" column="24" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1521651253544">
+        <mark key="'" line="552" column="65" />
+        <mark key="[" line="584" column="25" />
+        <mark key="]" line="585" column="19" />
+        <mark key="." line="585" column="19" />
+        <mark key="^" line="585" column="19" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -311,6 +311,11 @@
         <mark key="^" line="68" column="33" />
         <mark key="." line="68" column="33" />
       </file>
+      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1521651300389">
+        <mark key="[" line="405" column="0" />
+        <mark key="]" line="405" column="0" />
+        <mark key="." line="405" column="0" />
+      </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1518667458814">
         <mark key="'" line="764" column="8" />
       </file>
@@ -369,12 +374,12 @@
         <mark key="." line="38" column="73" />
         <mark key="^" line="38" column="73" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amr_graph.py" timestamp="1521648658359">
-        <mark key="'" line="352" column="15" />
-        <mark key="[" line="329" column="4" />
-        <mark key="]" line="329" column="5" />
-        <mark key="^" line="329" column="5" />
-        <mark key="." line="329" column="5" />
+      <file name="$USER_HOME$/SHRG-induction/amr_graph.py" timestamp="1521653007984">
+        <mark key="'" line="474" column="8" />
+        <mark key="[" line="228" column="0" />
+        <mark key="]" line="228" column="0" />
+        <mark key="^" line="229" column="7" />
+        <mark key="." line="228" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1510089736605">
         <mark key="'" line="245" column="13" />
@@ -547,14 +552,6 @@
         <mark key="." line="619" column="0" />
         <mark key="^" line="618" column="19" />
       </file>
-      <file name="$USER_HOME$/data_processing/prepareTokens.py" timestamp="1518620810647">
-        <mark key="'" line="1238" column="31" />
-        <mark key="k" line="1318" column="34" />
-        <mark key="[" line="1220" column="51" />
-        <mark key="]" line="1220" column="52" />
-        <mark key="." line="1220" column="52" />
-        <mark key="^" line="1221" column="64" />
-      </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ArcStandard.java" timestamp="1483373416837">
         <mark key="'" line="91" column="8" />
         <mark key="[" line="18" column="9" />
@@ -619,10 +616,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1317" column="77" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="71" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1313" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1314" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1302" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1285" column="47" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="532" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
@@ -719,58 +712,89 @@
       <jump line="686" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="704" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="536" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="552" column="65" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="501" column="9" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
+      <jump line="4" column="16" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
+      <jump line="487" column="8" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBzZWxmLmluaXRpYWxpemUoKQo=</text>
       </register>
       <register name="-" type="4">
         <text>v</text>
       </register>
       <register name="/" type="4">
-        <text>new_amr</text>
+        <text>get_path_v2</text>
       </register>
       <register name="0" type="4">
-        <text>args.format.lower() == &quot;amr&quot;</text>
+        <text>(curr_node_idx, child_index)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBzZWxmLmluaXRpYWxpemUoKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgbGVuKHBpX3NlcSkgPT0gbGVuKG5ld19hbXIubm9kZXMpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwaV9ub2RlbGFiZWxzID0gW25ld19hbXIubm9kZXNbbm9kZV9pZF0ubm9kZV9sYWJlbCgpIGZvciBub2RlX2lkIGluIHBpX3NlcV0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">ZGVmIHJlbW92ZUFsaWduZWQoc3BhbnMsIGFsaWduZWRfdG9rcyk6CiAgICBuZXdfc3BhbnMgPSBbXQogICAgZm9yIChzdGFydCwgZW5kKSBpbiBzcGFuczoKICAgICAgICBjb3ZlcmVkID0gc2V0KHhyYW5nZShzdGFydCwgZW5kKSkKICAgICAgICBpZiBsZW4oYWxpZ25lZF90b2tzICYgY292ZXJlZCkgPiAwOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIG5ld19zcGFucy5hcHBlbmQoKHN0YXJ0LCBlbmQpKQogICAgICAgIGFsaWduZWRfdG9rcyB8PSBjb3ZlcmVkCiAgICByZXR1cm4gbmV3X3NwYW5zCg==</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="4">
+        <text>def initialize(self):
+        self.dict = {}
+        self.nodes = []   #used to record all the nodes
+        self.node_dict = {}
+        self.edges = []
+        self.edge_dict = {}
+        self.root = None
+
+        self.ne_index = 0
+        self.ent_index = 0
+        self.verb_index = 0
+        self.var_index = 0
+        self.const_index = 0
+        self.has_reent = False</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">ZGVmIGJ1aWxkX2JpbWFwKHRvazJmcmFncyk6CiAgICBmcmFnMm1hcCA9IGRlZmF1bHRkaWN0KHNldCkKICAgIGluZGV4MmZyYWdzID0gZGVmYXVsdGRpY3Qoc2V0KQogICAgZm9yIGluZGV4IGluIHRvazJmcmFnczoKICAgICAgICBmb3IgZnJhZyBpbiB0b2syZnJhZ3NbaW5kZXhdOgogICAgICAgICAgICBpbmRleDJmcmFnc1tpbmRleF0uYWRkKGZyYWcpCiAgICAgICAgICAgIGZyYWcybWFwW2ZyYWddLmFkZChpbmRleCkKCiAgICByZXR1cm4gKGluZGV4MmZyYWdzLCBmcmFnMm1hcCkK</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICBsYWJlbF90b19ub2RlID0ge30K</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text>self.dict = {}
+        label_to_node = {}
+        self.nodes = []   #used to record all the nodes
+        self.node_dict = {}
+        self.edges = []
+        self.edge_dict = {}
+        self.root = None
+
+        self.ne_index = 0
+        self.ent_index = 0
+        self.verb_index = 0
+        self.var_index = 0
+        self.const_index = 0
+
+        self.has_reent = False</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">I1ZlcmlmeSB0aGlzIGZyYWdtZW50IGNvbnRhaW5zIG9ubHkgb25lIGVkZ2UgYW5kIHJldHVybiBpdApkZWYgdW5pcXVlX2VkZ2UoZnJhZyk6CiAgICAjYXNzZXJ0IGZyYWcuZWRnZXMuY291bnQoKSA9PSAxLCAnTm90IHVuaWZ5IGVkZ2UgZnJhZ21lbnQgZm91bmQnCiAgICBhbXJfZ3JhcGggPSBmcmFnLmdyYXBoCiAgICBlZGdlX2xpc3QgPSBbXQogICAgbl9lZGdlcyA9IGxlbihmcmFnLmVkZ2VzKQogICAgZm9yIGkgaW4geHJhbmdlKG5fZWRnZXMpOgogICAgICAgIGlmIGZyYWcuZWRnZXNbaV0gPT0gMToKICAgICAgICAgICAgZWRnZV9saXN0LmFwcGVuZChpKQogICAgYXNzZXJ0IGxlbihlZGdlX2xpc3QpID09IGZyYWcuZWRnZXMuY291bnQoKQogICAgcmV0dXJuIHR1cGxlKGVkZ2VfbGlzdCkK</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICByZXR1cm4gc2VxdWVuY2UK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>new_amr</last-search>
+      <last-search>get_path_v2</last-search>
       <last-offset />
-      <last-pattern>new_amr</last-pattern>
+      <last-pattern>get_path_v2</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -827,6 +851,7 @@
         <entry>build_bim</entry>
         <entry>removeAlig</entry>
         <entry>new_amr</entry>
+        <entry>get_path_v2</entry>
       </history-search>
       <history-cmd>
         <entry>628</entry>
@@ -847,8 +872,8 @@
         <entry>195</entry>
         <entry>126</entry>
         <entry>1321</entry>
-        <entry>1</entry>
         <entry>332</entry>
+        <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
