@@ -107,8 +107,8 @@
         <mark key="^" line="2531" column="109" />
         <mark key="." line="2531" column="109" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1516217829211">
-        <mark key="'" line="481" column="13" />
+      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1523482144481">
+        <mark key="'" line="522" column="14" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/dependency.py" timestamp="1519163723110">
         <mark key="[" line="102" column="8" />
@@ -190,15 +190,19 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/subgraph.py" timestamp="1523479623097">
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
-        <mark key="^" line="7" column="13" />
+      <file name="$USER_HOME$/SHRG-induction/subgraph.py" timestamp="1523480784357">
+        <mark key="'" line="342" column="0" />
+        <mark key="[" line="376" column="34" />
+        <mark key="]" line="376" column="35" />
+        <mark key="^" line="270" column="5" />
+        <mark key="." line="376" column="35" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523477718350">
-        <mark key="'" line="309" column="37" />
-        <mark key="^" line="583" column="13" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523481755846">
+        <mark key="'" line="400" column="15" />
+        <mark key="[" line="141" column="0" />
+        <mark key="]" line="141" column="0" />
+        <mark key="^" line="581" column="13" />
+        <mark key="." line="141" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -619,13 +623,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="88" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="17" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="189" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="165" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="235" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="205" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
-      <jump line="73" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="241" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="19" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="470" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
@@ -719,26 +716,29 @@
       <jump line="518" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="598" column="60" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="309" column="37" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="342" column="0" filename="$USER_HOME$/SHRG-induction/subgraph.py" />
+      <jump line="312" column="32" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="174" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="214" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="255" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="400" column="15" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="522" column="14" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>import gflags
-from HRGSample import Sample
-#Each fragment is simply two vectors of bits, for edges and boundary nodes</text>
+        <text encoding="base64">CiMgZGVmCg==</text>
       </register>
       <register name="-" type="4">
-        <text>AMRFragment</text>
+        <text>combine_fragments</text>
       </register>
       <register name="/" type="4">
-        <text>get_path_v2</text>
+        <text>build_outside</text>
       </register>
       <register name="0" type="4">
         <text>(curr_node_idx, child_index)</text>
       </register>
       <register name="1" type="4">
-        <text>import gflags
-from HRGSample import Sample
-#Each fragment is simply two vectors of bits, for edges and boundary nodes</text>
+        <text encoding="base64">CiMgZGVmCg==</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -746,52 +746,45 @@ from HRGSample import Sample
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">CiAgICAgICAgICAgICMgdW5hcnkgPSBGYWxzZQ==</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBzZWxmLmluaXRpYWxpemUoKQo=</text>
+      <register name="4" type="4">
+        <text>@staticmethod
+    def initialize_from_alignment(nodes, edges, graph=None):
+        frag = AMRFragment(len(edges), len(nodes), graph)
+        frag.edges = edges
+        frag.nodes = nodes
+        return frag</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text encoding="base64">IGRlZiBhbGxUcmlwbGVzKHNlbGYsIGhncmFwaCwgdmFyX21hcHBpbmcsIGV4dF9tYXBwaW5nLCBjb21wb25lbnRzPU5vbmUsIG5vZGVfaW5kZXhlcj1Ob25lKToKCiAgICAgICAgZGVmIGNoZWNrQ2hpbGRyZW4oY29tcG9uZW50cywgaW5kZXgpOgogICAgICAgICAgICByZXQgPSBbXQogICAgICAgICAgICByZW1haW5lZCA9IFtdCiAgICAgICAgICAgIGZvciBub2RlIGluIGNvbXBvbmVudHM6CiAgICAgICAgICAgICAgICBpZiBpbmRleCBpbiBub2RlLmZyYWcucm9vdHM6CiAgICAgICAgICAgICAgICAgICAgcmV0LmFwcGVuZChub2RlKQogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICByZW1haW5lZC5hcHBlbmQobm9kZSkKICAgICAgICAgICAgcmV0dXJuIHJlbWFpbmVkLCByZXQKCiAgICAgICAgc3RhY2sgPSBjb3B5LmNvcHkoc2VsZi5yb290cykKICAgICAgICBzdGFjayA9IFsoaW5kZXgsIDApIGZvciBpbmRleCBpbiBzdGFja10KICAgICAgICBzdGFjay5yZXZlcnNlKCkKCiAgICAgICAgYWxsX3RyaXBsZXMgPSBbXQoKICAgICAgICBhbXIgPSBzZWxmLmdyYXBoCgogICAgICAgIHZpc2l0ZWRfaW5kZXggPSBzZXQoKQoKICAgICAgICAjYXR0YWNoX2xpc3QgPSB7fQoKICAgICAgICBlZGdlX2FsaWdubWVudCA9IGJpdGFycmF5KGxlbihhbXIuZWRnZXMpKQogICAgICAgIGlmIGVkZ2VfYWxpZ25tZW50LmNvdW50KCkgIT0gMDoKICAgICAgICAgICAgZWRnZV9hbGlnbm1lbnQgXj0gZWRnZV9hbGlnbm1lbnQKCiAgICAgICAgaWYgY29tcG9uZW50czoKICAgICAgICAgICAgZm9yIG5vZGUgaW4gY29tcG9uZW50czoKICAgICAgICAgICAgICAgIGlmIG5vZGUuY3V0ID09IDE6CiAgICAgICAgICAgICAgICAgICAgZWRnZV9hbGlnbm1lbnQgfD0gbm9kZS5mcmFnLmVkZ2VzCgogICAgICAgIHN0YWNrLnJldmVyc2UoKQogICAgICAgIHdoaWxlIHN0YWNrOgogICAgICAgICAgICBjdXJyX2luZGV4LCBkZXB0aCA9IHN0YWNrLnBvcCgpCiAgICAgICAgICAgIGlmIGN1cnJfaW5kZXggaW4gdmlzaXRlZF9pbmRleDoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICBjdXJyX25vZGUgPSBhbXIubm9kZXNbY3Vycl9pbmRleF0KICAgICAgICAgICAgaWYgZGVwdGggPT0gMDoKICAgICAgICAgICAgICAgIGN1cnJfaWRlbnQgPSBoZ3JhcGgucmVnaXN0ZXJOb2RlKGN1cnJfaW5kZXgsIHZhcl9tYXBwaW5nLCBleHRfbWFwcGluZykKICAgICAgICAgICAgICAgIGhncmFwaC5yb290cy5hcHBlbmQoY3Vycl9pZGVudCkKCiAgICAgICAgICAgIHZpc2l0ZWRfaW5kZXguYWRkKGN1cnJfaW5kZXgpCgogICAgICAgICAgICBpZiBjb21wb25lbnRzOgogICAgICAgICAgICAgICAgY29tcG9uZW50cywgbm9udGVybV9ub2RlcyA9IGNoZWNrQ2hpbGRyZW4oY29tcG9uZW50cywgY3Vycl9pbmRleCkKICAgICAgICAgICAgICAgIGZvciBub2RlIGluIG5vbnRlcm1fbm9kZXM6CiAgICAgICAgICAgICAgICAgICAgY3Vycl9mcmFnID0gbm9kZS5mcmFnCiAgICAgICAgICAgICAgICAgICAgc3VmZml4LCBvdGhlcl9pbmRpY2VzID0gbm9kZS5mcmFnLmV4dFN1ZmZpeChjdXJyX2luZGV4KQoKICAgICAgICAgICAgICAgICAgICBjdXJyX2VkZ2VfbGFiZWwgPSAnQSVkLSVzJyAlIChsZW4oY3Vycl9mcmFnLmV4dF9saXN0KSwgc3VmZml4KQogICAgICAgICAgICAgICAgICAgIGN1cnJfZWRnZV9pZCA9IG5vZGVfaW5kZXhlcltub2RlXQogICAgICAgICAgICAgICAgICAgIG5vbnRlcm1fZWRnZSA9IE5vbnRlcm1pbmFsTGFiZWwoY3Vycl9lZGdlX2xhYmVsLCBjdXJyX2VkZ2VfaWQpCiAgICAgICAgICAgICAgICAgICAgYWxsX3RyaXBsZXMuYXBwZW5kKChjdXJyX2luZGV4LCBub250ZXJtX2VkZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgIG90aGVyX2luZGljZXMpKQoKICAgICAgICAgICAgICAgICAgICBleHRzID0gWyhpbmRleCwgZGVwdGgrMSkgZm9yIGluZGV4IGluIG90aGVyX2luZGljZXNdCiAgICAgICAgICAgICAgICAgICAgc3RhY2suZXh0ZW5kKGV4dHMpCgogICAgICAgICAgICBjb25jZXB0X2VkZ2UgPSBjdXJyX25vZGUuY19lZGdlCiAgICAgICAgICAgIGlmIHNlbGYuZWRnZXNbY29uY2VwdF9lZGdlXSA9PSAxIGFuZCBlZGdlX2FsaWdubWVudFtjb25jZXB0X2VkZ2VdICE9IDE6CiAgICAgICAgICAgICAgICBjaGlsZCA9IE5vbmUKICAgICAgICAgICAgICAgIGVkZ2VfbGFiZWwgPSBzdHIoY3Vycl9ub2RlKQogICAgICAgICAgICAgICAgYWxsX3RyaXBsZXMuYXBwZW5kKChjdXJyX2luZGV4LCBlZGdlX2xhYmVsLCBjaGlsZCkpCgogICAgICAgICAgICBmb3IgZWRnZV9pbmRleCBpbiBjdXJyX25vZGUudl9lZGdlczoKICAgICAgICAgICAgICAgIGN1cnJfZWRnZSA9IGFtci5lZGdlc1tlZGdlX2luZGV4XQogICAgICAgICAgICAgICAgaWYgc2VsZi5lZGdlc1tlZGdlX2luZGV4XSA9PSAxIGFuZCBlZGdlX2FsaWdubWVudFtlZGdlX2luZGV4XSAhPSAxOgogICAgICAgICAgICAgICAgICAgIHRhaWxfaW5kZXggPSBjdXJyX2VkZ2UudGFpbAogICAgICAgICAgICAgICAgICAgIGFsbF90cmlwbGVzLmFwcGVuZCgoY3Vycl9pbmRleCwgY3Vycl9lZGdlLmxhYmVsLCB0YWlsX2luZGV4KSkKICAgICAgICAgICAgICAgICAgICBzdGFjay5hcHBlbmQoKHRhaWxfaW5kZXgsIGRlcHRoKzEpKQoKICAgICAgICByZXR1cm4gYWxsX3RyaXBsZXM=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="4">
-        <text>def initialize(self):
-        self.dict = {}
-        self.nodes = []   #used to record all the nodes
-        self.node_dict = {}
-        self.edges = []
-        self.edge_dict = {}
-        self.root = None
-
-        self.ne_index = 0
-        self.ent_index = 0
-        self.verb_index = 0
-        self.var_index = 0
-        self.const_index = 0
-        self.has_reent = False</text>
+        <text>#Return all (index, rel, index) triples
+    #Disconnect graphs might become connected because of the nonterminal edges</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>get_path_v2</last-search>
+      <last-search>build_outside</last-search>
       <last-offset />
-      <last-pattern>get_path_v2</last-pattern>
+      <last-pattern>build_outside</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
@@ -815,6 +808,11 @@ from HRGSample import Sample
         <entry>removeAlig</entry>
         <entry>new_amr</entry>
         <entry>get_path_v2</entry>
+        <entry>general</entry>
+        <entry>leafs</entry>
+        <entry>label_map</entry>
+        <entry>label_m</entry>
+        <entry>build_outside</entry>
       </history-search>
       <history-cmd>
         <entry>94</entry>
