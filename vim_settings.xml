@@ -190,12 +190,9 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1521654485713">
-        <mark key="'" line="552" column="65" />
-        <mark key="[" line="585" column="12" />
-        <mark key="]" line="585" column="13" />
-        <mark key="." line="585" column="13" />
-        <mark key="^" line="585" column="13" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523475745356">
+        <mark key="'" line="596" column="60" />
+        <mark key="^" line="583" column="13" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -616,9 +613,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1302" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1285" column="47" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="532" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="421" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="88" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="17" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
@@ -716,10 +710,13 @@
       <jump line="501" column="9" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="4" column="16" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="487" column="8" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
+      <jump line="589" column="26" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="518" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
+      <jump line="598" column="60" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBzZWxmLmluaXRpYWxpemUoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>v</text>
@@ -731,24 +728,30 @@
         <text>(curr_node_idx, child_index)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBzZWxmLmluaXRpYWxpemUoKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">CiAgICAgICAgICAgICMgdW5hcnkgPSBGYWxzZQ==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBzZWxmLmluaXRpYWxpemUoKQo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text>def initialize(self):
         self.dict = {}
         self.nodes = []   #used to record all the nodes
@@ -764,28 +767,8 @@
         self.const_index = 0
         self.has_reent = False</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBsYWJlbF90b19ub2RlID0ge30K</text>
-      </register>
-      <register name="8" type="4">
-        <text>self.dict = {}
-        label_to_node = {}
-        self.nodes = []   #used to record all the nodes
-        self.node_dict = {}
-        self.edges = []
-        self.edge_dict = {}
-        self.root = None
-
-        self.ne_index = 0
-        self.ent_index = 0
-        self.verb_index = 0
-        self.var_index = 0
-        self.const_index = 0
-
-        self.has_reent = False</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gc2VxdWVuY2UK</text>
+        <text encoding="base64">ICAgICAgICBsYWJlbF90b19ub2RlID0ge30K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -798,40 +781,10 @@
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>continue</entry>
-        <entry>def extend</entry>
-        <entry>Inconsistent</entry>
-        <entry>compare</entry>
-        <entry>defaultdict</entry>
-        <entry>collapsed_idx</entry>
-        <entry>nodelabel</entry>
-        <entry>label_to_chi</entry>
-        <entry>amr.roots</entry>
-        <entry>label_to_children</entry>
-        <entry>beam_decode</entry>
-        <entry>def ex</entry>
-        <entry>uniform_arc</entry>
-        <entry>soup</entry>
-        <entry>conceptID</entry>
-        <entry>Retrieve</entry>
-        <entry>tok_num</entry>
-        <entry>feat_dim</entry>
-        <entry>extractFea</entry>
-        <entry>extract</entry>
-        <entry>re_symbols</entry>
-        <entry>vertex_labs</entry>
-        <entry>pi_map</entry>
-        <entry>new_alignm</entry>
-        <entry>amr_statistics</entry>
-        <entry>amr_file</entry>
-        <entry>stop</entry>
-        <entry>lemma</entry>
-        <entry>preprocess</entry>
-        <entry>--parallel</entry>
         <entry>du</entry>
         <entry>save_dir</entry>
         <entry>logger</entry>
@@ -854,7 +807,6 @@
         <entry>get_path_v2</entry>
       </history-search>
       <history-cmd>
-        <entry>628</entry>
         <entry>94</entry>
         <entry>62</entry>
         <entry>445</entry>
