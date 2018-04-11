@@ -190,6 +190,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
+      <file name="$USER_HOME$/SHRG-induction/subgraph.py" timestamp="1523479623097">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="." line="6" column="0" />
+        <mark key="^" line="7" column="13" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523477718350">
         <mark key="'" line="309" column="37" />
         <mark key="^" line="583" column="13" />
@@ -715,11 +721,13 @@
       <jump line="309" column="37" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>import gflags
+from HRGSample import Sample
+#Each fragment is simply two vectors of bits, for edges and boundary nodes</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>AMRFragment</text>
       </register>
       <register name="/" type="4">
         <text>get_path_v2</text>
@@ -727,20 +735,22 @@
       <register name="0" type="4">
         <text>(curr_node_idx, child_index)</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>import gflags
+from HRGSample import Sample
+#Each fragment is simply two vectors of bits, for edges and boundary nodes</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="4">
         <text encoding="base64">CiAgICAgICAgICAgICMgdW5hcnkgPSBGYWxzZQ==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBzZWxmLmluaXRpYWxpemUoKQo=</text>
-      </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBzZWxmLmluaXRpYWxpemUoKQo=</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
@@ -749,9 +759,12 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>def initialize(self):
         self.dict = {}
         self.nodes = []   #used to record all the nodes
@@ -766,9 +779,6 @@
         self.var_index = 0
         self.const_index = 0
         self.has_reent = False</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBsYWJlbF90b19ub2RlID0ge30K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
