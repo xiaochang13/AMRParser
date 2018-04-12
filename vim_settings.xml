@@ -107,8 +107,8 @@
         <mark key="^" line="2531" column="109" />
         <mark key="." line="2531" column="109" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1523551602676">
-        <mark key="'" line="497" column="16" />
+      <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1523558253903">
+        <mark key="'" line="329" column="25" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/dependency.py" timestamp="1519163723110">
         <mark key="[" line="102" column="8" />
@@ -197,12 +197,12 @@
         <mark key="^" line="270" column="5" />
         <mark key="." line="376" column="35" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523557981251">
-        <mark key="'" line="558" column="67" />
-        <mark key="[" line="176" column="22" />
-        <mark key="]" line="176" column="29" />
-        <mark key="^" line="176" column="29" />
-        <mark key="." line="176" column="29" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523558324794">
+        <mark key="'" line="565" column="67" />
+        <mark key="[" line="186" column="31" />
+        <mark key="]" line="187" column="36" />
+        <mark key="^" line="187" column="36" />
+        <mark key="." line="187" column="36" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -624,9 +624,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="958" column="61" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="498" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="502" column="46" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="576" column="38" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="503" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="509" column="24" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -724,16 +721,19 @@
       <jump line="554" column="24" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="178" column="50" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="556" column="67" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="375" column="20" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="483" column="6" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="329" column="25" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>xrange(span)</text>
+        <text>ext_set</text>
       </register>
       <register name="-" type="4">
-        <text>xrange(span)</text>
+        <text>ext_set</text>
       </register>
       <register name="/" type="4">
-        <text>edge_map</text>
+        <text>outside_</text>
       </register>
       <register name="0" type="4">
         <text>(curr_node_idx, child_index)</text>
@@ -786,9 +786,9 @@
       </register>
     </registers>
     <search>
-      <last-search>edge_map</last-search>
+      <last-search>outside_</last-search>
       <last-offset />
-      <last-pattern>edge_map</last-pattern>
+      <last-pattern>outside_</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -825,6 +825,7 @@
         <entry>build_outside</entry>
         <entry>general</entry>
         <entry>edge_map</entry>
+        <entry>outside_</entry>
       </history-search>
       <history-cmd>
         <entry>94</entry>
