@@ -197,12 +197,12 @@
         <mark key="^" line="270" column="5" />
         <mark key="." line="376" column="35" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523553448053">
-        <mark key="'" line="556" column="67" />
-        <mark key="[" line="174" column="24" />
-        <mark key="]" line="174" column="29" />
-        <mark key="^" line="174" column="29" />
-        <mark key="." line="174" column="29" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523557981251">
+        <mark key="'" line="558" column="67" />
+        <mark key="[" line="176" column="22" />
+        <mark key="]" line="176" column="29" />
+        <mark key="^" line="176" column="29" />
+        <mark key="." line="176" column="29" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -727,10 +727,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>start, end</text>
+        <text>xrange(span)</text>
       </register>
       <register name="-" type="4">
-        <text>start, end</text>
+        <text>xrange(span)</text>
       </register>
       <register name="/" type="4">
         <text>edge_map</text>
