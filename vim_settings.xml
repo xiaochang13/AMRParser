@@ -318,7 +318,8 @@
         <mark key="^" line="68" column="33" />
         <mark key="." line="68" column="33" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1521651300389">
+      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1523550296648">
+        <mark key="'" line="442" column="0" />
         <mark key="[" line="405" column="0" />
         <mark key="]" line="405" column="0" />
         <mark key="." line="405" column="0" />
@@ -623,7 +624,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="242" column="105" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
       <jump line="140" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="219" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
       <jump line="313" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_beam_decoder.py" />
@@ -723,6 +723,7 @@
       <jump line="549" column="62" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="451" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="551" column="67" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="442" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -732,7 +733,7 @@
         <text>combine_fragments</text>
       </register>
       <register name="/" type="4">
-        <text>width</text>
+        <text>edge_map</text>
       </register>
       <register name="0" type="4">
         <text>(curr_node_idx, child_index)</text>
@@ -777,9 +778,9 @@
       </register>
     </registers>
     <search>
-      <last-search>width</last-search>
+      <last-search>edge_map</last-search>
       <last-offset />
-      <last-pattern>width</last-pattern>
+      <last-pattern>edge_map</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -814,6 +815,7 @@
         <entry>edge_label_map</entry>
         <entry>label_map</entry>
         <entry>width</entry>
+        <entry>edge_map</entry>
       </history-search>
       <history-cmd>
         <entry>94</entry>
