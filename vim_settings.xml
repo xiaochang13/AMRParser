@@ -197,12 +197,12 @@
         <mark key="^" line="270" column="5" />
         <mark key="." line="376" column="35" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523552395565">
-        <mark key="'" line="554" column="16" />
-        <mark key="[" line="172" column="4" />
-        <mark key="]" line="173" column="69" />
-        <mark key="^" line="173" column="69" />
-        <mark key="." line="173" column="69" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523553448053">
+        <mark key="'" line="556" column="67" />
+        <mark key="[" line="174" column="24" />
+        <mark key="]" line="174" column="29" />
+        <mark key="^" line="174" column="29" />
+        <mark key="." line="174" column="29" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -624,9 +624,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1140" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="12" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
-      <jump line="1078" column="9" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="958" column="61" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="498" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="502" column="46" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -693,7 +690,6 @@
       <jump line="501" column="9" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="4" column="16" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
       <jump line="487" column="8" filename="$USER_HOME$/SHRG-induction/amr_graph.py" />
-      <jump line="589" column="26" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="518" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="598" column="60" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="309" column="37" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -724,16 +720,20 @@
       <jump line="499" column="15" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="326" column="8" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="497" column="16" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="589" column="26" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="554" column="24" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="178" column="50" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="556" column="67" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICNhc3NlcnQgbGVuKHZlcnRleF9zZXQpID09IGxlbih0b3BvX2xpc3QpCg==</text>
+      <register name="&quot;" type="4">
+        <text>start, end</text>
       </register>
       <register name="-" type="4">
-        <text>combine_fragments</text>
+        <text>start, end</text>
       </register>
       <register name="/" type="4">
-        <text>general</text>
+        <text>edge_map</text>
       </register>
       <register name="0" type="4">
         <text>(curr_node_idx, child_index)</text>
@@ -786,9 +786,9 @@
       </register>
     </registers>
     <search>
-      <last-search>general</last-search>
+      <last-search>edge_map</last-search>
       <last-offset />
-      <last-pattern>general</last-pattern>
+      <last-pattern>edge_map</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -821,10 +821,10 @@
         <entry>edge_label_map</entry>
         <entry>width</entry>
         <entry>exclude</entry>
-        <entry>edge_map</entry>
         <entry>label_map</entry>
         <entry>build_outside</entry>
         <entry>general</entry>
+        <entry>edge_map</entry>
       </history-search>
       <history-cmd>
         <entry>94</entry>
