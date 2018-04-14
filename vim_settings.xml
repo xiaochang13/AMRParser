@@ -197,12 +197,12 @@
         <mark key="^" line="270" column="5" />
         <mark key="." line="376" column="35" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523558324794">
-        <mark key="'" line="565" column="67" />
-        <mark key="[" line="186" column="31" />
-        <mark key="]" line="187" column="36" />
-        <mark key="^" line="187" column="36" />
-        <mark key="." line="187" column="36" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523727829375">
+        <mark key="'" line="297" column="29" />
+        <mark key="[" line="309" column="38" />
+        <mark key="]" line="309" column="48" />
+        <mark key="^" line="309" column="48" />
+        <mark key="." line="309" column="48" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -624,9 +624,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="576" column="38" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="503" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="509" column="24" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="501" column="37" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="664" column="39" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="509" column="0" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
@@ -724,13 +721,16 @@
       <jump line="375" column="20" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="483" column="6" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="329" column="25" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="617" column="60" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="297" column="29" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="191" column="29" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>ext_set</text>
+        <text>leafs[i].outside_set</text>
       </register>
       <register name="-" type="4">
-        <text>ext_set</text>
+        <text>leafs[i].outside_set</text>
       </register>
       <register name="/" type="4">
         <text>outside_</text>
@@ -739,15 +739,18 @@
         <text>(curr_node_idx, child_index)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICNhc3NlcnQgbGVuKHZlcnRleF9zZXQpID09IGxlbih0b3BvX2xpc3QpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgb3V0c2lkZV93aWR0aFtpXVtqXSA9IGxlbihsZWFmc1tpXS5vdXRzaWRlX3NldCkgKyAxCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICNhc3NlcnQgbGVuKHZlcnRleF9zZXQpID09IGxlbih0b3BvX2xpc3QpCg==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text># if curr_edge.label in exclude_rels:
             #     visited.add(child_index)
             #     if curr_edge.label != 'name':
@@ -763,23 +766,20 @@
             #             stack.append((next_child_index, next_edge.label, curr_node_index, unaligned))
             #     continue</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjIGV4Y2x1ZGVfcmVscywgY3VyX3N5bWJvbCwgY2F0ZWdvcml6ZWQgPSBbXSwgY3Vycl92YXIsIEZhbHNlCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAjIGV4Y2x1ZGVfcmVscywgY3VyX3N5bWJvbCwgY2F0ZWdvcml6ZWQgPSBbXSwgY3Vycl92YXIsIEZhbHNlCg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">CiMgZGVmCg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
