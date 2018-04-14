@@ -197,12 +197,12 @@
         <mark key="^" line="270" column="5" />
         <mark key="." line="376" column="35" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523727829375">
-        <mark key="'" line="297" column="29" />
-        <mark key="[" line="309" column="38" />
-        <mark key="]" line="309" column="48" />
-        <mark key="^" line="309" column="48" />
-        <mark key="." line="309" column="48" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523729444227">
+        <mark key="'" line="372" column="67" />
+        <mark key="[" line="307" column="0" />
+        <mark key="]" line="307" column="0" />
+        <mark key="^" line="283" column="4" />
+        <mark key="." line="307" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -624,12 +624,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="501" column="37" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="664" column="39" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="509" column="0" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="900" column="46" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="532" column="4" filename="$USER_HOME$/SHRG-induction/categorize_amr.py" />
-      <jump line="899" column="46" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="895" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="795" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="799" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -724,33 +718,59 @@
       <jump line="617" column="60" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="297" column="29" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="191" column="29" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="370" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="451" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="452" column="35" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="358" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="323" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="372" column="67" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>leafs[i].outside_set</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
-        <text>leafs[i].outside_set</text>
+        <text encoding="base64">b3V0c2lkZV93aWR0aFswXVtuXS0xLCA=</text>
       </register>
       <register name="/" type="4">
-        <text>outside_</text>
+        <text>inorder</text>
       </register>
       <register name="0" type="4">
         <text>(curr_node_idx, child_index)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3V0c2lkZV93aWR0aFtpXVtqXSA9IGxlbihsZWFmc1tpXS5vdXRzaWRlX3NldCkgKyAxCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICNhc3NlcnQgbGVuKHZlcnRleF9zZXQpID09IGxlbih0b3BvX2xpc3QpCg==</text>
+      <register name="2" type="4">
+        <text># Outside tree decomposition.
+        if i not in right_neighbors:
+            outside_width[i][j] = len(outside_set) + 1
+            # outside_width[i][j] = len(leafs[i].outside_set) + 1
+            outside_bags[(i, j)] = out_bag
+        # map_to_order(leafs[i].outside_set) | set([i])
+        else:
+            outside_bags[(i, j)] = {}
+        backpointers[(i, j)] = None</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgIHJldHVybiBpbnNpZGVfd2lkdGhbMF1bbl0tMSwgb3V0c2lkZV93aWR0aFswXVtuXS0xLCBpbm9yZGVyX3dpZHRoWzBdW25dLTEK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBpbm9yZGVyX3dpZHRoW2ldW2pdID0gbGVuKGxlYWZzW2ldLm91dHNpZGVfc2V0KSArIDEK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgb3V0c2lkZV93aWR0aFtpXVtqXSA9IGxlbihsZWFmc1tpXS5vdXRzaWRlX3NldCkgKyAxCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICNhc3NlcnQgbGVuKHZlcnRleF9zZXQpID09IGxlbih0b3BvX2xpc3QpCg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="8" type="4">
         <text># if curr_edge.label in exclude_rels:
             #     visited.add(child_index)
             #     if curr_edge.label != 'name':
@@ -766,18 +786,6 @@
             #             stack.append((next_child_index, next_edge.label, curr_node_index, unaligned))
             #     continue</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIGV4Y2x1ZGVfcmVscywgY3VyX3N5bWJvbCwgY2F0ZWdvcml6ZWQgPSBbXSwgY3Vycl92YXIsIEZhbHNlCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">CiMgZGVmCg==</text>
-      </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
@@ -786,9 +794,9 @@
       </register>
     </registers>
     <search>
-      <last-search>outside_</last-search>
+      <last-search>inorder</last-search>
       <last-offset />
-      <last-pattern>outside_</last-pattern>
+      <last-pattern>inorder</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -826,6 +834,8 @@
         <entry>general</entry>
         <entry>edge_map</entry>
         <entry>outside_</entry>
+        <entry>outside_width</entry>
+        <entry>inorder</entry>
       </history-search>
       <history-cmd>
         <entry>94</entry>
