@@ -197,12 +197,12 @@
         <mark key="^" line="270" column="5" />
         <mark key="." line="376" column="35" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523845347828">
-        <mark key="'" line="293" column="22" />
-        <mark key="[" line="329" column="56" />
-        <mark key="]" line="329" column="58" />
-        <mark key="." line="329" column="58" />
-        <mark key="^" line="329" column="58" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523846029708">
+        <mark key="'" line="366" column="20" />
+        <mark key="[" line="366" column="41" />
+        <mark key="]" line="366" column="56" />
+        <mark key="." line="366" column="56" />
+        <mark key="^" line="366" column="56" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -624,9 +624,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="795" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="799" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="801" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="897" column="16" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="878" column="26" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="873" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -724,16 +721,19 @@
       <jump line="293" column="22" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="191" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="329" column="12" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
+      <jump line="353" column="24" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="357" column="32" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="366" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>.ext_set</text>
+        <text>chart[i][j].outside_set</text>
       </register>
       <register name="-" type="4">
-        <text>.ext_set</text>
+        <text>chart[i][j].outside_set</text>
       </register>
       <register name="/" type="4">
-        <text>general_combin</text>
+        <text>chart</text>
       </register>
       <register name="0" type="4">
         <text>(curr_node_idx, child_index)</text>
@@ -775,9 +775,9 @@
       </register>
     </registers>
     <search>
-      <last-search>general_combin</last-search>
+      <last-search>chart</last-search>
       <last-offset />
-      <last-pattern>general_combin</last-pattern>
+      <last-pattern>chart</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -818,6 +818,7 @@
         <entry>outside_width</entry>
         <entry>inorder</entry>
         <entry>general_combin</entry>
+        <entry>chart</entry>
       </history-search>
       <history-cmd>
         <entry>94</entry>
