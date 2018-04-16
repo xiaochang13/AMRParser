@@ -178,12 +178,12 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1523901933718">
-        <mark key="'" line="487" column="4" />
-        <mark key="[" line="450" column="0" />
-        <mark key="]" line="450" column="0" />
-        <mark key="^" line="490" column="7" />
-        <mark key="." line="450" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1523903677629">
+        <mark key="'" line="434" column="4" />
+        <mark key="[" line="461" column="8" />
+        <mark key="]" line="444" column="8" />
+        <mark key="^" line="444" column="8" />
+        <mark key="." line="444" column="8" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -628,7 +628,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="451" column="36" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="445" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="449" column="36" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="368" column="12" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
@@ -728,6 +727,7 @@
       <jump line="492" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="417" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="508" column="55" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="434" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -737,7 +737,7 @@
         <text encoding="base64">b3V0c2lkZV93aWR0aCwg</text>
       </register>
       <register name="/" type="4">
-        <text>topo_list</text>
+        <text>sorted_index</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">ZWRnZV9sYWJlbF9tYXAgPSB7fQogICAgICAgICAgICBmb3IgKG5vZGVfaWR4LCB0YWlsX2lkeCkgaW4gZWRnZV9sYWJlbHM6CiAgICAgICAgICAgICAgICBzdGFydF9pZCA9IHBpX21hcFtub2RlX2lkeF0KICAgICAgICAgICAgICAgIGVuZF9pZCA9IHBpX21hcFt0YWlsX2lkeF0KICAgICAgICAgICAgICAgIGN1cnJfbGFiID0gZWRnZV9sYWJlbHNbKG5vZGVfaWR4LCB0YWlsX2lkeCldCiAgICAgICAgICAgICAgICBpZiBzdGFydF9pZCA8IGVuZF9pZDoKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIlItIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKChzdGFydF9pZCwgZW5kX2lkKSldID0gYXJjX2xhYgogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIkwtIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKGVuZF9pZCwgc3RhcnRfaWQpXSA9IGFyY19sYWI=</text>
@@ -782,9 +782,9 @@
       </register>
     </registers>
     <search>
-      <last-search>topo_list</last-search>
+      <last-search>sorted_index</last-search>
       <last-offset />
-      <last-pattern>topo_list</last-pattern>
+      <last-pattern>sorted_index</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -840,6 +840,7 @@
         <entry>all_collapsed</entry>
         <entry>outside_width</entry>
         <entry>topo_list</entry>
+        <entry>sorted_index</entry>
       </history-search>
       <history-cmd>
         <entry>94</entry>
