@@ -95,11 +95,11 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523887218646">
-        <mark key="[" line="517" column="12" />
-        <mark key="]" line="517" column="12" />
-        <mark key="." line="517" column="12" />
-        <mark key="^" line="517" column="12" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523887979821">
+        <mark key="[" line="524" column="0" />
+        <mark key="]" line="524" column="0" />
+        <mark key="^" line="523" column="100" />
+        <mark key="." line="524" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hrg_width.py" timestamp="1523847419074">
         <mark key="'" line="349" column="40" />
@@ -730,10 +730,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>edge_labels</text>
+        <text>pi_nodelabels</text>
       </register>
       <register name="/" type="4">
         <text>edge_labels</text>
@@ -742,45 +742,36 @@
         <text encoding="base64">ZWRnZV9sYWJlbF9tYXAgPSB7fQogICAgICAgICAgICBmb3IgKG5vZGVfaWR4LCB0YWlsX2lkeCkgaW4gZWRnZV9sYWJlbHM6CiAgICAgICAgICAgICAgICBzdGFydF9pZCA9IHBpX21hcFtub2RlX2lkeF0KICAgICAgICAgICAgICAgIGVuZF9pZCA9IHBpX21hcFt0YWlsX2lkeF0KICAgICAgICAgICAgICAgIGN1cnJfbGFiID0gZWRnZV9sYWJlbHNbKG5vZGVfaWR4LCB0YWlsX2lkeCldCiAgICAgICAgICAgICAgICBpZiBzdGFydF9pZCA8IGVuZF9pZDoKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIlItIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKChzdGFydF9pZCwgZW5kX2lkKSldID0gYXJjX2xhYgogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIkwtIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKGVuZF9pZCwgc3RhcnRfaWQpXSA9IGFyY19sYWI=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="4">
+        <text encoding="base64">IyBlZGdlX2xhYmVsX21hcCA9IHt9CiAgICAgICAgICAgICMgZm9yIChub2RlX2lkeCwgdGFpbF9pZHgpIGluIGVkZ2VfbGFiZWxzOgogICAgICAgICAgICAjICAgICBzdGFydF9pZCA9IHBpX21hcFtub2RlX2lkeF0KICAgICAgICAgICAgIyAgICAgZW5kX2lkID0gcGlfbWFwW3RhaWxfaWR4XQogICAgICAgICAgICAjICAgICBjdXJyX2xhYiA9IGVkZ2VfbGFiZWxzWyhub2RlX2lkeCwgdGFpbF9pZHgpXQogICAgICAgICAgICAjICAgICBpZiBzdGFydF9pZCA8IGVuZF9pZDoKICAgICAgICAgICAgIyAgICAgICAgIGFyY19sYWIgPSAiUi0iICsgY3Vycl9sYWIKICAgICAgICAgICAgIyAgICAgICAgIGVkZ2VfbGFiZWxfbWFwWygoc3RhcnRfaWQsIGVuZF9pZCkpXSA9IGFyY19sYWIKICAgICAgICAgICAgIyAgICAgZWxzZToKICAgICAgICAgICAgIyAgICAgICAgIGFyY19sYWIgPSAiTC0iICsgY3Vycl9sYWIKICAgICAgICAgICAgIyAgICAgICAgIGVkZ2VfbGFiZWxfbWFwWyhlbmRfaWQsIHN0YXJ0X2lkKV0gPSBhcmNfbGFiCgogICAgICAgICAgICAjIGFzc2VydCBsZW4ocGlfc2VxKSA9PSBsZW4obmV3X2Ftci5ub2Rlcyk=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgIlZlcnRleCBvcmRlcjoiLCAiICIuam9pbihbIiVkOiVzIiAlIChpZCwgbCkgZm9yIChpZCwgbCkgaW4gZW51bWVyYXRlKHBpX25vZGVsYWJlbHMpXSkK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="5" type="4">
         <text># if args.depth:
             #     pi_seq, edge_map, edge_list, edge_labels = depthFirstPi(new_amr, new_amr.sent, new_alignment, sorted_idxes, print_info)
             # else:</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICMgZWRnZV9saXN0ID0gW10K</text>
       </register>
-      <register name="4" type="8">
+      <register name="7" type="8">
         <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
       </register>
-      <register name="5" type="8">
+      <register name="8" type="8">
         <text encoding="base64">ICAgICAgICAKICAgICAgICA=</text>
       </register>
-      <register name="6" type="2">
+      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgIHIK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="4">
-        <text># all_edges = ordered_edges(pi_seq, pi_map, edge_map)
-        # print &quot;Edges:&quot;, &quot; &quot;.join(all_edges)
-        # right_neighbors = buildRightNeighbors(pi_seq, pi_map, edge_map)
-
-        # aligned = []
-        # for node_idx in pi_seq:
-        #     curr_node = new_amr.nodes[node_idx]
-        #     curr_frag = new_amr.build_entity_fragment(curr_node)
-        #     curr_frag.build_outside_set(set([node_idx]), pi_map)
-        #     aligned.append(curr_frag)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
