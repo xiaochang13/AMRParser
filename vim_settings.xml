@@ -95,11 +95,11 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523893545692">
-        <mark key="'" line="427" column="0" />
-        <mark key="[" line="543" column="0" />
-        <mark key="]" line="543" column="0" />
-        <mark key="." line="543" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523894218954">
+        <mark key="'" line="508" column="55" />
+        <mark key="[" line="512" column="0" />
+        <mark key="]" line="512" column="0" />
+        <mark key="." line="512" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hrg_width.py" timestamp="1523847419074">
         <mark key="'" line="349" column="40" />
@@ -627,8 +627,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="272" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="584" column="23" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="524" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="442" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="451" column="36" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
@@ -727,6 +725,8 @@
       <jump line="469" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="593" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="427" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="508" column="55" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="508" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -748,34 +748,32 @@
         <text />
       </register>
       <register name="2" type="4">
-        <text encoding="base64">IyBhc3NlcnQgaW5vcmRlcl93aWR0aCA8PSBvdXRzaWRlX3dpZHRoLCAidW5leHBlY3RlZCBvdXRzaWRlIGJldHRlciB0aGFuIGlub3JkZXIgZm91bmQiCiAgICAgICAgICAgICMgYXNzZXJ0IG91dHNpZGVfd2lkdGggPT0gY2FjaGVfd2lkdGg=</text>
+        <text># pi_map = {}
+            # for (i, v) in enumerate(pi_seq):
+            #     pi_map[v] = i</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">IyBhc3NlcnQgaW5vcmRlcl93aWR0aCA8PSBvdXRzaWRlX3dpZHRoLCAidW5leHBlY3RlZCBvdXRzaWRlIGJldHRlciB0aGFuIGlub3JkZXIgZm91bmQiCiAgICAgICAgICAgICMgYXNzZXJ0IG91dHNpZGVfd2lkdGggPT0gY2FjaGVfd2lkdGg=</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="5" type="4">
-        <text>total_outside_width = 0.0
-    max_outside_width = 0.0
-    outside_dist = defaultdict(int)</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="4">
+        <text>total_outside_width = 0.0
+    max_outside_width = 0.0
+    outside_dist = defaultdict(int)</text>
       </register>
-      <register name="8" type="4">
-        <text>print &quot;outside treewidth:&quot;
-    sorted_outside_width = sorted(outside_dist.items(), key=lambda x: -x[1])
-    for (width, count) in sorted_outside_width:
-        print 'width: %d, count: %d' % (width, count)
-    print 'Average outside treewidth:\n', total_outside_width/n_success</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
