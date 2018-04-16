@@ -197,12 +197,11 @@
         <mark key="^" line="270" column="5" />
         <mark key="." line="376" column="35" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523744824842">
-        <mark key="'" line="371" column="67" />
-        <mark key="[" line="442" column="0" />
-        <mark key="]" line="442" column="0" />
-        <mark key="^" line="357" column="12" />
-        <mark key="." line="442" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523842156451">
+        <mark key="'" line="350" column="67" />
+        <mark key="[" line="337" column="0" />
+        <mark key="]" line="337" column="0" />
+        <mark key="." line="337" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_output.py" timestamp="1507574321487">
         <mark key="'" line="46" column="52" />
@@ -727,7 +726,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICMgcmV0dXJuIGluc2lkZV93aWR0aFswXVtuXS0xLCBvdXRzaWRlX3dpZHRoWzBdW25dLTEsIGlub3JkZXJfd2lkdGhbMF1bbl0tMQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">b3V0c2lkZV93aWR0aFswXVtuXS0xLCA=</text>
@@ -739,42 +738,34 @@
         <text>(curr_node_idx, child_index)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICMgcmV0dXJuIGluc2lkZV93aWR0aFswXVtuXS0xLCBvdXRzaWRlX3dpZHRoWzBdW25dLTEsIGlub3JkZXJfd2lkdGhbMF1bbl0tMQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMgcmV0dXJuIGluc2lkZV93aWR0aFswXVtuXS0xLCBvdXRzaWRlX3dpZHRoWzBdW25dLTEsIGlub3JkZXJfd2lkdGhbMF1bbl0tMQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyAgICAgICAgI291dHNpZGVfYmFnc1soaSwgaildID0gbWFwX3RvX29yZGVyKGNoYXJ0W2ldW2tdLm91dHNpZGVfc2V0KSB8IG1hcF90b19vcmRlcigK</text>
+      <register name="3" type="4">
+        <text encoding="base64">IyBUaGVuIHdlIGNvbXB1dGUgdGhlIHRyZWV3aWR0aCBvZiBwcmUtb3JkZXIgdHJlZSBkZWNvbXBvc2l0aW9uLgogICAgICAgICAgICAjIEZpcnN0IHVuYXJ5CiAgICAgICAgICAgICMgaWYgaSBpbiByaWdodF9uZWlnaGJvcnMgYW5kIHJpZ2h0X25laWdoYm9yc1tpXSA8IGo6CiAgICAgICAgICAgICMgICAgICMgYjEgPSBsZW4oY2hhcnRbaSsxXVtqXS5vdXRzaWRlX3NldCkgKyAxCiAgICAgICAgICAgICMgICAgIGIxID0gbGVuKGNoYXJ0W2ldW2pdLm91dHNpZGVfc2V0KSArIDEKICAgICAgICAgICAgIyAgICAgIyBvdXRzaWRlX2JhZ3NbKGksIGopXSA9IG1hcF90b19vcmRlcihjaGFydFtpXVtqXS5vdXRzaWRlX3NldCkgfCBzZXQoW2ldKQogICAgICAgICAgICAjICAgICBvdXRzaWRlX2JhZ3NbKGksIGopXSA9IGNoYXJ0W2ldW2pdLm91dHNpZGVfc2V0IHwgc2V0KFtpXSkKICAgICAgICAgICAgIyAgICAgb3V0c2lkZV93aWR0aFtpXVtqXSA9IG1heChiMSwgb3V0c2lkZV93aWR0aFtpKzFdW2pdKQoKICAgICAgICAgICAgIyAgICAgYmFja3BvaW50ZXJzWyhpLCBqKV0gPSBbKGkrMSwgaildCgogICAgICAgICAgICAjICMgTmV4dCB3ZSBjb25zaWRlciBiaW5hcnkKICAgICAgICAgICAgIyBmb3IgayBpbiByYW5nZShpKzEsIGopOgogICAgICAgICAgICAjICAgICBiMyA9IGxlbihjaGFydFtpXVtrXS5vdXRzaWRlX3NldCB8IGNoYXJ0W2tdW2pdLm91dHNpZGVfc2V0KQogICAgICAgICAgICAjICAgICBjdXJyX3dpZHRoID0gbWF4KG91dHNpZGVfd2lkdGhbaV1ba10sIG91dHNpZGVfd2lkdGhba11bal0sIGIzKQogICAgICAgICAgICAjICAgICBpZiBjdXJyX3dpZHRoIDwgb3V0c2lkZV93aWR0aFtpXVtqXToKICAgICAgICAgICAgIyAgICAgICAgIG91dHNpZGVfd2lkdGhbaV1bal0gPSBjdXJyX3dpZHRoCiAgICAgICAgICAgICMgICAgICAgICBiYWNrcG9pbnRlcnNbKGksIGopXSA9IFsoaSwgayksIChrLCBqKV0KCiAgICAgICAgICAgICAgICAgICAgI291dHNpZGVfYmFnc1soaSwgaildID0gbWFwX3RvX29yZGVyKGNoYXJ0W2ldW2tdLm91dHNpZGVfc2V0KSB8IG1hcF90b19vcmRlcigKICAgICAgICAgICAgICAgICAgICBvdXRzaWRlX2JhZ3NbKGksIGopXSA9IGNoYXJ0W2ldW2tdLm91dHNpZGVfc2V0IHwgY2hhcnRba11bal0ub3V0c2lkZV9zZXQ=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
-        <text># Outside tree decomposition.
-        if i not in right_neighbors:
-            outside_width[i][j] = len(outside_set) + 1
-            # outside_width[i][j] = len(leafs[i].outside_set) + 1
-            outside_bags[(i, j)] = out_bag
-        # map_to_order(leafs[i].outside_set) | set([i])
-        else:
-            outside_bags[(i, j)] = {}
-        backpointers[(i, j)] = None</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBpbnNpZGVfd2lkdGhbMF1bbl0tMSwgb3V0c2lkZV93aWR0aFswXVtuXS0xLCBpbm9yZGVyX3dpZHRoWzBdW25dLTEK</text>
+      <register name="6" type="4">
+        <text encoding="base64">IyBUaGVuIHdlIGNvbXB1dGUgdGhlIHRyZWV3aWR0aCBvZiBwcmUtb3JkZXIgdHJlZSBkZWNvbXBvc2l0aW9uLgogICAgICAgICAgICAjIEZpcnN0IHVuYXJ5CiAgICAgICAgICAgICMgaWYgaSBpbiByaWdodF9uZWlnaGJvcnMgYW5kIHJpZ2h0X25laWdoYm9yc1tpXSA8IGo6CiAgICAgICAgICAgICMgICAgICMgYjEgPSBsZW4oY2hhcnRbaSsxXVtqXS5vdXRzaWRlX3NldCkgKyAxCiAgICAgICAgICAgICMgICAgIGIxID0gbGVuKGNoYXJ0W2ldW2pdLm91dHNpZGVfc2V0KSArIDEKICAgICAgICAgICAgIyAgICAgIyBvdXRzaWRlX2JhZ3NbKGksIGopXSA9IG1hcF90b19vcmRlcihjaGFydFtpXVtqXS5vdXRzaWRlX3NldCkgfCBzZXQoW2ldKQogICAgICAgICAgICAjICAgICBvdXRzaWRlX2JhZ3NbKGksIGopXSA9IGNoYXJ0W2ldW2pdLm91dHNpZGVfc2V0IHwgc2V0KFtpXSkKICAgICAgICAgICAgIyAgICAgb3V0c2lkZV93aWR0aFtpXVtqXSA9IG1heChiMSwgb3V0c2lkZV93aWR0aFtpKzFdW2pdKQoKICAgICAgICAgICAgIyAgICAgYmFja3BvaW50ZXJzWyhpLCBqKV0gPSBbKGkrMSwgaildCgogICAgICAgICAgICAjICMgTmV4dCB3ZSBjb25zaWRlciBiaW5hcnkKICAgICAgICAgICAgIyBmb3IgayBpbiByYW5nZShpKzEsIGopOgogICAgICAgICAgICAjICAgICBiMyA9IGxlbihjaGFydFtpXVtrXS5vdXRzaWRlX3NldCB8IGNoYXJ0W2tdW2pdLm91dHNpZGVfc2V0KQogICAgICAgICAgICAjICAgICBjdXJyX3dpZHRoID0gbWF4KG91dHNpZGVfd2lkdGhbaV1ba10sIG91dHNpZGVfd2lkdGhba11bal0sIGIzKQogICAgICAgICAgICAjICAgICBpZiBjdXJyX3dpZHRoIDwgb3V0c2lkZV93aWR0aFtpXVtqXToKICAgICAgICAgICAgIyAgICAgICAgIG91dHNpZGVfd2lkdGhbaV1bal0gPSBjdXJyX3dpZHRoCiAgICAgICAgICAgICMgICAgICAgICBiYWNrcG9pbnRlcnNbKGksIGopXSA9IFsoaSwgayksIChrLCBqKV0KCiAgICAgICAgICAgICMgICAgICAgIG91dHNpZGVfYmFnc1soaSwgaildID0gY2hhcnRbaV1ba10ub3V0c2lkZV9zZXQgfCBjaGFydFtrXVtqXS5vdXRzaWRlX3NldA==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpbm9yZGVyX3dpZHRoW2ldW2pdID0gbGVuKGxlYWZzW2ldLm91dHNpZGVfc2V0KSArIDEK</text>
+        <text encoding="base64">ICAgICMgcmV0dXJuIGluc2lkZV93aWR0aFswXVtuXS0xLCBvdXRzaWRlX3dpZHRoWzBdW25dLTEsIGlub3JkZXJfd2lkdGhbMF1bbl0tMQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3V0c2lkZV93aWR0aFtpXVtqXSA9IGxlbihsZWFmc1tpXS5vdXRzaWRlX3NldCkgKyAxCg==</text>
+        <text encoding="base64">ICAgICMgcmV0dXJuIGluc2lkZV93aWR0aFswXVtuXS0xLCBvdXRzaWRlX3dpZHRoWzBdW25dLTEsIGlub3JkZXJfd2lkdGhbMF1bbl0tMQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICNhc3NlcnQgbGVuKHZlcnRleF9zZXQpID09IGxlbih0b3BvX2xpc3QpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyAgICAgICAgI291dHNpZGVfYmFnc1soaSwgaildID0gbWFwX3RvX29yZGVyKGNoYXJ0W2ldW2tdLm91dHNpZGVfc2V0KSB8IG1hcF90b19vcmRlcigK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
