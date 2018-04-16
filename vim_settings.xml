@@ -95,11 +95,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523894218954">
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523902116994">
         <mark key="'" line="508" column="55" />
-        <mark key="[" line="512" column="0" />
-        <mark key="]" line="512" column="0" />
-        <mark key="." line="512" column="0" />
+        <mark key="[" line="511" column="30" />
+        <mark key="]" line="513" column="23" />
+        <mark key="." line="513" column="23" />
+        <mark key="^" line="513" column="23" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hrg_width.py" timestamp="1523847419074">
         <mark key="'" line="349" column="40" />
@@ -177,12 +178,12 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1523893079503">
-        <mark key="'" line="453" column="14" />
-        <mark key="[" line="503" column="0" />
-        <mark key="]" line="503" column="0" />
-        <mark key="^" line="495" column="7" />
-        <mark key="." line="503" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1523901933718">
+        <mark key="'" line="487" column="4" />
+        <mark key="[" line="450" column="0" />
+        <mark key="]" line="450" column="0" />
+        <mark key="^" line="490" column="7" />
+        <mark key="." line="450" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -627,8 +628,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="524" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
-      <jump line="442" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="451" column="36" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="445" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="449" column="36" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
@@ -725,64 +724,67 @@
       <jump line="469" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="593" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="427" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="508" column="55" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="508" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
+      <jump line="492" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
+      <jump line="417" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
+      <jump line="508" column="55" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">b3V0c2lkZV93aWR0aCwg</text>
       </register>
       <register name="/" type="4">
-        <text>outside_width</text>
+        <text>topo_list</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">ZWRnZV9sYWJlbF9tYXAgPSB7fQogICAgICAgICAgICBmb3IgKG5vZGVfaWR4LCB0YWlsX2lkeCkgaW4gZWRnZV9sYWJlbHM6CiAgICAgICAgICAgICAgICBzdGFydF9pZCA9IHBpX21hcFtub2RlX2lkeF0KICAgICAgICAgICAgICAgIGVuZF9pZCA9IHBpX21hcFt0YWlsX2lkeF0KICAgICAgICAgICAgICAgIGN1cnJfbGFiID0gZWRnZV9sYWJlbHNbKG5vZGVfaWR4LCB0YWlsX2lkeCldCiAgICAgICAgICAgICAgICBpZiBzdGFydF9pZCA8IGVuZF9pZDoKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIlItIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKChzdGFydF9pZCwgZW5kX2lkKSldID0gYXJjX2xhYgogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIkwtIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKGVuZF9pZCwgc3RhcnRfaWQpXSA9IGFyY19sYWI=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="3" type="4">
+        <text># edge_map[curr_node_index].add(child_index)
+            # edge_map[child_index].add(curr_node_index)
+            # edge_labels[(curr_node_index, child_index)] = curr_edge.label
+            # edge_list.append((curr_node_index, child_index))</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="5" type="4">
         <text># pi_map = {}
             # for (i, v) in enumerate(pi_seq):
             #     pi_map[v] = i</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text encoding="base64">IyBhc3NlcnQgaW5vcmRlcl93aWR0aCA8PSBvdXRzaWRlX3dpZHRoLCAidW5leHBlY3RlZCBvdXRzaWRlIGJldHRlciB0aGFuIGlub3JkZXIgZm91bmQiCiAgICAgICAgICAgICMgYXNzZXJ0IG91dHNpZGVfd2lkdGggPT0gY2FjaGVfd2lkdGg=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="7" type="4">
-        <text>total_outside_width = 0.0
-    max_outside_width = 0.0
-    outside_dist = defaultdict(int)</text>
-      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>outside_width</last-search>
+      <last-search>topo_list</last-search>
       <last-offset />
-      <last-pattern>outside_width</last-pattern>
+      <last-pattern>topo_list</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -837,6 +839,7 @@
         <entry>all_edgemaps</entry>
         <entry>all_collapsed</entry>
         <entry>outside_width</entry>
+        <entry>topo_list</entry>
       </history-search>
       <history-cmd>
         <entry>94</entry>
