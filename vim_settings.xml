@@ -95,10 +95,10 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523850076782">
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523886235600">
         <mark key="'" line="513" column="36" />
-        <mark key="[" line="515" column="30" />
-        <mark key="]" line="515" column="30" />
+        <mark key="[" line="525" column="12" />
+        <mark key="]" line="535" column="63" />
         <mark key="." line="515" column="30" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hrg_width.py" timestamp="1523847419074">
@@ -177,12 +177,12 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1523850283230">
-        <mark key="'" line="765" column="30" />
-        <mark key="[" line="480" column="32" />
-        <mark key="]" line="435" column="12" />
-        <mark key="." line="435" column="12" />
-        <mark key="^" line="435" column="12" />
+      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1523886249568">
+        <mark key="'" line="781" column="30" />
+        <mark key="[" line="489" column="4" />
+        <mark key="]" line="489" column="4" />
+        <mark key="." line="489" column="4" />
+        <mark key="^" line="488" column="4" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -729,31 +729,37 @@
       <jump line="763" column="30" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">ZWRnZV9saXN0LCA=</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ZWRnZV9saXN0LCA=</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>edge_list</text>
       </register>
       <register name="0" type="4">
-        <text>(curr_node_idx, child_index)</text>
+        <text encoding="base64">ZWRnZV9sYWJlbF9tYXAgPSB7fQogICAgICAgICAgICBmb3IgKG5vZGVfaWR4LCB0YWlsX2lkeCkgaW4gZWRnZV9sYWJlbHM6CiAgICAgICAgICAgICAgICBzdGFydF9pZCA9IHBpX21hcFtub2RlX2lkeF0KICAgICAgICAgICAgICAgIGVuZF9pZCA9IHBpX21hcFt0YWlsX2lkeF0KICAgICAgICAgICAgICAgIGN1cnJfbGFiID0gZWRnZV9sYWJlbHNbKG5vZGVfaWR4LCB0YWlsX2lkeCldCiAgICAgICAgICAgICAgICBpZiBzdGFydF9pZCA8IGVuZF9pZDoKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIlItIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKChzdGFydF9pZCwgZW5kX2lkKSldID0gYXJjX2xhYgogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIkwtIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKGVuZF9pZCwgc3RhcnRfaWQpXSA9IGFyY19sYWI=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="8">
+        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICAKICAgICAgICA=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgIHIK</text>
+      <register name="2" type="8">
+        <text encoding="base64">ICAgICAgICAKICAgICAgICA=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgIHIK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="4">
         <text># all_edges = ordered_edges(pi_seq, pi_map, edge_map)
         # print &quot;Edges:&quot;, &quot; &quot;.join(all_edges)
         # right_neighbors = buildRightNeighbors(pi_seq, pi_map, edge_map)
@@ -765,17 +771,11 @@
         #     curr_frag.build_outside_set(set([node_idx]), pi_map)
         #     aligned.append(curr_frag)</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgcHJpbnRfaW5mbyA9IEZhbHNlCg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBjdXJyX3ZhciA9IGN1cnJfbm9kZS5ub2RlX3N0cigpCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">CiAgICAjIG4gPSBsZW4obGVhZnMpICMgU3RhcnQgZnJvbSB0aGUgbGVhdmVz</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
