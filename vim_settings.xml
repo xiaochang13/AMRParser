@@ -95,8 +95,8 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523907495275">
-        <mark key="'" line="508" column="48" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523908949054">
+        <mark key="'" line="367" column="4" />
         <mark key="[" line="481" column="8" />
         <mark key="]" line="481" column="9" />
         <mark key="." line="481" column="9" />
@@ -628,9 +628,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="549" column="59" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="351" column="8" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
-      <jump line="551" column="16" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="392" column="0" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="499" column="15" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="326" column="8" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
@@ -681,9 +678,7 @@
       <jump line="375" column="11" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="389" column="11" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="264" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="146" column="30" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="271" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="518" column="59" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="416" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="599" column="22" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="437" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
@@ -723,11 +718,16 @@
       <jump line="417" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="434" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="456" column="5" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
-      <jump line="508" column="48" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="352" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="346" column="24" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="499" column="32" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="429" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
+      <jump line="146" column="43" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="379" column="66" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="508" column="30" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="518" column="18" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="523" column="59" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="367" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -737,7 +737,7 @@
         <text>s</text>
       </register>
       <register name="/" type="4">
-        <text>edge_labels</text>
+        <text>edge_label_ma</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">ZWRnZV9sYWJlbF9tYXAgPSB7fQogICAgICAgICAgICBmb3IgKG5vZGVfaWR4LCB0YWlsX2lkeCkgaW4gZWRnZV9sYWJlbHM6CiAgICAgICAgICAgICAgICBzdGFydF9pZCA9IHBpX21hcFtub2RlX2lkeF0KICAgICAgICAgICAgICAgIGVuZF9pZCA9IHBpX21hcFt0YWlsX2lkeF0KICAgICAgICAgICAgICAgIGN1cnJfbGFiID0gZWRnZV9sYWJlbHNbKG5vZGVfaWR4LCB0YWlsX2lkeCldCiAgICAgICAgICAgICAgICBpZiBzdGFydF9pZCA8IGVuZF9pZDoKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIlItIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKChzdGFydF9pZCwgZW5kX2lkKSldID0gYXJjX2xhYgogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIkwtIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKGVuZF9pZCwgc3RhcnRfaWQpXSA9IGFyY19sYWI=</text>
@@ -784,9 +784,9 @@
       </register>
     </registers>
     <search>
-      <last-search>edge_labels</last-search>
+      <last-search>edge_label_ma</last-search>
       <last-offset />
-      <last-pattern>edge_labels</last-pattern>
+      <last-pattern>edge_label_ma</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -843,6 +843,7 @@
         <entry>topo_list</entry>
         <entry>sorted_index</entry>
         <entry>edge_labels</entry>
+        <entry>edge_label_ma</entry>
       </history-search>
       <history-cmd>
         <entry>94</entry>
