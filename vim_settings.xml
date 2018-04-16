@@ -95,12 +95,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523908949054">
-        <mark key="'" line="367" column="4" />
-        <mark key="[" line="481" column="8" />
-        <mark key="]" line="481" column="9" />
-        <mark key="." line="481" column="9" />
-        <mark key="^" line="481" column="8" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523910360778">
+        <mark key="'" line="533" column="0" />
+        <mark key="[" line="528" column="8" />
+        <mark key="]" line="528" column="8" />
+        <mark key="." line="528" column="8" />
+        <mark key="^" line="528" column="8" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hrg_width.py" timestamp="1523847419074">
         <mark key="'" line="349" column="40" />
@@ -628,9 +628,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="392" column="0" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="499" column="15" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="326" column="8" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="497" column="16" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="589" column="26" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="178" column="50" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -728,16 +725,19 @@
       <jump line="518" column="18" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="523" column="59" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="367" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="484" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="497" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="533" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>s</text>
+        <text>inside</text>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text>inside</text>
       </register>
       <register name="/" type="4">
-        <text>edge_label_ma</text>
+        <text>new_amr</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">ZWRnZV9sYWJlbF9tYXAgPSB7fQogICAgICAgICAgICBmb3IgKG5vZGVfaWR4LCB0YWlsX2lkeCkgaW4gZWRnZV9sYWJlbHM6CiAgICAgICAgICAgICAgICBzdGFydF9pZCA9IHBpX21hcFtub2RlX2lkeF0KICAgICAgICAgICAgICAgIGVuZF9pZCA9IHBpX21hcFt0YWlsX2lkeF0KICAgICAgICAgICAgICAgIGN1cnJfbGFiID0gZWRnZV9sYWJlbHNbKG5vZGVfaWR4LCB0YWlsX2lkeCldCiAgICAgICAgICAgICAgICBpZiBzdGFydF9pZCA8IGVuZF9pZDoKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIlItIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKChzdGFydF9pZCwgZW5kX2lkKSldID0gYXJjX2xhYgogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIkwtIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKGVuZF9pZCwgc3RhcnRfaWQpXSA9IGFyY19sYWI=</text>
@@ -784,9 +784,9 @@
       </register>
     </registers>
     <search>
-      <last-search>edge_label_ma</last-search>
+      <last-search>new_amr</last-search>
       <last-offset />
-      <last-pattern>edge_label_ma</last-pattern>
+      <last-pattern>new_amr</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -812,7 +812,6 @@
         <entry>unique_edge</entry>
         <entry>build_bim</entry>
         <entry>removeAlig</entry>
-        <entry>new_amr</entry>
         <entry>get_path_v2</entry>
         <entry>label_m</entry>
         <entry>edge_label_map</entry>
@@ -844,6 +843,7 @@
         <entry>sorted_index</entry>
         <entry>edge_labels</entry>
         <entry>edge_label_ma</entry>
+        <entry>new_amr</entry>
       </history-search>
       <history-cmd>
         <entry>94</entry>
