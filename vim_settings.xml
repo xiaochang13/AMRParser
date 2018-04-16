@@ -95,12 +95,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523902116994">
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523905375480">
         <mark key="'" line="508" column="55" />
-        <mark key="[" line="511" column="30" />
-        <mark key="]" line="513" column="23" />
-        <mark key="." line="513" column="23" />
-        <mark key="^" line="513" column="23" />
+        <mark key="[" line="469" column="8" />
+        <mark key="]" line="469" column="8" />
+        <mark key="." line="469" column="8" />
+        <mark key="^" line="469" column="8" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hrg_width.py" timestamp="1523847419074">
         <mark key="'" line="349" column="40" />
@@ -178,12 +178,12 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1523903677629">
+      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1523904864378">
         <mark key="'" line="434" column="4" />
-        <mark key="[" line="461" column="8" />
-        <mark key="]" line="444" column="8" />
+        <mark key="[" line="460" column="0" />
+        <mark key="]" line="460" column="0" />
         <mark key="^" line="444" column="8" />
-        <mark key="." line="444" column="8" />
+        <mark key="." line="460" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/ConceptLabel.java" timestamp="1484684640982">
         <mark key="'" line="69" column="11" />
@@ -628,7 +628,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="445" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="449" column="36" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="368" column="12" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="561" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -728,10 +727,11 @@
       <jump line="417" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="508" column="55" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="434" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
+      <jump line="456" column="5" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">b3V0c2lkZV93aWR0aCwg</text>
@@ -743,39 +743,42 @@
         <text encoding="base64">ZWRnZV9sYWJlbF9tYXAgPSB7fQogICAgICAgICAgICBmb3IgKG5vZGVfaWR4LCB0YWlsX2lkeCkgaW4gZWRnZV9sYWJlbHM6CiAgICAgICAgICAgICAgICBzdGFydF9pZCA9IHBpX21hcFtub2RlX2lkeF0KICAgICAgICAgICAgICAgIGVuZF9pZCA9IHBpX21hcFt0YWlsX2lkeF0KICAgICAgICAgICAgICAgIGN1cnJfbGFiID0gZWRnZV9sYWJlbHNbKG5vZGVfaWR4LCB0YWlsX2lkeCldCiAgICAgICAgICAgICAgICBpZiBzdGFydF9pZCA8IGVuZF9pZDoKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIlItIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKChzdGFydF9pZCwgZW5kX2lkKSldID0gYXJjX2xhYgogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIkwtIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKGVuZF9pZCwgc3RhcnRfaWQpXSA9IGFyY19sYWI=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="4">
+        <text># if node_index not in edge_map:
+        #     print 'Ignored edge here:'
+        #     print amr.nodes[node_index].node_str()
+        #     continue</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="6" type="4">
         <text># edge_map[curr_node_index].add(child_index)
             # edge_map[child_index].add(curr_node_index)
             # edge_labels[(curr_node_index, child_index)] = curr_edge.label
             # edge_list.append((curr_node_index, child_index))</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="8" type="4">
         <text># pi_map = {}
             # for (i, v) in enumerate(pi_seq):
             #     pi_map[v] = i</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">IyBhc3NlcnQgaW5vcmRlcl93aWR0aCA8PSBvdXRzaWRlX3dpZHRoLCAidW5leHBlY3RlZCBvdXRzaWRlIGJldHRlciB0aGFuIGlub3JkZXIgZm91bmQiCiAgICAgICAgICAgICMgYXNzZXJ0IG91dHNpZGVfd2lkdGggPT0gY2FjaGVfd2lkdGg=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
