@@ -95,12 +95,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523973684620">
-        <mark key="'" line="531" column="22" />
-        <mark key="[" line="478" column="25" />
-        <mark key="]" line="479" column="19" />
-        <mark key="." line="479" column="19" />
-        <mark key="^" line="479" column="19" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523991788191">
+        <mark key="'" line="527" column="8" />
+        <mark key="[" line="526" column="0" />
+        <mark key="]" line="526" column="0" />
+        <mark key="." line="526" column="0" />
+        <mark key="^" line="526" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hrg_width.py" timestamp="1523847419074">
         <mark key="'" line="349" column="40" />
@@ -733,8 +733,8 @@
       <jump line="424" column="18" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="440" column="32" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="444" column="32" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="527" column="22" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="838" column="4" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
+      <jump line="527" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -744,7 +744,7 @@
         <text>save</text>
       </register>
       <register name="/" type="4">
-        <text>weird decom</text>
+        <text>Weird de</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
@@ -784,9 +784,9 @@
       </register>
     </registers>
     <search>
-      <last-search>weird decom</last-search>
+      <last-search>Weird de</last-search>
       <last-offset />
-      <last-pattern>weird decom</last-pattern>
+      <last-pattern>Weird de</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -851,6 +851,7 @@
         <entry>args.data</entry>
         <entry>current cache</entry>
         <entry>weird decom</entry>
+        <entry>Weird de</entry>
       </history-search>
       <history-cmd>
         <entry>94</entry>
