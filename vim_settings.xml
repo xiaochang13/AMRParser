@@ -95,8 +95,8 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523930469803">
-        <mark key="'" line="530" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523934094186">
+        <mark key="'" line="505" column="47" />
         <mark key="[" line="477" column="0" />
         <mark key="]" line="477" column="0" />
         <mark key="^" line="480" column="11" />
@@ -178,8 +178,8 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1523907353280">
-        <mark key="'" line="429" column="4" />
+      <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1523934100730">
+        <mark key="'" line="468" column="30" />
         <mark key="[" line="499" column="42" />
         <mark key="]" line="499" column="45" />
         <mark key="^" line="499" column="45" />
@@ -525,11 +525,11 @@
         <mark key="^" line="229" column="7" />
         <mark key="." line="228" column="0" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/ioutil.py" timestamp="1523932457808">
-        <mark key="[" line="38" column="0" />
-        <mark key="]" line="38" column="0" />
-        <mark key="^" line="28" column="44" />
-        <mark key="." line="38" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/ioutil.py" timestamp="1523933799488">
+        <mark key="[" line="29" column="27" />
+        <mark key="]" line="29" column="37" />
+        <mark key="^" line="29" column="37" />
+        <mark key="." line="29" column="37" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" timestamp="1500614719336">
         <mark key="'" line="650" column="51" />
@@ -634,9 +634,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="178" column="50" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="556" column="67" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="375" column="20" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="483" column="6" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
       <jump line="617" column="60" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="297" column="29" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -734,16 +731,19 @@
       <jump line="533" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="42" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="416" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
+      <jump line="473" column="17" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="505" column="47" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="468" column="30" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">PCAxMA==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">LCA=</text>
+        <text encoding="base64">PCAxMA==</text>
       </register>
       <register name="/" type="4">
-        <text>new_amr</text>
+        <text>edge_map</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">ZWRnZV9sYWJlbF9tYXAgPSB7fQogICAgICAgICAgICBmb3IgKG5vZGVfaWR4LCB0YWlsX2lkeCkgaW4gZWRnZV9sYWJlbHM6CiAgICAgICAgICAgICAgICBzdGFydF9pZCA9IHBpX21hcFtub2RlX2lkeF0KICAgICAgICAgICAgICAgIGVuZF9pZCA9IHBpX21hcFt0YWlsX2lkeF0KICAgICAgICAgICAgICAgIGN1cnJfbGFiID0gZWRnZV9sYWJlbHNbKG5vZGVfaWR4LCB0YWlsX2lkeCldCiAgICAgICAgICAgICAgICBpZiBzdGFydF9pZCA8IGVuZF9pZDoKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIlItIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKChzdGFydF9pZCwgZW5kX2lkKSldID0gYXJjX2xhYgogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIkwtIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKGVuZF9pZCwgc3RhcnRfaWQpXSA9IGFyY19sYWI=</text>
@@ -787,9 +787,9 @@
       </register>
     </registers>
     <search>
-      <last-search>new_amr</last-search>
+      <last-search>edge_map</last-search>
       <last-offset />
-      <last-pattern>new_amr</last-pattern>
+      <last-pattern>edge_map</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -823,7 +823,6 @@
         <entry>label_map</entry>
         <entry>build_outside</entry>
         <entry>general</entry>
-        <entry>edge_map</entry>
         <entry>outside_</entry>
         <entry>inorder</entry>
         <entry>general_combin</entry>
@@ -847,6 +846,7 @@
         <entry>edge_labels</entry>
         <entry>edge_label_ma</entry>
         <entry>new_amr</entry>
+        <entry>edge_map</entry>
       </history-search>
       <history-cmd>
         <entry>94</entry>
