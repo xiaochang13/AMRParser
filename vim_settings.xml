@@ -95,12 +95,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523928263610">
-        <mark key="'" line="533" column="0" />
-        <mark key="[" line="483" column="8" />
-        <mark key="]" line="483" column="11" />
-        <mark key="." line="483" column="11" />
-        <mark key="^" line="483" column="11" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523930469803">
+        <mark key="'" line="530" column="0" />
+        <mark key="[" line="477" column="0" />
+        <mark key="]" line="477" column="0" />
+        <mark key="^" line="480" column="11" />
+        <mark key="." line="477" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hrg_width.py" timestamp="1523847419074">
         <mark key="'" line="349" column="40" />
@@ -157,8 +157,8 @@
         <mark key="^" line="345" column="0" />
         <mark key="." line="345" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" timestamp="1518665846617">
-        <mark key="'" line="417" column="23" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" timestamp="1523931027219">
+        <mark key="'" line="416" column="22" />
         <mark key="[" line="239" column="0" />
         <mark key="]" line="241" column="106" />
         <mark key="^" line="239" column="0" />
@@ -401,8 +401,8 @@
         <mark key="." line="122" column="20" />
         <mark key="^" line="122" column="20" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1519171441328">
-        <mark key="'" line="208" column="46" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1523930599766">
+        <mark key="'" line="42" column="24" />
         <mark key="[" line="285" column="35" />
         <mark key="]" line="285" column="35" />
         <mark key="^" line="285" column="35" />
@@ -525,6 +525,11 @@
         <mark key="^" line="229" column="7" />
         <mark key="." line="228" column="0" />
       </file>
+      <file name="$USER_HOME$/SHRG-induction/ioutil.py" timestamp="1523931379362">
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="0" />
+        <mark key="." line="24" column="0" />
+      </file>
       <file name="$USER_HOME$/github_projects/seq2graph/amr2seq/data_prep/fragment_forest.py" timestamp="1500614719336">
         <mark key="'" line="650" column="51" />
         <mark key="[" line="714" column="8" />
@@ -628,8 +633,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="497" column="16" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
-      <jump line="589" column="26" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="178" column="50" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="556" column="67" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="375" column="20" filename="$USER_HOME$/SHRG-induction/amr_fragment.py" />
@@ -728,13 +731,15 @@
       <jump line="484" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="497" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="533" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="42" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="416" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCA+PiBpbnNpZGVfcnVsZV9mLCAoIkFNUjogXG4lcyIgJSBzdHIoYW1yKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text>inside</text>
+        <text encoding="base64">LCA=</text>
       </register>
       <register name="/" type="4">
         <text>new_amr</text>
@@ -743,38 +748,39 @@
         <text encoding="base64">ZWRnZV9sYWJlbF9tYXAgPSB7fQogICAgICAgICAgICBmb3IgKG5vZGVfaWR4LCB0YWlsX2lkeCkgaW4gZWRnZV9sYWJlbHM6CiAgICAgICAgICAgICAgICBzdGFydF9pZCA9IHBpX21hcFtub2RlX2lkeF0KICAgICAgICAgICAgICAgIGVuZF9pZCA9IHBpX21hcFt0YWlsX2lkeF0KICAgICAgICAgICAgICAgIGN1cnJfbGFiID0gZWRnZV9sYWJlbHNbKG5vZGVfaWR4LCB0YWlsX2lkeCldCiAgICAgICAgICAgICAgICBpZiBzdGFydF9pZCA8IGVuZF9pZDoKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIlItIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKChzdGFydF9pZCwgZW5kX2lkKSldID0gYXJjX2xhYgogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIkwtIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKGVuZF9pZCwgc3RhcnRfaWQpXSA9IGFyY19sYWI=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCA+PiBpbnNpZGVfcnVsZV9mLCAoIkFNUjogXG4lcyIgJSBzdHIoYW1yKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCA+PiBpbm9yZGVyX3J1bGVfZiwgKCJBTVI6IFxuJXMiICUgc3RyKGFtcikpCg==</text>
+      <register name="2" type="4">
+        <text>tree.buildDepDist(tree.dist_threshold)
+                dep_trees.append(tree)</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBhbXIgPSBhbXJfZ3JhcGhzW3NlbnRfaWR4XQo=</text>
+        <text encoding="base64">ICAgICAgICBhbGlnbl9tYXAgPSBOb25lCg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="4">
+        <text>if align:
+            align_map = align_maps[sent_idx]</text>
       </register>
-      <register name="6" type="4">
-        <text># if sent_idx != 7889:
-        #     continue</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICB0b2tfaWR4ID0gMAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICB0b2tzID0gdG9rX3NlcXNbc2VudF9pZHhdCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="4">
-        <text># if node_index not in edge_map:
-        #     print 'Ignored edge here:'
-        #     print amr.nodes[node_index].node_str()
-        #     continue</text>
+        <text>dep_trees = []
+    align_maps = None
+    if align:
+        align_maps = get_alignmaps()</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -861,9 +867,9 @@
         <entry>126</entry>
         <entry>1321</entry>
         <entry>332</entry>
-        <entry>1</entry>
         <entry>w!</entry>
         <entry>529</entry>
+        <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
