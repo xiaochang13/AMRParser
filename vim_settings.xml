@@ -95,12 +95,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523910360778">
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523928263610">
         <mark key="'" line="533" column="0" />
-        <mark key="[" line="528" column="8" />
-        <mark key="]" line="528" column="8" />
-        <mark key="." line="528" column="8" />
-        <mark key="^" line="528" column="8" />
+        <mark key="[" line="483" column="8" />
+        <mark key="]" line="483" column="11" />
+        <mark key="." line="483" column="11" />
+        <mark key="^" line="483" column="11" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hrg_width.py" timestamp="1523847419074">
         <mark key="'" line="349" column="40" />
@@ -730,8 +730,8 @@
       <jump line="533" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>inside</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludCA+PiBpbnNpZGVfcnVsZV9mLCAoIkFNUjogXG4lcyIgJSBzdHIoYW1yKSkK</text>
       </register>
       <register name="-" type="4">
         <text>inside</text>
@@ -743,17 +743,16 @@
         <text encoding="base64">ZWRnZV9sYWJlbF9tYXAgPSB7fQogICAgICAgICAgICBmb3IgKG5vZGVfaWR4LCB0YWlsX2lkeCkgaW4gZWRnZV9sYWJlbHM6CiAgICAgICAgICAgICAgICBzdGFydF9pZCA9IHBpX21hcFtub2RlX2lkeF0KICAgICAgICAgICAgICAgIGVuZF9pZCA9IHBpX21hcFt0YWlsX2lkeF0KICAgICAgICAgICAgICAgIGN1cnJfbGFiID0gZWRnZV9sYWJlbHNbKG5vZGVfaWR4LCB0YWlsX2lkeCldCiAgICAgICAgICAgICAgICBpZiBzdGFydF9pZCA8IGVuZF9pZDoKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIlItIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKChzdGFydF9pZCwgZW5kX2lkKSldID0gYXJjX2xhYgogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBhcmNfbGFiID0gIkwtIiArIGN1cnJfbGFiCiAgICAgICAgICAgICAgICAgICAgZWRnZV9sYWJlbF9tYXBbKGVuZF9pZCwgc3RhcnRfaWQpXSA9IGFyY19sYWI=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBwcmludCA+PiBpbnNpZGVfcnVsZV9mLCAoIkFNUjogXG4lcyIgJSBzdHIoYW1yKSkK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCA+PiBpbm9yZGVyX3J1bGVfZiwgKCJBTVI6IFxuJXMiICUgc3RyKGFtcikpCg==</text>
       </register>
-      <register name="3" type="4">
-        <text># if sent_idx != 7889:
-        #     continue</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBhbXIgPSBhbXJfZ3JhcGhzW3NlbnRfaWR4XQo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
@@ -762,22 +761,20 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="4">
+        <text># if sent_idx != 7889:
+        #     continue</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="4">
         <text># if node_index not in edge_map:
         #     print 'Ignored edge here:'
         #     print amr.nodes[node_index].node_str()
         #     continue</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="9" type="4">
-        <text># edge_map[curr_node_index].add(child_index)
-            # edge_map[child_index].add(curr_node_index)
-            # edge_labels[(curr_node_index, child_index)] = curr_edge.label
-            # edge_list.append((curr_node_index, child_index))</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
