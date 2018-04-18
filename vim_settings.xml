@@ -95,12 +95,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1523993112834">
-        <mark key="'" line="302" column="30" />
-        <mark key="[" line="526" column="0" />
-        <mark key="]" line="526" column="0" />
-        <mark key="." line="526" column="0" />
-        <mark key="^" line="526" column="0" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1524086591108">
+        <mark key="'" line="316" column="20" />
+        <mark key="[" line="310" column="60" />
+        <mark key="]" line="311" column="31" />
+        <mark key="." line="311" column="31" />
+        <mark key="^" line="311" column="31" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hrg_width.py" timestamp="1523847419074">
         <mark key="'" line="349" column="40" />
@@ -635,10 +635,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="146" column="45" filename="$USER_HOME$/SHRG-induction/hrg_width.py" />
-      <jump line="350" column="20" filename="$USER_HOME$/SHRG-induction/hrg_width.py" />
-      <jump line="608" column="8" filename="$USER_HOME$/SHRG-induction/hrg_width.py" />
-      <jump line="381" column="40" filename="$USER_HOME$/SHRG-induction/hrg_width.py" />
       <jump line="307" column="20" filename="$USER_HOME$/SHRG-induction/hrg_width.py" />
       <jump line="346" column="20" filename="$USER_HOME$/SHRG-induction/hrg_width.py" />
       <jump line="349" column="40" filename="$USER_HOME$/SHRG-induction/hrg_width.py" />
@@ -735,6 +731,10 @@
       <jump line="838" column="4" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
       <jump line="527" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="302" column="30" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="173" column="45" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="369" column="10" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="284" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="315" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -744,7 +744,7 @@
         <text>save</text>
       </register>
       <register name="/" type="4">
-        <text>Weird de</text>
+        <text>chart</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
@@ -784,9 +784,9 @@
       </register>
     </registers>
     <search>
-      <last-search>Weird de</last-search>
+      <last-search>chart</last-search>
       <last-offset />
-      <last-pattern>Weird de</last-pattern>
+      <last-pattern>chart</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -821,7 +821,6 @@
         <entry>outside_</entry>
         <entry>inorder</entry>
         <entry>general_combin</entry>
-        <entry>chart</entry>
         <entry>map_to_order</entry>
         <entry>right_neigh</entry>
         <entry>right_nei</entry>
@@ -852,6 +851,9 @@
         <entry>current cache</entry>
         <entry>weird decom</entry>
         <entry>Weird de</entry>
+        <entry encoding="base64">d2VpcmQg</entry>
+        <entry>inside_bags</entry>
+        <entry>chart</entry>
       </history-search>
       <history-cmd>
         <entry>94</entry>
