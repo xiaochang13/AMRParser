@@ -95,12 +95,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1524086591108">
-        <mark key="'" line="316" column="20" />
-        <mark key="[" line="310" column="60" />
-        <mark key="]" line="311" column="31" />
-        <mark key="." line="311" column="31" />
-        <mark key="^" line="311" column="31" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1524089517885">
+        <mark key="'" line="513" column="12" />
+        <mark key="[" line="311" column="16" />
+        <mark key="]" line="311" column="17" />
+        <mark key="." line="311" column="17" />
+        <mark key="^" line="311" column="17" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hrg_width.py" timestamp="1523847419074">
         <mark key="'" line="349" column="40" />
@@ -658,7 +658,6 @@
       <jump line="514" column="18" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="522" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="515" column="30" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="513" column="36" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="474" column="4" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="455" column="14" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="763" column="30" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
@@ -735,6 +734,7 @@
       <jump line="369" column="10" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="284" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="315" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="513" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -744,7 +744,7 @@
         <text>save</text>
       </register>
       <register name="/" type="4">
-        <text>chart</text>
+        <text>assert bsi</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
@@ -784,9 +784,9 @@
       </register>
     </registers>
     <search>
-      <last-search>chart</last-search>
+      <last-search>assert bsi</last-search>
       <last-offset />
-      <last-pattern>chart</last-pattern>
+      <last-pattern>assert bsi</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -854,6 +854,7 @@
         <entry encoding="base64">d2VpcmQg</entry>
         <entry>inside_bags</entry>
         <entry>chart</entry>
+        <entry>assert bsi</entry>
       </history-search>
       <history-cmd>
         <entry>94</entry>
