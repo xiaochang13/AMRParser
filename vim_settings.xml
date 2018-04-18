@@ -95,12 +95,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1524089517885">
-        <mark key="'" line="513" column="12" />
-        <mark key="[" line="311" column="16" />
-        <mark key="]" line="311" column="17" />
-        <mark key="." line="311" column="17" />
-        <mark key="^" line="311" column="17" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1524091115748">
+        <mark key="'" line="219" column="31" />
+        <mark key="[" line="219" column="55" />
+        <mark key="]" line="219" column="55" />
+        <mark key="." line="219" column="55" />
+        <mark key="^" line="369" column="4" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hrg_width.py" timestamp="1523847419074">
         <mark key="'" line="349" column="40" />
@@ -220,12 +220,12 @@
         <mark key="." line="38" column="73" />
         <mark key="^" line="38" column="73" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1510089736605">
-        <mark key="'" line="245" column="13" />
-        <mark key="[" line="248" column="8" />
-        <mark key="]" line="248" column="9" />
-        <mark key="^" line="248" column="9" />
-        <mark key="." line="248" column="9" />
+      <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1524090940663">
+        <mark key="'" line="173" column="33" />
+        <mark key="[" line="151" column="36" />
+        <mark key="]" line="152" column="73" />
+        <mark key="^" line="152" column="73" />
+        <mark key="." line="152" column="73" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" timestamp="1513624349355">
         <mark key="'" line="236" column="50" />
@@ -325,7 +325,7 @@
         <mark key="^" line="112" column="42" />
         <mark key="." line="112" column="42" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1523893110109">
+      <file name="$USER_HOME$/SHRG-induction/amrtreewidth.py" timestamp="1524090796610">
         <mark key="'" line="839" column="21" />
         <mark key="[" line="827" column="4" />
         <mark key="]" line="827" column="4" />
@@ -635,23 +635,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="307" column="20" filename="$USER_HOME$/SHRG-induction/hrg_width.py" />
-      <jump line="346" column="20" filename="$USER_HOME$/SHRG-induction/hrg_width.py" />
-      <jump line="349" column="40" filename="$USER_HOME$/SHRG-induction/hrg_width.py" />
-      <jump line="152" column="26" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="675" column="10" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="149" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="267" column="25" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="375" column="11" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="389" column="11" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="264" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="271" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="416" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
-      <jump line="599" column="22" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
-      <jump line="437" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
-      <jump line="530" column="21" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
-      <jump line="482" column="14" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
-      <jump line="415" column="20" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="463" column="0" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="547" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="452" column="12" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
@@ -696,7 +679,6 @@
       <jump line="367" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="484" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="497" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="533" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="42" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="416" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
       <jump line="473" column="17" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -735,16 +717,34 @@
       <jump line="284" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="315" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="513" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="224" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="229" column="29" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="233" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="619" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="221" column="26" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="494" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="258" column="67" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="220" column="26" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="383" column="17" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="261" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="533" column="22" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="839" column="21" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
+      <jump line="249" column="24" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
+      <jump line="159" column="8" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
+      <jump line="172" column="33" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
+      <jump line="340" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="380" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="219" column="31" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
+        <text>:</text>
       </register>
       <register name="-" type="4">
-        <text>save</text>
+        <text>:</text>
       </register>
       <register name="/" type="4">
-        <text>assert bsi</text>
+        <text>weird decom</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
@@ -784,9 +784,9 @@
       </register>
     </registers>
     <search>
-      <last-search>assert bsi</last-search>
+      <last-search>weird decom</last-search>
       <last-offset />
-      <last-pattern>assert bsi</last-pattern>
+      <last-pattern>weird decom</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -849,12 +849,20 @@
         <entry>--data</entry>
         <entry>args.data</entry>
         <entry>current cache</entry>
-        <entry>weird decom</entry>
         <entry>Weird de</entry>
         <entry encoding="base64">d2VpcmQg</entry>
         <entry>inside_bags</entry>
         <entry>chart</entry>
         <entry>assert bsi</entry>
+        <entry>next_lists</entry>
+        <entry>curr_hg</entry>
+        <entry>if sen</entry>
+        <entry>exit</entry>
+        <entry>Weird decom</entry>
+        <entry>print</entry>
+        <entry>level</entry>
+        <entry>Inside bag</entry>
+        <entry>weird decom</entry>
       </history-search>
       <history-cmd>
         <entry>94</entry>
