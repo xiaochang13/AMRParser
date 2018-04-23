@@ -192,8 +192,8 @@
         <mark key="." line="81" column="43" />
         <mark key="^" line="81" column="43" />
       </file>
-      <file name="$USER_HOME$/Aligner/Aligner.py" timestamp="1524497821047">
-        <mark key="'" line="119" column="12" />
+      <file name="$USER_HOME$/Aligner/Aligner.py" timestamp="1524503296389">
+        <mark key="'" line="174" column="31" />
         <mark key="[" line="813" column="79" />
         <mark key="]" line="814" column="23" />
         <mark key="." line="814" column="23" />
@@ -647,9 +647,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="505" column="47" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="468" column="30" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
-      <jump line="29" column="8" filename="$USER_HOME$/SHRG-induction/ioutil.py" />
       <jump line="32" column="16" filename="$USER_HOME$/SHRG-induction/ioutil.py" />
       <jump line="33" column="16" filename="$USER_HOME$/SHRG-induction/ioutil.py" />
       <jump line="24" column="0" filename="$USER_HOME$/SHRG-induction/ioutil.py" />
@@ -747,6 +744,9 @@
       <jump line="44" column="0" filename="$USER_HOME$/Aligner/Aligner.py" />
       <jump line="9" column="30" filename="$USER_HOME$/Aligner/Aligner.py" />
       <jump line="119" column="12" filename="$USER_HOME$/Aligner/Aligner.py" />
+      <jump line="552" column="28" filename="$USER_HOME$/Aligner/Aligner.py" />
+      <jump line="174" column="31" filename="$USER_HOME$/Aligner/Aligner.py" />
+      <jump line="386" column="4" filename="$USER_HOME$/Aligner/common/AMRGraph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -756,7 +756,7 @@
         <text>ence</text>
       </register>
       <register name="/" type="4">
-        <text>lmtzr</text>
+        <text>concept_patt</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
@@ -797,9 +797,9 @@
       </register>
     </registers>
     <search>
-      <last-search>lmtzr</last-search>
+      <last-search>concept_patt</last-search>
       <last-offset />
-      <last-pattern>lmtzr</last-pattern>
+      <last-pattern>concept_patt</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -828,6 +828,7 @@
         <entry>Rel</entry>
         <entry>WordNetLemmatizer</entry>
         <entry>lmtzr</entry>
+        <entry>concept_patt</entry>
       </history-search>
       <history-cmd>
         <entry>644</entry>
