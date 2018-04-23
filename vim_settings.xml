@@ -81,6 +81,9 @@
         <mark key="^" line="55" column="26" />
         <mark key="." line="55" column="26" />
       </file>
+      <file name="$USER_HOME$/Aligner/preprocessing.py" timestamp="1524506568781">
+        <mark key="'" line="3" column="0" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/constants.py" timestamp="1478440893183">
         <mark key="'" line="53" column="0" />
         <mark key="[" line="20" column="21" />
@@ -647,10 +650,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="32" column="16" filename="$USER_HOME$/SHRG-induction/ioutil.py" />
-      <jump line="33" column="16" filename="$USER_HOME$/SHRG-induction/ioutil.py" />
-      <jump line="24" column="0" filename="$USER_HOME$/SHRG-induction/ioutil.py" />
-      <jump line="326" column="16" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="463" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="609" column="35" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="398" column="41" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -747,6 +746,10 @@
       <jump line="552" column="28" filename="$USER_HOME$/Aligner/Aligner.py" />
       <jump line="174" column="31" filename="$USER_HOME$/Aligner/Aligner.py" />
       <jump line="386" column="4" filename="$USER_HOME$/Aligner/common/AMRGraph.py" />
+      <jump line="20" column="0" filename="$USER_HOME$/Aligner/preprocessing.py" />
+      <jump line="484" column="16" filename="$USER_HOME$/Aligner/preprocessing.py" />
+      <jump line="17" column="0" filename="$USER_HOME$/Aligner/preprocessing.py" />
+      <jump line="3" column="0" filename="$USER_HOME$/Aligner/preprocessing.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -756,7 +759,7 @@
         <text>ence</text>
       </register>
       <register name="/" type="4">
-        <text>concept_patt</text>
+        <text>Stanford</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
@@ -797,9 +800,9 @@
       </register>
     </registers>
     <search>
-      <last-search>concept_patt</last-search>
+      <last-search>Stanford</last-search>
       <last-offset />
-      <last-pattern>concept_patt</last-pattern>
+      <last-pattern>Stanford</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -829,6 +832,9 @@
         <entry>WordNetLemmatizer</entry>
         <entry>lmtzr</entry>
         <entry>concept_patt</entry>
+        <entry>Aligner</entry>
+        <entry>StanfordCore</entry>
+        <entry>Stanford</entry>
       </history-search>
       <history-cmd>
         <entry>644</entry>
