@@ -192,11 +192,12 @@
         <mark key="." line="81" column="43" />
         <mark key="^" line="81" column="43" />
       </file>
-      <file name="$USER_HOME$/Aligner/Aligner.py" timestamp="1524350851856">
-        <mark key="'" line="112" column="45" />
-        <mark key="[" line="123" column="24" />
-        <mark key="]" line="123" column="24" />
-        <mark key="." line="123" column="24" />
+      <file name="$USER_HOME$/Aligner/Aligner.py" timestamp="1524497821047">
+        <mark key="'" line="119" column="12" />
+        <mark key="[" line="813" column="79" />
+        <mark key="]" line="814" column="23" />
+        <mark key="." line="814" column="23" />
+        <mark key="^" line="814" column="23" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1519153100492">
         <mark key="'" line="146" column="32" />
@@ -646,10 +647,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="497" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="42" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="416" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
-      <jump line="473" column="17" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="505" column="47" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="468" column="30" filename="$USER_HOME$/SHRG-induction/treewidth.py" />
       <jump line="29" column="8" filename="$USER_HOME$/SHRG-induction/ioutil.py" />
@@ -746,16 +743,20 @@
       <jump line="52" column="25" filename="$USER_HOME$/Aligner/Aligner.py" />
       <jump line="91" column="28" filename="$USER_HOME$/Aligner/Aligner.py" />
       <jump line="112" column="45" filename="$USER_HOME$/Aligner/Aligner.py" />
+      <jump line="822" column="4" filename="$USER_HOME$/Aligner/Aligner.py" />
+      <jump line="44" column="0" filename="$USER_HOME$/Aligner/Aligner.py" />
+      <jump line="9" column="30" filename="$USER_HOME$/Aligner/Aligner.py" />
+      <jump line="119" column="12" filename="$USER_HOME$/Aligner/Aligner.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+        <text>ence</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>ence</text>
       </register>
       <register name="/" type="4">
-        <text>Rel</text>
+        <text>lmtzr</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
@@ -796,9 +797,9 @@
       </register>
     </registers>
     <search>
-      <last-search>Rel</last-search>
+      <last-search>lmtzr</last-search>
       <last-offset />
-      <last-pattern>Rel</last-pattern>
+      <last-pattern>lmtzr</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -806,69 +807,6 @@
     </search>
     <history>
       <history-search>
-        <entry>du</entry>
-        <entry>similarTok</entry>
-        <entry>collapseTokens</entry>
-        <entry>initAlignments</entry>
-        <entry>initAli</entry>
-        <entry>getSpanSide</entry>
-        <entry>extractNodeMapp</entry>
-        <entry>enlarge_chart</entry>
-        <entry>is_goal_item</entry>
-        <entry>initialize_ed</entry>
-        <entry>build_bimap</entry>
-        <entry>extract_fragments</entry>
-        <entry>rebuild_fragment</entry>
-        <entry>unique_edge</entry>
-        <entry>build_bim</entry>
-        <entry>removeAlig</entry>
-        <entry>get_path_v2</entry>
-        <entry>label_m</entry>
-        <entry>edge_label_map</entry>
-        <entry>width</entry>
-        <entry>exclude</entry>
-        <entry>label_map</entry>
-        <entry>build_outside</entry>
-        <entry>general</entry>
-        <entry>outside_</entry>
-        <entry>inorder</entry>
-        <entry>general_combin</entry>
-        <entry>map_to_order</entry>
-        <entry>right_neigh</entry>
-        <entry>right_nei</entry>
-        <entry>leafs</entry>
-        <entry>tok_seq</entry>
-        <entry>all_align</entry>
-        <entry>aligned</entry>
-        <entry>edge_list</entry>
-        <entry>arc_l</entry>
-        <entry>pi_seq</entry>
-        <entry>all_piseqs</entry>
-        <entry>all_edgemaps</entry>
-        <entry>all_collapsed</entry>
-        <entry>outside_width</entry>
-        <entry>topo_list</entry>
-        <entry>sorted_index</entry>
-        <entry>edge_labels</entry>
-        <entry>edge_label_ma</entry>
-        <entry>new_amr</entry>
-        <entry>edge_map</entry>
-        <entry>sent_idx</entry>
-        <entry>load</entry>
-        <entry>logger</entry>
-        <entry>save_dir</entry>
-        <entry>all_deps</entry>
-        <entry>--data</entry>
-        <entry>args.data</entry>
-        <entry>current cache</entry>
-        <entry>Weird de</entry>
-        <entry encoding="base64">d2VpcmQg</entry>
-        <entry>inside_bags</entry>
-        <entry>chart</entry>
-        <entry>assert bsi</entry>
-        <entry>next_lists</entry>
-        <entry>curr_hg</entry>
-        <entry>if sen</entry>
         <entry>exit</entry>
         <entry>Weird decom</entry>
         <entry>print</entry>
@@ -880,7 +818,6 @@
         <entry>amr</entry>
         <entry>percent</entry>
         <entry>perce</entry>
-        <entry>lmtzr</entry>
         <entry>WN_lemma_match</entry>
         <entry>all_var</entry>
         <entry>alignment</entry>
@@ -889,11 +826,10 @@
         <entry>sequence</entry>
         <entry>unmatched</entry>
         <entry>Rel</entry>
+        <entry>WordNetLemmatizer</entry>
+        <entry>lmtzr</entry>
       </history-search>
       <history-cmd>
-        <entry>94</entry>
-        <entry>62</entry>
-        <entry>445</entry>
         <entry>644</entry>
         <entry>360</entry>
         <entry>321</entry>
