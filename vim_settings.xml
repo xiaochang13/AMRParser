@@ -255,8 +255,8 @@
         <mark key="^" line="296" column="9" />
         <mark key="." line="296" column="9" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" timestamp="1524594761330">
-        <mark key="'" line="304" column="42" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" timestamp="1524600072553">
+        <mark key="'" line="396" column="38" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -630,7 +630,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="315" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="513" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="224" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="229" column="29" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -726,10 +725,11 @@
       <jump line="21" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="119" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="944" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
-      <jump line="396" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
-      <jump line="936" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="304" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="1403" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="215" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="936" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="396" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -739,7 +739,7 @@
         <text>if not is_projective(n, edge_map)</text>
       </register>
       <register name="/" type="4">
-        <text>WN_lemma_match</text>
+        <text>sense</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
@@ -780,9 +780,9 @@
       </register>
     </registers>
     <search>
-      <last-search>WN_lemma_match</last-search>
+      <last-search>sense</last-search>
       <last-offset />
-      <last-pattern>WN_lemma_match</last-pattern>
+      <last-pattern>sense</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -820,6 +820,10 @@
         <entry>WordNet</entry>
         <entry>lmtzr</entry>
         <entry>WN_lemma_match</entry>
+        <entry>wm</entry>
+        <entry>wordNe</entry>
+        <entry>WN_lemma</entry>
+        <entry>sense</entry>
       </history-search>
       <history-cmd>
         <entry>644</entry>
