@@ -255,6 +255,9 @@
         <mark key="^" line="296" column="9" />
         <mark key="." line="296" column="9" />
       </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" timestamp="1524593254772">
+        <mark key="'" line="396" column="34" />
+      </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="33" column="18" />
@@ -627,10 +630,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="444" column="32" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="838" column="4" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
-      <jump line="527" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="302" column="30" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="173" column="45" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="369" column="10" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="284" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -727,6 +726,10 @@
       <jump line="279" column="21" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="508" column="34" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="146" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="21" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="119" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="944" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="396" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -736,7 +739,7 @@
         <text>if not is_projective(n, edge_map)</text>
       </register>
       <register name="/" type="4">
-        <text>projective</text>
+        <text>WN_lemma_match</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
@@ -773,13 +776,13 @@
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>1</text>
       </register>
     </registers>
     <search>
-      <last-search>projective</last-search>
+      <last-search>WN_lemma_match</last-search>
       <last-offset />
-      <last-pattern>projective</last-pattern>
+      <last-pattern>WN_lemma_match</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -798,7 +801,6 @@
         <entry>amr</entry>
         <entry>percent</entry>
         <entry>perce</entry>
-        <entry>WN_lemma_match</entry>
         <entry>all_var</entry>
         <entry>alignment</entry>
         <entry>parent</entry>
@@ -807,7 +809,6 @@
         <entry>unmatched</entry>
         <entry>Rel</entry>
         <entry>WordNetLemmatizer</entry>
-        <entry>lmtzr</entry>
         <entry>concept_patt</entry>
         <entry>Aligner</entry>
         <entry>StanfordCore</entry>
@@ -816,6 +817,9 @@
         <entry>right</entry>
         <entry>buildRight</entry>
         <entry>projective</entry>
+        <entry>WordNet</entry>
+        <entry>lmtzr</entry>
+        <entry>WN_lemma_match</entry>
       </history-search>
       <history-cmd>
         <entry>644</entry>
@@ -836,8 +840,8 @@
         <entry>w!</entry>
         <entry>529</entry>
         <entry>327</entry>
-        <entry>1</entry>
         <entry>w</entry>
+        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
