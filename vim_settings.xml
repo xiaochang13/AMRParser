@@ -255,8 +255,8 @@
         <mark key="^" line="296" column="9" />
         <mark key="." line="296" column="9" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" timestamp="1524601532075">
-        <mark key="'" line="125" column="41" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" timestamp="1524602627042">
+        <mark key="'" line="378" column="34" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -630,15 +630,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="494" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="258" column="67" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="220" column="26" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="383" column="17" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="261" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="249" column="24" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="159" column="8" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="172" column="33" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="340" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="380" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="219" column="31" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="203" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -723,13 +714,22 @@
       <jump line="1403" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="215" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="936" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
-      <jump line="396" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="963" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="660" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="676" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="143" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="248" column="49" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="125" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="116" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="923" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="90" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="97" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="924" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="396" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="939" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="405" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="406" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="378" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -739,7 +739,7 @@
         <text>if not is_projective(n, edge_map)</text>
       </register>
       <register name="/" type="4">
-        <text>organization</text>
+        <text>government</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
@@ -780,9 +780,9 @@
       </register>
     </registers>
     <search>
-      <last-search>organization</last-search>
+      <last-search>government</last-search>
       <last-offset />
-      <last-pattern>organization</last-pattern>
+      <last-pattern>government</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -826,6 +826,10 @@
         <entry>sense</entry>
         <entry>multiple</entry>
         <entry>organization</entry>
+        <entry>special_m</entry>
+        <entry>is_spec</entry>
+        <entry>matched_varia</entry>
+        <entry>government</entry>
       </history-search>
       <history-cmd>
         <entry>644</entry>
