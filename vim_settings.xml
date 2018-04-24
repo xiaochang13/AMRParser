@@ -98,12 +98,12 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1524092703605">
-        <mark key="'" line="533" column="38" />
-        <mark key="[" line="533" column="56" />
-        <mark key="]" line="533" column="56" />
-        <mark key="." line="533" column="56" />
-        <mark key="^" line="481" column="26" />
+      <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1524545291121">
+        <mark key="'" line="377" column="0" />
+        <mark key="[" line="143" column="30" />
+        <mark key="]" line="143" column="30" />
+        <mark key="." line="143" column="30" />
+        <mark key="^" line="143" column="30" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hrg_width.py" timestamp="1523847419074">
         <mark key="'" line="349" column="40" />
@@ -650,11 +650,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="489" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="467" column="14" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="557" column="8" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="447" column="38" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="441" column="38" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="442" column="34" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="443" column="32" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="610" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -750,16 +745,21 @@
       <jump line="346" column="0" filename="$USER_HOME$/Aligner/preprocessing.py" />
       <jump line="484" column="24" filename="$USER_HOME$/Aligner/preprocessing.py" />
       <jump line="341" column="30" filename="$USER_HOME$/Aligner/preprocessing.py" />
+      <jump line="530" column="36" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="574" column="43" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="7" column="53" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="333" column="16" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
+      <jump line="377" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>ence</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>ence</text>
       </register>
       <register name="/" type="4">
-        <text>instances</text>
+        <text>right</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
@@ -771,38 +771,38 @@
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgIGRlZiBwcm9qZWN0aXZlKCkK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text># new_node_to_span = mergeSpans(node_to_span)
     # new_edge_to_span = mergeSpans(edge_to_span)</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">IyBkZWYgdHJ5QWxpZ24obm9kZV90b19zcGFuLCBlZGdlX3RvX3NwYW4sIGFtcikK</text>
       </register>
-      <register name="5" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text encoding="base64">I2RlZiBtZXJnZVNwYW5zKGluZGV4X3RvX3NwYW5zKToKICAgICMgICAgbmV3X2luZGV4X3RvX3NwYW5zID0ge30KICAgICMgICAgZm9yIGluZGV4IGluIGluZGV4X3RvX3NwYW5zOgogICAgIyAgICAgICAgc3Bhbl9saXN0ID0gaW5kZXhfdG9fc3BhbnNbaW5kZXhdCiAgICAjICAgICAgICBzcGFuX2xpc3QgPSBzb3J0ZWQoc3Bhbl9saXN0LCBrZXk9bGFtYmRhIHg6eFsxXSkKICAgICMgICAgICAgIG5ld19zcGFuX2xpc3QgPSBbXQogICAgIyAgICAgICAgY3Vycl9zdGFydCA9IE5vbmUKICAgICMgICAgICAgIGN1cnJfZW5kID0gTm9uZQoKICAgICMgICAgICAgIGZvciAoaWR4LCAoc3RhcnQsIGVuZCwgXykpIGluIGVudW1lcmF0ZShzcGFuX2xpc3QpOgogICAgIyAgICAgICAgICAgIGlmIGN1cnJfZW5kIGlzIG5vdCBOb25lOgogICAgIyAgICAgICAgICAgICAgICAjYXNzZXJ0IHN0YXJ0ID49IGN1cnJfZW5kLCBzcGFuX2xpc3QKICAgICMgICAgICAgICAgICAgICAgaWYgc3RhcnQgPCBjdXJyX2VuZDoKICAgICMgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAjICAgICAgICAgICAgICAgIGlmIHN0YXJ0ID4gY3Vycl9lbmQ6ICNUaGVyZSBpcyBhIGdhcCBpbiBiZXR3ZWVuCiAgICAjICAgICAgICAgICAgICAgICAgICBuZXdfc3Bhbl9saXN0LmFwcGVuZCgoY3Vycl9zdGFydCwgY3Vycl9lbmQsIE5vbmUpKQogICAgIyAgICAgICAgICAgICAgICAgICAgY3Vycl9zdGFydCA9IHN0YXJ0CiAgICAjICAgICAgICAgICAgICAgICAgICBjdXJyX2VuZCA9IGVuZAogICAgIyAgICAgICAgICAgICAgICBlbHNlOiAjVGhleSBlcXVhbCwgc28gdXBkYXRlIHRoZSBlbmQKICAgICMgICAgICAgICAgICAgICAgICAgIGN1cnJfZW5kID0gZW5kCgogICAgIyAgICAgICAgICAgIGVsc2U6CiAgICAjICAgICAgICAgICAgICAgIGN1cnJfc3RhcnQgPSBzdGFydAogICAgIyAgICAgICAgICAgICAgICBjdXJyX2VuZCA9IGVuZAoKICAgICMgICAgICAgICAgICBpZiBpZHggKyAxID09IGxlbihzcGFuX2xpc3QpOiAjSGF2ZSByZWFjaGVkIHRoZSBsYXN0IHBvc2l0aW9uCiAgICAjICAgICAgICAgICAgICAgIG5ld19zcGFuX2xpc3QuYXBwZW5kKChjdXJyX3N0YXJ0LCBjdXJyX2VuZCwgTm9uZSkpCiAgICAjICAgICAgICBuZXdfaW5kZXhfdG9fc3BhbnNbaW5kZXhdID0gbmV3X3NwYW5fbGlzdAogICAgIyAgICByZXR1cm4gbmV3X2luZGV4X3RvX3NwYW5z</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>1</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>instances</last-search>
+      <last-search>right</last-search>
       <last-offset />
-      <last-pattern>instances</last-pattern>
+      <last-pattern>right</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -836,6 +836,7 @@
         <entry>StanfordCore</entry>
         <entry>Stanford</entry>
         <entry>instances</entry>
+        <entry>right</entry>
       </history-search>
       <history-cmd>
         <entry>644</entry>
@@ -856,8 +857,8 @@
         <entry>w!</entry>
         <entry>529</entry>
         <entry>327</entry>
-        <entry>w</entry>
         <entry>1</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
