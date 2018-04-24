@@ -255,8 +255,8 @@
         <mark key="^" line="296" column="9" />
         <mark key="." line="296" column="9" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" timestamp="1524602627042">
-        <mark key="'" line="378" column="34" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" timestamp="1524604081655">
+        <mark key="'" line="255" column="8" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -630,10 +630,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="380" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="219" column="31" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="203" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="208" column="29" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
       <jump line="103" column="17" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
       <jump line="128" column="51" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
       <jump line="132" column="28" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
@@ -730,6 +726,10 @@
       <jump line="405" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="406" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="378" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="246" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="81" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="257" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="255" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -739,7 +739,7 @@
         <text>if not is_projective(n, edge_map)</text>
       </register>
       <register name="/" type="4">
-        <text>government</text>
+        <text>apply_align</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
@@ -780,9 +780,9 @@
       </register>
     </registers>
     <search>
-      <last-search>government</last-search>
+      <last-search>apply_align</last-search>
       <last-offset />
-      <last-pattern>government</last-pattern>
+      <last-pattern>apply_align</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -830,6 +830,8 @@
         <entry>is_spec</entry>
         <entry>matched_varia</entry>
         <entry>government</entry>
+        <entry>align_table</entry>
+        <entry>apply_align</entry>
       </history-search>
       <history-cmd>
         <entry>644</entry>
