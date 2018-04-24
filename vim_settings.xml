@@ -255,8 +255,8 @@
         <mark key="^" line="296" column="9" />
         <mark key="." line="296" column="9" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" timestamp="1524600072553">
-        <mark key="'" line="396" column="38" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" timestamp="1524601532075">
+        <mark key="'" line="125" column="41" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -630,12 +630,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="513" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="224" column="20" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="229" column="29" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="233" column="12" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="619" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="221" column="26" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="494" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="258" column="67" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="220" column="26" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -730,6 +724,12 @@
       <jump line="215" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="936" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="396" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="963" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="660" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="676" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="143" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="248" column="49" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="125" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -739,7 +739,7 @@
         <text>if not is_projective(n, edge_map)</text>
       </register>
       <register name="/" type="4">
-        <text>sense</text>
+        <text>organization</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
@@ -780,9 +780,9 @@
       </register>
     </registers>
     <search>
-      <last-search>sense</last-search>
+      <last-search>organization</last-search>
       <last-offset />
-      <last-pattern>sense</last-pattern>
+      <last-pattern>organization</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -824,6 +824,8 @@
         <entry>wordNe</entry>
         <entry>WN_lemma</entry>
         <entry>sense</entry>
+        <entry>multiple</entry>
+        <entry>organization</entry>
       </history-search>
       <history-cmd>
         <entry>644</entry>
