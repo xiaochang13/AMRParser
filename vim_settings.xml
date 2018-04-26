@@ -224,12 +224,25 @@
         <mark key="." line="38" column="73" />
         <mark key="^" line="38" column="73" />
       </file>
+      <file name="$USER_HOME$/SHRG-extraction/amr_fragment.py" timestamp="1524714248212">
+        <mark key="[" line="556" column="26" />
+        <mark key="]" line="556" column="26" />
+        <mark key="." line="556" column="26" />
+        <mark key="^" line="571" column="16" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1524547045252">
         <mark key="'" line="230" column="25" />
         <mark key="[" line="231" column="8" />
         <mark key="]" line="231" column="9" />
         <mark key="^" line="231" column="9" />
         <mark key="." line="231" column="9" />
+      </file>
+      <file name="$USER_HOME$/SHRG-extraction/hrg_learn.py" timestamp="1524714025688">
+        <mark key="'" line="647" column="4" />
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="0" />
+        <mark key="^" line="569" column="43" />
+        <mark key="." line="10" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" timestamp="1513624349355">
         <mark key="'" line="236" column="50" />
@@ -435,6 +448,12 @@
       <file name="$USER_HOME$/ConvParser/common/AMRGraph.py" timestamp="1515466512530">
         <mark key="'" line="441" column="22" />
       </file>
+      <file name="$USER_HOME$/SHRG-extraction/categorize_amr.py" timestamp="1524714316272">
+        <mark key="'" line="12" column="0" />
+        <mark key="[" line="527" column="0" />
+        <mark key="]" line="527" column="0" />
+        <mark key="." line="527" column="0" />
+      </file>
       <file name="$USER_HOME$/data_processing/date_extraction.py" timestamp="1518505542565">
         <mark key="'" line="9" column="0" />
         <mark key="[" line="7" column="54" />
@@ -630,22 +649,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="103" column="17" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="128" column="51" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="132" column="28" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="134" column="0" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="144" column="33" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="178" column="24" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="184" column="47" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="188" column="39" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="191" column="16" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="198" column="22" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="203" column="32" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="212" column="51" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="226" column="0" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="237" column="0" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="238" column="40" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="240" column="7" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
       <jump line="3" column="0" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
       <jump line="91" column="22" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
       <jump line="842" column="49" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
@@ -730,59 +733,79 @@
       <jump line="81" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="257" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="255" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="42" column="0" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
+      <jump line="94" column="10" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
+      <jump line="326" column="43" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
+      <jump line="441" column="11" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
+      <jump line="556" column="47" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
+      <jump line="9" column="27" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
+      <jump line="521" column="37" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
+      <jump line="22" column="0" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
+      <jump line="647" column="4" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
+      <jump line="493" column="0" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
+      <jump line="534" column="6" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
+      <jump line="531" column="6" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
+      <jump line="556" column="26" filename="$USER_HOME$/SHRG-extraction/amr_fragment.py" />
+      <jump line="459" column="64" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
+      <jump line="498" column="4" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
+      <jump line="12" column="0" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>if not is_projective(n, edge_map)</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>if not is_projective(n, edge_map)</text>
+        <text>, logger</text>
       </register>
       <register name="/" type="4">
-        <text>apply_align</text>
+        <text>mergeSpans</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaiA9IHBpX21hcFtuZXh0XQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgcGlfbWFwW2N1cnJdID09IGkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHVuYWxpZ25lZF9zZXQgPSBzZXQoeHJhbmdlKGxlbihwb3Nfc2VxKSkpIC0gYWxpZ25lZF90b2tzCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGRlZiBwcm9qZWN0aXZlKCkK</text>
+        <text encoding="base64">ICAgICMjQmFzZWQgb24gdGhlIGFsaWdubWVudCBmcm9tIG5vZGUgaW5kZXggdG8gc3BhbnMgaW4gdGhlIHN0cmluZwo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="4">
+        <text>unaligned_idxs = sorted(list(unaligned_set))
+    # logger.writeln(&quot;Unaligned tokens: %s&quot; % (&quot; &quot;.join([tok_seq[i] for i in unaligned_idxs])))
+
+    unaligned_nodes = amr.unaligned_nodes(aligned_nodes)
+    # logger.writeln(&quot;Unaligned vertices: %s&quot; % &quot; &quot;.join([node.node_str() for node in unaligned_nodes]))</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="7" type="4">
-        <text># new_node_to_span = mergeSpans(node_to_span)
-    # new_edge_to_span = mergeSpans(edge_to_span)</text>
+        <text>unaligned_idxs = sorted(list(unaligned_set))
+    # logger.writeln(&quot;Unaligned tokens: %s&quot; % (&quot; &quot;.join([tok_seq[i] for i in unaligned_idxs])))</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">IyBkZWYgdHJ5QWxpZ24obm9kZV90b19zcGFuLCBlZGdlX3RvX3NwYW4sIGFtcikK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB1cGRhdGVkID0gVHJ1ZQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">aW1wb3J0IGFsaWdubWVudF91dGlscwo=</text>
       </register>
       <register name=":" type="4">
         <text>1</text>
       </register>
     </registers>
     <search>
-      <last-search>apply_align</last-search>
+      <last-search>mergeSpans</last-search>
       <last-offset />
-      <last-pattern>apply_align</last-pattern>
+      <last-pattern>mergeSpans</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -832,6 +855,11 @@
         <entry>government</entry>
         <entry>align_table</entry>
         <entry>apply_align</entry>
+        <entry>stats</entry>
+        <entry>AMR_s</entry>
+        <entry>categorize</entry>
+        <entry>logger</entry>
+        <entry>mergeSpans</entry>
       </history-search>
       <history-cmd>
         <entry>644</entry>
@@ -852,6 +880,7 @@
         <entry>w!</entry>
         <entry>529</entry>
         <entry>327</entry>
+        <entry>574</entry>
         <entry>w</entry>
         <entry>1</entry>
       </history-cmd>
