@@ -175,6 +175,13 @@
         <mark key="^" line="653" column="15" />
         <mark key="." line="653" column="15" />
       </file>
+      <file name="$USER_HOME$/SHRG-extraction/alignment_utils.py" timestamp="1524751490556">
+        <mark key="'" line="2" column="0" />
+        <mark key="[" line="1" column="23" />
+        <mark key="]" line="2" column="12" />
+        <mark key="." line="2" column="12" />
+        <mark key="^" line="2" column="12" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1524546202347">
         <mark key="'" line="468" column="30" />
         <mark key="[" line="513" column="20" />
@@ -224,11 +231,11 @@
         <mark key="." line="38" column="73" />
         <mark key="^" line="38" column="73" />
       </file>
-      <file name="$USER_HOME$/SHRG-extraction/amr_fragment.py" timestamp="1524714248212">
+      <file name="$USER_HOME$/SHRG-extraction/amr_fragment.py" timestamp="1524750969704">
+        <mark key="'" line="556" column="28" />
         <mark key="[" line="556" column="26" />
         <mark key="]" line="556" column="26" />
         <mark key="." line="556" column="26" />
-        <mark key="^" line="571" column="16" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1524547045252">
         <mark key="'" line="230" column="25" />
@@ -237,12 +244,12 @@
         <mark key="^" line="231" column="9" />
         <mark key="." line="231" column="9" />
       </file>
-      <file name="$USER_HOME$/SHRG-extraction/hrg_learn.py" timestamp="1524714025688">
-        <mark key="'" line="647" column="4" />
-        <mark key="[" line="10" column="0" />
-        <mark key="]" line="10" column="0" />
-        <mark key="^" line="569" column="43" />
-        <mark key="." line="10" column="0" />
+      <file name="$USER_HOME$/SHRG-extraction/hrg_learn.py" timestamp="1524750833792">
+        <mark key="'" line="650" column="4" />
+        <mark key="[" line="572" column="25" />
+        <mark key="]" line="572" column="43" />
+        <mark key="^" line="572" column="43" />
+        <mark key="." line="572" column="43" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" timestamp="1513624349355">
         <mark key="'" line="236" column="50" />
@@ -448,11 +455,12 @@
       <file name="$USER_HOME$/ConvParser/common/AMRGraph.py" timestamp="1515466512530">
         <mark key="'" line="441" column="22" />
       </file>
-      <file name="$USER_HOME$/SHRG-extraction/categorize_amr.py" timestamp="1524714316272">
-        <mark key="'" line="12" column="0" />
-        <mark key="[" line="527" column="0" />
-        <mark key="]" line="527" column="0" />
-        <mark key="." line="527" column="0" />
+      <file name="$USER_HOME$/SHRG-extraction/categorize_amr.py" timestamp="1524751297316">
+        <mark key="'" line="533" column="6" />
+        <mark key="[" line="470" column="0" />
+        <mark key="]" line="470" column="0" />
+        <mark key="^" line="533" column="5" />
+        <mark key="." line="470" column="0" />
       </file>
       <file name="$USER_HOME$/data_processing/date_extraction.py" timestamp="1518505542565">
         <mark key="'" line="9" column="0" />
@@ -649,29 +657,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="3" column="0" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="91" column="22" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="842" column="49" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
-      <jump line="851" column="0" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
-      <jump line="533" column="38" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="830" column="0" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
-      <jump line="97" column="8" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="387" column="0" filename="$USER_HOME$/Aligner/Aligner.py" />
-      <jump line="131" column="31" filename="$USER_HOME$/Aligner/Aligner.py" />
-      <jump line="103" column="0" filename="$USER_HOME$/Aligner/Aligner.py" />
-      <jump line="897" column="8" filename="$USER_HOME$/Aligner/Aligner.py" />
-      <jump line="192" column="4" filename="$USER_HOME$/Aligner/Aligner.py" />
-      <jump line="182" column="4" filename="$USER_HOME$/Aligner/Aligner.py" />
-      <jump line="786" column="1" filename="$USER_HOME$/Aligner/common/AMRGraph.py" />
-      <jump line="167" column="28" filename="$USER_HOME$/Aligner/AMRGraph.py" />
-      <jump line="169" column="30" filename="$USER_HOME$/Aligner/AMRGraph.py" />
-      <jump line="586" column="4" filename="$USER_HOME$/Aligner/common/AMRGraph.py" />
-      <jump line="233" column="43" filename="$USER_HOME$/Aligner/Aligner.py" />
-      <jump line="497" column="68" filename="$USER_HOME$/Aligner/Aligner.py" />
-      <jump line="546" column="4" filename="$USER_HOME$/Aligner/Aligner.py" />
-      <jump line="703" column="31" filename="$USER_HOME$/Aligner/Aligner.py" />
-      <jump line="930" column="45" filename="$USER_HOME$/Aligner/Aligner.py" />
-      <jump line="935" column="27" filename="$USER_HOME$/Aligner/Aligner.py" />
       <jump line="52" column="25" filename="$USER_HOME$/Aligner/Aligner.py" />
       <jump line="91" column="28" filename="$USER_HOME$/Aligner/Aligner.py" />
       <jump line="112" column="45" filename="$USER_HOME$/Aligner/Aligner.py" />
@@ -745,10 +730,33 @@
       <jump line="493" column="0" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
       <jump line="534" column="6" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
       <jump line="531" column="6" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
-      <jump line="556" column="26" filename="$USER_HOME$/SHRG-extraction/amr_fragment.py" />
-      <jump line="459" column="64" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
       <jump line="498" column="4" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
       <jump line="12" column="0" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
+      <jump line="277" column="4" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
+      <jump line="556" column="26" filename="$USER_HOME$/SHRG-extraction/amr_fragment.py" />
+      <jump line="455" column="4" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
+      <jump line="527" column="22" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
+      <jump line="459" column="31" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
+      <jump line="530" column="6" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
+      <jump line="533" column="6" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
+      <jump line="40" column="38" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="264" column="18" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="275" column="18" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="334" column="22" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="343" column="14" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="351" column="20" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="368" column="26" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="377" column="30" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="513" column="26" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="538" column="16" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="539" column="22" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="540" column="22" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="556" column="22" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="557" column="22" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="585" column="30" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="10" column="7" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="244" column="18" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
+      <jump line="2" column="0" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -758,7 +766,7 @@
         <text>, logger</text>
       </register>
       <register name="/" type="4">
-        <text>mergeSpans</text>
+        <text>logger</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
@@ -769,43 +777,47 @@
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text>from collections import defaultdict
+from entities import identify_entities</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHVuYWxpZ25lZF9zZXQgPSBzZXQoeHJhbmdlKGxlbihwb3Nfc2VxKSkpIC0gYWxpZ25lZF90b2tzCg==</text>
+        <text encoding="base64">aW1wb3J0IGFyZ3BhcnNlCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICMjQmFzZWQgb24gdGhlIGFsaWdubWVudCBmcm9tIG5vZGUgaW5kZXggdG8gc3BhbnMgaW4gdGhlIHN0cmluZwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="4">
-        <text>unaligned_idxs = sorted(list(unaligned_set))
-    # logger.writeln(&quot;Unaligned tokens: %s&quot; % (&quot; &quot;.join([tok_seq[i] for i in unaligned_idxs])))
-
-    unaligned_nodes = amr.unaligned_nodes(aligned_nodes)
-    # logger.writeln(&quot;Unaligned vertices: %s&quot; % &quot; &quot;.join([node.node_str() for node in unaligned_nodes]))</text>
+        <text>import sys
+import time
+import pickle
+import os
+import re
+import cPickle
+import random
+from amr_graph import *</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">IyBpbXBvcnQgbG9nZ2VyCg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="7" type="4">
-        <text>unaligned_idxs = sorted(list(unaligned_set))
-    # logger.writeln(&quot;Unaligned tokens: %s&quot; % (&quot; &quot;.join([tok_seq[i] for i in unaligned_idxs])))</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB1cGRhdGVkID0gVHJ1ZQo=</text>
+      <register name="8" type="4">
+        <text>#assert frag.edges.count() == 1, 'Not unify edge fragment found'
+    amr_graph = frag.graph</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IGFsaWdubWVudF91dGlscwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name=":" type="4">
-        <text>1</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>mergeSpans</last-search>
+      <last-search>logger</last-search>
       <last-offset />
-      <last-pattern>mergeSpans</last-pattern>
+      <last-pattern>logger</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -858,8 +870,9 @@
         <entry>stats</entry>
         <entry>AMR_s</entry>
         <entry>categorize</entry>
-        <entry>logger</entry>
         <entry>mergeSpans</entry>
+        <entry>connect_ad</entry>
+        <entry>logger</entry>
       </history-search>
       <history-cmd>
         <entry>644</entry>
@@ -881,8 +894,8 @@
         <entry>529</entry>
         <entry>327</entry>
         <entry>574</entry>
-        <entry>w</entry>
         <entry>1</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
