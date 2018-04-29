@@ -182,6 +182,11 @@
         <mark key="." line="2" column="12" />
         <mark key="^" line="2" column="12" />
       </file>
+      <file name="$USER_HOME$/SHRG-extraction/amr_graph.py" timestamp="1525012869360">
+        <mark key="[" line="1166" column="0" />
+        <mark key="]" line="1166" column="0" />
+        <mark key="." line="1166" column="0" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/treewidth.py" timestamp="1524546202347">
         <mark key="'" line="468" column="30" />
         <mark key="[" line="513" column="20" />
@@ -760,7 +765,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="-" type="4">
         <text>, logger</text>
@@ -772,43 +777,42 @@
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="4">
-        <text>from collections import defaultdict
-from entities import identify_entities</text>
+        <text>#sys.exit(-1)
+                #logger.writeln(integer_concepts)</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGFyZ3BhcnNlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text>#try:
+            #    assert len(curr_node.p_edges) == 0, 'The root node has some parent nodes'
+            #except AssertionError:
+            #    #print str(self)
+            #    #logger.writeln(str(self))
+            #    #sys.exit(-1)
+            #    return None</text>
       </register>
-      <register name="5" type="4">
-        <text>import sys
-import time
-import pickle
-import os
-import re
-import cPickle
-import random
-from amr_graph import *</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAjZWRnZV9pbmRleCA9IHNlbGYuZWRnZV9kaWN0W2VkZ2VdCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">IyBpbXBvcnQgbG9nZ2VyCg==</text>
+        <text encoding="base64">ICAgICAgICAjZnJhZy5zZXRfbm9kZShpbmRleCkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAjaW5kZXggPSBzZWxmLm5vZGVfZGljdFtjdXJyX25vZGVdCg==</text>
       </register>
-      <register name="8" type="4">
-        <text>#assert frag.edges.count() == 1, 'Not unify edge fragment found'
-    amr_graph = frag.graph</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      <register name="9" type="4">
+        <text>from collections import defaultdict
+from entities import identify_entities</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -821,38 +825,10 @@ from amr_graph import *</text>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>true</show-last>
+      <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>exit</entry>
-        <entry>Weird decom</entry>
-        <entry>print</entry>
-        <entry>level</entry>
-        <entry>Inside bag</entry>
-        <entry>weird decom</entry>
-        <entry>sent_id</entry>
-        <entry>self.amr</entry>
-        <entry>amr</entry>
-        <entry>percent</entry>
-        <entry>perce</entry>
-        <entry>all_var</entry>
-        <entry>alignment</entry>
-        <entry>parent</entry>
-        <entry>def bfs</entry>
-        <entry>sequence</entry>
-        <entry>unmatched</entry>
-        <entry>Rel</entry>
-        <entry>WordNetLemmatizer</entry>
-        <entry>concept_patt</entry>
-        <entry>Aligner</entry>
-        <entry>StanfordCore</entry>
-        <entry>Stanford</entry>
-        <entry>instances</entry>
-        <entry>right</entry>
-        <entry>buildRight</entry>
-        <entry>projective</entry>
-        <entry>WordNet</entry>
         <entry>lmtzr</entry>
         <entry>WN_lemma_match</entry>
         <entry>wm</entry>
@@ -875,7 +851,6 @@ from amr_graph import *</text>
         <entry>logger</entry>
       </history-search>
       <history-cmd>
-        <entry>644</entry>
         <entry>360</entry>
         <entry>321</entry>
         <entry>1101</entry>
