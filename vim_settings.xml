@@ -581,12 +581,12 @@
         <mark key="^" line="80" column="33" />
         <mark key="." line="80" column="37" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" timestamp="1525117436006">
-        <mark key="'" line="18" column="4" />
-        <mark key="[" line="58" column="68" />
-        <mark key="]" line="58" column="107" />
-        <mark key="^" line="58" column="107" />
-        <mark key="." line="58" column="107" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" timestamp="1525120657934">
+        <mark key="'" line="63" column="26" />
+        <mark key="[" line="71" column="0" />
+        <mark key="]" line="71" column="0" />
+        <mark key="^" line="65" column="55" />
+        <mark key="." line="71" column="0" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481283180076">
         <mark key="'" line="653" column="9" />
@@ -674,13 +674,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="530" column="36" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="574" column="43" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="333" column="16" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="377" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="51" column="0" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="7" column="48" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="636" column="4" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="559" column="28" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="839" column="23" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
       <jump line="230" column="25" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
@@ -772,67 +765,71 @@
       <jump line="25" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
       <jump line="62" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
       <jump line="20" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
-      <jump line="63" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
       <jump line="18" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
+      <jump line="63" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
+      <jump line="47" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
+      <jump line="23" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
+      <jump line="61" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
+      <jump line="1" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
+      <jump line="5" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
+      <jump line="68" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
+      <jump line="38" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICMgYXNzZXJ0IGZpZWxkc1szXS5zdHJpcCgpID09IGZpZWxkc1s0XS5zdHJpcCgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
-        <text>token file</text>
+        <text>'</text>
       </register>
       <register name="/" type="4">
-        <text>lmtzr</text>
+        <text>encode</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICMgYXNzZXJ0IGZpZWxkc1szXS5zdHJpcCgpID09IGZpZWxkc1s0XS5zdHJpcCgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICNpZiBjdXJyX3RvayBpbiBzcGVjaWFsX3Rva2VuX21hcDoK</text>
+      <register name="2" type="4">
+        <text>except:
+                print lemmas
+                print toks</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tbnVtX2ZpbGVzIiwgdHlwZT1pbnQsIGhlbHA9Im51bWJlciBvZiBmaWxlcyIpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJ5Ogo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="4">
-        <text>#sys.exit(-1)
-                #logger.writeln(integer_concepts)</text>
+        <text># infl_lemma = initialize_lemma(infl_file)
+    # trans_lemma = initialize_lemma(trans_file)</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="8" type="4">
-        <text>#try:
-            #    assert len(curr_node.p_edges) == 0, 'The root node has some parent nodes'
-            #except AssertionError:
-            #    #print str(self)
-            #    #logger.writeln(str(self))
-            #    #sys.exit(-1)
-            #    return None</text>
+        <text># infl_file = os.path.join(args.lemma_dir, 'infl.lemma')
+    # trans_file = os.path.join(args.lemma_dir, 'trans.lemma')</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAjZWRnZV9pbmRleCA9IHNlbGYuZWRnZV9kaWN0W2VkZ2VdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB3bl9sZW0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>lmtzr</last-search>
+      <last-search>encode</last-search>
       <last-offset />
-      <last-pattern>lmtzr</last-pattern>
+      <last-pattern>encode</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -863,6 +860,11 @@
         <entry>wn</entry>
         <entry>lemmatize</entry>
         <entry>lmtzr</entry>
+        <entry>better</entry>
+        <entry>degree</entry>
+        <entry>join</entry>
+        <entry>utf</entry>
+        <entry>encode</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
@@ -883,6 +885,7 @@
         <entry>529</entry>
         <entry>327</entry>
         <entry>574</entry>
+        <entry>48</entry>
         <entry>1</entry>
         <entry>w</entry>
       </history-cmd>
