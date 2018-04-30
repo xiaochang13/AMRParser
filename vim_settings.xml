@@ -522,6 +522,11 @@
         <mark key="^" line="68" column="33" />
         <mark key="." line="68" column="33" />
       </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/depTokens.py" timestamp="1525117509394">
+        <mark key="[" line="36" column="0" />
+        <mark key="]" line="36" column="0" />
+        <mark key="." line="36" column="0" />
+      </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1518667458814">
         <mark key="'" line="764" column="8" />
       </file>
@@ -576,11 +581,12 @@
         <mark key="^" line="80" column="33" />
         <mark key="." line="80" column="37" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" timestamp="1525116087956">
-        <mark key="[" line="3" column="39" />
-        <mark key="]" line="4" column="46" />
-        <mark key="^" line="4" column="46" />
-        <mark key="." line="4" column="46" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" timestamp="1525117436006">
+        <mark key="'" line="18" column="4" />
+        <mark key="[" line="58" column="68" />
+        <mark key="]" line="58" column="107" />
+        <mark key="^" line="58" column="107" />
+        <mark key="." line="58" column="107" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481283180076">
         <mark key="'" line="653" column="9" />
@@ -668,11 +674,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="10" column="0" filename="$USER_HOME$/Aligner/preprocessing.py" />
-      <jump line="419" column="12" filename="$USER_HOME$/Aligner/preprocessing.py" />
-      <jump line="346" column="0" filename="$USER_HOME$/Aligner/preprocessing.py" />
-      <jump line="484" column="24" filename="$USER_HOME$/Aligner/preprocessing.py" />
-      <jump line="341" column="30" filename="$USER_HOME$/Aligner/preprocessing.py" />
       <jump line="530" column="36" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="574" column="43" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="333" column="16" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
@@ -768,13 +769,18 @@
       <jump line="9" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="119" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="942" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="25" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
+      <jump line="62" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
+      <jump line="20" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
+      <jump line="63" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
+      <jump line="18" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICMgYXNzZXJ0IGZpZWxkc1szXS5zdHJpcCgpID09IGZpZWxkc1s0XS5zdHJpcCgpCg==</text>
       </register>
       <register name="-" type="4">
-        <text>, logger</text>
+        <text>token file</text>
       </register>
       <register name="/" type="4">
         <text>lmtzr</text>
@@ -783,22 +789,31 @@
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICMgYXNzZXJ0IGZpZWxkc1szXS5zdHJpcCgpID09IGZpZWxkc1s0XS5zdHJpcCgpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICNpZiBjdXJyX3RvayBpbiBzcGVjaWFsX3Rva2VuX21hcDoK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIGFyZ3BhcnNlci5hZGRfYXJndW1lbnQoIi0tbnVtX2ZpbGVzIiwgdHlwZT1pbnQsIGhlbHA9Im51bWJlciBvZiBmaWxlcyIpCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="6" type="4">
         <text>#sys.exit(-1)
                 #logger.writeln(integer_concepts)</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="8" type="4">
         <text>#try:
             #    assert len(curr_node.p_edges) == 0, 'The root node has some parent nodes'
             #except AssertionError:
@@ -807,17 +822,8 @@
             #    #sys.exit(-1)
             #    return None</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjZWRnZV9pbmRleCA9IHNlbGYuZWRnZV9kaWN0W2VkZ2VdCg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAjZnJhZy5zZXRfbm9kZShpbmRleCkK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAjaW5kZXggPSBzZWxmLm5vZGVfZGljdFtjdXJyX25vZGVdCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjZWRnZV9pbmRleCA9IHNlbGYuZWRnZV9kaWN0W2VkZ2VdCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
