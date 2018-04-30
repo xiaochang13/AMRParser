@@ -133,8 +133,8 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1524599062131">
-        <mark key="'" line="1403" column="8" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525050904868">
+        <mark key="'" line="1405" column="8" />
         <mark key="[" line="1139" column="19" />
         <mark key="]" line="1139" column="20" />
         <mark key="." line="1139" column="20" />
@@ -662,9 +662,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="822" column="4" filename="$USER_HOME$/Aligner/Aligner.py" />
-      <jump line="44" column="0" filename="$USER_HOME$/Aligner/Aligner.py" />
-      <jump line="9" column="30" filename="$USER_HOME$/Aligner/Aligner.py" />
       <jump line="119" column="12" filename="$USER_HOME$/Aligner/Aligner.py" />
       <jump line="552" column="28" filename="$USER_HOME$/Aligner/Aligner.py" />
       <jump line="174" column="31" filename="$USER_HOME$/Aligner/Aligner.py" />
@@ -762,6 +759,9 @@
       <jump line="138" column="4" filename="$USER_HOME$/Aligner/common/util.py" />
       <jump line="199" column="35" filename="$USER_HOME$/Aligner/Aligner.py" />
       <jump line="386" column="4" filename="$USER_HOME$/Aligner/common/AMRGraph.py" />
+      <jump line="333" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="839" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1405" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
