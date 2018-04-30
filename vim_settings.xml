@@ -133,8 +133,8 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525097814871">
-        <mark key="'" line="358" column="17" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525123483546">
+        <mark key="'" line="477" column="43" />
         <mark key="[" line="332" column="0" />
         <mark key="]" line="332" column="0" />
         <mark key="." line="332" column="0" />
@@ -280,8 +280,12 @@
         <mark key="^" line="296" column="9" />
         <mark key="." line="296" column="9" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" timestamp="1525116219061">
-        <mark key="'" line="942" column="24" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" timestamp="1525123804733">
+        <mark key="'" line="162" column="8" />
+        <mark key="[" line="162" column="17" />
+        <mark key="]" line="162" column="17" />
+        <mark key="." line="162" column="17" />
+        <mark key="^" line="162" column="17" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -674,12 +678,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="559" column="28" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="839" column="23" filename="$USER_HOME$/SHRG-induction/amrtreewidth.py" />
-      <jump line="230" column="25" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="157" column="8" filename="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" />
-      <jump line="277" column="22" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="278" column="13" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="279" column="21" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="508" column="34" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
       <jump line="146" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -774,6 +772,12 @@
       <jump line="5" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
       <jump line="68" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
       <jump line="38" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
+      <jump line="407" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1402" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="530" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="477" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="185" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="162" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -783,7 +787,7 @@
         <text>'</text>
       </register>
       <register name="/" type="4">
-        <text>encode</text>
+        <text>readJAMRAli</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
@@ -827,9 +831,9 @@
       </register>
     </registers>
     <search>
-      <last-search>encode</last-search>
+      <last-search>readJAMRAli</last-search>
       <last-offset />
-      <last-pattern>encode</last-pattern>
+      <last-pattern>readJAMRAli</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -865,6 +869,8 @@
         <entry>join</entry>
         <entry>utf</entry>
         <entry>encode</entry>
+        <entry>entity_not_align</entry>
+        <entry>readJAMRAli</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
