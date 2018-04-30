@@ -280,8 +280,8 @@
         <mark key="^" line="296" column="9" />
         <mark key="." line="296" column="9" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" timestamp="1525096351548">
-        <mark key="'" line="119" column="4" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" timestamp="1525116219061">
+        <mark key="'" line="942" column="24" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/treewidth/treewidth.py" timestamp="1480247358014">
         <mark key="'" line="0" column="0" />
@@ -576,6 +576,12 @@
         <mark key="^" line="80" column="33" />
         <mark key="." line="80" column="37" />
       </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" timestamp="1525116087956">
+        <mark key="[" line="3" column="39" />
+        <mark key="]" line="4" column="46" />
+        <mark key="^" line="4" column="46" />
+        <mark key="." line="4" column="46" />
+      </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/src/edu/stanford/nlp/parser/nndep/DependencyParser.java" timestamp="1481283180076">
         <mark key="'" line="653" column="9" />
         <mark key="[" line="781" column="4" />
@@ -662,8 +668,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="17" column="0" filename="$USER_HOME$/Aligner/preprocessing.py" />
-      <jump line="3" column="0" filename="$USER_HOME$/Aligner/preprocessing.py" />
       <jump line="10" column="0" filename="$USER_HOME$/Aligner/preprocessing.py" />
       <jump line="419" column="12" filename="$USER_HOME$/Aligner/preprocessing.py" />
       <jump line="346" column="0" filename="$USER_HOME$/Aligner/preprocessing.py" />
@@ -758,10 +762,12 @@
       <jump line="839" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1405" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="28" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
-      <jump line="119" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="357" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="42" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_utils.py" />
       <jump line="358" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="9" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="119" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="942" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -849,6 +855,7 @@
         <entry>logger</entry>
         <entry>mph</entry>
         <entry>wn</entry>
+        <entry>lemmatize</entry>
         <entry>lmtzr</entry>
       </history-search>
       <history-cmd>
