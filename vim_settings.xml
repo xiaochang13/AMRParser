@@ -771,7 +771,7 @@
         <text>, logger</text>
       </register>
       <register name="/" type="4">
-        <text>logger</text>
+        <text>mph</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
@@ -815,17 +815,17 @@
 from entities import identify_entities</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>1</text>
       </register>
     </registers>
     <search>
-      <last-search>logger</last-search>
+      <last-search>mph</last-search>
       <last-offset />
-      <last-pattern>logger</last-pattern>
+      <last-pattern>mph</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
@@ -849,6 +849,7 @@ from entities import identify_entities</text>
         <entry>mergeSpans</entry>
         <entry>connect_ad</entry>
         <entry>logger</entry>
+        <entry>mph</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
@@ -869,8 +870,8 @@ from entities import identify_entities</text>
         <entry>529</entry>
         <entry>327</entry>
         <entry>574</entry>
-        <entry>1</entry>
         <entry>w</entry>
+        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
