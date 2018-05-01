@@ -115,12 +115,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525188301456">
-        <mark key="'" line="505" column="35" />
-        <mark key="[" line="494" column="0" />
-        <mark key="]" line="494" column="0" />
-        <mark key="." line="494" column="0" />
-        <mark key="^" line="334" column="74" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525191358126">
+        <mark key="'" line="384" column="27" />
+        <mark key="[" line="1379" column="4" />
+        <mark key="]" line="1379" column="5" />
+        <mark key="." line="1379" column="5" />
+        <mark key="^" line="1379" column="5" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -190,8 +190,8 @@
         <mark key="." line="814" column="23" />
         <mark key="^" line="814" column="23" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1519153100492">
-        <mark key="'" line="146" column="32" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" timestamp="1525190884405">
+        <mark key="'" line="29" column="4" />
         <mark key="[" line="197" column="32" />
         <mark key="]" line="197" column="32" />
         <mark key="." line="197" column="32" />
@@ -416,8 +416,8 @@
         <mark key="." line="122" column="20" />
         <mark key="^" line="122" column="20" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1525189212936">
-        <mark key="'" line="262" column="34" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1525189989513">
+        <mark key="'" line="120" column="45" />
         <mark key="[" line="285" column="35" />
         <mark key="]" line="285" column="35" />
         <mark key="^" line="285" column="35" />
@@ -429,6 +429,11 @@
         <mark key="]" line="2531" column="109" />
         <mark key="^" line="2531" column="109" />
         <mark key="." line="2531" column="109" />
+      </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/dependency.py" timestamp="1525190833524">
+        <mark key="[" line="6" column="4" />
+        <mark key="]" line="6" column="4" />
+        <mark key="." line="6" column="4" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/alignment_utils.py" timestamp="1516218198270">
         <mark key="'" line="240" column="52" />
@@ -646,15 +651,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="585" column="30" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
-      <jump line="10" column="7" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
-      <jump line="244" column="18" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
-      <jump line="2" column="0" filename="$USER_HOME$/SHRG-extraction/alignment_utils.py" />
-      <jump line="234" column="45" filename="$USER_HOME$/Aligner/Aligner.py" />
-      <jump line="138" column="4" filename="$USER_HOME$/Aligner/common/util.py" />
-      <jump line="199" column="35" filename="$USER_HOME$/Aligner/Aligner.py" />
-      <jump line="386" column="4" filename="$USER_HOME$/Aligner/common/AMRGraph.py" />
-      <jump line="333" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="839" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1405" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="28" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
@@ -746,53 +742,56 @@
       <jump line="323" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="262" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="83" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" />
+      <jump line="120" column="45" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="266" column="73" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
+      <jump line="29" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
+      <jump line="707" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="726" column="21" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="679" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="406" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1379" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="384" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBpbmRpY2VzID0gW25vZGVfaWR4IGZvciBub2RlX2lkeCBpbiBpbmRpY2VzIGlmIG5vZGVfaWR4IG5vdCBpbiBhbGlnbmVkX25vZGVzXQo=</text>
+        <text encoding="base64">ICAgIGNvbmxsX3dmID0gb3BlbihvdXRwdXRfYW1yX2NvbmxsLCAidyIpCg==</text>
       </register>
       <register name="-" type="4">
         <text>_idx</text>
       </register>
       <register name="/" type="4">
-        <text>Inconsis</text>
+        <text>conll_file</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBpbmRpY2VzID0gW25vZGVfaWR4IGZvciBub2RlX2lkeCBpbiBpbmRpY2VzIGlmIG5vZGVfaWR4IG5vdCBpbiBhbGlnbmVkX25vZGVzXQo=</text>
+        <text encoding="base64">ICAgIGNvbmxsX3dmID0gb3BlbihvdXRwdXRfYW1yX2NvbmxsLCAidyIpCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjIHByaW50ICJBbGwgYWxpZ25tZW50czoiLCBzdHIoYWxsX2FsaWdubWVudHMpCg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">IyBpbnQgbjsKICAgICMgTGlzdDxJbnRlZ2VyPiBoZWFkOwogICAgIyBMaXN0PFN0cmluZz4gbGFiZWw7CiAgICAjCgogICAgIyBNYXA8SW50ZWdlciwgTWFwPEludGVnZXIsIEludGVnZXI+PiBkaXN0czsKICAgICMgcHJpdmF0ZSBpbnQgY291bnRlcjs=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBuX2lkZW50aWZpZWRfY29uY2VwdHMgPSAwCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBpbmRpY2VzID0gW25vZGVfaWR4IGZvciBub2RlX2lkeCBpbiBpbmRpY2VzIGlmIG5vZGVfaWR4IG5vdCBpbiBhbGlnbmVkX25vZGVzXQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAjY3Vycl9ub2RlID0gc2VsZi5yb290Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIHByaW50ICJBbGwgYWxpZ25tZW50czoiLCBzdHIoYWxsX2FsaWdubWVudHMpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBjdXJyX251bSA9IDAK</text>
+        <text encoding="base64">ICAgICAgICBuX2lkZW50aWZpZWRfY29uY2VwdHMgPSAwCg==</text>
       </register>
-      <register name="6" type="4">
-        <text>#sys.exit(-1)
-                #logger.writeln(integer_concepts)</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAjY3Vycl9ub2RlID0gc2VsZi5yb290Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBjdXJyX251bSA9IDAK</text>
       </register>
       <register name="8" type="4">
-        <text>#try:
-            #    assert len(curr_node.p_edges) == 0, 'The root node has some parent nodes'
-            #except AssertionError:
-            #    #print str(self)
-            #    #logger.writeln(str(self))
-            #    #sys.exit(-1)
-            #    return None</text>
+        <text>#sys.exit(-1)
+                #logger.writeln(integer_concepts)</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
@@ -802,9 +801,9 @@
       </register>
     </registers>
     <search>
-      <last-search>Inconsis</last-search>
+      <last-search>conll_file</last-search>
       <last-offset />
-      <last-pattern>Inconsis</last-pattern>
+      <last-pattern>conll_file</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -864,6 +863,11 @@
         <entry>mergeNodes</entry>
         <entry>subgraph_str</entry>
         <entry>Inconsis</entry>
+        <entry>word_idx</entry>
+        <entry>def apply</entry>
+        <entry>MULT</entry>
+        <entry>conll_wf</entry>
+        <entry>conll_file</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
