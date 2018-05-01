@@ -54,8 +54,8 @@
         <mark key="." line="392" column="8" />
         <mark key="^" line="392" column="9" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_utils.py" timestamp="1518638870842">
-        <mark key="'" line="65" column="29" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_utils.py" timestamp="1525144516524">
+        <mark key="'" line="40" column="20" />
         <mark key="[" line="38" column="8" />
         <mark key="]" line="38" column="8" />
         <mark key="^" line="86" column="5" />
@@ -133,8 +133,8 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525140066440">
-        <mark key="'" line="458" column="12" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525144508492">
+        <mark key="'" line="362" column="24" />
         <mark key="[" line="332" column="24" />
         <mark key="]" line="334" column="74" />
         <mark key="." line="334" column="74" />
@@ -531,18 +531,17 @@
         <mark key="]" line="36" column="0" />
         <mark key="." line="36" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/common/AMRGraph.py" timestamp="1525143631806">
-        <mark key="'" line="411" column="8" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/common/AMRGraph.py" timestamp="1525144623852">
+        <mark key="'" line="291" column="28" />
         <mark key="[" line="378" column="24" />
         <mark key="]" line="378" column="24" />
         <mark key="." line="378" column="24" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525144269052">
-        <mark key="'" line="485" column="15" />
-        <mark key="[" line="208" column="15" />
-        <mark key="]" line="208" column="25" />
-        <mark key="." line="208" column="25" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525145234086">
+        <mark key="[" line="364" column="0" />
+        <mark key="]" line="364" column="0" />
         <mark key="^" line="208" column="25" />
+        <mark key="." line="364" column="0" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1517020969551">
         <mark key="'" line="39" column="19" />
@@ -688,10 +687,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="406" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
-      <jump line="378" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
-      <jump line="246" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
-      <jump line="81" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="257" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="255" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="42" column="0" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
@@ -788,49 +783,52 @@
       <jump line="449" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="460" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="982" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="362" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="40" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_utils.py" />
+      <jump line="291" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/common/AMRGraph.py" />
+      <jump line="368" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>object</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>object</text>
       </register>
       <register name="/" type="4">
-        <text>amr</text>
+        <text>get_ances</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
       </register>
-      <register name="1" type="4">
-        <text>#ret_var = SURF + ('%d' % self.var_index)
-                #self.var_index += 1</text>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text>#ret_var = CONST + ('%d' % self.const_index)
-                #self.const_index += 1</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="4">
-        <text>#ret_var = VERB + ('%d' % self.verb_index)
-                #self.verb_index += 1</text>
+        <text>def get_relation_edges(self):
+        relation_edges = {}
+        for edge in self.edges:
+            if edge.head != None and edge.tail != None: # get rid of const edges
+                relation_edges[(edge.head, edge.tail)] = edge.label
+        return relation_edges</text>
       </register>
-      <register name="4" type="4">
-        <text>#ret_var = 'ENT_%s-%d' % (entity_name, self.ent_index)
-            #self.ent_index += 1</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="4">
-        <text>except:
-                print lemmas
-                print toks</text>
+        <text encoding="base64">ZGVmIGdldF9hbmNlc3RvcnMoc2VsZiwgbiwgc3RvcF9pZl9zZWUgPSBOb25lKToKICAgICAgICBzZXRfbiA9IHtuOignJywtMSl9CiAgICAgICAgcXVldWUgPSBbbixdCiAgICAgICAgd2hpbGUgbGVuKHF1ZXVlKSA+IDA6CiAgICAgICAgICAgIGN1ciA9IHF1ZXVlLnBvcCgwKQogICAgICAgICAgICBmb3IgZWkgaW4gc2VsZi5ub2Rlc1tjdXJdLnBfZWRnZXM6CiAgICAgICAgICAgICAgICBlID0gc2VsZi5lZGdlc1tlaV0KICAgICAgICAgICAgICAgIHBybiA9IGUuaGVhZAogICAgICAgICAgICAgICAgaWYgcHJuIG5vdCBpbiBzZXRfbjoKICAgICAgICAgICAgICAgICAgICBzZXRfbltwcm5dID0gKGUubGFiZWwsIGN1cikKICAgICAgICAgICAgICAgICAgICBxdWV1ZS5hcHBlbmQocHJuKQogICAgICAgICAgICAgICAgaWYgc3RvcF9pZl9zZWUgIT0gTm9uZSBhbmQgcHJuIGluIHN0b3BfaWZfc2VlOgogICAgICAgICAgICAgICAgICAgIHJldHVybiAoc2V0X24sIHBybikKICAgICAgICByZXR1cm4gKHNldF9uLCBOb25lKQ==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJ5Ogo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
@@ -843,9 +841,9 @@
       </register>
     </registers>
     <search>
-      <last-search>amr</last-search>
+      <last-search>get_ances</last-search>
       <last-offset />
-      <last-pattern>amr</last-pattern>
+      <last-pattern>get_ances</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -887,6 +885,7 @@
         <entry>getFrag</entry>
         <entry>prev_var</entry>
         <entry>amr</entry>
+        <entry>get_ances</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
