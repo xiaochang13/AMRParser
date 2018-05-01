@@ -133,8 +133,8 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525138214804">
-        <mark key="'" line="482" column="43" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525140066440">
+        <mark key="'" line="458" column="12" />
         <mark key="[" line="332" column="24" />
         <mark key="]" line="334" column="74" />
         <mark key="." line="334" column="74" />
@@ -350,8 +350,8 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1524591995684">
-        <mark key="'" line="146" column="0" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525139960107">
+        <mark key="'" line="533" column="4" />
         <mark key="[" line="314" column="0" />
         <mark key="]" line="314" column="0" />
         <mark key="^" line="222" column="31" />
@@ -531,8 +531,16 @@
         <mark key="]" line="36" column="0" />
         <mark key="." line="36" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1518667458814">
-        <mark key="'" line="764" column="8" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/common/AMRGraph.py" timestamp="1525139897559">
+        <mark key="[" line="378" column="24" />
+        <mark key="]" line="378" column="24" />
+        <mark key="." line="378" column="24" />
+      </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525140253763">
+        <mark key="'" line="485" column="15" />
+        <mark key="[" line="456" column="16" />
+        <mark key="]" line="456" column="16" />
+        <mark key="." line="456" column="16" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1517020969551">
         <mark key="'" line="39" column="19" />
@@ -678,16 +686,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="279" column="21" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="508" column="34" filename="$USER_HOME$/SHRG-induction/hrg_learn.py" />
-      <jump line="146" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="21" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
-      <jump line="944" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
-      <jump line="304" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
-      <jump line="1403" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="215" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
-      <jump line="936" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
-      <jump line="963" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="660" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="676" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="143" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
@@ -778,62 +776,75 @@
       <jump line="477" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="185" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="162" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="464" column="60" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="424" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/common/AMRGraph.py" />
+      <jump line="128" column="58" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="542" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/common/AMRGraph.py" />
+      <jump line="24" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="65" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="533" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="469" column="68" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="458" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="485" column="15" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="&quot;" type="4">
+        <text>#ret_var = SURF + ('%d' % self.var_index)
+                #self.var_index += 1</text>
       </register>
       <register name="-" type="4">
-        <text>'</text>
+        <text>p</text>
       </register>
       <register name="/" type="4">
-        <text>readJAMRAli</text>
+        <text>getFrag</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="1" type="4">
+        <text>#ret_var = SURF + ('%d' % self.var_index)
+                #self.var_index += 1</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="4">
+        <text>#ret_var = CONST + ('%d' % self.const_index)
+                #self.const_index += 1</text>
+      </register>
+      <register name="3" type="4">
+        <text>#ret_var = VERB + ('%d' % self.verb_index)
+                #self.verb_index += 1</text>
+      </register>
+      <register name="4" type="4">
+        <text>#ret_var = 'ENT_%s-%d' % (entity_name, self.ent_index)
+            #self.ent_index += 1</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="6" type="4">
         <text>except:
                 print lemmas
                 print toks</text>
       </register>
-      <register name="3" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgdHJ5Ogo=</text>
       </register>
-      <register name="4" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="6" type="4">
-        <text># infl_lemma = initialize_lemma(infl_file)
-    # trans_lemma = initialize_lemma(trans_file)</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="8" type="4">
-        <text># infl_file = os.path.join(args.lemma_dir, 'infl.lemma')
-    # trans_file = os.path.join(args.lemma_dir, 'trans.lemma')</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB3bl9sZW0K</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>readJAMRAli</last-search>
+      <last-search>getFrag</last-search>
       <last-offset />
-      <last-pattern>readJAMRAli</last-pattern>
+      <last-pattern>getFrag</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -871,6 +882,9 @@
         <entry>encode</entry>
         <entry>entity_not_align</entry>
         <entry>readJAMRAli</entry>
+        <entry>AMRGra</entry>
+        <entry>amr</entry>
+        <entry>getFrag</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
