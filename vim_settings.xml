@@ -360,8 +360,8 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525201914090">
-        <mark key="'" line="9" column="0" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525203295830">
+        <mark key="'" line="557" column="4" />
         <mark key="[" line="322" column="28" />
         <mark key="]" line="322" column="37" />
         <mark key="^" line="222" column="31" />
@@ -558,12 +558,12 @@
         <mark key="]" line="378" column="24" />
         <mark key="." line="378" column="24" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525202822373">
-        <mark key="'" line="176" column="7" />
-        <mark key="[" line="214" column="7" />
-        <mark key="]" line="214" column="25" />
-        <mark key="^" line="214" column="25" />
-        <mark key="." line="214" column="25" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525203750839">
+        <mark key="'" line="257" column="19" />
+        <mark key="[" line="222" column="37" />
+        <mark key="]" line="223" column="19" />
+        <mark key="^" line="223" column="19" />
+        <mark key="." line="223" column="19" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1517020969551">
         <mark key="'" line="39" column="19" />
@@ -709,9 +709,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="524" column="89" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
-      <jump line="233" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="251" column="21" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="327" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="253" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="269" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
@@ -809,16 +806,19 @@
       <jump line="312" column="48" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="9" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="176" column="7" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="557" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="222" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="257" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>{}</text>
+        <text>[]</text>
       </register>
       <register name="-" type="4">
-        <text>{}</text>
+        <text>[]</text>
       </register>
       <register name="/" type="4">
-        <text>def node</text>
+        <text>self.dict</text>
       </register>
       <register name="0" type="4">
         <text>verb_list</text>
@@ -858,9 +858,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def node</last-search>
+      <last-search>self.dict</last-search>
       <last-offset />
-      <last-pattern>def node</last-pattern>
+      <last-pattern>self.dict</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -906,7 +906,6 @@
         <entry>collapsed_dfs</entry>
         <entry>jamr</entry>
         <entry>node_dict</entry>
-        <entry>self.dict</entry>
         <entry>label_to_node</entry>
         <entry>curr_node_idx</entry>
         <entry>var_to_</entry>
@@ -941,6 +940,9 @@
         <entry>alignVer</entry>
         <entry>VERB_LIST</entry>
         <entry>def node</entry>
+        <entry>subgraph</entry>
+        <entry>copy</entry>
+        <entry>self.dict</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
