@@ -136,12 +136,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525208094992">
-        <mark key="'" line="473" column="49" />
-        <mark key="[" line="395" column="4" />
-        <mark key="]" line="395" column="5" />
-        <mark key="^" line="395" column="5" />
-        <mark key="." line="395" column="5" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525214657063">
+        <mark key="'" line="478" column="16" />
+        <mark key="[" line="617" column="4" />
+        <mark key="]" line="617" column="4" />
+        <mark key="." line="617" column="4" />
+        <mark key="^" line="617" column="4" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -360,12 +360,12 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525208062243">
-        <mark key="'" line="136" column="13" />
-        <mark key="[" line="115" column="63" />
-        <mark key="]" line="115" column="63" />
-        <mark key="^" line="136" column="13" />
-        <mark key="." line="115" column="63" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525215022572">
+        <mark key="p" line="172" column="44" />
+        <mark key="[" line="605" column="0" />
+        <mark key="]" line="605" column="0" />
+        <mark key="^" line="563" column="20" />
+        <mark key="." line="605" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1515006441367">
         <mark key="'" line="106" column="59" />
@@ -558,8 +558,8 @@
         <mark key="]" line="378" column="24" />
         <mark key="." line="378" column="24" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525207514884">
-        <mark key="'" line="223" column="36" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525209383477">
+        <mark key="'" line="647" column="32" />
         <mark key="[" line="240" column="0" />
         <mark key="]" line="240" column="0" />
         <mark key="^" line="229" column="44" />
@@ -709,85 +709,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="278" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="289" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="939" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="952" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="469" column="83" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="132" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="538" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="539" column="62" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="506" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="167" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="171" column="86" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="202" column="46" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="174" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="356" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="424" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="559" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="486" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="309" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="325" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="304" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="323" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="262" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="83" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" />
-      <jump line="120" column="45" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
-      <jump line="266" column="73" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="29" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
-      <jump line="707" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="726" column="21" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="679" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="406" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1379" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="384" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1408" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="362" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="40" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_utils.py" />
-      <jump line="1006" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="377" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="936" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="689" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="918" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="22" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="254" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="227" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="237" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="323" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="234" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="270" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="301" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="324" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="931" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="30" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="41" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="52" column="81" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="55" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="61" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="78" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="112" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="116" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="119" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="138" column="67" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="142" column="67" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="155" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="167" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="192" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="35" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/tmp_amr_graph" />
-      <jump line="1133" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/tmp_amr_graph" />
-      <jump line="466" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/tmp_amr_graph" />
-      <jump line="498" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="330" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="349" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1291" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="492" column="68" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="7" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1414" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="490" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="36" column="9" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/constants.py" />
-      <jump line="30" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/constants.py" />
-      <jump line="489" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1416" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="317" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="321" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -800,38 +721,116 @@
       <jump line="257" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="223" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="340" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="312" column="7" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="499" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="500" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="476" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="474" column="53" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="527" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="528" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="136" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="475" column="49" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="449" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="662" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="143" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="312" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="313" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="350" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="480" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="286" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="266" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="215" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="239" column="57" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="210" column="80" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="202" column="91" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="173" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="452" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1332" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="115" column="44" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="132" column="14" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="469" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="471" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="467" column="10" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="475" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="482" column="57" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="507" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="84" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="524" column="54" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="667" column="51" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="666" column="47" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="665" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="648" column="45" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="647" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="579" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="500" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="607" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="585" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="581" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="569" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="506" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="565" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="572" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="573" column="84" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="294" column="52" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="299" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="575" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="566" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="457" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="558" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="622" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="623" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="562" column="69" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="714" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="410" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="444" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="437" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="445" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="508" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="565" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="604" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="641" column="6" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="489" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="479" column="76" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="463" column="9" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="519" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="473" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="497" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1004" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1026" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="991" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="476" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="478" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="103" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="562" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="568" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="171" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="172" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="223" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="268" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="287" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="113" column="21" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="563" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="570" column="64" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="230" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="605" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IyBkZWYgc2F2ZV9hbGlnbm1lbnQoc2VudF9pZHgsIGFtciwgdG9rX3NlcSwgbGVtbWFfc2VxLCBhbGxfYWxpZ25tZW50cywgbmV3X3N0YXJ0X3RvX2VuZCwgYWxpZ25tZW50X3dmLAojICAgICAgICAgICAgICAgICAgICB0b2tfdG9fY2F0ZWdvcmllcywgZnJlcXVlbnRfc2V0KToKIwojICAgICBzdGFydDJlbmQsIGNhdGVnb3J5X21hcCwgbm9kZV9tYXAsIHdpa2lfbWFwID0gYnVpbGRfYWxpZ25tZW50X21hcHMoYW1yLCBhbGxfYWxpZ25tZW50cykKIwojICAgICAjIFNhdmUgdGhlIG5ldyBhbGlnbm1lbnRzLgojICAgICBwcmludCA+PiBhbGlnbm1lbnRfd2YsICJTZW50ZW5jZSAjJWQiICUgc2VudF9pZHgKIyAgICAgdmlzaXRlZF9pZHhzID0gc2V0KCkKIyAgICAgZm9yICh0b2tfaWR4LCBjdXJyX3RvaykgaW4gZW51bWVyYXRlKHRva19zZXEpOgojCiMgICAgICAgICBpZiB0b2tfaWR4IGluIHZpc2l0ZWRfaWR4czoKIyAgICAgICAgICAgICBjb250aW51ZQojICAgICAgICAgc3RhcnQgPSB0b2tfaWR4CiMgICAgICAgICByZWxfYWxpZ25fc3RyID0gIk5PTkUiCiMgICAgICAgICAjIGlmIHRva19pZHggaW4gdG9rMnJlbHM6CiMgICAgICAgICAjICAgICByZWxfYWxpZ25fc3RyID0gIiMiLmpvaW4oW2Ftci5lZGdlc1tlZGdlX2lkeF0ubGFiZWwgZm9yIGVkZ2VfaWR4IGluIHRvazJyZWxzW3Rva19pZHhdXSkKIwojICAgICAgICAgaWYgc3RhcnQgaW4gc3RhcnQyZW5kIGFuZCBzdGFydCBpbiBuZXdfc3RhcnRfdG9fZW5kOgojICAgICAgICAgICAgIGVuZCwgd2lraV9sLCBjYXRlX2wsIG5vZGVfbCA9IG5ld19zdGFydF90b19lbmRbc3RhcnRdLCB3aWtpX21hcFtzdGFydF0sIGNhdGVnb3J5X21hcFtzdGFydF0sIG5vZGVfbWFwW3N0YXJ0XQojCiMgICAgICAgICAgICAgdmlzaXRlZF9pZHhzIHw9IHNldChyYW5nZShzdGFydCwgZW5kKSkKIyAgICAgICAgICAgICBhc3NlcnQgbm9kZV9sICE9ICJOT05FIiwgIiVkLSVkLCAlcywgJXNcbiIgJSAoc3RhcnQsIGVuZCwgbm9kZV9sLCBjYXRlX2wpCiMgICAgICAgICBlbHNlOgojICAgICAgICAgICAgIGVuZCwgd2lraV9sLCBjYXRlX2wsIG5vZGVfbCA9IHN0YXJ0ICsgMSwgIk5PTkUiLCAiTk9ORSIsICJOT05FIgojICAgICAgICAgICAgIHZpc2l0ZWRfaWR4cy5hZGQoc3RhcnQpCiMKIyAgICAgICAgIGF0dHJzID0gWyIlZC0lZCIgJSAoc3RhcnQsIGVuZCldCiMgICAgICAgICB0b2tfc3RyID0gIiAiLmpvaW4odG9rX3NlcVtzdGFydDplbmRdKQojICAgICAgICAgbGVtX3N0ciA9ICIgIi5qb2luKGxlbW1hX3NlcVtzdGFydDplbmRdKQojICAgICAgICAgYXR0cnMuYXBwZW5kKHRva19zdHIpCiMgICAgICAgICBhdHRycy5hcHBlbmQoY2F0ZV9sKQojICAgICAgICAgYXR0cnMuYXBwZW5kKG5vZGVfbCkKIyAgICAgICAgIGNvbmNlcHRfY2F0ZWdvcnkgPSBnZXRDYXRlZ29yaWVzKG5vZGVfbCwgZnJlcXVlbnRfc2V0KQojICAgICAgICAgYXR0cnMuYXBwZW5kKGNvbmNlcHRfY2F0ZWdvcnkpCiMgICAgICAgICAjIGF0dHJzLmFwcGVuZChyZWxfYWxpZ25fc3RyKQojICAgICAgICAgYXR0cnMuYXBwZW5kKHdpa2lfbCkKIwojICAgICAgICAgaWYgdG9rX3N0ciBpbiB0b2tfdG9fY2F0ZWdvcmllczoKIyAgICAgICAgICAgICBjb25jZXB0X3N0ciA9IHRva190b19jb25jZXB0W3Rva19zdHJdCiMgICAgICAgICAgICAgY29uY2VwdF9jYXRlZ29yeSA9IHRva190b19jYXRlZ29yaWVzW3Rva19zdHJdCiMgICAgICAgICBlbGlmIGxlbV9zdHIgaW4gdG9rX3RvX2NhdGVnb3JpZXM6CiMgICAgICAgICAgICAgY29uY2VwdF9zdHIgPSB0b2tfdG9fY29uY2VwdFtsZW1fc3RyXQojICAgICAgICAgICAgIGNvbmNlcHRfY2F0ZWdvcnkgPSB0b2tfdG9fY2F0ZWdvcmllc1tsZW1fc3RyXQojICAgICAgICAgY29uY2VwdElEX3NlcS5hcHBlbmQoKHRva19zdHIsIGxlbV9zdHIsIGluX2JyYWNrZXQoc3RhcnQsIGVuZCwgdG9rX3NlcSksIHdpa2lfbCwKIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25jZXB0X3N0ciwgY29uY2VwdF9jYXRlZ29yeSkpCiMKIyAgICAgICAgIHByaW50ID4+IGFsaWdubWVudF93ZiwgIiB8fHwgIi5qb2luKGF0dHJzKQojICAgIHByaW50ID4+IGFsaWdubWVudF93ZiwgIiI=</text>
       </register>
       <register name="-" type="4">
-        <text>, relation_align_map</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIA==</text>
       </register>
       <register name="/" type="4">
-        <text>relation_align_map</text>
+        <text>node_alignment</text>
       </register>
       <register name="0" type="4">
-        <text>verb_list</text>
+        <text>(tok_seq, lemma_seq, alignment_seq, amr, verb_list, multi_map)</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="1" type="4">
+        <text encoding="base64">IyBkZWYgc2F2ZV9hbGlnbm1lbnQoc2VudF9pZHgsIGFtciwgdG9rX3NlcSwgbGVtbWFfc2VxLCBhbGxfYWxpZ25tZW50cywgbmV3X3N0YXJ0X3RvX2VuZCwgYWxpZ25tZW50X3dmLAojICAgICAgICAgICAgICAgICAgICB0b2tfdG9fY2F0ZWdvcmllcywgZnJlcXVlbnRfc2V0KToKIwojICAgICBzdGFydDJlbmQsIGNhdGVnb3J5X21hcCwgbm9kZV9tYXAsIHdpa2lfbWFwID0gYnVpbGRfYWxpZ25tZW50X21hcHMoYW1yLCBhbGxfYWxpZ25tZW50cykKIwojICAgICAjIFNhdmUgdGhlIG5ldyBhbGlnbm1lbnRzLgojICAgICBwcmludCA+PiBhbGlnbm1lbnRfd2YsICJTZW50ZW5jZSAjJWQiICUgc2VudF9pZHgKIyAgICAgdmlzaXRlZF9pZHhzID0gc2V0KCkKIyAgICAgZm9yICh0b2tfaWR4LCBjdXJyX3RvaykgaW4gZW51bWVyYXRlKHRva19zZXEpOgojCiMgICAgICAgICBpZiB0b2tfaWR4IGluIHZpc2l0ZWRfaWR4czoKIyAgICAgICAgICAgICBjb250aW51ZQojICAgICAgICAgc3RhcnQgPSB0b2tfaWR4CiMgICAgICAgICByZWxfYWxpZ25fc3RyID0gIk5PTkUiCiMgICAgICAgICAjIGlmIHRva19pZHggaW4gdG9rMnJlbHM6CiMgICAgICAgICAjICAgICByZWxfYWxpZ25fc3RyID0gIiMiLmpvaW4oW2Ftci5lZGdlc1tlZGdlX2lkeF0ubGFiZWwgZm9yIGVkZ2VfaWR4IGluIHRvazJyZWxzW3Rva19pZHhdXSkKIwojICAgICAgICAgaWYgc3RhcnQgaW4gc3RhcnQyZW5kIGFuZCBzdGFydCBpbiBuZXdfc3RhcnRfdG9fZW5kOgojICAgICAgICAgICAgIGVuZCwgd2lraV9sLCBjYXRlX2wsIG5vZGVfbCA9IG5ld19zdGFydF90b19lbmRbc3RhcnRdLCB3aWtpX21hcFtzdGFydF0sIGNhdGVnb3J5X21hcFtzdGFydF0sIG5vZGVfbWFwW3N0YXJ0XQojCiMgICAgICAgICAgICAgdmlzaXRlZF9pZHhzIHw9IHNldChyYW5nZShzdGFydCwgZW5kKSkKIyAgICAgICAgICAgICBhc3NlcnQgbm9kZV9sICE9ICJOT05FIiwgIiVkLSVkLCAlcywgJXNcbiIgJSAoc3RhcnQsIGVuZCwgbm9kZV9sLCBjYXRlX2wpCiMgICAgICAgICBlbHNlOgojICAgICAgICAgICAgIGVuZCwgd2lraV9sLCBjYXRlX2wsIG5vZGVfbCA9IHN0YXJ0ICsgMSwgIk5PTkUiLCAiTk9ORSIsICJOT05FIgojICAgICAgICAgICAgIHZpc2l0ZWRfaWR4cy5hZGQoc3RhcnQpCiMKIyAgICAgICAgIGF0dHJzID0gWyIlZC0lZCIgJSAoc3RhcnQsIGVuZCldCiMgICAgICAgICB0b2tfc3RyID0gIiAiLmpvaW4odG9rX3NlcVtzdGFydDplbmRdKQojICAgICAgICAgbGVtX3N0ciA9ICIgIi5qb2luKGxlbW1hX3NlcVtzdGFydDplbmRdKQojICAgICAgICAgYXR0cnMuYXBwZW5kKHRva19zdHIpCiMgICAgICAgICBhdHRycy5hcHBlbmQoY2F0ZV9sKQojICAgICAgICAgYXR0cnMuYXBwZW5kKG5vZGVfbCkKIyAgICAgICAgIGNvbmNlcHRfY2F0ZWdvcnkgPSBnZXRDYXRlZ29yaWVzKG5vZGVfbCwgZnJlcXVlbnRfc2V0KQojICAgICAgICAgYXR0cnMuYXBwZW5kKGNvbmNlcHRfY2F0ZWdvcnkpCiMgICAgICAgICAjIGF0dHJzLmFwcGVuZChyZWxfYWxpZ25fc3RyKQojICAgICAgICAgYXR0cnMuYXBwZW5kKHdpa2lfbCkKIwojICAgICAgICAgaWYgdG9rX3N0ciBpbiB0b2tfdG9fY2F0ZWdvcmllczoKIyAgICAgICAgICAgICBjb25jZXB0X3N0ciA9IHRva190b19jb25jZXB0W3Rva19zdHJdCiMgICAgICAgICAgICAgY29uY2VwdF9jYXRlZ29yeSA9IHRva190b19jYXRlZ29yaWVzW3Rva19zdHJdCiMgICAgICAgICBlbGlmIGxlbV9zdHIgaW4gdG9rX3RvX2NhdGVnb3JpZXM6CiMgICAgICAgICAgICAgY29uY2VwdF9zdHIgPSB0b2tfdG9fY29uY2VwdFtsZW1fc3RyXQojICAgICAgICAgICAgIGNvbmNlcHRfY2F0ZWdvcnkgPSB0b2tfdG9fY2F0ZWdvcmllc1tsZW1fc3RyXQojICAgICAgICAgY29uY2VwdElEX3NlcS5hcHBlbmQoKHRva19zdHIsIGxlbV9zdHIsIGluX2JyYWNrZXQoc3RhcnQsIGVuZCwgdG9rX3NlcSksIHdpa2lfbCwKIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25jZXB0X3N0ciwgY29uY2VwdF9jYXRlZ29yeSkpCiMKIyAgICAgICAgIHByaW50ID4+IGFsaWdubWVudF93ZiwgIiB8fHwgIi5qb2luKGF0dHJzKQojICAgIHByaW50ID4+IGFsaWdubWVudF93ZiwgIiI=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text>alignment_counts = {}
-    lemma_align_counts = {}</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
@@ -840,28 +839,65 @@
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">IyBTYXZlIHRoZSBvbGQgYWxpZ25tZW50LgogICAgICAgIHByaW50ID4+IG9sZF9hbGlnbl93ZiwgIlNlbnRlbmNlICMlZCIgJSBzZW50X2lkeAogICAgICAgIGZvciAodG9rX2lkeCwgY3Vycl90b2spIGluIGVudW1lcmF0ZSh0b2tfc2VxKToKICAgICAgICAgICAgY29uY2VwdF9sID0gIk5PTkUiCiAgICAgICAgICAgIGlmIHRva19pZHggaW4gY29uY2VwdF9hbGlnbl9tYXA6CiAgICAgICAgICAgICAgICBjb25jZXB0X2wgPSAiIyIuam9pbihjb25jZXB0X2FsaWduX21hcFt0b2tfaWR4XSkKICAgICAgICAgICAgcmVsYXRpb25fbCA9ICJOT05FIgogICAgICAgICAgICBpZiB0b2tfaWR4IGluIHJlbGF0aW9uX2FsaWduX21hcDoKICAgICAgICAgICAgICAgIHJlbGF0aW9uX2wgPSAiIyIuam9pbihyZWxhdGlvbl9hbGlnbl9tYXBbdG9rX2lkeF0pCiAgICAgICAgICAgIGF0dHJzID0gWyIlZCIgJSB0b2tfaWR4XQogICAgICAgICAgICBhdHRycy5hcHBlbmQoY3Vycl90b2spCiAgICAgICAgICAgIGF0dHJzLmFwcGVuZChjb25jZXB0X2wpCiAgICAgICAgICAgIGF0dHJzLmFwcGVuZChyZWxhdGlvbl9sKQogICAgICAgICAgICBwcmludCA+PiBvbGRfYWxpZ25fd2YsICIgfHx8ICIuam9pbihhdHRycykKICAgICAgICBwcmludCA+PiBvbGRfYWxpZ25fd2YsICIi</text>
+        <text># for (start, end) in span_to_type:
+        #     (node_idx, subgraph_repr, category) = span_to_type[(start, end)]
+        #     if node_idx not in nodeid_to_repr:
+        #         tok_repr = &quot;_&quot;.join(tok_seq[start:end])
+        #         nodeid_to_repr[node_idx] = (tok_repr, subgraph_repr, category)
+
+        #     tok_s = ' '.join(tok_seq[start:end])
+        #     lemma_s = ' '.join(lemma_seq[start:end])
+        #     if not tok_s in tok2counts:
+        #         tok2counts[tok_s] = defaultdict(int)
+
+        #     tok2counts[tok_s][&quot;%s||%s&quot; % (category, subgraph_repr)] += 1
+        #     tok_counts[tok_s] += 1
+        #     if category == &quot;NE&quot; or &quot;NE_&quot; in category:
+
+        #         tok2counts[&quot;NE&quot;][&quot;%s||%s&quot; % (category, &quot;-&quot;)] += 1
+        #         tok_counts[&quot;NE&quot;] += 1
+        #     elif category == &quot;DATE&quot; or category == &quot;NUMBER&quot;:
+        #         tok2counts[category][&quot;%s||%s&quot; % (category, &quot;-&quot;)] += 1
+        #         tok_counts[category] += 1
+        #     if not ((category == &quot;NE&quot;) or (&quot;NE_&quot; in category) or (category == &quot;DATE&quot;)):
+        #         if not lemma_s in lemma2counts:
+        #            lemma2counts[lemma_s] = defaultdict(int)
+
+        #        lemma2counts[lemma_s][&quot;%s||%s&quot; % (category, subgraph_repr)] += 1
+        #        lem_counts[lemma_s] += 1
+
+        # for index in unaligned_idxs:
+        #     tok_s = tok_seq[index]
+        #     lemma_s = lemma_seq[index]
+        #     if not tok_s in tok2counts:
+        #         tok2counts[tok_s] = defaultdict(int)
+        #     if not lemma_s in lemma2counts:
+        #         lemma2counts[lemma_s] = defaultdict(int)
+        #     tok2counts[tok_s][&quot;%s||%s&quot; % (&quot;NONE&quot;, &quot;NONE&quot;)] += 1
+        #     tok_counts[tok_s] += 1
+        #     lemma2counts[lemma_s][&quot;%s||%s&quot; % (&quot;NONE&quot;, &quot;NONE&quot;)] += 1
+        #     lem_counts[lemma_s] += 1</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIGFsaWdubWVudF91dGlscy5vdXRwdXRFZGdlQWxpZ25tZW50KHRva19zZXEsIGFtciwgZWRnZV90b190b2tzLCB0b2sycmVscykK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB0b2sycmVscyA9IGRlZmF1bHRkaWN0KHNldCkK</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>relation_align_map</last-search>
+      <last-search>node_alignment</last-search>
       <last-offset />
-      <last-pattern>relation_align_map</last-pattern>
+      <last-pattern>node_alignment</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -911,10 +947,8 @@
         <entry>curr_node_idx</entry>
         <entry>var_to_</entry>
         <entry>retrieve_firs</entry>
-        <entry>concept_align_map</entry>
         <entry>all_alignmetn</entry>
         <entry>all_ali</entry>
-        <entry>all_alignments</entry>
         <entry>mergeNodes</entry>
         <entry>subgraph_str</entry>
         <entry>Inconsis</entry>
@@ -946,6 +980,30 @@
         <entry>self.dict</entry>
         <entry>edge_to_toks</entry>
         <entry>relation_align_map</entry>
+        <entry>ngram_count</entry>
+        <entry>multi_map</entry>
+        <entry>entity_toks</entry>
+        <entry>nodeid_to_frag</entry>
+        <entry>temp_unaligned</entry>
+        <entry>concept_alig</entry>
+        <entry>concept_align_map</entry>
+        <entry>aligned_toks</entry>
+        <entry>all_alignments</entry>
+        <entry>all_alignment</entry>
+        <entry>visited_idxs</entry>
+        <entry>visited_idx</entry>
+        <entry>tok2rels</entry>
+        <entry>rel_ali</entry>
+        <entry>new_start_to</entry>
+        <entry>root_entity_num</entry>
+        <entry>tok_to_categories</entry>
+        <entry>tok_to_concept</entry>
+        <entry>alignment_wf</entry>
+        <entry>conceptID_seq</entry>
+        <entry>node_id_</entry>
+        <entry>span_to_type</entry>
+        <entry>nodeid_to_repr</entry>
+        <entry>node_alignment</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
@@ -969,6 +1027,12 @@
         <entry>48</entry>
         <entry>932</entry>
         <entry>1</entry>
+        <entry>480</entry>
+        <entry>520</entry>
+        <entry>q</entry>
+        <entry>570</entry>
+        <entry>571</entry>
+        <entry>224</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
