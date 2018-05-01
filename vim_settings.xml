@@ -280,8 +280,8 @@
         <mark key="^" line="296" column="9" />
         <mark key="." line="296" column="9" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" timestamp="1525144370689">
-        <mark key="'" line="982" column="8" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" timestamp="1525146682223">
+        <mark key="'" line="524" column="89" />
         <mark key="[" line="162" column="17" />
         <mark key="]" line="162" column="17" />
         <mark key="." line="162" column="17" />
@@ -537,11 +537,12 @@
         <mark key="]" line="378" column="24" />
         <mark key="." line="378" column="24" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525145234086">
-        <mark key="[" line="364" column="0" />
-        <mark key="]" line="364" column="0" />
-        <mark key="^" line="208" column="25" />
-        <mark key="." line="364" column="0" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525148236453">
+        <mark key="'" line="949" column="8" />
+        <mark key="[" line="863" column="0" />
+        <mark key="]" line="863" column="0" />
+        <mark key="." line="863" column="0" />
+        <mark key="^" line="306" column="63" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1517020969551">
         <mark key="'" line="39" column="19" />
@@ -687,24 +688,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="257" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
-      <jump line="255" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
-      <jump line="42" column="0" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
-      <jump line="94" column="10" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
-      <jump line="326" column="43" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
-      <jump line="441" column="11" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
-      <jump line="556" column="47" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
-      <jump line="9" column="27" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
-      <jump line="521" column="37" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
-      <jump line="22" column="0" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
-      <jump line="647" column="4" filename="$USER_HOME$/SHRG-extraction/hrg_learn.py" />
-      <jump line="493" column="0" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
-      <jump line="534" column="6" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
-      <jump line="531" column="6" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
-      <jump line="498" column="4" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
-      <jump line="12" column="0" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
-      <jump line="277" column="4" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
-      <jump line="556" column="26" filename="$USER_HOME$/SHRG-extraction/amr_fragment.py" />
       <jump line="455" column="4" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
       <jump line="527" column="22" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
       <jump line="459" column="31" filename="$USER_HOME$/SHRG-extraction/categorize_amr.py" />
@@ -787,63 +770,77 @@
       <jump line="40" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_utils.py" />
       <jump line="291" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/common/AMRGraph.py" />
       <jump line="368" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="673" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="985" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="524" column="89" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
+      <jump line="233" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="251" column="21" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="327" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="253" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="269" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="264" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="271" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="285" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="234" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="305" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="306" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="278" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="289" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="939" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="952" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjZWRnZV9pbmRleCA9IHNlbGYuZWRnZV9kaWN0W2VkZ2VdCg==</text>
       </register>
       <register name="-" type="4">
-        <text>object</text>
+        <text>_idx</text>
       </register>
       <register name="/" type="4">
-        <text>get_ances</text>
+        <text>retrieve_firs</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjZWRnZV9pbmRleCA9IHNlbGYuZWRnZV9kaWN0W2VkZ2VdCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAjZnJhZy5zZXRfbm9kZShpbmRleCkK</text>
       </register>
-      <register name="3" type="4">
-        <text>def get_relation_edges(self):
-        relation_edges = {}
-        for edge in self.edges:
-            if edge.head != None and edge.tail != None: # get rid of const edges
-                relation_edges[(edge.head, edge.tail)] = edge.label
-        return relation_edges</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAjaW5kZXggPSBzZWxmLm5vZGVfZGljdFtjdXJyX25vZGVdCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyB0YWlsX25vZGUgPSBzZWxmLm5vZGVzW3RhaWxfbm9kZV9pZHhdCg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="5" type="4">
+        <text># curr_node_idx = label_to_node[curr_var]
+            # curr_node = self.nodes[curr_node_idx]</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ZGVmIGdldF9hbmNlc3RvcnMoc2VsZiwgbiwgc3RvcF9pZl9zZWUgPSBOb25lKToKICAgICAgICBzZXRfbiA9IHtuOignJywtMSl9CiAgICAgICAgcXVldWUgPSBbbixdCiAgICAgICAgd2hpbGUgbGVuKHF1ZXVlKSA+IDA6CiAgICAgICAgICAgIGN1ciA9IHF1ZXVlLnBvcCgwKQogICAgICAgICAgICBmb3IgZWkgaW4gc2VsZi5ub2Rlc1tjdXJdLnBfZWRnZXM6CiAgICAgICAgICAgICAgICBlID0gc2VsZi5lZGdlc1tlaV0KICAgICAgICAgICAgICAgIHBybiA9IGUuaGVhZAogICAgICAgICAgICAgICAgaWYgcHJuIG5vdCBpbiBzZXRfbjoKICAgICAgICAgICAgICAgICAgICBzZXRfbltwcm5dID0gKGUubGFiZWwsIGN1cikKICAgICAgICAgICAgICAgICAgICBxdWV1ZS5hcHBlbmQocHJuKQogICAgICAgICAgICAgICAgaWYgc3RvcF9pZl9zZWUgIT0gTm9uZSBhbmQgcHJuIGluIHN0b3BfaWZfc2VlOgogICAgICAgICAgICAgICAgICAgIHJldHVybiAoc2V0X24sIHBybikKICAgICAgICByZXR1cm4gKHNldF9uLCBOb25lKQ==</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYudmFyX3RvX25vZGVbY3Vycl92YXJdID0gY3Vycl9ub2RlCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgY3Vycl92YXIgbm90IGluIGxhYmVsX3RvX25vZGUua2V5cygpOiAjSGF2ZW4ndCBjcmVhdGVkIGEgbm9kZSBmb3IgdGhlIGN1cnJlbnQgdmFyaWFibGUgeWV0Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICNhbXJfbGluZSA9ICcoZSAvIGVzdGFibGlzaC0wMTpBUkcxIChtIC8gbW9kZWw6bW9kIChpIC8gaW5ub3ZhdGUtMDE6QVJHMSAoaTIgLyBpbmR1c3RyeSkpKSknCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>get_ances</last-search>
+      <last-search>retrieve_firs</last-search>
       <last-offset />
-      <last-pattern>get_ances</last-pattern>
+      <last-pattern>retrieve_firs</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -886,6 +883,16 @@
         <entry>prev_var</entry>
         <entry>amr</entry>
         <entry>get_ances</entry>
+        <entry>node_sequence = self.co</entry>
+        <entry>collapsed_dfs</entry>
+        <entry>jamr</entry>
+        <entry>node_dict</entry>
+        <entry>self.dict</entry>
+        <entry>label_to_node</entry>
+        <entry>curr_node_idx</entry>
+        <entry>var_to_</entry>
+        <entry>var_to_node</entry>
+        <entry>retrieve_firs</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
