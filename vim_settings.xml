@@ -537,12 +537,12 @@
         <mark key="]" line="378" column="24" />
         <mark key="." line="378" column="24" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525148236453">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525149294705">
         <mark key="'" line="949" column="8" />
-        <mark key="[" line="863" column="0" />
-        <mark key="]" line="863" column="0" />
-        <mark key="." line="863" column="0" />
+        <mark key="[" line="866" column="0" />
+        <mark key="]" line="866" column="0" />
         <mark key="^" line="306" column="63" />
+        <mark key="." line="866" column="0" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1517020969551">
         <mark key="'" line="39" column="19" />
@@ -791,7 +791,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAjZWRnZV9pbmRleCA9IHNlbGYuZWRnZV9kaWN0W2VkZ2VdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
         <text>_idx</text>
@@ -803,35 +803,41 @@
         <text encoding="base64">b3MucGF0aC5qb2luKGFyZ3Mub3V0cHV0X2Rpciwg</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAjZWRnZV9pbmRleCA9IHNlbGYuZWRnZV9kaWN0W2VkZ2VdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjZnJhZy5zZXRfbm9kZShpbmRleCkK</text>
+      <register name="2" type="4">
+        <text>#try:
+            #    assert len(curr_node.p_edges) == 0, 'The root node has some parent nodes'
+            #except AssertionError:
+            #    #print str(self)
+            #    #logger.writeln(str(self))
+            #    #sys.exit(-1)
+            #    return None</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjaW5kZXggPSBzZWxmLm5vZGVfZGljdFtjdXJyX25vZGVdCg==</text>
+        <text encoding="base64">ICAgICAgICAjZWRnZV9pbmRleCA9IHNlbGYuZWRnZV9kaWN0W2VkZ2VdCg==</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAjZnJhZy5zZXRfbm9kZShpbmRleCkK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAjaW5kZXggPSBzZWxmLm5vZGVfZGljdFtjdXJyX25vZGVdCg==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyB0YWlsX25vZGUgPSBzZWxmLm5vZGVzW3RhaWxfbm9kZV9pZHhdCg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text># curr_node_idx = label_to_node[curr_var]
             # curr_node = self.nodes[curr_node_idx]</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYudmFyX3RvX25vZGVbY3Vycl92YXJdID0gY3Vycl9ub2RlCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgY3Vycl92YXIgbm90IGluIGxhYmVsX3RvX25vZGUua2V5cygpOiAjSGF2ZW4ndCBjcmVhdGVkIGEgbm9kZSBmb3IgdGhlIGN1cnJlbnQgdmFyaWFibGUgeWV0Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICNhbXJfbGluZSA9ICcoZSAvIGVzdGFibGlzaC0wMTpBUkcxIChtIC8gbW9kZWw6bW9kIChpIC8gaW5ub3ZhdGUtMDE6QVJHMSAoaTIgLyBpbmR1c3RyeSkpKSknCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgY3Vycl92YXIgbm90IGluIGxhYmVsX3RvX25vZGUua2V5cygpOiAjSGF2ZW4ndCBjcmVhdGVkIGEgbm9kZSBmb3IgdGhlIGN1cnJlbnQgdmFyaWFibGUgeWV0Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
