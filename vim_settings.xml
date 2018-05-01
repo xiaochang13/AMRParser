@@ -360,8 +360,8 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525200942714">
-        <mark key="'" line="312" column="48" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525201914090">
+        <mark key="'" line="9" column="0" />
         <mark key="[" line="322" column="28" />
         <mark key="]" line="322" column="37" />
         <mark key="^" line="222" column="31" />
@@ -558,12 +558,12 @@
         <mark key="]" line="378" column="24" />
         <mark key="." line="378" column="24" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525200889523">
-        <mark key="'" line="317" column="0" />
-        <mark key="[" line="209" column="0" />
-        <mark key="]" line="209" column="1" />
-        <mark key="^" line="209" column="1" />
-        <mark key="." line="209" column="1" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525202045156">
+        <mark key="'" line="318" column="0" />
+        <mark key="[" line="209" column="23" />
+        <mark key="]" line="210" column="22" />
+        <mark key="^" line="210" column="22" />
+        <mark key="." line="210" column="22" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1517020969551">
         <mark key="'" line="39" column="19" />
@@ -709,7 +709,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="673" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="985" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="524" column="89" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/Aligner.py" />
       <jump line="233" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
@@ -809,13 +808,14 @@
       <jump line="878" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="322" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="312" column="48" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="9" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>VERB_LIST</text>
+        <text encoding="base64">IyA=</text>
       </register>
       <register name="-" type="4">
-        <text>VERB_LIST</text>
+        <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
         <text>VERB_LIST</text>
@@ -854,7 +854,7 @@
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
-        <text>1</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -962,8 +962,8 @@
         <entry>574</entry>
         <entry>48</entry>
         <entry>932</entry>
-        <entry>w</entry>
         <entry>1</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
