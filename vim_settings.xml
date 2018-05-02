@@ -118,8 +118,8 @@
       <file name="$USER_HOME$/ConvParser/categorize_concept.py" timestamp="1515487538174">
         <mark key="'" line="271" column="32" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1519229431486">
-        <mark key="'" line="241" column="22" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" timestamp="1525275324854">
+        <mark key="'" line="58" column="24" />
         <mark key="[" line="207" column="8" />
         <mark key="]" line="207" column="11" />
         <mark key="." line="207" column="11" />
@@ -139,8 +139,8 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525268492578">
-        <mark key="'" line="1198" column="16" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525275122140">
+        <mark key="'" line="1027" column="34" />
         <mark key="[" line="362" column="8" />
         <mark key="]" line="362" column="9" />
         <mark key="." line="362" column="9" />
@@ -174,10 +174,10 @@
         <mark key="." line="64" column="1" />
         <mark key="^" line="64" column="1" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/date_extraction.py" timestamp="1518396930253">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/date_extraction.py" timestamp="1525275355799">
         <mark key="'" line="71" column="17" />
-        <mark key="[" line="5" column="42" />
-        <mark key="]" line="5" column="47" />
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="387" />
         <mark key="." line="5" column="47" />
         <mark key="^" line="5" column="47" />
       </file>
@@ -363,13 +363,13 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525271457559">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525275337904">
         <mark key="p" line="172" column="44" />
-        <mark key="'" line="906" column="19" />
-        <mark key="[" line="768" column="31" />
-        <mark key="]" line="633" column="53" />
-        <mark key="." line="633" column="4" />
-        <mark key="^" line="633" column="4" />
+        <mark key="'" line="936" column="19" />
+        <mark key="[" line="799" column="8" />
+        <mark key="]" line="799" column="17" />
+        <mark key="." line="799" column="17" />
+        <mark key="^" line="799" column="17" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1515006441367">
         <mark key="'" line="106" column="59" />
@@ -724,14 +724,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="46" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="48" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="169" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="561" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="2" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
-      <jump line="17" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/depTokens.py" />
-      <jump line="7" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/depTokens.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/depTokens.py" />
       <jump line="6" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/lemmatize_snts.py" />
       <jump line="19" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/depTokens.py" />
       <jump line="44" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/depTokens.py" />
@@ -824,62 +816,69 @@
       <jump line="633" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="695" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="899" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="1200" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="954" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1027" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="207" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="48" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="60" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="59" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="58" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>v</text>
+        <text>quantities = {'one':1, 'two':2, 'three':3, 'four':4, 'five':5, 'six':6, 'seven':7, 'eight':8, 'nine':9, 'ten':10, 'billion':1000000000, 'tenth':10, 'million':1000000, 'thousand':1000, 'hundred':100, 'viii':8, 'eleven':11, 'twelve':12, 'thirteen':13, 'iv':4, 'august':8, 'dozen':12, 'twenty':20, 'twice':2, 'trillion':1000000000000, 'a':1, 'fourty':40, 'forty':40, 'thirty':30, 'fifty':50}</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>aligned_toks, span_to_nodes</text>
       </register>
       <register name="/" type="4">
-        <text>node_alignment</text>
+        <text>quantities</text>
       </register>
       <register name="0" type="4">
-        <text>unaligned_set = set(xrange(length)) - aligned_set</text>
+        <text>quantities = {'one':1, 'two':2, 'three':3, 'four':4, 'five':5, 'six':6, 'seven':7, 'eight':8, 'nine':9, 'ten':10, 'billion':1000000000, 'tenth':10, 'million':1000000, 'thousand':1000, 'hundred':100, 'viii':8, 'eleven':11, 'twelve':12, 'thirteen':13, 'iv':4, 'august':8, 'dozen':12, 'twenty':20, 'twice':2, 'trillion':1000000000000, 'a':1, 'fourty':40, 'forty':40, 'thirty':30, 'fifty':50}</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHVuYWxpZ25lZF9zZXQgPSBzZXQoeHJhbmdlKGxlbmd0aCkpIC0gYWxpZ25lZF9zZXQK</text>
+        <text encoding="base64">ICAgICAgICBzcGFuX3NldCA9IAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjIG5lZ19jb25jZXB0cy5hcHBlbmQoY29uY2VwdCArICJsZXNzIikK</text>
+      <register name="2" type="4">
+        <text>for idx in xrange(i, j):
+                         if</text>
       </register>
       <register name="3" type="4">
+        <text>curr_set = set(xrange(i, j))
+                    if curr_set</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbGVuKHBocmFzZV9zZXQtc3Bhbl9zZXQtdW4pCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBmb3IgY3Vycl9sZW4gaW4geHJhbmdlKCkK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIHVuYWxpZ25lZF9zZXQgPSBzZXQoeHJhbmdlKGxlbmd0aCkpIC0gYWxpZ25lZF9zZXQK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAjIG5lZ19jb25jZXB0cy5hcHBlbmQoY29uY2VwdCArICJsZXNzIikK</text>
+      </register>
+      <register name="9" type="4">
         <text>(tok_seq, lem_seq, amr, aligned_toks, aligned_nodes, node_to_toks, all_alignments,
                        multi_map=None, quantity_map=None, entity_map=None)</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ZGVmIGFsaWduVmVyYmFsaXphdGlvbih0b2tfc2VxLCBsZW1tYV9zZXEsIGFtciwgdmVyYl9saXN0LCBhbGxfYWxpZ25tZW50cywgdmVyYl9tYXAsIGFsaWduZWRfdG9rcywgbm9kZV9hbGlnbm1lbnQsCiAgICAgICAgICAgICAgICAgICAgICAgbXVsdGlfbWFwKToKCiAgICBtYXRjaGVkX3R1cGxlcyA9IHNldCgpCiAgICBmb3IgKGlkeCwgY3Vycl90b2spIGluIGVudW1lcmF0ZSh0b2tfc2VxKToKICAgICAgICBpZiBpZHggaW4gYWxpZ25lZF90b2tzOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGlmIG5vdCBjdXJyX3RvayBpbiB2ZXJiX2xpc3Q6CiAgICAgICAgICAgIGN1cnJfdG9rID0gbGVtbWFfc2VxW2lkeF0KICAgICAgICBpZiBjdXJyX3RvayBpbiB2ZXJiX2xpc3Q6CiAgICAgICAgICAgIGZvciBzdWJncmFwaCBpbiB2ZXJiX2xpc3RbY3Vycl90b2tdOgogICAgICAgICAgICAgICAgbWF0Y2hlZF9mcmFncyA9IGFtci5tYXRjaFN1YmdyYXBoKHN1YmdyYXBoKQogICAgICAgICAgICAgICAgaWYgbWF0Y2hlZF9mcmFnczoKICAgICAgICAgICAgICAgICAgICBzdWJncmFwaF9yZXByID0gc3ViZ3JhcGhfc3RyKHN1YmdyYXBoKQogICAgICAgICAgICAgICAgICAgIGlmIGxlbihtYXRjaGVkX2ZyYWdzKSA+IDE6CiAgICAgICAgICAgICAgICAgICAgICAgIGxvZ2dlci53cml0ZWxuKCJWZXJiYWxpemUgJXMgdG8gbW9yZSB0aGFuIDEgb2NjdXJyZW5jZXMhIiAlIGN1cnJfdG9rKQogICAgICAgICAgICAgICAgICAgIGZvciBmcmFnX3R1cGxlcyBpbiBtYXRjaGVkX2ZyYWdzOgogICAgICAgICAgICAgICAgICAgICAgICB2YWxpZCA9IFRydWUKICAgICAgICAgICAgICAgICAgICAgICAgZm9yIChoZWFkLCByZWwsIHRhaWwpIGluIGZyYWdfdHVwbGVzOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGhlYWQsIHJlbCwgdGFpbCkgaW4gbWF0Y2hlZF90dXBsZXM6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsaWQgPSBGYWxzZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXRjaGVkX3R1cGxlcy5hZGQoKGhlYWQsIHJlbCwgdGFpbCkpCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIHZhbGlkOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIlZlcmJhbGl6ZSAlZC0lZCwgJXMgdG8gJXMhIiAlIChpZHgsIGlkeCsxLCBjdXJyX3Rvaywgc3ViZ3JhcGhfcmVwcikpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGlnbmVkX3Rva3MuYWRkKGlkeCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvciAoaGVhZCwgcmVsLCB0YWlsKSBpbiBmcmFnX3R1cGxlczoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2ZXJiX21hcFtoZWFkXS5hZGQoKGhlYWQsIHJlbCwgdGFpbCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbm9kZV9hbGlnbm1lbnRbaGVhZF0gPSAxCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbm9kZV9hbGlnbm1lbnRbdGFpbF0gPSAxCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGxfYWxpZ25tZW50c1toZWFkXS5hcHBlbmQoKGlkeCwgaWR4KzEsIHN1YmdyYXBoX3JlcHIsICJNVUxUIikpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWFkID0gZnJhZ190dXBsZXNbMF1bMF0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgaGVhZF9jb25jZXB0ID0gYW1yLm5vZGVzW2hlYWRdLm5vZGVfc3RyKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG11bHRpX21hcFtzdWJncmFwaF9yZXByXSArPSAxCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBicmVhaw==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="6" type="4">
-        <text># if sent_idx != 1270:
-            #     continue
-            # if sent_idx != 16726:
-            #     continue</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">IyBjdXJyX3NldCA9IHNldCh4cmFuZ2Uoc3RhcnQsIGVuZCkpCiAgICAgICAgICAgICAgICAjIGlmIGxlbihjdXJyX3NldCAmIGFsaWduZWRfc2V0KSAhPSAwOgogICAgICAgICAgICAgICAgIyAgICAgY29udGludWU=</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIG9wdF90b2tzLCByb2xlX3Rva3MgPSBOb25lLCBOb25lCg==</text>
-      </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>1</text>
       </register>
     </registers>
     <search>
-      <last-search>node_alignment</last-search>
+      <last-search>quantities</last-search>
       <last-offset />
-      <last-pattern>node_alignment</last-pattern>
+      <last-pattern>quantities</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -1014,6 +1013,9 @@
         <entry>entity_toks</entry>
         <entry>alignJA</entry>
         <entry>node_alignment</entry>
+        <entry>start_to</entry>
+        <entry>value</entry>
+        <entry>quantities</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
@@ -1043,7 +1045,6 @@
         <entry>571</entry>
         <entry>224</entry>
         <entry>set noic</entry>
-        <entry>1</entry>
         <entry>359</entry>
         <entry>364</entry>
         <entry>%s/temp_unaligned/unaligned_set/g</entry>
@@ -1051,6 +1052,7 @@
         <entry>663</entry>
         <entry>668</entry>
         <entry>w</entry>
+        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
