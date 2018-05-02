@@ -360,13 +360,13 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525223543219">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525224498881">
         <mark key="p" line="172" column="44" />
-        <mark key="'" line="176" column="4" />
-        <mark key="[" line="559" column="0" />
-        <mark key="]" line="560" column="0" />
-        <mark key="^" line="560" column="0" />
-        <mark key="." line="560" column="0" />
+        <mark key="'" line="561" column="4" />
+        <mark key="[" line="602" column="75" />
+        <mark key="]" line="603" column="3" />
+        <mark key="^" line="603" column="3" />
+        <mark key="." line="603" column="3" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1515006441367">
         <mark key="'" line="106" column="59" />
@@ -710,13 +710,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="648" column="45" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="647" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="500" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="607" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="585" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="581" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="569" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="506" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="565" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="572" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -810,58 +803,65 @@
       <jump line="568" column="10" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="176" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="426" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="567" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="292" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="5" column="5" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="46" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="48" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="169" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="561" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAjIG5ld19hbGlnbm1lbnRzID0gZGVmYXVsdGRpY3QobGlzdCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>the original AMR graph files</text>
       </register>
       <register name="/" type="4">
-        <text>all_alignments</text>
+        <text>DATE</text>
       </register>
       <register name="0" type="4">
         <text>argparser.add_argument(&quot;--amr_file&quot;, type=str, help=&quot;the original AMR graph files&quot;, required=False)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAjIG5ld19hbGlnbm1lbnRzID0gZGVmYXVsdGRpY3QobGlzdCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjIGFzc2VydCBsZW4oY29uY2VwdElEX3NlcSkgPT0gbGVuKGNvbGxhcHNlZF90b2tzKSwgIiVzXG4lc1xuIiAlIChzdHIoY29uY2VwdElEX3NlcSksIHN0cihjb2xsYXBzZWRfdG9rcykpCg==</text>
+        <text encoding="base64">ICAgICAgICAjIG5ld19hbGlnbm1lbnRzID0gZGVmYXVsdGRpY3QobGlzdCkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIGFzc2VydCBsZW4oY29uY2VwdElEX3NlcSkgPT0gbGVuKGNvbGxhcHNlZF90b2tzKSwgIiVzXG4lc1xuIiAlIChzdHIoY29uY2VwdElEX3NlcSksIHN0cihjb2xsYXBzZWRfdG9rcykpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbmV3X2FtciwgbmV3X2FsaWdubWVudHMsIHNwYW5fdG9fdHlwZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHZpc2l0ZWQuYWRkKGNoaWxkX2luZGV4KQo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbmV3X2FtciwgbmV3X2FsaWdubWVudHMsIHNwYW5fdG9fdHlwZQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIG5vZGVpZF90b190eXBlID0ge30K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHZpc2l0ZWQuYWRkKGNoaWxkX2luZGV4KQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIG5vZGVpZF90b190eXBlID0ge30K</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">CiAgICAgICAgIyBjb25jZXB0SURfc2VxID0gW10K</text>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>all_alignments</last-search>
+      <last-search>DATE</last-search>
       <last-offset />
-      <last-pattern>all_alignments</last-pattern>
+      <last-pattern>DATE</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -977,6 +977,7 @@
         <entry>tok_to_cate</entry>
         <entry>format</entry>
         <entry>all_alignments</entry>
+        <entry>DATE</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
@@ -1006,6 +1007,7 @@
         <entry>571</entry>
         <entry>224</entry>
         <entry>1</entry>
+        <entry>set noic</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
