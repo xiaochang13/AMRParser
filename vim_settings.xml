@@ -95,8 +95,8 @@
         <mark key="^" line="427" column="7" />
         <mark key="." line="427" column="7" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" timestamp="1525242370103">
-        <mark key="'" line="88" column="4" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" timestamp="1525242835500">
+        <mark key="'" line="79" column="0" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1524547234123">
         <mark key="'" line="508" column="34" />
@@ -363,13 +363,12 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525242618615">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525243278508">
         <mark key="p" line="172" column="44" />
-        <mark key="'" line="641" column="46" />
-        <mark key="[" line="638" column="41" />
-        <mark key="]" line="638" column="40" />
-        <mark key="^" line="638" column="40" />
-        <mark key="." line="638" column="40" />
+        <mark key="[" line="658" column="12" />
+        <mark key="]" line="658" column="15" />
+        <mark key="^" line="658" column="15" />
+        <mark key="." line="658" column="15" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1515006441367">
         <mark key="'" line="106" column="59" />
@@ -724,9 +723,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="541" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="400" column="58" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="401" column="58" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="403" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="397" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="405" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -817,26 +813,29 @@
       <jump line="78" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
       <jump line="637" column="46" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="40" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
-      <jump line="94" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
       <jump line="46" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
       <jump line="47" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
       <jump line="74" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
       <jump line="48" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
       <jump line="88" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
       <jump line="133" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
+      <jump line="79" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
+      <jump line="80" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
+      <jump line="646" column="46" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="94" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>aligned_spans = set()</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>aligned_spans = set()</text>
+        <text encoding="base64">ICAgIA==</text>
       </register>
       <register name="/" type="4">
-        <text>tok_indexes</text>
+        <text>covered</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZGVmIGFsaWduRW50aXRpZXModG9rX3NlcSwgYW1yLCBhbGlnbl9zZXEsIGVudGl0eV90b2tzLCBhbGlnbmVkX3Rva3MsIGFsbF9hbGlnbm1lbnRzLAogICAgICAgICAgICAgICAgICB0ZW1wX3VuYWxpZ25lZCwgbm9kZV9hbGlnbm1lbnQpOgoKICAgIGRlZiBzZW50X29wdF90b2tzKCk6CiAgICAgICAgb3B0X3Rva3MgPSBbXQogICAgICAgIHJvbGVfdG9rcyA9IFtdCiAgICAgICAgZm9yIGN1cnJfYWxpZ24gaW4gcmV2ZXJzZWQoYWxpZ25fc2VxKToKICAgICAgICAgICAgY3Vycl90b2ssIGN1cnJfZnJhZyA9IGN1cnJfYWxpZ24uc3BsaXQoJy0nKVswXSwgY3Vycl9hbGlnbi5zcGxpdCgnLScpWzFdCgogICAgICAgICAgICBzdGFydCA9IGludChjdXJyX3RvaykKCiAgICAgICAgICAgIChpbmRleF90eXBlLCBpbmRleCkgPSBhbXIuZ2V0X2NvbmNlcHRfcmVsYXRpb24oY3Vycl9mcmFnKQogICAgICAgICAgICBpZiBpbmRleF90eXBlID09ICdjJzoKICAgICAgICAgICAgICAgIGN1cnJfbm9kZSA9IGFtci5ub2Rlc1tpbmRleF0KICAgICAgICAgICAgICAgIGlmIGxlbihjdXJyX25vZGUucF9lZGdlcykgPT0gMToKICAgICAgICAgICAgICAgICAgICBwYXJfZWRnZSA9IGFtci5lZGdlc1tjdXJyX25vZGUucF9lZGdlc1swXV0KICAgICAgICAgICAgICAgICAgICBpZiAnb3AnID09IHBhcl9lZGdlLmxhYmVsWzoyXToKICAgICAgICAgICAgICAgICAgICAgICAgb3B0X3Rva3MuYXBwZW5kKChzdGFydCwgY3Vycl9ub2RlLmNfZWRnZSkpCgogICAgICAgICAgICAgICAgaWYgY3Vycl9ub2RlLmlzX25hbWVkX2VudGl0eSgpOgogICAgICAgICAgICAgICAgICAgIHJvbGVfdG9rcy5hcHBlbmQoKHN0YXJ0LCBjdXJyX25vZGUuY19lZGdlKSkKICAgICAgICByZXR1cm4gb3B0X3Rva3MsIHJvbGVfdG9rcwoKICAgIGVudGl0eV9ub3RfYWxpZ24gPSBGYWxzZQogICAgb3B0X3Rva3MsIHJvbGVfdG9rcyA9IHNlbnRfb3B0X3Rva3MoKQogICAgZm9yIChmcmFnLCB3aWtpX2xhYmVsLCBjYXRlZ29yeSkgaW4gYW1yLmV4dHJhY3RfZW50aXRpZXMoKToKICAgICAgICBpZiBjYXRlZ29yeSA9PSAiTkVSIjoKICAgICAgICAgICAgcm9vdF9pbmRleCA9IGZyYWcucm9vdAogICAgICAgICAgICBpZiBsZW4ob3B0X3Rva3MpID09IDA6CiAgICAgICAgICAgICAgICBsb2dnZXIud3JpdGVsbigiTm8gYWxpZ25tZW50IGZvciB0aGUgZW50aXR5IGZvdW5kIikKCiAgICAgICAgICAgIChhbGlnbmVkX2luZGV4ZXMsIGVudGl0eV9zcGFucykgPSBhbGxfYWxpZ25lZF9zcGFucyhmcmFnLCBvcHRfdG9rcywgcm9sZV90b2tzLCB0ZW1wX3VuYWxpZ25lZCkKICAgICAgICAgICAgcm9vdF9ub2RlID0gYW1yLm5vZGVzW2ZyYWcucm9vdF0KCiAgICAgICAgICAgIGVudGl0eV9tZW50aW9uX3Rva3MgPSByb290X25vZGUubmFtZWRFbnRpdHlNZW50aW9uKCkKICAgICAgICAgICAgZW50aXR5X3Rva19yZXByID0gIl8iLmpvaW4oZW50aXR5X21lbnRpb25fdG9rcykKICAgICAgICAgICAgaWYgZW50aXR5X3NwYW5zOgogICAgICAgICAgICAgICAgZW50aXR5X3NwYW5zID0gcmVtb3ZlQWxpZ25lZFNwYW5zKGVudGl0eV9zcGFucywgYWxpZ25lZF90b2tzKQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgbWF0Y2hlZF9zcGFuID0gc2VhcmNoRW50aXR5VG9rZW5zKGVudGl0eV9tZW50aW9uX3Rva3MsIHRva19zZXEsIHRlbXBfdW5hbGlnbmVkKQogICAgICAgICAgICAgICAgaWYgbWF0Y2hlZF9zcGFuOgogICAgICAgICAgICAgICAgICAgIGVudGl0eV9zcGFucyA9IFttYXRjaGVkX3NwYW5dCgogICAgICAgICAgICBpZiBlbnRpdHlfc3BhbnM6CiAgICAgICAgICAgICAgICBlbnRpdHlfc3BhbnMgPSByZW1vdmVSZWR1bmRhbnQodG9rX3NlcSwgZW50aXR5X3NwYW5zLCBlbnRpdHlfbWVudGlvbl90b2tzKQoKICAgICAgICAgICAgICAgIHN0YXJ0LCBlbmQgPSBlbnRpdHlfc3BhbnNbMF0gICMgQ3VycmVudGx5IHdlIG9ubHkgYWxpZ24gdG8gdGhlIGZpcnN0IG1lbnRpb24uCiAgICAgICAgICAgICAgICBlbnRpdHlfdG9rcyB8PSBzZXQoeHJhbmdlKHN0YXJ0LCBlbmQpKQogICAgICAgICAgICAgICAgYWxpZ25lZF90b2tzIHw9IHNldCh4cmFuZ2Uoc3RhcnQsIGVuZCkpCiAgICAgICAgICAgICAgICBsb2dnZXIud3JpdGVsbigiJWQtJWQ6ICVzIiAlIChzdGFydCwgZW5kLCAnICcuam9pbih0b2tfc2VxW3N0YXJ0OmVuZF0pKSkKICAgICAgICAgICAgICAgIG5lcl9yZXByID0gIiVzLS0lcyIgJSAod2lraV9sYWJlbCwgZW50aXR5X3Rva19yZXByKQogICAgICAgICAgICAgICAgYWxsX2FsaWdubWVudHNbZnJhZy5yb290XS5hcHBlbmQoKHN0YXJ0LCBlbmQsIG5lcl9yZXByLCAiTkVSIikpCiAgICAgICAgICAgICAgICAjIHByaW50IG5vZGVfYWxpZ25tZW50LCBmcmFnLm5vZGVzCiAgICAgICAgICAgICAgICBub2RlX2FsaWdubWVudCB8PSBmcmFnLm5vZGVzCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBlbnRpdHlfbm90X2FsaWduID0gVHJ1ZQogICAgICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIlVuYWxpZ25lZCBlbnRpdHk6ICVzIiAlIHN0cihmcmFnKSkKICAgICAgICAgICAgICAgIGxvZ2dlci53cml0ZWxuKCJFbnRpdHkgbWVudGlvbiB0b2tlbnM6ICVzIiAlICIgIi5qb2luKGVudGl0eV9tZW50aW9uX3Rva3MpKQogICAgICAgIGVsaWYgY2F0ZWdvcnkgPT0gIkRBVEUiOgogICAgICAgICAgICBpZiBmcmFnIGlzIE5vbmU6CiAgICAgICAgICAgICAgICBlbnRpdHlfbm90X2FsaWduID0gVHJ1ZQogICAgICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIkRhdGUgd2l0aCBjaGlsZHJlbiByZWxhdGlvbnM6IikKICAgICAgICAgICAgICAgIGxvZ2dlci53cml0ZWxuKHN0cihhbXIpKQogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgY292ZXJlZF90b2tzLCBub25fY292ZXJlZCwgaW5kZXhfdG9fdG9rcyA9IGdldFNwYW5TaWRlKGFsaWduX3NlcSwgZnJhZykKCiAgICAgICAgICAgIGNvdmVyZWRfc2V0ID0gc2V0KGNvdmVyZWRfdG9rcykKICAgICAgICAgICAgcm9vdF9pbmRleCA9IGZyYWcucm9vdAoKICAgICAgICAgICAgYWxsX3NwYW5zID0gZ2V0Q29udGludW91c1NwYW5zKGNvdmVyZWRfdG9rcywgdGVtcF91bmFsaWduZWQsIGNvdmVyZWRfc2V0KQogICAgICAgICAgICBhbGxfc3BhbnMgPSByZW1vdmVBbGlnbmVkU3BhbnMoYWxsX3NwYW5zLCBhbGlnbmVkX3Rva3MpCgogICAgICAgICAgICBpZiBhbGxfc3BhbnM6CiAgICAgICAgICAgICAgICB0ZW1wX3NwYW5zID0gW10KICAgICAgICAgICAgICAgIGZvciBzdGFydCwgZW5kIGluIGFsbF9zcGFuczoKICAgICAgICAgICAgICAgICAgICB3aGlsZSBzdGFydCA+IDAgYW5kIChzdGFydC0xKSBpbiB0ZW1wX3VuYWxpZ25lZDoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgdG9rX3NlcVtzdGFydC0xXSA9PSAidGgiIG9yICh0b2tfc2VxW3N0YXJ0LTFdCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW4gc3RyKGZyYWcpIGFuZCB0b2tfc2VxW3N0YXJ0LTFdWzBdIGluICcwMTIzNDU2Nzg5Jyk6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGFydCAtPSAxCiAgICAgICAgICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBicmVhawoKICAgICAgICAgICAgICAgICAgICB3aGlsZSBlbmQgPCBsZW4odG9rX3NlcSk6CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIHRva19zZXFbZW5kXSBpbiBkYXRlX3N1ZmZpeGVzOiAgIyBTb21lIGRhdGUgcHJlZml4ZXMKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVuZCArPSAxCiAgICAgICAgICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBicmVhawoKICAgICAgICAgICAgICAgICAgICB0ZW1wX3NwYW5zLmFwcGVuZCgoc3RhcnQsIGVuZCkpCiAgICAgICAgICAgICAgICBhbGxfc3BhbnMgPSB0ZW1wX3NwYW5zCiAgICAgICAgICAgICAgICBhbGxfc3BhbnMgPSByZW1vdmVEYXRlUmVkdW5kYW50KGFsbF9zcGFucykKICAgICAgICAgICAgICAgIGZvciBzdGFydCwgZW5kIGluIGFsbF9zcGFuczoKICAgICAgICAgICAgICAgICAgICBjdXJyX3NldCA9IHNldCh4cmFuZ2Uoc3RhcnQsIGVuZCkpCiAgICAgICAgICAgICAgICAgICAgaWYgbGVuKGN1cnJfc2V0ICYgYWxpZ25lZF90b2tzKSAhPSAwOgogICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgICAgIGFsbF9hbGlnbm1lbnRzW2ZyYWcucm9vdF0uYXBwZW5kKChzdGFydCwgZW5kLCAiTk9ORSIsICJEQVRFIikpCiAgICAgICAgICAgICAgICAgICAgYWxpZ25lZF90b2tzIHw9IHNldCh4cmFuZ2Uoc3RhcnQsIGVuZCkpCiAgICAgICAgICAgICAgICAgICAgZW50aXR5X3Rva3MgfD0gc2V0KHhyYW5nZShzdGFydCwgZW5kKSkKICAgICAgICAgICAgICAgICAgICBub2RlX2FsaWdubWVudCB8PSBmcmFnLm5vZGVzCiAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGRhdGVfcmVwciA9IHN0cihmcmFnKQogICAgICAgICAgICAgICAgZm9yIGluZGV4IGluIHRlbXBfdW5hbGlnbmVkOgogICAgICAgICAgICAgICAgICAgIGN1cnJfdG9rID0gdG9rX3NlcVtpbmRleF0KICAgICAgICAgICAgICAgICAgICBmb3VuZCA9IEZhbHNlCiAgICAgICAgICAgICAgICAgICAgZm9yIHVuX3RvayBpbiBub25fY292ZXJlZDoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgY3Vycl90b2tbMF0gaW4gJzAxMjM0NTY3ODknIGFuZCBjdXJyX3RvayBpbiB1bl90b2s6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3VuZCA9IFRydWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgaWYgY3Vycl90b2sgaW4gZGVjYWRlcyBhbmQgZGVjYWRlc1tjdXJyX3Rva10gaW4gZGF0ZV9yZXByOgogICAgICAgICAgICAgICAgICAgICAgICBmb3VuZCA9IFRydWUKICAgICAgICAgICAgICAgICAgICBpZiBmb3VuZDoKICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgIGlmIGZvdW5kOgogICAgICAgICAgICAgICAgICAgIGFsbF9hbGlnbm1lbnRzW2ZyYWcucm9vdF0uYXBwZW5kKChpbmRleCwgaW5kZXgrMSwgIk5PTkUiLCAiREFURSIpKQogICAgICAgICAgICAgICAgICAgIGFsaWduZWRfdG9rcy5hZGQoaW5kZXgpCiAgICAgICAgICAgICAgICAgICAgZW50aXR5X3Rva3MuYWRkKGluZGV4KQogICAgICAgICAgICAgICAgICAgIG5vZGVfYWxpZ25tZW50IHw9IGZyYWcubm9kZXMKICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLndyaXRlbG4oIlVuYWxpZ25lZCBlbnRpdHk6ICVzIiAlIGRhdGVfcmVwcikKICAgICAgICAgICAgICAgICAgICBlbnRpdHlfbm90X2FsaWduID0gVHJ1ZQogICAgcmV0dXJuIGVudGl0eV9ub3RfYWxpZ24=</text>
+        <text>% (start, end, ' '.join(tok_seq[start:end])))</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -844,58 +843,52 @@
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIGVudGl0eV9ub3RfYWxpZ24gPSBGYWxzZQo=</text>
+      <register name="2" type="4">
+        <text>else:
+                entity_not_align = True
+                logger.writeln(&quot;Unaligned entity: %s&quot; % str(frag))
+                logger.writeln(&quot;Entity mention tokens: %s&quot; % &quot; &quot;.join(entity_mention_toks))</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="3" type="4">
+        <text>else:
+                entity_not_align = True
+                logger.writeln(&quot;Unaligned entity: %s&quot; % str(frag))
+                logger.writeln(&quot;Entity mention tokens: %s&quot; % &quot; &quot;.join(entity_mention_toks))</text>
       </register>
-      <register name="4" type="4">
-        <text>root_index = frag.root
-            if len(opt_toks) == 0:
-                logger.writeln(&quot;No alignment for the entity found&quot;)</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgcHJpbnQgbm9kZV9hbGlnbm1lbnQsIGZyYWcubm9kZXMK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHVuYWxpZ25lZF9zZXQgPSBzZXQoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxvZ2dlci53cml0ZWxuKCIlZC0lZDogJXMiICUgKHN0YXJ0LCBlbmQsICcgJy5qb2luKHRva19zZXFbc3RhcnQ6ZW5kXSkpKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBub2RlX2lkeF9saXN0ID0gc2V0KGZyYWcubm9kZV9saXN0KCkpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="8" type="4">
+        <text>if entity_spans:
+                entity_spans = removeAlignedSpans(entity_spans, aligned_set)
+            else:
+                matched_span = searchEntityTokens(entity_mention_toks, tok_seq, unaligned_set)
+                if matched_span:
+                    entity_spans = [matched_span]
+
+            if entity_spans:
+                entity_spans = removeRedundant(tok_seq, entity_spans, entity_mention_toks)</text>
+      </register>
+      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="9" type="4">
-        <text>def sent_opt_toks():
-        opt_toks = []
-        role_toks = []
-        for curr_align in reversed(align_seq):
-            curr_tok, curr_frag = curr_align.split('-')[0], curr_align.split('-')[1]
-
-            start = int(curr_tok)
-
-            (index_type, index) = amr.get_concept_relation(curr_frag)
-            if index_type == 'c':
-                curr_node = amr.nodes[index]
-                if len(curr_node.p_edges) == 1:
-                    par_edge = amr.edges[curr_node.p_edges[0]]
-                    if 'op' == par_edge.label[:2]:
-                        opt_toks.append((start, curr_node.c_edge))
-
-                if curr_node.is_named_entity():
-                    role_toks.append((start, curr_node.c_edge))
-        return opt_toks, role_toks</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>tok_indexes</last-search>
+      <last-search>covered</last-search>
       <last-offset />
-      <last-pattern>tok_indexes</last-pattern>
+      <last-pattern>covered</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -1026,6 +1019,7 @@
         <entry>unaligned_set</entry>
         <entry>aligned_toks</entry>
         <entry>tok_indexes</entry>
+        <entry>covered</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
