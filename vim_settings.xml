@@ -136,8 +136,8 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525217750719">
-        <mark key="'" line="541" column="35" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525222975787">
+        <mark key="'" line="401" column="58" />
         <mark key="[" line="441" column="0" />
         <mark key="]" line="441" column="0" />
         <mark key="^" line="573" column="4" />
@@ -713,8 +713,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="266" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="215" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="239" column="57" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="210" column="80" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="202" column="91" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -813,6 +811,8 @@
       <jump line="384" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="544" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="541" column="35" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="400" column="58" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="401" column="58" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -822,7 +822,7 @@
         <text encoding="base64">Xywg</text>
       </register>
       <register name="/" type="4">
-        <text>conceptTo</text>
+        <text>tok_to_concept</text>
       </register>
       <register name="0" type="4">
         <text>(tok_seq, lemma_seq, alignment_seq, amr, verb_list, multi_map)</text>
@@ -862,9 +862,9 @@
       </register>
     </registers>
     <search>
-      <last-search>conceptTo</last-search>
+      <last-search>tok_to_concept</last-search>
       <last-offset />
-      <last-pattern>conceptTo</last-pattern>
+      <last-pattern>tok_to_concept</last-pattern>
       <last-replace>concept_idx</last-replace>
       <last-substitute>concept_index</last-substitute>
       <last-dir>1</last-dir>
@@ -962,7 +962,6 @@
         <entry>new_start_to</entry>
         <entry>root_entity_num</entry>
         <entry>tok_to_categories</entry>
-        <entry>tok_to_concept</entry>
         <entry>alignment_wf</entry>
         <entry>conceptID_seq</entry>
         <entry>node_id_</entry>
@@ -978,6 +977,7 @@
         <entry>new_alig</entry>
         <entry>dep</entry>
         <entry>conceptTo</entry>
+        <entry>tok_to_concept</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
