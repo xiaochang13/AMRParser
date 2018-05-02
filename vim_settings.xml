@@ -136,12 +136,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525237632191">
-        <mark key="'" line="1198" column="16" />
-        <mark key="[" line="360" column="76" />
-        <mark key="]" line="361" column="18" />
-        <mark key="." line="361" column="18" />
-        <mark key="^" line="361" column="18" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525238982307">
+        <mark key="'" line="1200" column="16" />
+        <mark key="[" line="358" column="12" />
+        <mark key="]" line="358" column="12" />
+        <mark key="." line="358" column="12" />
+        <mark key="^" line="358" column="12" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -360,7 +360,7 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525237559541">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525239014840">
         <mark key="p" line="172" column="44" />
         <mark key="'" line="619" column="37" />
         <mark key="[" line="615" column="8" />
@@ -561,12 +561,11 @@
         <mark key="]" line="378" column="24" />
         <mark key="." line="378" column="24" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525237278732">
-        <mark key="'" line="115" column="21" />
-        <mark key="[" line="1010" column="16" />
-        <mark key="]" line="1010" column="17" />
-        <mark key="^" line="1010" column="17" />
-        <mark key="." line="1010" column="17" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525238997874">
+        <mark key="'" line="1029" column="0" />
+        <mark key="[" line="1029" column="0" />
+        <mark key="]" line="1029" column="0" />
+        <mark key="." line="1029" column="0" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1517020969551">
         <mark key="'" line="39" column="19" />
@@ -715,7 +714,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="171" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="172" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="223" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="268" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -815,13 +813,14 @@
       <jump line="369" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="617" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="1028" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="1029" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>str</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAjIHByaW50IGludGVnZXJfcmVwcwo=</text>
       </register>
       <register name="-" type="4">
-        <text>str</text>
+        <text>[:-2]</text>
       </register>
       <register name="/" type="4">
         <text>Subg</text>
@@ -830,35 +829,35 @@
         <text>subgraph_repr</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYWxpZ25tZW50X3NlcSAK</text>
+        <text encoding="base64">ICAgICAgICAjIHByaW50IGludGVnZXJfcmVwcwo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGlmIGFyZ3MuZm9ybWF0ID09ICJqYW1yIjoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBwcmludCBpZHgsIGN1cnJfcGF0aAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgYWxpZ25tZW50X3NlcSAK</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">bl9ub2RlcyA9IGxlbihsZW5ndGhzKQogICAgICAgIGN1cnJfbm9kZV9pZHggPSBzZWxmLnJldHJpZXZlX2ZpcnN0X2NvbmNlcHQoaW50ZWdlcl9jb25jZXB0c1swXSkKICAgICAgICBpZiBjdXJyX25vZGVfaWR4ICE9IHNlbGYucm9vdDoKICAgICAgICAgICAgZXh0X3NldC5hZGQoY3Vycl9ub2RlX2lkeCkKCiAgICAgICAgI2luZGV4ID0gc2VsZi5ub2RlX2RpY3RbY3Vycl9ub2RlXQogICAgICAgIGZyYWcuc2V0X3Jvb3QoY3Vycl9ub2RlX2lkeCkgI1RoZSBzdHJ1Y3R1cmUgb2YgdGhlIHNtYWxsZXN0IGdyYWluZWQgZnJhZ21lbnQgc2hvdWxkIGJlIHJvb3RlZCBzdHJ1Y3R1cmUKICAgICAgICAjZnJhZy5zZXRfbm9kZShpbmRleCkKICAgICAgICBjdXJyX25vZGUgPSBzZWxmLm5vZGVzW2N1cnJfbm9kZV9pZHhdCgogICAgICAgIGNfZWRnZV9pbmRleCA9IGN1cnJfbm9kZS5jX2VkZ2UKICAgICAgICAjZWRnZV9pbmRleCA9IHNlbGYuZWRnZV9kaWN0W2VkZ2VdCiAgICAgICAgZnJhZy5zZXRfZWRnZShjX2VkZ2VfaW5kZXgpCgogICAgICAgIGlmIGN1cnJfbm9kZV9pZHggPT0gc2VsZi5yb290OgoKICAgICAgICAgICAgbGVuZ3RoX3R3byA9IGxlbihbTm9uZSBmb3IgeCBpbiBsZW5ndGhzIGlmICh4ID09IDIpXSkKICAgICAgICAgICAgaWYgbGVuKGN1cnJfbm9kZS52X2VkZ2VzKSA+IGxlbmd0aF90d286CiAgICAgICAgICAgICAgICBleHRfc2V0LmFkZChjdXJyX25vZGVfaWR4KQoKICAgICAgICBpZiBuX25vZGVzID09IDE6CiAgICAgICAgICAgIGZyYWcuc2V0X2V4dF9zZXQoZXh0X3NldCkKICAgICAgICAgICAgcmV0dXJuIGZyYWcKCiAgICAgICAgcGFyX25vZGVfaWR4ID0gY3Vycl9ub2RlX2lkeAogICAgICAgIGN1cnJfZGVwdGggPSBsZW4oaW50ZWdlcl9jb25jZXB0c1swXSkKCiAgICAgICAgI1N0YXJ0aW5nIGZyb20gdGhlIG5vZGUgaWRlbnRpZmllZCBpbiB0aGUgZmlyc3Qgc3RlcCwgcmV0cmlldmUgdGhlIHJlc3Qgb2YgdGhlIG5vZGVzIGFuZCB0aGUgcmVsYXRpb25zIHRoYXQgY29ubmVjdCB0aGVtCiAgICAgICAgZm9yIGkgaW4geHJhbmdlKDEsIG5fbm9kZXMpOgogICAgICAgICAgICBjdXJyX2xlbiA9IGxlbmd0aHNbaV0KICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgYXNzZXJ0IGxlbihpbnRlZ2VyX2NvbmNlcHRzW2ldKSA9PSBjdXJyX2RlcHRoKzEsICdBIHJlbGF0aW9uIGhhcyBhY3Jvc3MgbW9yZSB0aGFuIDEgbGF5ZXIgaW4ganVzdCBvbmUgc3RlcCcKICAgICAgICAgICAgZXhjZXB0OgogICAgICAgICAgICAgICAgcHJpbnQgaW50ZWdlcl9jb25jZXB0cwogICAgICAgICAgICAgICAgcHJpbnQgaW50ZWdlcl9jb25jZXB0c1tpXQogICAgICAgICAgICAgICAgcHJpbnQgY3Vycl9kZXB0aAogICAgICAgICAgICAgICAgI3N5cy5leGl0KC0xKQogICAgICAgICAgICAgICAgI2xvZ2dlci53cml0ZWxuKGludGVnZXJfY29uY2VwdHMpCiAgICAgICAgICAgICAgICByZXR1cm4gTm9uZQogICAgICAgICAgICAoY3Vycl9lZGdlX2luZGV4LCBjdXJyX25vZGVfaWR4KSA9IHNlbGYucmV0cmlldmVfb25lX2NvbmNlcHQoaW50ZWdlcl9jb25jZXB0c1tpXVtjdXJyX2RlcHRoXSwgcGFyX25vZGVfaWR4KQogICAgICAgICAgICBpZiBjdXJyX2VkZ2VfaW5kZXggPT0gLTE6CiAgICAgICAgICAgICAgICByZXR1cm4gTm9uZQogICAgICAgICAgICBmcmFnLnNldF9lZGdlKGN1cnJfZWRnZV9pbmRleCkKICAgICAgICAgICAgY3Vycl9ub2RlID0gc2VsZi5ub2Rlc1tjdXJyX25vZGVfaWR4XQogICAgICAgICAgICBpZiBsZW4oY3Vycl9ub2RlLnBfZWRnZXMpID4gMToKICAgICAgICAgICAgICAgIGV4dF9zZXQuYWRkKGN1cnJfbm9kZV9pZHgpCiAgICAgICAgICAgIGNvbnN0X2VkZ2VfaW5kZXggPSBjdXJyX25vZGUuY19lZGdlCiAgICAgICAgICAgIGZyYWcuc2V0X25vZGUoY3Vycl9ub2RlX2lkeCkKICAgICAgICAgICAgZnJhZy5zZXRfZWRnZShjb25zdF9lZGdlX2luZGV4KQoKICAgICAgICAgICAgaWYgY3Vycl9sZW4gPCBtYXhfbGVuOiAjTm90IHRoZSBsZWFmIG9mIHRoZSB0cmVlIGZyYWdtZW50CiAgICAgICAgICAgICAgICBpZiBpIDwgbl9ub2Rlcy0xIGFuZCBjdXJyX2xlbiA9PSBsZW5ndGhzW2krMV06CiAgICAgICAgICAgICAgICAgICAgaWYgbGVuKGN1cnJfbm9kZS52X2VkZ2VzKSA+IDA6CiAgICAgICAgICAgICAgICAgICAgICAgIGV4dF9zZXQuYWRkKGN1cnJfbm9kZV9pZHgpCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIG5fbmV4dF9sZW4gPSBsZW4oW05vbmUgZm9yIHggaW4gbGVuZ3RocyBpZiAoeCA9PSBjdXJyX2xlbisxKV0pCiAgICAgICAgICAgICAgICAgICAgaWYgbGVuKGN1cnJfbm9kZS52X2VkZ2VzKSA+IG5fbmV4dF9sZW46CiAgICAgICAgICAgICAgICAgICAgICAgIGV4dF9zZXQuYWRkKGN1cnJfbm9kZV9pZHgpCiAgICAgICAgICAgICAgICAgICAgcGFyX25vZGVfaWR4ID0gY3Vycl9ub2RlX2lkeAogICAgICAgICAgICAgICAgICAgIGN1cnJfZGVwdGggPSBsZW4oaW50ZWdlcl9jb25jZXB0c1tpXSkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGlmIGxlbihjdXJyX25vZGUudl9lZGdlcykgPiAwOgogICAgICAgICAgICAgICAgICAgIGV4dF9zZXQuYWRkKGN1cnJfbm9kZV9pZHgpCgogICAgICAgIGZyYWcuc2V0X2V4dF9zZXQoZXh0X3NldCkKICAgICAgICByZXR1cm4gZnJhZw==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGlmIGFyZ3MuZm9ybWF0ID09ICJqYW1yIjoK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="4">
+        <text encoding="base64">bl9ub2RlcyA9IGxlbihsZW5ndGhzKQogICAgICAgIGN1cnJfbm9kZV9pZHggPSBzZWxmLnJldHJpZXZlX2ZpcnN0X2NvbmNlcHQoaW50ZWdlcl9jb25jZXB0c1swXSkKICAgICAgICBpZiBjdXJyX25vZGVfaWR4ICE9IHNlbGYucm9vdDoKICAgICAgICAgICAgZXh0X3NldC5hZGQoY3Vycl9ub2RlX2lkeCkKCiAgICAgICAgI2luZGV4ID0gc2VsZi5ub2RlX2RpY3RbY3Vycl9ub2RlXQogICAgICAgIGZyYWcuc2V0X3Jvb3QoY3Vycl9ub2RlX2lkeCkgI1RoZSBzdHJ1Y3R1cmUgb2YgdGhlIHNtYWxsZXN0IGdyYWluZWQgZnJhZ21lbnQgc2hvdWxkIGJlIHJvb3RlZCBzdHJ1Y3R1cmUKICAgICAgICAjZnJhZy5zZXRfbm9kZShpbmRleCkKICAgICAgICBjdXJyX25vZGUgPSBzZWxmLm5vZGVzW2N1cnJfbm9kZV9pZHhdCgogICAgICAgIGNfZWRnZV9pbmRleCA9IGN1cnJfbm9kZS5jX2VkZ2UKICAgICAgICAjZWRnZV9pbmRleCA9IHNlbGYuZWRnZV9kaWN0W2VkZ2VdCiAgICAgICAgZnJhZy5zZXRfZWRnZShjX2VkZ2VfaW5kZXgpCgogICAgICAgIGlmIGN1cnJfbm9kZV9pZHggPT0gc2VsZi5yb290OgoKICAgICAgICAgICAgbGVuZ3RoX3R3byA9IGxlbihbTm9uZSBmb3IgeCBpbiBsZW5ndGhzIGlmICh4ID09IDIpXSkKICAgICAgICAgICAgaWYgbGVuKGN1cnJfbm9kZS52X2VkZ2VzKSA+IGxlbmd0aF90d286CiAgICAgICAgICAgICAgICBleHRfc2V0LmFkZChjdXJyX25vZGVfaWR4KQoKICAgICAgICBpZiBuX25vZGVzID09IDE6CiAgICAgICAgICAgIGZyYWcuc2V0X2V4dF9zZXQoZXh0X3NldCkKICAgICAgICAgICAgcmV0dXJuIGZyYWcKCiAgICAgICAgcGFyX25vZGVfaWR4ID0gY3Vycl9ub2RlX2lkeAogICAgICAgIGN1cnJfZGVwdGggPSBsZW4oaW50ZWdlcl9jb25jZXB0c1swXSkKCiAgICAgICAgI1N0YXJ0aW5nIGZyb20gdGhlIG5vZGUgaWRlbnRpZmllZCBpbiB0aGUgZmlyc3Qgc3RlcCwgcmV0cmlldmUgdGhlIHJlc3Qgb2YgdGhlIG5vZGVzIGFuZCB0aGUgcmVsYXRpb25zIHRoYXQgY29ubmVjdCB0aGVtCiAgICAgICAgZm9yIGkgaW4geHJhbmdlKDEsIG5fbm9kZXMpOgogICAgICAgICAgICBjdXJyX2xlbiA9IGxlbmd0aHNbaV0KICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgYXNzZXJ0IGxlbihpbnRlZ2VyX2NvbmNlcHRzW2ldKSA9PSBjdXJyX2RlcHRoKzEsICdBIHJlbGF0aW9uIGhhcyBhY3Jvc3MgbW9yZSB0aGFuIDEgbGF5ZXIgaW4ganVzdCBvbmUgc3RlcCcKICAgICAgICAgICAgZXhjZXB0OgogICAgICAgICAgICAgICAgcHJpbnQgaW50ZWdlcl9jb25jZXB0cwogICAgICAgICAgICAgICAgcHJpbnQgaW50ZWdlcl9jb25jZXB0c1tpXQogICAgICAgICAgICAgICAgcHJpbnQgY3Vycl9kZXB0aAogICAgICAgICAgICAgICAgI3N5cy5leGl0KC0xKQogICAgICAgICAgICAgICAgI2xvZ2dlci53cml0ZWxuKGludGVnZXJfY29uY2VwdHMpCiAgICAgICAgICAgICAgICByZXR1cm4gTm9uZQogICAgICAgICAgICAoY3Vycl9lZGdlX2luZGV4LCBjdXJyX25vZGVfaWR4KSA9IHNlbGYucmV0cmlldmVfb25lX2NvbmNlcHQoaW50ZWdlcl9jb25jZXB0c1tpXVtjdXJyX2RlcHRoXSwgcGFyX25vZGVfaWR4KQogICAgICAgICAgICBpZiBjdXJyX2VkZ2VfaW5kZXggPT0gLTE6CiAgICAgICAgICAgICAgICByZXR1cm4gTm9uZQogICAgICAgICAgICBmcmFnLnNldF9lZGdlKGN1cnJfZWRnZV9pbmRleCkKICAgICAgICAgICAgY3Vycl9ub2RlID0gc2VsZi5ub2Rlc1tjdXJyX25vZGVfaWR4XQogICAgICAgICAgICBpZiBsZW4oY3Vycl9ub2RlLnBfZWRnZXMpID4gMToKICAgICAgICAgICAgICAgIGV4dF9zZXQuYWRkKGN1cnJfbm9kZV9pZHgpCiAgICAgICAgICAgIGNvbnN0X2VkZ2VfaW5kZXggPSBjdXJyX25vZGUuY19lZGdlCiAgICAgICAgICAgIGZyYWcuc2V0X25vZGUoY3Vycl9ub2RlX2lkeCkKICAgICAgICAgICAgZnJhZy5zZXRfZWRnZShjb25zdF9lZGdlX2luZGV4KQoKICAgICAgICAgICAgaWYgY3Vycl9sZW4gPCBtYXhfbGVuOiAjTm90IHRoZSBsZWFmIG9mIHRoZSB0cmVlIGZyYWdtZW50CiAgICAgICAgICAgICAgICBpZiBpIDwgbl9ub2Rlcy0xIGFuZCBjdXJyX2xlbiA9PSBsZW5ndGhzW2krMV06CiAgICAgICAgICAgICAgICAgICAgaWYgbGVuKGN1cnJfbm9kZS52X2VkZ2VzKSA+IDA6CiAgICAgICAgICAgICAgICAgICAgICAgIGV4dF9zZXQuYWRkKGN1cnJfbm9kZV9pZHgpCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIG5fbmV4dF9sZW4gPSBsZW4oW05vbmUgZm9yIHggaW4gbGVuZ3RocyBpZiAoeCA9PSBjdXJyX2xlbisxKV0pCiAgICAgICAgICAgICAgICAgICAgaWYgbGVuKGN1cnJfbm9kZS52X2VkZ2VzKSA+IG5fbmV4dF9sZW46CiAgICAgICAgICAgICAgICAgICAgICAgIGV4dF9zZXQuYWRkKGN1cnJfbm9kZV9pZHgpCiAgICAgICAgICAgICAgICAgICAgcGFyX25vZGVfaWR4ID0gY3Vycl9ub2RlX2lkeAogICAgICAgICAgICAgICAgICAgIGN1cnJfZGVwdGggPSBsZW4oaW50ZWdlcl9jb25jZXB0c1tpXSkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGlmIGxlbihjdXJyX25vZGUudl9lZGdlcykgPiAwOgogICAgICAgICAgICAgICAgICAgIGV4dF9zZXQuYWRkKGN1cnJfbm9kZV9pZHgpCgogICAgICAgIGZyYWcuc2V0X2V4dF9zZXQoZXh0X3NldCkKICAgICAgICByZXR1cm4gZnJhZw==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="8" type="4">
         <text>else:
                 initialize_one_concept(curr_path, subgraph, node_map, )</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgaWR4ID09IDA6Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbm9kZV9tYXBbXQo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgaWR4ID09IDA6Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
