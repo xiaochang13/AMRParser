@@ -139,12 +139,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525239497508">
-        <mark key="'" line="1200" column="16" />
-        <mark key="[" line="358" column="12" />
-        <mark key="]" line="358" column="12" />
-        <mark key="." line="358" column="12" />
-        <mark key="^" line="358" column="12" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525246052889">
+        <mark key="'" line="1202" column="16" />
+        <mark key="[" line="357" column="51" />
+        <mark key="]" line="359" column="23" />
+        <mark key="." line="359" column="23" />
+        <mark key="^" line="359" column="23" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -363,12 +363,13 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525243278508">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525246088578">
         <mark key="p" line="172" column="44" />
-        <mark key="[" line="658" column="12" />
-        <mark key="]" line="658" column="15" />
-        <mark key="^" line="658" column="15" />
-        <mark key="." line="658" column="15" />
+        <mark key="'" line="634" column="37" />
+        <mark key="[" line="667" column="45" />
+        <mark key="]" line="668" column="54" />
+        <mark key="." line="668" column="54" />
+        <mark key="^" line="668" column="54" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1515006441367">
         <mark key="'" line="106" column="59" />
@@ -723,21 +724,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="403" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="397" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="405" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="286" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
-      <jump line="491" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="291" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
-      <jump line="1153" column="65" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1159" column="91" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="334" column="68" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="471" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1154" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1188" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="589" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="583" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="568" column="10" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="176" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="426" column="41" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="292" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -783,13 +769,11 @@
       <jump line="1028" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="1029" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="567" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="171" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="1188" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="725" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="840" column="21" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="622" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="671" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="101" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="666" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="707" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="633" column="60" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -802,7 +786,6 @@
       <jump line="582" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="610" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="630" column="70" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="647" column="74" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="658" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="680" column="64" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="703" column="48" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -823,72 +806,76 @@
       <jump line="80" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
       <jump line="646" column="46" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="94" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
+      <jump line="605" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="690" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="275" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="99" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="276" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="235" column="64" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="100" column="64" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="101" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="647" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="631" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="689" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="171" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="629" column="80" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="693" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="107" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="691" column="18" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="662" column="18" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="634" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgIA==</text>
+        <text>_graph</text>
       </register>
       <register name="/" type="4">
-        <text>covered</text>
+        <text>node_alignment</text>
       </register>
       <register name="0" type="4">
-        <text>% (start, end, ' '.join(tok_seq[start:end])))</text>
+        <text>unmatched_attrs</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="4">
-        <text>else:
-                entity_not_align = True
-                logger.writeln(&quot;Unaligned entity: %s&quot; % str(frag))
-                logger.writeln(&quot;Entity mention tokens: %s&quot; % &quot; &quot;.join(entity_mention_toks))</text>
+        <text encoding="base64">IyBjdXJyX3NldCA9IHNldCh4cmFuZ2Uoc3RhcnQsIGVuZCkpCiAgICAgICAgICAgICAgICAjIGlmIGxlbihjdXJyX3NldCAmIGFsaWduZWRfc2V0KSAhPSAwOgogICAgICAgICAgICAgICAgIyAgICAgY29udGludWU=</text>
       </register>
-      <register name="3" type="4">
-        <text>else:
-                entity_not_align = True
-                logger.writeln(&quot;Unaligned entity: %s&quot; % str(frag))
-                logger.writeln(&quot;Entity mention tokens: %s&quot; % &quot; &quot;.join(entity_mention_toks))</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIG9wdF90b2tzLCByb2xlX3Rva3MgPSBOb25lLCBOb25lCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgcHJpbnQgbm9kZV9hbGlnbm1lbnQsIGZyYWcubm9kZXMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgbm9kZV9hbGlnbm1lbnQgfD0gZnJhZy5ub2Rlcwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxvZ2dlci53cml0ZWxuKCIlZC0lZDogJXMiICUgKHN0YXJ0LCBlbmQsICcgJy5qb2luKHRva19zZXFbc3RhcnQ6ZW5kXSkpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGJyZWFrCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIHVuYWxpZ25lZF9zZXQgPSBzZXQoeHJhbmdlKGxlbmd0aCkpIC0gYWxpZ25lZF9zZXQK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIHVuYWxpZ25lZF9zZXQgPQo=</text>
       </register>
-      <register name="8" type="4">
-        <text>if entity_spans:
-                entity_spans = removeAlignedSpans(entity_spans, aligned_set)
-            else:
-                matched_span = searchEntityTokens(entity_mention_toks, tok_seq, unaligned_set)
-                if matched_span:
-                    entity_spans = [matched_span]
-
-            if entity_spans:
-                entity_spans = removeRedundant(tok_seq, entity_spans, entity_mention_toks)</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGVudGl0eV90b2tzIHw9IHNldCh4cmFuZ2Uoc3RhcnQsIGVuZCkpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGVudGl0eV90b2tzIHw9IHNldCh4cmFuZ2Uoc3RhcnQsIGVuZCkpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>covered</last-search>
+      <last-search>node_alignment</last-search>
       <last-offset />
-      <last-pattern>covered</last-pattern>
+      <last-pattern>node_alignment</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -971,7 +958,6 @@
         <entry>relation_align_map</entry>
         <entry>ngram_count</entry>
         <entry>multi_map</entry>
-        <entry>entity_toks</entry>
         <entry>nodeid_to_frag</entry>
         <entry>concept_alig</entry>
         <entry>concept_align_map</entry>
@@ -987,7 +973,6 @@
         <entry>node_id_</entry>
         <entry>span_to_type</entry>
         <entry>nodeid_to_repr</entry>
-        <entry>node_alignment</entry>
         <entry>tok_features</entry>
         <entry>new_alignment</entry>
         <entry>concept</entry>
@@ -1020,6 +1005,11 @@
         <entry>aligned_toks</entry>
         <entry>tok_indexes</entry>
         <entry>covered</entry>
+        <entry>non_cover</entry>
+        <entry>all_date_attrs</entry>
+        <entry>entity_toks</entry>
+        <entry>alignJA</entry>
+        <entry>node_alignment</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
@@ -1053,6 +1043,9 @@
         <entry>359</entry>
         <entry>364</entry>
         <entry>%s/temp_unaligned/unaligned_set/g</entry>
+        <entry>71</entry>
+        <entry>663</entry>
+        <entry>668</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
