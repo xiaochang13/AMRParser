@@ -364,13 +364,13 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525277511041">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525279631362">
         <mark key="p" line="172" column="44" />
-        <mark key="'" line="926" column="19" />
-        <mark key="[" line="789" column="0" />
-        <mark key="]" line="789" column="0" />
-        <mark key="^" line="746" column="30" />
-        <mark key="." line="789" column="0" />
+        <mark key="'" line="781" column="33" />
+        <mark key="[" line="763" column="16" />
+        <mark key="]" line="763" column="23" />
+        <mark key="^" line="763" column="23" />
+        <mark key="." line="763" column="23" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1515006441367">
         <mark key="'" line="106" column="59" />
@@ -725,9 +725,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="8" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/depTokens.py" />
-      <jump line="1" column="7" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/depTokens.py" />
-      <jump line="964" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="210" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="1065" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="975" column="29" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
@@ -789,7 +786,6 @@
       <jump line="133" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
       <jump line="79" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
       <jump line="80" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
-      <jump line="646" column="46" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="94" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" />
       <jump line="605" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="275" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -811,7 +807,6 @@
       <jump line="309" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="345" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="690" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="633" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="695" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="899" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="1200" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -825,17 +820,21 @@
       <jump line="8" column="149" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/date_extraction.py" />
       <jump line="107" column="15" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="113" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
+      <jump line="633" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="646" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="796" column="59" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="759" column="15" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="781" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text># for abbre_name in abbrev_to_fullname:
-        #     print &quot;%s ## %s&quot; % (abbre_name, abbrev_to_fullname[abbre_name])</text>
+        <text encoding="base64">aWR4ID49IHN0YXJ0IGFuZA==</text>
       </register>
       <register name="-" type="4">
-        <text>s.split(delimiter)</text>
+        <text encoding="base64">aWR4ID49IHN0YXJ0IGFuZA==</text>
       </register>
       <register name="/" type="4">
-        <text>value</text>
+        <text>aligned_set</text>
       </register>
       <register name="0" type="4">
         <text>def value(s, delimiter=&quot;_&quot;): #Compute the value of the number representation
@@ -921,9 +920,9 @@
       </register>
     </registers>
     <search>
-      <last-search>value</last-search>
+      <last-search>aligned_set</last-search>
       <last-offset />
-      <last-pattern>value</last-pattern>
+      <last-pattern>aligned_set</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -1063,6 +1062,7 @@
         <entry>hundred</entry>
         <entry>million</entry>
         <entry>value</entry>
+        <entry>aligned_set</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
