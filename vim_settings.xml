@@ -371,13 +371,13 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525379793859">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525380880956">
         <mark key="p" line="172" column="44" />
-        <mark key="'" line="675" column="16" />
-        <mark key="[" line="643" column="50" />
-        <mark key="]" line="644" column="24" />
-        <mark key="." line="644" column="24" />
-        <mark key="^" line="644" column="24" />
+        <mark key="'" line="813" column="4" />
+        <mark key="[" line="642" column="108" />
+        <mark key="]" line="643" column="45" />
+        <mark key="." line="643" column="45" />
+        <mark key="^" line="643" column="45" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1515006441367">
         <mark key="'" line="106" column="59" />
@@ -731,8 +731,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="605" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="275" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="99" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="276" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="235" column="64" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -831,13 +829,15 @@
       <jump line="648" column="49" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="675" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="447" column="48" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="810" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="813" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBjdXJyX3ZhciA9IGN1cnJfbm9kZS5ub2RlX3N0cigpCg==</text>
+      <register name="&quot;" type="4">
+        <text>PHRASE</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Y29sbGFwc2VkX3Rva3MsIA==</text>
+        <text>PHRASE</text>
       </register>
       <register name="/" type="4">
         <text>all_align</text>
