@@ -139,12 +139,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525319541117">
-        <mark key="'" line="350" column="23" />
-        <mark key="[" line="366" column="8" />
-        <mark key="]" line="366" column="8" />
-        <mark key="." line="366" column="8" />
-        <mark key="^" line="364" column="86" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525323418092">
+        <mark key="'" line="282" column="27" />
+        <mark key="[" line="380" column="8" />
+        <mark key="]" line="380" column="11" />
+        <mark key="." line="380" column="11" />
+        <mark key="^" line="380" column="11" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -724,9 +724,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="580" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="623" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="618" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="632" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="627" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="582" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -771,7 +768,6 @@
       <jump line="690" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="695" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="899" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="1200" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="954" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1027" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="207" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
@@ -824,6 +820,10 @@
       <jump line="741" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="814" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="765" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="947" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1188" column="73" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1200" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="282" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -833,7 +833,7 @@
         <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
-        <text>class Sub</text>
+        <text>realign</text>
       </register>
       <register name="0" type="4">
         <text># Map from a frequent phrase to its most frequent concept.
@@ -876,9 +876,9 @@
       </register>
     </registers>
     <search>
-      <last-search>class Sub</last-search>
+      <last-search>realign</last-search>
       <last-offset />
-      <last-pattern>class Sub</last-pattern>
+      <last-pattern>realign</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -1026,6 +1026,7 @@
         <entry>node_to_spans</entry>
         <entry>phrases</entry>
         <entry>class Sub</entry>
+        <entry>realign</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
