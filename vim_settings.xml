@@ -146,12 +146,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525323418092">
-        <mark key="'" line="282" column="27" />
-        <mark key="[" line="380" column="8" />
-        <mark key="]" line="380" column="11" />
-        <mark key="." line="380" column="11" />
-        <mark key="^" line="380" column="11" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525374750555">
+        <mark key="'" line="1202" column="8" />
+        <mark key="[" line="406" column="4" />
+        <mark key="]" line="406" column="5" />
+        <mark key="." line="406" column="5" />
+        <mark key="^" line="406" column="5" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -731,8 +731,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="680" column="64" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="703" column="48" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="706" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="725" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="21" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -831,10 +829,12 @@
       <jump line="286" column="41" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="265" column="24" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="67" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
+      <jump line="13" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1202" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IyA=</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">ICAgIAogICAg</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IyA=</text>
@@ -846,37 +846,36 @@
         <text># Map from a frequent phrase to its most frequent concept.
         phrase_map = utils.loadPhrases(phrase_file)</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="8">
+        <text encoding="base64">ICAgIAogICAg</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBzZWxmLgo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="4">
         <text>aligned_set |= curr_set
             aligned_node_idxs |= node_set</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHJvb3RfaWR4ID0gYW1yLmdldF92YXJfbm9kZWlkeChhbGlnbmVkX3N1YmdyYXBoLnJvb3RzWzBdKQo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGFsaWduZWRfbm9kZV9pZHhzIHw9IG5vZGVfc2V0Cg==</text>
-      </register>
-      <register name="8" type="4">
-        <text>def alignSingleToks(aligned_set):
-        for (start, )</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgdG9rX2lkeCBpbiBpZHhfdG9fbm9kZXMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGFsaWduZWRfbm9kZV9pZHhzIHw9IG5vZGVfc2V0Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
