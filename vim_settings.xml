@@ -315,8 +315,8 @@
         <mark key="^" line="233" column="23" />
         <mark key="." line="224" column="35" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1519236309743">
-        <mark key="'" line="242" column="4" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1525324294656">
+        <mark key="'" line="303" column="8" />
         <mark key="[" line="191" column="20" />
         <mark key="]" line="191" column="34" />
         <mark key="." line="191" column="34" />
@@ -455,8 +455,8 @@
         <mark key="." line="122" column="20" />
         <mark key="^" line="122" column="20" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1525189989513">
-        <mark key="'" line="120" column="45" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1525324288410">
+        <mark key="'" line="179" column="50" />
         <mark key="[" line="285" column="35" />
         <mark key="]" line="285" column="35" />
         <mark key="^" line="285" column="35" />
@@ -724,8 +724,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="632" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="627" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="582" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="610" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="630" column="70" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -824,6 +822,8 @@
       <jump line="1188" column="73" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1200" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="282" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="179" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="303" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -833,7 +833,7 @@
         <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
-        <text>realign</text>
+        <text>uniform</text>
       </register>
       <register name="0" type="4">
         <text># Map from a frequent phrase to its most frequent concept.
@@ -876,9 +876,9 @@
       </register>
     </registers>
     <search>
-      <last-search>realign</last-search>
+      <last-search>uniform</last-search>
       <last-offset />
-      <last-pattern>realign</last-pattern>
+      <last-pattern>uniform</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -1027,6 +1027,7 @@
         <entry>phrases</entry>
         <entry>class Sub</entry>
         <entry>realign</entry>
+        <entry>uniform</entry>
       </history-search>
       <history-cmd>
         <entry>360</entry>
