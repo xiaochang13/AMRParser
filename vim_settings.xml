@@ -78,6 +78,13 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/tmp_amr_graph" timestamp="1525193684660">
         <mark key="'" line="466" column="8" />
       </file>
+      <file name="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" timestamp="1525373994407">
+        <mark key="'" line="67" column="8" />
+        <mark key="[" line="286" column="8" />
+        <mark key="]" line="286" column="9" />
+        <mark key="^" line="286" column="9" />
+        <mark key="." line="286" column="9" />
+      </file>
       <file name="$USER_HOME$/Aligner/preprocessing.py" timestamp="1524510512337">
         <mark key="'" line="341" column="30" />
       </file>
@@ -724,10 +731,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="582" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="610" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="630" column="70" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="658" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="680" column="64" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="703" column="48" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="706" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -824,6 +827,10 @@
       <jump line="282" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="179" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="303" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="52" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
+      <jump line="286" column="41" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
+      <jump line="265" column="24" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
+      <jump line="67" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -833,7 +840,7 @@
         <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
-        <text>uniform</text>
+        <text>success_num</text>
       </register>
       <register name="0" type="4">
         <text># Map from a frequent phrase to its most frequent concept.
@@ -876,9 +883,9 @@
       </register>
     </registers>
     <search>
-      <last-search>uniform</last-search>
+      <last-search>success_num</last-search>
       <last-offset />
-      <last-pattern>uniform</last-pattern>
+      <last-pattern>success_num</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -886,128 +893,6 @@
     </search>
     <history>
       <history-search>
-        <entry>WN_lemma_match</entry>
-        <entry>wm</entry>
-        <entry>wordNe</entry>
-        <entry>WN_lemma</entry>
-        <entry>sense</entry>
-        <entry>multiple</entry>
-        <entry>organization</entry>
-        <entry>special_m</entry>
-        <entry>is_spec</entry>
-        <entry>matched_varia</entry>
-        <entry>government</entry>
-        <entry>align_table</entry>
-        <entry>apply_align</entry>
-        <entry>stats</entry>
-        <entry>AMR_s</entry>
-        <entry>categorize</entry>
-        <entry>mergeSpans</entry>
-        <entry>connect_ad</entry>
-        <entry>logger</entry>
-        <entry>mph</entry>
-        <entry>wn</entry>
-        <entry>lemmatize</entry>
-        <entry>lmtzr</entry>
-        <entry>better</entry>
-        <entry>degree</entry>
-        <entry>join</entry>
-        <entry>utf</entry>
-        <entry>encode</entry>
-        <entry>entity_not_align</entry>
-        <entry>readJAMRAli</entry>
-        <entry>AMRGra</entry>
-        <entry>getFrag</entry>
-        <entry>prev_var</entry>
-        <entry>amr</entry>
-        <entry>node_sequence = self.co</entry>
-        <entry>collapsed_dfs</entry>
-        <entry>jamr</entry>
-        <entry>node_dict</entry>
-        <entry>curr_node_idx</entry>
-        <entry>var_to_</entry>
-        <entry>all_alignmetn</entry>
-        <entry>all_ali</entry>
-        <entry>mergeNodes</entry>
-        <entry>subgraph_str</entry>
-        <entry>Inconsis</entry>
-        <entry>word_idx</entry>
-        <entry>def apply</entry>
-        <entry>MULT</entry>
-        <entry>conll_wf</entry>
-        <entry>conll_file</entry>
-        <entry>sys.exit</entry>
-        <entry>sys.ex</entry>
-        <entry>exit</entry>
-        <entry>print</entry>
-        <entry>sys.exit(1)</entry>
-        <entry>curr_edge_index</entry>
-        <entry>curr</entry>
-        <entry>self</entry>
-        <entry>var_to_node</entry>
-        <entry>curr_edge_</entry>
-        <entry>v_edges</entry>
-        <entry>curr_num</entry>
-        <entry>get_ances</entry>
-        <entry>n_iden</entry>
-        <entry>verb_list</entry>
-        <entry>alignVer</entry>
-        <entry>VERB_LIST</entry>
-        <entry>def node</entry>
-        <entry>subgraph</entry>
-        <entry>copy</entry>
-        <entry>self.dict</entry>
-        <entry>edge_to_toks</entry>
-        <entry>relation_align_map</entry>
-        <entry>ngram_count</entry>
-        <entry>multi_map</entry>
-        <entry>nodeid_to_frag</entry>
-        <entry>concept_alig</entry>
-        <entry>concept_align_map</entry>
-        <entry>visited_idxs</entry>
-        <entry>visited_idx</entry>
-        <entry>tok2rels</entry>
-        <entry>rel_ali</entry>
-        <entry>new_start_to</entry>
-        <entry>root_entity_num</entry>
-        <entry>tok_to_categories</entry>
-        <entry>alignment_wf</entry>
-        <entry>conceptID_seq</entry>
-        <entry>node_id_</entry>
-        <entry>span_to_type</entry>
-        <entry>nodeid_to_repr</entry>
-        <entry>tok_features</entry>
-        <entry>new_alignment</entry>
-        <entry>concept</entry>
-        <entry>origToNew</entry>
-        <entry>all_alignment</entry>
-        <entry>new_alig</entry>
-        <entry>dep</entry>
-        <entry>conceptTo</entry>
-        <entry>tok_to_concept</entry>
-        <entry>tok_to_cate</entry>
-        <entry>format</entry>
-        <entry>all_alignments</entry>
-        <entry>DATE</entry>
-        <entry>sy</entry>
-        <entry>sys.</entry>
-        <entry>class Su</entry>
-        <entry>retrieve_firs</entry>
-        <entry>node_label</entry>
-        <entry>label_to_node</entry>
-        <entry>var_to</entry>
-        <entry>get_relation</entry>
-        <entry>def Sub</entry>
-        <entry>Subg</entry>
-        <entry>def extrac</entry>
-        <entry>non_covered</entry>
-        <entry>temp_unaligned</entry>
-        <entry>node_align</entry>
-        <entry>unaligned_set</entry>
-        <entry>aligned_toks</entry>
-        <entry>tok_indexes</entry>
-        <entry>covered</entry>
-        <entry>non_cover</entry>
         <entry>all_date_attrs</entry>
         <entry>entity_toks</entry>
         <entry>alignJA</entry>
@@ -1028,27 +913,10 @@
         <entry>class Sub</entry>
         <entry>realign</entry>
         <entry>uniform</entry>
+        <entry>oracle su</entry>
+        <entry>success_num</entry>
       </history-search>
       <history-cmd>
-        <entry>360</entry>
-        <entry>321</entry>
-        <entry>1101</entry>
-        <entry>1193</entry>
-        <entry>1175</entry>
-        <entry>1103</entry>
-        <entry>1247</entry>
-        <entry>993</entry>
-        <entry>239</entry>
-        <entry>109</entry>
-        <entry>195</entry>
-        <entry>126</entry>
-        <entry>1321</entry>
-        <entry>332</entry>
-        <entry>w!</entry>
-        <entry>529</entry>
-        <entry>327</entry>
-        <entry>574</entry>
-        <entry>48</entry>
         <entry>932</entry>
         <entry>480</entry>
         <entry>520</entry>
@@ -1068,6 +936,7 @@
         <entry>792</entry>
         <entry>742</entry>
         <entry>744</entry>
+        <entry>212</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
