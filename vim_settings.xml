@@ -322,8 +322,8 @@
         <mark key="^" line="233" column="23" />
         <mark key="." line="224" column="35" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1525324294656">
-        <mark key="'" line="303" column="8" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1525400318370">
+        <mark key="'" line="245" column="40" />
         <mark key="[" line="191" column="20" />
         <mark key="]" line="191" column="34" />
         <mark key="." line="191" column="34" />
@@ -462,8 +462,8 @@
         <mark key="." line="122" column="20" />
         <mark key="^" line="122" column="20" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1525397413842">
-        <mark key="'" line="42" column="25" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" timestamp="1525400673747">
+        <mark key="'" line="110" column="66" />
         <mark key="[" line="50" column="0" />
         <mark key="]" line="50" column="0" />
         <mark key="^" line="284" column="35" />
@@ -731,18 +731,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="629" column="80" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="693" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="691" column="18" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="662" column="18" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="634" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="309" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="345" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="690" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="695" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="899" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="954" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1027" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="207" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="48" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
       <jump line="60" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/amr_format.py" />
@@ -831,6 +819,18 @@
       <jump line="42" column="25" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
       <jump line="416" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
       <jump line="281" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/ioutil.py" />
+      <jump line="202" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="87" column="51" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="151" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" />
+      <jump line="145" column="50" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="258" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="183" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="245" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="240" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="119" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="300" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="110" column="66" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/oracle.py" />
+      <jump line="250" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheTransition.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -840,7 +840,7 @@
         <text>PHRASE</text>
       </register>
       <register name="/" type="4">
-        <text>all_align</text>
+        <text>uniform</text>
       </register>
       <register name="0" type="4">
         <text>print &quot;Sentence %d&quot; % sent_idx
@@ -893,9 +893,9 @@
       </register>
     </registers>
     <search>
-      <last-search>all_align</last-search>
+      <last-search>uniform</last-search>
       <last-offset />
-      <last-pattern>all_align</last-pattern>
+      <last-pattern>uniform</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -922,13 +922,13 @@
         <entry>phrases</entry>
         <entry>class Sub</entry>
         <entry>realign</entry>
-        <entry>uniform</entry>
         <entry>oracle su</entry>
         <entry>success_num</entry>
         <entry>start_to_end</entry>
         <entry>origToNew</entry>
         <entry>all_a</entry>
         <entry>all_align</entry>
+        <entry>uniform</entry>
       </history-search>
       <history-cmd>
         <entry>932</entry>
