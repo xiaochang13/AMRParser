@@ -544,6 +544,9 @@
       <file name="$USER_HOME$/data_processing/rebuild_conceptid.py" timestamp="1515444326904">
         <mark key="'" line="824" column="4" />
       </file>
+      <file name="$USER_HOME$/Cache-Seq2seq/NP2P_evaluater.py" timestamp="1525452092407">
+        <mark key="'" line="416" column="19" />
+      </file>
       <file name="$USER_HOME$/github_projects/seq2graph/smatch_2.0.2/smatch.py" timestamp="1478007501087">
         <mark key="'" line="806" column="38" />
         <mark key="[" line="813" column="43" />
@@ -737,9 +740,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="585" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="350" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="717" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="748" column="45" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="602" column="53" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="641" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -837,6 +837,9 @@
       <jump line="20" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
       <jump line="17" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
       <jump line="284" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="44" column="21" filename="$USER_HOME$/Cache-Seq2seq/NP2P_evaluater.py" />
+      <jump line="409" column="27" filename="$USER_HOME$/Cache-Seq2seq/NP2P_evaluater.py" />
+      <jump line="416" column="19" filename="$USER_HOME$/Cache-Seq2seq/NP2P_evaluater.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -846,7 +849,7 @@
         <text>tok_file</text>
       </register>
       <register name="/" type="4">
-        <text>realign</text>
+        <text>in_path</text>
       </register>
       <register name="0" type="4">
         <text>new_amr.set_sentence(collapsed_toks)
@@ -895,9 +898,9 @@
       </register>
     </registers>
     <search>
-      <last-search>realign</last-search>
+      <last-search>in_path</last-search>
       <last-offset />
-      <last-pattern>realign</last-pattern>
+      <last-pattern>in_path</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -905,20 +908,6 @@
     </search>
     <history>
       <history-search>
-        <entry>all_date_attrs</entry>
-        <entry>entity_toks</entry>
-        <entry>alignJA</entry>
-        <entry>start_to</entry>
-        <entry>quantities</entry>
-        <entry>hundred</entry>
-        <entry>million</entry>
-        <entry>value</entry>
-        <entry>def Subgraph</entry>
-        <entry>class S</entry>
-        <entry>add_root</entry>
-        <entry>class AMRG</entry>
-        <entry>aligned_set</entry>
-        <entry>node_alignment</entry>
         <entry>node_alignm</entry>
         <entry>node_to_spans</entry>
         <entry>phrases</entry>
@@ -939,9 +928,9 @@
         <entry>collapseTo</entry>
         <entry>word_indices</entry>
         <entry>realign</entry>
+        <entry>in_path</entry>
       </history-search>
       <history-cmd>
-        <entry>932</entry>
         <entry>480</entry>
         <entry>520</entry>
         <entry>q</entry>
