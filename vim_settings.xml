@@ -146,12 +146,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525490549520">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525492540415">
         <mark key="'" line="422" column="17" />
-        <mark key="[" line="423" column="63" />
-        <mark key="]" line="424" column="48" />
-        <mark key="^" line="424" column="48" />
-        <mark key="." line="424" column="48" />
+        <mark key="[" line="425" column="8" />
+        <mark key="]" line="425" column="9" />
+        <mark key="^" line="425" column="9" />
+        <mark key="." line="425" column="9" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -741,12 +741,12 @@
         <mark key="^" line="54" column="12" />
         <mark key="." line="54" column="12" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" timestamp="1525491985973">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" timestamp="1525492953769">
         <mark key="'" line="6" column="3" />
-        <mark key="[" line="36" column="13" />
-        <mark key="]" line="33" column="69" />
-        <mark key="." line="33" column="69" />
-        <mark key="^" line="33" column="69" />
+        <mark key="[" line="51" column="13" />
+        <mark key="]" line="51" column="13" />
+        <mark key="." line="51" column="13" />
+        <mark key="^" line="51" column="60" />
       </file>
     </filemarks>
     <jumps>
@@ -853,10 +853,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>(&quot;\xc2\xa3&quot;, &quot;GBP&quot;)</text>
+        <text>u</text>
       </register>
       <register name="-" type="4">
-        <text>.replace(&quot;\xc2&quot;, &quot;GBP&quot;)</text>
+        <text>u</text>
       </register>
       <register name="/" type="4">
         <text>special_token</text>
@@ -871,29 +871,28 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHMyX3N1YiA9IHJlLnN1YihyZV9zeW1ib2xzLCAiIiwgczJfc3ViKQo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIHMxID0gczEucmVwbGFjZSgiXHhjMlx4YTMiLCAiIyIpLnJlcGxhY2UoIlx4YzIiLCAiR0JQIikK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIGlmIG5vdCBlcXVhbHMob3JpZ19zZXEsICkK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICNkZWYgcmVhbGlnbl9zZW50ZW5jZShvcmlnX3NlcSwgdGFyZ19zZXEpOgo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICMgc29ydGVkX2FsaWduID0gc29ydGVkKG9yaWdfYWxpZ24uaXRlbXMoKSwga2V5PWxhbWJkYSB4OiB4WzBdKQo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="9" type="4">
-        <text>assert removeSymbols(process_dep_tokens(orig_seq)) == removeSymbols(targ_seq), &quot;\n%s\n%s\n&quot; % (orig_seq, targ_seq)
-    # assert removeSymbols(&quot;&quot;.join(orig_seq)) == removeSymbols(&quot;&quot;.join(targ_seq))</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHMyX3N1YiA9IHJlLnN1YihyZV9zeW1ib2xzLCAiIiwgczJfc3ViKQo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIHMxID0gczEucmVwbGFjZSgiXHhjMlx4YTMiLCAiIyIpLnJlcGxhY2UoIlx4YzIiLCAiR0JQIikK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIGlmIG5vdCBlcXVhbHMob3JpZ19zZXEsICkK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICNkZWYgcmVhbGlnbl9zZW50ZW5jZShvcmlnX3NlcSwgdGFyZ19zZXEpOgo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICMgc29ydGVkX2FsaWduID0gc29ydGVkKG9yaWdfYWxpZ24uaXRlbXMoKSwga2V5PWxhbWJkYSB4OiB4WzBdKQo=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
