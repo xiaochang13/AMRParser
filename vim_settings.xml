@@ -741,18 +741,15 @@
         <mark key="^" line="54" column="12" />
         <mark key="." line="54" column="12" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" timestamp="1525492953769">
-        <mark key="'" line="6" column="3" />
-        <mark key="[" line="51" column="13" />
-        <mark key="]" line="51" column="13" />
-        <mark key="." line="51" column="13" />
-        <mark key="^" line="51" column="60" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" timestamp="1525494250683">
+        <mark key="'" line="53" column="60" />
+        <mark key="[" line="39" column="0" />
+        <mark key="]" line="39" column="0" />
+        <mark key="." line="39" column="0" />
+        <mark key="^" line="55" column="103" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="465" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="518" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="141" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="479" column="38" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="150" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="445" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -850,58 +847,61 @@
       <jump line="24" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
       <jump line="422" column="17" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="6" column="3" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
+      <jump line="55" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
+      <jump line="56" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
+      <jump line="57" column="60" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>u</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIG5ld19vcmlnX3NlcSA9IFt0b2sucmVwbGFjZSgiXHhjMlx4YTMiLCAiR0JQIikgZm9yIHRvayBpbiBvcmlnX3NlcV0K</text>
       </register>
       <register name="-" type="4">
-        <text>u</text>
+        <text>, all_alignment</text>
       </register>
       <register name="/" type="4">
-        <text>special_token</text>
+        <text>curr_len</text>
       </register>
       <register name="0" type="4">
         <text>(&quot;\xc2\xa3&quot;, &quot;GBP&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIG5ld19vcmlnX3NlcSA9IFt0b2sucmVwbGFjZSgiXHhjMlx4YTMiLCAiR0JQIikgZm9yIHRvayBpbiBvcmlnX3NlcV0K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHN0YXJ0X3RvX2VuZCA9IHN0YXJ0VG9FbmQoYWxsX2FsaWdubWVudCkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHMyX3N1YiA9IHJlLnN1YihyZV9zeW1ib2xzLCAiIiwgczJfc3ViKQo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIHMxID0gczEucmVwbGFjZSgiXHhjMlx4YTMiLCAiIyIpLnJlcGxhY2UoIlx4YzIiLCAiR0JQIikK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIGlmIG5vdCBlcXVhbHMob3JpZ19zZXEsICkK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICNkZWYgcmVhbGlnbl9zZW50ZW5jZShvcmlnX3NlcSwgdGFyZ19zZXEpOgo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIG5ld19hbGlnbm1lbnQgPSB7fQo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBuZXdfYWxpZ25tZW50Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBuZXdfYWxpZ25tZW50WyhvcmlnX2lkeCwgb3JpZ19lbmRfaWR4KV0gPSBhbGxfYWxpZ25tZW50Wyh0YXJnX2lkeCwgdGFyZ19lbmRfaWR4KV0K</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICMgc29ydGVkX2FsaWduID0gc29ydGVkKG9yaWdfYWxpZ24uaXRlbXMoKSwga2V5PWxhbWJkYSB4OiB4WzBdKQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIHMyX3N1YiA9IHJlLnN1YihyZV9zeW1ib2xzLCAiIiwgczJfc3ViKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>special_token</last-search>
+      <last-search>curr_len</last-search>
       <last-offset />
-      <last-pattern>special_token</last-pattern>
+      <last-pattern>curr_len</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -938,6 +938,7 @@
         <entry>realign</entry>
         <entry encoding="base64">XDxhc3NlcnRcPg==</entry>
         <entry>special_token</entry>
+        <entry>curr_len</entry>
       </history-search>
       <history-cmd>
         <entry>480</entry>
