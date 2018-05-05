@@ -146,12 +146,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525492540415">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525497096269">
         <mark key="'" line="422" column="17" />
-        <mark key="[" line="425" column="8" />
-        <mark key="]" line="425" column="9" />
-        <mark key="^" line="425" column="9" />
-        <mark key="." line="425" column="9" />
+        <mark key="[" line="426" column="8" />
+        <mark key="]" line="426" column="9" />
+        <mark key="." line="426" column="9" />
+        <mark key="^" line="426" column="9" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -591,11 +591,11 @@
         <mark key="." line="378" column="24" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525406144974">
-        <mark key="'" line="665" column="51" />
-        <mark key="[" line="698" column="45" />
-        <mark key="]" line="698" column="63" />
-        <mark key="." line="698" column="63" />
-        <mark key="^" line="698" column="63" />
+        <mark key="'" line="663" column="51" />
+        <mark key="[" line="696" column="45" />
+        <mark key="]" line="696" column="63" />
+        <mark key="." line="696" column="63" />
+        <mark key="^" line="696" column="63" />
       </file>
       <file name="$USER_HOME$/data_processing/oracle/oracle.py" timestamp="1517020969551">
         <mark key="'" line="39" column="19" />
@@ -741,12 +741,11 @@
         <mark key="^" line="54" column="12" />
         <mark key="." line="54" column="12" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" timestamp="1525494250683">
-        <mark key="'" line="53" column="60" />
-        <mark key="[" line="39" column="0" />
-        <mark key="]" line="39" column="0" />
-        <mark key="." line="39" column="0" />
-        <mark key="^" line="55" column="103" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" timestamp="1525497192537">
+        <mark key="[" line="74" column="12" />
+        <mark key="]" line="74" column="7" />
+        <mark key="." line="74" column="7" />
+        <mark key="^" line="74" column="7" />
       </file>
     </filemarks>
     <jumps>
@@ -852,11 +851,11 @@
       <jump line="57" column="60" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIG5ld19vcmlnX3NlcSA9IFt0b2sucmVwbGFjZSgiXHhjMlx4YTMiLCAiR0JQIikgZm9yIHRvayBpbiBvcmlnX3NlcV0K</text>
+      <register name="&quot;" type="4">
+        <text>False</text>
       </register>
       <register name="-" type="4">
-        <text>, all_alignment</text>
+        <text>False</text>
       </register>
       <register name="/" type="4">
         <text>curr_len</text>
@@ -865,34 +864,36 @@
         <text>(&quot;\xc2\xa3&quot;, &quot;GBP&quot;)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIG5ld19vcmlnX3NlcSA9IFt0b2sucmVwbGFjZSgiXHhjMlx4YTMiLCAiR0JQIikgZm9yIHRvayBpbiBvcmlnX3NlcV0K</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIHN0YXJ0X3RvX2VuZCA9IHN0YXJ0VG9FbmQoYWxsX2FsaWdubWVudCkK</text>
+      <register name="2" type="4">
+        <text># print orig_tok_seq
+        # print tok_seq</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIG5ld19hbGlnbm1lbnQgPSB7fQo=</text>
+      <register name="4" type="4">
+        <text># if sent_idx != 7272:
+        #     continue</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBuZXdfYWxpZ25tZW50Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBhbGxTeW1ib2xzKCIiLmpvKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBuZXdfYWxpZ25tZW50WyhvcmlnX2lkeCwgb3JpZ19lbmRfaWR4KV0gPSBhbGxfYWxpZ25tZW50Wyh0YXJnX2lkeCwgdGFyZ19lbmRfaWR4KV0K</text>
+        <text encoding="base64">ICAgIG9yaWdfb2Zmc2V0ID0gMAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHMyX3N1YiA9IHJlLnN1YihyZV9zeW1ib2xzLCAiIiwgczJfc3ViKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
