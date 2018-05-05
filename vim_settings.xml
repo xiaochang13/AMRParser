@@ -146,12 +146,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525497096269">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525500301308">
         <mark key="'" line="422" column="17" />
-        <mark key="[" line="426" column="8" />
-        <mark key="]" line="426" column="9" />
-        <mark key="." line="426" column="9" />
-        <mark key="^" line="426" column="9" />
+        <mark key="[" line="499" column="0" />
+        <mark key="]" line="499" column="0" />
+        <mark key="^" line="489" column="13" />
+        <mark key="." line="499" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -741,11 +741,10 @@
         <mark key="^" line="54" column="12" />
         <mark key="." line="54" column="12" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" timestamp="1525497192537">
-        <mark key="[" line="74" column="12" />
-        <mark key="]" line="74" column="7" />
-        <mark key="." line="74" column="7" />
-        <mark key="^" line="74" column="7" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" timestamp="1525500044383">
+        <mark key="[" line="76" column="0" />
+        <mark key="]" line="76" column="0" />
+        <mark key="." line="76" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -851,11 +850,11 @@
       <jump line="57" column="60" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>False</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
-        <text>False</text>
+        <text encoding="base64">ICAgIA==</text>
       </register>
       <register name="/" type="4">
         <text>curr_len</text>
@@ -870,27 +869,29 @@
         <text />
       </register>
       <register name="2" type="4">
-        <text># print orig_tok_seq
-        # print tok_seq</text>
+        <text encoding="base64">IyBwcmludCA+PiB0b2tfd2YsICgiICIuam9pbihjb2xsYXBzZWRfdG9rcykpCiAgICAgICAgIyBwcmludCA+PiBsZW1tYV93ZiwgKCIgIi5qb2luKGNvbGxhcHNlZF9sZW0pKQogICAgICAgICMgcHJpbnQgPj4gcG9zX3dmLCAoIiAiLmpvaW4oY29sbGFwc2VkX3BvcykpCiAgICAgICAgIyBwcmludCBzdHIobmV3X2Ftcik=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="4" type="4">
-        <text># if sent_idx != 7272:
-        #     continue</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBhbGxTeW1ib2xzKCIiLmpvKQo=</text>
+      <register name="5" type="4">
+        <text># new_amr.set_sentence(collapsed_toks)
+        # new_amr.set_lemmas(collapsed_lem)
+        # new_amr.set_poss(collapsed_pos)</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIG9yaWdfb2Zmc2V0ID0gMAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text># print &quot;Span to type:&quot;, str(span_to_type)
+        # collapsed_toks, collapsed_lem, collapsed_pos, new_alignment, new_start_to_end = collapseTokens(
+        #     tok_seq, lemma_seq, pos_seq, span_to_type, True)</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
