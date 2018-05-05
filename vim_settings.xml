@@ -146,12 +146,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525454572068">
-        <mark key="'" line="1165" column="31" />
-        <mark key="[" line="423" column="106" />
-        <mark key="]" line="425" column="15" />
-        <mark key="." line="425" column="15" />
-        <mark key="^" line="425" column="15" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525481742903">
+        <mark key="'" line="1225" column="8" />
+        <mark key="[" line="423" column="0" />
+        <mark key="]" line="423" column="0" />
+        <mark key="^" line="422" column="46" />
+        <mark key="." line="423" column="0" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -749,9 +749,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="303" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" />
-      <jump line="52" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
-      <jump line="286" column="41" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="265" column="24" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="67" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="1202" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -833,7 +830,6 @@
       <jump line="24" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="20" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
       <jump line="17" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
-      <jump line="284" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="44" column="21" filename="$USER_HOME$/Cache-Seq2seq/NP2P_evaluater.py" />
       <jump line="409" column="27" filename="$USER_HOME$/Cache-Seq2seq/NP2P_evaluater.py" />
       <jump line="416" column="19" filename="$USER_HOME$/Cache-Seq2seq/NP2P_evaluater.py" />
@@ -849,16 +845,20 @@
       <jump line="1169" column="43" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1170" column="99" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1165" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="284" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1213" column="73" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1224" column="21" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1225" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>tok_file</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>tok_file</text>
       </register>
       <register name="/" type="4">
-        <text>feat_dim</text>
+        <text>realign</text>
       </register>
       <register name="0" type="4">
         <text>new_amr.set_sentence(collapsed_toks)
@@ -866,50 +866,44 @@
         new_amr.set_poss(collapsed_pos)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgd29yZF9yZXByID0gJyMnLmpvaW4oW3N0cih0b2tfaWQpIGZvciB0b2tfaWQgaW4gd29yZF9pbmRpY2VzXSkgaWYgd29yZF9pbmRpY2VzIGVsc2UgJ05PTkUnCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGN1cnJfc3BhbiA9IChzdGFydCkK</text>
+      <register name="2" type="4">
+        <text encoding="base64">CiAgICAgICAgIyBjb250aW51ZQ==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgKHN0YXJ0LCBlbmQpCg==</text>
+      <register name="4" type="4">
+        <text># if sent_idx != 74:
+        #     continue</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgd29yZF9yZXByID0gJyMnLmpvaW4oW3N0cih0b2tfaWQpIGZvciB0b2tfaWQgaW4gd29yZF9pbmRpY2VzXSkgaWYgd29yZF9pbmRpY2VzIGVsc2UgJ05PTkUnCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGN1cnJfc3BhbiA9IChzdGFydCkK</text>
       </register>
-      <register name="7" type="4">
-        <text># if args.format == &quot;jamr&quot;:
-    #     for (sent_idx, tok_seq) in enumerate(toks):
-    #         print &quot;Sentence %d&quot; % sent_idx
-    #         amr, alignment_seq = amr_graphs[sent_idx], alignments[sent_idx]
-    #         alignment_utils.align_jamr_sentence(tok_seq, alignment_seq, amr, phrase_map)
-    #         print &quot;&quot;
-    #    # sys.exit(1)
-    # else: # Semeval format</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBub2RlX2lkeCBpbiBhbGkK</text>
+        <text encoding="base64">ICAgICAgICBmb3IgKHN0YXJ0LCBlbmQpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>142</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>feat_dim</last-search>
+      <last-search>realign</last-search>
       <last-offset />
-      <last-pattern>feat_dim</last-pattern>
+      <last-pattern>realign</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -936,7 +930,6 @@
         <entry>collapsed</entry>
         <entry>collapseTo</entry>
         <entry>word_indices</entry>
-        <entry>realign</entry>
         <entry>in_path</entry>
         <entry>options</entry>
         <entry>feat_num</entry>
@@ -944,6 +937,7 @@
         <entry>prepare</entry>
         <entry>feat_seq</entry>
         <entry>feat_dim</entry>
+        <entry>realign</entry>
       </history-search>
       <history-cmd>
         <entry>480</entry>
@@ -965,9 +959,9 @@
         <entry>742</entry>
         <entry>744</entry>
         <entry>212</entry>
-        <entry>w</entry>
         <entry>209</entry>
         <entry>142</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
