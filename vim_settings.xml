@@ -78,8 +78,8 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/tmp_amr_graph" timestamp="1525193684660">
         <mark key="'" line="466" column="8" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" timestamp="1525629379160">
-        <mark key="'" line="387" column="11" />
+      <file name="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" timestamp="1525631083297">
+        <mark key="'" line="42" column="24" />
         <mark key="[" line="121" column="16" />
         <mark key="]" line="121" column="16" />
         <mark key="^" line="121" column="16" />
@@ -557,12 +557,12 @@
       <file name="$USER_HOME$/Cache-Seq2seq/NP2P_evaluater.py" timestamp="1525452092407">
         <mark key="'" line="416" column="19" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" timestamp="1525628505371">
-        <mark key="'" line="459" column="27" />
-        <mark key="[" line="452" column="92" />
-        <mark key="]" line="452" column="92" />
-        <mark key="." line="452" column="92" />
-        <mark key="^" line="452" column="51" />
+      <file name="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" timestamp="1525630857165">
+        <mark key="'" line="468" column="14" />
+        <mark key="[" line="468" column="22" />
+        <mark key="]" line="468" column="31" />
+        <mark key="." line="468" column="31" />
+        <mark key="^" line="468" column="31" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/smatch_2.0.2/smatch.py" timestamp="1478007501087">
         <mark key="'" line="806" column="38" />
@@ -765,13 +765,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="821" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="810" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1752" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="198" column="10" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1729" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="693" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="157" column="32" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
       <jump line="698" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1048" column="13" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1032" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -806,7 +799,6 @@
       <jump line="50" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/AMRGraph.py" />
       <jump line="407" column="22" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
       <jump line="190" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/AMRGraph.py" />
-      <jump line="49" column="30" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="134" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
       <jump line="52" column="37" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="30" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
@@ -857,14 +849,22 @@
       <jump line="55" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/AMRGraph.py" />
       <jump line="403" column="26" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
       <jump line="53" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/AMRGraph.py" />
-      <jump line="42" column="24" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="458" column="27" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
       <jump line="251" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
-      <jump line="459" column="27" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
       <jump line="342" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
       <jump line="56" column="28" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="165" column="32" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="387" column="11" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
+      <jump line="58" column="31" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
+      <jump line="101" column="23" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
+      <jump line="49" column="29" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
+      <jump line="106" column="61" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
+      <jump line="15" column="13" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
+      <jump line="459" column="21" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
+      <jump line="7" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
+      <jump line="468" column="14" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
+      <jump line="22" column="14" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
+      <jump line="42" column="24" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
