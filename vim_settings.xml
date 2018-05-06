@@ -557,12 +557,12 @@
       <file name="$USER_HOME$/Cache-Seq2seq/NP2P_evaluater.py" timestamp="1525452092407">
         <mark key="'" line="416" column="19" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" timestamp="1525620051181">
-        <mark key="'" line="421" column="22" />
-        <mark key="[" line="375" column="33" />
-        <mark key="]" line="376" column="58" />
-        <mark key="^" line="376" column="58" />
-        <mark key="." line="376" column="58" />
+      <file name="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" timestamp="1525620659702">
+        <mark key="'" line="340" column="30" />
+        <mark key="[" line="382" column="43" />
+        <mark key="]" line="382" column="50" />
+        <mark key="^" line="382" column="50" />
+        <mark key="." line="382" column="50" />
       </file>
       <file name="$USER_HOME$/github_projects/seq2graph/smatch_2.0.2/smatch.py" timestamp="1478007501087">
         <mark key="'" line="806" column="38" />
@@ -691,11 +691,11 @@
         <mark key="." line="241" column="65" />
         <mark key="^" line="241" column="80" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/oracle/AMRGraph.py" timestamp="1525617771026">
-        <mark key="[" line="68" column="32" />
-        <mark key="]" line="69" column="26" />
-        <mark key="^" line="69" column="26" />
-        <mark key="." line="69" column="26" />
+      <file name="$USER_HOME$/Cache-Seq2seq/oracle/AMRGraph.py" timestamp="1525620732934">
+        <mark key="[" line="168" column="32" />
+        <mark key="]" line="169" column="39" />
+        <mark key="^" line="169" column="39" />
+        <mark key="." line="169" column="39" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/notes" timestamp="1481283244408">
         <mark key="'" line="11" column="0" />
@@ -765,11 +765,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="20" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
-      <jump line="17" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
-      <jump line="44" column="21" filename="$USER_HOME$/Cache-Seq2seq/NP2P_evaluater.py" />
-      <jump line="409" column="27" filename="$USER_HOME$/Cache-Seq2seq/NP2P_evaluater.py" />
-      <jump line="416" column="19" filename="$USER_HOME$/Cache-Seq2seq/NP2P_evaluater.py" />
       <jump line="141" column="41" filename="$USER_HOME$/Cache-Seq2seq/NP2P_data_stream.py" />
       <jump line="284" column="0" filename="$USER_HOME$/Cache-Seq2seq/NP2P_data_stream.py" />
       <jump line="129" column="12" filename="$USER_HOME$/Cache-Seq2seq/NP2P_data_stream.py" />
@@ -844,7 +839,6 @@
       <jump line="78" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/utils.py" />
       <jump line="416" column="16" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
       <jump line="324" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
-      <jump line="417" column="18" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
       <jump line="338" column="22" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
       <jump line="150" column="0" filename="$USER_HOME$/Cache-Seq2seq/oracle/AMRGraph.py" />
       <jump line="419" column="17" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
@@ -865,13 +859,19 @@
       <jump line="316" column="29" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
       <jump line="244" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
       <jump line="421" column="22" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
+      <jump line="381" column="22" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
+      <jump line="23" column="21" filename="$USER_HOME$/Cache-Seq2seq/oracle/AMRGraph.py" />
+      <jump line="417" column="18" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
+      <jump line="29" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/AMRGraph.py" />
+      <jump line="340" column="30" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
+      <jump line="167" column="12" filename="$USER_HOME$/Cache-Seq2seq/oracle/AMRGraph.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>v</text>
+        <text>an</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>an</text>
       </register>
       <register name="/" type="4">
         <text>widToConceptID</text>
@@ -879,38 +879,36 @@
       <register name="0" type="4">
         <text>.replace(&quot;_@_-_@_&quot;, &quot;-&quot;)</text>
       </register>
-      <register name="1" type="4">
-        <text>category_seq = amr_graph.getCategorySeq()
-                map_info_seq = amr_graph.getMapInfoSeq()</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB3b3JkX2lkcwo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbmNlcHRfc2VxID0gYW1yX2dyYXBoLmdldENvbmNlcHRTZXEoKQo=</text>
+      <register name="2" type="4">
+        <text>category_seq = amr_graph.getCategorySeq()
+                map_info_seq = amr_graph.getMapInfoSeq()</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbmNlcHRfc2VxID0gYW1yX2dyYXBoLmdldENvbmNlcHRTZXEoKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgYXNzZXJ0IGN1cnJfc3Bhbgo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyB3b3JkX2luZGljZXMgPSBbXQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgYXNzZXJ0IGN1cnJfc3Bhbgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBmb3IgKHN0YXJ0LCBlbmQpIGluIG5ld19hbGlnbm1lbnRbbm9kZV9pZHhdOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyB3b3JkX2luZGljZXMgPSBbXQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBmb3IgKHN0YXJ0LCBlbmQpIGluIG5ld19hbGlnbm1lbnRbbm9kZV9pZHhdOgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text># print &quot;alignment:&quot;, new_alignment
-
-        # assert len(tok_seq) == len(pos_seq)</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
