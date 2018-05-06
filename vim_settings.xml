@@ -146,12 +146,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525646246237">
-        <mark key="'" line="1159" column="16" />
-        <mark key="[" line="742" column="42" />
-        <mark key="]" line="743" column="59" />
-        <mark key="." line="743" column="59" />
-        <mark key="^" line="743" column="59" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525647690109">
+        <mark key="'" line="763" column="23" />
+        <mark key="[" line="762" column="0" />
+        <mark key="]" line="762" column="0" />
+        <mark key="." line="762" column="0" />
+        <mark key="^" line="763" column="46" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -765,8 +765,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1398" column="33" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="391" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
       <jump line="1396" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="478" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1345" column="47" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -865,50 +863,51 @@
       <jump line="1133" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1156" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="459" column="21" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
+      <jump line="765" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="28" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>end_idx</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>end_idx</text>
+        <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
         <text>concept_to_word</text>
       </register>
       <register name="0" type="4">
-        <text>map_info = &quot;%s||NONE&quot; % &quot;_&quot;.join(tok_seq[tok_idx:end_idx])</text>
+        <text>tok_to_orig = realign_sentence(orig_tok_seq, tok_seq)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">IyBsb2FkRGF0YXNldChzeXMuYXJndlsxXSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHRva19zZXFzID0gW3NlcSBmb3IgKGlkeCwgc2VxKSBpbiBlbnVtZXJhdGUodG9rX3NlcXMpXQo=</text>
+        <text encoding="base64">ICAgICAgICBzcGFuX3RvX3R5cGUgPSB7fQo=</text>
       </register>
-      <register name="3" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBmb3IgKHN0YXJ0LCBlbmQpIGluIGNvbmNlcHRJRF9tYXA6Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50ICJGaW5pc2hlZCAiCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGRlcF90cmVlcyA9IGxvYWREZXBlbmRlbmN5KGRlcF9maWxlLCB0b2tfc2VxcywgVHJ1ZSkK</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgbGVuKG9yKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIAo=</text>
+        <text encoding="base64">IyBsb2FkRGF0YXNldChzeXMuYXJndlsxXSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB3b3JkX2lkcwo=</text>
+        <text encoding="base64">ICAgIHRva19zZXFzID0gW3NlcSBmb3IgKGlkeCwgc2VxKSBpbiBlbnVtZXJhdGUodG9rX3NlcXMpXQo=</text>
       </register>
-      <register name="8" type="4">
-        <text>category_seq = amr_graph.getCategorySeq()
-                map_info_seq = amr_graph.getMapInfoSeq()</text>
+      <register name="8" type="8">
+        <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbmNlcHRfc2VxID0gYW1yX2dyYXBoLmdldENvbmNlcHRTZXEoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50ICJGaW5pc2hlZCAiCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
