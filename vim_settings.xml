@@ -78,8 +78,8 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/tmp_amr_graph" timestamp="1525193684660">
         <mark key="'" line="466" column="8" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" timestamp="1525628669023">
-        <mark key="'" line="42" column="24" />
+      <file name="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" timestamp="1525629379160">
+        <mark key="'" line="387" column="11" />
         <mark key="[" line="121" column="16" />
         <mark key="]" line="121" column="16" />
         <mark key="^" line="121" column="16" />
@@ -765,9 +765,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="820" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="771" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="772" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="821" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="810" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1752" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -865,6 +862,9 @@
       <jump line="251" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
       <jump line="459" column="27" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
       <jump line="342" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
+      <jump line="56" column="28" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
+      <jump line="165" column="32" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
+      <jump line="387" column="11" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -874,7 +874,7 @@
         <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>cidToSpan</text>
+        <text>uniform</text>
       </register>
       <register name="0" type="4">
         <text>tok_seqs = [seq for (idx, seq) in enumerate(tok_seqs) if idx not in skipped_train_sentences]</text>
@@ -915,9 +915,9 @@
       </register>
     </registers>
     <search>
-      <last-search>cidToSpan</last-search>
+      <last-search>uniform</last-search>
       <last-offset />
-      <last-pattern>cidToSpan</last-pattern>
+      <last-pattern>uniform</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -934,7 +934,6 @@
         <entry>origToNew</entry>
         <entry>all_a</entry>
         <entry>all_align</entry>
-        <entry>uniform</entry>
         <entry>collapsed_map</entry>
         <entry>idx_to_</entry>
         <entry>idx_to_collapsed</entry>
@@ -977,6 +976,7 @@
         <entry>word_align</entry>
         <entry>concept_idx</entry>
         <entry>cidToSpan</entry>
+        <entry>uniform</entry>
       </history-search>
       <history-cmd>
         <entry>480</entry>
