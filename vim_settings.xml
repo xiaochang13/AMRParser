@@ -146,12 +146,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525658334852">
-        <mark key="'" line="669" column="30" />
-        <mark key="[" line="838" column="46" />
-        <mark key="]" line="838" column="62" />
-        <mark key="." line="838" column="62" />
-        <mark key="^" line="838" column="62" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525659321700">
+        <mark key="'" line="1491" column="24" />
+        <mark key="[" line="707" column="41" />
+        <mark key="]" line="709" column="28" />
+        <mark key="." line="709" column="28" />
+        <mark key="^" line="709" column="28" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -754,7 +754,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="50" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
       <jump line="116" column="66" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="258" column="17" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
       <jump line="357" column="0" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
@@ -854,13 +853,14 @@
       <jump line="1409" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1208" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="669" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1489" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>len(tok_seq)</text>
+        <text encoding="base64">ZnJlcV9wYXRoLCA=</text>
       </register>
       <register name="-" type="4">
-        <text>len(tok_seq)</text>
+        <text encoding="base64">ZnJlcV9wYXRoLCA=</text>
       </register>
       <register name="/" type="4">
         <text>data_dir</text>
