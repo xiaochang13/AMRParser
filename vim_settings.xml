@@ -146,12 +146,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525653567266">
-        <mark key="'" line="1242" column="23" />
-        <mark key="[" line="817" column="48" />
-        <mark key="]" line="817" column="51" />
-        <mark key="^" line="817" column="51" />
-        <mark key="." line="817" column="51" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525656021477">
+        <mark key="'" line="1267" column="23" />
+        <mark key="[" line="862" column="44" />
+        <mark key="]" line="863" column="55" />
+        <mark key="^" line="863" column="55" />
+        <mark key="." line="863" column="55" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -212,8 +212,8 @@
       <file name="$USER_HOME$/Cache-Seq2seq/NP2P_data_stream.py" timestamp="1525454151414">
         <mark key="'" line="129" column="12" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" timestamp="1525653652766">
-        <mark key="'" line="311" column="18" />
+      <file name="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" timestamp="1525654147665">
+        <mark key="'" line="143" column="30" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/date_extraction.py" timestamp="1525649801043">
         <mark key="'" line="12" column="110" />
@@ -754,10 +754,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="379" column="30" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
-      <jump line="50" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/AMRGraph.py" />
-      <jump line="407" column="22" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
-      <jump line="190" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/AMRGraph.py" />
       <jump line="134" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
       <jump line="52" column="37" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="30" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
@@ -791,7 +787,6 @@
       <jump line="444" column="29" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
       <jump line="314" column="23" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
       <jump line="171" column="45" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
-      <jump line="219" column="25" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
       <jump line="295" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
       <jump line="145" column="24" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="195" column="24" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
@@ -854,50 +849,64 @@
       <jump line="529" column="21" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="311" column="18" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="200" column="8" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="376" column="31" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="173" column="21" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="219" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
+      <jump line="143" column="30" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="63" column="0" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>entity</text>
+        <text encoding="base64">IyA=</text>
       </register>
       <register name="-" type="4">
-        <text>entity</text>
+        <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
         <text>'a'</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">aWYgbGVuKGN1cnJfc2V0ICYgdmlzaXRlZCkgIT0gMDoKICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgIkVycm9yIGFsaWdubWVudDogZW50aXR5Iiwgc3ViZ3JhcGhfcmVwcg==</text>
+        <text>if identifyNumber(tok_seq[tok_idx:end_idx], mle_map):
+                        concept_seq.append(&quot;NUMBER&quot;)
+                        category_seq.append(&quot;NUMBER&quot;)
+                        map_info = &quot;%s||NONE&quot; % &quot;_&quot;.join(tok_seq[tok_idx:end_idx])
+                        map_info_seq.append(map_info)
+                        concept_to_word.append(collapsed_idx)
+                        span_to_type[(tok_idx, end_idx)] = (-1, &quot;NONE&quot;, &quot;NUMBER&quot;)
+                        visited |= set(range(tok_idx, end_idx))
+                        break</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB3b3JkX3BvaW50ZXIgPSB0b2tfdG9fb3JpZ1tlbmQtMV0K</text>
+      <register name="2" type="4">
+        <text>if start in visited: # Try to match numbers.
+                        continue</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25jZXB0X3RvX3dvcmQuYXBwZW5kKG9yaWdfZW5kLTEpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgc3Bhbl90b190eXBlWyh0b2tfaWR4LCBlbmRfaWR4KV0gPSAoLTEsICJOT05FIiwgIk5VTUJFUiIpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb250aW51ZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY29uY2VwdF90b193b3JkLmFwcGVuZChjb2xsYXBzZWRfaWR4KQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb250aW51ZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxpZiBpZGVudGlmeU51bWJlcih0b2tfc2VxW3N0YXJ0XSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="7" type="4">
-        <text>elif:
-                concept_to_word.append()</text>
+        <text># concept_to_word.append(tok_to_orig[end-1])
+                            # curr_set = set(xrange(orig_start, tok_to_orig[end-1]))</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAjIGZvciAoc3BhbiwgbWFwcGVkX2l0ZW0pIGluIHNvcnRlZF9jb25jZXB0X2lkczoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgZW5kID0gbmV3X2VuZF9pZHgK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3RhcnQsIGVuZCA9IHNwYW4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIGNvbmNlcHRfdG9fd29yZC5hcHBlbmQob3JpZ19lbmQtMSkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
