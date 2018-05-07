@@ -146,12 +146,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525656021477">
-        <mark key="'" line="1267" column="23" />
-        <mark key="[" line="862" column="44" />
-        <mark key="]" line="863" column="55" />
-        <mark key="^" line="863" column="55" />
-        <mark key="." line="863" column="55" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525658334852">
+        <mark key="'" line="669" column="30" />
+        <mark key="[" line="838" column="46" />
+        <mark key="]" line="838" column="62" />
+        <mark key="." line="838" column="62" />
+        <mark key="^" line="838" column="62" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -754,10 +754,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="134" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
-      <jump line="52" column="37" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
-      <jump line="30" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
-      <jump line="87" column="20" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="50" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
       <jump line="116" column="66" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="258" column="17" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
@@ -854,68 +850,63 @@
       <jump line="219" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
       <jump line="143" column="30" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="63" column="0" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="1406" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1409" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1208" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="669" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IyA=</text>
+        <text>len(tok_seq)</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IyA=</text>
+        <text>len(tok_seq)</text>
       </register>
       <register name="/" type="4">
-        <text>'a'</text>
+        <text>data_dir</text>
       </register>
       <register name="0" type="4">
-        <text>if identifyNumber(tok_seq[tok_idx:end_idx], mle_map):
-                        concept_seq.append(&quot;NUMBER&quot;)
-                        category_seq.append(&quot;NUMBER&quot;)
-                        map_info = &quot;%s||NONE&quot; % &quot;_&quot;.join(tok_seq[tok_idx:end_idx])
-                        map_info_seq.append(map_info)
-                        concept_to_word.append(collapsed_idx)
-                        span_to_type[(tok_idx, end_idx)] = (-1, &quot;NONE&quot;, &quot;NUMBER&quot;)
-                        visited |= set(range(tok_idx, end_idx))
-                        break</text>
+        <text encoding="base64">cHJpbnQgPj4gY29ubGxfd2YsICIlZFx0JXNcdCVzXHQlc1x0JXMiICUgKAogICAgICAgICAgICAgICAgICAgIGNvbmNlcHRfaWR4LCBjb25jZXB0LCBjYXRlZ29yeV9zZXFbY29uY2VwdF9pZHhdLCBtYXBfaW5mb19zZXFbY29uY2VwdF9pZHhdLAogICAgICAgICAgICAgICAgICAgIGNvbGxhcHNlZF90b2tzW2FsaWduX3dpZHhdKQ==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text>if start in visited: # Try to match numbers.
-                        continue</text>
+      <register name="2" type="8">
+        <text encoding="base64">ICAgIAogICAg</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgc3Bhbl90b190eXBlWyh0b2tfaWR4LCBlbmRfaWR4KV0gPSAoLTEsICJOT05FIiwgIk5VTUJFUiIpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY29uY2VwdF90b193b3JkLmFwcGVuZChjb2xsYXBzZWRfaWR4KQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzcGFuX3RvX3R5cGVbKHRva19pZHgsIHRva19pZHgrMSldID0gKC0xLCBzdWJncmFwaF9yZXByLCBjYXRlZ29yeSkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZWxpZiBpZGVudGlmeU51bWJlcih0b2tfc2VxW3N0YXJ0XSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHByaW50ICJSZXRyaWV2ZWQ6ICVzIC0+ICVzIiAlIChjdXJyX3Rvaywgc3ViZ3JhcGhfcmVwcikK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text># concept_to_word.append(tok_to_orig[end-1])
-                            # curr_set = set(xrange(orig_start, tok_to_orig[end-1]))</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgIyBOZXh0IHRyeSB0byBhbGlnbiB0byBwaHJhc2VzIG9yIG51bWJlcnMuCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgZW5kID0gbmV3X2VuZF9pZHgK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIGNvbmNlcHRfdG9fd29yZC5hcHBlbmQob3JpZ19lbmQtMSkK</text>
+      <register name="9" type="4">
+        <text># category_seq.append(category)
+                        # map_info = &quot;%s||%s&quot; % (tok_repr, subgraph_repr)</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>'a'</last-search>
+      <last-search>data_dir</last-search>
       <last-offset />
-      <last-pattern>'a'</last-pattern>
+      <last-pattern>data_dir</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -967,7 +958,6 @@
         <entry>op[</entry>
         <entry>widToConceptID</entry>
         <entry>feat_seq</entry>
-        <entry>feat_dim</entry>
         <entry>tok_idx</entry>
         <entry>align_map</entry>
         <entry>word_idx</entry>
@@ -980,6 +970,8 @@
         <entry>concept_to_word</entry>
         <entry>identifyNumber</entry>
         <entry>'a'</entry>
+        <entry>feat_dim</entry>
+        <entry>data_dir</entry>
       </history-search>
       <history-cmd>
         <entry>480</entry>
