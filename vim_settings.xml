@@ -47,8 +47,8 @@
       <file name="$USER_HOME$/SHRG-induction/amr_fragment.py" timestamp="1523844969564">
         <mark key="'" line="329" column="12" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/hard_generator_utils.py" timestamp="1525663593389">
-        <mark key="'" line="191" column="73" />
+      <file name="$USER_HOME$/Cache-Seq2seq/hard_generator_utils.py" timestamp="1525664829617">
+        <mark key="'" line="291" column="0" />
       </file>
       <file name="/Library/Python/2.7/site-packages/keras/engine/topology.py" timestamp="1507572628652">
         <mark key="'" line="17" column="49" />
@@ -215,8 +215,8 @@
       <file name="$USER_HOME$/Cache-Seq2seq/NP2P_data_stream.py" timestamp="1525454151414">
         <mark key="'" line="129" column="12" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" timestamp="1525654147665">
-        <mark key="'" line="143" column="30" />
+      <file name="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" timestamp="1525665238978">
+        <mark key="'" line="271" column="33" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/date_extraction.py" timestamp="1525649801043">
         <mark key="'" line="12" column="110" />
@@ -757,12 +757,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="468" column="14" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
-      <jump line="22" column="14" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
-      <jump line="42" column="24" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
-      <jump line="35" column="0" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
-      <jump line="37" column="11" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
-      <jump line="38" column="59" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="86" column="21" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="205" column="16" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="387" column="11" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
@@ -788,7 +782,6 @@
       <jump line="1216" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="12" column="110" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/date_extraction.py" />
       <jump line="97" column="4" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
-      <jump line="529" column="21" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="311" column="18" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="200" column="8" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="376" column="31" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
@@ -857,6 +850,13 @@
       <jump line="822" column="56" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="681" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="191" column="73" filename="$USER_HOME$/Cache-Seq2seq/hard_generator_utils.py" />
+      <jump line="33" column="0" filename="$USER_HOME$/Cache-Seq2seq/hard_generator_utils.py" />
+      <jump line="11" column="0" filename="$USER_HOME$/Cache-Seq2seq/hard_generator_utils.py" />
+      <jump line="291" column="0" filename="$USER_HOME$/Cache-Seq2seq/hard_generator_utils.py" />
+      <jump line="186" column="4" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="529" column="19" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="271" column="33" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="57" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -914,7 +914,7 @@
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
-        <text>192</text>
+        <text>1</text>
       </register>
     </registers>
     <search>
@@ -1019,7 +1019,6 @@
         <entry>212</entry>
         <entry>209</entry>
         <entry>142</entry>
-        <entry>1</entry>
         <entry>431</entry>
         <entry>599</entry>
         <entry>499</entry>
@@ -1037,6 +1036,7 @@
         <entry>768</entry>
         <entry>w</entry>
         <entry>192</entry>
+        <entry>1</entry>
       </history-cmd>
       <history-expr />
       <history-input />
