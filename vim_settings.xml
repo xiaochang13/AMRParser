@@ -282,6 +282,12 @@
         <mark key="." line="38" column="73" />
         <mark key="^" line="38" column="73" />
       </file>
+      <file name="$USER_HOME$/SHRG-extraction/amr_fragment.py" timestamp="1524750969704">
+        <mark key="'" line="556" column="28" />
+        <mark key="[" line="556" column="26" />
+        <mark key="]" line="556" column="26" />
+        <mark key="." line="556" column="26" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/cacheTransitionParser.py" timestamp="1524547045252">
         <mark key="'" line="230" column="25" />
         <mark key="[" line="231" column="8" />
@@ -426,6 +432,12 @@
         <mark key="^" line="7" column="0" />
         <mark key="." line="813" column="127" />
       </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" timestamp="1525701724325">
+        <mark key="'" line="77" column="36" />
+        <mark key="[" line="60" column="0" />
+        <mark key="]" line="60" column="0" />
+        <mark key="." line="60" column="0" />
+      </file>
       <file name="$USER_HOME$/data_processing/oracle/cacheTransition.py" timestamp="1516991076349">
         <mark key="'" line="214" column="23" />
         <mark key="[" line="144" column="21" />
@@ -515,12 +527,12 @@
         <mark key="^" line="533" column="5" />
         <mark key="." line="470" column="0" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" timestamp="1525675184557">
+      <file name="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" timestamp="1525701871363">
         <mark key="'" line="5" column="5" />
-        <mark key="[" line="129" column="63" />
-        <mark key="]" line="161" column="77" />
-        <mark key="." line="161" column="77" />
-        <mark key="^" line="161" column="81" />
+        <mark key="[" line="70" column="47" />
+        <mark key="]" line="70" column="45" />
+        <mark key="." line="70" column="45" />
+        <mark key="^" line="70" column="45" />
       </file>
       <file name="$USER_HOME$/data_processing/date_extraction.py" timestamp="1518505542565">
         <mark key="'" line="9" column="0" />
@@ -594,10 +606,16 @@
         <mark key="^" line="24" column="41" />
         <mark key="." line="24" column="41" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525406144974">
-        <mark key="'" line="663" column="51" />
-        <mark key="[" line="696" column="45" />
-        <mark key="]" line="696" column="63" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/Aligner/common/AMRGraph.py" timestamp="1525144623852">
+        <mark key="'" line="291" column="28" />
+        <mark key="[" line="378" column="24" />
+        <mark key="]" line="378" column="24" />
+        <mark key="." line="378" column="24" />
+      </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" timestamp="1525701489182">
+        <mark key="'" line="29" column="12" />
+        <mark key="[" line="206" column="0" />
+        <mark key="]" line="237" column="66" />
         <mark key="." line="696" column="63" />
         <mark key="^" line="696" column="63" />
       </file>
@@ -763,9 +781,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1406" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1409" column="31" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1208" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1489" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="709" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1492" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -863,64 +878,125 @@
       <jump line="426" column="16" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="178" column="29" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" />
       <jump line="5" column="5" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" />
+      <jump line="29" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="77" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" />
+      <jump line="360" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>&quot; &quot;</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
         <text>&quot; &quot;</text>
       </register>
       <register name="/" type="4">
-        <text>DATE</text>
+        <text>class Subgraph</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">cmVfc3ltYm9scyA9IHJlLmNvbXBpbGUoIlsnXCIuXCdgXC0hIyYqfFxcL0A9XFtcXV0iKQ==</text>
+        <text># a subgraph of the AMR which connects to the outside through the root only.
+class Subgraph(object):
+    def __init__(self, amr):
+        self.graph = amr
+        self.roots = []
+        self.rel_map = defaultdict(list)
+
+    def add_root(self, val):
+        self.roots.append(val)
+
+    def add_relation(self, par, rel, chl):
+        self.rel_map[par].append((rel, chl))
+
+    def __str__(self):
+        def repr(var, visited):
+            node_repr = self.graph.get_node_repr(var)
+            if var in visited or var not in self.rel_map:
+                return node_repr
+            visited.add(var)
+
+            for (rel, chl_val) in self.rel_map[var]:
+                assert chl_val not in visited
+                node_repr += &quot; :%s&quot; % rel
+                chl_repr = repr(chl_val, visited)
+                if &quot;:&quot; in chl_repr:
+                    node_repr += &quot; (%s)&quot; % chl_repr
+                else:
+                    node_repr += &quot; %s&quot; % chl_repr
+            return node_repr
+
+        visited = set()
+        return &quot;#&quot;.join([repr(var, visited) for var in self.roots])</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="4">
+        <text># a subgraph of the AMR which connects to the outside through the root only.
+class Subgraph(object):
+    def __init__(self, amr):
+        self.graph = amr
+        self.roots = []
+        self.rel_map = defaultdict(list)
+
+    def add_root(self, val):
+        self.roots.append(val)
+
+    def add_relation(self, par, rel, chl):
+        self.rel_map[par].append((rel, chl))
+
+    def __str__(self):
+        def repr(var, visited):
+            node_repr = self.graph.get_node_repr(var)
+            if var in visited or var not in self.rel_map:
+                return node_repr
+            visited.add(var)
+
+            for (rel, chl_val) in self.rel_map[var]:
+                assert chl_val not in visited
+                node_repr += &quot; :%s&quot; % rel
+                chl_repr = repr(chl_val, visited)
+                if &quot;:&quot; in chl_repr:
+                    node_repr += &quot; (%s)&quot; % chl_repr
+                else:
+                    node_repr += &quot; %s&quot; % chl_repr
+            return node_repr
+
+        visited = set()
+        return &quot;#&quot;.join([repr(var, visited) for var in self.roots])</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="5" type="4">
         <text># for (idx, tail_idx) in enumerate(self.tail_ids):
         #     if self.rels[idx] == &quot;op&quot;:
         #         op_tail_idxs.append(tail_idx)</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBpZiBub3QgIm9wIgo=</text>
       </register>
-      <register name="4" type="8">
+      <register name="7" type="8">
         <text encoding="base64">IyAKIyA=</text>
-      </register>
-      <register name="5" type="8">
-        <text encoding="base64">IyAKIyA=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="7" type="4">
-        <text>def identifyNumber(seq):
-        for tok in seq:
-            if not (isNumber(tok) or tok in quantities):
-                return False
-        return True</text>
       </register>
       <register name="8" type="8">
-        <text encoding="base64">IyAKIyAKIyA=</text>
+        <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBsZW1tYV9zZXEsIHBvc19zZXEgPSBsZW1zW3NlbnRfaWR4XSwgcG9zc1tzZW50X2lkeF0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>DATE</last-search>
+      <last-search>class Subgraph</last-search>
       <last-offset />
-      <last-pattern>DATE</last-pattern>
+      <last-pattern>class Subgraph</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -1004,6 +1080,7 @@
         <entry>75</entry>
         <entry>weird</entry>
         <entry>DATE</entry>
+        <entry>class Subgraph</entry>
       </history-search>
       <history-cmd>
         <entry>480</entry>
