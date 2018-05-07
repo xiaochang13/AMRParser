@@ -215,8 +215,8 @@
       <file name="$USER_HOME$/Cache-Seq2seq/NP2P_data_stream.py" timestamp="1525454151414">
         <mark key="'" line="129" column="12" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" timestamp="1525666238156">
-        <mark key="'" line="130" column="22" />
+      <file name="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" timestamp="1525667500745">
+        <mark key="'" line="424" column="45" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/date_extraction.py" timestamp="1525649801043">
         <mark key="'" line="12" column="110" />
@@ -695,8 +695,8 @@
         <mark key="^" line="312" column="11" />
         <mark key="." line="312" column="11" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" timestamp="1525666553407">
-        <mark key="'" line="147" column="68" />
+      <file name="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" timestamp="1525667307181">
+        <mark key="'" line="202" column="23" />
         <mark key="[" line="148" column="69" />
         <mark key="]" line="148" column="68" />
         <mark key="^" line="148" column="68" />
@@ -746,17 +746,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="905" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1079" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1095" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1116" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1133" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1156" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="459" column="21" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
-      <jump line="765" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="28" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
-      <jump line="449" column="71" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="823" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="782" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="1204" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="759" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
@@ -766,7 +755,6 @@
       <jump line="97" column="4" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="311" column="18" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="200" column="8" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
-      <jump line="173" column="21" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="219" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
       <jump line="143" column="30" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="63" column="0" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
@@ -840,12 +828,24 @@
       <jump line="57" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
       <jump line="376" column="30" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="393" column="57" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
-      <jump line="130" column="22" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="146" column="32" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
       <jump line="44" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
       <jump line="319" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
       <jump line="147" column="68" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
       <jump line="317" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="145" column="8" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="313" column="30" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="266" column="39" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="136" column="25" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="217" column="19" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="219" column="95" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="120" column="8" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="130" column="83" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="204" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
+      <jump line="202" column="23" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
+      <jump line="173" column="20" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="536" column="34" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="424" column="45" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -855,7 +855,7 @@
         <text>repr</text>
       </register>
       <register name="/" type="4">
-        <text>def ex</text>
+        <text>self.cache</text>
       </register>
       <register name="0" type="4">
         <text>def identifyNumber(seq, mle_map):
@@ -907,9 +907,9 @@
       </register>
     </registers>
     <search>
-      <last-search>def ex</last-search>
+      <last-search>self.cache</last-search>
       <last-offset />
-      <last-pattern>def ex</last-pattern>
+      <last-pattern>self.cache</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -988,6 +988,9 @@
         <entry>topk_size</entry>
         <entry>extend</entry>
         <entry>def ex</entry>
+        <entry>cache_idx</entry>
+        <entry>self.cache_dix</entry>
+        <entry>self.cache</entry>
       </history-search>
       <history-cmd>
         <entry>480</entry>
