@@ -527,12 +527,12 @@
         <mark key="^" line="533" column="5" />
         <mark key="." line="470" column="0" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" timestamp="1525703000418">
+      <file name="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" timestamp="1525704658562">
         <mark key="'" line="50" column="19" />
-        <mark key="[" line="70" column="38" />
-        <mark key="]" line="70" column="37" />
-        <mark key="^" line="70" column="37" />
-        <mark key="." line="70" column="37" />
+        <mark key="[" line="164" column="51" />
+        <mark key="]" line="165" column="41" />
+        <mark key="^" line="165" column="41" />
+        <mark key="." line="165" column="41" />
       </file>
       <file name="$USER_HOME$/data_processing/date_extraction.py" timestamp="1518505542565">
         <mark key="'" line="9" column="0" />
@@ -884,110 +884,47 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICsgMQ==</text>
+        <text>child_v</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICsgMQ==</text>
+        <text>child_v</text>
       </register>
       <register name="/" type="4">
         <text>class Subgraph</text>
       </register>
       <register name="0" type="4">
-        <text># a subgraph of the AMR which connects to the outside through the root only.
-class Subgraph(object):
-    def __init__(self, amr):
-        self.graph = amr
-        self.roots = []
-        self.rel_map = defaultdict(list)
-
-    def add_root(self, val):
-        self.roots.append(val)
-
-    def add_relation(self, par, rel, chl):
-        self.rel_map[par].append((rel, chl))
-
-    def __str__(self):
-        def repr(var, visited):
-            node_repr = self.graph.get_node_repr(var)
-            if var in visited or var not in self.rel_map:
-                return node_repr
-            visited.add(var)
-
-            for (rel, chl_val) in self.rel_map[var]:
-                assert chl_val not in visited
-                node_repr += &quot; :%s&quot; % rel
-                chl_repr = repr(chl_val, visited)
-                if &quot;:&quot; in chl_repr:
-                    node_repr += &quot; (%s)&quot; % chl_repr
-                else:
-                    node_repr += &quot; %s&quot; % chl_repr
-            return node_repr
-
-        visited = set()
-        return &quot;#&quot;.join([repr(var, visited) for var in self.roots])</text>
+        <text>child_concept</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3ViZ3JhcGhfcmVwciA9IHN1YmdyYXBoX3JlcHJbMTotMV0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IHN1YmdyYXBoX3JlcHJbLTFdID09ICIpIgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="4">
-        <text># a subgraph of the AMR which connects to the outside through the root only.
-class Subgraph(object):
-    def __init__(self, amr):
-        self.graph = amr
-        self.roots = []
-        self.rel_map = defaultdict(list)
-
-    def add_root(self, val):
-        self.roots.append(val)
-
-    def add_relation(self, par, rel, chl):
-        self.rel_map[par].append((rel, chl))
-
-    def __str__(self):
-        def repr(var, visited):
-            node_repr = self.graph.get_node_repr(var)
-            if var in visited or var not in self.rel_map:
-                return node_repr
-            visited.add(var)
-
-            for (rel, chl_val) in self.rel_map[var]:
-                assert chl_val not in visited
-                node_repr += &quot; :%s&quot; % rel
-                chl_repr = repr(chl_val, visited)
-                if &quot;:&quot; in chl_repr:
-                    node_repr += &quot; (%s)&quot; % chl_repr
-                else:
-                    node_repr += &quot; %s&quot; % chl_repr
-            return node_repr
-
-        visited = set()
-        return &quot;#&quot;.join([repr(var, visited) for var in self.roots])</text>
+        <text>if not is_const(child_concept) and not isNumber(child_concept):
+                    child_v = register_var()</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNoaWxkX3YgPSBjaGlsZF9jb25jZXB0Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text># for (idx, tail_idx) in enumerate(self.tail_ids):
-        #     if self.rels[idx] == &quot;op&quot;:
-        #         op_tail_idxs.append(tail_idx)</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgbm9kZWxhYmVsID0gcmVnaXN0ZXJfdmFyKHJvb3RfcmVwcikK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBub3QgIm9wIgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IG5vdCBpc19jb25zdChyb290X3JlcHIpCg==</text>
       </register>
-      <register name="9" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGN1cnJfc3VicmVwciA9IHN1YmdyYXBoX3JlcHJbbmV4dF9vZmZzZXRdCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
