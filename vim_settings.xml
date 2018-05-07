@@ -146,12 +146,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525650240561">
-        <mark key="'" line="1227" column="23" />
-        <mark key="[" line="813" column="54" />
-        <mark key="]" line="814" column="32" />
-        <mark key="^" line="814" column="32" />
-        <mark key="." line="814" column="32" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525651475098">
+        <mark key="'" line="1242" column="23" />
+        <mark key="[" line="816" column="20" />
+        <mark key="]" line="817" column="70" />
+        <mark key="^" line="816" column="20" />
+        <mark key="." line="816" column="20" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -857,48 +857,47 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>end_idx</text>
+        <text>v</text>
       </register>
       <register name="-" type="4">
-        <text>end_idx</text>
+        <text>v</text>
       </register>
       <register name="/" type="4">
         <text>'a'</text>
       </register>
       <register name="0" type="4">
-        <text>map_info = &quot;%s||%s&quot; % (&quot;_&quot;.join(tok_seq[tok_idx:end_idx]), concept_repr)
-                        map_info_seq.append(map_info)</text>
+        <text encoding="base64">aWYgbGVuKGN1cnJfc2V0ICYgdmlzaXRlZCkgIT0gMDoKICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQgIkVycm9yIGFsaWdubWVudDogZW50aXR5Iiwgc3ViZ3JhcGhfcmVwcg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb250aW51ZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb250aW51ZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB3b3JkX3BvaW50ZXIgPSB0b2tfdG9fb3JpZ1tlbmQtMV0K</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25jZXB0X3RvX3dvcmQuYXBwZW5kKG9yaWdfZW5kLTEpCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb250aW51ZQo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb250aW51ZQo=</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text>elif:
                 concept_to_word.append()</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAjIGZvciAoc3BhbiwgbWFwcGVkX2l0ZW0pIGluIHNvcnRlZF9jb25jZXB0X2lkczoK</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3RhcnQsIGVuZCA9IHNwYW4K</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzcGFuX3RvX3R5cGUgPSB7fQo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgKHN0YXJ0LCBlbmQpIGluIGNvbmNlcHRJRF9tYXA6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3RhcnQsIGVuZCA9IHNwYW4K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
