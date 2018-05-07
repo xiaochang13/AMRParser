@@ -527,12 +527,12 @@
         <mark key="^" line="533" column="5" />
         <mark key="." line="470" column="0" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" timestamp="1525701871363">
-        <mark key="'" line="5" column="5" />
-        <mark key="[" line="70" column="47" />
-        <mark key="]" line="70" column="45" />
-        <mark key="." line="70" column="45" />
-        <mark key="^" line="70" column="45" />
+      <file name="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" timestamp="1525703000418">
+        <mark key="'" line="50" column="19" />
+        <mark key="[" line="70" column="38" />
+        <mark key="]" line="70" column="37" />
+        <mark key="^" line="70" column="37" />
+        <mark key="." line="70" column="37" />
       </file>
       <file name="$USER_HOME$/data_processing/date_extraction.py" timestamp="1518505542565">
         <mark key="'" line="9" column="0" />
@@ -781,8 +781,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1489" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="709" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1492" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1494" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1387" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -881,13 +879,15 @@
       <jump line="29" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="77" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" />
       <jump line="360" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
+      <jump line="50" column="19" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" />
+      <jump line="12" column="0" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/date_extraction.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">ICsgMQ==</text>
       </register>
       <register name="-" type="4">
-        <text>&quot; &quot;</text>
+        <text encoding="base64">ICsgMQ==</text>
       </register>
       <register name="/" type="4">
         <text>class Subgraph</text>
@@ -927,15 +927,21 @@ class Subgraph(object):
         return &quot;#&quot;.join([repr(var, visited) for var in self.roots])</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3ViZ3JhcGhfcmVwciA9IHN1YmdyYXBoX3JlcHJbMTotMV0K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IHN1YmdyYXBoX3JlcHJbLTFdID09ICIpIgo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text># a subgraph of the AMR which connects to the outside through the root only.
 class Subgraph(object):
     def __init__(self, amr):
@@ -969,25 +975,19 @@ class Subgraph(object):
         visited = set()
         return &quot;#&quot;.join([repr(var, visited) for var in self.roots])</text>
       </register>
-      <register name="4" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text># for (idx, tail_idx) in enumerate(self.tail_ids):
         #     if self.rels[idx] == &quot;op&quot;:
         #         op_tail_idxs.append(tail_idx)</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBpZiBub3QgIm9wIgo=</text>
       </register>
-      <register name="7" type="8">
+      <register name="9" type="8">
         <text encoding="base64">IyAKIyA=</text>
-      </register>
-      <register name="8" type="8">
-        <text encoding="base64">IyAKIyA=</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
