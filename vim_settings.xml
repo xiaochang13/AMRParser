@@ -215,8 +215,8 @@
       <file name="$USER_HOME$/Cache-Seq2seq/NP2P_data_stream.py" timestamp="1525454151414">
         <mark key="'" line="129" column="12" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" timestamp="1525667500745">
-        <mark key="'" line="424" column="45" />
+      <file name="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" timestamp="1525668581247">
+        <mark key="'" line="426" column="15" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/date_extraction.py" timestamp="1525649801043">
         <mark key="'" line="12" column="110" />
@@ -260,12 +260,12 @@
         <mark key="^" line="1003" column="12" />
         <mark key="." line="1003" column="12" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" timestamp="1525666611605">
+      <file name="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" timestamp="1525668545676">
         <mark key="'" line="167" column="29" />
-        <mark key="[" line="321" column="86" />
-        <mark key="]" line="321" column="86" />
-        <mark key="." line="321" column="86" />
-        <mark key="^" line="321" column="86" />
+        <mark key="[" line="463" column="37" />
+        <mark key="]" line="463" column="37" />
+        <mark key="." line="463" column="37" />
+        <mark key="^" line="463" column="37" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/NP2P_data_stream.py" timestamp="1518642120649">
         <mark key="'" line="34" column="23" />
@@ -672,11 +672,10 @@
         <mark key="." line="241" column="65" />
         <mark key="^" line="241" column="80" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/oracle/AMRGraph.py" timestamp="1525620732934">
-        <mark key="[" line="168" column="32" />
-        <mark key="]" line="169" column="39" />
-        <mark key="^" line="169" column="39" />
-        <mark key="." line="169" column="39" />
+      <file name="$USER_HOME$/Cache-Seq2seq/oracle/AMRGraph.py" timestamp="1525668526290">
+        <mark key="[" line="53" column="8" />
+        <mark key="]" line="53" column="19" />
+        <mark key="." line="56" column="0" />
       </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/notes" timestamp="1481283244408">
         <mark key="'" line="11" column="0" />
@@ -746,8 +745,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="782" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
-      <jump line="1204" column="34" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="759" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="1200" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="1216" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -844,63 +841,59 @@
       <jump line="204" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
       <jump line="202" column="23" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
       <jump line="173" column="20" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
-      <jump line="536" column="34" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
-      <jump line="424" column="45" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="536" column="32" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="424" column="43" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="479" column="12" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
+      <jump line="426" column="15" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>repr</text>
+        <text>rebuild_ops(</text>
       </register>
       <register name="-" type="4">
-        <text>repr</text>
+        <text>rels</text>
       </register>
       <register name="/" type="4">
         <text>self.cache</text>
       </register>
       <register name="0" type="4">
-        <text>def identifyNumber(seq, mle_map):
-        quantities = set(['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'billion',
-                          'tenth', 'million', 'thousand', 'hundred', 'viii', 'eleven', 'twelve', 'thirteen', 'iv'])
-        for tok in seq:
-            if tok in mle_map and mle_map[tok][0] != 'NUMBER':
-                return False
-            elif not (isNumber(tok) or tok in quantities):
-                return False
-        return True</text>
+        <text>rebuild_ops(</text>
       </register>
-      <register name="1" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="2" type="4">
+        <text># for (idx, tail_idx) in enumerate(self.tail_ids):
+        #     if self.rels[idx] == &quot;op&quot;:
+        #         op_tail_idxs.append(tail_idx)</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBub3QgIm9wIgo=</text>
+      </register>
+      <register name="4" type="8">
+        <text encoding="base64">IyAKIyA=</text>
+      </register>
+      <register name="5" type="8">
+        <text encoding="base64">IyAKIyA=</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text>def identifyNumber(seq):
         for tok in seq:
             if not (isNumber(tok) or tok in quantities):
                 return False
         return True</text>
       </register>
-      <register name="5" type="8">
+      <register name="8" type="8">
         <text encoding="base64">IyAKIyAKIyA=</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBsZW1tYV9zZXEsIHBvc19zZXEgPSBsZW1zW3NlbnRfaWR4XSwgcG9zc1tzZW50X2lkeF0K</text>
-      </register>
-      <register name="7" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICA=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIGlmIGFyZ3MuZm9ybWF0ID09ICJqYW1yIjoK</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBsZW1tYV9zZXEsIHBvc19zZXEgPSBsZW1zW3NlbnRfaWR4XSwgcG9zc1tzZW50X2lkeF0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
