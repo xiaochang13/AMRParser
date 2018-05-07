@@ -153,8 +153,8 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525662659612">
-        <mark key="'" line="822" column="56" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525706793753">
+        <mark key="'" line="741" column="6" />
         <mark key="[" line="827" column="41" />
         <mark key="]" line="828" column="37" />
         <mark key="." line="828" column="37" />
@@ -592,6 +592,9 @@
         <mark key="." line="127" column="41" />
         <mark key="^" line="151" column="27" />
       </file>
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/hard_attn/NP2P_beam_decoder.py" timestamp="1525706694029">
+        <mark key="'" line="508" column="27" />
+      </file>
       <file name="$USER_HOME$/data_processing/entities.py" timestamp="1517377419693">
         <mark key="'" line="68" column="33" />
         <mark key="[" line="68" column="32" />
@@ -781,15 +784,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1492" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1494" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1387" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="777" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1251" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="909" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="903" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="894" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1441" column="82" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="764" column="10" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="927" column="42" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="261" column="66" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -881,6 +875,15 @@
       <jump line="360" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="50" column="19" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" />
       <jump line="12" column="0" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/date_extraction.py" />
+      <jump line="21" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/hard_attn/NP2P_beam_decoder.py" />
+      <jump line="307" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/hard_attn/NP2P_beam_decoder.py" />
+      <jump line="508" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/hard_attn/NP2P_beam_decoder.py" />
+      <jump line="930" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1513" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1527" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="941" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="942" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="741" column="6" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -890,7 +893,7 @@
         <text>child_v</text>
       </register>
       <register name="/" type="4">
-        <text>class Subgraph</text>
+        <text>feat_dim</text>
       </register>
       <register name="0" type="4">
         <text>child_concept</text>
@@ -927,13 +930,13 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIGN1cnJfc3VicmVwciA9IHN1YmdyYXBoX3JlcHJbbmV4dF9vZmZzZXRdCg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>142</text>
       </register>
     </registers>
     <search>
-      <last-search>class Subgraph</last-search>
+      <last-search>feat_dim</last-search>
       <last-offset />
-      <last-pattern>class Subgraph</last-pattern>
+      <last-pattern>feat_dim</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -994,7 +997,6 @@
         <entry>decode</entry>
         <entry>identifyNumber</entry>
         <entry>'a'</entry>
-        <entry>feat_dim</entry>
         <entry>data_dir</entry>
         <entry>and_struc</entry>
         <entry>concept_to_word</entry>
@@ -1013,11 +1015,12 @@
         <entry>cache_idx</entry>
         <entry>self.cache_dix</entry>
         <entry>self.cache</entry>
-        <entry>feat_num</entry>
         <entry>75</entry>
         <entry>weird</entry>
         <entry>DATE</entry>
         <entry>class Subgraph</entry>
+        <entry>feat_num</entry>
+        <entry>feat_dim</entry>
       </history-search>
       <history-cmd>
         <entry>480</entry>
@@ -1057,8 +1060,8 @@
         <entry>1</entry>
         <entry>359</entry>
         <entry>427</entry>
-        <entry>142</entry>
         <entry>w</entry>
+        <entry>142</entry>
       </history-cmd>
       <history-expr />
       <history-input />
