@@ -153,12 +153,12 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525719031050">
-        <mark key="'" line="943" column="52" />
-        <mark key="[" line="338" column="4" />
-        <mark key="]" line="343" column="15" />
-        <mark key="." line="941" column="8" />
-        <mark key="^" line="941" column="8" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1525725755730">
+        <mark key="'" line="909" column="60" />
+        <mark key="[" line="907" column="25" />
+        <mark key="]" line="908" column="56" />
+        <mark key="^" line="908" column="56" />
+        <mark key="." line="908" column="56" />
       </file>
       <file name="$USER_HOME$/AMRParser/src/edu/stanford/nlp/parser/nndep/DependencyTree.java" timestamp="1516637703209">
         <mark key="'" line="59" column="2" />
@@ -396,13 +396,13 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525649186384">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525725005496">
         <mark key="p" line="172" column="44" />
         <mark key="'" line="759" column="8" />
-        <mark key="[" line="759" column="4" />
-        <mark key="]" line="763" column="18" />
-        <mark key="." line="780" column="28" />
-        <mark key="^" line="818" column="5" />
+        <mark key="[" line="306" column="24" />
+        <mark key="]" line="306" column="24" />
+        <mark key="." line="306" column="24" />
+        <mark key="^" line="306" column="24" />
       </file>
       <file name="$USER_HOME$/AMRParser/CacheTransition/AMRGraph.py" timestamp="1515006441367">
         <mark key="'" line="106" column="59" />
@@ -527,12 +527,12 @@
         <mark key="^" line="533" column="5" />
         <mark key="." line="470" column="0" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" timestamp="1525723138404">
-        <mark key="'" line="197" column="52" />
-        <mark key="[" line="68" column="0" />
-        <mark key="]" line="68" column="0" />
-        <mark key="^" line="8" column="49" />
-        <mark key="." line="68" column="0" />
+      <file name="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" timestamp="1525725456321">
+        <mark key="'" line="199" column="52" />
+        <mark key="[" line="80" column="0" />
+        <mark key="]" line="80" column="0" />
+        <mark key="^" line="79" column="29" />
+        <mark key="." line="80" column="0" />
       </file>
       <file name="$USER_HOME$/data_processing/date_extraction.py" timestamp="1518505542565">
         <mark key="'" line="9" column="0" />
@@ -784,11 +784,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="383" column="37" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1229" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="381" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1505" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="906" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="913" column="39" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="910" column="55" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="693" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -884,59 +879,64 @@
       <jump line="943" column="52" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="81" column="38" filename="$USER_HOME$/Cache-Seq2seq/NP2P_data_stream.py" />
       <jump line="247" column="0" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
+      <jump line="769" column="26" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="302" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="306" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="904" column="60" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="304" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBzdGFjayA9IFtdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzeXMuZXhpdCgxKQo=</text>
       </register>
       <register name="-" type="4">
-        <text>, init=False</text>
+        <text encoding="base64">IyA=</text>
       </register>
       <register name="/" type="4">
-        <text>&quot;op&quot;</text>
+        <text>Retri</text>
       </register>
       <register name="0" type="4">
-        <text encoding="base64">ZGVmIHJlZHVjZV9vcChzKToKICAgICAgICBpZiBsZW4ocykgPCAzOgogICAgICAgICAgICByZXR1cm4gcwogICAgICAgIGlmIHNbOjJdID09ICJvcCIgYW5kIHNbMl0gaW4gIjAxMjM0NTY3ODkiOgogICAgICAgICAgICByZXR1cm4gIm9wIgogICAgICAgIHJldHVybiBz</text>
+        <text>map_info = &quot;%s||(%s)&quot; % (curr_tok, subgraph_repr)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzdGFjayA9IFtdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzeXMuZXhpdCgxKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgb3JpZ19zdGFydCwgb3JpZ19lbmQsIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgYXNzZXJ0IHN1YmdyYXBoX3JlcHJbbmV4dF9vZmZzZXQ6bmV4dF9vZmZzZXQrMl0gPT0gIiA6Igo=</text>
       </register>
       <register name="3" type="8">
         <text encoding="base64">IyAKIyA=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBzZW50X2lkeAo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="4">
+        <text># ner_file = os.path.join(args.data_dir, 'ner')
+    # date_file = os.path.join(args.data_dir, 'date')</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBzdGFjayA9IFtdCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgb3JpZ19zdGFydCwgb3JpZ19lbmQsIAo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="8">
+        <text encoding="base64">IyAKIyA=</text>
       </register>
-      <register name="9" type="4">
-        <text>if not is_const(child_concept) and not isNumber(child_concept):
-                    child_v = register_var()</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBzZW50X2lkeAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>&quot;op&quot;</last-search>
+      <last-search>Retri</last-search>
       <last-offset />
-      <last-pattern>&quot;op&quot;</last-pattern>
+      <last-pattern>Retri</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -1024,6 +1024,7 @@
         <entry>date-entity</entry>
         <entry>op</entry>
         <entry>&quot;op&quot;</entry>
+        <entry>Retri</entry>
       </history-search>
       <history-cmd>
         <entry>480</entry>
@@ -1065,6 +1066,8 @@
         <entry>142</entry>
         <entry>753</entry>
         <entry>set noic</entry>
+        <entry>wq</entry>
+        <entry>79</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
