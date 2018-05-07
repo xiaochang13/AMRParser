@@ -527,12 +527,12 @@
         <mark key="^" line="533" column="5" />
         <mark key="." line="470" column="0" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" timestamp="1525717024701">
-        <mark key="'" line="198" column="52" />
-        <mark key="[" line="8" column="50" />
-        <mark key="]" line="8" column="49" />
+      <file name="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" timestamp="1525723138404">
+        <mark key="'" line="197" column="52" />
+        <mark key="[" line="68" column="0" />
+        <mark key="]" line="68" column="0" />
         <mark key="^" line="8" column="49" />
-        <mark key="." line="8" column="49" />
+        <mark key="." line="68" column="0" />
       </file>
       <file name="$USER_HOME$/data_processing/date_extraction.py" timestamp="1518505542565">
         <mark key="'" line="9" column="0" />
@@ -886,11 +886,11 @@
       <jump line="247" column="0" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>v</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBzdGFjayA9IFtdCg==</text>
       </register>
       <register name="-" type="4">
-        <text>v</text>
+        <text>, init=False</text>
       </register>
       <register name="/" type="4">
         <text>&quot;op&quot;</text>
@@ -899,19 +899,19 @@
         <text encoding="base64">ZGVmIHJlZHVjZV9vcChzKToKICAgICAgICBpZiBsZW4ocykgPCAzOgogICAgICAgICAgICByZXR1cm4gcwogICAgICAgIGlmIHNbOjJdID09ICJvcCIgYW5kIHNbMl0gaW4gIjAxMjM0NTY3ODkiOgogICAgICAgICAgICByZXR1cm4gIm9wIgogICAgICAgIHJldHVybiBz</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgb3JpZ19zdGFydCwgb3JpZ19lbmQsIAo=</text>
+        <text encoding="base64">ICAgICAgICBzdGFjayA9IFtdCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgb3JpZ19zdGFydCwgb3JpZ19lbmQsIAo=</text>
+      </register>
+      <register name="3" type="8">
         <text encoding="base64">IyAKIyA=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBzZW50X2lkeAo=</text>
-      </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBzZW50X2lkeAo=</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
@@ -922,12 +922,12 @@
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="4">
         <text>if not is_const(child_concept) and not isNumber(child_concept):
                     child_v = register_var()</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNoaWxkX3YgPSBjaGlsZF9jb25jZXB0Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
