@@ -737,6 +737,9 @@
         <mark key="^" line="312" column="11" />
         <mark key="." line="312" column="11" />
       </file>
+      <file name="$USER_HOME$/Cache-Seq2seq/NP2P_trainer.py" timestamp="1526503056427">
+        <mark key="'" line="142" column="79" />
+      </file>
       <file name="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" timestamp="1525667307181">
         <mark key="'" line="202" column="23" />
         <mark key="[" line="148" column="69" />
@@ -791,9 +794,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="839" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="857" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="874" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="893" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="908" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="911" column="19" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -891,6 +891,9 @@
       <jump line="313" column="29" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="315" column="14" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="316" column="14" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="150" column="4" filename="$USER_HOME$/Cache-Seq2seq/NP2P_trainer.py" />
+      <jump line="142" column="79" filename="$USER_HOME$/Cache-Seq2seq/NP2P_trainer.py" />
+      <jump line="112" column="4" filename="$USER_HOME$/Cache-Seq2seq/NP2P_data_stream.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -900,7 +903,7 @@
         <text>&quot;_&quot;.join(tok_seq[start:end])</text>
       </register>
       <register name="/" type="4">
-        <text>print</text>
+        <text>collect</text>
       </register>
       <register name="0" type="4">
         <text>concept_seq.append(&quot;DATE&quot;)
@@ -946,9 +949,9 @@
       </register>
     </registers>
     <search>
-      <last-search>print</last-search>
+      <last-search>collect</last-search>
       <last-offset />
-      <last-pattern>print</last-pattern>
+      <last-pattern>collect</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -977,6 +980,7 @@
         <entry>re_symbols</entry>
         <entry>date</entry>
         <entry>print</entry>
+        <entry>collect</entry>
       </history-search>
       <history-cmd>
         <entry>393</entry>
