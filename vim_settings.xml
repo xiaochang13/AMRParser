@@ -219,8 +219,8 @@
       <file name="$USER_HOME$/Cache-Seq2seq/NP2P_data_stream.py" timestamp="1525719059612">
         <mark key="'" line="81" column="38" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" timestamp="1525673250004">
-        <mark key="'" line="426" column="16" />
+      <file name="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" timestamp="1526502429772">
+        <mark key="'" line="316" column="14" />
         <mark key="[" line="444" column="25" />
         <mark key="]" line="446" column="58" />
         <mark key="." line="446" column="58" />
@@ -791,9 +791,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="788" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="798" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="831" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="839" column="20" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="857" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="874" column="28" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
@@ -820,11 +817,9 @@
       <jump line="147" column="68" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
       <jump line="317" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
       <jump line="145" column="8" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
-      <jump line="313" column="30" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="266" column="39" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
       <jump line="136" column="25" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="217" column="19" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
-      <jump line="219" column="95" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="120" column="8" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="130" column="83" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="204" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
@@ -891,6 +886,11 @@
       <jump line="6" column="22" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/output_all_dates.py" />
       <jump line="438" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" />
       <jump line="1553" column="15" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="182" column="0" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="219" column="8" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="313" column="29" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="315" column="14" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="316" column="14" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -900,7 +900,7 @@
         <text>&quot;_&quot;.join(tok_seq[start:end])</text>
       </register>
       <register name="/" type="4">
-        <text>date</text>
+        <text>print</text>
       </register>
       <register name="0" type="4">
         <text>concept_seq.append(&quot;DATE&quot;)
@@ -946,9 +946,9 @@
       </register>
     </registers>
     <search>
-      <last-search>date</last-search>
+      <last-search>print</last-search>
       <last-offset />
-      <last-pattern>date</last-pattern>
+      <last-pattern>print</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -956,71 +956,6 @@
     </search>
     <history>
       <history-search>
-        <entry>node_alignm</entry>
-        <entry>phrases</entry>
-        <entry>class Sub</entry>
-        <entry>oracle su</entry>
-        <entry>success_num</entry>
-        <entry>start_to_end</entry>
-        <entry>origToNew</entry>
-        <entry>all_a</entry>
-        <entry>all_align</entry>
-        <entry>collapsed_map</entry>
-        <entry>idx_to_</entry>
-        <entry>idx_to_collapsed</entry>
-        <entry>nodeid</entry>
-        <entry>all_ali</entry>
-        <entry>collapsed</entry>
-        <entry>collapseTo</entry>
-        <entry>word_indices</entry>
-        <entry>in_path</entry>
-        <entry>options</entry>
-        <entry>test_uniform</entry>
-        <entry>prepare</entry>
-        <entry>realign</entry>
-        <entry encoding="base64">XDxhc3NlcnRcPg==</entry>
-        <entry>special_token</entry>
-        <entry>curr_len</entry>
-        <entry>concept_catego</entry>
-        <entry>idx_to_co</entry>
-        <entry>curr_span</entry>
-        <entry>new_alignment</entry>
-        <entry>align</entry>
-        <entry>node_to_spans</entry>
-        <entry>node_to_span</entry>
-        <entry>entity_tok</entry>
-        <entry>lasttok_to_</entry>
-        <entry>op_toks</entry>
-        <entry>op_</entry>
-        <entry>aligned_repr</entry>
-        <entry>REENT</entry>
-        <entry>tok_repre</entry>
-        <entry>tok_repr</entry>
-        <entry>op[</entry>
-        <entry>widToConceptID</entry>
-        <entry>feat_seq</entry>
-        <entry>tok_idx</entry>
-        <entry>align_map</entry>
-        <entry>word_idx</entry>
-        <entry>word_align</entry>
-        <entry>concept_idx</entry>
-        <entry>cidToSpan</entry>
-        <entry>uniform</entry>
-        <entry>decode</entry>
-        <entry>identifyNumber</entry>
-        <entry>'a'</entry>
-        <entry>data_dir</entry>
-        <entry>and_struc</entry>
-        <entry>concept_to_word</entry>
-        <entry>output</entry>
-        <entry>args.output</entry>
-        <entry>json</entry>
-        <entry>run_dir</entry>
-        <entry>orig_end</entry>
-        <entry>identify</entry>
-        <entry encoding="base64">cHJpbnQg</entry>
-        <entry>print span</entry>
-        <entry>span_se</entry>
         <entry>topk_size</entry>
         <entry>extend</entry>
         <entry>def ex</entry>
@@ -1041,30 +976,9 @@
         <entry>removeFormat</entry>
         <entry>re_symbols</entry>
         <entry>date</entry>
+        <entry>print</entry>
       </history-search>
       <history-cmd>
-        <entry>480</entry>
-        <entry>520</entry>
-        <entry>q</entry>
-        <entry>570</entry>
-        <entry>571</entry>
-        <entry>224</entry>
-        <entry>364</entry>
-        <entry>%s/temp_unaligned/unaligned_set/g</entry>
-        <entry>71</entry>
-        <entry>663</entry>
-        <entry>668</entry>
-        <entry>740</entry>
-        <entry>792</entry>
-        <entry>742</entry>
-        <entry>744</entry>
-        <entry>212</entry>
-        <entry>209</entry>
-        <entry>431</entry>
-        <entry>599</entry>
-        <entry>499</entry>
-        <entry>699</entry>
-        <entry>314</entry>
         <entry>393</entry>
         <entry>270</entry>
         <entry>733</entry>
