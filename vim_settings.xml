@@ -403,9 +403,9 @@
         <mark key="." line="20" column="5" />
         <mark key="^" line="20" column="5" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1525725005496">
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" timestamp="1541576341880">
         <mark key="p" line="172" column="44" />
-        <mark key="'" line="759" column="8" />
+        <mark key="'" line="642" column="24" />
         <mark key="[" line="306" column="24" />
         <mark key="]" line="306" column="24" />
         <mark key="." line="306" column="24" />
@@ -794,9 +794,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="915" column="9" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="686" column="16" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="822" column="56" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="681" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="191" column="73" filename="$USER_HOME$/Cache-Seq2seq/hard_generator_utils.py" />
       <jump line="33" column="0" filename="$USER_HOME$/Cache-Seq2seq/hard_generator_utils.py" />
@@ -894,6 +891,9 @@
       <jump line="42" column="25" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="462" column="48" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="446" column="75" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="846" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="613" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="642" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -903,7 +903,7 @@
         <text>&quot;_&quot;.join(tok_seq[start:end])</text>
       </register>
       <register name="/" type="4">
-        <text>collect</text>
+        <text>phrases</text>
       </register>
       <register name="0" type="4">
         <text>concept_seq.append(&quot;DATE&quot;)
@@ -949,13 +949,13 @@
       </register>
     </registers>
     <search>
-      <last-search>collect</last-search>
+      <last-search>phrases</last-search>
       <last-offset />
-      <last-pattern>collect</last-pattern>
+      <last-pattern>phrases</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
-      <show-last>false</show-last>
+      <show-last>true</show-last>
     </search>
     <history>
       <history-search>
@@ -979,6 +979,7 @@
         <entry>date</entry>
         <entry>print</entry>
         <entry>collect</entry>
+        <entry>phrases</entry>
       </history-search>
       <history-cmd>
         <entry>393</entry>
