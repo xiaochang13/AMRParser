@@ -153,8 +153,8 @@
         <mark key="^" line="74" column="1" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1541317766168">
-        <mark key="'" line="446" column="75" />
+      <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" timestamp="1542788130424">
+        <mark key="'" line="446" column="64" />
         <mark key="[" line="737" column="12" />
         <mark key="]" line="737" column="15" />
         <mark key="^" line="737" column="15" />
@@ -794,10 +794,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="681" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="191" column="73" filename="$USER_HOME$/Cache-Seq2seq/hard_generator_utils.py" />
-      <jump line="33" column="0" filename="$USER_HOME$/Cache-Seq2seq/hard_generator_utils.py" />
-      <jump line="11" column="0" filename="$USER_HOME$/Cache-Seq2seq/hard_generator_utils.py" />
       <jump line="291" column="0" filename="$USER_HOME$/Cache-Seq2seq/hard_generator_utils.py" />
       <jump line="186" column="4" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="529" column="19" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
@@ -890,10 +886,14 @@
       <jump line="465" column="17" filename="$USER_HOME$/Cache-Seq2seq/oracle/ioutil.py" />
       <jump line="42" column="25" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="462" column="48" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="446" column="75" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="846" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="613" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
       <jump line="642" column="24" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/alignment_utils.py" />
+      <jump line="554" column="52" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="754" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1545" column="73" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="358" column="23" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="446" column="64" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -903,7 +903,7 @@
         <text>&quot;_&quot;.join(tok_seq[start:end])</text>
       </register>
       <register name="/" type="4">
-        <text>phrases</text>
+        <text>JAMR</text>
       </register>
       <register name="0" type="4">
         <text>concept_seq.append(&quot;DATE&quot;)
@@ -949,9 +949,9 @@
       </register>
     </registers>
     <search>
-      <last-search>phrases</last-search>
+      <last-search>JAMR</last-search>
       <last-offset />
-      <last-pattern>phrases</last-pattern>
+      <last-pattern>JAMR</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -959,7 +959,6 @@
     </search>
     <history>
       <history-search>
-        <entry>def ex</entry>
         <entry>cache_idx</entry>
         <entry>self.cache_dix</entry>
         <entry>self.cache</entry>
@@ -980,6 +979,7 @@
         <entry>print</entry>
         <entry>collect</entry>
         <entry>phrases</entry>
+        <entry>JAMR</entry>
       </history-search>
       <history-cmd>
         <entry>393</entry>
