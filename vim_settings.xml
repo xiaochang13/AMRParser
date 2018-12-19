@@ -219,12 +219,12 @@
       <file name="$USER_HOME$/Cache-Seq2seq/NP2P_data_stream.py" timestamp="1525719059612">
         <mark key="'" line="81" column="38" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" timestamp="1526502429772">
-        <mark key="'" line="316" column="14" />
-        <mark key="[" line="444" column="25" />
-        <mark key="]" line="446" column="58" />
-        <mark key="." line="446" column="58" />
-        <mark key="^" line="446" column="58" />
+      <file name="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" timestamp="1545196499022">
+        <mark key="'" line="116" column="24" />
+        <mark key="[" line="129" column="48" />
+        <mark key="]" line="129" column="7" />
+        <mark key="." line="129" column="7" />
+        <mark key="^" line="129" column="7" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/date_extraction.py" timestamp="1525649801043">
         <mark key="'" line="12" column="110" />
@@ -794,8 +794,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="146" column="32" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
-      <jump line="44" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
       <jump line="319" column="8" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
       <jump line="147" column="68" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheTransition.py" />
       <jump line="317" column="4" filename="$USER_HOME$/Cache-Seq2seq/oracle/cacheConfiguration.py" />
@@ -894,43 +892,18 @@
       <jump line="588" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
       <jump line="588" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="468" column="21" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
+      <jump line="532" column="20" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
+      <jump line="116" column="24" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="8">
-        <text>#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBub3Qgc3lzdGVtLmNhbkFwcGx5KHNlbGYudHJhbnNfc3RhdGUsIGFjdGlvbiwgc2VsZi5jb25jZXB0X2ZvY3VzLCBUcnVlLCBzZWxmLmNhY2hlX2lkeCk6Cg==</text>
       </register>
       <register name="-" type="4">
         <text>&quot;_&quot;.join(tok_seq[start:end])</text>
       </register>
       <register name="/" type="4">
-        <text>conceptOutGo</text>
+        <text>canApply</text>
       </register>
       <register name="0" type="4">
         <text>concept_seq.append(&quot;DATE&quot;)
@@ -940,7 +913,13 @@
                     span_seq.append((start, end))
                     visited |= curr_set</text>
       </register>
-      <register name="1" type="8">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBub3Qgc3lzdGVtLmNhbkFwcGx5KHNlbGYudHJhbnNfc3RhdGUsIGFjdGlvbiwgc2VsZi5jb25jZXB0X2ZvY3VzLCBUcnVlLCBzZWxmLmNhY2hlX2lkeCk6Cg==</text>
+      </register>
+      <register name="q" type="4">
+        <text />
+      </register>
+      <register name="2" type="8">
         <text>#
 #
 #
@@ -970,42 +949,36 @@
 #
 #</text>
       </register>
-      <register name="q" type="4">
-        <text />
-      </register>
-      <register name="2" type="8">
+      <register name="3" type="8">
         <text encoding="base64">IyAKIyA=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzeXMuZXhpdCgxKQo=</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzeXMuZXhpdCgxKQo=</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICMgYXNzZXJ0IHN1YmdyYXBoX3JlcHJbbmV4dF9vZmZzZXQ6bmV4dF9vZmZzZXQrMl0gPT0gIiA6Igo=</text>
       </register>
-      <register name="5" type="8">
+      <register name="6" type="8">
         <text encoding="base64">IyAKIyA=</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text># ner_file = os.path.join(args.data_dir, 'ner')
     # date_file = os.path.join(args.data_dir, 'date')</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzdGFjayA9IFtdCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgb3JpZ19zdGFydCwgb3JpZ19lbmQsIAo=</text>
+        <text encoding="base64">ICAgICAgICBzdGFjayA9IFtdCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>conceptOutGo</last-search>
+      <last-search>canApply</last-search>
       <last-offset />
-      <last-pattern>conceptOutGo</last-pattern>
+      <last-pattern>canApply</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -1036,6 +1009,7 @@
         <entry>concept_rel</entry>
         <entry>concept_rels</entry>
         <entry>conceptOutGo</entry>
+        <entry>canApply</entry>
       </history-search>
       <history-cmd>
         <entry>393</entry>
