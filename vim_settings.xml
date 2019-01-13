@@ -639,8 +639,11 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/postprocessing/constants.py" timestamp="1518282703629">
         <mark key="'" line="89" column="12" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/data_processing/prepareTokens.py" timestamp="1547361130337">
-        <mark key="'" line="282" column="42" />
+      <file name="$USER_HOME$/Cache-Seq2seq/data_processing/prepareTokens.py" timestamp="1547361371068">
+        <mark key="[" line="287" column="31" />
+        <mark key="]" line="288" column="30" />
+        <mark key="." line="288" column="30" />
+        <mark key="^" line="288" column="30" />
       </file>
       <file name="$USER_HOME$/AMRParser/daisyluAMR/system/daisylu_main.py" timestamp="1507581974956">
         <mark key="'" line="262" column="8" />
@@ -900,7 +903,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBub3Qgc3lzdGVtLmNhbkFwcGx5KHNlbGYudHJhbnNfc3RhdGUsIGFjdGlvbiwgc2VsZi5jb25jZXB0X2ZvY3VzLCBUcnVlLCBzZWxmLmNhY2hlX2lkeCk6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KG9yaWdfc2VxKQo=</text>
       </register>
       <register name="-" type="4">
         <text>&quot;_&quot;.join(tok_seq[start:end])</text>
@@ -917,12 +920,15 @@
                     visited |= curr_set</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBub3Qgc3lzdGVtLmNhbkFwcGx5KHNlbGYudHJhbnNfc3RhdGUsIGFjdGlvbiwgc2VsZi5jb25jZXB0X2ZvY3VzLCBUcnVlLCBzZWxmLmNhY2hlX2lkeCk6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KG9yaWdfc2VxKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBub3Qgc3lzdGVtLmNhbkFwcGx5KHNlbGYudHJhbnNfc3RhdGUsIGFjdGlvbiwgc2VsZi5jb25jZXB0X2ZvY3VzLCBUcnVlLCBzZWxmLmNhY2hlX2lkeCk6Cg==</text>
+      </register>
+      <register name="3" type="8">
         <text>#
 #
 #
@@ -952,27 +958,24 @@
 #
 #</text>
       </register>
-      <register name="3" type="8">
+      <register name="4" type="8">
         <text encoding="base64">IyAKIyA=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzeXMuZXhpdCgxKQo=</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzeXMuZXhpdCgxKQo=</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICMgYXNzZXJ0IHN1YmdyYXBoX3JlcHJbbmV4dF9vZmZzZXQ6bmV4dF9vZmZzZXQrMl0gPT0gIiA6Igo=</text>
       </register>
-      <register name="6" type="8">
+      <register name="7" type="8">
         <text encoding="base64">IyAKIyA=</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text># ner_file = os.path.join(args.data_dir, 'ner')
     # date_file = os.path.join(args.data_dir, 'date')</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBzdGFjayA9IFtdCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
