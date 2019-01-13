@@ -309,6 +309,12 @@
         <mark key="^" line="572" column="43" />
         <mark key="." line="572" column="43" />
       </file>
+      <file name="$USER_HOME$/CacheTransition-Seq2seq/data_processing/utils.py" timestamp="1547373138812">
+        <mark key="[" line="277" column="37" />
+        <mark key="]" line="277" column="37" />
+        <mark key="." line="277" column="37" />
+        <mark key="^" line="275" column="49" />
+      </file>
       <file name="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" timestamp="1513624349355">
         <mark key="'" line="236" column="50" />
         <mark key="[" line="150" column="8" />
@@ -722,11 +728,6 @@
         <mark key="." line="241" column="65" />
         <mark key="^" line="241" column="80" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/oracle/AMRGraph.py" timestamp="1525668526290">
-        <mark key="[" line="53" column="8" />
-        <mark key="]" line="53" column="19" />
-        <mark key="." line="56" column="0" />
-      </file>
       <file name="$USER_HOME$/java_workspace/StanfordParser/notes" timestamp="1481283244408">
         <mark key="'" line="11" column="0" />
         <mark key="[" line="60" column="9" />
@@ -792,6 +793,12 @@
         <mark key="^" line="54" column="12" />
         <mark key="." line="54" column="12" />
       </file>
+      <file name="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" timestamp="1547373224683">
+        <mark key="'" line="356" column="28" />
+        <mark key="[" line="421" column="0" />
+        <mark key="]" line="421" column="0" />
+        <mark key="." line="421" column="0" />
+      </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" timestamp="1525727298610">
         <mark key="'" line="11" column="18" />
         <mark key="[" line="5" column="46" />
@@ -801,7 +808,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="341" column="40" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="307" column="40" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="211" column="4" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="158" column="28" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" />
@@ -901,16 +907,17 @@
       <jump line="372" column="0" filename="$USER_HOME$/Cache-Seq2seq/data_processing/prepareTokens.py" />
       <jump line="417" column="58" filename="$USER_HOME$/Cache-Seq2seq/data_processing/prepareTokens.py" />
       <jump line="419" column="19" filename="$USER_HOME$/Cache-Seq2seq/data_processing/prepareTokens.py" />
+      <jump line="356" column="28" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KG9yaWdfc2VxKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>&quot;_&quot;.join(tok_seq[start:end])</text>
+        <text>.split(&quot;#&quot;)[0].split(&quot;:&quot;)[0]</text>
       </register>
       <register name="/" type="4">
-        <text>tok_to_concept</text>
+        <text>ski</text>
       </register>
       <register name="0" type="4">
         <text>concept_seq.append(&quot;DATE&quot;)
@@ -921,15 +928,27 @@
                     visited |= curr_set</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KG9yaWdfc2VxKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgIGFtcl9pbmRpY2VzID0gMAo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIHNraXBwZWRfdHJhaW5fc2VudGVuY2VzID0gc2V0KFtpbnQobGluZS5zdHJpcCgpIGZvciBsaW5lIGluIG9wZW4oIi4vc2tpcHBlZF9zZW50ZW5jZXMiKSldKQo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KG9yaWdfc2VxKQo=</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBpZiBub3Qgc3lzdGVtLmNhbkFwcGx5KHNlbGYudHJhbnNfc3RhdGUsIGFjdGlvbiwgc2VsZi5jb25jZXB0X2ZvY3VzLCBUcnVlLCBzZWxmLmNhY2hlX2lkeCk6Cg==</text>
       </register>
-      <register name="3" type="8">
+      <register name="7" type="8">
         <text>#
 #
 #
@@ -959,33 +978,20 @@
 #
 #</text>
       </register>
-      <register name="4" type="8">
+      <register name="8" type="8">
         <text encoding="base64">IyAKIyA=</text>
       </register>
-      <register name="5" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzeXMuZXhpdCgxKQo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgYXNzZXJ0IHN1YmdyYXBoX3JlcHJbbmV4dF9vZmZzZXQ6bmV4dF9vZmZzZXQrMl0gPT0gIiA6Igo=</text>
-      </register>
-      <register name="7" type="8">
-        <text encoding="base64">IyAKIyA=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="9" type="4">
-        <text># ner_file = os.path.join(args.data_dir, 'ner')
-    # date_file = os.path.join(args.data_dir, 'date')</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>tok_to_concept</last-search>
+      <last-search>ski</last-search>
       <last-offset />
-      <last-pattern>tok_to_concept</last-pattern>
+      <last-pattern>ski</last-pattern>
       <last-replace>unaligned_set</last-replace>
       <last-substitute>temp_unaligned</last-substitute>
       <last-dir>1</last-dir>
@@ -1019,6 +1025,8 @@
         <entry>run_dir</entry>
         <entry>train_table</entry>
         <entry>tok_to_concept</entry>
+        <entry>skipp</entry>
+        <entry>ski</entry>
       </history-search>
       <history-cmd>
         <entry>393</entry>
