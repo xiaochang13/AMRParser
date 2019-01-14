@@ -108,9 +108,8 @@
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/re_utils.py" timestamp="1525242835500">
         <mark key="'" line="79" column="0" />
       </file>
-      <file name="$USER_HOME$/Cache-Seq2seq/oracle/utils.py" timestamp="1525673351682">
-        <mark key="[" line="32" column="0" />
-        <mark key="]" line="32" column="51" />
+      <file name="$USER_HOME$/CacheTransition-Seq2seq/oracle/oracle.py" timestamp="1547433201132">
+        <mark key="'" line="42" column="25" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/hrg_learn.py" timestamp="1524547234123">
         <mark key="'" line="508" column="34" />
@@ -309,11 +308,11 @@
         <mark key="^" line="572" column="43" />
         <mark key="." line="572" column="43" />
       </file>
-      <file name="$USER_HOME$/CacheTransition-Seq2seq/data_processing/utils.py" timestamp="1547373138812">
-        <mark key="[" line="275" column="37" />
-        <mark key="]" line="275" column="37" />
-        <mark key="." line="275" column="37" />
-        <mark key="^" line="275" column="49" />
+      <file name="$USER_HOME$/CacheTransition-Seq2seq/data_processing/utils.py" timestamp="1547432600890">
+        <mark key="[" line="277" column="37" />
+        <mark key="]" line="277" column="37" />
+        <mark key="." line="277" column="37" />
+        <mark key="^" line="276" column="51" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" timestamp="1513624349355">
         <mark key="'" line="236" column="50" />
@@ -359,6 +358,13 @@
         <mark key="]" line="224" column="35" />
         <mark key="^" line="233" column="23" />
         <mark key="." line="224" column="35" />
+      </file>
+      <file name="$USER_HOME$/CacheTransition-Seq2seq/oracle/ioutil.py" timestamp="1547433625952">
+        <mark key="'" line="466" column="22" />
+        <mark key="[" line="457" column="57" />
+        <mark key="]" line="457" column="57" />
+        <mark key="^" line="457" column="57" />
+        <mark key="." line="457" column="57" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/cacheConfiguration.py" timestamp="1525400318370">
         <mark key="'" line="245" column="40" />
@@ -581,6 +587,9 @@
       <file name="$USER_HOME$/data_processing/rebuild_conceptid.py" timestamp="1515444326904">
         <mark key="'" line="824" column="4" />
       </file>
+      <file name="$USER_HOME$/CacheTransition-Seq2seq/data_processing/alignment_utils.py" timestamp="1547432537966">
+        <mark key="'" line="768" column="0" />
+      </file>
       <file name="$USER_HOME$/Cache-Seq2seq/NP2P_evaluater.py" timestamp="1525452092407">
         <mark key="'" line="416" column="19" />
       </file>
@@ -793,8 +802,12 @@
         <mark key="^" line="54" column="12" />
         <mark key="." line="54" column="12" />
       </file>
-      <file name="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" timestamp="1547429642442">
-        <mark key="'" line="1582" column="14" />
+      <file name="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" timestamp="1547432492976">
+        <mark key="'" line="449" column="79" />
+        <mark key="[" line="1554" column="79" />
+        <mark key="]" line="1554" column="96" />
+        <mark key="." line="1554" column="96" />
+        <mark key="^" line="1554" column="96" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" timestamp="1525727298610">
         <mark key="'" line="11" column="18" />
@@ -805,30 +818,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="211" column="4" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
-      <jump line="158" column="28" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" />
-      <jump line="91" column="11" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/date_extraction.py" />
-      <jump line="151" column="11" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/date_extraction.py" />
-      <jump line="426" column="16" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
-      <jump line="178" column="29" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" />
-      <jump line="5" column="5" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" />
-      <jump line="29" column="12" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="77" column="36" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/oracle/AMRGraph.py" />
-      <jump line="360" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/amr_graph.py" />
-      <jump line="50" column="19" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" />
-      <jump line="12" column="0" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/date_extraction.py" />
-      <jump line="21" column="0" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/hard_attn/NP2P_beam_decoder.py" />
-      <jump line="307" column="40" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/hard_attn/NP2P_beam_decoder.py" />
-      <jump line="508" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/hard_attn/NP2P_beam_decoder.py" />
-      <jump line="930" column="4" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1513" column="30" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1527" column="8" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="941" column="11" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="942" column="27" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="741" column="6" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
-      <jump line="46" column="4" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" />
-      <jump line="198" column="52" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" />
-      <jump line="154" column="14" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="193" column="70" filename="$USER_HOME$/Cache-Seq2seq/oracle/oracle.py" />
       <jump line="943" column="52" filename="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/prepareTokens.py" />
       <jump line="81" column="38" filename="$USER_HOME$/Cache-Seq2seq/NP2P_data_stream.py" />
@@ -904,25 +893,44 @@
       <jump line="417" column="58" filename="$USER_HOME$/Cache-Seq2seq/data_processing/prepareTokens.py" />
       <jump line="419" column="19" filename="$USER_HOME$/Cache-Seq2seq/data_processing/prepareTokens.py" />
       <jump line="356" column="28" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" />
-      <jump line="1582" column="14" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1582" column="13" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" />
+      <jump line="575" column="4" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" />
+      <jump line="554" column="4" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" />
+      <jump line="555" column="6" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" />
+      <jump line="383" column="6" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1519" column="8" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" />
+      <jump line="458" column="73" filename="$USER_HOME$/CacheTransition-Seq2seq/oracle/ioutil.py" />
+      <jump line="467" column="42" filename="$USER_HOME$/CacheTransition-Seq2seq/oracle/ioutil.py" />
+      <jump line="468" column="42" filename="$USER_HOME$/CacheTransition-Seq2seq/oracle/ioutil.py" />
+      <jump line="469" column="42" filename="$USER_HOME$/CacheTransition-Seq2seq/oracle/ioutil.py" />
+      <jump line="470" column="44" filename="$USER_HOME$/CacheTransition-Seq2seq/oracle/ioutil.py" />
+      <jump line="530" column="15" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" />
+      <jump line="459" column="4" filename="$USER_HOME$/CacheTransition-Seq2seq/oracle/ioutil.py" />
+      <jump line="353" column="46" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1589" column="14" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" />
+      <jump line="392" column="31" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" />
+      <jump line="449" column="79" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" />
+      <jump line="621" column="4" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/alignment_utils.py" />
+      <jump line="642" column="24" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/alignment_utils.py" />
+      <jump line="755" column="23" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/alignment_utils.py" />
+      <jump line="768" column="0" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/alignment_utils.py" />
+      <jump line="465" column="16" filename="$USER_HOME$/CacheTransition-Seq2seq/oracle/ioutil.py" />
+      <jump line="42" column="25" filename="$USER_HOME$/CacheTransition-Seq2seq/oracle/oracle.py" />
+      <jump line="352" column="4" filename="$USER_HOME$/CacheTransition-Seq2seq/oracle/ioutil.py" />
+      <jump line="466" column="22" filename="$USER_HOME$/CacheTransition-Seq2seq/oracle/ioutil.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>.split(&quot;#&quot;)[0].split(&quot;:&quot;)[0]</text>
       </register>
       <register name="-" type="4">
         <text>.split(&quot;#&quot;)[0].split(&quot;:&quot;)[0]</text>
       </register>
       <register name="/" type="4">
-        <text>ski</text>
+        <text>phrase</text>
       </register>
       <register name="0" type="4">
-        <text>concept_seq.append(&quot;DATE&quot;)
-                    category_seq.append(&quot;DATE&quot;)
-                    map_info = &quot;%s||NONE&quot; % &quot;_&quot;.join(tok_seq[start:end])
-                    map_info_seq.append(map_info)
-                    span_seq.append((start, end))
-                    visited |= curr_set</text>
+        <text>argparser.add_argument(&quot;--token_file&quot;, type=str, help=&quot;the tokenized sentence file&quot;, required=False)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -931,66 +939,39 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGFtcl9pbmRpY2VzID0gMAo=</text>
+        <text encoding="base64">ICAgICAgICBhbGlnbmVkX3NldCA9IHNldCgpCg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHNraXBwZWRfdHJhaW5fc2VudGVuY2VzID0gc2V0KFtpbnQobGluZS5zdHJpcCgpIGZvciBsaW5lIGluIG9wZW4oIi4vc2tpcHBlZF9zZW50ZW5jZXMiKSldKQo=</text>
+        <text encoding="base64">ICAgIGFtcl9pbmRpY2VzID0gMAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KG9yaWdfc2VxKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBub3Qgc3lzdGVtLmNhbkFwcGx5KHNlbGYudHJhbnNfc3RhdGUsIGFjdGlvbiwgc2VsZi5jb25jZXB0X2ZvY3VzLCBUcnVlLCBzZWxmLmNhY2hlX2lkeCk6Cg==</text>
+        <text encoding="base64">ICAgIHNraXBwZWRfdHJhaW5fc2VudGVuY2VzID0gc2V0KFtpbnQobGluZS5zdHJpcCgpIGZvciBsaW5lIGluIG9wZW4oIi4vc2tpcHBlZF9zZW50ZW5jZXMiKSldKQo=</text>
       </register>
-      <register name="7" type="8">
-        <text>#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIGFtcl9pbmRpY2VzID0gMAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzeXMuZXhpdCgxKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>ski</last-search>
+      <last-search>phrase</last-search>
       <last-offset />
-      <last-pattern>ski</last-pattern>
-      <last-replace>unaligned_set</last-replace>
-      <last-substitute>temp_unaligned</last-substitute>
+      <last-pattern>phrase</last-pattern>
+      <last-replace>skipped_oracle_sentences</last-replace>
+      <last-substitute>skipped_train_sentences</last-substitute>
       <last-dir>1</last-dir>
       <show-last>true</show-last>
     </search>
@@ -1022,8 +1003,14 @@
         <entry>run_dir</entry>
         <entry>train_table</entry>
         <entry>tok_to_concept</entry>
-        <entry>skipp</entry>
         <entry>ski</entry>
+        <entry>frequen</entry>
+        <entry>tok_wf</entry>
+        <entry>skipp</entry>
+        <entry>skip</entry>
+        <entry>skipped_train_sentences</entry>
+        <entry>phrase_map</entry>
+        <entry>phrase</entry>
       </history-search>
       <history-cmd>
         <entry>393</entry>
@@ -1045,6 +1032,7 @@
         <entry>set noic</entry>
         <entry>wq</entry>
         <entry>79</entry>
+        <entry>%s/skipped_train_sentences/skipped_oracle_sentences/g</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
