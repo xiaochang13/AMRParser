@@ -310,9 +310,9 @@
         <mark key="." line="572" column="43" />
       </file>
       <file name="$USER_HOME$/CacheTransition-Seq2seq/data_processing/utils.py" timestamp="1547373138812">
-        <mark key="[" line="277" column="37" />
-        <mark key="]" line="277" column="37" />
-        <mark key="." line="277" column="37" />
+        <mark key="[" line="275" column="37" />
+        <mark key="]" line="275" column="37" />
+        <mark key="." line="275" column="37" />
         <mark key="^" line="275" column="49" />
       </file>
       <file name="$USER_HOME$/SHRG-induction/util/hgraph/hypergraph.py" timestamp="1513624349355">
@@ -793,11 +793,8 @@
         <mark key="^" line="54" column="12" />
         <mark key="." line="54" column="12" />
       </file>
-      <file name="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" timestamp="1547373224683">
-        <mark key="'" line="356" column="28" />
-        <mark key="[" line="421" column="0" />
-        <mark key="]" line="421" column="0" />
-        <mark key="." line="421" column="0" />
+      <file name="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" timestamp="1547429642442">
+        <mark key="'" line="1582" column="14" />
       </file>
       <file name="$USER_HOME$/neural-decoder/cache-transition-seq2seq/data_processing/utils.py" timestamp="1525727298610">
         <mark key="'" line="11" column="18" />
@@ -808,7 +805,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="307" column="40" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="211" column="4" filename="$USER_HOME$/Cache-Seq2seq/NP2P_beam_decoder.py" />
       <jump line="158" column="28" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/amr_format.py" />
       <jump line="91" column="11" filename="$USER_HOME$/Cache-Seq2seq/postprocessing/date_extraction.py" />
@@ -908,6 +904,7 @@
       <jump line="417" column="58" filename="$USER_HOME$/Cache-Seq2seq/data_processing/prepareTokens.py" />
       <jump line="419" column="19" filename="$USER_HOME$/Cache-Seq2seq/data_processing/prepareTokens.py" />
       <jump line="356" column="28" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" />
+      <jump line="1582" column="14" filename="$USER_HOME$/CacheTransition-Seq2seq/data_processing/prepareTokens.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
